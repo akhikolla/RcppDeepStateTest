@@ -17,6 +17,7 @@ inbag values: 1.64265e-305 -3.03247e+65 1.98833e+30 -2.58512e-17 -1.02849e-269
 ntrain values: 1625190807
 trainIdx values: -403151685
 ntree values: -1883966924
+inputends
 EXTERNAL: Error: cannot allocate vector of size 12.1 Gb
 
 EXTERNAL: Execution halted
@@ -50,6 +51,7 @@ inbag values: 4.35052e+127
 ntrain values: 1258396574
 trainIdx values: 1250880876
 ntree values: 268651218
+inputends
 ==5863== Warning: set address range perms: large range [0x59e43040, 0x2b1f10d60) (undefined)
 ERROR: Crashed: abcrf_deepstate_test_findweights_train_test
 INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/abcrf/inst/testfiles/findweights_train/findweights_train_output/5280f8ea725c2af48e2ed30af251fe740f5f839f.crash`

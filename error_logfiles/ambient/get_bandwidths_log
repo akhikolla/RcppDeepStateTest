@@ -1,0 +1,413 @@
+==10695== Memcheck, a memory error detector
+==10695== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10695== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10695== Command: ./get_bandwidths_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_output
+==10695== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597716319
+WARNING: No test specified, defaulting to first test defined (adeba_deepstate_test_get_bandwidths_test)
+pilot values: 5.49218e+07 nan inf -inf nan inf nan nan -inf nan inf nan inf -inf nan nan 1.12636e-302 -inf nan nan -3.21326e+125 nan nan nan nan -2.97494e+214 inf nan inf inf -inf nan inf nan nan nan 0
+alpha values: nan 7.03681e-149 -1.1355e-271 7.42002e-148 inf 4.12954e-274 nan -inf nan nan nan -inf inf -5.03901e+211 nan -8.59527e-139 -1.6964e-41 nan nan 7.60105e-217 nan nan nan 1.7084e-225 inf nan inf -inf 1.12697e+138 nan nan -inf -inf -inf 5.33975e+203 -inf nan -inf nan inf nan -inf -inf nan nan inf -inf inf inf inf -inf inf nan inf -inf inf inf nan nan nan nan -2.99276e+228 nan nan inf -6.30041e-232 nan nan inf nan nan inf -inf -inf nan nan -inf nan inf nan nan nan -inf -inf inf nan nan nan nan inf inf 1.68933e+106 nan nan inf nan 0
+beta values: 0
+inputends
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA396: __ieee754_pow_fma (e_pow.c:90)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA3DA: __ieee754_pow_fma (e_pow.c:101)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA891: __ieee754_pow_fma (e_pow.c:102)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA330: __ieee754_pow_fma (e_pow.c:79)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA336: __ieee754_pow_fma (e_pow.c:79)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA344: __ieee754_pow_fma (e_pow.c:81)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA346: __ieee754_pow_fma (e_pow.c:81)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA354: __ieee754_pow_fma (e_pow.c:83)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA356: __ieee754_pow_fma (e_pow.c:83)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA364: __ieee754_pow_fma (e_pow.c:85)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA36A: __ieee754_pow_fma (e_pow.c:85)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5A80B3B: pow (w_pow_compat.c:31)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA2F6: __ieee754_pow_fma (e_pow.c:77)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA2FC: __ieee754_pow_fma (e_pow.c:77)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA77F: __ieee754_pow_fma (e_pow.c:147)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFAB4E: checkint (e_pow.c:459)
+==10696==    by 0x5AFAB4E: __ieee754_pow_fma (e_pow.c:153)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFAB5A: checkint (e_pow.c:461)
+==10696==    by 0x5AFAB5A: __ieee754_pow_fma (e_pow.c:153)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFAB62: checkint (e_pow.c:463)
+==10696==    by 0x5AFAB62: __ieee754_pow_fma (e_pow.c:153)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFAEFE: __ieee754_pow_fma (e_pow.c:156)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFAF19: __ieee754_pow_fma (e_pow.c:166)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5A80B72: pow (w_pow_compat.c:35)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==  Uninitialised value was created by a heap allocation
+==10696==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10696==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==10696==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==10696==    by 0x4FA50A7: Rf_mkString (Rinlinedfuns.h:1081)
+==10696==    by 0x54D4963: wrap (wrap.h:931)
+==10696==    by 0x54D4963: Rcpp::DottedPairProxyPolicy<Rcpp::Language_Impl<Rcpp::PreserveStorage> >::DottedPairProxy& Rcpp::DottedPairProxyPolicy<Rcpp::Language_Impl<Rcpp::PreserveStorage> >::DottedPairProxy::operator=<char const*>(char const* const&) [clone .isra.31] (proxy.h:152)
+==10696==    by 0x54D5BFA: RInside::autoloads() (RInside.cpp:312)
+==10696==    by 0x54D6E40: RInside::initialize(int, char const* const*, bool, bool, bool) (RInside.cpp:200)
+==10696==    by 0x54D741E: RInside::RInside() (RInside.cpp:61)
+==10696==    by 0x4088A4: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:11)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA6FE: __ieee754_pow_fma (e_pow.c:130)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA704: __ieee754_pow_fma (e_pow.c:131)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA824: __ieee754_pow_fma (e_pow.c:133)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA83E: checkint (e_pow.c:463)
+==10696==    by 0x5AFA83E: __ieee754_pow_fma (e_pow.c:135)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== Conditional jump or move depends on uninitialised value(s)
+==10696==    at 0x5AFA848: __ieee754_pow_fma (e_pow.c:139)
+==10696==    by 0x5A80B13: pow (w_pow_compat.c:30)
+==10696==    by 0x41FA9F: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10696==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10696==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10696==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10696== 
+==10696== 
+==10696== HEAP SUMMARY:
+==10696==     in use at exit: 50,322,212 bytes in 9,716 blocks
+==10696==   total heap usage: 27,693 allocs, 17,977 frees, 86,033,485 bytes allocated
+==10696== 
+==10696== LEAK SUMMARY:
+==10696==    definitely lost: 0 bytes in 0 blocks
+==10696==    indirectly lost: 0 bytes in 0 blocks
+==10696==      possibly lost: 0 bytes in 0 blocks
+==10696==    still reachable: 50,322,212 bytes in 9,716 blocks
+==10696==                       of which reachable via heuristic:
+==10696==                         newarray           : 4,264 bytes in 1 blocks
+==10696==         suppressed: 0 bytes in 0 blocks
+==10696== Reachable blocks (those to which a pointer was found) are not shown.
+==10696== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10696== 
+==10696== For counts of detected and suppressed errors, rerun with: -v
+==10696== ERROR SUMMARY: 622 errors from 26 contexts (suppressed: 0 from 0)
+pilot values: -inf 2.90226e+88 nan nan inf inf 8.83882e+08 nan nan nan nan inf -inf nan nan inf inf nan -inf inf inf -2.43993e+162 inf -inf nan -4.47745e-166 nan -inf nan -inf inf nan nan 2.28655e+116 nan -5.42927e-200 -inf nan nan nan inf -inf nan nan nan inf nan nan nan nan -5.81255e+140 nan inf nan nan inf -inf nan -2.6021e-188 -8.12325e-83 nan nan nan -1.07861e-229 inf inf nan nan inf 1.38376e+126 nan -inf -inf -inf nan -5.55046e-198 inf -inf inf -inf -inf nan 5.89033e+10 -inf nan nan 4.91155e-99 nan 7.99107e+66 -inf nan 0
+alpha values: -inf nan nan nan inf inf -3.56859e-249 -inf inf nan inf -inf nan nan -inf nan inf -6.40797e-153 nan -2.25878e+155 inf nan nan -2.18166e+182 nan nan inf 9.4146e+267 -inf inf 9.2424e-105 inf nan inf 0
+beta values: -inf -inf -inf inf -1.81896e-273 -inf nan -inf inf -inf nan -inf nan -8.08487e+300 -inf -inf inf nan -inf nan 4.44273e-24 inf nan -inf 2.62246e+297 inf nan inf nan nan nan inf nan -inf -inf nan nan nan nan -inf nan nan nan 2.50748e+60 6.66176e+87 inf nan inf inf inf 1.73919e-165 -4.91893e+276 inf 1.237e+178 nan nan nan 4.01073e+209 nan nan -7.45538e-274 -inf nan inf 1.43787e+39 inf inf nan nan nan -inf inf 8.29833e+185 0
+inputends
+==10701== 
+==10701== HEAP SUMMARY:
+==10701==     in use at exit: 50,319,845 bytes in 9,717 blocks
+==10701==   total heap usage: 27,694 allocs, 17,977 frees, 86,031,118 bytes allocated
+==10701== 
+==10701== LEAK SUMMARY:
+==10701==    definitely lost: 0 bytes in 0 blocks
+==10701==    indirectly lost: 0 bytes in 0 blocks
+==10701==      possibly lost: 0 bytes in 0 blocks
+==10701==    still reachable: 50,319,845 bytes in 9,717 blocks
+==10701==                       of which reachable via heuristic:
+==10701==                         newarray           : 4,264 bytes in 1 blocks
+==10701==         suppressed: 0 bytes in 0 blocks
+==10701== Reachable blocks (those to which a pointer was found) are not shown.
+==10701== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10701== 
+==10701== For counts of detected and suppressed errors, rerun with: -v
+==10701== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+pilot values: -inf inf nan nan 1.07066e+167 nan 3.11065e+13 nan -inf 6.82068e-55 -5.53308e+91 1.50215e+119 nan nan inf inf nan nan -inf -inf inf nan nan nan inf -6.95546e-82 inf nan nan inf nan -1.06954e+133 inf nan inf inf nan -inf -inf nan -inf -inf nan -1.29659e+45 inf inf inf inf nan nan 0
+alpha values: 2.17751e+180 inf 1.48292e+68 -2.49509e+177 nan -inf nan nan -inf 1.47678e+116 inf -5.10141e+208 nan 3.98614e-153 nan nan -inf inf inf nan inf -5.83689e+212 nan nan inf 2.1375e-94 nan -inf inf 2.98581e+82 inf nan 1.58094e-202 inf inf inf -0.0212061 nan -8.03932e-115 inf -inf 2.92066e+197 inf inf -6.63473e-222 -inf nan -5.57746e+150 -3.60255e-175 2.57036e+160 4.92117e-64 -9.37894e-24 nan nan -inf nan nan nan inf nan nan nan 1.46522e+242 0
+beta values: -inf inf nan inf nan nan -inf 7.0395e-297 nan nan nan nan inf -inf nan -inf -inf nan nan -1.15814e-170 -9.04566e+53 nan nan nan -5.69518e-276 inf inf -inf nan -inf -9.94789e-141 nan nan -inf -inf -3.2827e-47 -1.37279e-266 inf inf nan nan -inf -inf -inf inf inf -inf -3.74733e-167 -8.79265e-219 inf nan inf inf nan -inf 0
+inputends
+==10706== Invalid read of size 8
+==10706==    at 0x41FA92: get_bandwidths(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (adeba.cpp:55)
+==10706==    by 0x408BA0: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:28)
+==10706==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10706==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706==  Address 0xbae3910 is 0 bytes after a block of size 496 alloc'd
+==10706==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10706==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10706==    by 0x40BBCD: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==10706==    by 0x4075A1: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==10706==    by 0x408A6D: DeepState_Test_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:22)
+==10706==    by 0x408858: DeepState_Run_adeba_deepstate_test_get_bandwidths_test() (get_bandwidths_DeepState_TestHarness.cpp:7)
+==10706==    by 0x406103: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706==    by 0x4138FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706==    by 0x413A0F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706==    by 0x406C4D: main (in /home/akhila/Documents/compileAttributescheck/adeba/inst/testfiles/get_bandwidths/get_bandwidths_DeepState_TestHarness)
+==10706== 
+==10706== 
+==10706== HEAP SUMMARY:
+==10706==     in use at exit: 50,319,957 bytes in 9,717 blocks
+==10706==   total heap usage: 27,694 allocs, 17,977 frees, 86,031,230 bytes allocated
+==10706== 
+==10706== LEAK SUMMARY:
+==10706==    definitely lost: 0 bytes in 0 blocks
+==10706==    indirectly lost: 0 bytes in 0 blocks
+==10706==      possibly lost: 0 bytes in 0 blocks
+==10706==    still reachable: 50,319,957 bytes in 9,717 blocks
+==10706==                       of which reachable via heuristic:
+==10706==                         newarray           : 4,264 bytes in 1 blocks
+==10706==         suppressed: 0 bytes in 0 blocks
+==10706== Reachable blocks (those to which a pointer was found) are not shown.
+==10706== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10706== 
+==10706== For counts of detected and suppressed errors, rerun with: -v
+==10706== ERROR SUMMARY: 408 errors from 1 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 0 failed/3 passed/0 abandoned tests
+==10695== 
+==10695== HEAP SUMMARY:
+==10695==     in use at exit: 8 bytes in 1 blocks
+==10695==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==10695== 
+==10695== LEAK SUMMARY:
+==10695==    definitely lost: 0 bytes in 0 blocks
+==10695==    indirectly lost: 0 bytes in 0 blocks
+==10695==      possibly lost: 0 bytes in 0 blocks
+==10695==    still reachable: 8 bytes in 1 blocks
+==10695==         suppressed: 0 bytes in 0 blocks
+==10695== Reachable blocks (those to which a pointer was found) are not shown.
+==10695== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10695== 
+==10695== For counts of detected and suppressed errors, rerun with: -v
+==10695== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
