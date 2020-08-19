@@ -1,0 +1,73 @@
+==6579== Memcheck, a memory error detector
+==6579== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==6579== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==6579== Command: ./blockaves_i_max_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_output
+==6579== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597711917
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blockaves_i_max_test)
+x values: -1761475614 -2147483648 -2147483648 -2147483648 -2147483648 536920906 -1100753564 -2147483648 -2147483648 1151677345 1426196657 -864493451 -2147483648 -1472419604 -2147483648 -834259060 1407774527 2067816483 -2147483648 -2147483648 1624425230 -2147483648 1075307195 1273836080 -2147483648 -1293183138
+window values: -1239392662
+inputends
+==6582== Invalid read of size 4
+==6582==    at 0x4290B5: blockaves_i_max(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (blockaves_c.cpp:46)
+==6582==    by 0x409A4A: DeepState_Test_accelerometry_deepstate_test_blockaves_i_max_test() (blockaves_i_max_DeepState_TestHarness.cpp:22)
+==6582==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_blockaves_i_max_test() (blockaves_i_max_DeepState_TestHarness.cpp:7)
+==6582==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==    by 0x4146CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==    by 0x4147DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==  Address 0xfffffffee5abb0f0 is not stack'd, malloc'd or (recently) free'd
+==6582== 
+==6582== 
+==6582== Process terminating with default action of signal 11 (SIGSEGV)
+==6582==  Access not within mapped region at address 0xFFFFFFFEE5ABB0F0
+==6582==    at 0x4290B5: blockaves_i_max(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (blockaves_c.cpp:46)
+==6582==    by 0x409A4A: DeepState_Test_accelerometry_deepstate_test_blockaves_i_max_test() (blockaves_i_max_DeepState_TestHarness.cpp:22)
+==6582==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_blockaves_i_max_test() (blockaves_i_max_DeepState_TestHarness.cpp:7)
+==6582==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==    by 0x4146CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==    by 0x4147DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness)
+==6582==  If you believe this happened as a result of a stack
+==6582==  overflow in your program's main thread (unlikely but
+==6582==  possible), you can try to increase the size of the
+==6582==  main thread stack using the --main-stacksize= flag.
+==6582==  The main thread stack size used in this run was 8388608.
+==6582== 
+==6582== HEAP SUMMARY:
+==6582==     in use at exit: 50,316,104 bytes in 9,734 blocks
+==6582==   total heap usage: 27,685 allocs, 17,951 frees, 85,991,047 bytes allocated
+==6582== 
+==6582== LEAK SUMMARY:
+==6582==    definitely lost: 0 bytes in 0 blocks
+==6582==    indirectly lost: 0 bytes in 0 blocks
+==6582==      possibly lost: 0 bytes in 0 blocks
+==6582==    still reachable: 50,316,104 bytes in 9,734 blocks
+==6582==                       of which reachable via heuristic:
+==6582==                         newarray           : 4,264 bytes in 1 blocks
+==6582==         suppressed: 0 bytes in 0 blocks
+==6582== Reachable blocks (those to which a pointer was found) are not shown.
+==6582== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6582== 
+==6582== For counts of detected and suppressed errors, rerun with: -v
+==6582== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+ERROR: Crashed: accelerometry_deepstate_test_blockaves_i_max_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_output/6eec766de3c6312a9648f042f5a7e14402179747.crash`
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 1 failed/0 passed/0 abandoned tests
+==6579== 
+==6579== HEAP SUMMARY:
+==6579==     in use at exit: 8 bytes in 1 blocks
+==6579==   total heap usage: 8 allocs, 7 frees, 112,417 bytes allocated
+==6579== 
+==6579== LEAK SUMMARY:
+==6579==    definitely lost: 0 bytes in 0 blocks
+==6579==    indirectly lost: 0 bytes in 0 blocks
+==6579==      possibly lost: 0 bytes in 0 blocks
+==6579==    still reachable: 8 bytes in 1 blocks
+==6579==         suppressed: 0 bytes in 0 blocks
+==6579== Reachable blocks (those to which a pointer was found) are not shown.
+==6579== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6579== 
+==6579== For counts of detected and suppressed errors, rerun with: -v
+==6579== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

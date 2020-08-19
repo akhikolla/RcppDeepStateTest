@@ -1,0 +1,99 @@
+==14174== Memcheck, a memory error detector
+==14174== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14174== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==14174== Command: ./gen_worley2d_c_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_output
+==14174== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597734937
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_worley2d_c_test)
+x values: nan inf -inf 7.85939e+223 1.01646e-125 2.25633e-139 nan 1.55919e+103 nan -inf -inf 1.46922e-67 -inf nan 4.30449e+160 inf nan inf inf nan nan nan inf nan 2.89971e+147 inf inf nan 5.85845e+185 1.07744e+183 1.25759e+228 -1.73957e-31 inf -inf nan -1.16791e+152 -inf -6.18496e-247 nan -inf -2.03237e-302 nan nan -inf nan inf nan nan inf -inf nan nan nan -1.7013e+105 nan -inf nan nan -5.14091e+176 nan -inf inf nan 2.46495e+13 nan inf inf -7.29525e+268 -8.63685e-51 1.85302e+40 -2.58601e-233 -inf -inf -inf -1.51563e+69 nan nan inf -inf -inf -1.63375e-261 -7.69013e+41 inf nan -inf nan inf -inf -inf nan nan -inf nan inf 0
+y values: nan -inf 2.21535e+167 inf nan -2.9934e+40 nan 1.43579e+242 6.59923e+183 -inf nan -inf -6.26259e+100 -1.27102e-306 inf nan nan inf -inf nan nan -1.13981e-131 nan -inf -3.86979e+152 -inf nan nan nan inf inf inf nan nan 6.98511e-151 -inf nan -1.72899e-166 inf nan inf -inf -inf -inf inf 0
+freq values: 1.09244e-299
+seed values: 1636707786
+dist values: 41545301
+value values: -1367635898
+dist2ind values: -2147483648 -2147483648 -2147483648 1147787847 -2147483648 -1967723438 -2147483648 962510824 1691590470 1605339882 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -222909353 -2147483648 -2147483648 -2147483648 1373439744 -2147483648 752287577 1602172265 1088741266 -2147483648 -2147483648
+jitter values: -1.4522e+221
+input ends
+==14175== Invalid read of size 8
+==14175==    at 0x43E205: gen_worley2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int, int, int, Rcpp::Vector<13, Rcpp::PreserveStorage>, double) (worley.cpp:93)
+==14175==    by 0x4096C4: DeepState_Test_ambient_deepstate_test_gen_worley2d_c_test() (gen_worley2d_c_DeepState_TestHarness.cpp:59)
+==14175==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_worley2d_c_test() (gen_worley2d_c_DeepState_TestHarness.cpp:7)
+==14175==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175==    by 0x41472A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175==    by 0x41483F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175==  Address 0xba557f0 is 0 bytes after a block of size 416 alloc'd
+==14175==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14175==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==14175==    by 0x40C7CD: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==14175==    by 0x407B61: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==14175==    by 0x408FAC: DeepState_Test_ambient_deepstate_test_gen_worley2d_c_test() (gen_worley2d_c_DeepState_TestHarness.cpp:22)
+==14175==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_worley2d_c_test() (gen_worley2d_c_DeepState_TestHarness.cpp:7)
+==14175==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175==    by 0x41472A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175==    by 0x41483F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_worley2d_c/gen_worley2d_c_DeepState_TestHarness)
+==14175== 
+==14175== 
+==14175== HEAP SUMMARY:
+==14175==     in use at exit: 50,294,316 bytes in 9,716 blocks
+==14175==   total heap usage: 27,706 allocs, 17,990 frees, 86,050,399 bytes allocated
+==14175== 
+==14175== LEAK SUMMARY:
+==14175==    definitely lost: 0 bytes in 0 blocks
+==14175==    indirectly lost: 0 bytes in 0 blocks
+==14175==      possibly lost: 0 bytes in 0 blocks
+==14175==    still reachable: 50,294,316 bytes in 9,716 blocks
+==14175==                       of which reachable via heuristic:
+==14175==                         newarray           : 4,264 bytes in 1 blocks
+==14175==         suppressed: 0 bytes in 0 blocks
+==14175== Reachable blocks (those to which a pointer was found) are not shown.
+==14175== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14175== 
+==14175== For counts of detected and suppressed errors, rerun with: -v
+==14175== ERROR SUMMARY: 49 errors from 1 contexts (suppressed: 0 from 0)
+x values: inf -4.61421e+282 3.40164e-294 -inf -inf 1.41006e+113 -inf nan nan inf 0
+y values: nan nan inf 1.00749e-225 -2.17228e+149 -inf 7.86688e+72 inf inf nan 1.90213e+245 -inf nan inf 3.36939e+83 inf 1.37822e+119 nan nan -4.96963e+280 nan nan 1.60866e-241 -inf nan -7.18803e-164 inf 2.39098e-17 nan -inf nan nan inf nan inf nan nan nan nan nan -inf -inf nan inf -inf nan -inf inf inf nan -inf nan inf nan nan inf nan nan inf inf -inf -inf -6.05691e-247 nan inf nan nan nan -inf nan -inf -7.43802e-122 nan inf nan nan nan -inf 6.21775e+300 nan -inf 1.04657e-94 1.67885e-29 -inf 1.52785e-16 nan nan nan nan -inf -inf inf 1.04885e+241 nan nan -2.71903e+286 inf 0
+freq values: 4.3744e-222
+seed values: 1429725795
+dist values: 2070557357
+value values: 1052725500
+dist2ind values: -2147483648 -2147483648 496992626 -855048436 -1640722488 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 1550742051 -2147483648 -1761023189 -2147483648 -2147483648 -2147483648 1245318086 -2147483648 -2147483648
+jitter values: -4.1043e+160
+input ends
+==14180== 
+==14180== HEAP SUMMARY:
+==14180==     in use at exit: 50,293,117 bytes in 9,714 blocks
+==14180==   total heap usage: 27,704 allocs, 17,990 frees, 86,049,200 bytes allocated
+==14180== 
+==14180== LEAK SUMMARY:
+==14180==    definitely lost: 0 bytes in 0 blocks
+==14180==    indirectly lost: 0 bytes in 0 blocks
+==14180==      possibly lost: 0 bytes in 0 blocks
+==14180==    still reachable: 50,293,117 bytes in 9,714 blocks
+==14180==                       of which reachable via heuristic:
+==14180==                         newarray           : 4,264 bytes in 1 blocks
+==14180==         suppressed: 0 bytes in 0 blocks
+==14180== Reachable blocks (those to which a pointer was found) are not shown.
+==14180== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14180== 
+==14180== For counts of detected and suppressed errors, rerun with: -v
+==14180== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==14174== 
+==14174== HEAP SUMMARY:
+==14174==     in use at exit: 8 bytes in 1 blocks
+==14174==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==14174== 
+==14174== LEAK SUMMARY:
+==14174==    definitely lost: 0 bytes in 0 blocks
+==14174==    indirectly lost: 0 bytes in 0 blocks
+==14174==      possibly lost: 0 bytes in 0 blocks
+==14174==    still reachable: 8 bytes in 1 blocks
+==14174==         suppressed: 0 bytes in 0 blocks
+==14174== Reachable blocks (those to which a pointer was found) are not shown.
+==14174== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14174== 
+==14174== For counts of detected and suppressed errors, rerun with: -v
+==14174== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

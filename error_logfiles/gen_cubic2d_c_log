@@ -1,0 +1,529 @@
+==13175== Memcheck, a memory error detector
+==13175== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13175== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13175== Command: ./gen_cubic2d_c_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_output
+==13175== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597730106
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_cubic2d_c_test)
+x values: -565.538 nan inf nan 9.02424e-129 nan nan nan nan inf nan inf -inf nan inf nan nan nan 0
+y values: nan 1.8582e-238 nan -1.93678e-225 -inf -inf -inf 3.23741e+209 inf nan inf inf -inf -inf inf nan nan nan -5.26942e-130 -inf nan -inf -inf -inf -inf inf inf nan -inf inf inf inf -inf inf nan nan nan nan -inf nan nan -inf nan nan inf -1.44715e-25 nan -4.85681e+275 nan -3.47446e+172 nan 2.40351e-15 nan nan nan inf -1.57842e+131 nan -inf inf nan -inf nan -1.17049e+56 1.65327e+61 -inf nan 0
+freq values: -5.65231e-36
+seed values: 624067358
+input ends
+==13176== 
+==13176== HEAP SUMMARY:
+==13176==     in use at exit: 50,293,277 bytes in 9,716 blocks
+==13176==   total heap usage: 27,698 allocs, 17,982 frees, 86,014,382 bytes allocated
+==13176== 
+==13176== LEAK SUMMARY:
+==13176==    definitely lost: 0 bytes in 0 blocks
+==13176==    indirectly lost: 0 bytes in 0 blocks
+==13176==      possibly lost: 0 bytes in 0 blocks
+==13176==    still reachable: 50,293,277 bytes in 9,716 blocks
+==13176==                       of which reachable via heuristic:
+==13176==                         newarray           : 4,264 bytes in 1 blocks
+==13176==         suppressed: 0 bytes in 0 blocks
+==13176== Reachable blocks (those to which a pointer was found) are not shown.
+==13176== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13176== 
+==13176== For counts of detected and suppressed errors, rerun with: -v
+==13176== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+x values: inf inf nan -2.1518e-100 nan -2.9298e+100 nan -inf 0
+y values: -inf nan nan -1.20158e+297 -4.39091e-67 inf 0
+freq values: 2.23269e-63
+seed values: 777429942
+input ends
+==13232== Conditional jump or move depends on uninitialised value(s)
+==13232==    at 0x41DDC5: FastFloor(double) (FastNoise.cpp:184)
+==13232==    by 0x41D1FD: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1827)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D277: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1840)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D293: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1840)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D2AF: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1840)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D2CB: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1840)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D30D: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1841)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D32C: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1841)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D34B: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1841)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D36A: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1841)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D3BE: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1842)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D3DD: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1842)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D3FC: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1842)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D41B: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1842)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D46F: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1843)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D48E: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1843)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D4AD: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1843)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== Use of uninitialised value of size 8
+==13232==    at 0x422883: FastNoise::Index2D_256(unsigned char, int, int) const (FastNoise.cpp:271)
+==13232==    by 0x4225EC: FastNoise::ValCoord2DFast(unsigned char, int, int) const (FastNoise.cpp:318)
+==13232==    by 0x41D4CC: FastNoise::SingleCubic(unsigned char, double, double) const (FastNoise.cpp:1843)
+==13232==    by 0x41F6FE: FastNoise::GetCubic(double, double) const (FastNoise.cpp:1819)
+==13232==    by 0x4389F4: gen_cubic2d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (cubic.cpp:85)
+==13232==    by 0x409290: DeepState_Test_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:35)
+==13232==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_cubic2d_c_test() (gen_cubic2d_c_DeepState_TestHarness.cpp:7)
+==13232==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x413FBA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x4140CF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness)
+==13232==  Uninitialised value was created by a heap allocation
+==13232==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13232==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==13232==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==13232==    by 0x4F587D2: Rf_allocVector (Rinlinedfuns.h:580)
+==13232==    by 0x4F587D2: mkHandlerEntry (errors.c:1565)
+==13232==    by 0x4F5D1D4: do_addCondHands (errors.c:1644)
+==13232==    by 0x4F6FC50: bcEval (eval.c:6765)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232==    by 0x4F7F5A2: Rf_applyClosure (eval.c:1706)
+==13232==    by 0x4F735A1: bcEval (eval.c:6733)
+==13232==    by 0x4F7C9FF: Rf_eval (eval.c:620)
+==13232==    by 0x4F7E85E: R_execClosure (eval.c:1780)
+==13232== 
+==13232== 
+==13232== HEAP SUMMARY:
+==13232==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==13232==   total heap usage: 27,695 allocs, 17,982 frees, 86,013,390 bytes allocated
+==13232== 
+==13232== LEAK SUMMARY:
+==13232==    definitely lost: 0 bytes in 0 blocks
+==13232==    indirectly lost: 0 bytes in 0 blocks
+==13232==      possibly lost: 0 bytes in 0 blocks
+==13232==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13232==                       of which reachable via heuristic:
+==13232==                         newarray           : 4,264 bytes in 1 blocks
+==13232==         suppressed: 0 bytes in 0 blocks
+==13232== Reachable blocks (those to which a pointer was found) are not shown.
+==13232== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13232== 
+==13232== For counts of detected and suppressed errors, rerun with: -v
+==13232== ERROR SUMMARY: 17 errors from 17 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==13175== 
+==13175== HEAP SUMMARY:
+==13175==     in use at exit: 8 bytes in 1 blocks
+==13175==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13175== 
+==13175== LEAK SUMMARY:
+==13175==    definitely lost: 0 bytes in 0 blocks
+==13175==    indirectly lost: 0 bytes in 0 blocks
+==13175==      possibly lost: 0 bytes in 0 blocks
+==13175==    still reachable: 8 bytes in 1 blocks
+==13175==         suppressed: 0 bytes in 0 blocks
+==13175== Reachable blocks (those to which a pointer was found) are not shown.
+==13175== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13175== 
+==13175== For counts of detected and suppressed errors, rerun with: -v
+==13175== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

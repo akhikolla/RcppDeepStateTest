@@ -1,0 +1,133 @@
+==13833== Memcheck, a memory error detector
+==13833== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13833== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13833== Command: ./gen_white3d_c_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_output
+==13833== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597734130
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_white3d_c_test)
+x values: nan inf inf -inf -inf nan nan nan -inf -inf nan inf -inf nan -inf -inf nan 3.72866e+218 nan nan nan nan -inf 4.03725e+73 -3.14676e+49 -inf 1.06342e-227 nan -inf 8.86468e+182 nan 2.61636e-203 inf nan nan inf inf nan -3.85624e+204 -inf nan inf nan -inf inf nan inf nan nan 7.98229e+226 nan 1.43948e-147 nan nan -inf -inf -inf nan nan nan -inf nan 4.82315e-125 inf inf 6.14472e-102 inf nan nan 0
+y values: inf nan inf inf 1.00028e-113 -inf -inf inf -1.02526e-160 nan -inf inf inf -inf inf nan nan -inf 0
+z values: 0
+freq values: 6.33386e+40
+seed values: -284283307
+input ends
+==13834== Invalid read of size 8
+==13834==    at 0x43CD1A: gen_white3d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (white.cpp:109)
+==13834==    by 0x409397: DeepState_Test_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:41)
+==13834==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:7)
+==13834==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834==    by 0x41414A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834==    by 0x41425F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834==  Address 0xb9af818 is 0 bytes after a block of size 200 alloc'd
+==13834==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13834==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==13834==    by 0x40C41D: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==13834==    by 0x407B61: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==13834==    by 0x408F79: DeepState_Test_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:19)
+==13834==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:7)
+==13834==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834==    by 0x41414A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834==    by 0x41425F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13834== 
+==13834== 
+==13834== HEAP SUMMARY:
+==13834==     in use at exit: 50,293,701 bytes in 9,716 blocks
+==13834==   total heap usage: 27,700 allocs, 17,984 frees, 86,023,550 bytes allocated
+==13834== 
+==13834== LEAK SUMMARY:
+==13834==    definitely lost: 0 bytes in 0 blocks
+==13834==    indirectly lost: 0 bytes in 0 blocks
+==13834==      possibly lost: 0 bytes in 0 blocks
+==13834==    still reachable: 50,293,701 bytes in 9,716 blocks
+==13834==                       of which reachable via heuristic:
+==13834==                         newarray           : 4,264 bytes in 1 blocks
+==13834==         suppressed: 0 bytes in 0 blocks
+==13834== Reachable blocks (those to which a pointer was found) are not shown.
+==13834== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13834== 
+==13834== For counts of detected and suppressed errors, rerun with: -v
+==13834== ERROR SUMMARY: 9 errors from 1 contexts (suppressed: 0 from 0)
+x values: -inf nan inf inf nan inf nan nan nan nan 3.15619e-246 nan nan nan -inf 6.56013e+141 nan -inf -inf nan inf nan nan -4.47576e-137 nan nan -inf nan 1.43156e+96 nan inf -inf 5.36309e+18 inf nan inf nan nan nan inf nan inf inf nan -inf -inf inf -1.43513e-205 nan nan -inf -1.30737e-284 nan -inf -inf nan nan nan 1.92843e+95 7.27546e+174 inf nan inf nan inf inf inf inf -9.39083e+92 nan -inf -3.19418e+36 -2.64015e+161 nan nan nan -inf nan 1.79043e-284 -inf nan -inf nan inf 0
+y values: inf nan -inf nan -2.98092e-184 -inf nan -inf nan -inf inf nan nan inf 7.19298e+141 -inf inf nan -inf -inf inf nan nan inf -1.04734e+181 nan 3.06025e-22 -inf nan nan -inf nan nan inf nan -3.53742e+99 -inf nan nan nan nan inf -7.87115e-207 inf -inf 2.99484e-262 inf -inf -inf nan nan nan nan inf inf -inf inf nan nan inf 1.95858e-76 -inf 0
+z values: nan nan nan nan -inf -inf nan inf inf -inf nan -inf -inf nan nan -inf 0
+freq values: -2.52261e+21
+seed values: -813686553
+input ends
+==13851== Invalid read of size 8
+==13851==    at 0x43CD4C: gen_white3d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (white.cpp:109)
+==13851==    by 0x409397: DeepState_Test_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:41)
+==13851==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:7)
+==13851==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41414A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41425F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==  Address 0xb8a6928 is 0 bytes after a block of size 184 alloc'd
+==13851==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13851==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==13851==    by 0x40C41D: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==13851==    by 0x407B61: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==13851==    by 0x40904F: DeepState_Test_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:24)
+==13851==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:7)
+==13851==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41414A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41425F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851== 
+==13851== Invalid read of size 8
+==13851==    at 0x43CD1A: gen_white3d_c(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, double, int) (white.cpp:109)
+==13851==    by 0x409397: DeepState_Test_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:41)
+==13851==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:7)
+==13851==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41414A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41425F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==  Address 0xb9ffef8 is 0 bytes after a block of size 552 alloc'd
+==13851==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13851==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==13851==    by 0x40C41D: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==13851==    by 0x407B61: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==13851==    by 0x408F79: DeepState_Test_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:19)
+==13851==    by 0x408E18: DeepState_Run_ambient_deepstate_test_gen_white3d_c_test() (gen_white3d_c_DeepState_TestHarness.cpp:7)
+==13851==    by 0x405F13: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41414A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x41425F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851==    by 0x406A5D: main (in /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/gen_white3d_c/gen_white3d_c_DeepState_TestHarness)
+==13851== 
+==13851== 
+==13851== HEAP SUMMARY:
+==13851==     in use at exit: 50,294,477 bytes in 9,717 blocks
+==13851==   total heap usage: 27,701 allocs, 17,984 frees, 86,024,326 bytes allocated
+==13851== 
+==13851== LEAK SUMMARY:
+==13851==    definitely lost: 0 bytes in 0 blocks
+==13851==    indirectly lost: 0 bytes in 0 blocks
+==13851==      possibly lost: 0 bytes in 0 blocks
+==13851==    still reachable: 50,294,477 bytes in 9,717 blocks
+==13851==                       of which reachable via heuristic:
+==13851==                         newarray           : 4,264 bytes in 1 blocks
+==13851==         suppressed: 0 bytes in 0 blocks
+==13851== Reachable blocks (those to which a pointer was found) are not shown.
+==13851== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13851== 
+==13851== For counts of detected and suppressed errors, rerun with: -v
+==13851== ERROR SUMMARY: 55 errors from 2 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==13833== 
+==13833== HEAP SUMMARY:
+==13833==     in use at exit: 8 bytes in 1 blocks
+==13833==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13833== 
+==13833== LEAK SUMMARY:
+==13833==    definitely lost: 0 bytes in 0 blocks
+==13833==    indirectly lost: 0 bytes in 0 blocks
+==13833==      possibly lost: 0 bytes in 0 blocks
+==13833==    still reachable: 8 bytes in 1 blocks
+==13833==         suppressed: 0 bytes in 0 blocks
+==13833== Reachable blocks (those to which a pointer was found) are not shown.
+==13833== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13833== 
+==13833== For counts of detected and suppressed errors, rerun with: -v
+==13833== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

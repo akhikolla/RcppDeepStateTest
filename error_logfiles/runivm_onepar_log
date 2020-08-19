@@ -1,0 +1,167 @@
+==12022== Memcheck, a memory error detector
+==12022== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12022== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12022== Command: ./runivm_onepar_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_output
+==12022== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597787833
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_runivm_onepar_test)
+n values: -1247789913
+k values: -5.68163e-44
+mu values: 2.30504e+33
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_runivm_onepar_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_output/9fb762378be33edf8b4c6122bbbb14aa351a7410.fail`
+==12023== 
+==12023== HEAP SUMMARY:
+==12023==     in use at exit: 50,292,535 bytes in 9,716 blocks
+==12023==   total heap usage: 27,694 allocs, 17,978 frees, 86,004,870 bytes allocated
+==12023== 
+==12023== 41 bytes in 1 blocks are definitely lost in loss record 22 of 1,309
+==12023==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12023==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12023==    by 0x40E084: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12023==    by 0x41163A: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==12023==    by 0x41157C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==12023==    by 0x445CD4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==12023==    by 0x445C3D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==12023==    by 0x44AECB: runivm_onepar(int, double, double) (univm_llik_grad.cpp:111)
+==12023==    by 0x40BA36: DeepState_Test_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:29)
+==12023==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:7)
+==12023==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12023==    by 0x41647A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12023== 
+==12023== 65 bytes in 1 blocks are possibly lost in loss record 33 of 1,309
+==12023==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12023==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12023==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12023==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12023==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12023==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12023==    by 0x40E096: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12023==    by 0x41163A: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==12023==    by 0x41157C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==12023==    by 0x445CD4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==12023==    by 0x445C3D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==12023==    by 0x44AECB: runivm_onepar(int, double, double) (univm_llik_grad.cpp:111)
+==12023== 
+==12023== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,309
+==12023==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12023==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12023==    by 0x40E049: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12023==    by 0x41163A: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==12023==    by 0x41157C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==12023==    by 0x445CD4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==12023==    by 0x445C3D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==12023==    by 0x44AECB: runivm_onepar(int, double, double) (univm_llik_grad.cpp:111)
+==12023==    by 0x40BA36: DeepState_Test_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:29)
+==12023==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:7)
+==12023==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12023==    by 0x41647A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12023== 
+==12023== LEAK SUMMARY:
+==12023==    definitely lost: 41 bytes in 1 blocks
+==12023==    indirectly lost: 0 bytes in 0 blocks
+==12023==      possibly lost: 209 bytes in 2 blocks
+==12023==    still reachable: 50,292,285 bytes in 9,713 blocks
+==12023==                       of which reachable via heuristic:
+==12023==                         stdstring          : 65 bytes in 1 blocks
+==12023==                         newarray           : 4,264 bytes in 1 blocks
+==12023==         suppressed: 0 bytes in 0 blocks
+==12023== Reachable blocks (those to which a pointer was found) are not shown.
+==12023== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12023== 
+==12023== For counts of detected and suppressed errors, rerun with: -v
+==12023== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+n values: -805347784
+k values: 2.62488e-260
+mu values: 8.74608e+139
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_runivm_onepar_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_output/f8a95a87667edc23715d25bf8d577f7672fcc833.fail`
+==12030== 
+==12030== HEAP SUMMARY:
+==12030==     in use at exit: 50,292,535 bytes in 9,716 blocks
+==12030==   total heap usage: 27,694 allocs, 17,978 frees, 86,004,870 bytes allocated
+==12030== 
+==12030== 41 bytes in 1 blocks are definitely lost in loss record 22 of 1,309
+==12030==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12030==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12030==    by 0x40E084: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12030==    by 0x41163A: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==12030==    by 0x41157C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==12030==    by 0x445CD4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==12030==    by 0x445C3D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==12030==    by 0x44AECB: runivm_onepar(int, double, double) (univm_llik_grad.cpp:111)
+==12030==    by 0x40BA36: DeepState_Test_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:29)
+==12030==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:7)
+==12030==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12030==    by 0x41647A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12030== 
+==12030== 65 bytes in 1 blocks are possibly lost in loss record 33 of 1,309
+==12030==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12030==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12030==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12030==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12030==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12030==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12030==    by 0x40E096: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12030==    by 0x41163A: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==12030==    by 0x41157C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==12030==    by 0x445CD4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==12030==    by 0x445C3D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==12030==    by 0x44AECB: runivm_onepar(int, double, double) (univm_llik_grad.cpp:111)
+==12030== 
+==12030== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,309
+==12030==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12030==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12030==    by 0x40E049: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12030==    by 0x41163A: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==12030==    by 0x41157C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==12030==    by 0x445CD4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==12030==    by 0x445C3D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==12030==    by 0x44AECB: runivm_onepar(int, double, double) (univm_llik_grad.cpp:111)
+==12030==    by 0x40BA36: DeepState_Test_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:29)
+==12030==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_runivm_onepar_test() (runivm_onepar_DeepState_TestHarness.cpp:7)
+==12030==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12030==    by 0x41647A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness)
+==12030== 
+==12030== LEAK SUMMARY:
+==12030==    definitely lost: 41 bytes in 1 blocks
+==12030==    indirectly lost: 0 bytes in 0 blocks
+==12030==      possibly lost: 209 bytes in 2 blocks
+==12030==    still reachable: 50,292,285 bytes in 9,713 blocks
+==12030==                       of which reachable via heuristic:
+==12030==                         stdstring          : 65 bytes in 1 blocks
+==12030==                         newarray           : 4,264 bytes in 1 blocks
+==12030==         suppressed: 0 bytes in 0 blocks
+==12030== Reachable blocks (those to which a pointer was found) are not shown.
+==12030== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12030== 
+==12030== For counts of detected and suppressed errors, rerun with: -v
+==12030== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==12022== 
+==12022== HEAP SUMMARY:
+==12022==     in use at exit: 8 bytes in 1 blocks
+==12022==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==12022== 
+==12022== LEAK SUMMARY:
+==12022==    definitely lost: 0 bytes in 0 blocks
+==12022==    indirectly lost: 0 bytes in 0 blocks
+==12022==      possibly lost: 0 bytes in 0 blocks
+==12022==    still reachable: 8 bytes in 1 blocks
+==12022==         suppressed: 0 bytes in 0 blocks
+==12022== Reachable blocks (those to which a pointer was found) are not shown.
+==12022== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12022== 
+==12022== For counts of detected and suppressed errors, rerun with: -v
+==12022== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,175 @@
+==13291== Memcheck, a memory error detector
+==13291== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13291== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13291== Command: ./rcos_onepar_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_output
+==13291== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597791736
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rcos_onepar_test)
+n values: -542434648
+k1 values: -9.10679e-51
+k2 values: 1.65608e-13
+k3 values: 1.28576e-30
+mu1 values: 1.14854e-259
+mu2 values: -1.90543e-106
+I_upper_bd values: 2.03981e-301
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_onepar_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_output/f372d79381630e472aa15b467108e00d37f1e846.fail`
+==13292== 
+==13292== HEAP SUMMARY:
+==13292==     in use at exit: 50,292,535 bytes in 9,716 blocks
+==13292==   total heap usage: 27,702 allocs, 17,986 frees, 86,039,842 bytes allocated
+==13292== 
+==13292== 41 bytes in 1 blocks are definitely lost in loss record 22 of 1,309
+==13292==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13292==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13292==    by 0x40E534: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13292==    by 0x411ACA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13292==    by 0x411A0C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13292==    by 0x4432A3: arma::Mat<double>::Mat(unsigned int, unsigned int) (Mat_meat.hpp:68)
+==13292==    by 0x4584BE: rcos_onepar(int, double, double, double, double, double, double) (vmcos_llik_grad.cpp:509)
+==13292==    by 0x40BE3E: DeepState_Test_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:53)
+==13292==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:7)
+==13292==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13292==    by 0x41690A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13292==    by 0x416A1F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13292== 
+==13292== 65 bytes in 1 blocks are possibly lost in loss record 33 of 1,309
+==13292==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13292==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13292==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13292==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13292==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13292==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13292==    by 0x40E546: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13292==    by 0x411ACA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13292==    by 0x411A0C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13292==    by 0x4432A3: arma::Mat<double>::Mat(unsigned int, unsigned int) (Mat_meat.hpp:68)
+==13292==    by 0x4584BE: rcos_onepar(int, double, double, double, double, double, double) (vmcos_llik_grad.cpp:509)
+==13292==    by 0x40BE3E: DeepState_Test_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:53)
+==13292== 
+==13292== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,309
+==13292==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13292==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13292==    by 0x40E4F9: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13292==    by 0x411ACA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13292==    by 0x411A0C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13292==    by 0x4432A3: arma::Mat<double>::Mat(unsigned int, unsigned int) (Mat_meat.hpp:68)
+==13292==    by 0x4584BE: rcos_onepar(int, double, double, double, double, double, double) (vmcos_llik_grad.cpp:509)
+==13292==    by 0x40BE3E: DeepState_Test_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:53)
+==13292==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:7)
+==13292==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13292==    by 0x41690A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13292==    by 0x416A1F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13292== 
+==13292== LEAK SUMMARY:
+==13292==    definitely lost: 41 bytes in 1 blocks
+==13292==    indirectly lost: 0 bytes in 0 blocks
+==13292==      possibly lost: 209 bytes in 2 blocks
+==13292==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13292==                       of which reachable via heuristic:
+==13292==                         stdstring          : 65 bytes in 1 blocks
+==13292==                         newarray           : 4,264 bytes in 1 blocks
+==13292==         suppressed: 0 bytes in 0 blocks
+==13292== Reachable blocks (those to which a pointer was found) are not shown.
+==13292== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13292== 
+==13292== For counts of detected and suppressed errors, rerun with: -v
+==13292== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+n values: 1519171256
+k1 values: 2.23571e-224
+k2 values: -2.37978e+303
+k3 values: -1.2315e+36
+mu1 values: -1.19411e-185
+mu2 values: -4.78837e+131
+I_upper_bd values: -9.17947e+08
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_onepar_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_output/6f2aef956ead971fda4d0778aed9fc05b20a19f7.fail`
+==13301== 
+==13301== HEAP SUMMARY:
+==13301==     in use at exit: 50,292,535 bytes in 9,716 blocks
+==13301==   total heap usage: 27,702 allocs, 17,986 frees, 86,039,842 bytes allocated
+==13301== 
+==13301== 41 bytes in 1 blocks are definitely lost in loss record 22 of 1,309
+==13301==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13301==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13301==    by 0x40E534: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13301==    by 0x411ACA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13301==    by 0x411A0C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13301==    by 0x4432A3: arma::Mat<double>::Mat(unsigned int, unsigned int) (Mat_meat.hpp:68)
+==13301==    by 0x4584BE: rcos_onepar(int, double, double, double, double, double, double) (vmcos_llik_grad.cpp:509)
+==13301==    by 0x40BE3E: DeepState_Test_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:53)
+==13301==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:7)
+==13301==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13301==    by 0x41690A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13301==    by 0x416A1F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13301== 
+==13301== 65 bytes in 1 blocks are possibly lost in loss record 33 of 1,309
+==13301==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13301==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13301==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13301==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13301==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13301==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13301==    by 0x40E546: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13301==    by 0x411ACA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13301==    by 0x411A0C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13301==    by 0x4432A3: arma::Mat<double>::Mat(unsigned int, unsigned int) (Mat_meat.hpp:68)
+==13301==    by 0x4584BE: rcos_onepar(int, double, double, double, double, double, double) (vmcos_llik_grad.cpp:509)
+==13301==    by 0x40BE3E: DeepState_Test_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:53)
+==13301== 
+==13301== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,309
+==13301==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13301==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13301==    by 0x40E4F9: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13301==    by 0x411ACA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13301==    by 0x411A0C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13301==    by 0x4432A3: arma::Mat<double>::Mat(unsigned int, unsigned int) (Mat_meat.hpp:68)
+==13301==    by 0x4584BE: rcos_onepar(int, double, double, double, double, double, double) (vmcos_llik_grad.cpp:509)
+==13301==    by 0x40BE3E: DeepState_Test_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:53)
+==13301==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_rcos_onepar_test() (rcos_onepar_DeepState_TestHarness.cpp:7)
+==13301==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13301==    by 0x41690A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13301==    by 0x416A1F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness)
+==13301== 
+==13301== LEAK SUMMARY:
+==13301==    definitely lost: 41 bytes in 1 blocks
+==13301==    indirectly lost: 0 bytes in 0 blocks
+==13301==      possibly lost: 209 bytes in 2 blocks
+==13301==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13301==                       of which reachable via heuristic:
+==13301==                         stdstring          : 65 bytes in 1 blocks
+==13301==                         newarray           : 4,264 bytes in 1 blocks
+==13301==         suppressed: 0 bytes in 0 blocks
+==13301== Reachable blocks (those to which a pointer was found) are not shown.
+==13301== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13301== 
+==13301== For counts of detected and suppressed errors, rerun with: -v
+==13301== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==13291== 
+==13291== HEAP SUMMARY:
+==13291==     in use at exit: 8 bytes in 1 blocks
+==13291==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13291== 
+==13291== LEAK SUMMARY:
+==13291==    definitely lost: 0 bytes in 0 blocks
+==13291==    indirectly lost: 0 bytes in 0 blocks
+==13291==      possibly lost: 0 bytes in 0 blocks
+==13291==    still reachable: 8 bytes in 1 blocks
+==13291==         suppressed: 0 bytes in 0 blocks
+==13291== Reachable blocks (those to which a pointer was found) are not shown.
+==13291== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13291== 
+==13291== For counts of detected and suppressed errors, rerun with: -v
+==13291== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

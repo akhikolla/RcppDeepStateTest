@@ -1,0 +1,64 @@
+==11804== Memcheck, a memory error detector
+==11804== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11804== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11804== Command: ./likelihood_dual_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_output
+==11804== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597725813
+WARNING: No test specified, defaulting to first test defined (alphabetr_deepstate_test_likelihood_dual_test)
+est values: 1.24655e+153
+err values: 2.72649e+156
+numb_wells values: inf -8.35276e-82 -2.05033e-290 -inf 7.34582e-235 -inf -inf -inf nan -inf inf inf 8.46471e-238 nan 6.03387e+186 nan inf inf nan inf -5.64133e+11 -inf nan nan -1.22688e+228 -inf inf -inf inf nan nan inf -inf nan nan inf 6.29905e+14 0
+numb_cells values: -7.87462e-203 9.31616e-194 nan nan -inf -inf -inf -1.38743e+249 -inf inf nan inf inf nan -inf inf nan 2.19907e-225 -inf nan nan inf 4.62049e+139 nan -inf nan nan -1.08261e-103 nan inf -4.03338e-218 nan nan -inf nan -inf -6.06581e-214 1.62664e+232 nan nan nan 3.78321e-236 nan inf nan -1.21551e+239 nan inf nan 4.70783e-196 inf nan -1.06822e+154 1.09935e+124 nan -inf 1.7963e-37 nan -inf -4.3733e-144 nan nan nan 0
+numb_sample values: nan inf nan nan nan nan nan nan nan nan -inf nan 5.16633e+168 8.448e-137 nan inf -2.08873e+20 inf nan inf 8.07008e-228 nan -inf inf -5.0554e-111 inf nan nan -inf -inf inf nan inf nan -inf -inf nan nan 3.27699e-146 -inf -inf inf 1.59258e-48 nan inf -inf nan -inf inf -inf inf inf nan nan nan nan inf -inf nan -inf -inf nan nan -2.1727e-206 -4.38538e-15 -inf inf inf -inf -3.73594e-81 nan 2.81677e+238 inf nan 2.26621e+124 -1.29436e-141 3.31937e-139 nan -3.94546e-120 nan nan nan -inf inf inf 2.34838e+168 -6.9281e-123 5.21705e-54 nan -inf -2.35592e+09 inf inf nan 0
+inputends
+==11804== 
+==11804== Process terminating with default action of signal 2 (SIGINT)
+==11804==    at 0x610C6E7: waitpid (waitpid.c:30)
+==11804==    by 0x4140D8: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11804==    by 0x41421F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11804==    by 0x406C6D: main (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11805== 
+==11805== Process terminating with default action of signal 2 (SIGINT)
+==11805==    at 0x405AC0: ??? (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11805==    by 0x42757E: likelihood_dual(double, double, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (likelihood_dual.cpp:34)
+==11805==    by 0x40935D: DeepState_Test_alphabetr_deepstate_test_likelihood_dual_test() (likelihood_dual_DeepState_TestHarness.cpp:40)
+==11805==    by 0x408DF8: DeepState_Run_alphabetr_deepstate_test_likelihood_dual_test() (likelihood_dual_DeepState_TestHarness.cpp:7)
+==11805==    by 0x406123: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11805==    by 0x41410A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11805==    by 0x41421F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11805==    by 0x406C6D: main (in /home/akhila/Documents/compileAttributescheck/alphabetr/inst/testfiles/likelihood_dual/likelihood_dual_DeepState_TestHarness)
+==11804== 
+==11804== HEAP SUMMARY:
+==11804==     in use at exit: 1,048 bytes in 2 blocks
+==11804==   total heap usage: 4 allocs, 2 frees, 106,568 bytes allocated
+==11804== 
+==11804== LEAK SUMMARY:
+==11804==    definitely lost: 0 bytes in 0 blocks
+==11804==    indirectly lost: 0 bytes in 0 blocks
+==11804==      possibly lost: 0 bytes in 0 blocks
+==11804==    still reachable: 1,048 bytes in 2 blocks
+==11804==         suppressed: 0 bytes in 0 blocks
+==11804== Reachable blocks (those to which a pointer was found) are not shown.
+==11804== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11804== 
+==11804== For counts of detected and suppressed errors, rerun with: -v
+==11804== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==11805== 
+==11805== HEAP SUMMARY:
+==11805==     in use at exit: 50,317,825 bytes in 9,737 blocks
+==11805==   total heap usage: 27,694 allocs, 17,957 frees, 86,019,000 bytes allocated
+==11805== 
+==11805== LEAK SUMMARY:
+==11805==    definitely lost: 0 bytes in 0 blocks
+==11805==    indirectly lost: 0 bytes in 0 blocks
+==11805==      possibly lost: 0 bytes in 0 blocks
+==11805==    still reachable: 50,317,825 bytes in 9,737 blocks
+==11805==                       of which reachable via heuristic:
+==11805==                         newarray           : 4,264 bytes in 1 blocks
+==11805==         suppressed: 0 bytes in 0 blocks
+==11805== Reachable blocks (those to which a pointer was found) are not shown.
+==11805== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11805== 
+==11805== For counts of detected and suppressed errors, rerun with: -v
+==11805== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

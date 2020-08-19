@@ -1,0 +1,100 @@
+==13478== Memcheck, a memory error detector
+==13478== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13478== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13478== Command: ./log_const_vmsin_all_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_output
+==13478== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597793663
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_log_const_vmsin_all_test)
+par_mat values:   -4.9257e-29  1.8583e-304  5.8182e+123 -2.5367e+157 -3.9217e-256   7.2764e-19 -5.6474e+100   7.6446e+89  1.0411e-193 -1.0622e+198
+  7.9061e-288   2.0018e+64 -8.7624e-154  5.8853e+293 -4.6837e+225   5.7954e+24 -1.0473e-261  2.4946e+184 -1.3377e-263  8.0423e+142
+   9.8001e+90  -1.1755e-84  1.3953e-166   3.4287e+31 -6.0918e-127 -1.4940e-297 -3.2946e-228   1.5132e-95 -4.1565e+279 -3.2922e+263
+ -1.1153e+158  -1.6866e-30  -4.9749e-24 -2.9724e+230 -1.2317e+268  3.6405e+258 -9.0256e-251  1.3284e-294   8.1976e-39 -9.3191e-286
+  2.1081e+172  -6.8630e-53 -9.4127e+175  -4.9801e-16  4.5028e-209  -5.9449e-89 -2.3672e-274 -3.6466e-265   3.5164e-41  2.2912e-214
+ -5.8937e+148   2.4730e-89  2.5130e+216 -3.8550e+139  1.3796e+184 -2.5568e-155  2.2018e+287   6.2098e-50  6.0043e+185  4.5639e-125
+ -4.3833e-133  1.0388e+250 -7.4308e+290 -7.5148e-150  4.6381e-279 -1.7916e+247 -2.1813e+134 -1.7299e+171 -1.2993e+237  4.9218e-116
+ -1.7315e-103 -1.4285e+125  1.4978e-264  -1.5610e+60  6.5661e+157   6.7947e+87   3.2563e+12 -2.7385e-114  2.3560e+212  2.3430e+179
+  3.0475e-291 -4.1412e-273  1.6535e-201 -1.5186e+264  2.5355e-182 -2.3966e-271  -9.0643e+13  -2.1670e-70  -2.0028e+76  1.2375e-206
+
+input ends
+==13479== Conditional jump or move depends on uninitialised value(s)
+==13479==    at 0x40EBB8: arma::Mat<double>::~Mat() (Mat_meat.hpp:27)
+==13479==    by 0x40F1C4: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==13479==    by 0x40B8F3: DeepState_Test_BAMBI_deepstate_test_log_const_vmsin_all_test() (log_const_vmsin_all_DeepState_TestHarness.cpp:17)
+==13479==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_log_const_vmsin_all_test() (log_const_vmsin_all_DeepState_TestHarness.cpp:7)
+==13479==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13479==    by 0x4174CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13479==    by 0x4175DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13479==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13479==  Uninitialised value was created by a stack allocation
+==13479==    at 0x40B782: DeepState_Test_BAMBI_deepstate_test_log_const_vmsin_all_test() (log_const_vmsin_all_DeepState_TestHarness.cpp:8)
+==13479== 
+==13479== 
+==13479== HEAP SUMMARY:
+==13479==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==13479==   total heap usage: 27,688 allocs, 17,975 frees, 85,988,552 bytes allocated
+==13479== 
+==13479== LEAK SUMMARY:
+==13479==    definitely lost: 0 bytes in 0 blocks
+==13479==    indirectly lost: 0 bytes in 0 blocks
+==13479==      possibly lost: 0 bytes in 0 blocks
+==13479==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13479==                       of which reachable via heuristic:
+==13479==                         newarray           : 4,264 bytes in 1 blocks
+==13479==         suppressed: 0 bytes in 0 blocks
+==13479== Reachable blocks (those to which a pointer was found) are not shown.
+==13479== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13479== 
+==13479== For counts of detected and suppressed errors, rerun with: -v
+==13479== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+par_mat values:   -4.2555e+09  -5.1677e+77  -3.0313e+07  -2.1470e+44   4.4580e-64 -1.7124e+185
+ -1.8263e-235 -3.3797e+191   1.8785e-23   1.1485e-12 -2.5510e+123 -3.4223e+283
+
+input ends
+==13485== Conditional jump or move depends on uninitialised value(s)
+==13485==    at 0x40EBB8: arma::Mat<double>::~Mat() (Mat_meat.hpp:27)
+==13485==    by 0x40F1C4: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==13485==    by 0x40B8F3: DeepState_Test_BAMBI_deepstate_test_log_const_vmsin_all_test() (log_const_vmsin_all_DeepState_TestHarness.cpp:17)
+==13485==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_log_const_vmsin_all_test() (log_const_vmsin_all_DeepState_TestHarness.cpp:7)
+==13485==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13485==    by 0x4174CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13485==    by 0x4175DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13485==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness)
+==13485==  Uninitialised value was created by a stack allocation
+==13485==    at 0x40B782: DeepState_Test_BAMBI_deepstate_test_log_const_vmsin_all_test() (log_const_vmsin_all_DeepState_TestHarness.cpp:8)
+==13485== 
+==13485== 
+==13485== HEAP SUMMARY:
+==13485==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==13485==   total heap usage: 27,686 allocs, 17,973 frees, 85,987,112 bytes allocated
+==13485== 
+==13485== LEAK SUMMARY:
+==13485==    definitely lost: 0 bytes in 0 blocks
+==13485==    indirectly lost: 0 bytes in 0 blocks
+==13485==      possibly lost: 0 bytes in 0 blocks
+==13485==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13485==                       of which reachable via heuristic:
+==13485==                         newarray           : 4,264 bytes in 1 blocks
+==13485==         suppressed: 0 bytes in 0 blocks
+==13485== Reachable blocks (those to which a pointer was found) are not shown.
+==13485== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13485== 
+==13485== For counts of detected and suppressed errors, rerun with: -v
+==13485== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==13478== 
+==13478== HEAP SUMMARY:
+==13478==     in use at exit: 8 bytes in 1 blocks
+==13478==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13478== 
+==13478== LEAK SUMMARY:
+==13478==    definitely lost: 0 bytes in 0 blocks
+==13478==    indirectly lost: 0 bytes in 0 blocks
+==13478==      possibly lost: 0 bytes in 0 blocks
+==13478==    still reachable: 8 bytes in 1 blocks
+==13478==         suppressed: 0 bytes in 0 blocks
+==13478== Reachable blocks (those to which a pointer was found) are not shown.
+==13478== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13478== 
+==13478== For counts of detected and suppressed errors, rerun with: -v
+==13478== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

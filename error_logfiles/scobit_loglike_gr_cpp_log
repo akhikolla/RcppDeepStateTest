@@ -1,0 +1,131 @@
+==10519== Memcheck, a memory error detector
+==10519== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10519== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10519== Command: ./scobit_loglike_gr_cpp_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_output
+==10519== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597781946
+WARNING: No test specified, defaulting to first test defined (backbone_deepstate_test_scobit_loglike_gr_cpp_test)
+x1 values: inf 3.96614e-78 -inf 7.55283e-274 inf 0
+x2 values: inf nan inf inf nan nan inf -inf inf -inf -inf -3.62363e-269 nan -inf -inf nan -6.88905e-245 inf -inf 2.88359e-21 -1.35195e-227 -inf nan -inf -inf -inf -1.861e+265 nan -inf nan nan -inf -inf -inf -6.14219e-225 inf -inf 1.11725e+49 nan inf nan inf nan nan 4.17877e-123 nan -2.51583e+234 -inf inf inf inf inf nan nan inf nan inf nan inf 5.5936e+215 nan inf -3.99238e+52 nan nan nan inf inf -1.83541e-19 inf -inf inf inf nan -inf nan nan -inf nan nan nan nan -inf nan -4.02201e-84 nan 9.82983e-147 -inf 0
+y values: 3.62074e+237 inf nan nan nan nan -inf inf nan 1.81776e+87 nan nan nan nan -6.38043e+249 -9.64612e-159 inf inf inf -inf nan nan inf 3.96195e-19 -5.20511e+110 -inf inf -inf 1.56001e+164 inf inf -inf inf nan -inf 3.62437e-115 inf 4.03405e+66 inf nan -inf 0
+params values: -inf -inf nan nan 8.1218e+99 nan nan -inf inf -inf -inf nan inf -inf nan nan 4.43444e+70 inf nan nan nan nan nan inf nan inf inf -inf nan -inf nan inf -inf nan -1.68379e-93 -inf -1.63367e-227 nan inf nan nan nan -inf -inf -inf nan nan nan nan nan nan nan nan inf nan -inf -1.4603e-62 -1.6406e+296 3.94495e-22 nan nan nan inf nan nan inf -inf nan -inf nan -inf nan inf nan 3.30171e-237 inf nan nan nan -1.43471e+248 inf inf 4.34293e+42 -2.54927e-280 nan 2.73014e-104 0
+input ends
+==10520== 
+==10520== HEAP SUMMARY:
+==10520==     in use at exit: 50,294,173 bytes in 9,716 blocks
+==10520==   total heap usage: 27,694 allocs, 17,978 frees, 86,014,199 bytes allocated
+==10520== 
+==10520== LEAK SUMMARY:
+==10520==    definitely lost: 0 bytes in 0 blocks
+==10520==    indirectly lost: 0 bytes in 0 blocks
+==10520==      possibly lost: 0 bytes in 0 blocks
+==10520==    still reachable: 50,294,173 bytes in 9,716 blocks
+==10520==                       of which reachable via heuristic:
+==10520==                         newarray           : 4,264 bytes in 1 blocks
+==10520==         suppressed: 0 bytes in 0 blocks
+==10520== Reachable blocks (those to which a pointer was found) are not shown.
+==10520== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10520== 
+==10520== For counts of detected and suppressed errors, rerun with: -v
+==10520== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+x1 values: nan nan -inf inf nan -inf inf nan nan -4.68434e-60 nan nan 1.15236e-148 -inf -1.12739e+281 inf -inf 1.98409e-109 -inf 6.15386e-301 nan 7.46197e-13 nan 0
+x2 values: inf nan -inf -1.03569e-187 -inf nan nan -inf -4.31345e+154 2.09781e-29 -inf nan -2.033e+133 -9.86786e-164 nan nan -inf nan 0
+y values: -inf nan 2.23228e+111 inf -inf inf -inf inf -inf 3.23854e+295 -7.91461e-121 nan -inf nan nan 1.65565e+274 nan 1.91538e-233 -inf inf nan inf -4.02032e-12 0
+params values: 1.37629e-220 -inf -3.93706e+28 -inf inf -inf nan -inf nan -inf 1.75365e+112 inf inf -inf nan -inf -inf -inf 4.34728e+98 inf -inf inf -inf -2.0561e+225 -inf nan inf -inf nan nan -inf 0
+input ends
+==10535== Invalid read of size 8
+==10535==    at 0x41F2DC: scobit_loglike_gr_cpp(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (scobit.cpp:42)
+==10535==    by 0x408924: DeepState_Test_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:35)
+==10535==    by 0x408498: DeepState_Run_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:7)
+==10535==    by 0x405D43: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x4136FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x41380F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x40688D: main (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==  Address 0xb9af818 is 0 bytes after a block of size 200 alloc'd
+==10535==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10535==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10535==    by 0x40B9CD: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==10535==    by 0x4071E1: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==10535==    by 0x4085E8: DeepState_Test_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:18)
+==10535==    by 0x408498: DeepState_Run_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:7)
+==10535==    by 0x405D43: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x4136FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x41380F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x40688D: main (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535== 
+==10535== Invalid read of size 8
+==10535==    at 0x41F3C2: scobit_loglike_gr_cpp(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (scobit.cpp:43)
+==10535==    by 0x408924: DeepState_Test_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:35)
+==10535==    by 0x408498: DeepState_Run_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:7)
+==10535==    by 0x405D43: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x4136FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x41380F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x40688D: main (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==  Address 0xb9af818 is 0 bytes after a block of size 200 alloc'd
+==10535==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10535==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10535==    by 0x40B9CD: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==10535==    by 0x4071E1: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==10535==    by 0x4085E8: DeepState_Test_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:18)
+==10535==    by 0x408498: DeepState_Run_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:7)
+==10535==    by 0x405D43: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x4136FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x41380F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x40688D: main (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535== 
+==10535== Invalid read of size 8
+==10535==    at 0x41F7AD: scobit_loglike_gr_cpp(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (scobit.cpp:54)
+==10535==    by 0x408924: DeepState_Test_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:35)
+==10535==    by 0x408498: DeepState_Run_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:7)
+==10535==    by 0x405D43: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x4136FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x41380F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x40688D: main (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==  Address 0xb9af818 is 0 bytes after a block of size 200 alloc'd
+==10535==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10535==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10535==    by 0x40B9CD: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==10535==    by 0x4071E1: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==10535==    by 0x4085E8: DeepState_Test_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:18)
+==10535==    by 0x408498: DeepState_Run_backbone_deepstate_test_scobit_loglike_gr_cpp_test() (scobit_loglike_gr_cpp_DeepState_TestHarness.cpp:7)
+==10535==    by 0x405D43: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x4136FA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x41380F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535==    by 0x40688D: main (in /home/akhila/Documents/compileAttributescheck/backbone/inst/testfiles/scobit_loglike_gr_cpp/scobit_loglike_gr_cpp_DeepState_TestHarness)
+==10535== 
+==10535== 
+==10535== HEAP SUMMARY:
+==10535==     in use at exit: 50,295,909 bytes in 9,728 blocks
+==10535==   total heap usage: 27,706 allocs, 17,978 frees, 86,015,935 bytes allocated
+==10535== 
+==10535== LEAK SUMMARY:
+==10535==    definitely lost: 0 bytes in 0 blocks
+==10535==    indirectly lost: 0 bytes in 0 blocks
+==10535==      possibly lost: 0 bytes in 0 blocks
+==10535==    still reachable: 50,295,909 bytes in 9,728 blocks
+==10535==                       of which reachable via heuristic:
+==10535==                         newarray           : 4,264 bytes in 1 blocks
+==10535==         suppressed: 0 bytes in 0 blocks
+==10535== Reachable blocks (those to which a pointer was found) are not shown.
+==10535== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10535== 
+==10535== For counts of detected and suppressed errors, rerun with: -v
+==10535== ERROR SUMMARY: 15 errors from 3 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==10519== 
+==10519== HEAP SUMMARY:
+==10519==     in use at exit: 8 bytes in 1 blocks
+==10519==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==10519== 
+==10519== LEAK SUMMARY:
+==10519==    definitely lost: 0 bytes in 0 blocks
+==10519==    indirectly lost: 0 bytes in 0 blocks
+==10519==      possibly lost: 0 bytes in 0 blocks
+==10519==    still reachable: 8 bytes in 1 blocks
+==10519==         suppressed: 0 bytes in 0 blocks
+==10519== Reachable blocks (those to which a pointer was found) are not shown.
+==10519== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10519== 
+==10519== For counts of detected and suppressed errors, rerun with: -v
+==10519== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

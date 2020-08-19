@@ -1,0 +1,226 @@
+==11931== Memcheck, a memory error detector
+==11931== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11931== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11931== Command: ./calc_corr_fl_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output
+==11931== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597786623
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_calc_corr_fl_test)
+samp_mat values:   4.4967e-168 -1.0392e-238  5.7839e+291  5.4152e-213 -6.4170e+136  1.2326e+167  2.9357e+182  6.7674e+252  1.6996e-192  7.2020e+123
+  -1.7353e+40  2.4850e+188  1.9947e-244  1.0264e+128 -2.3289e-125 -5.5932e-172 -4.4263e+254 -2.0267e+122 -9.0281e-207  -1.2209e-54
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/e2596726643541f07062635c45485e4419d70fd7.fail`
+==11932== 
+==11932== HEAP SUMMARY:
+==11932==     in use at exit: 50,292,847 bytes in 9,718 blocks
+==11932==   total heap usage: 27,692 allocs, 17,974 frees, 85,987,692 bytes allocated
+==11932== 
+==11932== 37 bytes in 1 blocks are definitely lost in loss record 20 of 1,311
+==11932==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11932==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11932==    by 0x40BAC4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11932==    by 0x4128F7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==11932==    by 0x44965A: operator() (Mat_meat.hpp:5933)
+==11932==    by 0x44965A: calc_corr_fl(arma::Mat<double>) (basic_c_fns.cpp:172)
+==11932==    by 0x40B8DB: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11932==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11932==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932== 
+==11932== 61 bytes in 1 blocks are possibly lost in loss record 32 of 1,311
+==11932==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11932==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11932==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11932==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11932==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11932==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11932==    by 0x40BAD6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11932==    by 0x4128F7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==11932==    by 0x44965A: operator() (Mat_meat.hpp:5933)
+==11932==    by 0x44965A: calc_corr_fl(arma::Mat<double>) (basic_c_fns.cpp:172)
+==11932==    by 0x40B8DB: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11932==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11932==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932== 
+==11932== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,311
+==11932==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11932==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11932==    by 0x40BA89: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11932==    by 0x4128F7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==11932==    by 0x44965A: operator() (Mat_meat.hpp:5933)
+==11932==    by 0x44965A: calc_corr_fl(arma::Mat<double>) (basic_c_fns.cpp:172)
+==11932==    by 0x40B8DB: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11932==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11932==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932== 
+==11932== 160 bytes in 1 blocks are definitely lost in loss record 57 of 1,311
+==11932==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11932==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11932==    by 0x410387: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==11932==    by 0x410253: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==11932==    by 0x40EB81: arma::Mat<double>::Mat(unsigned long long, unsigned long long) (Mat_meat.hpp:68)
+==11932==    by 0x40B3B0: RcppDeepState_mat() (RcppDeepState.h:103)
+==11932==    by 0x40B7AF: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:10)
+==11932==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11932==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932== 
+==11932== 160 bytes in 1 blocks are definitely lost in loss record 58 of 1,311
+==11932==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11932==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11932==    by 0x410387: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==11932==    by 0x410253: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==11932==    by 0x40F127: arma::Mat<double>::Mat(arma::Mat<double> const&) (Mat_meat.hpp:794)
+==11932==    by 0x40B8CA: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11932==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11932==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11932== 
+==11932== LEAK SUMMARY:
+==11932==    definitely lost: 357 bytes in 3 blocks
+==11932==    indirectly lost: 0 bytes in 0 blocks
+==11932==      possibly lost: 205 bytes in 2 blocks
+==11932==    still reachable: 50,292,285 bytes in 9,713 blocks
+==11932==                       of which reachable via heuristic:
+==11932==                         stdstring          : 61 bytes in 1 blocks
+==11932==                         newarray           : 4,264 bytes in 1 blocks
+==11932==         suppressed: 0 bytes in 0 blocks
+==11932== Reachable blocks (those to which a pointer was found) are not shown.
+==11932== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11932== 
+==11932== For counts of detected and suppressed errors, rerun with: -v
+==11932== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)
+samp_mat values:  -3.1588e-301   5.3126e-09  -4.6017e+49  -3.6547e-28  6.6481e-188
+  -5.1355e+52 -4.8488e-130  -8.5457e+11   1.7411e+46  2.0707e+207
+  -1.2452e+60  6.9505e-262   6.6873e+69   7.0354e-75 -1.0251e+223
+ -8.6024e+136   3.3172e+93 -6.3808e+294 -3.1582e+126   7.8560e+42
+  1.0903e-209   2.2976e-54   2.6719e+17 -1.5404e-117   7.7821e-57
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/465754166d185fd3935a56fdc3474dd832f960fc.fail`
+==11939== 
+==11939== HEAP SUMMARY:
+==11939==     in use at exit: 50,292,926 bytes in 9,718 blocks
+==11939==   total heap usage: 27,692 allocs, 17,974 frees, 85,987,771 bytes allocated
+==11939== 
+==11939== 37 bytes in 1 blocks are definitely lost in loss record 20 of 1,311
+==11939==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11939==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11939==    by 0x40BAC4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11939==    by 0x4128F7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==11939==    by 0x44965A: operator() (Mat_meat.hpp:5933)
+==11939==    by 0x44965A: calc_corr_fl(arma::Mat<double>) (basic_c_fns.cpp:172)
+==11939==    by 0x40B8DB: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11939==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11939==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939== 
+==11939== 61 bytes in 1 blocks are possibly lost in loss record 32 of 1,311
+==11939==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11939==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11939==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11939==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11939==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11939==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11939==    by 0x40BAD6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11939==    by 0x4128F7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==11939==    by 0x44965A: operator() (Mat_meat.hpp:5933)
+==11939==    by 0x44965A: calc_corr_fl(arma::Mat<double>) (basic_c_fns.cpp:172)
+==11939==    by 0x40B8DB: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11939==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11939==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939== 
+==11939== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,311
+==11939==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11939==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11939==    by 0x40BA89: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11939==    by 0x4128F7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==11939==    by 0x44965A: operator() (Mat_meat.hpp:5933)
+==11939==    by 0x44965A: calc_corr_fl(arma::Mat<double>) (basic_c_fns.cpp:172)
+==11939==    by 0x40B8DB: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11939==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11939==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939== 
+==11939== 200 bytes in 1 blocks are definitely lost in loss record 72 of 1,311
+==11939==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11939==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11939==    by 0x410387: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==11939==    by 0x410253: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==11939==    by 0x40EB81: arma::Mat<double>::Mat(unsigned long long, unsigned long long) (Mat_meat.hpp:68)
+==11939==    by 0x40B3B0: RcppDeepState_mat() (RcppDeepState.h:103)
+==11939==    by 0x40B7AF: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:10)
+==11939==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11939==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939== 
+==11939== 200 bytes in 1 blocks are definitely lost in loss record 73 of 1,311
+==11939==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11939==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11939==    by 0x410387: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==11939==    by 0x410253: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==11939==    by 0x40F127: arma::Mat<double>::Mat(arma::Mat<double> const&) (Mat_meat.hpp:794)
+==11939==    by 0x40B8CA: DeepState_Test_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:17)
+==11939==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_calc_corr_fl_test() (calc_corr_fl_DeepState_TestHarness.cpp:7)
+==11939==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x41749A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4175AF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness)
+==11939== 
+==11939== LEAK SUMMARY:
+==11939==    definitely lost: 437 bytes in 3 blocks
+==11939==    indirectly lost: 0 bytes in 0 blocks
+==11939==      possibly lost: 205 bytes in 2 blocks
+==11939==    still reachable: 50,292,284 bytes in 9,713 blocks
+==11939==                       of which reachable via heuristic:
+==11939==                         stdstring          : 61 bytes in 1 blocks
+==11939==                         newarray           : 4,264 bytes in 1 blocks
+==11939==         suppressed: 0 bytes in 0 blocks
+==11939== Reachable blocks (those to which a pointer was found) are not shown.
+==11939== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11939== 
+==11939== For counts of detected and suppressed errors, rerun with: -v
+==11939== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==11931== 
+==11931== HEAP SUMMARY:
+==11931==     in use at exit: 8 bytes in 1 blocks
+==11931==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==11931== 
+==11931== LEAK SUMMARY:
+==11931==    definitely lost: 0 bytes in 0 blocks
+==11931==    indirectly lost: 0 bytes in 0 blocks
+==11931==      possibly lost: 0 bytes in 0 blocks
+==11931==    still reachable: 8 bytes in 1 blocks
+==11931==         suppressed: 0 bytes in 0 blocks
+==11931== Reachable blocks (those to which a pointer was found) are not shown.
+==11931== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11931== 
+==11931== For counts of detected and suppressed errors, rerun with: -v
+==11931== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

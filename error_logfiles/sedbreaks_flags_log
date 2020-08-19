@@ -1,0 +1,200 @@
+==10411== Memcheck, a memory error detector
+==10411== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10411== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10411== Command: ./sedbreaks_flags_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_output
+==10411== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597715324
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_sedbreaks_flags_test)
+counts values: -30955097 -82433267 -76669444 985718007 -2147483648 467013654 -2147483648 -2147483648 -2147483648 1615758645 -175975920 508152024 -1522534663 -1257474584 16284248 -362426270 -1653757059 1043559090 -2147483648 950428450 -1845704145 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 664675216 -2147483648 -835115104 -2147483648 -60646305 242631714 -2147483648 -2147483648 -2147483648 -459557151 -2147483648 -2147483648 -1764635075 -1530352055 -2147483648 -2147483648 -2147483648 1940901641 -2147483648 -1048006496 -1526177330 7726196 -2147483648 -2147483648 -651616531 -1987416970 -1698819905 1373361422 -2147483648 -2147483648 -2147483648 -1576673732 2086729933 493383061 -2147483648 -1826593227 -2147483648 -2147483648 -2147483648 -2147483648 1067389884 675708749 -2147483648 1860908372 -2047812924 -161443810 27455840 -2147483648 -2147483648 -2147483648 -2147483648 -1855360456 -2147483648 -2147483648 -2147483648 -1339392333 1629441266 -2147483648 -279669334 306475714 -2147483648 -2147483648 228484521 861588717 -2147483648 -2147483648 -717565008 -445038825 1577417261 -2147483648 -878178144 728039952 1164035235
+weartime values: -2147483648 -2147483648 -967864079 -2147483648 -1987003408 1795189501 -2147483648 -2147483648 534114290 -2147483648 -2147483648 1339734503 -2147483648 -2147483648 -2147483648 443041381 -2147483648 -2147483648 117707123 318143187 -2147483648 -1789661791 474015780 538842419 1738005159 17016131 -499815386 574783799 528277390 -113807579 -237313249 1391409187 -2147483648 817212457 -2147483648 -1788418189 1152183226 -2123146063 606658044 -2147483648 -2147483648 -2147483648 944729785 -733740296 -2147483648 1706378342 1001043059 -2147483648 -626279866 -2147483648 -2147483648 -2147483648 -2147483648 574177040 -1819414243 -440962567 -2147483648
+thresh values: -2106736118
+inputends
+==10412== Invalid read of size 4
+==10412==    at 0x4303D5: sedbreaks_flags(Rcpp::Vector<13, Rcpp::PreserveStorage>, Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (sedbreaks_c.cpp:35)
+==10412==    by 0x409B50: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:28)
+==10412==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10412==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==  Address 0xb964b48 is 0 bytes after a block of size 280 alloc'd
+==10412==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10412==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10412==    by 0x40CBDD: Rcpp::Vector<13, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==10412==    by 0x408B54: RcppDeepState_IntegerVector() (RcppDeepState.h:52)
+==10412==    by 0x409957: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:17)
+==10412==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10412==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412== 
+==10412== Conditional jump or move depends on uninitialised value(s)
+==10412==    at 0x430421: sedbreaks_flags(Rcpp::Vector<13, Rcpp::PreserveStorage>, Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (sedbreaks_c.cpp:38)
+==10412==    by 0x409B50: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:28)
+==10412==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10412==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==  Uninitialised value was created by a heap allocation
+==10412==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10412==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10412==    by 0x40CBDD: Rcpp::Vector<13, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==10412==    by 0x408B54: RcppDeepState_IntegerVector() (RcppDeepState.h:52)
+==10412==    by 0x409957: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:17)
+==10412==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10412==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412== 
+==10412== Invalid read of size 4
+==10412==    at 0x4303B1: sedbreaks_flags(Rcpp::Vector<13, Rcpp::PreserveStorage>, Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (sedbreaks_c.cpp:34)
+==10412==    by 0x409B50: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:28)
+==10412==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10412==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==  Address 0xb964b48 is 0 bytes after a block of size 280 alloc'd
+==10412==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10412==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10412==    by 0x40CBDD: Rcpp::Vector<13, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==10412==    by 0x408B54: RcppDeepState_IntegerVector() (RcppDeepState.h:52)
+==10412==    by 0x409957: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:17)
+==10412==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10412==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10412== 
+==10412== 
+==10412== HEAP SUMMARY:
+==10412==     in use at exit: 50,293,461 bytes in 9,716 blocks
+==10412==   total heap usage: 27,693 allocs, 17,977 frees, 86,005,776 bytes allocated
+==10412== 
+==10412== LEAK SUMMARY:
+==10412==    definitely lost: 0 bytes in 0 blocks
+==10412==    indirectly lost: 0 bytes in 0 blocks
+==10412==      possibly lost: 0 bytes in 0 blocks
+==10412==    still reachable: 50,293,461 bytes in 9,716 blocks
+==10412==                       of which reachable via heuristic:
+==10412==                         newarray           : 4,264 bytes in 1 blocks
+==10412==         suppressed: 0 bytes in 0 blocks
+==10412== Reachable blocks (those to which a pointer was found) are not shown.
+==10412== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10412== 
+==10412== For counts of detected and suppressed errors, rerun with: -v
+==10412== ERROR SUMMARY: 84 errors from 3 contexts (suppressed: 0 from 0)
+counts values: -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 952136143 2100375884 1888631779 -671992445 -2147483648 -2147483648 1255630394 -510895406 593084548 -2147483648 -1634973464 -2147483648 3780709 778179175 -2147483648 -2147483648 123633412 -2147483648 -2147483648 1000603021 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648
+weartime values: -564530766 -485025857 -2147483648 -2147483648 1448507519 768877253 -2147483648 578439449 -2147483648 578884019 -2147483648 -1576265961 -2147483648 994231415 -2147483648 268838872 2095908195 -2147483648 -780765217 -1645135955 -832818614
+thresh values: 1228451110
+inputends
+==10422== Conditional jump or move depends on uninitialised value(s)
+==10422==    at 0x430421: sedbreaks_flags(Rcpp::Vector<13, Rcpp::PreserveStorage>, Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (sedbreaks_c.cpp:38)
+==10422==    by 0x409B50: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:28)
+==10422==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10422==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10422==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10422==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10422==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10422==  Uninitialised value was created by a heap allocation
+==10422==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10422==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==10422==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==10422==    by 0x50148B6: Rf_allocVector (Rinlinedfuns.h:580)
+==10422==    by 0x50148B6: ReadItem (serialize.c:1923)
+==10422==    by 0x50155E6: ReadBC1 (serialize.c:2105)
+==10422==    by 0x5014637: ReadBC (serialize.c:2120)
+==10422==    by 0x5014637: ReadItem (serialize.c:1957)
+==10422==    by 0x5013DE0: ReadItem (serialize.c:1865)
+==10422==    by 0x5013DC3: ReadItem (serialize.c:1863)
+==10422==    by 0x5013DE0: ReadItem (serialize.c:1865)
+==10422==    by 0x5013DE0: ReadItem (serialize.c:1865)
+==10422==    by 0x5013DE0: ReadItem (serialize.c:1865)
+==10422==    by 0x50143EA: ReadItem (serialize.c:2008)
+==10422== 
+==10422== 
+==10422== HEAP SUMMARY:
+==10422==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==10422==   total heap usage: 27,690 allocs, 17,977 frees, 86,004,600 bytes allocated
+==10422== 
+==10422== LEAK SUMMARY:
+==10422==    definitely lost: 0 bytes in 0 blocks
+==10422==    indirectly lost: 0 bytes in 0 blocks
+==10422==      possibly lost: 0 bytes in 0 blocks
+==10422==    still reachable: 50,292,285 bytes in 9,713 blocks
+==10422==                       of which reachable via heuristic:
+==10422==                         newarray           : 4,264 bytes in 1 blocks
+==10422==         suppressed: 0 bytes in 0 blocks
+==10422== Reachable blocks (those to which a pointer was found) are not shown.
+==10422== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10422== 
+==10422== For counts of detected and suppressed errors, rerun with: -v
+==10422== ERROR SUMMARY: 9 errors from 1 contexts (suppressed: 0 from 0)
+counts values: -2147483648 -2147483648 -533179569 -1035979248 -1203675203 1274006403 -2147483648 -2147483648 1390402545 -2147483648 -2147483648 1478151279 -2147483648 -1067000558 -2147483648 275913997 -2044550305 -2147483648 1423805338 -2147483648 -2147483648 1046306500 206917829 -2147483648 1460832576 289433680 -919044139 534276172 -2147483648 -2147483648 -1321125809 -2147483648 -1186864168 -449662575 1510311947 -2147483648 -1329093526 -764945225 -2147483648 -2147483648 1295454042 -2147483648 408560362 -1913995772 1320261787 -2147483648 1923796618 -2147483648 31359072 131173103 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 511797541 -2147483648 -2147483648 587430911 -2147483648 -605050375 -2147483648 -2147483648 -521022972 -1529968648 -2147483648 -489336857 -2035707290 -1318167978 242604842 -2147483648 -479358103 -2147483648 -2147483648 -2147483648 1440658587 1909539924 -41023865 -2147483648 -2147483648 -2147483648 166165626 -1735570795 -2147483648 -2147483648
+weartime values: 1662378348 515287735 1164526045 -2147483648 -137200038 -2147483648 -2147483648 920585339 -592442596 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -60022568 -2147483648 873234290 -2147483648 -2147483648 -2147483648 -1448545082 1033749617
+thresh values: -1455168337
+inputends
+==10429== Conditional jump or move depends on uninitialised value(s)
+==10429==    at 0x430421: sedbreaks_flags(Rcpp::Vector<13, Rcpp::PreserveStorage>, Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (sedbreaks_c.cpp:38)
+==10429==    by 0x409B50: DeepState_Test_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:28)
+==10429==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_sedbreaks_flags_test() (sedbreaks_flags_DeepState_TestHarness.cpp:7)
+==10429==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10429==    by 0x41484A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10429==    by 0x41495F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10429==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/sedbreaks_flags/sedbreaks_flags_DeepState_TestHarness)
+==10429==  Uninitialised value was created by a heap allocation
+==10429==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10429==    by 0x4FB6FEC: GetNewPage (memory.c:924)
+==10429==    by 0x4FB86FA: Rf_allocVector3 (memory.c:2745)
+==10429==    by 0x50148B6: Rf_allocVector (Rinlinedfuns.h:580)
+==10429==    by 0x50148B6: ReadItem (serialize.c:1923)
+==10429==    by 0x50155E6: ReadBC1 (serialize.c:2105)
+==10429==    by 0x50156AF: ReadBCConsts (serialize.c:2078)
+==10429==    by 0x50156AF: ReadBC1 (serialize.c:2109)
+==10429==    by 0x5014637: ReadBC (serialize.c:2120)
+==10429==    by 0x5014637: ReadItem (serialize.c:1957)
+==10429==    by 0x5013DE0: ReadItem (serialize.c:1865)
+==10429==    by 0x5015B6D: R_Unserialize (serialize.c:2174)
+==10429==    by 0x5016DB9: R_unserialize (serialize.c:2883)
+==10429==    by 0x5017191: do_lazyLoadDBfetch (serialize.c:3171)
+==10429==    by 0x4F7CFD3: Rf_eval (eval.c:727)
+==10429== 
+==10429== 
+==10429== HEAP SUMMARY:
+==10429==     in use at exit: 50,293,069 bytes in 9,715 blocks
+==10429==   total heap usage: 27,692 allocs, 17,977 frees, 86,005,384 bytes allocated
+==10429== 
+==10429== LEAK SUMMARY:
+==10429==    definitely lost: 0 bytes in 0 blocks
+==10429==    indirectly lost: 0 bytes in 0 blocks
+==10429==      possibly lost: 0 bytes in 0 blocks
+==10429==    still reachable: 50,293,069 bytes in 9,715 blocks
+==10429==                       of which reachable via heuristic:
+==10429==                         newarray           : 4,264 bytes in 1 blocks
+==10429==         suppressed: 0 bytes in 0 blocks
+==10429== Reachable blocks (those to which a pointer was found) are not shown.
+==10429== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10429== 
+==10429== For counts of detected and suppressed errors, rerun with: -v
+==10429== ERROR SUMMARY: 16 errors from 1 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 0 failed/3 passed/0 abandoned tests
+==10411== 
+==10411== HEAP SUMMARY:
+==10411==     in use at exit: 8 bytes in 1 blocks
+==10411==   total heap usage: 5 allocs, 4 frees, 107,608 bytes allocated
+==10411== 
+==10411== LEAK SUMMARY:
+==10411==    definitely lost: 0 bytes in 0 blocks
+==10411==    indirectly lost: 0 bytes in 0 blocks
+==10411==      possibly lost: 0 bytes in 0 blocks
+==10411==    still reachable: 8 bytes in 1 blocks
+==10411==         suppressed: 0 bytes in 0 blocks
+==10411== Reachable blocks (those to which a pointer was found) are not shown.
+==10411== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10411== 
+==10411== For counts of detected and suppressed errors, rerun with: -v
+==10411== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

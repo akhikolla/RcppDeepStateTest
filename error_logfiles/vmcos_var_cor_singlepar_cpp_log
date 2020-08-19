@@ -1,0 +1,229 @@
+==13408== Memcheck, a memory error detector
+==13408== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13408== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13408== Command: ./vmcos_var_cor_singlepar_cpp_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_output
+==13408== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597792913
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test)
+k1 values: -5.37221e+236
+k2 values: 2.71796e-167
+k3 values: -1.61093e+143
+uni_rand values:   8.6126e+245  -3.9982e-65
+ -7.3198e+237  -1.5788e-65
+  1.5252e-157  1.0695e+184
+
+ncores values: 91675219
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_output/6b0f3c209b1c1f02ef1431b889de5acb6ca98ca2.fail`
+==13409== 
+==13409== HEAP SUMMARY:
+==13409==     in use at exit: 50,292,527 bytes in 9,716 blocks
+==13409==   total heap usage: 27,698 allocs, 17,982 frees, 86,022,378 bytes allocated
+==13409== 
+==13409== 37 bytes in 1 blocks are definitely lost in loss record 20 of 1,309
+==13409==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13409==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13409==    by 0x40BFA4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13409==    by 0x412E77: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==13409==    by 0x45BE2A: operator() (Mat_meat.hpp:5933)
+==13409==    by 0x45BE2A: vmcos_var_corr_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:880)
+==13409==    by 0x45CDD1: vmcos_var_cor_singlepar_cpp(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:977)
+==13409==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13409==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13409==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409==    by 0x417A1A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409==    by 0x417B2F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409== 
+==13409== 61 bytes in 1 blocks are possibly lost in loss record 32 of 1,309
+==13409==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13409==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13409==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13409==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13409==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13409==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13409==    by 0x40BFB6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13409==    by 0x412E77: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==13409==    by 0x45BE2A: operator() (Mat_meat.hpp:5933)
+==13409==    by 0x45BE2A: vmcos_var_corr_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:880)
+==13409==    by 0x45CDD1: vmcos_var_cor_singlepar_cpp(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:977)
+==13409==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13409==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13409== 
+==13409== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,309
+==13409==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13409==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13409==    by 0x40BF69: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13409==    by 0x412E77: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==13409==    by 0x45BE2A: operator() (Mat_meat.hpp:5933)
+==13409==    by 0x45BE2A: vmcos_var_corr_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:880)
+==13409==    by 0x45CDD1: vmcos_var_cor_singlepar_cpp(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:977)
+==13409==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13409==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13409==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409==    by 0x417A1A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409==    by 0x417B2F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13409== 
+==13409== LEAK SUMMARY:
+==13409==    definitely lost: 37 bytes in 1 blocks
+==13409==    indirectly lost: 0 bytes in 0 blocks
+==13409==      possibly lost: 205 bytes in 2 blocks
+==13409==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13409==                       of which reachable via heuristic:
+==13409==                         stdstring          : 61 bytes in 1 blocks
+==13409==                         newarray           : 4,264 bytes in 1 blocks
+==13409==         suppressed: 0 bytes in 0 blocks
+==13409== Reachable blocks (those to which a pointer was found) are not shown.
+==13409== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13409== 
+==13409== For counts of detected and suppressed errors, rerun with: -v
+==13409== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+k1 values: -2.73049e-219
+k2 values: -3.80426e+62
+k3 values: -6.16021e-142
+uni_rand values:   3.5468e+263 -2.1280e+178  2.3518e+232  -3.6603e-17 -2.5625e-300  1.1279e-165  2.4389e+150  -9.5525e+67
+ -4.4621e-119   7.7064e+55  -9.7423e-51 -1.2945e-236  2.1276e+250  2.8379e-300 -1.1387e-287  9.9650e+165
+  1.0730e+159 -1.5092e+108  1.8704e+230  -6.3063e-58  2.6542e-157  1.5826e-149 -1.3827e-201 -2.9432e-129
+ -1.4794e-210   4.9334e+06   2.7295e+35 -4.1285e+176  -1.6919e+71 -4.0341e-109 -1.1634e-250  2.1477e+284
+  2.8027e-286 -5.4608e+254  1.6102e-258  1.1785e+222 -1.8711e+110  -2.3262e-17 -9.0694e-218   3.2849e+16
+  1.4439e-170  7.1719e+285  -1.3624e+62 -9.5636e+286  1.8256e+185  1.9497e+251  -8.8527e+61  1.9136e+138
+  1.6615e-202  5.1642e+104  3.1419e+239  1.3942e+220  2.7737e+184  1.1335e-300  -2.3364e+05  5.9125e-179
+   3.9387e-50   4.2483e+15  -1.8766e+58  -2.0166e-96   2.0713e-60  5.8050e+220 -1.7592e-159  -3.2075e-33
+
+ncores values: -148697408
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_output/2f74b5650d3ad0f9415680d7f4cc88ea76f2b57b.fail`
+==13416== 
+==13416== HEAP SUMMARY:
+==13416==     in use at exit: 50,294,063 bytes in 9,719 blocks
+==13416==   total heap usage: 27,701 allocs, 17,982 frees, 86,023,914 bytes allocated
+==13416== 
+==13416== 37 bytes in 1 blocks are definitely lost in loss record 20 of 1,312
+==13416==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13416==    by 0x40BFA4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13416==    by 0x412E77: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==13416==    by 0x45BE2A: operator() (Mat_meat.hpp:5933)
+==13416==    by 0x45BE2A: vmcos_var_corr_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:880)
+==13416==    by 0x45CDD1: vmcos_var_cor_singlepar_cpp(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:977)
+==13416==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13416==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13416==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417A1A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417B2F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416== 
+==13416== 61 bytes in 1 blocks are possibly lost in loss record 32 of 1,312
+==13416==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13416==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13416==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13416==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13416==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13416==    by 0x40BFB6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13416==    by 0x412E77: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==13416==    by 0x45BE2A: operator() (Mat_meat.hpp:5933)
+==13416==    by 0x45BE2A: vmcos_var_corr_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:880)
+==13416==    by 0x45CDD1: vmcos_var_cor_singlepar_cpp(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:977)
+==13416==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13416==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13416== 
+==13416== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,312
+==13416==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13416==    by 0x40BF69: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13416==    by 0x412E77: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==13416==    by 0x45BE2A: operator() (Mat_meat.hpp:5933)
+==13416==    by 0x45BE2A: vmcos_var_corr_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:880)
+==13416==    by 0x45CDD1: vmcos_var_cor_singlepar_cpp(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:977)
+==13416==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13416==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13416==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417A1A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417B2F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416== 
+==13416== 512 bytes in 1 blocks are definitely lost in loss record 123 of 1,312
+==13416==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x4108A7: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==13416==    by 0x410773: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==13416==    by 0x40F061: arma::Mat<double>::Mat(unsigned long long, unsigned long long) (Mat_meat.hpp:68)
+==13416==    by 0x40B3B0: RcppDeepState_mat() (RcppDeepState.h:103)
+==13416==    by 0x40BAAE: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:29)
+==13416==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13416==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417A1A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417B2F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416== 
+==13416== 512 bytes in 1 blocks are definitely lost in loss record 124 of 1,312
+==13416==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x4108A7: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==13416==    by 0x410773: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==13416==    by 0x40F607: arma::Mat<double>::Mat(arma::Mat<double> const&) (Mat_meat.hpp:794)
+==13416==    by 0x40BCD8: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13416==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13416==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417A1A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417B2F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416== 
+==13416== 512 bytes in 1 blocks are definitely lost in loss record 125 of 1,312
+==13416==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13416==    by 0x4108A7: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==13416==    by 0x410773: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==13416==    by 0x40F607: arma::Mat<double>::Mat(arma::Mat<double> const&) (Mat_meat.hpp:794)
+==13416==    by 0x45CDA3: vmcos_var_cor_singlepar_cpp(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:977)
+==13416==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:41)
+==13416==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test() (vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp:7)
+==13416==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417A1A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x417B2F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness)
+==13416== 
+==13416== LEAK SUMMARY:
+==13416==    definitely lost: 1,573 bytes in 4 blocks
+==13416==    indirectly lost: 0 bytes in 0 blocks
+==13416==      possibly lost: 205 bytes in 2 blocks
+==13416==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13416==                       of which reachable via heuristic:
+==13416==                         stdstring          : 61 bytes in 1 blocks
+==13416==                         newarray           : 4,264 bytes in 1 blocks
+==13416==         suppressed: 0 bytes in 0 blocks
+==13416== Reachable blocks (those to which a pointer was found) are not shown.
+==13416== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13416== 
+==13416== For counts of detected and suppressed errors, rerun with: -v
+==13416== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==13408== 
+==13408== HEAP SUMMARY:
+==13408==     in use at exit: 8 bytes in 1 blocks
+==13408==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13408== 
+==13408== LEAK SUMMARY:
+==13408==    definitely lost: 0 bytes in 0 blocks
+==13408==    indirectly lost: 0 bytes in 0 blocks
+==13408==      possibly lost: 0 bytes in 0 blocks
+==13408==    still reachable: 8 bytes in 1 blocks
+==13408==         suppressed: 0 bytes in 0 blocks
+==13408== Reachable blocks (those to which a pointer was found) are not shown.
+==13408== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13408== 
+==13408== For counts of detected and suppressed errors, rerun with: -v
+==13408== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

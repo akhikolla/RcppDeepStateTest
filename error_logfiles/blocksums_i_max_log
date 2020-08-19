@@ -1,0 +1,126 @@
+==8124== Memcheck, a memory error detector
+==8124== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==8124== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==8124== Command: ./blocksums_i_max_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_output
+==8124== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597712848
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blocksums_i_max_test)
+x values: -2147483648 -2147483648 355188628 -345882450 56217173 -2147483648 -2147483648 -2147483648 -37887000 -2147483648 -1375190817 -2147483648 -2147483648 -2147483648 -772474384 -2147483648 -2147483648 571388609 -2147483648 -525619278 -2147483648 -2147483648 -2147483648 829402433 1818280013 -2147483648 -2147483648 -1189221501 404534191 -2147483648 24481816 -2147483648 -248559310 -732455023 -2147483648 -2147483648 277023517 -2147483648 -2147483648 1994738246 914185181 -2147483648 -173302926 -2147483648 -2147483648 -2147483648 -2147483648 1936893293 -2147483648 -2147483648 1444828489 724866955 -550825480 -2147483648 -850705373 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -1901580433 -1944763788
+window values: 860568445
+inputends
+==8125== Invalid read of size 4
+==8125==    at 0x42962F: blocksums_i_max(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (blocksums_c.cpp:38)
+==8125==    by 0x409A4A: DeepState_Test_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:22)
+==8125==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:7)
+==8125==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x4146CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x4147DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==  Address 0xb9de7f0 is 0 bytes after a block of size 304 alloc'd
+==8125==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==8125==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==8125==    by 0x40CA5D: Rcpp::Vector<13, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==8125==    by 0x408B54: RcppDeepState_IntegerVector() (RcppDeepState.h:52)
+==8125==    by 0x409870: DeepState_Test_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:11)
+==8125==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:7)
+==8125==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x4146CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x4147DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125== 
+==8125== 
+==8125== Process terminating with default action of signal 11 (SIGSEGV)
+==8125==  Bad permissions for mapped region at address 0xD4CC000
+==8125==    at 0x42962F: blocksums_i_max(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (blocksums_c.cpp:38)
+==8125==    by 0x409A4A: DeepState_Test_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:22)
+==8125==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:7)
+==8125==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x4146CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x4147DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8125== 
+==8125== HEAP SUMMARY:
+==8125==     in use at exit: 50,316,409 bytes in 9,735 blocks
+==8125==   total heap usage: 27,686 allocs, 17,951 frees, 85,991,352 bytes allocated
+==8125== 
+==8125== LEAK SUMMARY:
+==8125==    definitely lost: 0 bytes in 0 blocks
+==8125==    indirectly lost: 0 bytes in 0 blocks
+==8125==      possibly lost: 0 bytes in 0 blocks
+==8125==    still reachable: 50,316,409 bytes in 9,735 blocks
+==8125==                       of which reachable via heuristic:
+==8125==                         newarray           : 4,264 bytes in 1 blocks
+==8125==         suppressed: 0 bytes in 0 blocks
+==8125== Reachable blocks (those to which a pointer was found) are not shown.
+==8125== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==8125== 
+==8125== For counts of detected and suppressed errors, rerun with: -v
+==8125== ERROR SUMMARY: 2848547 errors from 1 contexts (suppressed: 0 from 0)
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_i_max_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_output/3602bec8a2f82780b874464a83e98ceb2eddca66.crash`
+x values: -2147483648 -2147483648 1134305019 -1962633033 595446031 -2147483648 40160838 2035843844 -2147483648 644856634 -2147483648 139291657 -2147483648 -2147483648 480601154 -2147483648 -2147483648 -2147483648 -1238275652 -2147483648 -2147483648 -1301400829 -2147483648 454968785 -810677406 -2147483648 1906082250 -2147483648 1315240350 893404162 -2147483648 -1740336617 1959293634 -2147483648 -714790065 -1151804845 -1324145627 21514228 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 657619702 -2147483648 -1890087310 -2147483648 1582415174 -2147483648 61604119 -2147483648 -1681007336
+window values: -1950894871
+inputends
+==8531== Invalid read of size 4
+==8531==    at 0x429685: blocksums_i_max(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (blocksums_c.cpp:46)
+==8531==    by 0x409A4A: DeepState_Test_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:22)
+==8531==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:7)
+==8531==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==    by 0x4146CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==    by 0x4147DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==  Address 0xfffffffe3a868b34 is not stack'd, malloc'd or (recently) free'd
+==8531== 
+==8531== 
+==8531== Process terminating with default action of signal 11 (SIGSEGV)
+==8531==  Access not within mapped region at address 0xFFFFFFFE3A868B34
+==8531==    at 0x429685: blocksums_i_max(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (blocksums_c.cpp:46)
+==8531==    by 0x409A4A: DeepState_Test_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:22)
+==8531==    by 0x409818: DeepState_Run_accelerometry_deepstate_test_blocksums_i_max_test() (blocksums_i_max_DeepState_TestHarness.cpp:7)
+==8531==    by 0x406303: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==    by 0x4146CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==    by 0x4147DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==    by 0x406E4D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness)
+==8531==  If you believe this happened as a result of a stack
+==8531==  overflow in your program's main thread (unlikely but
+==8531==  possible), you can try to increase the size of the
+==8531==  main thread stack using the --main-stacksize= flag.
+==8531==  The main thread stack size used in this run was 8388608.
+==8531== 
+==8531== HEAP SUMMARY:
+==8531==     in use at exit: 50,316,369 bytes in 9,735 blocks
+==8531==   total heap usage: 27,689 allocs, 17,954 frees, 85,996,121 bytes allocated
+==8531== 
+==8531== LEAK SUMMARY:
+==8531==    definitely lost: 0 bytes in 0 blocks
+==8531==    indirectly lost: 0 bytes in 0 blocks
+==8531==      possibly lost: 0 bytes in 0 blocks
+==8531==    still reachable: 50,316,369 bytes in 9,735 blocks
+==8531==                       of which reachable via heuristic:
+==8531==                         newarray           : 4,264 bytes in 1 blocks
+==8531==         suppressed: 0 bytes in 0 blocks
+==8531== Reachable blocks (those to which a pointer was found) are not shown.
+==8531== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==8531== 
+==8531== For counts of detected and suppressed errors, rerun with: -v
+==8531== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_i_max_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_output/41095f4a6d67d0b212e415d005947cabda4298d0.crash`
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==8124== 
+==8124== HEAP SUMMARY:
+==8124==     in use at exit: 8 bytes in 1 blocks
+==8124==   total heap usage: 11 allocs, 10 frees, 117,226 bytes allocated
+==8124== 
+==8124== LEAK SUMMARY:
+==8124==    definitely lost: 0 bytes in 0 blocks
+==8124==    indirectly lost: 0 bytes in 0 blocks
+==8124==      possibly lost: 0 bytes in 0 blocks
+==8124==    still reachable: 8 bytes in 1 blocks
+==8124==         suppressed: 0 bytes in 0 blocks
+==8124== Reachable blocks (those to which a pointer was found) are not shown.
+==8124== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==8124== 
+==8124== For counts of detected and suppressed errors, rerun with: -v
+==8124== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
