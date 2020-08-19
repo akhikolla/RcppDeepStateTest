@@ -1,0 +1,47 @@
+==11454== Memcheck, a memory error detector
+==11454== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11454== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11454== Command: ./lpm_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BalancedSampling/inst/testfiles/lpm/lpm_output
+==11454== 
+==11454== Invalid read of size 8
+==11454==    at 0x4FBB8FD: Rf_install (names.c:1230)
+==11454==    by 0x43150F: Rcpp::Function_Impl<Rcpp::PreserveStorage>::get_function(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, SEXPREC*) (Function.h:110)
+==11454==    by 0x430613: Rcpp::Function_Impl<Rcpp::PreserveStorage>::Function_Impl(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (Function.h:62)
+==11454==    by 0x4076C0: __cxx_global_var_init.4 (cube.cpp:11)
+==11454==    by 0x40775C: _GLOBAL__sub_I_cube.cpp (cube.cpp:0)
+==11454==    by 0x43932C: __libc_csu_init (in /home/akhila/Documents/compileAttributescheck/BalancedSampling/inst/testfiles/lpm/lpm_DeepState_TestHarness)
+==11454==    by 0x6049B27: (below main) (libc-start.c:266)
+==11454==  Address 0x269c8 is not stack'd, malloc'd or (recently) free'd
+==11454== 
+==11454== 
+==11454== Process terminating with default action of signal 11 (SIGSEGV)
+==11454==  Access not within mapped region at address 0x269C8
+==11454==    at 0x4FBB8FD: Rf_install (names.c:1230)
+==11454==    by 0x43150F: Rcpp::Function_Impl<Rcpp::PreserveStorage>::get_function(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, SEXPREC*) (Function.h:110)
+==11454==    by 0x430613: Rcpp::Function_Impl<Rcpp::PreserveStorage>::Function_Impl(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (Function.h:62)
+==11454==    by 0x4076C0: __cxx_global_var_init.4 (cube.cpp:11)
+==11454==    by 0x40775C: _GLOBAL__sub_I_cube.cpp (cube.cpp:0)
+==11454==    by 0x43932C: __libc_csu_init (in /home/akhila/Documents/compileAttributescheck/BalancedSampling/inst/testfiles/lpm/lpm_DeepState_TestHarness)
+==11454==    by 0x6049B27: (below main) (libc-start.c:266)
+==11454==  If you believe this happened as a result of a stack
+==11454==  overflow in your program's main thread (unlikely but
+==11454==  possible), you can try to increase the size of the
+==11454==  main thread stack using the --main-stacksize= flag.
+==11454==  The main thread stack size used in this run was 8388608.
+==11454== 
+==11454== HEAP SUMMARY:
+==11454==     in use at exit: 1,048 bytes in 2 blocks
+==11454==   total heap usage: 4 allocs, 2 frees, 106,568 bytes allocated
+==11454== 
+==11454== LEAK SUMMARY:
+==11454==    definitely lost: 0 bytes in 0 blocks
+==11454==    indirectly lost: 0 bytes in 0 blocks
+==11454==      possibly lost: 0 bytes in 0 blocks
+==11454==    still reachable: 1,048 bytes in 2 blocks
+==11454==         suppressed: 0 bytes in 0 blocks
+==11454== Reachable blocks (those to which a pointer was found) are not shown.
+==11454== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11454== 
+==11454== For counts of detected and suppressed errors, rerun with: -v
+==11454== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+Segmentation fault (core dumped)

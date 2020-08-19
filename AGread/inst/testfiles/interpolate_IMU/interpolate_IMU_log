@@ -1,0 +1,54 @@
+==11202== Memcheck, a memory error detector
+==11202== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11202== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11202== Command: ./interpolate_IMU_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/interpolate_IMU/interpolate_IMU_output
+==11202== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597717998
+WARNING: No test specified, defaulting to first test defined (AGread_deepstate_test_interpolate_IMU_test)
+original_samples values: inf inf inf inf -2.86205e+275 -inf -inf 6.74767e+71 nan inf inf nan -inf nan inf inf nan nan nan nan inf 1.75476e-141 nan inf nan -inf inf inf nan nan nan -5.2796e-280 nan inf nan nan inf inf -1.91931e+284 0
+target_frequency values: -1803842700
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+==11203== 
+==11203== HEAP SUMMARY:
+==11203==     in use at exit: 50,292,653 bytes in 9,714 blocks
+==11203==   total heap usage: 27,801 allocs, 18,087 frees, 85,999,409 bytes allocated
+==11203== 
+==11203== LEAK SUMMARY:
+==11203==    definitely lost: 0 bytes in 0 blocks
+==11203==    indirectly lost: 0 bytes in 0 blocks
+==11203==      possibly lost: 0 bytes in 0 blocks
+==11203==    still reachable: 50,292,653 bytes in 9,714 blocks
+==11203==                       of which reachable via heuristic:
+==11203==                         newarray           : 4,264 bytes in 1 blocks
+==11203==         suppressed: 0 bytes in 0 blocks
+==11203== Reachable blocks (those to which a pointer was found) are not shown.
+==11203== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11203== 
+==11203== For counts of detected and suppressed errors, rerun with: -v
+==11203== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+original_samples values: 2.52665e-76 nan 6.0148e-110 inf -inf -1.5657e+174 inf nan inf -1.73639e-239 2.57966e-229 nan inf inf nan -inf nan nan nan -inf 9.64288e+182 nan inf inf -inf nan nan nan -8.27484e-26 -inf inf -inf inf nan inf inf nan nan nan -8.30149e+282 inf nan -8.6873e+74 -inf -1.13282e+292 nan -inf inf nan nan -inf inf nan 1.51427e+48 inf nan -inf nan nan -inf nan nan -inf -1.73792e-212 nan inf -inf nan -inf nan -inf inf nan nan 0
+target_frequency values: 559900206
+==11208== Warning: set address range perms: large range [0x59e43040, 0x164df61e0) (undefined)
+ERROR: Crashed: AGread_deepstate_test_interpolate_IMU_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/interpolate_IMU/interpolate_IMU_output/cfe7faa9939256c2753ad7f07bb47c73b6bb054a.crash`
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==11202== 
+==11202== HEAP SUMMARY:
+==11202==     in use at exit: 8 bytes in 1 blocks
+==11202==   total heap usage: 8 allocs, 7 frees, 112,410 bytes allocated
+==11202== 
+==11202== LEAK SUMMARY:
+==11202==    definitely lost: 0 bytes in 0 blocks
+==11202==    indirectly lost: 0 bytes in 0 blocks
+==11202==      possibly lost: 0 bytes in 0 blocks
+==11202==    still reachable: 8 bytes in 1 blocks
+==11202==         suppressed: 0 bytes in 0 blocks
+==11202== Reachable blocks (those to which a pointer was found) are not shown.
+==11202== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11202== 
+==11202== For counts of detected and suppressed errors, rerun with: -v
+==11202== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

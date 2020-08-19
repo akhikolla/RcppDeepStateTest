@@ -1,0 +1,65 @@
+==9744== Memcheck, a memory error detector
+==9744== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==9744== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==9744== Command: ./IJDefault_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/IJDefault/IJDefault_output
+==9744== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597775674
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_IJDefault_test)
+data values: -2147483648 -1720070054 -2147483648 -738913397 -704197112 -439901570 -2147483648 -1972979618 -2147483648 -2147483648 -2147483648 1427083926 -2147483648 1940865230 934995274 -2147483648 465897629 -275027358 -729610229 -2147483648 -2147483648 1158920054 -2147483648 326698215 -2147483648 -2147483648 840651895 1726745180 -878686009 -2147483648 422445132 1622252743 -121611581 -2147483648 -2147483648 37639755 -2147483648 115235583 1598884940 -1811819626 1134937358 1590692860 436613362 -192024013 2060126591 -2147483648 -2147483648 -1494650771 -2147483648 -2147483648 -713848288 -1402071280 -2147483648 720005090 -2147483648 801860129 -2147483648 -2147483648 -2147483648 1845638932 -2147483648 1486394681 -2147483648 -2147483648 -2147483648 1682277842 -2147483648 2082271048 -2147483648 1360159316 -2147483648 -2147483648 -2147483648 958204495 -1826187804 -2147483648 1177722720 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -980228329 679325582 -2147483648 2061912973 -861816431 592151627
+input ends
+==9748== 
+==9748== HEAP SUMMARY:
+==9748==     in use at exit: 50,292,693 bytes in 9,714 blocks
+==9748==   total heap usage: 27,686 allocs, 17,972 frees, 85,986,469 bytes allocated
+==9748== 
+==9748== LEAK SUMMARY:
+==9748==    definitely lost: 0 bytes in 0 blocks
+==9748==    indirectly lost: 0 bytes in 0 blocks
+==9748==      possibly lost: 0 bytes in 0 blocks
+==9748==    still reachable: 50,292,693 bytes in 9,714 blocks
+==9748==                       of which reachable via heuristic:
+==9748==                         newarray           : 4,264 bytes in 1 blocks
+==9748==         suppressed: 0 bytes in 0 blocks
+==9748== Reachable blocks (those to which a pointer was found) are not shown.
+==9748== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==9748== 
+==9748== For counts of detected and suppressed errors, rerun with: -v
+==9748== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+data values: -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 39015293 -2147483648 1169454562 1466963618 -2147483648 -2147483648 1065348985 -957989520 -1959124986 -2147483648 -2147483648 -1139538479 -2147483648 -2088697330 1463986115 1373613581 722143112 -2147483648 -2147483648 1557285682 -2147483648 -2147483648 821586596 -2052922442 -2147483648 -2147483648 -1572320679 883311504 -2118756035 564228015 -2147483648 -1485256997 -2147483648 -2147483648 -2147483648 -2147483648 1103217659 2045358231 -2147483648 -2147483648 -379017592 -2147483648 -2147483648 -2147483648 -2147483648 -1047233111 -2147483648 1247453008 -2147483648 1117101590 -2118054143 1952209599 -2147483648 508158304 1824189165 1767438045 1252829527 -2147483648 -2147483648 -2147483648 716450963 1930243774 1898075476 1180391477 -2147483648 -306601375 -2147483648 -2147483648 -2147483648 -2147483648 1559830575 -2147483648 -2147483648 -2147483648 -1448139896 1191672996 98792742 -1183564001 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -104311630 346851909 -2147483648 -2147483648 -1113050521
+input ends
+==9761== 
+==9761== HEAP SUMMARY:
+==9761==     in use at exit: 50,292,716 bytes in 9,714 blocks
+==9761==   total heap usage: 27,686 allocs, 17,972 frees, 85,986,492 bytes allocated
+==9761== 
+==9761== LEAK SUMMARY:
+==9761==    definitely lost: 0 bytes in 0 blocks
+==9761==    indirectly lost: 0 bytes in 0 blocks
+==9761==      possibly lost: 0 bytes in 0 blocks
+==9761==    still reachable: 50,292,716 bytes in 9,714 blocks
+==9761==                       of which reachable via heuristic:
+==9761==                         newarray           : 4,264 bytes in 1 blocks
+==9761==         suppressed: 0 bytes in 0 blocks
+==9761== Reachable blocks (those to which a pointer was found) are not shown.
+==9761== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==9761== 
+==9761== For counts of detected and suppressed errors, rerun with: -v
+==9761== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==9744== 
+==9744== HEAP SUMMARY:
+==9744==     in use at exit: 8 bytes in 1 blocks
+==9744==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==9744== 
+==9744== LEAK SUMMARY:
+==9744==    definitely lost: 0 bytes in 0 blocks
+==9744==    indirectly lost: 0 bytes in 0 blocks
+==9744==      possibly lost: 0 bytes in 0 blocks
+==9744==    still reachable: 8 bytes in 1 blocks
+==9744==         suppressed: 0 bytes in 0 blocks
+==9744== Reachable blocks (those to which a pointer was found) are not shown.
+==9744== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==9744== 
+==9744== For counts of detected and suppressed errors, rerun with: -v
+==9744== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

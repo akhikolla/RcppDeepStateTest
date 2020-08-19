@@ -1,0 +1,65 @@
+==14302== Memcheck, a memory error detector
+==14302== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14302== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==14302== Command: ./diff_rcpp_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/amt/inst/testfiles/diff_rcpp/diff_rcpp_output
+==14302== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597735330
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_diff_rcpp_test)
+xs values: 3.86175e+157 inf inf inf nan inf inf inf -inf inf nan -inf 1.02031e+259 -4.4305e-128 inf nan inf -inf 5.63099e+28 -1.67895e-45 nan inf 1.80377e-17 -7.01861e-16 nan nan -inf nan inf -4.88098e+192 -inf -inf -inf -1.69395e-187 nan -1.28927e-293 inf nan nan nan nan -inf nan nan inf -inf nan -6.25074e-97 2.90809e+290 -0.00242637 inf -inf nan -9.27254e+101 -inf nan nan inf 0
+input ends
+==14303== 
+==14303== HEAP SUMMARY:
+==14303==     in use at exit: 50,293,317 bytes in 9,715 blocks
+==14303==   total heap usage: 27,688 allocs, 17,973 frees, 85,988,122 bytes allocated
+==14303== 
+==14303== LEAK SUMMARY:
+==14303==    definitely lost: 0 bytes in 0 blocks
+==14303==    indirectly lost: 0 bytes in 0 blocks
+==14303==      possibly lost: 0 bytes in 0 blocks
+==14303==    still reachable: 50,293,317 bytes in 9,715 blocks
+==14303==                       of which reachable via heuristic:
+==14303==                         newarray           : 4,264 bytes in 1 blocks
+==14303==         suppressed: 0 bytes in 0 blocks
+==14303== Reachable blocks (those to which a pointer was found) are not shown.
+==14303== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14303== 
+==14303== For counts of detected and suppressed errors, rerun with: -v
+==14303== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+xs values: nan -inf -inf -inf inf nan -inf -inf nan nan nan inf nan 6.23378e-63 4.32306e-74 nan -4.43278e-92 nan 2.0806e+92 -inf -inf inf nan inf inf -inf 9.53321e+256 nan nan inf nan nan -inf inf inf -inf -1.57568e-212 -inf -inf -1.82895e+245 inf nan 2.75371e+13 -2.25274e+171 -inf -inf inf nan nan nan 2.91816e+59 -4.3031e+262 nan 3.51643e+265 -inf nan nan -1.74623e+33 nan inf -inf inf 5.29605e-155 nan 1.79229e+299 5.42451e+22 nan 1.06153e+289 2.1727e-262 inf 2.97685e+168 8.30757e+139 5.32583e+138 nan 2.99915e-300 -inf -5.74444e-38 -inf inf nan nan inf 0
+input ends
+==14308== 
+==14308== HEAP SUMMARY:
+==14308==     in use at exit: 50,293,701 bytes in 9,715 blocks
+==14308==   total heap usage: 27,688 allocs, 17,973 frees, 85,988,506 bytes allocated
+==14308== 
+==14308== LEAK SUMMARY:
+==14308==    definitely lost: 0 bytes in 0 blocks
+==14308==    indirectly lost: 0 bytes in 0 blocks
+==14308==      possibly lost: 0 bytes in 0 blocks
+==14308==    still reachable: 50,293,701 bytes in 9,715 blocks
+==14308==                       of which reachable via heuristic:
+==14308==                         newarray           : 4,264 bytes in 1 blocks
+==14308==         suppressed: 0 bytes in 0 blocks
+==14308== Reachable blocks (those to which a pointer was found) are not shown.
+==14308== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14308== 
+==14308== For counts of detected and suppressed errors, rerun with: -v
+==14308== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==14302== 
+==14302== HEAP SUMMARY:
+==14302==     in use at exit: 8 bytes in 1 blocks
+==14302==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==14302== 
+==14302== LEAK SUMMARY:
+==14302==    definitely lost: 0 bytes in 0 blocks
+==14302==    indirectly lost: 0 bytes in 0 blocks
+==14302==      possibly lost: 0 bytes in 0 blocks
+==14302==    still reachable: 8 bytes in 1 blocks
+==14302==         suppressed: 0 bytes in 0 blocks
+==14302== Reachable blocks (those to which a pointer was found) are not shown.
+==14302== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14302== 
+==14302== For counts of detected and suppressed errors, rerun with: -v
+==14302== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

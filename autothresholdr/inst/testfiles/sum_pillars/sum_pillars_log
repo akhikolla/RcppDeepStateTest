@@ -1,0 +1,48 @@
+==10259== Memcheck, a memory error detector
+==10259== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10259== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10259== Command: ./sum_pillars_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/sum_pillars/sum_pillars_output
+==10259== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597780393
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_sum_pillars_test)
+arr3d values: inf nan nan nan -inf inf -inf nan inf nan -6.11608e+63 nan 4.9002e-274 nan -inf nan 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_sum_pillars_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/sum_pillars/sum_pillars_output/d7e87dd29db73ff33b70da16dfdfe16c844f112b.fail`
+==10260== 
+==10260== HEAP SUMMARY:
+==10260==     in use at exit: 50,292,469 bytes in 9,714 blocks
+==10260==   total heap usage: 27,686 allocs, 17,972 frees, 85,986,249 bytes allocated
+==10260== 
+==10260== LEAK SUMMARY:
+==10260==    definitely lost: 0 bytes in 0 blocks
+==10260==    indirectly lost: 0 bytes in 0 blocks
+==10260==      possibly lost: 0 bytes in 0 blocks
+==10260==    still reachable: 50,292,469 bytes in 9,714 blocks
+==10260==                       of which reachable via heuristic:
+==10260==                         newarray           : 4,264 bytes in 1 blocks
+==10260==         suppressed: 0 bytes in 0 blocks
+==10260== Reachable blocks (those to which a pointer was found) are not shown.
+==10260== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10260== 
+==10260== For counts of detected and suppressed errors, rerun with: -v
+==10260== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 1 failed/0 passed/0 abandoned tests
+==10259== 
+==10259== HEAP SUMMARY:
+==10259==     in use at exit: 8 bytes in 1 blocks
+==10259==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==10259== 
+==10259== LEAK SUMMARY:
+==10259==    definitely lost: 0 bytes in 0 blocks
+==10259==    indirectly lost: 0 bytes in 0 blocks
+==10259==      possibly lost: 0 bytes in 0 blocks
+==10259==    still reachable: 8 bytes in 1 blocks
+==10259==         suppressed: 0 bytes in 0 blocks
+==10259== Reachable blocks (those to which a pointer was found) are not shown.
+==10259== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10259== 
+==10259== For counts of detected and suppressed errors, rerun with: -v
+==10259== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

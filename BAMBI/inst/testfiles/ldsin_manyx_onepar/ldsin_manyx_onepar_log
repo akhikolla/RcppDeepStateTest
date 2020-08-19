@@ -1,0 +1,101 @@
+==13745== Memcheck, a memory error detector
+==13745== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13745== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13745== Command: ./ldsin_manyx_onepar_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_output
+==13745== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597796106
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_ldsin_manyx_onepar_test)
+x values:   -1.6890e-78 -1.0337e-110 -3.3332e+132  -1.2412e+09  2.0292e-135  -1.4274e+23
+ -6.8837e+183 -6.7473e-162 -2.0455e+288  -1.8590e-52  3.6922e+300 -1.6162e-266
+
+k1 values: 1.60722e-20
+k2 values: 6.21596e+215
+k3 values: 1.1561e-204
+mu1 values: 4.39232e+229
+mu2 values: -1.93583e-109
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_ldsin_manyx_onepar_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_output/7e7756a727d5374915fa504316bf03671de738e5.fail`
+==13748== 
+==13748== HEAP SUMMARY:
+==13748==     in use at exit: 50,300,495 bytes in 9,717 blocks
+==13748==   total heap usage: 27,701 allocs, 17,984 frees, 86,039,072 bytes allocated
+==13748== 
+==13748== 41 bytes in 1 blocks are definitely lost in loss record 22 of 1,310
+==13748==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13748==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13748==    by 0x40C0B4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13748==    by 0x4108BA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13748==    by 0x4107FC: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13748==    by 0x4470E4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==13748==    by 0x44704D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==13748==    by 0x46AAAD: ldsin_manyx_onepar(arma::Mat<double>, double, double, double, double, double) (vmsin_llik_grad.cpp:1104)
+==13748==    by 0x40BDEC: DeepState_Test_BAMBI_deepstate_test_ldsin_manyx_onepar_test() (ldsin_manyx_onepar_DeepState_TestHarness.cpp:47)
+==13748==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_ldsin_manyx_onepar_test() (ldsin_manyx_onepar_DeepState_TestHarness.cpp:7)
+==13748==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_DeepState_TestHarness)
+==13748==    by 0x417AAA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_DeepState_TestHarness)
+==13748== 
+==13748== 65 bytes in 1 blocks are possibly lost in loss record 33 of 1,310
+==13748==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13748==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13748==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13748==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13748==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13748==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13748==    by 0x40C0C6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13748==    by 0x4108BA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13748==    by 0x4107FC: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13748==    by 0x4470E4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==13748==    by 0x44704D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==13748==    by 0x46AAAD: ldsin_manyx_onepar(arma::Mat<double>, double, double, double, double, double) (vmsin_llik_grad.cpp:1104)
+==13748== 
+==13748== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,310
+==13748==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13748==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==13748==    by 0x40C079: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==13748==    by 0x4108BA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==13748==    by 0x4107FC: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==13748==    by 0x4470E4: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==13748==    by 0x44704D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==13748==    by 0x46AAAD: ldsin_manyx_onepar(arma::Mat<double>, double, double, double, double, double) (vmsin_llik_grad.cpp:1104)
+==13748==    by 0x40BDEC: DeepState_Test_BAMBI_deepstate_test_ldsin_manyx_onepar_test() (ldsin_manyx_onepar_DeepState_TestHarness.cpp:47)
+==13748==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_ldsin_manyx_onepar_test() (ldsin_manyx_onepar_DeepState_TestHarness.cpp:7)
+==13748==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_DeepState_TestHarness)
+==13748==    by 0x417AAA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_DeepState_TestHarness)
+==13748== 
+==13748== LEAK SUMMARY:
+==13748==    definitely lost: 41 bytes in 1 blocks
+==13748==    indirectly lost: 0 bytes in 0 blocks
+==13748==      possibly lost: 209 bytes in 2 blocks
+==13748==    still reachable: 50,300,245 bytes in 9,714 blocks
+==13748==                       of which reachable via heuristic:
+==13748==                         stdstring          : 65 bytes in 1 blocks
+==13748==                         newarray           : 4,264 bytes in 1 blocks
+==13748==         suppressed: 0 bytes in 0 blocks
+==13748== Reachable blocks (those to which a pointer was found) are not shown.
+==13748== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13748== 
+==13748== For counts of detected and suppressed errors, rerun with: -v
+==13748== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 1 failed/0 passed/0 abandoned tests
+==13745== 
+==13745== HEAP SUMMARY:
+==13745==     in use at exit: 8 bytes in 1 blocks
+==13745==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13745== 
+==13745== LEAK SUMMARY:
+==13745==    definitely lost: 0 bytes in 0 blocks
+==13745==    indirectly lost: 0 bytes in 0 blocks
+==13745==      possibly lost: 0 bytes in 0 blocks
+==13745==    still reachable: 8 bytes in 1 blocks
+==13745==         suppressed: 0 bytes in 0 blocks
+==13745== Reachable blocks (those to which a pointer was found) are not shown.
+==13745== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13745== 
+==13745== For counts of detected and suppressed errors, rerun with: -v
+==13745== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

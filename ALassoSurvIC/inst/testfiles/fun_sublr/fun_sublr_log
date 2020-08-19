@@ -1,0 +1,141 @@
+==11445== Memcheck, a memory error detector
+==11445== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11445== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11445== Command: ./fun_sublr_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/ALassoSurvIC/inst/testfiles/fun_sublr/fun_sublr_output
+==11445== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597718718
+WARNING: No test specified, defaulting to first test defined (ALassoSurvIC_deepstate_test_fun_sublr_test)
+u values: 2.98799e+143 -3.76548e-172 -inf nan -inf nan inf nan nan -0.173797 inf nan nan inf -inf -6.90948e+23 9.39195e+239 nan -inf -inf -inf nan -5.05104e-105 nan nan 0
+l values: nan -inf nan 5.20782e+231 nan inf nan inf -7.53835e-82 -1.22025e+231 nan nan nan inf nan inf -2.00959e-215 nan -5.83782e+37 inf 1.34651e-194 7.58315e+163 inf nan nan 0
+r values: nan -2.79241e-273 nan 2.62958e+144 nan nan -inf -2.01302e+173 -inf -inf -2.36286e-252 -3.71188e-102 nan nan nan nan 0
+inputends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=17; extent=17].
+ERROR: Failed: ALassoSurvIC_deepstate_test_fun_sublr_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/ALassoSurvIC/inst/testfiles/fun_sublr/fun_sublr_output/acc4d69945063dbcaf7d7ce57acaeec8a9c7f513.fail`
+==11446== 
+==11446== HEAP SUMMARY:
+==11446==     in use at exit: 50,295,945 bytes in 9,719 blocks
+==11446==   total heap usage: 27,698 allocs, 17,979 frees, 86,007,760 bytes allocated
+==11446== 
+==11446== 44 bytes in 1 blocks are possibly lost in loss record 24 of 1,312
+==11446==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11446==    by 0x580DB8A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11446==    by 0x580E94A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11446==    by 0x5805136: std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::str() const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11446==    by 0x420BA2: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > tinyformat::format<long, long>(char const*, long const&, long const&) (tinyformat.h:976)
+==11446==    by 0x420AAC: Rcpp::index_out_of_bounds::index_out_of_bounds<long const&, long>(char const*, long const&, long&&) (exceptions.h:231)
+==11446==    by 0x4209E4: Rcpp::Vector<14, Rcpp::PreserveStorage>::offset(long const&) const (Vector.h:306)
+==11446==    by 0x4202F8: Rcpp::Vector<14, Rcpp::PreserveStorage>::operator()(unsigned long const&) (Vector.h:345)
+==11446==    by 0x421120: fun_sublr(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (fun_sublr.cpp:18)
+==11446==    by 0x408EB0: DeepState_Test_ALassoSurvIC_deepstate_test_fun_sublr_test() (fun_sublr_DeepState_TestHarness.cpp:28)
+==11446==    by 0x408B68: DeepState_Run_ALassoSurvIC_deepstate_test_fun_sublr_test() (fun_sublr_DeepState_TestHarness.cpp:7)
+==11446==    by 0x406153: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ALassoSurvIC/inst/testfiles/fun_sublr/fun_sublr_DeepState_TestHarness)
+==11446== 
+==11446== 168 bytes in 1 blocks are possibly lost in loss record 57 of 1,312
+==11446==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11446==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11446==    by 0x420985: Rcpp::Vector<14, Rcpp::PreserveStorage>::offset(long const&) const (Vector.h:306)
+==11446==    by 0x4202F8: Rcpp::Vector<14, Rcpp::PreserveStorage>::operator()(unsigned long const&) (Vector.h:345)
+==11446==    by 0x421120: fun_sublr(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (fun_sublr.cpp:18)
+==11446==    by 0x408EB0: DeepState_Test_ALassoSurvIC_deepstate_test_fun_sublr_test() (fun_sublr_DeepState_TestHarness.cpp:28)
+==11446==    by 0x408B68: DeepState_Run_ALassoSurvIC_deepstate_test_fun_sublr_test() (fun_sublr_DeepState_TestHarness.cpp:7)
+==11446==    by 0x406153: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/ALassoSurvIC/inst/testfiles/fun_sublr/fun_sublr_DeepState_TestHarness)
+==11446==    by 0x413C9A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/ALassoSurvIC/inst/testfiles/fun_sublr/fun_sublr_DeepState_TestHarness)
+==11446==    by 0x413DAF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/ALassoSurvIC/inst/testfiles/fun_sublr/fun_sublr_DeepState_TestHarness)
+==11446==    by 0x406C9D: main (in /home/akhila/Documents/compileAttributescheck/ALassoSurvIC/inst/testfiles/fun_sublr/fun_sublr_DeepState_TestHarness)
+==11446== 
+==11446== LEAK SUMMARY:
+==11446==    definitely lost: 0 bytes in 0 blocks
+==11446==    indirectly lost: 0 bytes in 0 blocks
+==11446==      possibly lost: 212 bytes in 2 blocks
+==11446==    still reachable: 50,295,733 bytes in 9,717 blocks
+==11446==                       of which reachable via heuristic:
+==11446==                         newarray           : 4,264 bytes in 1 blocks
+==11446==         suppressed: 0 bytes in 0 blocks
+==11446== Reachable blocks (those to which a pointer was found) are not shown.
+==11446== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11446== 
+==11446== For counts of detected and suppressed errors, rerun with: -v
+==11446== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+u values: nan inf nan -6.11145e-72 inf nan 5.08773e-58 inf nan inf 3.6467e+271 inf -inf nan nan -inf nan nan nan inf nan 1.5278e+30 -inf inf -inf 8.35765e-235 8.91961e-121 -inf -inf inf -4.72239e-167 nan nan nan -inf 1.8263e-124 inf nan nan nan nan nan -1.70443e-199 -1.44609e-111 -2.30013e+92 -1.79904e+34 nan nan nan nan nan nan inf -inf inf -inf -inf nan inf inf -inf -inf -inf nan nan nan 0
+l values: nan nan -inf nan nan inf inf inf inf nan inf nan -inf inf -1.03858e-193 2.02506e+55 -inf -inf nan inf -inf -inf -inf -inf -1.10075e-213 inf nan nan nan nan inf inf -inf 2.58072e+184 nan -inf nan -inf inf nan nan nan nan inf inf inf 5.48921e+47 -inf 3.52683e-79 -inf -inf nan -inf 1.4488e-06 nan 0
+r values: -inf -inf 8.59709e+301 nan nan inf nan -inf nan nan -inf inf -5.06282e+144 -inf inf -inf 9.61835e+185 -inf nan nan -inf nan 1.05172e+157 -inf nan -inf -2.24953e+56 nan inf -inf nan nan 9.43399e-309 -inf -inf 5.49392e+186 nan inf inf nan 5.57581e+141 nan nan -inf nan inf -inf 2.34136e-267 3.04652e+175 nan nan nan 0.0154895 nan -inf 2.19521e-22 nan 1.31819e-177 -5.7973e-270 nan -1.09935e+137 -inf inf inf -6.17362e-113 -4.61013e+203 -inf 2.16516e-253 nan nan -inf nan 1.72713e+126 inf 0
+==11451== 
+==11451== HEAP SUMMARY:
+==11451==     in use at exit: 50,309,069 bytes in 9,717 blocks
+==11451==   total heap usage: 27,694 allocs, 17,977 frees, 86,020,339 bytes allocated
+==11451== 
+==11451== LEAK SUMMARY:
+==11451==    definitely lost: 0 bytes in 0 blocks
+==11451==    indirectly lost: 0 bytes in 0 blocks
+==11451==      possibly lost: 0 bytes in 0 blocks
+==11451==    still reachable: 50,309,069 bytes in 9,717 blocks
+==11451==                       of which reachable via heuristic:
+==11451==                         newarray           : 4,264 bytes in 1 blocks
+==11451==         suppressed: 0 bytes in 0 blocks
+==11451== Reachable blocks (those to which a pointer was found) are not shown.
+==11451== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11451== 
+==11451== For counts of detected and suppressed errors, rerun with: -v
+==11451== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+u values: nan nan nan inf -3.64271e+143 -inf -inf nan nan nan inf -inf -inf 7.28794e+228 -inf -inf 2.1188e-101 nan -inf -inf nan -2.27296e-307 -1.82947e-293 -inf nan nan -1.47525e-111 -inf nan inf -inf -inf nan -inf nan nan nan nan -inf -inf -inf -inf -inf 7.89807e-286 inf 5.57303e-25 -2.7978e+183 nan 2.61223e+200 5.36862e+205 -6.69986e+250 -inf nan nan nan -2.11921e+180 inf 3.29525e+229 -1.16209e-14 nan nan nan nan nan nan inf nan nan nan nan 0
+l values: inf nan nan nan -inf inf nan nan nan inf inf -4.84506e-100 -inf nan inf inf 0
+r values: -inf -inf inf -inf inf 1.11571e+151 -1.16041e-34 inf 2.67781e+191 -inf -8.73551e+299 nan nan nan inf -inf -inf -2.08461e+37 2.02135e+163 3.05798e+243 -inf -2.7219e+248 -1.85109e-158 0
+==11457== 
+==11457== HEAP SUMMARY:
+==11457==     in use at exit: 50,298,205 bytes in 9,717 blocks
+==11457==   total heap usage: 27,694 allocs, 17,977 frees, 86,009,475 bytes allocated
+==11457== 
+==11457== LEAK SUMMARY:
+==11457==    definitely lost: 0 bytes in 0 blocks
+==11457==    indirectly lost: 0 bytes in 0 blocks
+==11457==      possibly lost: 0 bytes in 0 blocks
+==11457==    still reachable: 50,298,205 bytes in 9,717 blocks
+==11457==                       of which reachable via heuristic:
+==11457==                         newarray           : 4,264 bytes in 1 blocks
+==11457==         suppressed: 0 bytes in 0 blocks
+==11457== Reachable blocks (those to which a pointer was found) are not shown.
+==11457== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11457== 
+==11457== For counts of detected and suppressed errors, rerun with: -v
+==11457== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+u values: -inf nan inf nan -inf nan nan -1.59072e-58 -inf -inf nan inf nan -inf 3.01481e+85 nan inf nan inf nan inf 2.99839e-210 nan -inf 2.73573e-245 nan 1.53215e+116 inf nan nan -inf nan nan -inf nan -inf nan nan nan -5.09218e-241 nan 0
+l values: nan 6.0619e+261 3.81326e+205 -inf -inf -inf nan nan nan nan nan -inf 9.06277e-211 -inf -inf -inf nan -inf nan nan -inf -inf inf nan -5.18029e-200 2.68581e+272 inf nan nan -6.82298e-223 2.14249e-90 nan 1.41569e-210 nan -inf nan inf inf -inf -2.5196e-33 -inf nan nan 2.37332e+228 2.34818e+19 -1.14909e-159 -9.43906e+37 1.92138e-174 0
+r values: nan 1.22995e+182 -inf inf -inf -inf nan nan inf -7.86123e-172 nan -inf inf inf inf -9.68444e+97 nan -9.75037e+216 nan 9.00091e+145 -3.18418e+254 inf inf nan -inf -inf 2.30912e+114 nan -1.61981e-09 nan 3.88434e+91 nan nan inf nan inf nan nan nan -inf 8.89104e-159 nan inf inf nan nan nan inf nan 4.30682e-167 nan inf -inf -inf nan inf -inf inf nan -inf inf nan nan 1.36531e+72 nan -6.20183e-52 inf -1.2851e-298 nan -1.72582e-165 -inf nan nan -1.51507e-299 inf inf -3.48638e+116 nan nan nan 0
+==11463== 
+==11463== HEAP SUMMARY:
+==11463==     in use at exit: 50,302,085 bytes in 9,717 blocks
+==11463==   total heap usage: 27,694 allocs, 17,977 frees, 86,013,355 bytes allocated
+==11463== 
+==11463== LEAK SUMMARY:
+==11463==    definitely lost: 0 bytes in 0 blocks
+==11463==    indirectly lost: 0 bytes in 0 blocks
+==11463==      possibly lost: 0 bytes in 0 blocks
+==11463==    still reachable: 50,302,085 bytes in 9,717 blocks
+==11463==                       of which reachable via heuristic:
+==11463==                         newarray           : 4,264 bytes in 1 blocks
+==11463==         suppressed: 0 bytes in 0 blocks
+==11463== Reachable blocks (those to which a pointer was found) are not shown.
+==11463== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11463== 
+==11463== For counts of detected and suppressed errors, rerun with: -v
+==11463== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 4 tests (0 tests/second) with 1 failed/3 passed/0 abandoned tests
+==11445== 
+==11445== HEAP SUMMARY:
+==11445==     in use at exit: 8 bytes in 1 blocks
+==11445==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==11445== 
+==11445== LEAK SUMMARY:
+==11445==    definitely lost: 0 bytes in 0 blocks
+==11445==    indirectly lost: 0 bytes in 0 blocks
+==11445==      possibly lost: 0 bytes in 0 blocks
+==11445==    still reachable: 8 bytes in 1 blocks
+==11445==         suppressed: 0 bytes in 0 blocks
+==11445== Reachable blocks (those to which a pointer was found) are not shown.
+==11445== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11445== 
+==11445== For counts of detected and suppressed errors, rerun with: -v
+==11445== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

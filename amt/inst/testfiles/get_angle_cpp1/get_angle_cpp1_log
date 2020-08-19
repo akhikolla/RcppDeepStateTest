@@ -1,0 +1,82 @@
+==15030== Memcheck, a memory error detector
+==15030== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15030== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==15030== Command: ./get_angle_cpp1_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/amt/inst/testfiles/get_angle_cpp1/get_angle_cpp1_output
+==15030== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597737245
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_get_angle_cpp1_test)
+xy values: 3.15724e+86 -5.43666e-45 1.15060e-271 4.91257e-31 5.70913e-89
+-6.23984e-222 3.91241e-89 -1.53424e-305 5.70062e+158 -1.84214e+166
+-1.69927e+44 -2.39512e+42 -8.33540e-288 -9.60739e+243 1.37956e-120
+1.65613e-10 -7.74522e+233 1.77726e-267 2.35346e-185 -4.45359e+206
+2.22095e-215 4.81113e+296 -2.73001e-143 9.44666e+84 2.75421e+289
+-3.15628e+169 7.92596e-191 -2.44608e+212 -1.50100e-265 -5.49061e+257
+6.25183e-263 -3.39158e-91 -1.50223e-19 8.70442e-177 -66641.4
+5.25186e+249 3.74609e+199 1.48455e-221 -2.49209e+45 -6.20730e+285
+5.05453e+126 6.48408e+152 5.68343e+152 -5.18759e-250 1.47812e-133
+
+dir values: -1.455e-274
+input ends
+==15031== 
+==15031== HEAP SUMMARY:
+==15031==     in use at exit: 50,292,693 bytes in 9,714 blocks
+==15031==   total heap usage: 27,690 allocs, 17,976 frees, 85,996,260 bytes allocated
+==15031== 
+==15031== LEAK SUMMARY:
+==15031==    definitely lost: 0 bytes in 0 blocks
+==15031==    indirectly lost: 0 bytes in 0 blocks
+==15031==      possibly lost: 0 bytes in 0 blocks
+==15031==    still reachable: 50,292,693 bytes in 9,714 blocks
+==15031==                       of which reachable via heuristic:
+==15031==                         newarray           : 4,264 bytes in 1 blocks
+==15031==         suppressed: 0 bytes in 0 blocks
+==15031== Reachable blocks (those to which a pointer was found) are not shown.
+==15031== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==15031== 
+==15031== For counts of detected and suppressed errors, rerun with: -v
+==15031== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+xy values: -1.18935e-95 -3.70657e-183 -2.72456e+120 -5.48883e-46 1.54009e-121 9.70934e-191 1.88658e-227 1.94635e+64 -1.77921e+267 -0.000194541
+-1.12658e-151 -5.66458e-201 2.94632e-238 1.39985e-33 -2.24358e-276 -2.41896e-299 -9.75494e-78 5.11576e-239 -4.66386e-74 2.12678e-215
+-5.69377e-172 2.55917e+100 5.20514e-07 -5.53455e-244 -1.53331e-21 1.70846e-193 -4.72408e-128 -3.69651e+74 -1.10800e-247 -2.26415e-98
+6.03382e+178 1.08146e+65 -2.05452e-218 1.76769e+190 -9.21626e-274 -8.64903e+22 3.67886e-300 1.27201e-231 -4.07784e+250 -5.49857e+156
+-4.85805e+61 7.25543e+91 -1.60805e+72 -6.17518e+207 -1.06614e-32 4.48979e-49 -6.74013e-200 -1.70995e-194 1.18862e+286 2.90170e-294
+7.80643e-283 6.58966e-161 6.50748e-142 4.84273e+174 2.85422e+163 -3.00414e-295 -8.96165e+145 4.23692e+116 -2.45631e+28 2.06517e-144
+
+dir values: 1.86752e+276
+input ends
+==15037== 
+==15037== HEAP SUMMARY:
+==15037==     in use at exit: 50,292,813 bytes in 9,714 blocks
+==15037==   total heap usage: 27,690 allocs, 17,976 frees, 85,996,380 bytes allocated
+==15037== 
+==15037== LEAK SUMMARY:
+==15037==    definitely lost: 0 bytes in 0 blocks
+==15037==    indirectly lost: 0 bytes in 0 blocks
+==15037==      possibly lost: 0 bytes in 0 blocks
+==15037==    still reachable: 50,292,813 bytes in 9,714 blocks
+==15037==                       of which reachable via heuristic:
+==15037==                         newarray           : 4,264 bytes in 1 blocks
+==15037==         suppressed: 0 bytes in 0 blocks
+==15037== Reachable blocks (those to which a pointer was found) are not shown.
+==15037== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==15037== 
+==15037== For counts of detected and suppressed errors, rerun with: -v
+==15037== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==15030== 
+==15030== HEAP SUMMARY:
+==15030==     in use at exit: 8 bytes in 1 blocks
+==15030==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==15030== 
+==15030== LEAK SUMMARY:
+==15030==    definitely lost: 0 bytes in 0 blocks
+==15030==    indirectly lost: 0 bytes in 0 blocks
+==15030==      possibly lost: 0 bytes in 0 blocks
+==15030==    still reachable: 8 bytes in 1 blocks
+==15030==         suppressed: 0 bytes in 0 blocks
+==15030== Reachable blocks (those to which a pointer was found) are not shown.
+==15030== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==15030== 
+==15030== For counts of detected and suppressed errors, rerun with: -v
+==15030== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

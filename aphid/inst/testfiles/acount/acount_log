@@ -1,0 +1,84 @@
+==6489== Memcheck, a memory error detector
+==6489== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==6489== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==6489== Command: ./acount_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_output
+==6489== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597770354
+WARNING: No test specified, defaulting to first test defined (aphid_deepstate_test_acount_test)
+x values: -2147483648 -2147483648 -2147483648 -2147483648 351060479 1145363983 -2147483648 -2147483648 2085997253 -2147483648 -2065883448 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -2078329690 -2147483648 -2147483648 -2147483648 -2016495117 1946339577 -2147483648 -2147483648 -927355906 602867094 -2147483648 -2147483648 1804628835 -2147483648 -1010131738 -2147483648 718526946 -803837026 -2147483648 -2147483648 599901131 1045773531 -179436463 -7243887 2107638190 -767220377 -2147483648 152496648 -2147483648
+arity values: 494333850
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  upper value must be greater than lower value
+ERROR: Failed: aphid_deepstate_test_acount_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_output/f14ff7d5b4bf255bd78452c83eb69d28e67de529.fail`
+==6491== 
+==6491== HEAP SUMMARY:
+==6491==     in use at exit: 50,292,730 bytes in 9,716 blocks
+==6491==   total heap usage: 27,691 allocs, 17,975 frees, 85,995,267 bytes allocated
+==6491== 
+==6491== 69 bytes in 1 blocks are possibly lost in loss record 32 of 1,309
+==6491==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6491==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==6491==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==6491==    by 0x57BEB4F: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==6491==    by 0x57A0C05: std::runtime_error::runtime_error(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==6491==    by 0x57A0C38: std::range_error::range_error(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==6491==    by 0x4416F6: Rcpp::Range::Range(long, long) (Range.h:31)
+==6491==    by 0x441B40: Rcpp::seq(long, long) (seq_along.h:53)
+==6491==    by 0x457D27: acount(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (utils.cpp:12)
+==6491==    by 0x4093C8: DeepState_Test_aphid_deepstate_test_acount_test() (acount_DeepState_TestHarness.cpp:23)
+==6491==    by 0x409158: DeepState_Run_aphid_deepstate_test_acount_test() (acount_DeepState_TestHarness.cpp:7)
+==6491==    by 0x406743: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_DeepState_TestHarness)
+==6491== 
+==6491== 144 bytes in 1 blocks are possibly lost in loss record 53 of 1,309
+==6491==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==6491==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==6491==    by 0x4416E0: Rcpp::Range::Range(long, long) (Range.h:31)
+==6491==    by 0x441B40: Rcpp::seq(long, long) (seq_along.h:53)
+==6491==    by 0x457D27: acount(Rcpp::Vector<13, Rcpp::PreserveStorage>, int) (utils.cpp:12)
+==6491==    by 0x4093C8: DeepState_Test_aphid_deepstate_test_acount_test() (acount_DeepState_TestHarness.cpp:23)
+==6491==    by 0x409158: DeepState_Run_aphid_deepstate_test_acount_test() (acount_DeepState_TestHarness.cpp:7)
+==6491==    by 0x406743: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_DeepState_TestHarness)
+==6491==    by 0x41404A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_DeepState_TestHarness)
+==6491==    by 0x41415F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_DeepState_TestHarness)
+==6491==    by 0x40728D: main (in /home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_DeepState_TestHarness)
+==6491== 
+==6491== LEAK SUMMARY:
+==6491==    definitely lost: 0 bytes in 0 blocks
+==6491==    indirectly lost: 0 bytes in 0 blocks
+==6491==      possibly lost: 213 bytes in 2 blocks
+==6491==    still reachable: 50,292,517 bytes in 9,714 blocks
+==6491==                       of which reachable via heuristic:
+==6491==                         stdstring          : 69 bytes in 1 blocks
+==6491==                         newarray           : 4,264 bytes in 1 blocks
+==6491==         suppressed: 0 bytes in 0 blocks
+==6491== Reachable blocks (those to which a pointer was found) are not shown.
+==6491== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6491== 
+==6491== For counts of detected and suppressed errors, rerun with: -v
+==6491== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+x values: -2147483648 -2017034025 714328305 -2147483648 -1223001122 -2147483648 -2147483648 701112915 1678763866 -2147483648 -2147483648 203445597 1974440146 -453224020 -1903656852 1284993888 -2147483648 27150565 -675494810 1897227453 -2147483648 -433007897 -1134754156 -2147483648 -519029362 354634235 -2147483648 -2147483648 1518437481 -2147483648 -2147483648
+arity values: -2126845802
+input ends
+==6496== Warning: set address range perms: large range [0x59e43040, 0x1e7051000) (undefined)
+ERROR: Crashed: aphid_deepstate_test_acount_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/acount/acount_output/a30976532c8b6e392689953ff92fa1954aeb03e2.crash`
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==6489== 
+==6489== HEAP SUMMARY:
+==6489==     in use at exit: 8 bytes in 1 blocks
+==6489==   total heap usage: 7 allocs, 6 frees, 111,351 bytes allocated
+==6489== 
+==6489== LEAK SUMMARY:
+==6489==    definitely lost: 0 bytes in 0 blocks
+==6489==    indirectly lost: 0 bytes in 0 blocks
+==6489==      possibly lost: 0 bytes in 0 blocks
+==6489==    still reachable: 8 bytes in 1 blocks
+==6489==         suppressed: 0 bytes in 0 blocks
+==6489== Reachable blocks (those to which a pointer was found) are not shown.
+==6489== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6489== 
+==6489== For counts of detected and suppressed errors, rerun with: -v
+==6489== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

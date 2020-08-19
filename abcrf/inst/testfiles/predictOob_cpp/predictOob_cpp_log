@@ -1,0 +1,151 @@
+==5890== Memcheck, a memory error detector
+==5890== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5890== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5890== Command: ./predictOob_cpp_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/abcrf/inst/testfiles/predictOob_cpp/predictOob_cpp_output
+==5890== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597706139
+WARNING: No test specified, defaulting to first test defined (abcrf_deepstate_test_predictOob_cpp_test)
+origNodes values: -8.77675e+203 -6.10004e-242 -5.47113e-63 -6.81381e+42 -1.53287e+126 -1.45543e-139 1.52510e+253 -2.08326e+08 -1.05138e-299
+-1.51600e-271 4.67066e-113 -1.87371e-11 6.95217e-15 3.53308e-59 -1.17914e-130 722845. -4.60282e+73 -1.25404e+146
+2.36842e-89 -1.73570e-72 4.91309e-143 -1.15188e-15 -1.34644e+126 5.08399e+178 -3.96275e-261 -1.14438e-184 -4.48194e-54
+5.24068e+72 -2.27679e+243 -2.97048e+08 -7.42788e+61 -1.10799e+177 1.71773e-73 1.90122e+16 -4.93473e+85 2.47817e-233
+-3.36294e+82 3.07586e-265 -6.93768e+248 -3.11821e+293 -1.41967e+30 -2.01932e+182 -21662.1 -7.92414e+17 -3.00593e-304
+-2.59317e-241 -2.56745e-27 4.28158e+158 -8.55633e-186 -3.86196e+43 5.90478e+110 4.36778e-24 2.78277e+241 7.61458e+306
+-3.87122e+89 -5.63284e+271 8.54690e-65 1.45561e-06 1.58905e-220 1.12355e-168 1.11223e-130 8.83681e+179 -1.11642e-268
+-7.79925e+97 1.07663e-94 4.90379e+140 -3.68137e-103 7.72608e+154 -2.45954e+221 -1.37812e-273 3.10966e+126 -5.12894e+179
+3.23163e-137 4.33329e-122 -1.67469e+112 1.65158e+69 3.15831e+246 2.02660e-10 -4.07435e-82 -4.68563e-38 2.18048e-249
+5.99041e-130 -4.77416e+299 2.64105e+204 5.94834e+200 -3.03635e+298 -2.80728e+199 1.36024e+270 1.71737e-100 -1.15838e-176
+
+inbag values: 1.39403e-146 -9.86385e+150
+7.90065e-62 -7.92534e-203
+-8.33293e+245 3.00392e+189
+-1.77978e+279 1011.81
+1.93332e+22 1.88083e-204
+-7.01866e-26 1.40555e-45
+
+nobs values: -1079822383
+ntree values: 930953291
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+==5891== 
+==5891== HEAP SUMMARY:
+==5891==     in use at exit: 50,293,060 bytes in 9,715 blocks
+==5891==   total heap usage: 27,807 allocs, 18,092 frees, 86,016,280 bytes allocated
+==5891== 
+==5891== LEAK SUMMARY:
+==5891==    definitely lost: 0 bytes in 0 blocks
+==5891==    indirectly lost: 0 bytes in 0 blocks
+==5891==      possibly lost: 0 bytes in 0 blocks
+==5891==    still reachable: 50,293,060 bytes in 9,715 blocks
+==5891==                       of which reachable via heuristic:
+==5891==                         newarray           : 4,264 bytes in 1 blocks
+==5891==         suppressed: 0 bytes in 0 blocks
+==5891== Reachable blocks (those to which a pointer was found) are not shown.
+==5891== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5891== 
+==5891== For counts of detected and suppressed errors, rerun with: -v
+==5891== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+origNodes values: 4.52378e-305 -4.50064e+273 -2.24966e-160 4.16252e-298 -1.06516e-277 9.33729e+97
+3.38728e+157 -0.115163 -1.63078e-84 3.82666e+213 -4.74936e+89 1.18400e-174
+1.98434e-269 2.34244e-33 -4.36806e+89 -2.16937e+231 -2.87689e-44 3.37930e-275
+-1.16375e-233 7.30981e-137 -2.54150e-156 -2.86893e+306 6.08920e+281 1.87146e-222
+4.98686e-30 1.59421e+275 -3.66912e-219 -1.03404e+241 8.73745e-201 2.92175e+233
+-1.62302e+166 -3.48198e-264 2.39118e-146 -8.23827e-165 4.68209e+176 -3.24681e+100
+-2.30754e+52 8.95010e+139 1.19533e+279 4.01965e-307 9.30665e-272 9.83326e-58
+-1.64302e+235 6.94635e-148 -5.51204e+161 5.89407e+31 -7.84436e-193 -1.36101e+302
+
+inbag values: -1.74217e+15 -3.35304e-146 4.05369e-240 -6.99729e-174 12812.5 1.46221e-254 1.13541e-89 1.07056e+222 1.47897e+195 -1.34895e-05
+2.96869e+127 6.36757e-302 -1.14281e-229 2.93963e+214 5.68470e+21 1.24871e-207 7.89455e-82 -3.06202e-08 -1.90035e+52 2.89883e-283
+4.64516e-227 1.09332e-13 -7.90663e+282 1.55242e-205 2.50101e+179 1.70899e-26 -6.85184e+109 -9.87269e-71 -1.19057e-43 -1.44175e+66
+2.09162e+290 -4.48796e-241 -1.51857e+278 -7.84092e+259 2.57672e+119 2.17750e-235 7.40003e-250 -8.82986e+248 9.78771e-185 -2.42534e-24
+-1.28691e-272 3.75433e+134 2.82242e+133 -1.16155e+257 -6.27011e+57 -3.83036e-97 1.67980e+68 -9.76417e-161 -7.24799e+301 -3.38817e-266
+-1.14379e+133 1.37754e-56 -2.00075e-284 8.51140e-186 -3.90660e+186 -1.86542e+111 -8.30560e-53 2.79273e-214 2.68017e-137 4.23666e-113
+-6.93946e-148 -1.86706e-182 -8.28711e+200 2.84557e-120 2.90464e-127 -1.40020e+122 8.15807e-153 2.91895e-136 -2.10300e+273 1.77368e+172
+
+nobs values: 444035827
+ntree values: -344346912
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+==5897== 
+==5897== HEAP SUMMARY:
+==5897==     in use at exit: 50,293,333 bytes in 9,716 blocks
+==5897==   total heap usage: 27,808 allocs, 18,092 frees, 86,016,553 bytes allocated
+==5897== 
+==5897== LEAK SUMMARY:
+==5897==    definitely lost: 0 bytes in 0 blocks
+==5897==    indirectly lost: 0 bytes in 0 blocks
+==5897==      possibly lost: 0 bytes in 0 blocks
+==5897==    still reachable: 50,293,333 bytes in 9,716 blocks
+==5897==                       of which reachable via heuristic:
+==5897==                         newarray           : 4,264 bytes in 1 blocks
+==5897==         suppressed: 0 bytes in 0 blocks
+==5897== Reachable blocks (those to which a pointer was found) are not shown.
+==5897== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5897== 
+==5897== For counts of detected and suppressed errors, rerun with: -v
+==5897== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+origNodes values: 3.09239e+211 8.41642e-07 -1.21866e-247 -2.16936e+201 1.00051e-81
+-6.47932e-280 3.40618e+242 -1.29543e-79 5.72806e+275 4.43387e-70
+-2.16032e+149 -2.82077e-49 9.00945e-302 -8.12900e+139 3.17883e-62
+6.05414e+52 4.46386e-277 4.75317e-229 -6.44331e+06 -6.52945e+128
+1.24139e-79 -6.56257e-151 -5.23434e+264 -3.05284e+30 -1.05992e-104
+-9.63338e-30 -9.36231e+285 -8.90758e-272 5.11672e+93 -5.51148e-86
+4.23349e+163 -340.823 1.05331e+142 -1.73069e+96 -2.59700e+166
+-2.82484e-238 3.06963e-301 1.00792e-176 -26022.7 8.42324e+235
+
+inbag values: 112854. 1.68393e-121 1.65596e+17 -1.81126e+37 2.70116e-207 -8.35847e+74 3.58686e-50 1.11949e+54 -1.66756e+41
+-5.33513e-176 -1.22247e+107 5.82828e-301 1.05402e-160 -2.82224e+299 -9.56433e+67 -1.95662e+37 -1.70794e+180 -2.24870e+102
+2.22149e-163 7.79800e+31 2.38927e-162 -2.45787 1.88467e-196 -5.62408e+80 -6.01783e+226 -7.70003e+287 -1.65382e-154
+1.86608e-210 3.24696e+125 -1.63030e-142 4.65820e+272 -1.29578e-09 -1.15357e-296 -5.28001e+269 1.63792e+229 1.10456e-117
+3.41470e+49 7.93530e-126 2.59291e+196 8.80686e-30 -7.63392e+199 -1.92126e-248 8.68201e+277 -6.05436e+239 2.98279e-176
+-1.51465e-211 2.77281e+246 6.63591e+284 -3.93493e+205 1.46220e+57 -1.02944e-51 4.02983e+307 -2.07827e+208 -1.89737e-12
+2.31391e-184 -2.95513e-05 9.44282e+38 3.00810e+64 -8.85223e+302 5.99083e-140 2.47322e+272 -5.42748e+58 -1.11881e+75
+-2.34648e-212 5.36383e-264 -6.33662e-106 1.06964e-15 1.01746e+29 3.50089e+24 3.55326e-262 -1.73977e+261 1.41344e-73
+7.53028e-165 2.50978e-275 2.98161e-161 -2.07775e-158 -4.57840e+258 -2.73571e+259 -1.34882e-238 1.97940e-131 1.12263e-246
+
+nobs values: -765544625
+ntree values: 238488755
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+==5905== 
+==5905== HEAP SUMMARY:
+==5905==     in use at exit: 50,293,357 bytes in 9,716 blocks
+==5905==   total heap usage: 27,808 allocs, 18,092 frees, 86,016,577 bytes allocated
+==5905== 
+==5905== LEAK SUMMARY:
+==5905==    definitely lost: 0 bytes in 0 blocks
+==5905==    indirectly lost: 0 bytes in 0 blocks
+==5905==      possibly lost: 0 bytes in 0 blocks
+==5905==    still reachable: 50,293,357 bytes in 9,716 blocks
+==5905==                       of which reachable via heuristic:
+==5905==                         newarray           : 4,264 bytes in 1 blocks
+==5905==         suppressed: 0 bytes in 0 blocks
+==5905== Reachable blocks (those to which a pointer was found) are not shown.
+==5905== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5905== 
+==5905== For counts of detected and suppressed errors, rerun with: -v
+==5905== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 3 failed/0 passed/0 abandoned tests
+==5890== 
+==5890== HEAP SUMMARY:
+==5890==     in use at exit: 8 bytes in 1 blocks
+==5890==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==5890== 
+==5890== LEAK SUMMARY:
+==5890==    definitely lost: 0 bytes in 0 blocks
+==5890==    indirectly lost: 0 bytes in 0 blocks
+==5890==      possibly lost: 0 bytes in 0 blocks
+==5890==    still reachable: 8 bytes in 1 blocks
+==5890==         suppressed: 0 bytes in 0 blocks
+==5890== Reachable blocks (those to which a pointer was found) are not shown.
+==5890== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5890== 
+==5890== For counts of detected and suppressed errors, rerun with: -v
+==5890== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,123 @@
+==13625== Memcheck, a memory error detector
+==13625== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13625== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13625== Command: ./value_3d_c_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/value_3d_c/value_3d_c_output
+==13625== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597732740
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_value_3d_c_test)
+height values: 75920368
+width values: -1710290863
+depth values: -1444621272
+seed values: -1462784792
+freq values: 8.1113e-24
+interp values: 1421579463
+fractal values: 1727784555
+octaves values: -2124850405
+lacunarity values: -3.92088e+232
+gain values: 8.67782e+66
+pertube values: 905414793
+pertube_amp values: -9.29024e-186
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+==13626== 
+==13626== HEAP SUMMARY:
+==13626==     in use at exit: 50,292,293 bytes in 9,714 blocks
+==13626==   total heap usage: 27,820 allocs, 18,106 frees, 86,085,449 bytes allocated
+==13626== 
+==13626== 8 bytes in 1 blocks are definitely lost in loss record 10 of 1,307
+==13626==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13626==    by 0x40E8B6: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:111)
+==13626==    by 0x40E85B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:436)
+==13626==    by 0x40E802: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==13626==    by 0x40E73E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==13626==    by 0x40E5E4: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:138)
+==13626==    by 0x40E516: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (stl_vector.h:284)
+==13626==    by 0x40E26F: Rcpp::Dimension::Dimension(unsigned long const&, unsigned long const&) (Dimension.h:45)
+==13626==    by 0x40CD97: Rcpp::Matrix<14, Rcpp::PreserveStorage>::Matrix(int const&, int const&) (Matrix.h:59)
+==13626==    by 0x43C04D: value_3d_c(int, int, int, int, double, int, int, int, double, double, int, double) (value.cpp:52)
+==13626==    by 0x409A55: DeepState_Test_ambient_deepstate_test_value_3d_c_test() (value_3d_c_DeepState_TestHarness.cpp:83)
+==13626==    by 0x408E18: DeepState_Run_ambient_deepstate_test_value_3d_c_test() (value_3d_c_DeepState_TestHarness.cpp:7)
+==13626== 
+==13626== LEAK SUMMARY:
+==13626==    definitely lost: 8 bytes in 1 blocks
+==13626==    indirectly lost: 0 bytes in 0 blocks
+==13626==      possibly lost: 0 bytes in 0 blocks
+==13626==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13626==                       of which reachable via heuristic:
+==13626==                         newarray           : 4,264 bytes in 1 blocks
+==13626==         suppressed: 0 bytes in 0 blocks
+==13626== Reachable blocks (those to which a pointer was found) are not shown.
+==13626== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13626== 
+==13626== For counts of detected and suppressed errors, rerun with: -v
+==13626== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+height values: -1721354002
+width values: 594369425
+depth values: 612974687
+seed values: -1031492832
+freq values: 8.93853e-135
+interp values: -1242503677
+fractal values: -1655131850
+octaves values: -1092016671
+lacunarity values: -1.71592e+62
+gain values: -1.98425e+06
+pertube values: 1113057016
+pertube_amp values: -3.98387e+164
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+==13633== 
+==13633== HEAP SUMMARY:
+==13633==     in use at exit: 50,292,293 bytes in 9,714 blocks
+==13633==   total heap usage: 27,820 allocs, 18,106 frees, 86,085,449 bytes allocated
+==13633== 
+==13633== 8 bytes in 1 blocks are definitely lost in loss record 10 of 1,307
+==13633==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13633==    by 0x40E8B6: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:111)
+==13633==    by 0x40E85B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:436)
+==13633==    by 0x40E802: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==13633==    by 0x40E73E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==13633==    by 0x40E5E4: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:138)
+==13633==    by 0x40E516: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (stl_vector.h:284)
+==13633==    by 0x40E26F: Rcpp::Dimension::Dimension(unsigned long const&, unsigned long const&) (Dimension.h:45)
+==13633==    by 0x40CD97: Rcpp::Matrix<14, Rcpp::PreserveStorage>::Matrix(int const&, int const&) (Matrix.h:59)
+==13633==    by 0x43C04D: value_3d_c(int, int, int, int, double, int, int, int, double, double, int, double) (value.cpp:52)
+==13633==    by 0x409A55: DeepState_Test_ambient_deepstate_test_value_3d_c_test() (value_3d_c_DeepState_TestHarness.cpp:83)
+==13633==    by 0x408E18: DeepState_Run_ambient_deepstate_test_value_3d_c_test() (value_3d_c_DeepState_TestHarness.cpp:7)
+==13633== 
+==13633== LEAK SUMMARY:
+==13633==    definitely lost: 8 bytes in 1 blocks
+==13633==    indirectly lost: 0 bytes in 0 blocks
+==13633==      possibly lost: 0 bytes in 0 blocks
+==13633==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13633==                       of which reachable via heuristic:
+==13633==                         newarray           : 4,264 bytes in 1 blocks
+==13633==         suppressed: 0 bytes in 0 blocks
+==13633== Reachable blocks (those to which a pointer was found) are not shown.
+==13633== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13633== 
+==13633== For counts of detected and suppressed errors, rerun with: -v
+==13633== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==13625== 
+==13625== HEAP SUMMARY:
+==13625==     in use at exit: 8 bytes in 1 blocks
+==13625==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13625== 
+==13625== LEAK SUMMARY:
+==13625==    definitely lost: 0 bytes in 0 blocks
+==13625==    indirectly lost: 0 bytes in 0 blocks
+==13625==      possibly lost: 0 bytes in 0 blocks
+==13625==    still reachable: 8 bytes in 1 blocks
+==13625==         suppressed: 0 bytes in 0 blocks
+==13625== Reachable blocks (those to which a pointer was found) are not shown.
+==13625== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13625== 
+==13625== For counts of detected and suppressed errors, rerun with: -v
+==13625== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

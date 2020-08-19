@@ -1,0 +1,100 @@
+==5682== Memcheck, a memory error detector
+==5682== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5682== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5682== Command: ./use_CANL_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/abcADM/inst/testfiles/use_CANL/use_CANL_output
+==5682== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597704955
+WARNING: No test specified, defaulting to first test defined (abcADM_deepstate_test_use_CANL_test)
+mat values: -1.55541e+232 5.35293e-177 -9.19494e+195 2.24775e+307
+8.85319e-58 7.48310e+261 2.63356e+221 6.04022e-69
+-6.17757e-156 1.17261e+120 -6.89845e-292 -7.97386e+81
+2.21124e-110 -4.01481e+15 -1.66794e+147 -2.71927e-203
+
+N values: -1253872166
+w0 values: 2.79647e-296
+k values: -3268.39
+eps values: 9.03194e-44
+inputends
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: abcADM_deepstate_test_use_CANL_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/abcADM/inst/testfiles/use_CANL/use_CANL_output/23f8712893436b6d8cdd41a8e5063ed51cd8ef17.fail`
+==5683== 
+==5683== HEAP SUMMARY:
+==5683==     in use at exit: 50,300,605 bytes in 9,720 blocks
+==5683==   total heap usage: 27,725 allocs, 18,005 frees, 86,031,851 bytes allocated
+==5683== 
+==5683== 136 bytes in 1 blocks are possibly lost in loss record 52 of 1,311
+==5683==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5683==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==5683==    by 0x57A3FED: std::__throw_bad_alloc() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==5683==    by 0x42E2A6: __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) (new_allocator.h:102)
+==5683==    by 0x42E25B: std::allocator_traits<std::allocator<double> >::allocate(std::allocator<double>&, unsigned long) (alloc_traits.h:436)
+==5683==    by 0x42E202: std::_Vector_base<double, std::allocator<double> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==5683==    by 0x42E16E: std::_Vector_base<double, std::allocator<double> >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==5683==    by 0x42E014: std::_Vector_base<double, std::allocator<double> >::_Vector_base(unsigned long, std::allocator<double> const&) (stl_vector.h:138)
+==5683==    by 0x42D206: std::vector<double, std::allocator<double> >::vector(unsigned long, std::allocator<double> const&) (stl_vector.h:284)
+==5683==    by 0x454C07: use_CANL(Rcpp::Matrix<14, Rcpp::PreserveStorage>, int, double, double, double) (use_model.cpp:26)
+==5683==    by 0x40B6D0: DeepState_Test_abcADM_deepstate_test_use_CANL_test() (use_CANL_DeepState_TestHarness.cpp:40)
+==5683==    by 0x40B198: DeepState_Run_abcADM_deepstate_test_use_CANL_test() (use_CANL_DeepState_TestHarness.cpp:7)
+==5683== 
+==5683== 224 (96 direct, 128 indirect) bytes in 1 blocks are definitely lost in loss record 76 of 1,311
+==5683==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5683==    by 0x42F7C0: __gnu_cxx::new_allocator<std::vector<double, std::allocator<double> > >::allocate(unsigned long, void const*) (new_allocator.h:111)
+==5683==    by 0x42F76B: std::allocator_traits<std::allocator<std::vector<double, std::allocator<double> > > >::allocate(std::allocator<std::vector<double, std::allocator<double> > >&, unsigned long) (alloc_traits.h:436)
+==5683==    by 0x42F712: std::_Vector_base<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_allocate(unsigned long) (stl_vector.h:172)
+==5683==    by 0x44DD19: void std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::_M_realloc_insert<std::vector<double, std::allocator<double> > const&>(__gnu_cxx::__normal_iterator<std::vector<double, std::allocator<double> >*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > >, std::vector<double, std::allocator<double> > const&) (vector.tcc:406)
+==5683==    by 0x448C80: std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >::push_back(std::vector<double, std::allocator<double> > const&) (stl_vector.h:948)
+==5683==    by 0x454B37: use_CANL(Rcpp::Matrix<14, Rcpp::PreserveStorage>, int, double, double, double) (use_model.cpp:21)
+==5683==    by 0x40B6D0: DeepState_Test_abcADM_deepstate_test_use_CANL_test() (use_CANL_DeepState_TestHarness.cpp:40)
+==5683==    by 0x40B198: DeepState_Run_abcADM_deepstate_test_use_CANL_test() (use_CANL_DeepState_TestHarness.cpp:7)
+==5683==    by 0x407C83: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/abcADM/inst/testfiles/use_CANL/use_CANL_DeepState_TestHarness)
+==5683==    by 0x41A33A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/abcADM/inst/testfiles/use_CANL/use_CANL_DeepState_TestHarness)
+==5683==    by 0x41A44F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/abcADM/inst/testfiles/use_CANL/use_CANL_DeepState_TestHarness)
+==5683== 
+==5683== LEAK SUMMARY:
+==5683==    definitely lost: 96 bytes in 1 blocks
+==5683==    indirectly lost: 128 bytes in 4 blocks
+==5683==      possibly lost: 136 bytes in 1 blocks
+==5683==    still reachable: 50,300,245 bytes in 9,714 blocks
+==5683==                       of which reachable via heuristic:
+==5683==                         newarray           : 4,264 bytes in 1 blocks
+==5683==         suppressed: 0 bytes in 0 blocks
+==5683== Reachable blocks (those to which a pointer was found) are not shown.
+==5683== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5683== 
+==5683== For counts of detected and suppressed errors, rerun with: -v
+==5683== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+mat values: -4.44397e+230 1.27969e+153 -1.80931e-120 -7.95189e+210
+-1.31622e-44 1.21718e+184 -2.49887e-145 4.57780e-218
+-9.87857e+296 1.46040e+184 1.57128e+140 -7.61579e+96
+2.41506e+101 8.45747e+29 -3.94406e+221 7.14933e+303
+4.17713e+60 -5.00988e-94 3.03688e+29 5.38848e-215
+-1.19466e+286 -7.30290e-127 -6.90615e+42 9.90894e+240
+
+N values: 795883330
+w0 values: -9.8566e+296
+k values: 2.52316e-135
+eps values: -2.39023e+211
+inputends
+==5688== Warning: set address range perms: large range [0x59e43040, 0x1d565ea50) (undefined)
+ERROR: Crashed: abcADM_deepstate_test_use_CANL_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/abcADM/inst/testfiles/use_CANL/use_CANL_output/8cb7d860919739f9124fca4ff25a206bc12998a2.crash`
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==5682== 
+==5682== HEAP SUMMARY:
+==5682==     in use at exit: 8 bytes in 1 blocks
+==5682==   total heap usage: 23 allocs, 22 frees, 112,596 bytes allocated
+==5682== 
+==5682== LEAK SUMMARY:
+==5682==    definitely lost: 0 bytes in 0 blocks
+==5682==    indirectly lost: 0 bytes in 0 blocks
+==5682==      possibly lost: 0 bytes in 0 blocks
+==5682==    still reachable: 8 bytes in 1 blocks
+==5682==         suppressed: 0 bytes in 0 blocks
+==5682== Reachable blocks (those to which a pointer was found) are not shown.
+==5682== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5682== 
+==5682== For counts of detected and suppressed errors, rerun with: -v
+==5682== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

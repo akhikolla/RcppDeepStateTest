@@ -1,0 +1,23 @@
+Encoding: UTF-8
+Package: adeba
+Type: Package
+Title: Adaptive Density Estimation by Bayesian Averaging
+Version: 1.1.2
+Date: 2018-03-02
+Author: Christofer Backlin, Mats Gustafsson
+Maintainer: Christofer Backlin <adeba@christofer.backlin.se>
+Description: Univariate and multivariate non-parametric kernel density
+    estimation with adaptive bandwidth using a Bayesian approach to Abramson's
+    square root law.
+Imports: graphics, mixtools, pdist, Rcpp (>= 0.11.6), stats
+LinkingTo: Rcpp
+Suggests: parallel, testthat
+URL: https://github.com/backlin/adeba
+BugReports: https://github.com/backlin/adeba/issues
+License: GPL (>= 2)
+LazyLoad: yes
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Packaged: 2018-03-02 08:12:42 UTC; christofer
+Repository: CRAN
+Date/Publication: 2018-03-03 23:16:25 UTC

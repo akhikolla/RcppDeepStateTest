@@ -1,0 +1,102 @@
+==12133== Memcheck, a memory error detector
+==12133== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12133== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12133== Command: ./log_const_uniwnorm_all_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_output
+==12133== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597789084
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_log_const_uniwnorm_all_test)
+par_mat values:    7.9411e+17 -1.2452e+217 -2.1860e+198  4.9627e+297   1.2602e+59  3.2569e+167 -1.0512e+123 -2.9321e+144
+  -1.7373e+77   5.8556e+51 -2.7176e-256 -7.8108e-200  4.1370e-282 -2.3503e+249   3.4487e-29   2.9266e-73
+ -5.3586e-148  -3.3951e-49  -2.1771e+02 -2.0573e+122  4.2206e-135  1.0943e-122   2.6270e-23   4.4426e+04
+ -5.3191e+104  1.0927e+264 -1.1346e+296  2.2923e+149  1.2058e-248  -2.0296e-70  4.2464e-172   1.2603e+91
+ -1.4078e-117   2.9869e-01 -4.9124e+261  1.9272e-106 -2.2575e+212   8.5034e+85  -9.6207e-61   1.5091e-25
+  -1.4484e+75  5.8961e-249  5.5751e+190 -1.3299e-263 -2.1829e+131  4.8112e-141   3.6237e+73  2.1022e+184
+   3.5032e+68 -3.0169e-148   1.1767e-58 -1.6899e+146 -1.2012e-184 -2.6794e+166  1.3038e+209  -1.4690e-59
+
+input ends
+==12134== Conditional jump or move depends on uninitialised value(s)
+==12134==    at 0x40EBB8: arma::Mat<double>::~Mat() (Mat_meat.hpp:27)
+==12134==    by 0x40F1C4: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==12134==    by 0x40B8F3: DeepState_Test_BAMBI_deepstate_test_log_const_uniwnorm_all_test() (log_const_uniwnorm_all_DeepState_TestHarness.cpp:17)
+==12134==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_log_const_uniwnorm_all_test() (log_const_uniwnorm_all_DeepState_TestHarness.cpp:7)
+==12134==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12134==    by 0x4174CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12134==    by 0x4175DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12134==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12134==  Uninitialised value was created by a stack allocation
+==12134==    at 0x40B782: DeepState_Test_BAMBI_deepstate_test_log_const_uniwnorm_all_test() (log_const_uniwnorm_all_DeepState_TestHarness.cpp:8)
+==12134== 
+==12134== 
+==12134== HEAP SUMMARY:
+==12134==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==12134==   total heap usage: 27,688 allocs, 17,975 frees, 85,988,014 bytes allocated
+==12134== 
+==12134== LEAK SUMMARY:
+==12134==    definitely lost: 0 bytes in 0 blocks
+==12134==    indirectly lost: 0 bytes in 0 blocks
+==12134==      possibly lost: 0 bytes in 0 blocks
+==12134==    still reachable: 50,292,285 bytes in 9,713 blocks
+==12134==                       of which reachable via heuristic:
+==12134==                         newarray           : 4,264 bytes in 1 blocks
+==12134==         suppressed: 0 bytes in 0 blocks
+==12134== Reachable blocks (those to which a pointer was found) are not shown.
+==12134== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12134== 
+==12134== For counts of detected and suppressed errors, rerun with: -v
+==12134== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+par_mat values:  -2.6069e-133  -2.7750e-05  7.0484e+202 -2.5075e-236  1.2847e-228
+  2.4798e+130  1.1666e-179  -4.2257e-70  -2.4692e-78  7.9097e+269
+   7.7368e-48  1.1877e+303   8.3006e-24 -7.4860e-112  1.5304e+301
+  2.7628e+128  -1.5162e-62 -8.3592e-103 -7.7924e-167 -3.9813e-122
+ -1.2405e-285  4.4020e+274   3.8277e+32 -4.5998e+179 -1.5154e+202
+ -1.7157e-140   7.8527e-75  3.2760e+291  -3.0872e+53  7.8965e+191
+
+input ends
+==12142== Conditional jump or move depends on uninitialised value(s)
+==12142==    at 0x40EBB8: arma::Mat<double>::~Mat() (Mat_meat.hpp:27)
+==12142==    by 0x40F1C4: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==12142==    by 0x40B8F3: DeepState_Test_BAMBI_deepstate_test_log_const_uniwnorm_all_test() (log_const_uniwnorm_all_DeepState_TestHarness.cpp:17)
+==12142==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_log_const_uniwnorm_all_test() (log_const_uniwnorm_all_DeepState_TestHarness.cpp:7)
+==12142==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12142==    by 0x4174CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12142==    by 0x4175DF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12142==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness)
+==12142==  Uninitialised value was created by a stack allocation
+==12142==    at 0x40B782: DeepState_Test_BAMBI_deepstate_test_log_const_uniwnorm_all_test() (log_const_uniwnorm_all_DeepState_TestHarness.cpp:8)
+==12142== 
+==12142== 
+==12142== HEAP SUMMARY:
+==12142==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==12142==   total heap usage: 27,688 allocs, 17,975 frees, 85,987,598 bytes allocated
+==12142== 
+==12142== LEAK SUMMARY:
+==12142==    definitely lost: 0 bytes in 0 blocks
+==12142==    indirectly lost: 0 bytes in 0 blocks
+==12142==      possibly lost: 0 bytes in 0 blocks
+==12142==    still reachable: 50,292,285 bytes in 9,713 blocks
+==12142==                       of which reachable via heuristic:
+==12142==                         newarray           : 4,264 bytes in 1 blocks
+==12142==         suppressed: 0 bytes in 0 blocks
+==12142== Reachable blocks (those to which a pointer was found) are not shown.
+==12142== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12142== 
+==12142== For counts of detected and suppressed errors, rerun with: -v
+==12142== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==12133== 
+==12133== HEAP SUMMARY:
+==12133==     in use at exit: 8 bytes in 1 blocks
+==12133==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==12133== 
+==12133== LEAK SUMMARY:
+==12133==    definitely lost: 0 bytes in 0 blocks
+==12133==    indirectly lost: 0 bytes in 0 blocks
+==12133==      possibly lost: 0 bytes in 0 blocks
+==12133==    still reachable: 8 bytes in 1 blocks
+==12133==         suppressed: 0 bytes in 0 blocks
+==12133== Reachable blocks (those to which a pointer was found) are not shown.
+==12133== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12133== 
+==12133== For counts of detected and suppressed errors, rerun with: -v
+==12133== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

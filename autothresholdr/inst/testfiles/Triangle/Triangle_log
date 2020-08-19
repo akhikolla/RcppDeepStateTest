@@ -1,0 +1,65 @@
+==10180== Memcheck, a memory error detector
+==10180== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10180== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10180== Command: ./Triangle_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/Triangle/Triangle_output
+==10180== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597779767
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_Triangle_test)
+data values: 598859834 -1655838681 662066111 1466690836 -2147483648 228291242 -1260108069 -1586403080 -2147483648 647537715 1890542116 1117449188 -1444314316 -1739953204 -112462451 -1905911142 -2147483648 71117468 -2147483648 -1666423408 -2147483648 -2147483648 1358670421 -2147483648 -1419960249 -2147483648 -2147483648 -284029376 -2147483648 -525713781 -2147483648 1201141701 -1221956924 -2147483648 -1213926721 -2147483648 -2147483648 -2147483648 -1040954460 -2147483648 -2147483648 -1767307516 1664399666 -2147483648
+input ends
+==10181== 
+==10181== HEAP SUMMARY:
+==10181==     in use at exit: 50,292,508 bytes in 9,714 blocks
+==10181==   total heap usage: 27,686 allocs, 17,972 frees, 85,986,282 bytes allocated
+==10181== 
+==10181== LEAK SUMMARY:
+==10181==    definitely lost: 0 bytes in 0 blocks
+==10181==    indirectly lost: 0 bytes in 0 blocks
+==10181==      possibly lost: 0 bytes in 0 blocks
+==10181==    still reachable: 50,292,508 bytes in 9,714 blocks
+==10181==                       of which reachable via heuristic:
+==10181==                         newarray           : 4,264 bytes in 1 blocks
+==10181==         suppressed: 0 bytes in 0 blocks
+==10181== Reachable blocks (those to which a pointer was found) are not shown.
+==10181== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10181== 
+==10181== For counts of detected and suppressed errors, rerun with: -v
+==10181== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+data values: -2147483648 -2147483648 -764049432 -2147483648 16247383 -757214917 -248883517 -1746405238 194419058 -390237891 1843357453 -2147483648 -2147483648 538560644 1898727716 -2147483648 1126744382 704249929 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -536340215 -501199522 -2147483648 -2147483648 1712362357 -2147483648 -2147483648 -1383180714 -2147483648 -2147483648 -2147483648 -2147483648 1847231876 1439869557 -2147483648 -1070768865 1571802059 399230060 -862615459 -2147483648 -340454584 -2147483648 -2147483648 -778904163 -1667435008 -2147483648 -2147483648 1153501041 1259901299 -2147483648 1958497029 -2147483648 -540102398 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 296723696 -2147483648 1914620807 -2147483648
+input ends
+==10188== 
+==10188== HEAP SUMMARY:
+==10188==     in use at exit: 50,292,597 bytes in 9,714 blocks
+==10188==   total heap usage: 27,686 allocs, 17,972 frees, 85,986,371 bytes allocated
+==10188== 
+==10188== LEAK SUMMARY:
+==10188==    definitely lost: 0 bytes in 0 blocks
+==10188==    indirectly lost: 0 bytes in 0 blocks
+==10188==      possibly lost: 0 bytes in 0 blocks
+==10188==    still reachable: 50,292,597 bytes in 9,714 blocks
+==10188==                       of which reachable via heuristic:
+==10188==                         newarray           : 4,264 bytes in 1 blocks
+==10188==         suppressed: 0 bytes in 0 blocks
+==10188== Reachable blocks (those to which a pointer was found) are not shown.
+==10188== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10188== 
+==10188== For counts of detected and suppressed errors, rerun with: -v
+==10188== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==10180== 
+==10180== HEAP SUMMARY:
+==10180==     in use at exit: 8 bytes in 1 blocks
+==10180==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==10180== 
+==10180== LEAK SUMMARY:
+==10180==    definitely lost: 0 bytes in 0 blocks
+==10180==    indirectly lost: 0 bytes in 0 blocks
+==10180==      possibly lost: 0 bytes in 0 blocks
+==10180==    still reachable: 8 bytes in 1 blocks
+==10180==         suppressed: 0 bytes in 0 blocks
+==10180== Reachable blocks (those to which a pointer was found) are not shown.
+==10180== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10180== 
+==10180== For counts of detected and suppressed errors, rerun with: -v
+==10180== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

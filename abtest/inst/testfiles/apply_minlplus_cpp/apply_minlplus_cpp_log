@@ -1,0 +1,131 @@
+==6105== Memcheck, a memory error detector
+==6105== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==6105== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==6105== Command: ./apply_minlplus_cpp_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/abtest/inst/testfiles/apply_minlplus_cpp/apply_minlplus_cpp_output
+==6105== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597707133
+WARNING: No test specified, defaulting to first test defined (abtest_deepstate_test_apply_minlplus_cpp_test)
+s values: 3.64840e-222 -7.27024e-105 -1.01572e-107 3.55531e-286 -2.20341e-254 -8.76462e-246 -1.89532e+32 6.24642e+289 5.30145e-132 8.97195e-75
+7.68790e+208 -5.32281e+62 2.45676e-218 -7.60034e-193 -0.215334 -6.24592e-181 1.23835e-198 -3.04524e+115 3.69583e-293 -2.81996e-171
+-3.15112e-123 -6.63763e-45 6.35324e-286 -1.48672e-300 8.13579e+210 3.34297e-253 -1.28590e-05 -2.81828e+97 2.05661e-08 -4.01425e+245
+-1.76988e+98 -3.75034e-37 1.04277e+130 9.90407e+12 3.80483e-177 -3.09272e-199 -3.31421e+153 1.28135e-226 2.26458e-157 1.35228e+233
+-4.24154e-149 -1.05917e-193 2.59577e+22 -3.71522e-175 -2.11630e-238 1.83754e-218 -5.18485e+306 1.08967e-274 -2.24040e-147 -1.11190e-70
+
+y1 values: 735967454
+y2 values: -1468171299
+n1 values: -763843833
+n2 values: -577111588
+mu_beta values: -1.98546e-17
+sigma_beta values: 1.80256e-89
+mu_psi values: -1.14231e+52
+sigma_psi values: -3.53009e-305
+==6106== 
+==6106== HEAP SUMMARY:
+==6106==     in use at exit: 50,292,733 bytes in 9,714 blocks
+==6106==   total heap usage: 27,703 allocs, 17,989 frees, 86,056,479 bytes allocated
+==6106== 
+==6106== LEAK SUMMARY:
+==6106==    definitely lost: 0 bytes in 0 blocks
+==6106==    indirectly lost: 0 bytes in 0 blocks
+==6106==      possibly lost: 0 bytes in 0 blocks
+==6106==    still reachable: 50,292,733 bytes in 9,714 blocks
+==6106==                       of which reachable via heuristic:
+==6106==                         newarray           : 4,264 bytes in 1 blocks
+==6106==         suppressed: 0 bytes in 0 blocks
+==6106== Reachable blocks (those to which a pointer was found) are not shown.
+==6106== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6106== 
+==6106== For counts of detected and suppressed errors, rerun with: -v
+==6106== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+s values: 1.40301e-60 -3.69372e+100 2.06972e-305 -9.99515e-198 1.38344e-285 1.95539e+161 2.30187e+235 2.38581e+247 4.02900e+39 5.72427e-98
+-3.83260e-225 23.1106 1.70215e-227 3.35610e+112 3.54690e-50 4.98677e+116 -2.31852e-267 1.08377e+117 4.64903e+208 3.95070e+291
+-1.48885e+281 -1.56965e+30 4.56848e+77 -1.41183e+199 -1.61927e-211 2.04641e+157 1.27921e-276 2.06918e-16 5.11061e-186 -8.82131e-23
+3.29435e-11 -2.57012e+24 2.36512e+118 9.88963e-308 2.09112e-97 5.61504e+253 2.24766e-220 4.51880e-188 2.47640e+54 4.36333e-250
+-2.23862e+219 -3.33099e-236 -4.09635e-234 5.61560e+107 -1.14665e-170 4.14082e+242 2.69622e+43 3.91421e+62 -3.52422e+273 -3.07429e-256
+7.06237e-211 1.28803e-15 6.46667e-69 1.16973e+204 -1.57878e+125 -1.30978e-180 -1.53477e+297 -2.73446e+298 1.55280e-88 -2.72510e+61
+2.72056e+52 -2.53313e-125 7.72319e+254 -2.29105e-200 0.00704122 2.54841e+87 8.98534e-15 -1.41382e-252 6.42532e-208 1.70690e-90
+-8.52973e+44 -5.17705e+237 1.03465e-210 1.30120e-196 1.73801e-267 -1.21415e-115 -4.63739e+130 -2.56752e-34 -5.28103e-269 2.54259e-57
+4.99278e+297 -6.86540e+279 -5.98826e+199 1.02877e+112 8.72873e+43 1.27679e-244 -5.60100e-172 -5.45786e-70 -2.64650e-72 5.91237e-06
+2.26554e-33 -1.49159e-56 -3.00084e-289 1.17366e+35 8.06179e+214 3.61996e-92 7.61759e+45 -6.08630e-148 -1.67657e-218 -3.02971e-68
+
+y1 values: 1784693338
+y2 values: 814581843
+n1 values: 508262060
+n2 values: 933683373
+mu_beta values: 1.04698e+160
+sigma_beta values: 2.46396e-115
+mu_psi values: 2.45228e-225
+sigma_psi values: -3.3972e+261
+==6112== 
+==6112== HEAP SUMMARY:
+==6112==     in use at exit: 50,293,133 bytes in 9,714 blocks
+==6112==   total heap usage: 27,703 allocs, 17,989 frees, 86,056,879 bytes allocated
+==6112== 
+==6112== LEAK SUMMARY:
+==6112==    definitely lost: 0 bytes in 0 blocks
+==6112==    indirectly lost: 0 bytes in 0 blocks
+==6112==      possibly lost: 0 bytes in 0 blocks
+==6112==    still reachable: 50,293,133 bytes in 9,714 blocks
+==6112==                       of which reachable via heuristic:
+==6112==                         newarray           : 4,264 bytes in 1 blocks
+==6112==         suppressed: 0 bytes in 0 blocks
+==6112== Reachable blocks (those to which a pointer was found) are not shown.
+==6112== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6112== 
+==6112== For counts of detected and suppressed errors, rerun with: -v
+==6112== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+s values: -7.98378e-193 2.90328e-105 7.49417e-129
+2.39894e-165 -1.06996e+133 1.62729e-167
+8.75566e-66 -8.06660e+255 1.10275e+221
+-2.79302e+185 7.59569e+290 3.98155e-249
+4.93554e+65 4.88921e-214 1.56607e-99
+1.52844e+303 -1.57599e+37 7.06553e+148
+-2.55141e+150 2.10819e+66 -1.14465e-220
+9.44635e+276 -1.37955e-84 -2.11522e-22
+-7.23490e+184 1.10397e+105 -7.19050e+08
+-3.63016e-294 8.02654e+93 2.68051e-16
+
+y1 values: -275770603
+y2 values: 1079486437
+n1 values: -1354676344
+n2 values: 951468957
+mu_beta values: -1.14298e-34
+sigma_beta values: -1.40745e-171
+mu_psi values: -3.5142e-234
+sigma_psi values: -1.17429e-94
+==6117== 
+==6117== HEAP SUMMARY:
+==6117==     in use at exit: 50,292,572 bytes in 9,714 blocks
+==6117==   total heap usage: 27,703 allocs, 17,989 frees, 86,056,318 bytes allocated
+==6117== 
+==6117== LEAK SUMMARY:
+==6117==    definitely lost: 0 bytes in 0 blocks
+==6117==    indirectly lost: 0 bytes in 0 blocks
+==6117==      possibly lost: 0 bytes in 0 blocks
+==6117==    still reachable: 50,292,572 bytes in 9,714 blocks
+==6117==                       of which reachable via heuristic:
+==6117==                         newarray           : 4,264 bytes in 1 blocks
+==6117==         suppressed: 0 bytes in 0 blocks
+==6117== Reachable blocks (those to which a pointer was found) are not shown.
+==6117== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6117== 
+==6117== For counts of detected and suppressed errors, rerun with: -v
+==6117== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 0 failed/3 passed/0 abandoned tests
+==6105== 
+==6105== HEAP SUMMARY:
+==6105==     in use at exit: 8 bytes in 1 blocks
+==6105==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==6105== 
+==6105== LEAK SUMMARY:
+==6105==    definitely lost: 0 bytes in 0 blocks
+==6105==    indirectly lost: 0 bytes in 0 blocks
+==6105==      possibly lost: 0 bytes in 0 blocks
+==6105==    still reachable: 8 bytes in 1 blocks
+==6105==         suppressed: 0 bytes in 0 blocks
+==6105== Reachable blocks (those to which a pointer was found) are not shown.
+==6105== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6105== 
+==6105== For counts of detected and suppressed errors, rerun with: -v
+==6105== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

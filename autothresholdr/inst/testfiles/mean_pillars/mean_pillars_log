@@ -1,0 +1,71 @@
+==10306== Memcheck, a memory error detector
+==10306== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10306== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10306== Command: ./mean_pillars_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/mean_pillars/mean_pillars_output
+==10306== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597780595
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_mean_pillars_test)
+arr3d values: nan nan inf -inf inf 6.8741e-276 inf nan nan nan -8.35433e-08 nan inf 2.51533e+191 -2.38993e-59 inf -inf inf -inf nan inf -4.66984e+174 -inf nan inf inf nan 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_mean_pillars_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/mean_pillars/mean_pillars_output/84a6c3e1c4970bc673c1a7c8f424d995e3ba7ab3.fail`
+==10307== 
+==10307== HEAP SUMMARY:
+==10307==     in use at exit: 50,292,557 bytes in 9,714 blocks
+==10307==   total heap usage: 27,686 allocs, 17,972 frees, 85,986,339 bytes allocated
+==10307== 
+==10307== LEAK SUMMARY:
+==10307==    definitely lost: 0 bytes in 0 blocks
+==10307==    indirectly lost: 0 bytes in 0 blocks
+==10307==      possibly lost: 0 bytes in 0 blocks
+==10307==    still reachable: 50,292,557 bytes in 9,714 blocks
+==10307==                       of which reachable via heuristic:
+==10307==                         newarray           : 4,264 bytes in 1 blocks
+==10307==         suppressed: 0 bytes in 0 blocks
+==10307== Reachable blocks (those to which a pointer was found) are not shown.
+==10307== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10307== 
+==10307== For counts of detected and suppressed errors, rerun with: -v
+==10307== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+arr3d values: 7.209e+298 -inf nan -inf nan 5.26356e-116 nan nan nan inf -inf -5.87889e-185 -1.57482e+292 nan inf nan nan -4.94606e+148 -inf 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_mean_pillars_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/mean_pillars/mean_pillars_output/eda60bbfa757002a0adf929c3c7eaab875e7097a.fail`
+==10327== 
+==10327== HEAP SUMMARY:
+==10327==     in use at exit: 50,292,493 bytes in 9,714 blocks
+==10327==   total heap usage: 27,686 allocs, 17,972 frees, 85,986,275 bytes allocated
+==10327== 
+==10327== LEAK SUMMARY:
+==10327==    definitely lost: 0 bytes in 0 blocks
+==10327==    indirectly lost: 0 bytes in 0 blocks
+==10327==      possibly lost: 0 bytes in 0 blocks
+==10327==    still reachable: 50,292,493 bytes in 9,714 blocks
+==10327==                       of which reachable via heuristic:
+==10327==                         newarray           : 4,264 bytes in 1 blocks
+==10327==         suppressed: 0 bytes in 0 blocks
+==10327== Reachable blocks (those to which a pointer was found) are not shown.
+==10327== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10327== 
+==10327== For counts of detected and suppressed errors, rerun with: -v
+==10327== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==10306== 
+==10306== HEAP SUMMARY:
+==10306==     in use at exit: 8 bytes in 1 blocks
+==10306==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==10306== 
+==10306== LEAK SUMMARY:
+==10306==    definitely lost: 0 bytes in 0 blocks
+==10306==    indirectly lost: 0 bytes in 0 blocks
+==10306==      possibly lost: 0 bytes in 0 blocks
+==10306==    still reachable: 8 bytes in 1 blocks
+==10306==         suppressed: 0 bytes in 0 blocks
+==10306== Reachable blocks (those to which a pointer was found) are not shown.
+==10306== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10306== 
+==10306== For counts of detected and suppressed errors, rerun with: -v
+==10306== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

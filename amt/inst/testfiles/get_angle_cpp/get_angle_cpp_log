@@ -1,0 +1,81 @@
+==15004== Memcheck, a memory error detector
+==15004== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15004== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==15004== Command: ./get_angle_cpp_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/amt/inst/testfiles/get_angle_cpp/get_angle_cpp_output
+==15004== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597737055
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_get_angle_cpp_test)
+xy values: -8.14796e+211 2.37738e-42
+-6.42690e-98 -0.000334368
+-6.47656e+22 -1.08123e-223
+2.52250e+259 -2.17370e-132
+-1.96244e+28 -1.04973e+73
+1.17208e+29 -1.20334e+262
+-2.70951e+291     nan
+
+dir values: -3.04762e-281
+input ends
+==15005== 
+==15005== HEAP SUMMARY:
+==15005==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==15005==   total heap usage: 27,689 allocs, 17,976 frees, 85,995,850 bytes allocated
+==15005== 
+==15005== LEAK SUMMARY:
+==15005==    definitely lost: 0 bytes in 0 blocks
+==15005==    indirectly lost: 0 bytes in 0 blocks
+==15005==      possibly lost: 0 bytes in 0 blocks
+==15005==    still reachable: 50,292,285 bytes in 9,713 blocks
+==15005==                       of which reachable via heuristic:
+==15005==                         newarray           : 4,264 bytes in 1 blocks
+==15005==         suppressed: 0 bytes in 0 blocks
+==15005== Reachable blocks (those to which a pointer was found) are not shown.
+==15005== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==15005== 
+==15005== For counts of detected and suppressed errors, rerun with: -v
+==15005== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+xy values: 5.10188e+252 -1.41264e+72 -6.27634e-303 1.22290e+272 1.23847e-169 7.71190e-259 3.17062e-85 1.01111e-20 4.46853e+117 -1.73793e-63
+4.57223e+208 3.38040e+192 4.50404e-231 5.34060e-62 67.6896 -1.39075e-109 -9.94930e+205 -7.20768e-196 -5.50822e+103 3.14638e+205
+6.62311e-114 9.32254e-97 -2.55856e+116 5.27967e+48 -2.03095e-41 -1.79042e+275 6.04557e-289 1.59496e-248 1.87312e+46 1.30300e+52
+3.27960e+189 -6.76199e-121 -9.72576e+63 5.32092e+67 8.47526e-260 2.59455e-305 -2.77176e-24 1.10613e+58 -4.49378e-142 1.38312e+247
+1.46438e+290 -1.25412e-16 2.25388e-106 1.26224e-264 -2.55581e-188 -0.00150418 -2.31702e-22 -1.17737e-172 4.16295e+276 1.56417e-14
+2.16961e+267 6.74954e-190 2.19114e+233 1.83211e+162 -7.21855e-36 -4.26683e+104 -2.90767e+132 -1.11312e-255 -6.86746e-143 -1.00411e-85
+-1.88229e+272 3.44605e-34 -5.53641e-29 -5.08630e-127 3.09472e-217 5.21442e+170 3.96786e-89 -9.30269e-235 8.78909e+25 -2.33601e+14
+
+dir values: 5.45913e+245
+input ends
+==15010== 
+==15010== HEAP SUMMARY:
+==15010==     in use at exit: 50,292,893 bytes in 9,714 blocks
+==15010==   total heap usage: 27,690 allocs, 17,976 frees, 85,996,458 bytes allocated
+==15010== 
+==15010== LEAK SUMMARY:
+==15010==    definitely lost: 0 bytes in 0 blocks
+==15010==    indirectly lost: 0 bytes in 0 blocks
+==15010==      possibly lost: 0 bytes in 0 blocks
+==15010==    still reachable: 50,292,893 bytes in 9,714 blocks
+==15010==                       of which reachable via heuristic:
+==15010==                         newarray           : 4,264 bytes in 1 blocks
+==15010==         suppressed: 0 bytes in 0 blocks
+==15010== Reachable blocks (those to which a pointer was found) are not shown.
+==15010== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==15010== 
+==15010== For counts of detected and suppressed errors, rerun with: -v
+==15010== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==15004== 
+==15004== HEAP SUMMARY:
+==15004==     in use at exit: 8 bytes in 1 blocks
+==15004==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==15004== 
+==15004== LEAK SUMMARY:
+==15004==    definitely lost: 0 bytes in 0 blocks
+==15004==    indirectly lost: 0 bytes in 0 blocks
+==15004==      possibly lost: 0 bytes in 0 blocks
+==15004==    still reachable: 8 bytes in 1 blocks
+==15004==         suppressed: 0 bytes in 0 blocks
+==15004== Reachable blocks (those to which a pointer was found) are not shown.
+==15004== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==15004== 
+==15004== For counts of detected and suppressed errors, rerun with: -v
+==15004== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,119 @@
+==12264== Memcheck, a memory error detector
+==12264== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12264== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12264== Command: ./d_const_vmcos_anltc_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_output
+==12264== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597790353
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_d_const_vmcos_anltc_test)
+k1 values: -2.1641e-273
+k2 values: -8.9853e+262
+k3 values: 2.35622e-65
+input ends
+==12351== Conditional jump or move depends on uninitialised value(s)
+==12351==    at 0x40ED18: arma::Mat<double>::~Mat() (Mat_meat.hpp:27)
+==12351==    by 0x40F204: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==12351==    by 0x40BA53: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:29)
+==12351==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:7)
+==12351==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==    by 0x41648A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==    by 0x41659F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==    by 0x40711D: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==  Uninitialised value was created by a stack allocation
+==12351==    at 0x40B6E2: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:8)
+==12351== 
+==12351== Invalid free() / delete / delete[] / realloc()
+==12351==    at 0x4C30D3B: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12351==    by 0x40ED67: release<const double> (memory.hpp:141)
+==12351==    by 0x40ED67: arma::Mat<double>::~Mat() (Mat_meat.hpp:29)
+==12351==    by 0x40F204: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==12351==    by 0x40BA53: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:29)
+==12351==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:7)
+==12351==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==    by 0x41648A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==    by 0x41659F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==    by 0x40711D: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12351==  Address 0xfff8000000000000 is not stack'd, malloc'd or (recently) free'd
+==12351== 
+==12351== 
+==12351== HEAP SUMMARY:
+==12351==     in use at exit: 50,305,797 bytes in 9,722 blocks
+==12351==   total heap usage: 27,817 allocs, 18,096 frees, 86,033,148 bytes allocated
+==12351== 
+==12351== LEAK SUMMARY:
+==12351==    definitely lost: 0 bytes in 0 blocks
+==12351==    indirectly lost: 0 bytes in 0 blocks
+==12351==      possibly lost: 0 bytes in 0 blocks
+==12351==    still reachable: 50,305,797 bytes in 9,722 blocks
+==12351==                       of which reachable via heuristic:
+==12351==                         newarray           : 4,264 bytes in 1 blocks
+==12351==         suppressed: 0 bytes in 0 blocks
+==12351== Reachable blocks (those to which a pointer was found) are not shown.
+==12351== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12351== 
+==12351== For counts of detected and suppressed errors, rerun with: -v
+==12351== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+k1 values: 2.77265e-63
+k2 values: -4.66296e-99
+k3 values: 4.02862e+28
+input ends
+==12567== Conditional jump or move depends on uninitialised value(s)
+==12567==    at 0x40ED18: arma::Mat<double>::~Mat() (Mat_meat.hpp:27)
+==12567==    by 0x40F204: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==12567==    by 0x40BA53: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:29)
+==12567==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:7)
+==12567==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==    by 0x41648A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==    by 0x41659F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==    by 0x40711D: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==  Uninitialised value was created by a stack allocation
+==12567==    at 0x40B6E2: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:8)
+==12567== 
+==12567== Invalid free() / delete / delete[] / realloc()
+==12567==    at 0x4C30D3B: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12567==    by 0x40ED67: release<const double> (memory.hpp:141)
+==12567==    by 0x40ED67: arma::Mat<double>::~Mat() (Mat_meat.hpp:29)
+==12567==    by 0x40F204: arma::Col<double>::~Col() (arma_forward.hpp:27)
+==12567==    by 0x40BA53: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:29)
+==12567==    by 0x40B6C8: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_anltc_test() (d_const_vmcos_anltc_DeepState_TestHarness.cpp:7)
+==12567==    by 0x4065D3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==    by 0x41648A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==    by 0x41659F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==    by 0x40711D: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness)
+==12567==  Address 0xfff8000000000000 is not stack'd, malloc'd or (recently) free'd
+==12567== 
+==12567== 
+==12567== HEAP SUMMARY:
+==12567==     in use at exit: 50,305,797 bytes in 9,722 blocks
+==12567==   total heap usage: 27,816 allocs, 18,095 frees, 86,033,079 bytes allocated
+==12567== 
+==12567== LEAK SUMMARY:
+==12567==    definitely lost: 0 bytes in 0 blocks
+==12567==    indirectly lost: 0 bytes in 0 blocks
+==12567==      possibly lost: 0 bytes in 0 blocks
+==12567==    still reachable: 50,305,797 bytes in 9,722 blocks
+==12567==                       of which reachable via heuristic:
+==12567==                         newarray           : 4,264 bytes in 1 blocks
+==12567==         suppressed: 0 bytes in 0 blocks
+==12567== Reachable blocks (those to which a pointer was found) are not shown.
+==12567== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12567== 
+==12567== For counts of detected and suppressed errors, rerun with: -v
+==12567== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==12264== 
+==12264== HEAP SUMMARY:
+==12264==     in use at exit: 8 bytes in 1 blocks
+==12264==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==12264== 
+==12264== LEAK SUMMARY:
+==12264==    definitely lost: 0 bytes in 0 blocks
+==12264==    indirectly lost: 0 bytes in 0 blocks
+==12264==      possibly lost: 0 bytes in 0 blocks
+==12264==    still reachable: 8 bytes in 1 blocks
+==12264==         suppressed: 0 bytes in 0 blocks
+==12264== Reachable blocks (those to which a pointer was found) are not shown.
+==12264== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12264== 
+==12264== For counts of detected and suppressed errors, rerun with: -v
+==12264== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

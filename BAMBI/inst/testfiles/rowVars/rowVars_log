@@ -1,0 +1,96 @@
+==11829== Memcheck, a memory error detector
+==11829== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11829== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11829== Command: ./rowVars_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rowVars/rowVars_output
+==11829== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597785453
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rowVars_test)
+mat_in values:    1.9182e-09 -4.4824e+157  9.4387e+239
+  7.8859e+194 -2.3995e+278  7.9997e+270
+
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rowVars/rowVars_output/10e9ab6dd53eafaaf83af75874f8ee50e398ff6c.fail`
+==11830== 
+==11830== HEAP SUMMARY:
+==11830==     in use at exit: 50,292,535 bytes in 9,716 blocks
+==11830==   total heap usage: 27,690 allocs, 17,974 frees, 85,987,370 bytes allocated
+==11830== 
+==11830== 41 bytes in 1 blocks are definitely lost in loss record 22 of 1,309
+==11830==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11830==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11830==    by 0x40BAD4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11830==    by 0x4102DA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==11830==    by 0x41021C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==11830==    by 0x446B04: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==11830==    by 0x446A6D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==11830==    by 0x447DAC: rowVars(arma::Mat<double>) (basic_c_fns.cpp:9)
+==11830==    by 0x40B8E2: DeepState_Test_BAMBI_deepstate_test_rowVars_test() (rowVars_DeepState_TestHarness.cpp:17)
+==11830==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_rowVars_test() (rowVars_DeepState_TestHarness.cpp:7)
+==11830==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rowVars/rowVars_DeepState_TestHarness)
+==11830==    by 0x4174CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rowVars/rowVars_DeepState_TestHarness)
+==11830== 
+==11830== 65 bytes in 1 blocks are possibly lost in loss record 33 of 1,309
+==11830==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11830==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11830==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11830==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11830==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11830==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11830==    by 0x40BAE6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11830==    by 0x4102DA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==11830==    by 0x41021C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==11830==    by 0x446B04: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==11830==    by 0x446A6D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==11830==    by 0x447DAC: rowVars(arma::Mat<double>) (basic_c_fns.cpp:9)
+==11830== 
+==11830== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,309
+==11830==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11830==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==11830==    by 0x40BA99: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==11830==    by 0x4102DA: void arma::arma_check<char const*>(bool, char const* const&) (debug.hpp:382)
+==11830==    by 0x41021C: arma::Mat<double>::init_cold() (Mat_meat.hpp:195)
+==11830==    by 0x446B04: arma::Mat<double>::Mat(arma::arma_vec_indicator const&, unsigned int, unsigned int, unsigned short) (Mat_meat.hpp:160)
+==11830==    by 0x446A6D: arma::Col<double>::Col(unsigned int) (Col_meat.hpp:48)
+==11830==    by 0x447DAC: rowVars(arma::Mat<double>) (basic_c_fns.cpp:9)
+==11830==    by 0x40B8E2: DeepState_Test_BAMBI_deepstate_test_rowVars_test() (rowVars_DeepState_TestHarness.cpp:17)
+==11830==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_rowVars_test() (rowVars_DeepState_TestHarness.cpp:7)
+==11830==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rowVars/rowVars_DeepState_TestHarness)
+==11830==    by 0x4174CA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/rowVars/rowVars_DeepState_TestHarness)
+==11830== 
+==11830== LEAK SUMMARY:
+==11830==    definitely lost: 41 bytes in 1 blocks
+==11830==    indirectly lost: 0 bytes in 0 blocks
+==11830==      possibly lost: 209 bytes in 2 blocks
+==11830==    still reachable: 50,292,285 bytes in 9,713 blocks
+==11830==                       of which reachable via heuristic:
+==11830==                         stdstring          : 65 bytes in 1 blocks
+==11830==                         newarray           : 4,264 bytes in 1 blocks
+==11830==         suppressed: 0 bytes in 0 blocks
+==11830== Reachable blocks (those to which a pointer was found) are not shown.
+==11830== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11830== 
+==11830== For counts of detected and suppressed errors, rerun with: -v
+==11830== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 1 failed/0 passed/0 abandoned tests
+==11829== 
+==11829== HEAP SUMMARY:
+==11829==     in use at exit: 8 bytes in 1 blocks
+==11829==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==11829== 
+==11829== LEAK SUMMARY:
+==11829==    definitely lost: 0 bytes in 0 blocks
+==11829==    indirectly lost: 0 bytes in 0 blocks
+==11829==      possibly lost: 0 bytes in 0 blocks
+==11829==    still reachable: 8 bytes in 1 blocks
+==11829==         suppressed: 0 bytes in 0 blocks
+==11829== Reachable blocks (those to which a pointer was found) are not shown.
+==11829== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11829== 
+==11829== For counts of detected and suppressed errors, rerun with: -v
+==11829== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

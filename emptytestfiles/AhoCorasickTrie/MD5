@@ -1,0 +1,10 @@
+e83f49088909555657b0316fc062b4ba *DESCRIPTION
+79636f47421e275515165fb5e35d1cc9 *NAMESPACE
+fbfb0526a9f14dce1b7529a555194a86 *R/AhoCorasickTrie.R
+820a9162911b13b9d349f7d6c2b88a4e *R/RcppExports.R
+cf7f78cacc20490d4523eb35edc52a56 *man/AhoCorasickSearch.Rd
+8debca1194b53bed49b3494581592c24 *man/AhoCorasickSearchList.Rd
+57a0004aae69a171d9f24e166f292dc5 *man/AhoCorasickTrie.Rd
+2f714b6c7a5b84ff036678637328715f *src/AhoCorasickTrie.cpp
+8f8590a10b60bc56aab2ea78b2c6ab32 *src/RcppExports.cpp
+4dfba3a2864aa3a7c55f9ae55cc38ec1 *tests/AhoCorasickTrieTests.R

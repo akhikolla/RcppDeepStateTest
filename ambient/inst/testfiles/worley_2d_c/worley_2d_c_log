@@ -1,0 +1,127 @@
+==14044== Memcheck, a memory error detector
+==14044== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14044== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==14044== Command: ./worley_2d_c_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/worley_2d_c/worley_2d_c_output
+==14044== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597734530
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_worley_2d_c_test)
+height values: 1572934714
+width values: 1155963945
+seed values: 1949895018
+freq values: 4.51804e-16
+fractal values: 1141730585
+octaves values: 471372010
+lacunarity values: 4.67318e-27
+gain values: -3.19867e+245
+dist values: -170629603
+value values: 472275296
+dist2ind values: 1028258611 -2147483648 -2147483648 -1356247093 -2147483648 -2147483648 -2147483648 2022390269 127060918 -2147483648 1348632573 -1861841910 -2147483648 -2147483648 -2147483648 -591503316 -2147483648 417662634 -484666037 1956513360 1168510384 1269988086 -2147483648 -2147483648 -2147483648 -2147483648 1424086028 -2147483648 1746703766 -509308452 1896358341 -2147483648 72260205 -1288347756 -2147483648 -1407915626 1754015852 -2147483648 -2147483648 -2147483648 -2147483648 -2147483648 -1084722137 1617757522 1278298256 10626539 -2147483648 -2147483648 -2147483648 -1298450433 -1458122070 -1384855620 -2147483648
+jitter values: -1.0314e+72
+pertube values: 1226427670
+pertube_amp values: 4.17959e-97
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+==14045== 
+==14045== HEAP SUMMARY:
+==14045==     in use at exit: 50,292,557 bytes in 9,715 blocks
+==14045==   total heap usage: 27,825 allocs, 18,110 frees, 86,103,201 bytes allocated
+==14045== 
+==14045== 8 bytes in 1 blocks are definitely lost in loss record 10 of 1,308
+==14045==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14045==    by 0x40EE26: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:111)
+==14045==    by 0x40EDCB: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:436)
+==14045==    by 0x40ED72: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==14045==    by 0x40ECAE: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==14045==    by 0x40EB54: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:138)
+==14045==    by 0x40EA86: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (stl_vector.h:284)
+==14045==    by 0x40E7DF: Rcpp::Dimension::Dimension(unsigned long const&, unsigned long const&) (Dimension.h:45)
+==14045==    by 0x40D0D7: Rcpp::Matrix<14, Rcpp::PreserveStorage>::Matrix(int const&, int const&) (Matrix.h:59)
+==14045==    by 0x43DDE3: worley_2d_c(int, int, int, double, int, int, double, double, int, int, Rcpp::Vector<13, Rcpp::PreserveStorage>, double, int, double) (worley.cpp:29)
+==14045==    by 0x409CEB: DeepState_Test_ambient_deepstate_test_worley_2d_c_test() (worley_2d_c_DeepState_TestHarness.cpp:95)
+==14045==    by 0x408E18: DeepState_Run_ambient_deepstate_test_worley_2d_c_test() (worley_2d_c_DeepState_TestHarness.cpp:7)
+==14045== 
+==14045== LEAK SUMMARY:
+==14045==    definitely lost: 8 bytes in 1 blocks
+==14045==    indirectly lost: 0 bytes in 0 blocks
+==14045==      possibly lost: 0 bytes in 0 blocks
+==14045==    still reachable: 50,292,549 bytes in 9,714 blocks
+==14045==                       of which reachable via heuristic:
+==14045==                         newarray           : 4,264 bytes in 1 blocks
+==14045==         suppressed: 0 bytes in 0 blocks
+==14045== Reachable blocks (those to which a pointer was found) are not shown.
+==14045== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14045== 
+==14045== For counts of detected and suppressed errors, rerun with: -v
+==14045== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+height values: 2009799169
+width values: -849774623
+seed values: -1257782417
+freq values: 5.47589e+129
+fractal values: 340215463
+octaves values: 1510966911
+lacunarity values: -1.82996e-245
+gain values: -2.75813e-46
+dist values: -2044912402
+value values: -1225045813
+dist2ind values: -2147483648 -92128945 -640455073 -2053738040 -578746422 -307181050 -2147483648 -1226928836 -2147483648 -2147483648 -855579206 -763414071 -1455645155 -2147483648 1969643586 -188866873 -2147483648 -2147483648 -2147483648 -1313763802 879138089 -2147483648 -1080559301 -2100844749 616763225 -2147483648 -2147483648 -2147483648 1843339503 -2147483648 -2147483648 1660728762 1571689198 -2147483648 -2147483648 -2147483648 -2147483648 2106666732 -111263694 1634517321 -1204500022 -2147483648 -2147483648 -893459417 -2147483648 -2147483648 191564992 -1189973646 -1408667733 -2147483648
+jitter values: -1.20756e-208
+pertube values: 1154438484
+pertube_amp values: -1.13848e+122
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+==14052== 
+==14052== HEAP SUMMARY:
+==14052==     in use at exit: 50,292,541 bytes in 9,715 blocks
+==14052==   total heap usage: 27,825 allocs, 18,110 frees, 86,103,185 bytes allocated
+==14052== 
+==14052== 8 bytes in 1 blocks are definitely lost in loss record 10 of 1,308
+==14052==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14052==    by 0x40EE26: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:111)
+==14052==    by 0x40EDCB: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:436)
+==14052==    by 0x40ED72: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==14052==    by 0x40ECAE: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==14052==    by 0x40EB54: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:138)
+==14052==    by 0x40EA86: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (stl_vector.h:284)
+==14052==    by 0x40E7DF: Rcpp::Dimension::Dimension(unsigned long const&, unsigned long const&) (Dimension.h:45)
+==14052==    by 0x40D0D7: Rcpp::Matrix<14, Rcpp::PreserveStorage>::Matrix(int const&, int const&) (Matrix.h:59)
+==14052==    by 0x43DDE3: worley_2d_c(int, int, int, double, int, int, double, double, int, int, Rcpp::Vector<13, Rcpp::PreserveStorage>, double, int, double) (worley.cpp:29)
+==14052==    by 0x409CEB: DeepState_Test_ambient_deepstate_test_worley_2d_c_test() (worley_2d_c_DeepState_TestHarness.cpp:95)
+==14052==    by 0x408E18: DeepState_Run_ambient_deepstate_test_worley_2d_c_test() (worley_2d_c_DeepState_TestHarness.cpp:7)
+==14052== 
+==14052== LEAK SUMMARY:
+==14052==    definitely lost: 8 bytes in 1 blocks
+==14052==    indirectly lost: 0 bytes in 0 blocks
+==14052==      possibly lost: 0 bytes in 0 blocks
+==14052==    still reachable: 50,292,533 bytes in 9,714 blocks
+==14052==                       of which reachable via heuristic:
+==14052==                         newarray           : 4,264 bytes in 1 blocks
+==14052==         suppressed: 0 bytes in 0 blocks
+==14052== Reachable blocks (those to which a pointer was found) are not shown.
+==14052== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14052== 
+==14052== For counts of detected and suppressed errors, rerun with: -v
+==14052== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==14044== 
+==14044== HEAP SUMMARY:
+==14044==     in use at exit: 8 bytes in 1 blocks
+==14044==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==14044== 
+==14044== LEAK SUMMARY:
+==14044==    definitely lost: 0 bytes in 0 blocks
+==14044==    indirectly lost: 0 bytes in 0 blocks
+==14044==      possibly lost: 0 bytes in 0 blocks
+==14044==    still reachable: 8 bytes in 1 blocks
+==14044==         suppressed: 0 bytes in 0 blocks
+==14044== Reachable blocks (those to which a pointer was found) are not shown.
+==14044== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==14044== 
+==14044== For counts of detected and suppressed errors, rerun with: -v
+==14044== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

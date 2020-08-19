@@ -1,0 +1,97 @@
+==10139== Memcheck, a memory error detector
+==10139== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10139== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10139== Command: ./movingaves_n_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/movingaves_n/movingaves_n_output
+==10139== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597714458
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_movingaves_n_test)
+x values: 2.89288e-122 inf nan nan 0
+window values: 4.11323e+115
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+==10140== 
+==10140== HEAP SUMMARY:
+==10140==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==10140==   total heap usage: 27,799 allocs, 18,086 frees, 85,998,001 bytes allocated
+==10140== 
+==10140== LEAK SUMMARY:
+==10140==    definitely lost: 0 bytes in 0 blocks
+==10140==    indirectly lost: 0 bytes in 0 blocks
+==10140==      possibly lost: 0 bytes in 0 blocks
+==10140==    still reachable: 50,292,285 bytes in 9,713 blocks
+==10140==                       of which reachable via heuristic:
+==10140==                         newarray           : 4,264 bytes in 1 blocks
+==10140==         suppressed: 0 bytes in 0 blocks
+==10140== Reachable blocks (those to which a pointer was found) are not shown.
+==10140== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10140== 
+==10140== For counts of detected and suppressed errors, rerun with: -v
+==10140== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+x values: nan nan 1.91512e-92 -2.38827e-07 -1.51117e-182 -3.79485e+199 -1.3852e-143 nan inf -inf -inf inf nan inf -inf nan nan nan inf nan -inf -inf inf -inf nan -inf -9.73297e-294 nan nan inf nan 7.43451e+164 -2.53155e-145 nan -inf nan nan 2.71241e-21 0
+window values: -9.83399e+171
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+==10175== 
+==10175== HEAP SUMMARY:
+==10175==     in use at exit: 50,292,645 bytes in 9,714 blocks
+==10175==   total heap usage: 27,800 allocs, 18,086 frees, 85,998,361 bytes allocated
+==10175== 
+==10175== LEAK SUMMARY:
+==10175==    definitely lost: 0 bytes in 0 blocks
+==10175==    indirectly lost: 0 bytes in 0 blocks
+==10175==      possibly lost: 0 bytes in 0 blocks
+==10175==    still reachable: 50,292,645 bytes in 9,714 blocks
+==10175==                       of which reachable via heuristic:
+==10175==                         newarray           : 4,264 bytes in 1 blocks
+==10175==         suppressed: 0 bytes in 0 blocks
+==10175== Reachable blocks (those to which a pointer was found) are not shown.
+==10175== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10175== 
+==10175== For counts of detected and suppressed errors, rerun with: -v
+==10175== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+x values: nan -8.77079e-205 inf inf -1.24652e+94 1.04845e-56 -inf nan nan nan nan inf inf inf nan -inf nan nan -inf 2.90867e+49 nan -inf inf nan inf -4.34045e+224 -inf -inf nan -inf -inf nan 0
+window values: 1.29741e+102
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+==10182== 
+==10182== HEAP SUMMARY:
+==10182==     in use at exit: 50,292,597 bytes in 9,714 blocks
+==10182==   total heap usage: 27,800 allocs, 18,086 frees, 85,998,313 bytes allocated
+==10182== 
+==10182== LEAK SUMMARY:
+==10182==    definitely lost: 0 bytes in 0 blocks
+==10182==    indirectly lost: 0 bytes in 0 blocks
+==10182==      possibly lost: 0 bytes in 0 blocks
+==10182==    still reachable: 50,292,597 bytes in 9,714 blocks
+==10182==                       of which reachable via heuristic:
+==10182==                         newarray           : 4,264 bytes in 1 blocks
+==10182==         suppressed: 0 bytes in 0 blocks
+==10182== Reachable blocks (those to which a pointer was found) are not shown.
+==10182== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10182== 
+==10182== For counts of detected and suppressed errors, rerun with: -v
+==10182== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 3 failed/0 passed/0 abandoned tests
+==10139== 
+==10139== HEAP SUMMARY:
+==10139==     in use at exit: 8 bytes in 1 blocks
+==10139==   total heap usage: 5 allocs, 4 frees, 107,608 bytes allocated
+==10139== 
+==10139== LEAK SUMMARY:
+==10139==    definitely lost: 0 bytes in 0 blocks
+==10139==    indirectly lost: 0 bytes in 0 blocks
+==10139==      possibly lost: 0 bytes in 0 blocks
+==10139==    still reachable: 8 bytes in 1 blocks
+==10139==         suppressed: 0 bytes in 0 blocks
+==10139== Reachable blocks (those to which a pointer was found) are not shown.
+==10139== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10139== 
+==10139== For counts of detected and suppressed errors, rerun with: -v
+==10139== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

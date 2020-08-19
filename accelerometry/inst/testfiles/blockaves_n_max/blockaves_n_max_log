@@ -1,0 +1,132 @@
+==7197== Memcheck, a memory error detector
+==7197== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7197== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7197== Command: ./blockaves_n_max_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_output
+==7197== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597712389
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blockaves_n_max_test)
+x values: inf nan -5.70821e-104 inf nan -inf -inf nan nan -inf nan -inf -1.58048e-280 2.70337e-253 nan 1.49548e+167 -5.97475e-127 nan nan inf nan inf nan nan nan nan nan inf nan -7.39555e-238 nan -inf -inf -8.77587e-34 nan inf -inf nan inf nan -1.14314e-70 nan nan -inf nan nan nan nan nan 1.25321e-152 nan 1.30143e+210 nan nan nan inf -inf nan nan nan nan nan 4.51857e+250 -1.1835e-148 -inf -1.72075e-280 -4.98389e+10 nan nan -inf -7.99807e-201 -inf inf nan nan nan inf nan -4.84859e+20 -6.33361e-68 nan 1.25872e-146 -inf 1.65351e+126 inf inf inf 1.10998e-131 inf -1.40595e+162 nan nan inf -1.20628e+138 nan inf -2.72836e-149 nan inf 0
+window values: 1245469933
+inputends
+==7198== Invalid read of size 8
+==7198==    at 0x42934F: blockaves_n_max(Rcpp::Vector<14, Rcpp::PreserveStorage>, int) (blockaves_c.cpp:94)
+==7198==    by 0x409A8A: DeepState_Test_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:22)
+==7198==    by 0x409858: DeepState_Run_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:7)
+==7198==    by 0x406343: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x41470A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x41481F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x406E8D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==  Address 0xba2ffd0 is 0 bytes after a block of size 848 alloc'd
+==7198==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==7198==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==7198==    by 0x40C9DD: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==7198==    by 0x4085A1: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==7198==    by 0x4098B0: DeepState_Test_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:11)
+==7198==    by 0x409858: DeepState_Run_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:7)
+==7198==    by 0x406343: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x41470A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x41481F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x406E8D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198== 
+==7198== 
+==7198== Process terminating with default action of signal 11 (SIGSEGV)
+==7198==  Bad permissions for mapped region at address 0xD4CC000
+==7198==    at 0x42934F: blockaves_n_max(Rcpp::Vector<14, Rcpp::PreserveStorage>, int) (blockaves_c.cpp:94)
+==7198==    by 0x409A8A: DeepState_Test_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:22)
+==7198==    by 0x409858: DeepState_Run_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:7)
+==7198==    by 0x406343: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x41470A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x41481F: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198==    by 0x406E8D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7198== 
+==7198== HEAP SUMMARY:
+==7198==     in use at exit: 50,316,953 bytes in 9,735 blocks
+==7198==   total heap usage: 27,686 allocs, 17,951 frees, 85,991,896 bytes allocated
+==7198== 
+==7198== LEAK SUMMARY:
+==7198==    definitely lost: 0 bytes in 0 blocks
+==7198==    indirectly lost: 0 bytes in 0 blocks
+==7198==      possibly lost: 0 bytes in 0 blocks
+==7198==    still reachable: 50,316,953 bytes in 9,735 blocks
+==7198==                       of which reachable via heuristic:
+==7198==                         newarray           : 4,264 bytes in 1 blocks
+==7198==         suppressed: 0 bytes in 0 blocks
+==7198== Reachable blocks (those to which a pointer was found) are not shown.
+==7198== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==7198== 
+==7198== For counts of detected and suppressed errors, rerun with: -v
+==7198== ERROR SUMMARY: 1407124 errors from 1 contexts (suppressed: 0 from 0)
+ERROR: Crashed: accelerometry_deepstate_test_blockaves_n_max_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_output/4f6511bcefec82fc1ab2277a08a6f6335a87b439.crash`
+INFO: 2020-08-17 18:01:19: 0 tests/second: 1 failed/0 passed/0 abandoned
+x values: -7.66594e-109 inf -inf nan inf -inf inf nan inf nan -inf nan nan nan inf nan nan nan inf nan nan nan -inf -inf nan nan inf inf nan -inf -inf -inf -inf nan nan nan inf inf nan inf nan -3.42379e-94 nan -6.47827e-220 -3.58109e+78 nan -inf nan nan nan -6.2072e+241 nan -inf nan nan nan -inf 1.59355e-288 -2.24681e-198 inf -inf inf nan inf inf -2.4335e-244 inf 1.6753e+20 inf nan -inf inf -6.77098e-106 nan nan 2.71723e+38 nan nan nan 0
+window values: 539561629
+inputends
+==7610== Invalid read of size 8
+==7610==    at 0x42934F: blockaves_n_max(Rcpp::Vector<14, Rcpp::PreserveStorage>, int) (blockaves_c.cpp:94)
+==7610==    by 0x409A8A: DeepState_Test_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:22)
+==7610==    by 0x409858: DeepState_Run_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:7)
+==7610==    by 0x406343: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x41470A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x4148E7: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x406E8D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==  Address 0xb9b90d0 is 0 bytes after a block of size 688 alloc'd
+==7610==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==7610==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==7610==    by 0x40C9DD: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector(int const&) (Vector.h:130)
+==7610==    by 0x4085A1: RcppDeepState_NumericVector() (RcppDeepState.h:27)
+==7610==    by 0x4098B0: DeepState_Test_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:11)
+==7610==    by 0x409858: DeepState_Run_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:7)
+==7610==    by 0x406343: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x41470A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x4148E7: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x406E8D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610== 
+==7610== 
+==7610== Process terminating with default action of signal 11 (SIGSEGV)
+==7610==  Bad permissions for mapped region at address 0xD4CC000
+==7610==    at 0x42934F: blockaves_n_max(Rcpp::Vector<14, Rcpp::PreserveStorage>, int) (blockaves_c.cpp:94)
+==7610==    by 0x409A8A: DeepState_Test_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:22)
+==7610==    by 0x409858: DeepState_Run_accelerometry_deepstate_test_blockaves_n_max_test() (blockaves_n_max_DeepState_TestHarness.cpp:7)
+==7610==    by 0x406343: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x41470A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x4148E7: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610==    by 0x406E8D: main (in /home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness)
+==7610== 
+==7610== HEAP SUMMARY:
+==7610==     in use at exit: 50,316,793 bytes in 9,735 blocks
+==7610==   total heap usage: 27,697 allocs, 17,962 frees, 86,001,485 bytes allocated
+==7610== 
+==7610== LEAK SUMMARY:
+==7610==    definitely lost: 0 bytes in 0 blocks
+==7610==    indirectly lost: 0 bytes in 0 blocks
+==7610==      possibly lost: 0 bytes in 0 blocks
+==7610==    still reachable: 50,316,793 bytes in 9,735 blocks
+==7610==                       of which reachable via heuristic:
+==7610==                         newarray           : 4,264 bytes in 1 blocks
+==7610==         suppressed: 0 bytes in 0 blocks
+==7610== Reachable blocks (those to which a pointer was found) are not shown.
+==7610== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==7610== 
+==7610== For counts of detected and suppressed errors, rerun with: -v
+==7610== ERROR SUMMARY: 1486242 errors from 1 contexts (suppressed: 0 from 0)
+ERROR: Crashed: accelerometry_deepstate_test_blockaves_n_max_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_output/ccab031a2098ad89da215939fac0247e01914ab7.crash`
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==7197== 
+==7197== HEAP SUMMARY:
+==7197==     in use at exit: 8 bytes in 1 blocks
+==7197==   total heap usage: 19 allocs, 18 frees, 122,166 bytes allocated
+==7197== 
+==7197== LEAK SUMMARY:
+==7197==    definitely lost: 0 bytes in 0 blocks
+==7197==    indirectly lost: 0 bytes in 0 blocks
+==7197==      possibly lost: 0 bytes in 0 blocks
+==7197==    still reachable: 8 bytes in 1 blocks
+==7197==         suppressed: 0 bytes in 0 blocks
+==7197== Reachable blocks (those to which a pointer was found) are not shown.
+==7197== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==7197== 
+==7197== For counts of detected and suppressed errors, rerun with: -v
+==7197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

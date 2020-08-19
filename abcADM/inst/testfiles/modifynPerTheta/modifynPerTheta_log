@@ -1,0 +1,88 @@
+==5541== Memcheck, a memory error detector
+==5541== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5541== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5541== Command: ./modifynPerTheta_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/abcADM/inst/testfiles/modifynPerTheta/modifynPerTheta_output
+==5541== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597704252
+WARNING: No test specified, defaulting to first test defined (abcADM_deepstate_test_modifynPerTheta_test)
+newnPerTheta values: -640888302
+verbose values: 794125154
+inputends
+==5542== 
+==5542== HEAP SUMMARY:
+==5542==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==5542==   total heap usage: 27,704 allocs, 17,991 frees, 85,997,089 bytes allocated
+==5542== 
+==5542== LEAK SUMMARY:
+==5542==    definitely lost: 0 bytes in 0 blocks
+==5542==    indirectly lost: 0 bytes in 0 blocks
+==5542==      possibly lost: 0 bytes in 0 blocks
+==5542==    still reachable: 50,292,285 bytes in 9,713 blocks
+==5542==                       of which reachable via heuristic:
+==5542==                         newarray           : 4,264 bytes in 1 blocks
+==5542==         suppressed: 0 bytes in 0 blocks
+==5542== Reachable blocks (those to which a pointer was found) are not shown.
+==5542== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5542== 
+==5542== For counts of detected and suppressed errors, rerun with: -v
+==5542== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+newnPerTheta values: -1237580877
+verbose values: -980601780
+inputends
+==5548== 
+==5548== HEAP SUMMARY:
+==5548==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==5548==   total heap usage: 27,704 allocs, 17,991 frees, 85,997,089 bytes allocated
+==5548== 
+==5548== LEAK SUMMARY:
+==5548==    definitely lost: 0 bytes in 0 blocks
+==5548==    indirectly lost: 0 bytes in 0 blocks
+==5548==      possibly lost: 0 bytes in 0 blocks
+==5548==    still reachable: 50,292,285 bytes in 9,713 blocks
+==5548==                       of which reachable via heuristic:
+==5548==                         newarray           : 4,264 bytes in 1 blocks
+==5548==         suppressed: 0 bytes in 0 blocks
+==5548== Reachable blocks (those to which a pointer was found) are not shown.
+==5548== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5548== 
+==5548== For counts of detected and suppressed errors, rerun with: -v
+==5548== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+newnPerTheta values: 1952491401
+verbose values: 1966006665
+inputends
+==5553== 
+==5553== HEAP SUMMARY:
+==5553==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==5553==   total heap usage: 27,704 allocs, 17,991 frees, 85,997,089 bytes allocated
+==5553== 
+==5553== LEAK SUMMARY:
+==5553==    definitely lost: 0 bytes in 0 blocks
+==5553==    indirectly lost: 0 bytes in 0 blocks
+==5553==      possibly lost: 0 bytes in 0 blocks
+==5553==    still reachable: 50,292,285 bytes in 9,713 blocks
+==5553==                       of which reachable via heuristic:
+==5553==                         newarray           : 4,264 bytes in 1 blocks
+==5553==         suppressed: 0 bytes in 0 blocks
+==5553== Reachable blocks (those to which a pointer was found) are not shown.
+==5553== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5553== 
+==5553== For counts of detected and suppressed errors, rerun with: -v
+==5553== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 0 failed/3 passed/0 abandoned tests
+==5541== 
+==5541== HEAP SUMMARY:
+==5541==     in use at exit: 8 bytes in 1 blocks
+==5541==   total heap usage: 20 allocs, 19 frees, 107,808 bytes allocated
+==5541== 
+==5541== LEAK SUMMARY:
+==5541==    definitely lost: 0 bytes in 0 blocks
+==5541==    indirectly lost: 0 bytes in 0 blocks
+==5541==      possibly lost: 0 bytes in 0 blocks
+==5541==    still reachable: 8 bytes in 1 blocks
+==5541==         suppressed: 0 bytes in 0 blocks
+==5541== Reachable blocks (those to which a pointer was found) are not shown.
+==5541== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5541== 
+==5541== For counts of detected and suppressed errors, rerun with: -v
+==5541== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

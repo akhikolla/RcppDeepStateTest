@@ -1,0 +1,130 @@
+==10903== Memcheck, a memory error detector
+==10903== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10903== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10903== Command: ./get_VM_C_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_output
+==10903== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597716653
+WARNING: No test specified, defaulting to first test defined (AGread_deepstate_test_get_VM_C_test)
+x values: -inf -4.30039e-277 nan -inf 3.91522e-233 inf inf -inf nan nan inf inf -inf -inf nan nan -inf -inf 4.04417e-245 -inf inf -inf nan nan nan -inf -inf nan nan inf -inf 1.5147e-111 -inf -inf inf inf nan -3.53791e-266 nan nan inf -3.56549e+204 nan -4.78404e+198 inf nan nan -6.90744e-23 -inf -5.38333e-174 nan nan inf -2.37436e+189 inf nan nan nan 3.09255e-187 nan -inf -inf -5.36873e+129 nan -inf inf -inf nan -4.80468e+291 -inf nan -inf -2.73599e+74 inf 5.22581e+45 nan nan -inf nan 0
+y values: -inf nan nan -inf nan nan 1.54621e+305 nan -inf inf inf nan -inf -1.83297e+20 nan nan -3.12058e-208 inf nan nan inf -3.08838e-57 -9.50095e+291 1.91111e-282 -inf -inf inf inf nan inf inf inf nan inf -inf nan nan inf nan nan -inf nan nan -inf -3.49774e-124 inf nan nan nan inf nan nan 3.43469e+86 -inf nan -inf nan 1.09457e+26 inf -inf inf inf -1.07381e-204 1.21151e-120 -inf nan 3.7042e+112 -6.39816e+138 -2.69118e+237 nan nan nan -inf nan inf nan nan -2.92753e+127 inf nan -inf -inf inf -4.31656e-305 nan inf nan -1.22806e-155 0
+z values: nan -inf -inf nan nan -1.25067e-210 2.40212e-95 6.74738e+155 inf nan inf nan inf inf -inf inf inf nan -2.9391e+141 -6.084e-207 -7.66514e-224 inf 3.76915e+120 1.23003e+98 -inf -4.48158e-05 -2.80807e+95 inf nan nan nan nan inf -3.80109e-230 nan -5.9527e-35 nan inf nan 4.73542e-126 3.71801e-152 -inf inf -inf inf nan -inf -3.80151e+231 -2.54146e+99 nan 6.20522e+35 -1.29686e-111 nan inf nan inf nan nan inf inf inf -inf nan 1.95989e+231 nan inf -inf nan nan 4.92815e+305 inf 0
+==10904== Invalid read of size 8
+==10904==    at 0x42BD92: get_VM_C(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (get_VM_C.cpp:22)
+==10904==    by 0x40A690: DeepState_Test_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:28)
+==10904==    by 0x40A348: DeepState_Run_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:7)
+==10904==    by 0x406CD3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904==    by 0x4153EA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904==    by 0x4154FF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904==    by 0x40781D: main (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904==  Address 0xba09720 is 0 bytes after a block of size 624 alloc'd
+==10904==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10904==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10904==    by 0x42C17A: void Rcpp::Vector<14, Rcpp::PreserveStorage>::import_sugar_expression<true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> >(Rcpp::VectorBase<14, true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> > const&, Rcpp::traits::integral_constant<bool, false>) (Vector.h:1070)
+==10904==    by 0x42C021: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector<true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> >(Rcpp::VectorBase<14, true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> > const&) (Vector.h:165)
+==10904==    by 0x42BCC7: get_VM_C(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (get_VM_C.cpp:19)
+==10904==    by 0x40A690: DeepState_Test_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:28)
+==10904==    by 0x40A348: DeepState_Run_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:7)
+==10904==    by 0x406CD3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904==    by 0x4153EA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904==    by 0x4154FF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904==    by 0x40781D: main (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10904== 
+==10904== 
+==10904== HEAP SUMMARY:
+==10904==     in use at exit: 50,297,117 bytes in 9,720 blocks
+==10904==   total heap usage: 27,698 allocs, 17,978 frees, 86,010,451 bytes allocated
+==10904== 
+==10904== LEAK SUMMARY:
+==10904==    definitely lost: 0 bytes in 0 blocks
+==10904==    indirectly lost: 0 bytes in 0 blocks
+==10904==      possibly lost: 0 bytes in 0 blocks
+==10904==    still reachable: 50,297,117 bytes in 9,720 blocks
+==10904==                       of which reachable via heuristic:
+==10904==                         newarray           : 4,264 bytes in 1 blocks
+==10904==         suppressed: 0 bytes in 0 blocks
+==10904== Reachable blocks (those to which a pointer was found) are not shown.
+==10904== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10904== 
+==10904== For counts of detected and suppressed errors, rerun with: -v
+==10904== ERROR SUMMARY: 8 errors from 1 contexts (suppressed: 0 from 0)
+x values: -inf nan -inf -7.21829e-197 -1.85986e+218 -inf -inf -inf nan inf inf -5.37694e-224 nan inf -inf nan -8.16788e+54 nan -1.41398e+26 inf -inf inf nan inf nan 5.58367e-155 -inf 3.12444e-20 -inf inf 1.35359e+204 nan -7.22008e+08 -inf -inf nan nan -5.85866e-152 6.05073e+203 nan nan -1.4388e+223 inf 3.63982e+121 inf -inf nan -inf nan nan nan -inf nan nan -inf -4.707e+243 2.02713e+193 -6.76713e+224 nan nan inf -5.57033e+150 nan -inf nan nan nan -inf nan nan nan inf nan -9.08604e+30 nan nan nan -inf inf nan nan inf inf 1.71348e-128 -inf inf nan -inf 0
+y values: nan nan -inf nan nan -6.02861e-83 nan inf nan 6.13026e+212 nan -7.66882e+88 -3.13763e-100 nan nan nan 0
+z values: nan -inf inf -4.58957e+197 inf -1.58725e-169 inf nan -inf nan nan -2.99974e-204 4.91723e+84 inf nan -inf inf 3.12169e-189 -inf -inf -inf inf nan inf inf inf -inf inf -inf -inf -9.50064e+281 nan nan -inf nan nan nan -inf 3.18745e+11 1.51057e-276 nan -5.16197e-213 inf nan inf inf nan nan -1.59947e+103 inf nan -7.5591e+236 -inf inf -inf nan -inf inf -inf -inf nan -inf 9.27627e-176 inf inf 9.89237e-255 inf nan -9.65417e+244 inf nan inf nan nan 0
+==10915== Invalid read of size 8
+==10915==    at 0x42BD5A: get_VM_C(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (get_VM_C.cpp:22)
+==10915==    by 0x40A690: DeepState_Test_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:28)
+==10915==    by 0x40A348: DeepState_Run_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:7)
+==10915==    by 0x406CD3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4153EA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4154FF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x40781D: main (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==  Address 0xb8d7ce8 is 0 bytes after a block of size 184 alloc'd
+==10915==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10915==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10915==    by 0x42C17A: void Rcpp::Vector<14, Rcpp::PreserveStorage>::import_sugar_expression<true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> >(Rcpp::VectorBase<14, true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> > const&, Rcpp::traits::integral_constant<bool, false>) (Vector.h:1070)
+==10915==    by 0x42C021: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector<true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> >(Rcpp::VectorBase<14, true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> > const&) (Vector.h:165)
+==10915==    by 0x42BC7E: get_VM_C(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (get_VM_C.cpp:18)
+==10915==    by 0x40A690: DeepState_Test_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:28)
+==10915==    by 0x40A348: DeepState_Run_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:7)
+==10915==    by 0x406CD3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4153EA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4154FF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x40781D: main (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915== 
+==10915== Invalid read of size 8
+==10915==    at 0x42BD92: get_VM_C(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (get_VM_C.cpp:22)
+==10915==    by 0x40A690: DeepState_Test_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:28)
+==10915==    by 0x40A348: DeepState_Run_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:7)
+==10915==    by 0x406CD3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4153EA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4154FF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x40781D: main (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==  Address 0xb989cd8 is 0 bytes after a block of size 648 alloc'd
+==10915==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10915==    by 0x4FB8633: Rf_allocVector3 (memory.c:2766)
+==10915==    by 0x42C17A: void Rcpp::Vector<14, Rcpp::PreserveStorage>::import_sugar_expression<true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> >(Rcpp::VectorBase<14, true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> > const&, Rcpp::traits::integral_constant<bool, false>) (Vector.h:1070)
+==10915==    by 0x42C021: Rcpp::Vector<14, Rcpp::PreserveStorage>::Vector<true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> >(Rcpp::VectorBase<14, true, Rcpp::sugar::Pow<14, true, Rcpp::Vector<14, Rcpp::PreserveStorage>, int> > const&) (Vector.h:165)
+==10915==    by 0x42BCC7: get_VM_C(Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>, Rcpp::Vector<14, Rcpp::PreserveStorage>) (get_VM_C.cpp:19)
+==10915==    by 0x40A690: DeepState_Test_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:28)
+==10915==    by 0x40A348: DeepState_Run_AGread_deepstate_test_get_VM_C_test() (get_VM_C_DeepState_TestHarness.cpp:7)
+==10915==    by 0x406CD3: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4153EA: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x4154FF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915==    by 0x40781D: main (in /home/akhila/Documents/compileAttributescheck/AGread/inst/testfiles/get_VM_C/get_VM_C_DeepState_TestHarness)
+==10915== 
+==10915== 
+==10915== HEAP SUMMARY:
+==10915==     in use at exit: 50,296,228 bytes in 9,720 blocks
+==10915==   total heap usage: 27,698 allocs, 17,978 frees, 86,009,562 bytes allocated
+==10915== 
+==10915== LEAK SUMMARY:
+==10915==    definitely lost: 0 bytes in 0 blocks
+==10915==    indirectly lost: 0 bytes in 0 blocks
+==10915==      possibly lost: 0 bytes in 0 blocks
+==10915==    still reachable: 50,296,228 bytes in 9,720 blocks
+==10915==                       of which reachable via heuristic:
+==10915==                         newarray           : 4,264 bytes in 1 blocks
+==10915==         suppressed: 0 bytes in 0 blocks
+==10915== Reachable blocks (those to which a pointer was found) are not shown.
+==10915== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10915== 
+==10915== For counts of detected and suppressed errors, rerun with: -v
+==10915== ERROR SUMMARY: 51 errors from 2 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==10903== 
+==10903== HEAP SUMMARY:
+==10903==     in use at exit: 8 bytes in 1 blocks
+==10903==   total heap usage: 5 allocs, 4 frees, 107,608 bytes allocated
+==10903== 
+==10903== LEAK SUMMARY:
+==10903==    definitely lost: 0 bytes in 0 blocks
+==10903==    indirectly lost: 0 bytes in 0 blocks
+==10903==      possibly lost: 0 bytes in 0 blocks
+==10903==    still reachable: 8 bytes in 1 blocks
+==10903==         suppressed: 0 bytes in 0 blocks
+==10903== Reachable blocks (those to which a pointer was found) are not shown.
+==10903== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10903== 
+==10903== For counts of detected and suppressed errors, rerun with: -v
+==10903== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

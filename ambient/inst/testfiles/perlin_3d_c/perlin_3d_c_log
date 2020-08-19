@@ -1,0 +1,123 @@
+==13327== Memcheck, a memory error detector
+==13327== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13327== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13327== Command: ./perlin_3d_c_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/ambient/inst/testfiles/perlin_3d_c/perlin_3d_c_output
+==13327== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597730748
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_perlin_3d_c_test)
+height values: 1721678437
+width values: 364838712
+depth values: 2091373144
+seed values: -1373911224
+freq values: -1.37051e-53
+interp values: -1648787803
+fractal values: -116347553
+octaves values: -1352153660
+lacunarity values: 1.57718e-183
+gain values: 1.54603e-207
+pertube values: -973813662
+pertube_amp values: 1.25101e-279
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+==13328== 
+==13328== HEAP SUMMARY:
+==13328==     in use at exit: 50,292,293 bytes in 9,714 blocks
+==13328==   total heap usage: 27,820 allocs, 18,106 frees, 86,085,449 bytes allocated
+==13328== 
+==13328== 8 bytes in 1 blocks are definitely lost in loss record 10 of 1,307
+==13328==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13328==    by 0x40E8B6: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:111)
+==13328==    by 0x40E85B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:436)
+==13328==    by 0x40E802: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==13328==    by 0x40E73E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==13328==    by 0x40E5E4: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:138)
+==13328==    by 0x40E516: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (stl_vector.h:284)
+==13328==    by 0x40E26F: Rcpp::Dimension::Dimension(unsigned long const&, unsigned long const&) (Dimension.h:45)
+==13328==    by 0x40CD97: Rcpp::Matrix<14, Rcpp::PreserveStorage>::Matrix(int const&, int const&) (Matrix.h:59)
+==13328==    by 0x43A2FD: perlin_3d_c(int, int, int, int, double, int, int, int, double, double, int, double) (perlin.cpp:54)
+==13328==    by 0x409A55: DeepState_Test_ambient_deepstate_test_perlin_3d_c_test() (perlin_3d_c_DeepState_TestHarness.cpp:83)
+==13328==    by 0x408E18: DeepState_Run_ambient_deepstate_test_perlin_3d_c_test() (perlin_3d_c_DeepState_TestHarness.cpp:7)
+==13328== 
+==13328== LEAK SUMMARY:
+==13328==    definitely lost: 8 bytes in 1 blocks
+==13328==    indirectly lost: 0 bytes in 0 blocks
+==13328==      possibly lost: 0 bytes in 0 blocks
+==13328==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13328==                       of which reachable via heuristic:
+==13328==                         newarray           : 4,264 bytes in 1 blocks
+==13328==         suppressed: 0 bytes in 0 blocks
+==13328== Reachable blocks (those to which a pointer was found) are not shown.
+==13328== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13328== 
+==13328== For counts of detected and suppressed errors, rerun with: -v
+==13328== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+height values: -1888900768
+width values: 1348340355
+depth values: -402817556
+seed values: 933854966
+freq values: -2.75076e-233
+interp values: 939080322
+fractal values: 1357208288
+octaves values: 1308835998
+lacunarity values: 8.63158e+299
+gain values: 4.32158e+60
+pertube values: 1613487000
+pertube_amp values: 1.91402e+45
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+==13334== 
+==13334== HEAP SUMMARY:
+==13334==     in use at exit: 50,292,293 bytes in 9,714 blocks
+==13334==   total heap usage: 27,820 allocs, 18,106 frees, 86,085,449 bytes allocated
+==13334== 
+==13334== 8 bytes in 1 blocks are definitely lost in loss record 10 of 1,307
+==13334==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13334==    by 0x40E8B6: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:111)
+==13334==    by 0x40E85B: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:436)
+==13334==    by 0x40E802: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:172)
+==13334==    by 0x40E73E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==13334==    by 0x40E5E4: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:138)
+==13334==    by 0x40E516: std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) (stl_vector.h:284)
+==13334==    by 0x40E26F: Rcpp::Dimension::Dimension(unsigned long const&, unsigned long const&) (Dimension.h:45)
+==13334==    by 0x40CD97: Rcpp::Matrix<14, Rcpp::PreserveStorage>::Matrix(int const&, int const&) (Matrix.h:59)
+==13334==    by 0x43A2FD: perlin_3d_c(int, int, int, int, double, int, int, int, double, double, int, double) (perlin.cpp:54)
+==13334==    by 0x409A55: DeepState_Test_ambient_deepstate_test_perlin_3d_c_test() (perlin_3d_c_DeepState_TestHarness.cpp:83)
+==13334==    by 0x408E18: DeepState_Run_ambient_deepstate_test_perlin_3d_c_test() (perlin_3d_c_DeepState_TestHarness.cpp:7)
+==13334== 
+==13334== LEAK SUMMARY:
+==13334==    definitely lost: 8 bytes in 1 blocks
+==13334==    indirectly lost: 0 bytes in 0 blocks
+==13334==      possibly lost: 0 bytes in 0 blocks
+==13334==    still reachable: 50,292,285 bytes in 9,713 blocks
+==13334==                       of which reachable via heuristic:
+==13334==                         newarray           : 4,264 bytes in 1 blocks
+==13334==         suppressed: 0 bytes in 0 blocks
+==13334== Reachable blocks (those to which a pointer was found) are not shown.
+==13334== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13334== 
+==13334== For counts of detected and suppressed errors, rerun with: -v
+==13334== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==13327== 
+==13327== HEAP SUMMARY:
+==13327==     in use at exit: 8 bytes in 1 blocks
+==13327==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==13327== 
+==13327== LEAK SUMMARY:
+==13327==    definitely lost: 0 bytes in 0 blocks
+==13327==    indirectly lost: 0 bytes in 0 blocks
+==13327==      possibly lost: 0 bytes in 0 blocks
+==13327==    still reachable: 8 bytes in 1 blocks
+==13327==         suppressed: 0 bytes in 0 blocks
+==13327== Reachable blocks (those to which a pointer was found) are not shown.
+==13327== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13327== 
+==13327== For counts of detected and suppressed errors, rerun with: -v
+==13327== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

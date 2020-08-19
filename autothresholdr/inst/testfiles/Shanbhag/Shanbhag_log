@@ -1,0 +1,65 @@
+==10154== Memcheck, a memory error detector
+==10154== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10154== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==10154== Command: ./Shanbhag_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/autothresholdr/inst/testfiles/Shanbhag/Shanbhag_output
+==10154== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597779454
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_Shanbhag_test)
+data values: -2147483648 -256789702
+input ends
+==10155== 
+==10155== HEAP SUMMARY:
+==10155==     in use at exit: 50,292,285 bytes in 9,713 blocks
+==10155==   total heap usage: 27,685 allocs, 17,972 frees, 85,986,059 bytes allocated
+==10155== 
+==10155== LEAK SUMMARY:
+==10155==    definitely lost: 0 bytes in 0 blocks
+==10155==    indirectly lost: 0 bytes in 0 blocks
+==10155==      possibly lost: 0 bytes in 0 blocks
+==10155==    still reachable: 50,292,285 bytes in 9,713 blocks
+==10155==                       of which reachable via heuristic:
+==10155==                         newarray           : 4,264 bytes in 1 blocks
+==10155==         suppressed: 0 bytes in 0 blocks
+==10155== Reachable blocks (those to which a pointer was found) are not shown.
+==10155== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10155== 
+==10155== For counts of detected and suppressed errors, rerun with: -v
+==10155== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+data values: -2147483648 -2147483648 778195907 -2147483648 -148415055 -2147483648 1671327110 -1539278348 -2147483648 1772690577 -308528816 -389842804 -2147483648 -2147483648 103045080 -679082990 -1639079774 -2147483648 -2147483648 867491066 -2147483648 -1934757846 -2147483648 -2147483648 -1176305940 76828083 -746521138 -2147483648 1412701197 -2147483648 1937812665 -2147483648 1380945784 1958108042 879410600 -1527969184 -2147483648 -69474193 -2147483648 -2147483648 1272322032 1920729875 529900464 -2147483648 -2147483648 -2147483648 -2147483648 562802522 -2147483648 -2147483648 -394786558 -2147483648 1636485250 -747973180 -2147483648 -2147483648 209199375 -2147483648 2096409167 -2147483648 1785670827 -2147483648 1574535180 -2147483648 -2147483648 1598819785 1989003820 1083650077 -2147483648 -577935556 -2147483648 -2147483648 57143875 -2147483648 -141617964 -2147483648 -1872838504 -2147483648 -2147483648 2022324848 -2147483648 1807374075 -2147483648
+input ends
+==10162== 
+==10162== HEAP SUMMARY:
+==10162==     in use at exit: 50,294,805 bytes in 9,717 blocks
+==10162==   total heap usage: 27,689 allocs, 17,972 frees, 85,988,579 bytes allocated
+==10162== 
+==10162== LEAK SUMMARY:
+==10162==    definitely lost: 0 bytes in 0 blocks
+==10162==    indirectly lost: 0 bytes in 0 blocks
+==10162==      possibly lost: 0 bytes in 0 blocks
+==10162==    still reachable: 50,294,805 bytes in 9,717 blocks
+==10162==                       of which reachable via heuristic:
+==10162==                         newarray           : 4,264 bytes in 1 blocks
+==10162==         suppressed: 0 bytes in 0 blocks
+==10162== Reachable blocks (those to which a pointer was found) are not shown.
+==10162== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10162== 
+==10162== For counts of detected and suppressed errors, rerun with: -v
+==10162== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 0 failed/2 passed/0 abandoned tests
+==10154== 
+==10154== HEAP SUMMARY:
+==10154==     in use at exit: 8 bytes in 1 blocks
+==10154==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==10154== 
+==10154== LEAK SUMMARY:
+==10154==    definitely lost: 0 bytes in 0 blocks
+==10154==    indirectly lost: 0 bytes in 0 blocks
+==10154==      possibly lost: 0 bytes in 0 blocks
+==10154==    still reachable: 8 bytes in 1 blocks
+==10154==         suppressed: 0 bytes in 0 blocks
+==10154== Reachable blocks (those to which a pointer was found) are not shown.
+==10154== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10154== 
+==10154== For counts of detected and suppressed errors, rerun with: -v
+==10154== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

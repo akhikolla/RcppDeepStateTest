@@ -1,0 +1,208 @@
+==12774== Memcheck, a memory error detector
+==12774== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12774== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12774== Command: ./d_const_vmcos_mc_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_output
+==12774== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597790775
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_d_const_vmcos_mc_test)
+k1 values: 1.98324e-87
+k2 values: -1.14323e+297
+k3 values: -3.85795e+137
+uni_rand values:  -2.1056e-140 -3.0574e-262 -6.2897e+212 -1.6970e+242 -7.2004e+235  -6.9730e+37
+  8.7832e-117  2.8647e+182  1.1417e-135  6.0491e-291  -8.2461e-70  3.2377e+276
+ -5.6762e-115  2.6632e-132 -1.4523e+229  1.4571e+126  -1.8601e+84   4.6439e-67
+  -9.3650e-93  1.8368e-128  -4.4160e-35 -4.8222e+119 -3.0367e+232  1.6214e-268
+ -2.0082e+243  -1.5339e-28  -9.0093e-47  2.9831e-265 -2.1942e+188 -8.0914e+275
+ -4.5137e+204  4.1351e-246  5.4444e+133 -6.8402e-253 -8.8951e+242  1.3308e-151
+ -1.8326e-111  1.0489e+161   1.4599e+51 -1.7290e+264 -1.0568e+163  -2.5929e-41
+
+ncores values: -1353100038
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_d_const_vmcos_mc_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_output/92f59bb621715776ebb5725a0d272e1b0009bcfe.fail`
+==12775== 
+==12775== HEAP SUMMARY:
+==12775==     in use at exit: 50,293,199 bytes in 9,718 blocks
+==12775==   total heap usage: 27,700 allocs, 17,982 frees, 86,023,028 bytes allocated
+==12775== 
+==12775== 37 bytes in 1 blocks are definitely lost in loss record 20 of 1,311
+==12775==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12775==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12775==    by 0x40BFA4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12775==    by 0x412DF7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==12775==    by 0x455510: operator() (Mat_meat.hpp:5933)
+==12775==    by 0x455510: d_const_vmcos_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:196)
+==12775==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:41)
+==12775==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12775==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x41799A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x417AAF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775== 
+==12775== 61 bytes in 1 blocks are possibly lost in loss record 32 of 1,311
+==12775==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12775==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12775==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12775==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12775==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12775==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12775==    by 0x40BFB6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12775==    by 0x412DF7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==12775==    by 0x455510: operator() (Mat_meat.hpp:5933)
+==12775==    by 0x455510: d_const_vmcos_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:196)
+==12775==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:41)
+==12775==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12775==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775== 
+==12775== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,311
+==12775==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12775==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12775==    by 0x40BF69: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12775==    by 0x412DF7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==12775==    by 0x455510: operator() (Mat_meat.hpp:5933)
+==12775==    by 0x455510: d_const_vmcos_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:196)
+==12775==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:41)
+==12775==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12775==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x41799A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x417AAF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775== 
+==12775== 336 bytes in 1 blocks are definitely lost in loss record 105 of 1,311
+==12775==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12775==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12775==    by 0x410887: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==12775==    by 0x410753: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==12775==    by 0x40F061: arma::Mat<double>::Mat(unsigned long long, unsigned long long) (Mat_meat.hpp:68)
+==12775==    by 0x40B3B0: RcppDeepState_mat() (RcppDeepState.h:103)
+==12775==    by 0x40BAAE: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:29)
+==12775==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12775==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x41799A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x417AAF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775== 
+==12775== 336 bytes in 1 blocks are definitely lost in loss record 106 of 1,311
+==12775==    at 0x4C31E76: memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12775==    by 0x4C31F91: posix_memalign (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12775==    by 0x410887: double* arma::memory::acquire<double>(unsigned long long) (memory.hpp:82)
+==12775==    by 0x410753: arma::Mat<double>::init_cold() (Mat_meat.hpp:220)
+==12775==    by 0x40F607: arma::Mat<double>::Mat(arma::Mat<double> const&) (Mat_meat.hpp:794)
+==12775==    by 0x40BCD8: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:41)
+==12775==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12775==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x41799A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x417AAF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12775== 
+==12775== LEAK SUMMARY:
+==12775==    definitely lost: 709 bytes in 3 blocks
+==12775==    indirectly lost: 0 bytes in 0 blocks
+==12775==      possibly lost: 205 bytes in 2 blocks
+==12775==    still reachable: 50,292,285 bytes in 9,713 blocks
+==12775==                       of which reachable via heuristic:
+==12775==                         stdstring          : 61 bytes in 1 blocks
+==12775==                         newarray           : 4,264 bytes in 1 blocks
+==12775==         suppressed: 0 bytes in 0 blocks
+==12775== Reachable blocks (those to which a pointer was found) are not shown.
+==12775== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12775== 
+==12775== For counts of detected and suppressed errors, rerun with: -v
+==12775== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)
+k1 values: -335.517
+k2 values: 9.48945e+75
+k3 values: 2.47202e+236
+uni_rand values:   -5.1559e-85 -4.8054e+103  1.3550e-209 -6.0508e+299  2.8897e-203
+
+ncores values: -1516160217
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_d_const_vmcos_mc_test
+INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_output/c1879ee2be26d1527bf02a2aa9e55ad1b584367e.fail`
+==12801== 
+==12801== HEAP SUMMARY:
+==12801==     in use at exit: 50,292,527 bytes in 9,716 blocks
+==12801==   total heap usage: 27,698 allocs, 17,982 frees, 86,022,356 bytes allocated
+==12801== 
+==12801== 37 bytes in 1 blocks are definitely lost in loss record 20 of 1,309
+==12801==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12801==    by 0x58102AC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12801==    by 0x40BFA4: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12801==    by 0x412DF7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==12801==    by 0x455510: operator() (Mat_meat.hpp:5933)
+==12801==    by 0x455510: d_const_vmcos_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:196)
+==12801==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:41)
+==12801==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12801==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801==    by 0x41799A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801==    by 0x417AAF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801== 
+==12801== 61 bytes in 1 blocks are possibly lost in loss record 32 of 1,309
+==12801==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12801==    by 0x57BCC28: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12801==    by 0x57BCD46: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12801==    by 0x57BE7A4: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12801==    by 0x57A0CAD: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12801==    by 0x57B0C60: std::logic_error::logic_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12801==    by 0x40BFB6: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12801==    by 0x412DF7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==12801==    by 0x455510: operator() (Mat_meat.hpp:5933)
+==12801==    by 0x455510: d_const_vmcos_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:196)
+==12801==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:41)
+==12801==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12801==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801== 
+==12801== 144 bytes in 1 blocks are possibly lost in loss record 54 of 1,309
+==12801==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12801==    by 0x577A8FF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==12801==    by 0x40BF69: void arma::arma_stop_logic_error<char const*>(char const* const&) (debug.hpp:144)
+==12801==    by 0x412DF7: void arma::arma_check<char [37]>(bool, char const (&) [37]) (debug.hpp:382)
+==12801==    by 0x455510: operator() (Mat_meat.hpp:5933)
+==12801==    by 0x455510: d_const_vmcos_mc(double, double, double, arma::Mat<double>, int) (vmcos_llik_grad.cpp:196)
+==12801==    by 0x40BD0E: DeepState_Test_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:41)
+==12801==    by 0x40B768: DeepState_Run_BAMBI_deepstate_test_d_const_vmcos_mc_test() (d_const_vmcos_mc_DeepState_TestHarness.cpp:7)
+==12801==    by 0x406673: DeepState_RunTest.isra.6 (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801==    by 0x41799A: DeepState_FuzzOneTestCase (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801==    by 0x417AAF: DeepState_Fuzz (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801==    by 0x4071BD: main (in /home/akhila/Documents/compileAttributescheck/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness)
+==12801== 
+==12801== LEAK SUMMARY:
+==12801==    definitely lost: 37 bytes in 1 blocks
+==12801==    indirectly lost: 0 bytes in 0 blocks
+==12801==      possibly lost: 205 bytes in 2 blocks
+==12801==    still reachable: 50,292,285 bytes in 9,713 blocks
+==12801==                       of which reachable via heuristic:
+==12801==                         stdstring          : 61 bytes in 1 blocks
+==12801==                         newarray           : 4,264 bytes in 1 blocks
+==12801==         suppressed: 0 bytes in 0 blocks
+==12801== Reachable blocks (those to which a pointer was found) are not shown.
+==12801== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12801== 
+==12801== For counts of detected and suppressed errors, rerun with: -v
+==12801== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==12774== 
+==12774== HEAP SUMMARY:
+==12774==     in use at exit: 8 bytes in 1 blocks
+==12774==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==12774== 
+==12774== LEAK SUMMARY:
+==12774==    definitely lost: 0 bytes in 0 blocks
+==12774==    indirectly lost: 0 bytes in 0 blocks
+==12774==      possibly lost: 0 bytes in 0 blocks
+==12774==    still reachable: 8 bytes in 1 blocks
+==12774==         suppressed: 0 bytes in 0 blocks
+==12774== Reachable blocks (those to which a pointer was found) are not shown.
+==12774== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12774== 
+==12774== For counts of detected and suppressed errors, rerun with: -v
+==12774== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

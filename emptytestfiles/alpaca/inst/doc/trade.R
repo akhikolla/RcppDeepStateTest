@@ -1,0 +1,306 @@
+## ---- eval = FALSE------------------------------------------------------------
+#  # Import the data set
+#  library(haven)
+#  library(data.table)
+#  cudata <- read_dta("dataaxj1.dta")
+#  setDT(cudata)
+#  
+#  # Subsetting relevant variables
+#  var.nms <- c("exp1to2", "custrict11", "ldist", "comlang", "border", "regional",
+#               "comcol", "curcol", "colony", "comctry", "cuwoemu", "emu", "cuc",
+#               "cty1", "cty2", "year", "pairid")
+#  cudata <- cudata[, ..var.nms]
+#  
+#  # Generate identifiers required for structural gravity
+#  cudata[, pairid := factor(pairid)]
+#  cudata[, exp.time := interaction(cty1, year)]
+#  cudata[, imp.time := interaction(cty2, year)]
+#  
+#  # Generate dummies for disaggregated currency unions
+#  cudata[, cuau := as.integer(cuc == "au")]
+#  cudata[, cube := as.integer(cuc == "be")]
+#  cudata[, cuca := as.integer(cuc == "ca")]
+#  cudata[, cucf := as.integer(cuc == "cf")]
+#  cudata[, cucp := as.integer(cuc == "cp")]
+#  cudata[, cudk := as.integer(cuc == "dk")]
+#  cudata[, cuea := as.integer(cuc == "ea")]
+#  cudata[, cuec := as.integer(cuc == "ec")]
+#  cudata[, cuem := as.integer(cuc == "em")]
+#  cudata[, cufr := as.integer(cuc == "fr")]
+#  cudata[, cugb := as.integer(cuc == "gb")]
+#  cudata[, cuin := as.integer(cuc == "in")]
+#  cudata[, cuma := as.integer(cuc == "ma")]
+#  cudata[, cuml := as.integer(cuc == "ml")]
+#  cudata[, cunc := as.integer(cuc == "nc")]
+#  cudata[, cunz := as.integer(cuc == "nz")]
+#  cudata[, cupk := as.integer(cuc == "pk")]
+#  cudata[, cupt := as.integer(cuc == "pt")]
+#  cudata[, cusa := as.integer(cuc == "sa")]
+#  cudata[, cusp := as.integer(cuc == "sp")]
+#  cudata[, cuua := as.integer(cuc == "ua")]
+#  cudata[, cuus := as.integer(cuc == "us")]
+#  cudata[, cuwa := as.integer(cuc == "wa")]
+#  cudata[, cuwoo := custrict11]
+#  cudata[cuc %in% c("em", "au", "cf", "ec", "fr", "gb", "in", "us"), cuwoo := 0L]
+#  
+#  # Set missing trade flows to zero
+#  cudata[is.na(exp1to2), exp1to2 := 0.0]
+#  
+#  # Construct binary and lagged dependent variable for the extensive margin
+#  cudata[, trade := as.integer(exp1to2 > 0.0)]
+#  cudata[, ltrade := shift(trade), by = pairid]
+
+## ---- eval = FALSE------------------------------------------------------------
+#  mod <- feglm(exp1to2 ~ emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin + cuus +
+#                 regional + curcol | exp.time + imp.time + pairid | cty1 + cty2 + year, cudata,
+#               family = poisson())
+#  summary(mod, "sandwich")
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## poisson - log link
+#  ##
+#  ## exp1to2 ~ emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin +
+#  ##     cuus + regional + curcol | exp.time + imp.time + pairid |
+#  ##     cty1 + cty2 + year
+#  ##
+#  ## Estimates:
+#  ##           Estimate Std. error z value Pr(> |z|)
+#  ## emu       0.048895   0.010277   4.758  1.96e-06 ***
+#  ## cuwoo     0.765988   0.053272  14.379   < 2e-16 ***
+#  ## cuau      0.384469   0.118832   3.235   0.00121 **
+#  ## cucf     -0.125608   0.099674  -1.260   0.20760
+#  ## cuec     -0.877318   0.083451 -10.513   < 2e-16 ***
+#  ## cufr      2.095726   0.062952  33.291   < 2e-16 ***
+#  ## cugb      1.059957   0.034680  30.564   < 2e-16 ***
+#  ## cuin      0.169745   0.147029   1.154   0.24830
+#  ## cuus      0.018323   0.021530   0.851   0.39473
+#  ## regional  0.159181   0.008714  18.267   < 2e-16 ***
+#  ## curcol    0.386882   0.046827   8.262   < 2e-16 ***
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#  ##
+#  ## residual deviance= 35830778.62,
+#  ## null deviance= 2245707302.17,
+#  ## n= 1610165, l= [11227, 11277, 34104]
+#  ##
+#  ## ( 1363003 observation(s) deleted due to perfect classification )
+#  ##
+#  ## Number of Fisher Scoring Iterations: 13
+
+## ---- eval = FALSE------------------------------------------------------------
+#  summary(mod, "clustered", cluster = ~ cty1 + cty2 + year)
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## poisson - log link
+#  ##
+#  ## exp1to2 ~ emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin +
+#  ##     cuus + regional + curcol | exp.time + imp.time + pairid |
+#  ##     cty1 + cty2 + year
+#  ##
+#  ## Estimates:
+#  ##          Estimate Std. error z value Pr(> |z|)
+#  ## emu       0.04890    0.09455   0.517   0.60507
+#  ## cuwoo     0.76599    0.24933   3.072   0.00213 **
+#  ## cuau      0.38447    0.22355   1.720   0.08546 .
+#  ## cucf     -0.12561    0.35221  -0.357   0.72137
+#  ## cuec     -0.87732    0.29493  -2.975   0.00293 **
+#  ## cufr      2.09573    0.30625   6.843  7.75e-12 ***
+#  ## cugb      1.05996    0.23766   4.460  8.19e-06 ***
+#  ## cuin      0.16974    0.30090   0.564   0.57267
+#  ## cuus      0.01832    0.05092   0.360   0.71898
+#  ## regional  0.15918    0.07588   2.098   0.03593 *
+#  ## curcol    0.38688    0.15509   2.495   0.01261 *
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#  ##
+#  ## residual deviance= 35830779,
+#  ## null deviance= 2245707302,
+#  ## n= 1610165, l= [11227, 11277, 34104]
+#  ##
+#  ## ( 1363003 observation(s) deleted due to perfect classification )
+#  ##
+#  ## Number of Fisher Scoring Iterations: 13
+
+## ---- eval = FALSE------------------------------------------------------------
+#  library(car)
+#  cus <- c("cuwoo", "cuau", "cucf", "cuec", "cufr", "cugb", "cuin", "cuus")
+#  linearHypothesis(mod, cus, vcov. = vcov(mod, "clustered", cluster = ~ cty1 + cty2 + year))
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## Linear hypothesis test
+#  ##
+#  ## Hypothesis:
+#  ## cuwoo = 0
+#  ## cuau = 0
+#  ## cucf = 0
+#  ## cuec = 0
+#  ## cufr = 0
+#  ## cugb = 0
+#  ## cuin = 0
+#  ## cuus = 0
+#  ##
+#  ## Model 1: restricted model
+#  ## Model 2: exp1to2 ~ emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin +
+#  ##     cuus + regional + curcol | exp.time + imp.time + pairid |
+#  ##     cty1 + cty2 + year
+#  ##
+#  ## Note: Coefficient covariance matrix supplied.
+#  ##
+#  ##   Df  Chisq Pr(>Chisq)
+#  ## 1
+#  ## 2  8 96.771  < 2.2e-16 ***
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+## ---- eval = FALSE------------------------------------------------------------
+#  mods <- feglm(trade ~ emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin + cuus +
+#                  regional + curcol | exp.time + imp.time + pairid, cudata,
+#                family = binomial("probit"))
+#  summary(mods)
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## binomial - probit link
+#  ##
+#  ## trade ~ emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin +
+#  ##     cuus + regional + curcol | exp.time + imp.time + pairid
+#  ##
+#  ## Estimates:
+#  ##          Estimate Std. error z value Pr(> |z|)
+#  ## emu       0.28257    0.12830   2.202  0.027633 *
+#  ## cuwoo     0.56822    0.07686   7.393  1.44e-13 ***
+#  ## cuau      1.10887    0.28988   3.825  0.000131 ***
+#  ## cucf      0.13957    0.05263   2.652  0.008001 **
+#  ## cuec      0.05410    0.61908   0.087  0.930358
+#  ## cufr      2.30667    0.24342   9.476   < 2e-16 ***
+#  ## cugb      0.18393    0.04272   4.305  1.67e-05 ***
+#  ## cuin      0.25151    0.15735   1.598  0.109947
+#  ## cuus     -0.36144    0.07948  -4.547  5.43e-06 ***
+#  ## regional  0.06285    0.01787   3.518  0.000435 ***
+#  ## curcol   -0.89259    0.23332  -3.826  0.000130 ***
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#  ##
+#  ## residual deviance= 681267.38,
+#  ## null deviance= 1947737.97,
+#  ## n= 1406505, l= [11227, 11273, 29630]
+#  ##
+#  ## ( 1566663 observation(s) deleted due to perfect classification )
+#  ##
+#  ## Number of Fisher Scoring Iterations: 7
+
+## ---- eval = FALSE------------------------------------------------------------
+#  modsbc <- biasCorr(mods, panel.structure = "network")
+#  summary(modsbc)
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## binomial - probit link
+#  ##
+#  ## trade ~ emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin +
+#  ##     cuus + regional + curcol | exp.time + imp.time + pairid
+#  ##
+#  ## Estimates:
+#  ##          Estimate Std. error z value Pr(> |z|)
+#  ## emu       0.26909    0.12830   2.097  0.035957 *
+#  ## cuwoo     0.50380    0.07686   6.555  5.58e-11 ***
+#  ## cuau      0.99443    0.28988   3.430  0.000603 ***
+#  ## cucf      0.12965    0.05263   2.463  0.013763 *
+#  ## cuec      0.01616    0.61908   0.026  0.979177
+#  ## cufr      2.08515    0.24342   8.566   < 2e-16 ***
+#  ## cugb      0.16730    0.04272   3.916  9.00e-05 ***
+#  ## cuin      0.21050    0.15735   1.338  0.180960
+#  ## cuus     -0.33648    0.07948  -4.233  2.30e-05 ***
+#  ## regional  0.06350    0.01787   3.554  0.000379 ***
+#  ## curcol   -0.72566    0.23332  -3.110  0.001870 **
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#  ##
+#  ## residual deviance= 681267.38,
+#  ## null deviance= 1947737.97,
+#  ## n= 1406505, l= [11227, 11273, 29630]
+#  ##
+#  ## ( 1566663 observation(s) deleted due to perfect classification )
+#  ##
+#  ## Number of Fisher Scoring Iterations: 7
+
+## ---- eval = FALSE------------------------------------------------------------
+#  apesbc <- getAPEs(modsbc, n.pop = nrow(cudata))
+#  summary(apesbc)
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## Estimates:
+#  ##           Estimate Std. error z value Pr(> |z|)
+#  ## emu       0.020386   0.018029   1.131  0.258178
+#  ## cuwoo     0.038504   0.012516   3.076  0.002095 **
+#  ## cuau      0.076624   0.031081   2.465  0.013688 *
+#  ## cucf      0.009758   0.008048   1.212  0.225349
+#  ## cuec      0.001209   0.080143   0.015  0.987966
+#  ## cufr      0.179129   0.050085   3.576  0.000348 ***
+#  ## cugb      0.012612   0.006424   1.963  0.049600 *
+#  ## cuin      0.015905   0.023544   0.676  0.499333
+#  ## cuus     -0.024633   0.011286  -2.183  0.029067 *
+#  ## regional  0.004765   0.002633   1.810  0.070334 .
+#  ## curcol   -0.051613   0.037436  -1.379  0.167982
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+## ---- eval = FALSE------------------------------------------------------------
+#  modd <- feglm(trade ~ ltrade + emu + cuwoo + cuau + cucf + cuec + cufr + cugb + cuin + cuus +
+#                  regional + curcol | exp.time + imp.time + pairid, cudata,
+#                family = binomial("probit"))
+#  moddbc <- biasCorr(modd, L = 2L, panel.structure = "network")
+#  summary(moddbc)
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## binomial - probit link
+#  ##
+#  ## trade ~ ltrade + emu + cuwoo + cuau + cucf + cuec + cufr + cugb +
+#  ##     cuin + cuus + regional + curcol | exp.time + imp.time + pairid
+#  ##
+#  ## Estimates:
+#  ##          Estimate Std. error z value Pr(> |z|)
+#  ## ltrade    1.24341    0.00443 280.702   < 2e-16 ***
+#  ## emu       0.18274    0.13543   1.349   0.17724
+#  ## cuwoo     0.41965    0.08064   5.204  1.95e-07 ***
+#  ## cuau      0.79096    0.30410   2.601   0.00930 **
+#  ## cucf      0.10147    0.05446   1.863   0.06244 .
+#  ## cuec      0.17175    0.68499   0.251   0.80202
+#  ## cufr      1.46319    0.24244   6.035  1.59e-09 ***
+#  ## cugb      0.10097    0.04451   2.268   0.02331 *
+#  ## cuin      0.17055    0.16394   1.040   0.29819
+#  ## cuus     -0.25668    0.08215  -3.124   0.00178 **
+#  ## regional  0.04656    0.01867   2.494   0.01262 *
+#  ## curcol   -0.44021    0.25167  -1.749   0.08026 .
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+#  ##
+#  ## residual deviance= 603826.72,
+#  ## null deviance= 1930471.73,
+#  ## n= 1394201, l= [11133, 11178, 29538]
+#  ##
+#  ## ( 45048 observation(s) deleted due to missingness )
+#  ## ( 1533919 observation(s) deleted due to perfect classification )
+#  ##
+#  ## Number of Fisher Scoring Iterations: 13
+
+## ---- eval = FALSE------------------------------------------------------------
+#  apedbc <- getAPEs(moddbc, n.pop = nrow(cudata[!is.na(ltrade)]))
+#  summary(apedbc)
+
+## ---- eval = FALSE------------------------------------------------------------
+#  ## Estimates:
+#  ##           Estimate Std. error z value Pr(> |z|)
+#  ## ltrade    0.128362   0.000981 130.849   < 2e-16 ***
+#  ## emu       0.012547   0.016227   0.773   0.43942
+#  ## cuwoo     0.029436   0.010014   2.940   0.00329 **
+#  ## cuau      0.057520   0.031869   1.805   0.07109 .
+#  ## cucf      0.006920   0.006713   1.031   0.30261
+#  ## cuec      0.011782   0.077696   0.152   0.87947
+#  ## cufr      0.112661   0.051794   2.175   0.02962 *
+#  ## cugb      0.006885   0.005096   1.351   0.17666
+#  ## cuin      0.011697   0.019782   0.591   0.55430
+#  ## cuus     -0.017074   0.009183  -1.859   0.06298 .
+#  ## regional  0.003162   0.002185   1.447   0.14793
+#  ## curcol   -0.029015   0.032597  -0.890   0.37342
+#  ## ---
+#  ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

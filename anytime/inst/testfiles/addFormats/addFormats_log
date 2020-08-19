@@ -1,0 +1,105 @@
+==4154== Memcheck, a memory error detector
+==4154== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4154== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4154== Command: ./addFormats_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/anytime/inst/testfiles/addFormats/addFormats_output
+==4154== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1597768323
+WARNING: No test specified, defaulting to first test defined (anytime_deepstate_test_addFormats_test)
+fmt values: "owcojloiiyyttkdafinz" "ygctxynwlje" "rjnpecvzeymholjrbons" "oleoajubukesalxkhdvp" "NA" "NA" "NA" "rigdpjipp" "NA" "NA" "NA" "dtahbljjjbkmoofrocnb" "" "NA" "renlxhfmsjzyajncbipa" "NA" "gdvcelngnszcrqggjniw" "jpps" "ohpcnjhleyscbziefgjg" "NA" "" "NA" "NA" "x" "tueaspyzmftavmpvtnqj" "vrnohjczxq" "egqgysropoubopobqopo" "NA" "asp" "eqimdasqhxxcssfrlovx" "btrcsklbhbnfosmgtspf" "gvp" "NA" "NA" "NA" "NA" "jaygk" "NA" "nagfhdymvakhbjeumymt" "kg" "NA" "kiyuoioiwitpbxtrxglr" "ngivjflklrmfd" "qbpatgknlnrdmmne" "NA" "NA" "hfbkrlyevjfwx" "NA" "NA" "dezwktslnwqoniwfyrvg" "gvnshmpacoukskjnjarl" "NA" "ipwyluotgwkrrvb" "NA" "fdzukeppzxpdxbsonafo" "xrcwsxnubdjgcranfskw" "bzpfeefnjfjmyzktfiyj" "amjmbex" "NA" "NA" "ldxzmobuepkfahrvjkrm" "zibzifdbwzzu" "clszlrqcwfsnbxwppnem" "gnplkcxaaopesmrcjykl" "xaainrrigodxqrljaq" "NA" "pjjnmblrkjqkcnpvlw" "bkiuevmpheypgouvmthm" "omkjewmt" "gvmvmgjjzexwooc" "srqveefrdkzufxdlrnob" "NA" "umzsczgfwsrrhjqpfsfp" "viav" "puaazhymchelgeutbsua" "NA" "emdiqponcjvbiodxegju" "NA" "pyxobotod" "vsamormqwnhbrnefspfr" "dlkilvaasbnpysnggsic" "niszripccb" "NA" "NA" "NA" "dqgselurrmksihnhjwwr" "kwdplurobhnlthkbplko" "ifhlapnmfwuboslulbcr" "habyehxlqffonmdxhkdw" "NA" "a" "NA"
+input ends
+==4156== 
+==4156== HEAP SUMMARY:
+==4156==     in use at exit: 50,301,933 bytes in 9,772 blocks
+==4156==   total heap usage: 87,808 allocs, 78,036 frees, 92,247,404 bytes allocated
+==4156== 
+==4156== LEAK SUMMARY:
+==4156==    definitely lost: 0 bytes in 0 blocks
+==4156==    indirectly lost: 0 bytes in 0 blocks
+==4156==      possibly lost: 0 bytes in 0 blocks
+==4156==    still reachable: 50,301,933 bytes in 9,772 blocks
+==4156==                       of which reachable via heuristic:
+==4156==                         newarray           : 4,264 bytes in 1 blocks
+==4156==         suppressed: 0 bytes in 0 blocks
+==4156== Reachable blocks (those to which a pointer was found) are not shown.
+==4156== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==4156== 
+==4156== For counts of detected and suppressed errors, rerun with: -v
+==4156== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+fmt values: "qogvzekxgmrcfuqnmryf" "NA" "uangvvycbtzkrtbermcu" "NA" "NA" "NA" "NA" "ripulfnbgyrqamssibjz" "pucmxdcdgxrrcypxcdhd" "fpqhljyviyakiupvdyny" "llwhfsule" "NA" "NA" "oedp" "NA" "NA" "ugwajmeaarmirmmsdnvz" "NA" "wbgbirsbjgaooyajb" "hceq" "NA" "NA" "h"
+input ends
+==4163== 
+==4163== HEAP SUMMARY:
+==4163==     in use at exit: 50,300,643 bytes in 9,726 blocks
+==4163==   total heap usage: 64,050 allocs, 54,324 frees, 89,777,970 bytes allocated
+==4163== 
+==4163== LEAK SUMMARY:
+==4163==    definitely lost: 0 bytes in 0 blocks
+==4163==    indirectly lost: 0 bytes in 0 blocks
+==4163==      possibly lost: 0 bytes in 0 blocks
+==4163==    still reachable: 50,300,643 bytes in 9,726 blocks
+==4163==                       of which reachable via heuristic:
+==4163==                         newarray           : 4,264 bytes in 1 blocks
+==4163==         suppressed: 0 bytes in 0 blocks
+==4163== Reachable blocks (those to which a pointer was found) are not shown.
+==4163== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==4163== 
+==4163== For counts of detected and suppressed errors, rerun with: -v
+==4163== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+fmt values: "keryllymcezldzjrhzk" "iqdnnyklzeooavamwsnc" "sanoywjvzx" "zawoabzxsqzpvvkigwye" "NA" "bmvqevonqxwatgvmaoxg" "lgljptxteyuikgqixo" "eehlpafeyaowzgqanwa" "NA" "NA" "NA" "NA" "NA" "jahdqtghdvmnmwawkbqq" "NA" "wzarbpeboswpguymbzgc" "yqklcq" "fdu" "NA" "aebafeyjoahvrhgvic" "jyrlwoed" "uhutm" "fuqwlimtjvtxlzbzrbv" "NA" "cwljhaqfuoopuri" "jo" "mssjluprybxopytsxmhg" "NA" "NA" "NA" "NA" "gkrfuvlnhjsgehcflooj" "iygmcsvedoytmbfjttmp" "hbqoomtilpyphsrfdgcn" "tec" "" "ibjqcpcqvgwwpxroqsuk" "NA" "olbjhgnehrugiigphsxv" "yvzfhkguosiiwwuddjev" "qosigjhmwclu" "mdajqdsaihfbkihentah" "cmooiczktdrixkg" "NA" "cwjcs" "zgtsiheedlqjydnwarie" "wmskucxqlrwdzfasgdyn" "gmehslpobrtslrkehxhy" "NA" "lrfycszadcclgmlvuler" "NA" "dcagunksnazxyoicwtlu" "lsiimddkyxfenhlafmzv" "rxqdfeqieoyuzuoxpgqu" "klkgdaimzzyfyopdbsuy" "xxpnhnaixbkhkekdrtex" "NA" "NA" "debgpwwxfivm" "odzlnycakp" "uwnjiunvygygelinlara" "NA" "NA" "NA" "zpdjvz" "agwqmhxnog" "jlwiu" "zmbmlhmyvcsjbexxejdm" "jbmicopfasbfbfqxlkmr" "rtrhotzczeqwoxoyxsli" "lthrhuuyfbzcdcismhn" "kbjgtkmrzebuoipiffma" "guwfeftrqkycfqinxuiz" "mlqrbqjodaxdijrezsqy" "jbop" "" "rzmkdrxdcx" "ylqvjwdoirbsrrrfiqux" "wfklkmfbgygtgybepjsr" "jx" "NA" "ute" "vievlpdwtsbxlqp" "lijxrnpskqt" "ohvqeqbzvlwab" "jvodrokscihtexprrhaz" "cuknjrkggltycgngpl" "NA" "NA"
+input ends
+==4175== 
+==4175== HEAP SUMMARY:
+==4175==     in use at exit: 50,302,024 bytes in 9,779 blocks
+==4175==   total heap usage: 86,805 allocs, 77,026 frees, 92,141,059 bytes allocated
+==4175== 
+==4175== LEAK SUMMARY:
+==4175==    definitely lost: 0 bytes in 0 blocks
+==4175==    indirectly lost: 0 bytes in 0 blocks
+==4175==      possibly lost: 0 bytes in 0 blocks
+==4175==    still reachable: 50,302,024 bytes in 9,779 blocks
+==4175==                       of which reachable via heuristic:
+==4175==                         newarray           : 4,264 bytes in 1 blocks
+==4175==         suppressed: 0 bytes in 0 blocks
+==4175== Reachable blocks (those to which a pointer was found) are not shown.
+==4175== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==4175== 
+==4175== For counts of detected and suppressed errors, rerun with: -v
+==4175== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+fmt values: "lrdjtck" "NA" "NA" "wsqwklwdwrcgyzdlsbqv" "pibxqskljemaiusnrnhj" "yryovrvzauymfxbailsa" "NA"
+input ends
+==4181== 
+==4181== HEAP SUMMARY:
+==4181==     in use at exit: 50,300,316 bytes in 9,718 blocks
+==4181==   total heap usage: 58,554 allocs, 48,836 frees, 89,207,911 bytes allocated
+==4181== 
+==4181== LEAK SUMMARY:
+==4181==    definitely lost: 0 bytes in 0 blocks
+==4181==    indirectly lost: 0 bytes in 0 blocks
+==4181==      possibly lost: 0 bytes in 0 blocks
+==4181==    still reachable: 50,300,316 bytes in 9,718 blocks
+==4181==                       of which reachable via heuristic:
+==4181==                         newarray           : 4,264 bytes in 1 blocks
+==4181==         suppressed: 0 bytes in 0 blocks
+==4181== Reachable blocks (those to which a pointer was found) are not shown.
+==4181== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==4181== 
+==4181== For counts of detected and suppressed errors, rerun with: -v
+==4181== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 4 tests (0 tests/second) with 0 failed/4 passed/0 abandoned tests
+==4154== 
+==4154== HEAP SUMMARY:
+==4154==     in use at exit: 8 bytes in 1 blocks
+==4154==   total heap usage: 28,462 allocs, 28,461 frees, 3,071,024 bytes allocated
+==4154== 
+==4154== LEAK SUMMARY:
+==4154==    definitely lost: 0 bytes in 0 blocks
+==4154==    indirectly lost: 0 bytes in 0 blocks
+==4154==      possibly lost: 0 bytes in 0 blocks
+==4154==    still reachable: 8 bytes in 1 blocks
+==4154==         suppressed: 0 bytes in 0 blocks
+==4154== Reachable blocks (those to which a pointer was found) are not shown.
+==4154== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==4154== 
+==4154== For counts of detected and suppressed errors, rerun with: -v
+==4154== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
