@@ -10,7 +10,7 @@ states values: 1859642029 333663537 -2147483648 -2147483648 -2147483648 -1377735
 statearity values: 229973702
 residues values: 1209931146 -2147483648 -2147483648 -2147483648 -2147483648 -1362641422 529282596 -2040161322 -2147483648 -353213800 537053759 293415575 -2115405659 -750284659 494323116 -1485627510 1993629571 -2147483648 -2147483648 -2147483648
 resarity values: 943518127
-input ends
+inputends
 ==6599== Warning: set address range perms: large range [0x59e43040, 0x1f6a5edd8) (undefined)
 ERROR: Crashed: aphid_deepstate_test_ecount_test
 INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/aphid/inst/testfiles/ecount/ecount_output/baf7836140ce2997a8dabc8fc435a94534db73cb.crash`

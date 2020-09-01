@@ -7,7 +7,7 @@ INFO: Starting fuzzing
 WARNING: No seed provided; using 1597768662
 WARNING: No test specified, defaulting to first test defined (anytime_deepstate_test_fmt_test)
 x values: 3.74964e-262 2.79813e-157 nan inf nan -inf -inf inf -inf -3.07224e+268 1.23154e-128 -inf inf -8.34836e-237 6.08005e+212 inf nan inf -6.20994e-100 7.57387e+10 -9.67957e-19 nan nan -inf nan -1.4409e+141 nan -3.85337e+264 inf nan inf -4.45682e-139 -inf nan -inf nan nan -4.72227e+198 nan inf -inf nan inf nan -5.21479e+30 nan nan inf 6.64345e+194 -inf inf inf -inf -inf nan nan inf nan nan 4.83776e-157 -3.38846e+15 nan inf nan nan -inf inf nan -inf inf nan -2.02206e+298 2.27587e+136 inf nan nan inf inf 1.29947e+197 -2.39652e-51 nan nan nan -7.75597e-11 nan nan nan -7.65721e-191 nan nan inf inf inf -inf -inf nan 0
-input ends
+inputends
 ==4237== Invalid read of size 8
 ==4237==    at 0x4C367E0: memmove (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
 ==4237==    by 0x43339D: Rcpp::Datetime::format[abi:cxx11](char const*) const (Datetime.h:78)
@@ -58,7 +58,7 @@ input ends
 ERROR: Crashed: anytime_deepstate_test_fmt_test
 INFO: Saved test case in file `/home/akhila/Documents/compileAttributescheck/anytime/inst/testfiles/fmt/fmt_output/11f174f3e2c3b69cddf7b473cf3eb3dd4cec0dff.crash`
 x values: -inf 1.2479e-37 5.98506e+234 inf 1.85138e-262 -inf nan nan nan -inf nan nan nan -inf -inf nan nan inf -6.23503e-16 inf -2.09606e+165 4.025e-134 -inf nan -inf -1.90553e-175 nan -6.47164e+34 -inf inf -0.00170241 nan nan nan -inf inf nan inf inf -inf nan inf nan -8.63317e-221 1.03546e+211 nan inf nan 6.88505e+49 inf inf nan nan nan inf nan -inf 2.34238e+278 nan -inf inf nan nan nan nan nan nan -inf 4.28743e+75 4.04965e+117 -inf 1.71443e+108 -2.51813e-302 7.84173e-138 nan 3.93897e+262 -inf nan -inf 4.12587e+225 -inf -inf nan nan -inf -inf 0
-input ends
+inputends
 ==4645== Invalid read of size 8
 ==4645==    at 0x4C367E0: memmove (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
 ==4645==    by 0x43339D: Rcpp::Datetime::format[abi:cxx11](char const*) const (Datetime.h:78)

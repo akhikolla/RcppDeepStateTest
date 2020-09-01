@@ -16,7 +16,7 @@ lacunarity values: -5.17927e-74
 gain values: 6.68481e-259
 pertube values: 983166211
 pertube_amp values: -1.44412e+195
-input ends
+inputends
 EXTERNAL: Error: negative length vectors are not allowed
 
 EXTERNAL: Execution halted
@@ -63,7 +63,7 @@ lacunarity values: 2.63766e-37
 gain values: -5.33077e+169
 pertube values: 592958454
 pertube_amp values: 4.57766e+27
-input ends
+inputends
 EXTERNAL: Error: negative length vectors are not allowed
 
 EXTERNAL: Execution halted

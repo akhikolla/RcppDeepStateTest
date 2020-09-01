@@ -1,1 +1,0 @@
-\name{ramSize} \alias{ramSize} \title{ internal function } \description{ internal function } \keyword{internal}

@@ -1,0 +1,12 @@
+==5581== Memcheck, a memory error detector
+==5581== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5581== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5581== Command: ./gc_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BNSL/inst/testfiles/gc/gc_output
+==5581== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1598420708
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_gc_test)
+input starts
+n values: 1336932159
+a values: -2.30983e-08
+input ends

@@ -8,6 +8,7 @@ WARNING: No seed provided; using 1597704605
 WARNING: No test specified, defaulting to first test defined (abcADM_deepstate_test_modifyTimeStep_test)
 newdt values: -2.08797e-288
 verbose values: -345280029
+inputends
 ==5614== 
 ==5614== HEAP SUMMARY:
 ==5614==     in use at exit: 50,292,284 bytes in 9,713 blocks
@@ -28,6 +29,7 @@ verbose values: -345280029
 ==5614== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 newdt values: -2.32326e-87
 verbose values: -111190313
+inputends
 ==5620== 
 ==5620== HEAP SUMMARY:
 ==5620==     in use at exit: 50,292,285 bytes in 9,713 blocks
@@ -48,6 +50,7 @@ verbose values: -111190313
 ==5620== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 newdt values: -2.76646e+221
 verbose values: 609221755
+inputends
 ==5625== 
 ==5625== HEAP SUMMARY:
 ==5625==     in use at exit: 50,292,284 bytes in 9,713 blocks

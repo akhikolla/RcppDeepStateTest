@@ -1,0 +1,117 @@
+==5124== Memcheck, a memory error detector
+==5124== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5124== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5124== Command: ./weighted_kaplan_meier_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/bnnSurvival/inst/testfiles/weighted_kaplan_meier/weighted_kaplan_meier_output
+==5124== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1598417732
+WARNING: No test specified, defaulting to first test defined (bnnSurvival_deepstate_test_weighted_kaplan_meier_test)
+input starts
+response values: 4.49064e-241 2.07881e-96 1.42101e+225 1.35430e+136 1.71495e+130 -1.24398e-278 -2.40730e+11 6.72612e-60 -1.16231e+34
+-1.20013e+30 -2.05109e+189 -1.84129e-72 -1.53702e+202 4.92891e-66 2.88886e-157 2.52992e-229 -5.68014e+36 1.77204e-243
+3.46926e+281 1.63895e-192 -3.34966e+119 -3.27950e-177 -1.83406e+292 -1.29873e-26 3.46753e+08 -1.32263e-239 1.15930e-105
+-1.93028e+307 -6.97345e-102 -9.36833e-53 -7.96272e+112 -1.89870e+131 -1.50629e+204 4.10562e-100 -3.68158e-66 7.83756e+25
+2.48373e-260 1.56743e+140 2.51967e-284 -1.03890e+151 -3.12535e+68 1.73021e-226 -2.61562e-53 -4.64232e+97 5.63406e+57
+2.78018e+31 -2.37617e-277 1.20534e+298 1.41441e-84 -4.51929e+141 -1.41395e-61 3.98207e+27 -2.09949e+238 4.07949e+216
+
+weights values: nan -inf 2.81105e-298 nan -inf nan -1.36524e-185 nan inf nan nan inf -inf inf inf nan 2.59567e-153 -inf nan 1.09864e-170 nan -inf nan -inf nan nan -6.71978e-22 nan nan 4.62052e-39 nan nan 1.07286e-306 inf -4.3069e-125 nan nan nan inf inf 6.69707e-215 -inf -inf nan -inf nan inf nan nan nan nan nan nan nan -inf 2.04395e-63 inf nan -7.42446e-158 3.10289e-236 6.81874e-302 0
+timepoints values: inf inf inf -inf 3.38294e-195 nan inf nan -inf nan nan 4.63676e-34 -inf 3.44131e-285 -6.87564e-31 -2.02173e+277 nan inf -inf inf inf nan nan 2.17605e+168 inf 5.0565e+60 nan -3.54507e-193 nan -inf nan nan nan nan 3.24303e+30 inf -868041 -inf 1.28264e-190 nan inf nan -inf 6.53551e-13 -inf nan 5.38621e-18 -inf nan nan -2.99194e-109 -inf nan inf 3.74284e-60 nan -5.89189e+51 inf -5.1304e+222 nan 0
+input ends
+==5125== 
+==5125== HEAP SUMMARY:
+==5125==     in use at exit: 50,295,452 bytes in 9,719 blocks
+==5125==   total heap usage: 27,696 allocs, 17,977 frees, 86,006,745 bytes allocated
+==5125== 
+==5125== LEAK SUMMARY:
+==5125==    definitely lost: 0 bytes in 0 blocks
+==5125==    indirectly lost: 0 bytes in 0 blocks
+==5125==      possibly lost: 0 bytes in 0 blocks
+==5125==    still reachable: 50,295,452 bytes in 9,719 blocks
+==5125==                       of which reachable via heuristic:
+==5125==                         newarray           : 4,264 bytes in 1 blocks
+==5125==         suppressed: 0 bytes in 0 blocks
+==5125== Reachable blocks (those to which a pointer was found) are not shown.
+==5125== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5125== 
+==5125== For counts of detected and suppressed errors, rerun with: -v
+==5125== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+input starts
+response values: -2.11392e-132 -2.94407e-28 1.37783e+75 1.69431e+308 1.53551e+76
+7.30800e-116 -2.55520e-220 -1.33479e-161 -5.90053e+16 2.31537e+10
+4.66712e-278 3.22641e+237 3.18110e+53 5.60563e-287 4.55479e+150
+2.44597e-79 1.81083e-56 9.29796e-304 -5.61265e+146 -7.26819e-262
+4.67279e-246 -1.52158e-59 -5.53811e+108 -1.79400e+156 -1.21498e+31
+8.00199e+306 9.88652e+68 -5.90962e-109 3.70196e+57 -1.45712e+35
+5.62279e+250 1.07487e-179 6.48243e-30 4.17322e+184 -7.39428e-148
+
+weights values: nan -6.83848e+72 2.03688e+238 -inf nan -inf inf -inf 3.41773e+247 -inf inf nan inf nan nan nan inf nan nan 5.90605e-188 nan nan -inf 1.49555e-158 1.63001e+108 nan -4.38964e+258 inf 6.53212e+61 -5.50924e-170 -inf nan inf nan inf inf nan -inf nan -inf -inf -7.1381e+137 inf inf 4.89669e+276 nan -inf nan inf 2.60813e-24 nan nan inf 1.00938e+99 nan 0
+timepoints values: nan nan -inf -inf nan nan 4.54617e+178 nan nan -inf nan inf -inf nan nan nan inf nan nan -7.80725e-293 -inf inf inf 7.97891e-209 nan nan nan inf -inf -2.37936e+115 inf 1.04589e-300 nan nan -inf nan nan -inf nan nan nan -4.81559e+17 inf -1.85165e+171 -inf -inf nan nan nan 9.95358e-264 nan -2.85661e+287 -4.16652e+108 inf 2.6102e+26 -9.61718e+93 -inf nan nan nan inf nan -3.48283e-40 -inf 1.92695e+106 nan nan nan -inf nan inf nan inf 9.39135e+106 nan -inf nan nan nan -inf 3.42261e-63 inf -inf nan inf 0
+input ends
+==5131== 
+==5131== HEAP SUMMARY:
+==5131==     in use at exit: 50,296,053 bytes in 9,719 blocks
+==5131==   total heap usage: 27,696 allocs, 17,977 frees, 86,007,346 bytes allocated
+==5131== 
+==5131== LEAK SUMMARY:
+==5131==    definitely lost: 0 bytes in 0 blocks
+==5131==    indirectly lost: 0 bytes in 0 blocks
+==5131==      possibly lost: 0 bytes in 0 blocks
+==5131==    still reachable: 50,296,053 bytes in 9,719 blocks
+==5131==                       of which reachable via heuristic:
+==5131==                         newarray           : 4,264 bytes in 1 blocks
+==5131==         suppressed: 0 bytes in 0 blocks
+==5131== Reachable blocks (those to which a pointer was found) are not shown.
+==5131== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5131== 
+==5131== For counts of detected and suppressed errors, rerun with: -v
+==5131== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+input starts
+response values: -3.40940e+299 -1.59764e-237 1.76121e-13 -4.14931e-218 -1.28421e-59 3.00325e-90 2.78068e-101 -1.05435e-258 6.74340e+83
+-3.13638e-133 37513.0 4.72648e+64 -3.77966e+101 1.63014e-132 7.80777e-218 2.35694e-46 -1.22484e+140 1.04521e+168
+1.04662e-185 -4.48490e-121 3.77292e+180 1.32127e-27 -8.87077e+10 2.26496e-61 -1.60587e-86 -2.34076e-90 -1.48665e+64
+1.68017e-258 2.68839e-40 -6.10347e-249 -4.54951e-254 1.21268e+276 1.46739e+302 -6.10971e+13 5.35738e+42 -5.65561e+192
+-3.74483e+273 -2.44892e-206 -1.88379e-66 -3.05493e+254 8.64722e+155 -8.05535e+167 -6.67482e-241 8.45835e-20 -4.22703e+304
+9.57921e-88 -304479. 1.08118e-133 -1.04394e-101 -3.16172e+171 -4.63394e+171 -2.42115e-145 6.43166e+225 -3.14426e+228
+2.20426e+64 -6.09189e-33 1.83561e+79 -2.35735e+14 -1.79430e+137 1.13336e-219 1.29526e-220 -1.65792e+17 -3.92991e+228
+-3.37724e+21 -1.29763e+26 -1.33377e-167 2.06571e+102 1.07085e+195 5.18019e+45 -1.64450e+173 7.81694e-259 -5.40156e+274
+1.34458e-281 8.60102e-84 -1.21536e-214 2.77696e+237 -2.99434e+271 1.30828e+269 -1.71179e-92 -6.00795e-44 -1.73571e-118
+1.30965e+94 -6.63233e+236 -2.68020e+198 6.84143e-262 6.62619e+149 4.87676e+173 1.47132e+103 -1.43962e+153 -2.46783e-30
+
+weights values: -2.58859e-200 nan nan nan -inf 0
+timepoints values: nan nan inf 5.9767e-299 nan inf -2.02569e+226 5.11223e-216 2.67896e+92 2.21126e+251 -inf nan -inf nan inf -inf 1.01697e+57 -2.52541e+177 nan -inf nan nan inf -inf nan nan nan -inf 7.94965e-264 nan nan inf 0
+input ends
+==5138== 
+==5138== HEAP SUMMARY:
+==5138==     in use at exit: 50,294,301 bytes in 9,718 blocks
+==5138==   total heap usage: 27,695 allocs, 17,977 frees, 86,005,594 bytes allocated
+==5138== 
+==5138== LEAK SUMMARY:
+==5138==    definitely lost: 0 bytes in 0 blocks
+==5138==    indirectly lost: 0 bytes in 0 blocks
+==5138==      possibly lost: 0 bytes in 0 blocks
+==5138==    still reachable: 50,294,301 bytes in 9,718 blocks
+==5138==                       of which reachable via heuristic:
+==5138==                         newarray           : 4,264 bytes in 1 blocks
+==5138==         suppressed: 0 bytes in 0 blocks
+==5138== Reachable blocks (those to which a pointer was found) are not shown.
+==5138== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5138== 
+==5138== For counts of detected and suppressed errors, rerun with: -v
+==5138== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 0 failed/3 passed/0 abandoned tests
+==5124== 
+==5124== HEAP SUMMARY:
+==5124==     in use at exit: 8 bytes in 1 blocks
+==5124==   total heap usage: 4 allocs, 3 frees, 106,568 bytes allocated
+==5124== 
+==5124== LEAK SUMMARY:
+==5124==    definitely lost: 0 bytes in 0 blocks
+==5124==    indirectly lost: 0 bytes in 0 blocks
+==5124==      possibly lost: 0 bytes in 0 blocks
+==5124==    still reachable: 8 bytes in 1 blocks
+==5124==         suppressed: 0 bytes in 0 blocks
+==5124== Reachable blocks (those to which a pointer was found) are not shown.
+==5124== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5124== 
+==5124== For counts of detected and suppressed errors, rerun with: -v
+==5124== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,1 +1,0 @@
-\name{subknot} \alias{subknot} \title{ internal function } \description{ internal function } \keyword{internal}

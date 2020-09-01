@@ -16,6 +16,7 @@ mu_beta values: -5.74374e-192
 sigma_beta values: 3.40945e+236
 mu_psi values: -1.15642e+104
 sigma_psi values: -6.2565e-11
+inputends
 ==6019== 
 ==6019== HEAP SUMMARY:
 ==6019==     in use at exit: 50,292,285 bytes in 9,713 blocks
@@ -44,6 +45,7 @@ mu_beta values: 8.52861e-63
 sigma_beta values: 3.20792e+224
 mu_psi values: 6.01845e-243
 sigma_psi values: 2.20153e+105
+inputends
 ==6025== 
 ==6025== HEAP SUMMARY:
 ==6025==     in use at exit: 50,292,285 bytes in 9,713 blocks
@@ -72,6 +74,7 @@ mu_beta values: -1.67205e-13
 sigma_beta values: 1.28278e+167
 mu_psi values: 7.57854e-153
 sigma_psi values: 1.9491e-12
+inputends
 ==6032== 
 ==6032== HEAP SUMMARY:
 ==6032==     in use at exit: 50,292,285 bytes in 9,713 blocks

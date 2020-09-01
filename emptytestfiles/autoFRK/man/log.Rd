@@ -1,1 +1,0 @@
-\name{log} \alias{log} \title{ internal function } \description{ internal function } \keyword{internal}

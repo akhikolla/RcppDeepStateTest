@@ -26,6 +26,7 @@ inbag values: 1.39403e-146 -9.86385e+150
 
 nobs values: -1079822383
 ntree values: 930953291
+inputends
 EXTERNAL: Error: vector is too large
 
 EXTERNAL: Execution halted
@@ -67,6 +68,7 @@ inbag values: -1.74217e+15 -3.35304e-146 4.05369e-240 -6.99729e-174 12812.5 1.46
 
 nobs values: 444035827
 ntree values: -344346912
+inputends
 EXTERNAL: Error: vector is too large
 
 EXTERNAL: Execution halted
@@ -110,6 +112,7 @@ inbag values: 112854. 1.68393e-121 1.65596e+17 -1.81126e+37 2.70116e-207 -8.3584
 
 nobs values: -765544625
 ntree values: 238488755
+inputends
 EXTERNAL: Error: vector is too large
 
 EXTERNAL: Execution halted

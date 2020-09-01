@@ -20,7 +20,7 @@ hk values: 4.12876e+235
 1.36868e+287
 4.46789e+226
 
-input ends
+inputends
 terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
   what():  Index out of bounds: [index=-499341309; extent=3].
 ERROR: Failed: amt_deepstate_test_simulate_udf_test
@@ -122,7 +122,7 @@ hk values: -1.09991e-141 -7.76652e-213 4.43891e-85 4.44037e+123 2.71945e+42 -1.0
 -1.41572e-222 2.73683e-237 1.47914e-180 4.84519e+216 2.84766e-247 2.73803e-154 -9.88176e-157 6.85356e+150 1.30253e-182
 -8.63817e-234 -3.80815e-50 4.37940e-68 -6.37333e-220 -1.14095e-293 -8.57738e-281 -1.06657e-273 -2.07927e-128 -4.76701e+191
 
-input ends
+inputends
 terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
   what():  Index out of bounds: [index=329819178; extent=9].
 ERROR: Failed: amt_deepstate_test_simulate_udf_test

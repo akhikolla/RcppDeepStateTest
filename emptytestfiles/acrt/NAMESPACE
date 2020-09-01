@@ -1,3 +1,0 @@
-useDynLib(acrt)
-import(methods, stats, sandwich, Rcpp)
-export(F.type.test.statistic, critical.value, size)

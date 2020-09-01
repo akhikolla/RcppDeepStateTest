@@ -1,0 +1,87 @@
+==5524== Memcheck, a memory error detector
+==5524== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5524== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==5524== Command: ./fftable_DeepState_TestHarness --fuzz --fuzz_save_passing --output_test_dir /home/akhila/Documents/compileAttributescheck/BNSL/inst/testfiles/fftable/fftable_output
+==5524== 
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1598420416
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_fftable_test)
+input starts
+df values: 1.30191e-71 -1.55975e+298 2.94694e-283 7.26724e-236 -1.31152e-34 -5.20393e-78 0.00106432 2.13031e-229 2.17947e-178 -9.96995e-279
+4.88708e+261 2.45133e+226 -5.42050e-254 -7.58899e-146 -1.33357e+68 1.39752e+131 -2.46070e+276 6999.82 8.13797e+35 3.12194e-244
+-2.63738e-256 2.88585e-120 2.51749e+152 -6.16962e+101 7.78245e-31 -7.82542e+78 9.31983e-297 -2.52335e+11 -1.13196e-239 -3.98321e+147
+1.00666e-187 3.16386e+215 4.55285e-272 -3.70783e-204 -5.93079e-247 1.32948e+166 -3.05533e-35 -9.98985e-179 -3.47597e-197 2.36847e+45
+
+w values: -2131925578
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+==5525== 
+==5525== HEAP SUMMARY:
+==5525==     in use at exit: 50,292,869 bytes in 9,716 blocks
+==5525==   total heap usage: 27,825 allocs, 18,109 frees, 85,999,441 bytes allocated
+==5525== 
+==5525== LEAK SUMMARY:
+==5525==    definitely lost: 0 bytes in 0 blocks
+==5525==    indirectly lost: 0 bytes in 0 blocks
+==5525==      possibly lost: 0 bytes in 0 blocks
+==5525==    still reachable: 50,292,869 bytes in 9,716 blocks
+==5525==                       of which reachable via heuristic:
+==5525==                         newarray           : 4,264 bytes in 1 blocks
+==5525==         suppressed: 0 bytes in 0 blocks
+==5525== Reachable blocks (those to which a pointer was found) are not shown.
+==5525== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5525== 
+==5525== For counts of detected and suppressed errors, rerun with: -v
+==5525== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: 2020-08-25 22:41:46: 0 tests/second: 1 failed/0 passed/0 abandoned
+input starts
+df values: 1.23831e-88 5.41329e+230 8.02058e-68 -3.12239e-299 -1.46111e+182 2.99955e+283 -6.45623e-234 -5.19470e+169 6.56009e-234 6.48804e+204
+5.25235e+40 -8.61168e-235 -2.50006e-49 5.99542e+95 2.31843e+60 1.46744e+125 8.62216e+303 7.53370e+145 1.48794e+301 4.25123e-15
+-5.10783e-120 6.06248e-116 -3.60681e+78 -5.62313e-24 7.73034e+84 -1.80559e-224 -2.32318e-212 3.12519e-301 1.28484e+167 6.17075e-133
+-1.21619e+110 3.67002e-258 5.37600e-277 -1.46677e+130 4.32495e+147 -0.0749638 -1.24280e+218 -3.28309e-270 3.31844e+86 6.68007e-286
+-1.40667e-269 5.35194e+47 3.79514e+165 -4.64757e+45 -1.64970e-160 8.75771e-303 1.33216e-276 -9.83350e+300 -2.93952e+32 -8.93724e+186
+
+w values: 1430550186
+input ends
+EXTERNAL: Error: cannot allocate vector of size 26.6 Gb
+
+EXTERNAL: Execution halted
+
+==5531== 
+==5531== HEAP SUMMARY:
+==5531==     in use at exit: 46,606,157 bytes in 9,192 blocks
+==5531==   total heap usage: 27,832 allocs, 18,640 frees, 86,004,461 bytes allocated
+==5531== 
+==5531== LEAK SUMMARY:
+==5531==    definitely lost: 0 bytes in 0 blocks
+==5531==    indirectly lost: 0 bytes in 0 blocks
+==5531==      possibly lost: 0 bytes in 0 blocks
+==5531==    still reachable: 46,606,157 bytes in 9,192 blocks
+==5531==                       of which reachable via heuristic:
+==5531==                         newarray           : 4,264 bytes in 1 blocks
+==5531==         suppressed: 0 bytes in 0 blocks
+==5531== Reachable blocks (those to which a pointer was found) are not shown.
+==5531== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5531== 
+==5531== For counts of detected and suppressed errors, rerun with: -v
+==5531== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests
+==5524== 
+==5524== HEAP SUMMARY:
+==5524==     in use at exit: 8 bytes in 1 blocks
+==5524==   total heap usage: 12 allocs, 11 frees, 111,508 bytes allocated
+==5524== 
+==5524== LEAK SUMMARY:
+==5524==    definitely lost: 0 bytes in 0 blocks
+==5524==    indirectly lost: 0 bytes in 0 blocks
+==5524==      possibly lost: 0 bytes in 0 blocks
+==5524==    still reachable: 8 bytes in 1 blocks
+==5524==         suppressed: 0 bytes in 0 blocks
+==5524== Reachable blocks (those to which a pointer was found) are not shown.
+==5524== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5524== 
+==5524== For counts of detected and suppressed errors, rerun with: -v
+==5524== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
