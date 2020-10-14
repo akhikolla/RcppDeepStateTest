@@ -1,0 +1,1902 @@
+> total_counts()
+$abcADM
+[1] 5
+
+$abcrf
+[1] 3
+
+$abtest
+[1] 6
+
+$acc
+[1] 5
+
+$accelerometry
+[1] 17
+
+$activegp
+[1] 18
+
+$AdaptGauss
+[1] 1
+
+$adeba
+[1] 3
+
+$AGread
+[1] 7
+
+$ALassoSurvIC
+[1] 3
+
+$alphabetr
+[1] 3
+
+$ambient
+[1] 28
+
+$amt
+[1] 16
+
+$anytime
+[1] 5
+
+$apcf
+[1] 1
+
+$aphid
+[1] 8
+
+$apollo
+[1] 2
+
+$aricode
+[1] 3
+
+$augSIMEX
+[1] 7
+
+$autothresholdr
+[1] 21
+
+$BacArena
+[1] 2
+
+$backbone
+[1] 2
+
+$BalancedSampling
+[1] 17
+
+$BAMBI
+[1] 35
+
+$BAREB
+[1] 3
+
+$bartBMA
+[1] 56
+
+$Barycenter
+[1] 1
+
+$bayesAB
+[1] 2
+
+$BayesESS
+[1] 2
+
+$BayesFactor
+[1] 9
+
+$BayesianTools
+[1] 1
+
+$bayesm
+[1] 1
+
+$BayesMallows
+[1] 2
+
+$BayesSUR
+[1] 8
+
+$bbl
+[1] 1
+
+$BClustLonG
+[1] 4
+
+$bcROCsurface
+[1] 4
+
+$BCSub
+[1] 2
+
+$Benchmarking
+[1] 10
+
+$Bestie
+[1] 1
+
+$beyondWhittle
+[1] 15
+
+$BGGM
+[1] 9
+
+$bggum
+[1] 5
+
+$BGVAR
+[1] 1
+
+$BHSBVAR
+[1] 6
+
+$BiDAG
+[1] 6
+
+$BIFIEsurvey
+[1] 23
+
+$bigReg
+[1] 7
+
+$bigtime
+[1] 2
+
+$BigVAR
+[1] 2
+
+$binnednp
+[1] 28
+
+$binsegRcpp
+[1] 1
+
+$Bioi
+[1] 1
+
+$bisque
+[1] 1
+
+$biwavelet
+[1] 4
+
+$blindrecalc
+[1] 1
+
+$blockForest
+[1] 1
+
+$blorr
+[1] 1
+
+$bmotif
+[1] 96
+
+$bnclassify
+[1] 5
+
+$bnnSurvival
+[1] 1
+
+$BNPmix
+[1] 4
+
+$BNPMIXcluster
+[1] 1
+
+$BNSL
+[1] 20
+
+$BondValuation
+[1] 14
+
+$BoostMLR
+[1] 37
+
+$borrowr
+[1] 2
+
+$BosonSampling
+[1] 1
+
+$bpnreg
+[1] 7
+
+$briskaR
+[1] 5
+
+$bsearchtools
+[1] 8
+
+$bsplinePsd
+[1] 15
+
+$btb
+[1] 3
+
+$BTYDplus
+[1] 2
+
+$bvarsv
+[1] 12
+
+$bvartools
+[1] 1
+
+$bWGR
+[1] 32
+
+$bzinb
+[1] 1
+
+$calculus
+[1] 1
+
+$carat
+[1] 11
+
+$CARBayes
+[1] 23
+
+$CARBayesST
+[1] 71
+
+$carSurv
+[1] 4
+
+$castor
+[1] 1
+
+$CatReg
+[1] 1
+
+$CautiousLearning
+[1] 2
+
+$cbinom
+[1] 1
+
+$CDM
+[1] 18
+
+$CENFA
+[1] 3
+
+$cenROC
+[1] 2
+
+$cgAUC
+[1] 4
+
+$CGGP
+[1] 4
+
+$ChangePointTaylor
+[1] 4
+
+$CircSpaceTime
+[1] 1
+
+$CircularDDM
+[1] 2
+
+$circumplex
+[1] 5
+
+$CKLRT
+[1] 12
+
+$ClinicalTrialSummary
+[1] 1
+
+$clogitboost
+[1] 4
+
+$clogitL1
+[1] 2
+
+$clusrank
+[1] 9
+
+$clustermq
+[1] 1
+
+$ClusterR
+[1] 1
+
+$ClusterStability
+[1] 2
+
+$ClustMMDD
+[1] 5
+
+$ClusVis
+[1] 2
+
+$CMF
+[1] 5
+
+$cna
+[1] 8
+
+$CNull
+[1] 7
+
+$coda.base
+[1] 4
+
+$coga
+[1] 24
+
+$colorednoise
+[1] 5
+
+$colourvalues
+[1] 6
+
+$comat
+[1] 2
+
+$compas
+[1] 2
+
+$conquer
+[1] 1
+
+$cord
+[1] 2
+
+$corpustools
+[1] 1
+
+$corrcoverage
+[1] 1
+
+$cort
+[1] 10
+
+$covTestR
+[1] 3
+
+$CovTools
+[1] 1
+
+$CPAT
+[1] 2
+
+$cPCG
+[1] 1
+
+$cppRouting
+[1] 6
+
+$cpr
+[1] 1
+
+$crandep
+[1] 2
+
+$cstab
+[1] 3
+
+$ctmcd
+[1] 2
+
+$cutpointr
+[1] 6
+
+$CVXR
+[1] 1
+
+$cycleRtools
+[1] 9
+
+$cytometree
+[1] 2
+
+$dann
+[1] 1
+
+$DatabionicSwarm
+[1] 3
+
+$datafsm
+[1] 1
+
+$DataVisualizations
+[1] 2
+
+$dbmss
+[1] 1
+
+$dbscan
+[1] 13
+
+$DCEM
+[1] 2
+
+$dcov
+[1] 1
+
+$dcurver
+[1] 3
+
+$DDPGPSurv
+[1] 3
+
+$ddsPLS
+[1] 3
+
+$decido
+[1] 1
+
+$densityClust
+[1] 5
+
+$DEploid
+[1] 1
+
+$DepthProc
+[1] 1
+
+$DescTools
+[1] 6
+
+$detectRUNS
+[1] 4
+
+$detrendr
+[1] 25
+
+$dfConn
+[1] 2
+
+$dfphase1
+[1] 4
+
+$DGM
+[1] 1
+
+$dgumbel
+[1] 1
+
+$dHSIC
+[1] 4
+
+$diceR
+[1] 2
+
+$diffrprojects
+[1] 3
+
+$dipsaus
+[1] 1
+
+$disclapmix
+[1] 8
+
+$distr6
+[1] 3
+
+$divDyn
+[1] 3
+
+$diveRsity
+[1] 7
+
+$diversityForest
+[1] 1
+
+$DLMtool
+[1] 11
+
+$dnapath
+[1] 3
+
+$DNAtools
+[1] 4
+
+$dng
+[1] 14
+
+$dpseg
+[1] 2
+
+$DPWeibull
+[1] 6
+
+$dqrng
+[1] 4
+
+$DriftBurstHypothesis
+[1] 1
+
+$DrImpute
+[1] 2
+
+$dscore
+[1] 3
+
+$dsmisc
+[1] 1
+
+$DStree
+[1] 4
+
+$DtD
+[1] 1
+
+$DTDA.cif
+[1] 1
+
+$durmod
+[1] 1
+
+$dvmisc
+[1] 18
+
+$dynamichazard
+[1] 1
+
+$dynamo
+[1] 1
+
+$dynfrail
+[1] 1
+
+$dynutils
+[1] 1
+
+$earthtide
+[1] 4
+
+$easyVerification
+[1] 3
+
+$EBMAforecast
+[1] 8
+
+$ebmstate
+[1] 2
+
+$eDMA
+[1] 1
+
+$EFAtools
+[1] 2
+
+$eive
+[1] 1
+
+$elmNNRcpp
+[1] 8
+
+$elo
+[1] 4
+
+$EloChoice
+[1] 2
+
+$EloRating
+[1] 1
+
+$EMbC
+[1] 4
+
+$EMMIXgene
+[1] 2
+
+$eNchange
+[1] 4
+
+$energy
+[1] 10
+
+$equateMultiple
+[1] 5
+
+$ergmito
+[1] 1
+
+$errum
+[1] 1
+
+$eseis
+[1] 2
+
+$ESGtoolkit
+[1] 9
+
+$esreg
+[1] 7
+
+$essHist
+[1] 1
+
+$EstMix
+[1] 2
+
+$ETAS
+[1] 7
+
+$eulerr
+[1] 1
+
+$evgam
+[1] 3
+
+$evolqg
+[1] 2
+
+$EWGoF
+[1] 8
+
+$ExactMultinom
+[1] 1
+
+$exceedProb
+[1] 1
+
+$expperm
+[1] 4
+
+$factorcpt
+[1] 5
+
+$fad
+[1] 2
+
+$FarmSelect
+[1] 14
+
+$FarmTest
+[1] 1
+
+$fastAdaboost
+[1] 1
+
+$fasteraster
+[1] 1
+
+$FastGaSP
+[1] 2
+
+$FastGP
+[1] 3
+
+$fastLink
+[1] 1
+
+$fastmit
+[1] 2
+
+$fastshap
+[1] 1
+
+$fbroc
+[1] 17
+
+$fcaR
+[1] 3
+
+$fclust
+[1] 2
+
+$fdadensity
+[1] 2
+
+$fdapace
+[1] 5
+
+$FDRSeg
+[1] 6
+
+$FeatureHashing
+[1] 6
+
+$FENmlm
+[1] 13
+
+$ffstream
+[1] 20
+
+$FIACH
+[1] 14
+
+$finity
+[1] 1
+
+$fixest
+[1] 31
+
+$FKSUM
+[1] 10
+
+$flam
+[1] 7
+
+$flexpolyline
+[1] 1
+
+$flock
+[1] 1
+
+$FLSSS
+[1] 5
+
+$flying
+[1] 2
+
+$forecastSNSTS
+[1] 3
+
+$forestControl
+[1] 2
+
+$fplot
+[1] 2
+
+$fractional
+[1] 1
+
+$fracture
+[1] 2
+
+$frailtyEM
+[1] 2
+
+$frailtySurv
+[1] 23
+
+$FRK
+[1] 1
+
+$fromo
+[1] 5
+
+$FSSF
+[1] 1
+
+$futureheatwaves
+[1] 1
+
+$GA
+[1] 6
+
+$gapfill
+[1] 1
+
+$GAS
+[1] 1
+
+$gasper
+[1] 2
+
+$GauPro
+[1] 9
+
+$GBJ
+[1] 1
+
+$gdalcubes
+[1] 1
+
+$GDINA
+[1] 3
+
+$gdtools
+[1] 1
+
+$gear
+[1] 4
+
+$GeDS
+[1] 8
+
+$GEEaSPU
+[1] 14
+
+$gen3sis
+[1] 6
+
+$GeneralizedUmatrix
+[1] 2
+
+$GenEst
+[1] 2
+
+$genieclust
+[1] 2
+
+$genodds
+[1] 2
+
+$GenomicMating
+[1] 1
+
+$geodiv
+[1] 1
+
+$geogrid
+[1] 2
+
+$geometr
+[1] 1
+
+$GGClassification
+[1] 1
+
+$ggforce
+[1] 4
+
+$GGIR
+[1] 2
+
+$ggiraph
+[1] 3
+
+$ggraph
+[1] 5
+
+$ggrepel
+[1] 5
+
+$GillespieSSA2
+[1] 3
+
+$gjam
+[1] 4
+
+$glca
+[1] 3
+
+$GLMaSPU
+[1] 3
+
+$glmBfp
+[1] 1
+
+$glow
+[1] 1
+
+$Gmedian
+[1] 2
+
+$Gmisc
+[1] 1
+
+$GMKMcharlie
+[1] 5
+
+$goffda
+[1] 1
+
+$googlePolylines
+[1] 1
+
+$GPareto
+[1] 6
+
+$GPGame
+[1] 2
+
+$GpGp
+[1] 57
+
+$GPM
+[1] 3
+
+$GPvecchia
+[1] 3
+
+$grainscape
+[1] 1
+
+$graphicalVAR
+[1] 3
+
+$graphlayouts
+[1] 10
+
+$grattan
+[1] 13
+
+$gRbase
+[1] 3
+
+$gretel
+[1] 2
+
+$gridtext
+[1] 2
+
+$groupedSurv
+[1] 3
+
+$grpCox
+[1] 2
+
+$grpSLOPE
+[1] 1
+
+$gscounts
+[1] 1
+
+$gsEasy
+[1] 2
+
+$gsynth
+[1] 8
+
+$gtfs2gps
+[1] 1
+
+$GUILDS
+[1] 1
+
+$hal9001
+[1] 1
+
+$hans
+[1] 1
+
+$HardyWeinberg
+[1] 1
+
+$HARModel
+[1] 1
+
+$HBV.IANIGLA
+[1] 8
+
+$hdbinseg
+[1] 8
+
+$HDLSSkST
+[1] 3
+
+$heatwaveR
+[1] 1
+
+$hermiter
+[1] 6
+
+$hesim
+[1] 14
+
+$hetGP
+[1] 42
+
+$heuristicsmineR
+[1] 4
+
+$HHG
+[1] 4
+
+$hierarchicalSets
+[1] 3
+
+$highfrequency
+[1] 9
+
+$hilbertSimilarity
+[1] 1
+
+$HistDAWass
+[1] 11
+
+$hmlasso
+[1] 3
+
+$hpa
+[1] 3
+
+$HRM
+[1] 3
+
+$httpuv
+[1] 4
+
+$huge
+[1] 1
+
+$humaniformat
+[1] 4
+
+$humanleague
+[1] 3
+
+$hutilscpp
+[1] 29
+
+$hypervolume
+[1] 1
+
+$iBATCGH
+[1] 2
+
+$ibdsim2
+[1] 1
+
+$ibmcraftr
+[1] 1
+
+$ibs
+[1] 3
+
+$ICcalib
+[1] 4
+
+$icd
+[1] 1
+
+$iCellR
+[1] 1
+
+$icenReg
+[1] 2
+
+$icensmis
+[1] 28
+
+$icosa
+[1] 41
+
+$icRSF
+[1] 15
+
+$ICtest
+[1] 1
+
+$idefix
+[1] 1
+
+$IFC
+[1] 8
+
+$IHSEP
+[1] 1
+
+$iilasso
+[1] 3
+
+$image.ContourDetector
+[1] 1
+
+$image.libfacedetection
+[1] 1
+
+$image.LineSegmentDetector
+[1] 1
+
+$image.Otsu
+[1] 1
+
+$imager
+[1] 43
+
+$imagerExtra
+[1] 19
+
+$imagine
+[1] 5
+
+$immer
+[1] 35
+
+$immunarch
+[1] 2
+
+$imp4p
+[1] 5
+
+$ImpactEffectsize
+[1] 3
+
+$IncDTW
+[1] 1
+
+$inferr
+[1] 2
+
+$infinitefactor
+[1] 7
+
+$inspectdf
+[1] 5
+
+$intcensROC
+[1] 3
+
+$IntegratedMRF
+[1] 2
+
+$interp
+[1] 5
+
+$IntervalSurgeon
+[1] 2
+
+$IOHanalyzer
+[1] 1
+
+$ipaddress
+[1] 3
+
+$ipft
+[1] 5
+
+$iprior
+[1] 1
+
+$iptools
+[1] 2
+
+$iRF
+[1] 1
+
+$irregulAR1
+[1] 3
+
+$IsingSampler
+[1] 5
+
+$ivdoctr
+[1] 1
+
+$ivtools
+[1] 1
+
+$jaccard
+[1] 2
+
+$jiebaR
+[1] 5
+
+$jmotif
+[1] 20
+
+$JuliaCall
+[1] 1
+
+$junctions
+[1] 2
+
+$jwutil
+[1] 3
+
+$kamila
+[1] 5
+
+$kcpRS
+[1] 1
+
+$kdevine
+[1] 5
+
+$kernelPSI
+[1] 2
+
+$kmer
+[1] 1
+
+$knn.covertree
+[1] 1
+
+$KONPsurv
+[1] 4
+
+$KoulMde
+[1] 2
+
+$krige
+[1] 5
+
+$KSgeneral
+[1] 1
+
+$ksNN
+[1] 1
+
+$LAM
+[1] 2
+
+$lamW
+[1] 2
+
+$LANDD
+[1] 1
+
+$landscapemetrics
+[1] 1
+
+$landscapeR
+[1] 3
+
+$LassoBacktracking
+[1] 6
+
+$LassoNet
+[1] 1
+
+$later
+[1] 8
+
+$LBSPR
+[1] 2
+
+$lclGWAS
+[1] 3
+
+$lcopula
+[1] 1
+
+$ldsep
+[1] 5
+
+$ldsr
+[1] 5
+
+$lexRankr
+[1] 1
+
+$lfl
+[1] 15
+
+$libstableR
+[1] 8
+
+$lidR
+[1] 15
+
+$lifecontingencies
+[1] 7
+
+$lime
+[1] 1
+
+$linearQ
+[1] 1
+
+$Lmoments
+[1] 1
+
+$lobstr
+[1] 1
+
+$logKDE
+[1] 6
+
+$LongMemoryTS
+[1] 2
+
+$LOPART
+[1] 1
+
+$lpirfs
+[1] 6
+
+$lsbclust
+[1] 5
+
+$lubridate
+[1] 1
+
+$ludic
+[1] 5
+
+$lutz
+[1] 1
+
+$lvmcomp
+[1] 1
+
+$lwgeom
+[1] 1
+
+$magick
+[1] 3
+
+$malan
+[1] 4
+
+$maotai
+[1] 6
+
+$MAPITR
+[1] 1
+
+$markophylo
+[1] 1
+
+$markovchain
+[1] 21
+
+$match2C
+[1] 1
+
+$mateable
+[1] 8
+
+$matricks
+[1] 1
+
+$MatrixCorrelation
+[1] 1
+
+$MAVE
+[1] 1
+
+$maxnodf
+[1] 20
+
+$mbbefd
+[1] 3
+
+$mcemGLM
+[1] 1
+
+$mcga
+[1] 5
+
+$mclustcomp
+[1] 4
+
+$MCMCprecision
+[1] 5
+
+$mcmcsae
+[1] 4
+
+$mDAG
+[1] 1
+
+$mdmb
+[1] 12
+
+$meaRtools
+[1] 3
+
+$medfate
+[1] 119
+
+$meltt
+[1] 1
+
+$mergeTrees
+[1] 1
+
+$MESS
+[1] 8
+
+$metacart
+[1] 2
+
+$metacoder
+[1] 3
+
+$metadynminer
+[1] 18
+
+$metadynminer3d
+[1] 24
+
+$metafolio
+[1] 7
+
+$meteoland
+[1] 47
+
+$meteor
+[1] 11
+
+$mev
+[1] 29
+
+$mfbvar
+[1] 4
+
+$mfGARCH
+[1] 6
+
+$MGMM
+[1] 8
+
+$mhazard
+[1] 10
+
+$mice
+[1] 1
+
+$miceadds
+[1] 23
+
+$microclass
+[1] 1
+
+$microseq
+[1] 1
+
+$midasml
+[1] 1
+
+$milorGWAS
+[1] 3
+
+$mined
+[1] 1
+
+$minerva
+[1] 1
+
+$minimaxdesign
+[1] 1
+
+$mirtjml
+[1] 1
+
+$miscset
+[1] 1
+
+$MiSPU
+[1] 4
+
+$missDeaths
+[1] 2
+
+$missSBM
+[1] 2
+
+$mixdir
+[1] 3
+
+$mixggm
+[1] 1
+
+$mixlink
+[1] 1
+
+$MixMatrix
+[1] 1
+
+$mixR
+[1] 40
+
+$mizer
+[1] 1
+
+$mlmc
+[1] 1
+
+$mlr3proba
+[1] 4
+
+$MM4LMM
+[1] 1
+
+$mmsample
+[1] 1
+
+$MMVBVS
+[1] 4
+
+$mnlfa
+[1] 2
+
+$mobsim
+[1] 2
+
+$ModelMetrics
+[1] 24
+
+$momentuHMM
+[1] 20
+
+$MomTrunc
+[1] 2
+
+$mosum
+[1] 4
+
+$mousetrap
+[1] 30
+
+$moveHMM
+[1] 7
+
+$moveWindSpeed
+[1] 1
+
+$MPBoost
+[1] 1
+
+$mrbsizeR
+[1] 5
+
+$MuChPoint
+[1] 1
+
+$multbxxc
+[1] 1
+
+$multdyn
+[1] 1
+
+$multicool
+[1] 3
+
+$multinets
+[1] 1
+
+$multinomineq
+[1] 3
+
+$MultivariateRandomForest
+[1] 2
+
+$mwaved
+[1] 6
+
+$NAM
+[1] 36
+
+$nandb
+[1] 4
+
+$nanotime
+[1] 15
+
+$NCutYX
+[1] 1
+
+$ndjson
+[1] 1
+
+$NestedCategBayesImpute
+[1] 5
+
+$netClust
+[1] 1
+
+$netdiffuseR
+[1] 1
+
+$NetMix
+[1] 1
+
+$netrankr
+[1] 4
+
+$NetRep
+[1] 6
+
+$neuroim
+[1] 2
+
+$NHMM
+[1] 33
+
+$nlmixr
+[1] 9
+
+$nmfgpu4R
+[1] 1
+
+$nmixgof
+[1] 2
+
+$nmslibR
+[1] 1
+
+$noncompliance
+[1] 4
+
+$nonlinearTseries
+[1] 1
+
+$nse
+[1] 1
+
+$obliqueRSF
+[1] 10
+
+$oce
+[1] 24
+
+$offlineChange
+[1] 1
+
+$ohenery
+[1] 1
+
+$olctools
+[1] 7
+
+$olsrr
+[1] 1
+
+$onlineforecast
+[1] 1
+
+$ontologySimilarity
+[1] 2
+
+$openCR
+[1] 7
+
+$OpenImageR
+[1] 11
+
+$openxlsx
+[1] 11
+
+$Opt5PL
+[1] 26
+
+$ordinalClust
+[1] 5
+
+$OTclust
+[1] 1
+
+$OwenQ
+[1] 15
+
+$packcircles
+[1] 1
+
+$pacotest
+[1] 2
+
+$padr
+[1] 4
+
+$PanelCount
+[1] 4
+
+$PanelMatch
+[1] 7
+
+$partialAR
+[1] 7
+
+$partialCI
+[1] 7
+
+$particles
+[1] 5
+
+$partition
+[1] 7
+
+$parzer
+[1] 5
+
+$PAutilities
+[1] 2
+
+$pbv
+[1] 4
+
+$pccc
+[1] 1
+
+$pcIRT
+[1] 1
+
+$pedometrics
+[1] 1
+
+$pems.utils
+[1] 1
+
+$PenCoxFrail
+[1] 1
+
+$peppm
+[1] 2
+
+$perccal
+[1] 3
+
+$perfectphyloR
+[1] 2
+
+$pgdraw
+[1] 1
+
+$pgee.mixed
+[1] 3
+
+$pGPx
+[1] 1
+
+$pgsc
+[1] 1
+
+$ph2bayes
+[1] 1
+
+$ph2bye
+[1] 1
+
+$phangorn
+[1] 3
+
+$Phase12Compare
+[1] 2
+
+$phenofit
+[1] 10
+
+$philentropy
+[1] 1
+
+$phonics
+[1] 3
+
+$phylobase
+[1] 14
+
+$phylosignal
+[1] 2
+
+$physiology
+[1] 2
+
+$pinbasic
+[1] 2
+
+$piton
+[1] 1
+
+$PLMIX
+[1] 11
+
+$plyr
+[1] 1
+
+$poisDoubleSamp
+[1] 2
+
+$PoissonBinomial
+[1] 9
+
+$PolynomF
+[1] 2
+
+$polyRAD
+[1] 7
+
+$polysat
+[1] 3
+
+$polywog
+[1] 1
+
+$POMaSPU
+[1] 2
+
+$PP
+[1] 8
+
+$PPforest
+[1] 12
+
+$ppgmmga
+[1] 3
+
+$PPRL
+[1] 4
+
+$PPtreeViz
+[1] 2
+
+$prclust
+[1] 11
+
+$predkmeans
+[1] 3
+
+$primes
+[1] 3
+
+$ProbReco
+[1] 1
+
+$processmapR
+[1] 1
+
+$ProFound
+[1] 1
+
+$ProjectionBasedClustering
+[1] 3
+
+$propr
+[1] 11
+
+$prospectr
+[1] 7
+
+$protViz
+[1] 1
+
+$pryr
+[1] 2
+
+$psd
+[1] 4
+
+$psychonetrics
+[1] 18
+
+$ptsuite
+[1] 10
+
+$puniform
+[1] 6
+
+$PWD
+[1] 1
+
+$qbld
+[1] 2
+
+$qGaussian
+[1] 1
+
+$QRM
+[1] 2
+
+$qs
+[1] 6
+
+$qtl2
+[1] 9
+
+$qtl2pleio
+[1] 1
+
+$QTL.gCIMapping
+[1] 1
+
+$QTL.gCIMapping.GUI
+[1] 1
+
+$Qtools
+[1] 4
+
+$qualpalr
+[1] 1
+
+$quanteda
+[1] 2
+
+$quantregRanger
+[1] 5
+
+$QuantTools
+[1] 4
+
+$Quartet
+[1] 13
+
+Total functions evaluated : 3606
+Total packages evaluated : 629
+empty testfiles packages : 246
+empty testfiles packages : list("ABCoptim", "acrt", "ADMM", "ADMMnet", "ADMMsigma", "adpss", "afCEC", "AhoCorasickTrie", "alakazam", "alpaca", "AlphaSimR", "ampir", "anMC", "ANN2", "anomaly", "ape", "APML0", "ARCokrig", "armspp", "arrApply", "ashr", "ASPBay", "autoFRK", "avar", "bama", "batman", "bayesbr", "bayescopulareg", "bayesDP", "bayeslm", "BayesLN", "BayesMFSurv", "BayesMRA", "BayesReversePLLH", "BCEE", "bcf", "bcp", "bcpa", "beam", "belg", "bellreg", "benchr", "BeSS", "BeviMed", "bife", "biglasso", "bigMap", "bigmemory", 
+    "BigQuic", "bigreadr", "bigrquery", "bigsnpr", "bigsparser", "bigstatsr", "bigutilsr", "BinaryDosage", "binaryGP", "bindrcpp", "binGroup2", "BinSegBstrap", "bio3d", "bioacoustics", "Biocomb", "BiProbitPartial", "blackbox", "bliss", "BLPestimatoR", "BLSM", "bmlm", "BMTME", "BoltzMM", "bootUR", "bpgmm", "bssm", "BTLLasso", "BTM", "Buddle", "BuyseTest", "BVSNLP", "CASMAP", "catlearn", "catSurv", "CB2", "ccdrAlgorithm", "cctools", "cellWise", "changepoint.mv", "chunkR", "cIRT", "Ckmeans.1d.dp", "cld2", 
+    "cld3", "clifford", "ClustVarLV", "CLVTools", "cnum", "coala", "collapse", "collUtils", "combiter", "Compack", "COMPoissonReg", "contoureR", "Countr", "coxmeg", "coxrt", "cqrReg", "crawl", "crfsuite", "CVR", "datasailr", "DatAssim", "DCPO", "demu", "depcoeff", "dggridR", "diffman", "DiffusionRgqd", "DiffusionRimp", "DiffusionRjgqd", "disk.frame", "DMCfun", "DPP", "dracor", "dslice", "dynsbm", "EAinference", "EditImputeCont", "emstreeR", "EpiNow2", "EstHer", "exif", "exuber", "facilitation", "FastBandChol", 
+    "fasterElasticNet", "fasterize", "fddm", "fDMA", "FDRreg", "fingerPro", "FiRE", "FisHiCal", "FisPro", "fuser", "GADAG", "gamreg", "genie", "geometry", "ggwordcloud", "GiniDistance", "glcm", "glm.deploy", "glmdisc", "GofKmt", "goldi", "graphql", "gren", "greybox", "GridOnClusters", "GUTS", "gwfa", "HACSim", "hadron", "hdbm", "hdme", "hit", "hsrecombi", "htdp", "htmltidy", "hts", "iccbeta", "IceCast", "icr", "image.CannyEdges", "image.CornerDetectionF9", "image.CornerDetectionHarris", "incgraph", 
+    "interep", "interflex", "intervalaverage", "ISOpureR", "IsoSpecR", "ivx", "JMI", "jmvconnect", "JOUSBoost", "kvh", "l0ara", "landsepi", "lbfgs", "lbfgsb3c", "LeMaRns", "lolog", "LowWAFOMNX", "LowWAFOMSobol", "m2r", "MADPop", "MatrixLDA", "mcPAFit", "MEGENA", "MetaheuristicFPA", "MIDASwrappeR", "mixedCCA", "mixedClust", "MLModelSelection", "mnis", "mokken", "mrbayes", "multinet", "multinma", "multivar", "mvcluster", "mvrsquared", "nabor", "netcontrol", "networkR", "NlinTS", "nonneg.cg", "NPBayesImputeCat", 
+    "nprobust", "OncoBayes2", "OneArmPhaseTwoStudy", "oneclust", "optimization", "opusminer", "ordinalForest", "PAC", "PAsso", "penMSM", "PhenotypeSimulator", "PieceExpIntensity", "Pijavski", "pirate", "PO.EN", "polylabelr", "popkin", "princurve", "promises", "prophet", "pts2polys", "qgraph", "qmix", "qpmadr", "qrencoder", "quantities")
+No Rcpp exports file for pkg - list("abcADM_inputs_all.rds", "abcADM_inputs_noerr.rds", "acebayes", "ACEt", "AdaptiveSparsity", "AlphaPart", "Amelia", "AnaCoDa", "apcluster", "arrow", "BaBooN", "baggr", "BART", "basad", "bayes4psy", "BayesComm", "bayesdfa", "bayesImageS", "beanz", "bfp", "biganalytics", "bigtabulate", "BivRec", "blavaan", "blockcluster", "blockmodels", "bmgarch", "ccaPP", "cccp", "ChannelAttribution", "cladoRcpp", "clere", "climdex.pcic", "clusternor", "clusteval", "ConConPiWiFun", "coneproj", "conStruct", "CoxPlus", 
+    "ctsem", "datastructures", "ddalpha", "DeLorean", "DetMCD", "DetR", "dfcomb", "dfmta", "dfpk", "dils", "diversitree", "divest", "dlib", "drgee", "dtwclust", "ecp", "eggCounts", "emIRT", "esaddle", "etm", "fable", "factorstochvol", "fastGHQuad", "FastHCS", "fastM", "FastPCS", "FastRCS", "FaultTree", "FBFsearch", "fdaMixed", "fdasrvf", "fICA", "fishflux", "flan", "forecast", "FRESA.CAD", "fssemR", "fugeR", "fusedest", "gaselect", "gaston", "gcKrig", "GCPM", "gdm", "geiger", "GENLIB", "GenomicTools", 
+    "GiRaF", "glmgraph", "glmmfields", "gMWT", "GPvam", "growfunctions", "GSE", "gwsem", "hBayesDM", "HDPenReg", "HLMdiag", "HMMEsolver", "hsphase", "hsstan", "ibm", "iBST", "idem", "IMaGES", "inca", "kergp", "KernSmoothIRT", "kmc", "knor", "LaF", "landscapetools", "LARisk", "lhs", "lm.br", "lme4", "lpme", "lvec", "MAINT.Data", "ManifoldOptim", "marked", "metaBMA", "MetaStan", "mgwrsar", "minqa", "mirt", "mirtCAT", "MixAll", "mkde", "mmand", "mmpca", "Morpho", "motmot", "move", "mrfDepth", "msgl", 
+    "MTS", "mudens", "mumm", "MVB", "mvnfast", "n1qn1", "npsf", "Numero", "oem", "OjaNP", "onemap", "openair", "OpenMx", "orQA", "pcalg", "pcFactorStan", "PCMBaseCpp", "PedCNV", "pense", "PerMallows", "plotSEMM", "PoweR", "PReMiuM", "PRIMAL", "prodlim", "propagate", "psgp", "publipha", "purrrlyr", "quadrupen")
+Count No Rcpp exports file - 165
