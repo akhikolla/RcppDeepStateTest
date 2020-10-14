@@ -1,0 +1,1202 @@
+ 1 . Package name : accelerometry
+ Matched functions : c("cut_counts", "intensities", "personvars", "sedbreaks")
+  2 . Package name : activegp
+ Matched functions : c("C_GP_cpp", "W_kappa_ij", "W_kappa_ij_up")
+  3 . Package name : BIFIEsurvey
+ Matched functions : c("bifiesurvey_rcpp_rubin_rules", "bifiesurvey_rcpp_replication_variance")
+  4 . Package name : BNPmix
+ Matched functions : c("BNPmix_BIN", "BNPmix_psm", "clean_partition", "BNPmix_VI_LB")
+  5 . Package name : BNSL
+ Matched functions : c("mi", "cmi", "kruskal")
+  6 . Package name : carSurv
+ Matched functions : c("weightedCovarRcpp", "weightedCovarRcppN", "weightedVarRcpp", "weightedVarRcppN")
+  7 . Package name : CGGP
+ Matched functions : c("rcpp_fastmatclcr", "rcpp_fastmatclcranddclcr", "rcpp_gkronDBS", "rcpp_kronDBS")
+  8 . Package name : CircularDDM
+ Matched functions : c("besselzero", "rvm")
+  9 . Package name : coga
+ Matched functions : c("dcoga", "dcoga2dim", "dcoga_approx", "pcoga", "pcoga2dim", "pcoga2dim_diff_shape", "pcoga_approx")
+  10 . Package name : colorednoise
+ Matched functions : c("colored_multi_rnorm", "colored_noise", "cor2cov", "multi_rnorm", "unstructured_pop")
+  11 . Package name : compas
+ Matched functions : c("calCo", "torsion")
+  12 . Package name : crandep
+ Matched functions : c("Supp", "mcmc_upp")
+  13 . Package name : ctmcd
+ Matched functions : c("rNijTRiT_ModRej", "rNijTRiT_Unif")
+  14 . Package name : cycleRtools
+ Matched functions : c("Wbal_", "diff_section", "mmv2", "rollmean_nunif")
+  15 . Package name : cytometree
+ Matched functions : c("FmeasureC", "FmeasureC_no0")
+  16 . Package name : DLMtool
+ Matched functions : c("LBSPRgen", "LSRA_MCMC_sim", "LSRA_opt_cpp", "movfit_Rcpp")
+  17 . Package name : dnapath
+ Matched functions : c("d_edgesC", "d_genesC", "d_pathwayC")
+  18 . Package name : DNAtools
+ Matched functions : c("Pnm_locus", "convolve")
+  19 . Package name : dvmisc
+ Matched functions : c("max_n", "mean_i", "min_n", "sum_i", "which_max_iv", "which_max_nm", "which_max_nv", "which_min_iv", "which_min_nm", "which_min_nv")
+  20 . Package name : esreg
+ Matched functions : c("G1_fun", "G1_prime_fun", "G1_prime_prime_fun", "G2_curly_fun", "G2_fun", "G2_prime_fun", "G2_prime_prime")
+  21 . Package name : factorcpt
+ Matched functions : c("func_coef", "func_dc", "func_dc_by", "func_input", "func_input_on")
+  22 . Package name : fdapace
+ Matched functions : c("cumtrapzRcpp", "trapzRcpp")
+  23 . Package name : fromo
+ Matched functions : c("cent2raw", "join_cent_cosums", "join_cent_sums", "unjoin_cent_cosums", "unjoin_cent_sums")
+  24 . Package name : gasper
+ Matched functions : c("eigendec", "matmult")
+  25 . Package name : genieclust
+ Matched functions : c("bonferroni_index", "gini_index")
+  26 . Package name : grattan
+ Matched functions : c("IncomeTax", "Offset", "pmax3", "pmaxC", "pmaxV", "pminC", "pminV")
+  27 . Package name : HBV.IANIGLA
+ Matched functions : c("PET", "Glacier_Disch", "Precip_model", "SnowGlacier_HBV", "Soil_HBV", "Temp_model", "UH")
+  28 . Package name : hermiter
+ Matched functions : c("hermite_function", "hermite_integral_val", "hermite_integral_val_quantile_adap", "hermite_normalization", "standardizeInputs", "standardizeInputsEW")
+  29 . Package name : httpuv
+ Matched functions : c("decodeURI", "decodeURIComponent", "encodeURI", "encodeURIComponent")
+  30 . Package name : humaniformat
+ Matched functions : c("format_period", "format_reverse", "parse_names")
+  31 . Package name : imager
+ Matched functions : c("HSItoRGB", "HSLtoRGB", "HSVtoRGB", "LabtoRGB", "LabtoXYZ", "LabtosRGB", "RGBtoHSI", "RGBtoHSL", "RGBtoHSV", "RGBtoLab", "RGBtoXYZ", "RGBtoYCbCr", "RGBtoYUV", "RGBtosRGB", "XYZtoLab", "XYZtoRGB", "YCbCrtoRGB", "YUVtoRGB", "dilate_rect", "dilate_square", "erode_rect", "erode_square", "extract_patches", "extract_patches3D", "imlap", "imshift", "mclosing_square", "mopening_square", "resize_doubleXY", "resize_halfXY", "resize_tripleXY", "sRGBtoLab", "sRGBtoRGB")
+  32 . Package name : IntegratedMRF
+ Matched functions : c("Node_cost", "splitt")
+  33 . Package name : iptools
+ Matched functions : c("ip_classify", "is_multicast")
+  34 . Package name : irregulAR1
+ Matched functions : c("ar1_cov_consecutive", "ar1_prec_consecutive")
+  35 . Package name : jmotif
+ Matched functions : c("alphabet_to_cuts", "early_abandoned_dist", "euclidean_dist", "find_discords_brute_force", "find_discords_hotsax", "find_discords_rra", "idx_to_letter", "is_equal_mindist", "is_equal_str", "letters_to_idx", "manyseries_to_wordbag", "paa", "sax_by_chunking", "sax_via_window", "series_to_chars", "series_to_string", "series_to_wordbag", "str_to_repair_grammar", "subseries", "znorm")
+  36 . Package name : jwutil
+ Matched functions : c("isRowSorted", "propRowSorted")
+  37 . Package name : LBSPR
+ Matched functions : c("LBSPR_NLLabsel", "LBSPR_NLLgtg")
+  38 . Package name : ldsr
+ Matched functions : c("KGE", "NSE", "RE", "nRMSE")
+  39 . Package name : lfl
+ Matched functions : c("hedge", "raisedcos", "triangle")
+  40 . Package name : libstableR
+ Matched functions : c("stable_cdf", "stable_fit_init", "stable_fit_koutrouvelis", "stable_fit_mle", "stable_fit_mle2d", "stable_pdf", "stable_q", "stable_rnd")
+  41 . Package name : LongMemoryTS
+ Matched functions : c("Peri", "ddiffw")
+  42 . Package name : ludic
+ Matched functions : c("agree_C", "agree_C_sparse", "loglikC_bin", "loglikratioC_diff_arbitrary", "matchProbs_rank_full_C")
+  43 . Package name : malan
+ Matched functions : c("calc_autosomal_genotype_conditional_cumdist", "calc_autosomal_genotype_probs", "sample_autosomal_genotype")
+  44 . Package name : markovchain
+ Matched functions : c("inferHyperparam", "predictiveDistribution", "priorDistribution", "seq2freqProb", "seq2matHigh")
+  45 . Package name : MESS
+ Matched functions : c("cmd", "colCumSum", "dCor", "dCov", "hwe_frequencies", "repmat", "tracemp")
+  46 . Package name : metafolio
+ Matched functions : c("fit_ricker", "impl_error", "ricker_escapement", "ricker_v_t")
+  47 . Package name : mev
+ Matched functions : c("distg", "mvrnorm")
+  48 . Package name : miceadds
+ Matched functions : c("miceadds_rcpp_ml_mcmc_compute_xtx", "miceadds_rcpp_ml_mcmc_compute_ztz", "miceadds_rcpp_ml_mcmc_predict_random", "miceadds_rcpp_pnorm", "miceadds_rcpp_qnorm")
+  49 . Package name : MultivariateRandomForest
+ Matched functions : c("Node_cost", "splitt2")
+  50 . Package name : mwaved
+ Matched functions : c("directBlur", "multiCoef", "multiProj", "multiSigma")
+  51 . Package name : olctools
+ Matched functions : c("decode_olc", "encode_olc", "recover_olc", "shorten_olc", "validate_full", "validate_olc", "validate_short")
+  52 . Package name : PAutilities
+ Matched functions : c("get_indices", "rolling_groups")
+  53 . Package name : pbv
+ Matched functions : c("pbv_rcpp_pbvnorm", "pbv_rcpp_pbvnorm0")
+  54 . Package name : physiology
+ Matched functions : c("pres_atm_frac", "pres_atm_kPa")
+  55 . Package name : PPtreeViz
+ Matched functions : c("ENTROPYindex1D", "GINIindex1D")
+  56 . Package name : psd
+ Matched functions : c("modulo_floor", "parabolic_weights_field", "parabolic_weights_rcpp", "rcpp_ctap_simple")
+  57 . Package name : ptsuite
+ Matched functions : c("alpha_geometric_percentile", "alpha_ls", "alpha_modified_percentile", "alpha_moment", "alpha_percentile", "alpha_wls", "pareto_test")
+  58 . Package name : qbld
+ Matched functions : c("raldmix", "rgig")
+ [1] "Done"
+[1] "Executed package:\n"
+$accelerometry
+$accelerometry[[1]]
+[1] "cut_counts"
+
+$accelerometry[[2]]
+[1] "intensities"
+
+$accelerometry[[3]]
+[1] "personvars"
+
+$accelerometry[[4]]
+[1] "sedbreaks"
+
+
+$activegp
+list()
+
+$BIFIEsurvey
+list()
+
+$BNPmix
+list()
+
+$BNSL
+$BNSL[[1]]
+[1] "mi"
+
+$BNSL[[2]]
+[1] "cmi"
+
+$BNSL[[3]]
+[1] "kruskal"
+
+
+$carSurv
+$carSurv[[1]]
+[1] "weightedCovarRcpp"
+
+$carSurv[[2]]
+[1] "weightedCovarRcppN"
+
+$carSurv[[3]]
+[1] "weightedVarRcpp"
+
+$carSurv[[4]]
+[1] "weightedVarRcppN"
+
+
+$CGGP
+$CGGP[[1]]
+[1] "rcpp_fastmatclcr"
+
+$CGGP[[2]]
+[1] "rcpp_fastmatclcranddclcr"
+
+$CGGP[[3]]
+[1] "rcpp_gkronDBS"
+
+$CGGP[[4]]
+[1] "rcpp_kronDBS"
+
+
+$CircularDDM
+$CircularDDM[[1]]
+[1] "besselzero"
+
+$CircularDDM[[2]]
+[1] "rvm"
+
+
+$coga
+list()
+
+$colorednoise
+list()
+
+$compas
+list()
+
+$crandep
+list()
+
+$ctmcd
+list()
+
+$cycleRtools
+$cycleRtools[[1]]
+[1] "Wbal_"
+
+$cycleRtools[[2]]
+[1] "diff_section"
+
+$cycleRtools[[3]]
+[1] "mmv2"
+
+$cycleRtools[[4]]
+[1] "rollmean_nunif"
+
+
+$cytometree
+$cytometree[[1]]
+[1] "FmeasureC"
+
+$cytometree[[2]]
+[1] "FmeasureC_no0"
+
+
+$DLMtool
+$DLMtool[[1]]
+[1] "LBSPRgen"
+
+$DLMtool[[2]]
+[1] "LSRA_MCMC_sim"
+
+$DLMtool[[3]]
+[1] "LSRA_opt_cpp"
+
+$DLMtool[[4]]
+[1] "movfit_Rcpp"
+
+
+$dnapath
+list()
+
+$DNAtools
+list()
+
+$dvmisc
+$dvmisc[[1]]
+[1] "max_n"
+
+$dvmisc[[2]]
+[1] "mean_i"
+
+$dvmisc[[3]]
+[1] "min_n"
+
+$dvmisc[[4]]
+[1] "sum_i"
+
+$dvmisc[[5]]
+[1] "which_max_iv"
+
+$dvmisc[[6]]
+[1] "which_max_nm"
+
+$dvmisc[[7]]
+[1] "which_max_nv"
+
+$dvmisc[[8]]
+[1] "which_min_iv"
+
+$dvmisc[[9]]
+[1] "which_min_nm"
+
+$dvmisc[[10]]
+[1] "which_min_nv"
+
+
+$esreg
+list()
+
+$factorcpt
+$factorcpt[[1]]
+[1] "func_coef"
+
+$factorcpt[[2]]
+[1] "func_dc"
+
+$factorcpt[[3]]
+[1] "func_dc_by"
+
+$factorcpt[[4]]
+[1] "func_input"
+
+$factorcpt[[5]]
+[1] "func_input_on"
+
+
+$fdapace
+list()
+
+$fromo
+$fromo[[1]]
+[1] "cent2raw"
+
+$fromo[[2]]
+[1] "join_cent_cosums"
+
+$fromo[[3]]
+[1] "join_cent_sums"
+
+$fromo[[4]]
+[1] "unjoin_cent_cosums"
+
+$fromo[[5]]
+[1] "unjoin_cent_sums"
+
+
+$gasper
+list()
+
+$genieclust
+list()
+
+$grattan
+$grattan[[1]]
+[1] "IncomeTax"
+
+$grattan[[2]]
+[1] "Offset"
+
+$grattan[[3]]
+[1] "pmax3"
+
+$grattan[[4]]
+[1] "pmaxC"
+
+$grattan[[5]]
+[1] "pmaxV"
+
+$grattan[[6]]
+[1] "pminC"
+
+$grattan[[7]]
+[1] "pminV"
+
+
+$HBV.IANIGLA
+$HBV.IANIGLA[[1]]
+[1] "PET"
+
+$HBV.IANIGLA[[2]]
+[1] "Glacier_Disch"
+
+$HBV.IANIGLA[[3]]
+[1] "Precip_model"
+
+$HBV.IANIGLA[[4]]
+[1] "SnowGlacier_HBV"
+
+$HBV.IANIGLA[[5]]
+[1] "Soil_HBV"
+
+$HBV.IANIGLA[[6]]
+[1] "Temp_model"
+
+$HBV.IANIGLA[[7]]
+[1] "UH"
+
+
+$hermiter
+$hermiter[[1]]
+[1] "hermite_function"
+
+$hermiter[[2]]
+[1] "hermite_integral_val"
+
+$hermiter[[3]]
+[1] "hermite_integral_val_quantile_adap"
+
+$hermiter[[4]]
+[1] "hermite_normalization"
+
+$hermiter[[5]]
+[1] "standardizeInputs"
+
+$hermiter[[6]]
+[1] "standardizeInputsEW"
+
+
+$httpuv
+list()
+
+$humaniformat
+$humaniformat[[1]]
+[1] "format_period"
+
+$humaniformat[[2]]
+[1] "format_reverse"
+
+$humaniformat[[3]]
+[1] "parse_names"
+
+
+$imager
+list()
+
+$IntegratedMRF
+$IntegratedMRF[[1]]
+[1] "Node_cost"
+
+$IntegratedMRF[[2]]
+[1] "splitt"
+
+
+$iptools
+list()
+
+$irregulAR1
+list()
+
+$jmotif
+$jmotif[[1]]
+[1] "alphabet_to_cuts"
+
+$jmotif[[2]]
+[1] "early_abandoned_dist"
+
+$jmotif[[3]]
+[1] "euclidean_dist"
+
+$jmotif[[4]]
+[1] "find_discords_brute_force"
+
+$jmotif[[5]]
+[1] "find_discords_hotsax"
+
+$jmotif[[6]]
+[1] "find_discords_rra"
+
+$jmotif[[7]]
+[1] "idx_to_letter"
+
+$jmotif[[8]]
+[1] "is_equal_mindist"
+
+$jmotif[[9]]
+[1] "is_equal_str"
+
+$jmotif[[10]]
+[1] "letters_to_idx"
+
+$jmotif[[11]]
+[1] "manyseries_to_wordbag"
+
+$jmotif[[12]]
+[1] "paa"
+
+$jmotif[[13]]
+[1] "sax_by_chunking"
+
+$jmotif[[14]]
+[1] "sax_via_window"
+
+$jmotif[[15]]
+[1] "series_to_chars"
+
+$jmotif[[16]]
+[1] "series_to_string"
+
+$jmotif[[17]]
+[1] "series_to_wordbag"
+
+$jmotif[[18]]
+[1] "str_to_repair_grammar"
+
+$jmotif[[19]]
+[1] "subseries"
+
+$jmotif[[20]]
+[1] "znorm"
+
+
+$jwutil
+list()
+
+$LBSPR
+$LBSPR[[1]]
+[1] "LBSPR_NLLabsel"
+
+$LBSPR[[2]]
+[1] "LBSPR_NLLgtg"
+
+
+$ldsr
+list()
+
+$lfl
+list()
+
+$libstableR
+list()
+
+$LongMemoryTS
+list()
+
+$ludic
+list()
+
+$malan
+list()
+
+$markovchain
+list()
+
+$MESS
+list()
+
+$metafolio
+list()
+
+$mev
+list()
+
+$miceadds
+list()
+
+$MultivariateRandomForest
+$MultivariateRandomForest[[1]]
+[1] "Node_cost"
+
+$MultivariateRandomForest[[2]]
+[1] "splitt2"
+
+
+$mwaved
+list()
+
+$olctools
+$olctools[[1]]
+[1] "decode_olc"
+
+$olctools[[2]]
+[1] "encode_olc"
+
+$olctools[[3]]
+[1] "recover_olc"
+
+$olctools[[4]]
+[1] "shorten_olc"
+
+$olctools[[5]]
+[1] "validate_full"
+
+$olctools[[6]]
+[1] "validate_olc"
+
+$olctools[[7]]
+[1] "validate_short"
+
+
+$PAutilities
+$PAutilities[[1]]
+[1] "get_indices"
+
+$PAutilities[[2]]
+[1] "rolling_groups"
+
+
+$pbv
+$pbv[[1]]
+[1] "pbv_rcpp_pbvnorm"
+
+$pbv[[2]]
+[1] "pbv_rcpp_pbvnorm0"
+
+
+$physiology
+$physiology[[1]]
+[1] "pres_atm_frac"
+
+$physiology[[2]]
+[1] "pres_atm_kPa"
+
+
+$PPtreeViz
+$PPtreeViz[[1]]
+[1] "ENTROPYindex1D"
+
+$PPtreeViz[[2]]
+[1] "GINIindex1D"
+
+
+$psd
+list()
+
+$ptsuite
+$ptsuite[[1]]
+[1] "alpha_geometric_percentile"
+
+$ptsuite[[2]]
+[1] "alpha_ls"
+
+$ptsuite[[3]]
+[1] "alpha_modified_percentile"
+
+$ptsuite[[4]]
+[1] "alpha_moment"
+
+$ptsuite[[5]]
+[1] "alpha_percentile"
+
+$ptsuite[[6]]
+[1] "alpha_wls"
+
+$ptsuite[[7]]
+[1] "pareto_test"
+
+
+$qbld
+list()
+
+[1] "Unexecuted package:\n"
+$accelerometry
+list()
+
+$activegp
+$activegp[[1]]
+[1] "C_GP_cpp"
+
+$activegp[[2]]
+[1] "W_kappa_ij"
+
+$activegp[[3]]
+[1] "W_kappa_ij_up"
+
+
+$BIFIEsurvey
+$BIFIEsurvey[[1]]
+[1] "bifiesurvey_rcpp_rubin_rules"
+
+$BIFIEsurvey[[2]]
+[1] "bifiesurvey_rcpp_replication_variance"
+
+
+$BNPmix
+$BNPmix[[1]]
+[1] "BNPmix_BIN"
+
+$BNPmix[[2]]
+[1] "BNPmix_psm"
+
+$BNPmix[[3]]
+[1] "clean_partition"
+
+$BNPmix[[4]]
+[1] "BNPmix_VI_LB"
+
+
+$BNSL
+list()
+
+$carSurv
+list()
+
+$CGGP
+list()
+
+$CircularDDM
+list()
+
+$coga
+$coga[[1]]
+[1] "dcoga"
+
+$coga[[2]]
+[1] "dcoga2dim"
+
+$coga[[3]]
+[1] "dcoga_approx"
+
+$coga[[4]]
+[1] "pcoga"
+
+$coga[[5]]
+[1] "pcoga2dim"
+
+$coga[[6]]
+[1] "pcoga2dim_diff_shape"
+
+$coga[[7]]
+[1] "pcoga_approx"
+
+
+$colorednoise
+$colorednoise[[1]]
+[1] "colored_multi_rnorm"
+
+$colorednoise[[2]]
+[1] "colored_noise"
+
+$colorednoise[[3]]
+[1] "cor2cov"
+
+$colorednoise[[4]]
+[1] "multi_rnorm"
+
+$colorednoise[[5]]
+[1] "unstructured_pop"
+
+
+$compas
+$compas[[1]]
+[1] "calCo"
+
+$compas[[2]]
+[1] "torsion"
+
+
+$crandep
+$crandep[[1]]
+[1] "Supp"
+
+$crandep[[2]]
+[1] "mcmc_upp"
+
+
+$ctmcd
+$ctmcd[[1]]
+[1] "rNijTRiT_ModRej"
+
+$ctmcd[[2]]
+[1] "rNijTRiT_Unif"
+
+
+$cycleRtools
+list()
+
+$cytometree
+list()
+
+$DLMtool
+list()
+
+$dnapath
+$dnapath[[1]]
+[1] "d_edgesC"
+
+$dnapath[[2]]
+[1] "d_genesC"
+
+$dnapath[[3]]
+[1] "d_pathwayC"
+
+
+$DNAtools
+$DNAtools[[1]]
+[1] "Pnm_locus"
+
+$DNAtools[[2]]
+[1] "convolve"
+
+
+$dvmisc
+list()
+
+$esreg
+$esreg[[1]]
+[1] "G1_fun"
+
+$esreg[[2]]
+[1] "G1_prime_fun"
+
+$esreg[[3]]
+[1] "G1_prime_prime_fun"
+
+$esreg[[4]]
+[1] "G2_curly_fun"
+
+$esreg[[5]]
+[1] "G2_fun"
+
+$esreg[[6]]
+[1] "G2_prime_fun"
+
+$esreg[[7]]
+[1] "G2_prime_prime"
+
+
+$factorcpt
+list()
+
+$fdapace
+$fdapace[[1]]
+[1] "cumtrapzRcpp"
+
+$fdapace[[2]]
+[1] "trapzRcpp"
+
+
+$fromo
+list()
+
+$gasper
+$gasper[[1]]
+[1] "eigendec"
+
+$gasper[[2]]
+[1] "matmult"
+
+
+$genieclust
+$genieclust[[1]]
+[1] "bonferroni_index"
+
+$genieclust[[2]]
+[1] "gini_index"
+
+
+$grattan
+list()
+
+$HBV.IANIGLA
+list()
+
+$hermiter
+list()
+
+$httpuv
+$httpuv[[1]]
+[1] "decodeURI"
+
+$httpuv[[2]]
+[1] "decodeURIComponent"
+
+$httpuv[[3]]
+[1] "encodeURI"
+
+$httpuv[[4]]
+[1] "encodeURIComponent"
+
+
+$humaniformat
+list()
+
+$imager
+$imager[[1]]
+[1] "HSItoRGB"
+
+$imager[[2]]
+[1] "HSLtoRGB"
+
+$imager[[3]]
+[1] "HSVtoRGB"
+
+$imager[[4]]
+[1] "LabtoRGB"
+
+$imager[[5]]
+[1] "LabtoXYZ"
+
+$imager[[6]]
+[1] "LabtosRGB"
+
+$imager[[7]]
+[1] "RGBtoHSI"
+
+$imager[[8]]
+[1] "RGBtoHSL"
+
+$imager[[9]]
+[1] "RGBtoHSV"
+
+$imager[[10]]
+[1] "RGBtoLab"
+
+$imager[[11]]
+[1] "RGBtoXYZ"
+
+$imager[[12]]
+[1] "RGBtoYCbCr"
+
+$imager[[13]]
+[1] "RGBtoYUV"
+
+$imager[[14]]
+[1] "RGBtosRGB"
+
+$imager[[15]]
+[1] "XYZtoLab"
+
+$imager[[16]]
+[1] "XYZtoRGB"
+
+$imager[[17]]
+[1] "YCbCrtoRGB"
+
+$imager[[18]]
+[1] "YUVtoRGB"
+
+$imager[[19]]
+[1] "dilate_rect"
+
+$imager[[20]]
+[1] "dilate_square"
+
+$imager[[21]]
+[1] "erode_rect"
+
+$imager[[22]]
+[1] "erode_square"
+
+$imager[[23]]
+[1] "extract_patches"
+
+$imager[[24]]
+[1] "extract_patches3D"
+
+$imager[[25]]
+[1] "imlap"
+
+$imager[[26]]
+[1] "imshift"
+
+$imager[[27]]
+[1] "mclosing_square"
+
+$imager[[28]]
+[1] "mopening_square"
+
+$imager[[29]]
+[1] "resize_doubleXY"
+
+$imager[[30]]
+[1] "resize_halfXY"
+
+$imager[[31]]
+[1] "resize_tripleXY"
+
+$imager[[32]]
+[1] "sRGBtoLab"
+
+$imager[[33]]
+[1] "sRGBtoRGB"
+
+
+$IntegratedMRF
+list()
+
+$iptools
+$iptools[[1]]
+[1] "ip_classify"
+
+$iptools[[2]]
+[1] "is_multicast"
+
+
+$irregulAR1
+$irregulAR1[[1]]
+[1] "ar1_cov_consecutive"
+
+$irregulAR1[[2]]
+[1] "ar1_prec_consecutive"
+
+
+$jmotif
+list()
+
+$jwutil
+$jwutil[[1]]
+[1] "isRowSorted"
+
+$jwutil[[2]]
+[1] "propRowSorted"
+
+
+$LBSPR
+list()
+
+$ldsr
+$ldsr[[1]]
+[1] "KGE"
+
+$ldsr[[2]]
+[1] "NSE"
+
+$ldsr[[3]]
+[1] "RE"
+
+$ldsr[[4]]
+[1] "nRMSE"
+
+
+$lfl
+$lfl[[1]]
+[1] "hedge"
+
+$lfl[[2]]
+[1] "raisedcos"
+
+$lfl[[3]]
+[1] "triangle"
+
+
+$libstableR
+$libstableR[[1]]
+[1] "stable_cdf"
+
+$libstableR[[2]]
+[1] "stable_fit_init"
+
+$libstableR[[3]]
+[1] "stable_fit_koutrouvelis"
+
+$libstableR[[4]]
+[1] "stable_fit_mle"
+
+$libstableR[[5]]
+[1] "stable_fit_mle2d"
+
+$libstableR[[6]]
+[1] "stable_pdf"
+
+$libstableR[[7]]
+[1] "stable_q"
+
+$libstableR[[8]]
+[1] "stable_rnd"
+
+
+$LongMemoryTS
+$LongMemoryTS[[1]]
+[1] "Peri"
+
+$LongMemoryTS[[2]]
+[1] "ddiffw"
+
+
+$ludic
+$ludic[[1]]
+[1] "agree_C"
+
+$ludic[[2]]
+[1] "agree_C_sparse"
+
+$ludic[[3]]
+[1] "loglikC_bin"
+
+$ludic[[4]]
+[1] "loglikratioC_diff_arbitrary"
+
+$ludic[[5]]
+[1] "matchProbs_rank_full_C"
+
+
+$malan
+$malan[[1]]
+[1] "calc_autosomal_genotype_conditional_cumdist"
+
+$malan[[2]]
+[1] "calc_autosomal_genotype_probs"
+
+$malan[[3]]
+[1] "sample_autosomal_genotype"
+
+
+$markovchain
+$markovchain[[1]]
+[1] "inferHyperparam"
+
+$markovchain[[2]]
+[1] "predictiveDistribution"
+
+$markovchain[[3]]
+[1] "priorDistribution"
+
+$markovchain[[4]]
+[1] "seq2freqProb"
+
+$markovchain[[5]]
+[1] "seq2matHigh"
+
+
+$MESS
+$MESS[[1]]
+[1] "cmd"
+
+$MESS[[2]]
+[1] "colCumSum"
+
+$MESS[[3]]
+[1] "dCor"
+
+$MESS[[4]]
+[1] "dCov"
+
+$MESS[[5]]
+[1] "hwe_frequencies"
+
+$MESS[[6]]
+[1] "repmat"
+
+$MESS[[7]]
+[1] "tracemp"
+
+
+$metafolio
+$metafolio[[1]]
+[1] "fit_ricker"
+
+$metafolio[[2]]
+[1] "impl_error"
+
+$metafolio[[3]]
+[1] "ricker_escapement"
+
+$metafolio[[4]]
+[1] "ricker_v_t"
+
+
+$mev
+$mev[[1]]
+[1] "distg"
+
+$mev[[2]]
+[1] "mvrnorm"
+
+
+$miceadds
+$miceadds[[1]]
+[1] "miceadds_rcpp_ml_mcmc_compute_xtx"
+
+$miceadds[[2]]
+[1] "miceadds_rcpp_ml_mcmc_compute_ztz"
+
+$miceadds[[3]]
+[1] "miceadds_rcpp_ml_mcmc_predict_random"
+
+$miceadds[[4]]
+[1] "miceadds_rcpp_pnorm"
+
+$miceadds[[5]]
+[1] "miceadds_rcpp_qnorm"
+
+
+$MultivariateRandomForest
+list()
+
+$mwaved
+$mwaved[[1]]
+[1] "directBlur"
+
+$mwaved[[2]]
+[1] "multiCoef"
+
+$mwaved[[3]]
+[1] "multiProj"
+
+$mwaved[[4]]
+[1] "multiSigma"
+
+
+$olctools
+list()
+
+$PAutilities
+list()
+
+$pbv
+list()
+
+$physiology
+list()
+
+$PPtreeViz
+list()
+
+$psd
+$psd[[1]]
+[1] "modulo_floor"
+
+$psd[[2]]
+[1] "parabolic_weights_field"
+
+$psd[[3]]
+[1] "parabolic_weights_rcpp"
+
+$psd[[4]]
+[1] "rcpp_ctap_simple"
+
+
+$ptsuite
+list()
+
+$qbld
+$qbld[[1]]
+[1] "raldmix"
+
+$qbld[[2]]
+[1] "rgig"
+
+
+Total number of exported functions :264
