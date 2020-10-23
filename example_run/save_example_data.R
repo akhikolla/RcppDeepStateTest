@@ -1,4 +1,4 @@
-sink("/home/akolla/output.txt",append=T)
+sink("/home/akolla/alloutput.txt",append=T)
 relative <- commandArgs(trailingOnly=TRUE)
 path <- normalizePath(relative, mustWork=TRUE)
 Rcpp::compileAttributes(path)
