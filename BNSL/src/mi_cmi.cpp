@@ -52,7 +52,9 @@ double MDL_mi(NumericVector x, NumericVector y, int m_x=0, int m_y=0)
 // [[Rcpp::export]]
 double Jeffreys_mi(NumericVector x, NumericVector y, int m_x=0, int m_y=0)
 {
-	IntegerVector c_x=table(x), c_y=table(y), c_xy=table(x+1000*y);
+	IntegerVector c_x=table(x);
+        IntegerVector c_y=table(y);
+        IntegerVector c_xy=table(x+y);
 	if(m_x==0)m_x=c_x.size(); if(m_y==0)m_y=c_y.size();
 	int n=x.size();
 	double S_x=gc(n,0.5*m_x)-gc_all(c_x,0.5), S_y=gc(n,0.5*m_y)-gc_all(c_y,0.5), S_xy=gc(n,0.5*m_x*m_y)-gc_all(c_xy,0.5), S=(S_x+S_y-S_xy)/n;

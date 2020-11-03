@@ -1,29 +1,28 @@
-#include <DeepState.hpp>
+#include <fstream>
 #include <RInside.h>
 #include <iostream>
 #include <RcppDeepState.h>
-#include <fstream>
- double cont_mi(NumericVector x, NumericVector y);
+#include <qs.h>
+#include <DeepState.hpp>
+
+double cont_mi(NumericVector x, NumericVector y);
+
 TEST(BNSL_deepstate_test,cont_mi_test){
-std::ofstream  x_stream;
-std::ofstream  y_stream;
-RInside();
-std::cout << "input starts" << std::endl;
- NumericVector x = RcppDeepState_NumericVector ();
-  x_stream.open("/home/akhila/Documents/compileAttributescheck/BNSL/inst/testfiles/cont_mi/inputs/ x");
- x_stream<< x;
-std::cout <<"x values: "<< x << std::endl;
- x_stream.close();
- NumericVector y = RcppDeepState_NumericVector ();
-  y_stream.open("/home/akhila/Documents/compileAttributescheck/BNSL/inst/testfiles/cont_mi/inputs/ y");
- y_stream<< y;
-std::cout <<"y values: "<< y << std::endl;
- y_stream.close();
- std::cout << "input ends" << std::endl;
- try{
-cont_mi( x, y);
+  RInside R;
+  std::cout << "input starts" << std::endl;
+  NumericVector x  = RcppDeepState_NumericVector();
+  qs::c_qsave(x,"/home/akolla/extdata/packages/BNSL/inst/testfiles/cont_mi/inputs/x.qs",
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "x values: "<< x << std::endl;
+  NumericVector y  = RcppDeepState_NumericVector();
+  qs::c_qsave(y,"/home/akolla/extdata/packages/BNSL/inst/testfiles/cont_mi/inputs/y.qs",
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "y values: "<< y << std::endl;
+  std::cout << "input ends" << std::endl;
+  try{
+    cont_mi(x,y);
+  }
+  catch(Rcpp::exception& e){
+    std::cout<<"Exception Handled"<<std::endl;
+  }
 }
-catch(Rcpp::exception& e){
-std::cout<<"Exception Handled"<<std::endl;
-} 
- }
