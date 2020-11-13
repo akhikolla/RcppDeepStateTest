@@ -11,11 +11,11 @@ TEST(BNSL_deepstate_test,empirical_mi_test){
   RInside R;
   std::cout << "input starts" << std::endl;
   NumericVector x  = RcppDeepState_NumericVector();
-  qs::c_qsave(x,"/home/akolla/extdata/packages/BNSL/inst/testfiles/empirical_mi/inputs/x.qs",
+  qs::c_qsave(x,"/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/empirical_mi/inputs/x.qs",
 		"high", "zstd", 1, 15, true, 1);
   std::cout << "x values: "<< x << std::endl;
   NumericVector y  = RcppDeepState_NumericVector();
-  qs::c_qsave(y,"/home/akolla/extdata/packages/BNSL/inst/testfiles/empirical_mi/inputs/y.qs",
+  qs::c_qsave(y,"/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/empirical_mi/inputs/y.qs",
 		"high", "zstd", 1, 15, true, 1);
   std::cout << "y values: "<< y << std::endl;
   std::cout << "input ends" << std::endl;

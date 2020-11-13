@@ -11,15 +11,15 @@ TEST(BNSL_deepstate_test,cont_cmi_test){
   RInside R;
   std::cout << "input starts" << std::endl;
   NumericVector x  = RcppDeepState_NumericVector();
-  qs::c_qsave(x,"/home/akolla/extdata/packages/BNSL/inst/testfiles/cont_cmi/inputs/x.qs",
+  qs::c_qsave(x,"/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/cont_cmi/inputs/x.qs",
 		"high", "zstd", 1, 15, true, 1);
   std::cout << "x values: "<< x << std::endl;
   NumericVector y  = RcppDeepState_NumericVector();
-  qs::c_qsave(y,"/home/akolla/extdata/packages/BNSL/inst/testfiles/cont_cmi/inputs/y.qs",
+  qs::c_qsave(y,"/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/cont_cmi/inputs/y.qs",
 		"high", "zstd", 1, 15, true, 1);
   std::cout << "y values: "<< y << std::endl;
   NumericVector z  = RcppDeepState_NumericVector();
-  qs::c_qsave(z,"/home/akolla/extdata/packages/BNSL/inst/testfiles/cont_cmi/inputs/z.qs",
+  qs::c_qsave(z,"/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/cont_cmi/inputs/z.qs",
 		"high", "zstd", 1, 15, true, 1);
   std::cout << "z values: "<< z << std::endl;
   std::cout << "input ends" << std::endl;

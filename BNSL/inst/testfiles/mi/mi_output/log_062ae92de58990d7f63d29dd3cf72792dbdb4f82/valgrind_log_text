@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_mi_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/mi/mi_output/062ae92de58990d7f63d29dd3cf72792dbdb4f82.pass`
+TRACE: Running: BNSL_deepstate_test_mi_test from /home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/mi/mi_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 8.61734e+219 -9.22694e-220 1.39483e-147 -1.17213e-98 -5.67215e-66 -7.90312e+266 -3.1122e-293 -2.23049e-251 nan 1.31129e+256 2.34346e+272 nan -7.10976e-259 4.08283e+208 -2.9615e-264 7.29298e+275 -3.85354e+123 2.36512e+176 9.58984e-296 9.50018e+169 -2.92821e+37 -3.18012e+172 -9.3777e-303 nan 5.566e+144 -8.44875e+09 -3.98936e-72 -1.97524e-276 -3.02737e+202 -2.82245e-276 9.22209e+21 7.02105e+245 nan 189.881 7.57657e+166 nan 1.76034e-183 0
+y values: 4.80254e+183 nan -2.80344e+178 1.909e+271 -4.04066e-236 nan -3.98365e-133 nan nan 0.000177858 -8.29088e-175 0
+proc values: 79990888
+input ends
+TRACE: Passed: BNSL_deepstate_test_mi_test

@@ -12,12 +12,12 @@ TEST(BNSL_deepstate_test,intervals_test){
   std::cout << "input starts" << std::endl;
   std::ofstream level_stream;
   int level  = RcppDeepState_int();
-  level_stream.open("/home/akolla/extdata/packages/BNSL/inst/testfiles/intervals/inputs/level");
+  level_stream.open("/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/intervals/inputs/level");
   level_stream << level;
   std::cout << "level values: "<< level << std::endl;
   level_stream.close();
   NumericVector array  = RcppDeepState_NumericVector();
-  qs::c_qsave(array,"/home/akolla/extdata/packages/BNSL/inst/testfiles/intervals/inputs/array.qs",
+  qs::c_qsave(array,"/home/akhila/RcppDeepStateTest/BNSL/inst/testfiles/intervals/inputs/array.qs",
 		"high", "zstd", 1, 15, true, 1);
   std::cout << "array values: "<< array << std::endl;
   std::cout << "input ends" << std::endl;
