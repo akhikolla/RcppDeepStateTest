@@ -1,6 +1,0 @@
-useDynLib(BinSegBstrap, .registration = TRUE)
-
-importFrom(Rcpp, evalCpp)
-importFrom("stats", "dnorm", "quantile")
-
-export(estimateSingleCp, BstrapTest, BinSegBstrap)

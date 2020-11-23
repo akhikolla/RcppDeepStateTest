@@ -1,4 +1,0 @@
-useDynLib(BAREB)
-importFrom(Rcpp, evalCpp)
-importFrom("stats", "dnorm", "na.omit", "rgamma", "rnorm", "runif")
-exportPattern("^[[:alpha:]]+")

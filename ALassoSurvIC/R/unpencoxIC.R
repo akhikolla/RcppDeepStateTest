@@ -1,1 +1,0 @@
-unpencoxIC <- function(...) UseMethod("unpencoxIC")

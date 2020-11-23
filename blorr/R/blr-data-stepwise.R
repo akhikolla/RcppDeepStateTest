@@ -1,2 +1,0 @@
-#' Dummy Data Set
-"stepwise"

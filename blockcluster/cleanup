@@ -1,2 +1,0 @@
-#!/bin/sh
-cd src/coclust; make clean_all
