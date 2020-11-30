@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (lutz_deepstate_test_timezone_lookup_coords_rcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/lutz/inst/testfiles/timezone_lookup_coords_rcpp/timezone_lookup_coords_rcpp_output/7b4d17e1fc6e85382b35886a6248ae1195faddcc.pass`
+TRACE: Running: lutz_deepstate_test_timezone_lookup_coords_rcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/lutz/inst/testfiles/timezone_lookup_coords_rcpp/timezone_lookup_coords_rcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+latv values: 7.3088e-252 -1.33089e+272 -2.49782e+08 -7.50655e-113 -6.55311e+153 -1.35058e-224 -3.06352e-205 -2.14979e-39 -3.33985e-92 4.71591e+278 2.08829e-227 6.54758e+167 -1.81116e+72 34445.5 3.60978e-261 -8.30226e+281 nan 1.2502e-201 2.55632e-37 4.24172e+290 -8.00735e+275 -8.89302e+185 2.34538e-196 7.71273e-233 8.83149e-117 -4.41132e+141 7.18158e-271 2.01693e-244 -3.27691e+22 -1.46237e+233 9.75166e+294 -6.10855e-79 -6.47085e+187 -7.27447e+20 6.02489 7.67576e+268 -6.10358e-186 -4.89446e-202 -6.42514e-30 -1.71525e-209 7.99132e+258 -2.04337e+215 5.5515e+28 -1.09508e-52 6.81442e+199 5.47418e-11 -3.30918e+271 -2.23562e+154 1.05786e+127 -2.10443e+48 -3.84192e-43 1.66427e+79 -2.40744e+281 1.7296e-294 -3.21665e-22 3.25976e-108 -3.01519e-124 -3.0706e-40 7.47881e-101 -9.4294e+110 -1.45112e-05 -inf -3.0943e-181 -6.62004e+244 -2.30084e+14 inf -inf 4.70269e-235 -5.86769e-232 7.79559e+80 3.04912e+128 -1.62139e-275 -1.06314e+47 -4.56669e+294 -2.86595e+292 -1.71431e+24 -1.87258e-97 -2.70827e-221 6.77688e-40 4.93755e-179 -7.37319e-144 1.2471e+167 -4.90617e+135 -5.48859e-140 -1.78049e+235 -1.10456e+182 nan -1.04459e-141 0
+lonv values: -inf -7.54272e+58 3.7962e-219 -2.15764e-293 2.38984e-294 3.7962e-219 1.70649e-269 -2.0843e-159 inf 3.31285e+41 5.29595e+224 nan -2.0624e-197 0
+input ends
+TRACE: Passed: lutz_deepstate_test_timezone_lookup_coords_rcpp_test

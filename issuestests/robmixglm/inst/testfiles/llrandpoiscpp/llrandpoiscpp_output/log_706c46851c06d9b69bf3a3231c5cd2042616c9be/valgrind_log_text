@@ -1,0 +1,25 @@
+WARNING: No test specified, defaulting to first test defined (robmixglm_deepstate_test_llrandpoiscpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/706c46851c06d9b69bf3a3231c5cd2042616c9be.fail`
+TRACE: Running: robmixglm_deepstate_test_llrandpoiscpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -1.94565e+184 -2.31891e+294 2.21473e-17 8.16556e+292 -7.32574e+296 1.02818e-218 2.57028e+272 -1.58398e+291 -1.07373e-13 -5.24993e+41 1.37952e+139 -9.70213e+103 -0.0148113 2.86671e-238 -6.10731e-262 2.07382e+179 2.9969e-121 4.49965e+240 1.66793e-106 1.3675e+171 4.49249e-84 -inf -1.92645e+96 -1.5456e+255 -8.52148e-248 -3.51185e+64 -3.03876e+291 -1.53042e-34 inf 4.64777e-107 -1.49948e+80 5.54684e+197 1.70186e+253 1.0893e+11 -6.82919e+79 -4.30023e+286 4.61982e+157 1.25437e+84 2.23356e-64 6.91334e-180 nan -1.00698e-43 7.46746e+101 1.79597e+121 -3.91196e-234 0
+lp values: 3.02143e+135 -2.03638e-100 -1.11178e+263 2.21228e-276 8.89764e-253 1.68827e-130 -2.31143e+134 -5.75631e-301 5.45949e+293 -2.43974e-202 -1.24609e+82 -1.17769e-216 5.43526e+225 9.10645e-19 -1.54087e-274 9.23559e-244 2.01874e+66 -inf 6.98356e+164 -4.8509e-216 -3.50332e-259 2.94723e-276 -inf 4.72886e-197 -5.97615e+116 -9.99544e+196 1.31453e+180 -3.20881e-263 3.52983e+123 -2.43974e-202
+tau2 values: 3.70641e+09 1.43319e+276 -5.25074e+71 -2.43885e+225 inf 5.48732 1.99694e+95 inf nan 2.04095e+180 6.58211e+210 -3.53587e+136 -7.77361e+275 1.20587e+308 -2.54414e-112 4.77815e-91 2.22203e-43 -2.76429e-212 -2.84888e+244 -2.48229e+224 nan -1.06695e+46 -4.72665e+251 3.67287e-127 -7.89589e+123
+gh values: 9.93344e+194
+6.42703e+218
+6.00979e+127
+3.57861e-97
+3.88176e+41
+1.02367e-257
+1.11562e+105
+5.95062e-44
+1.45655e-120
+4.48060e-175
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=30; extent=30].
+ERROR: Failed: robmixglm_deepstate_test_llrandpoiscpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/706c46851c06d9b69bf3a3231c5cd2042616c9be.fail failed

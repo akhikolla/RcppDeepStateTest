@@ -1,0 +1,41 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606676442
+WARNING: No test specified, defaulting to first test defined (rrecsys_deepstate_test_FSVDupdaterSparseMat_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+sparseRatingMat values: 1.13075e+130 8.56079e-45 9.23846e+87 1.84547e+306 2.13782e+215 2.43742e+136 8.00538e+276 3.00641e-256 3.70247e-284 2.56765e-200
+
+learningRate values: -6.19221e-236
+regCoef values: -4.53924e-240
+nrfeat values: 1531138821
+steps values: 420351023
+nr_users values: -1921089441
+nr_items values: -262293258
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+sparseRatingMat values: 3.94836e-07 2.44911e-94 27.5253
+3.28583e+159 2.29908e+205 8.77657e+25
+1.55791e-181 2.08643e+204 4.45498e-97
+4.50719e+240 9.33989e+08 3.23517e+36
+2.98767e-126 1.27572e+290 7.74648e+154
+5.88136e-78 1.52420e+190 1.73028e+71
+
+learningRate values: 1.84117e+65
+regCoef values: 1.96799e+219
+nrfeat values: 878259350
+steps values: -1202963094
+nr_users values: -1825803985
+nr_items values: 928183857
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 2 tests (1 tests/second) with 2 failed/0 passed/0 abandoned tests

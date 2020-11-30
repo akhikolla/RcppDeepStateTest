@@ -1,0 +1,13 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606690830
+WARNING: No test specified, defaulting to first test defined (mousetrap_deepstate_test_spatialize_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 
+y values: 1.18296e-222 -inf nan -inf -5.70826e-135 -6.11363e+196 -1.95187e-218 1.18296e-222 1.24003e-71 0
+npts values: 1421941237
+input ends
+ERROR: Crashed: mousetrap_deepstate_test_spatialize_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mousetrap/inst/testfiles/spatialize/spatialize_output/354ca6038de67a6bc30352e881c0e01265e0bf34.crash`
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 1 failed/0 passed/0 abandoned tests

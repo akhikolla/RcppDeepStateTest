@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_Which_Max_Matrix_NA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Which_Max_Matrix_NA/Which_Max_Matrix_NA_output/6646ec2809cbf8ba6ef1b34c67a842fb841603f0.pass`
+TRACE: Running: BoostMLR_deepstate_test_Which_Max_Matrix_NA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Which_Max_Matrix_NA/Which_Max_Matrix_NA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 3.34848e+134 9.24942e-22 1.52545e-155 1.13298e-167 8.34906e-288
+1.20991e-212 2.61686e+193 7.77542e-47 2.84907e+194 1.88670e+80
+4.10548e-75 4.48312e+82 3.20964e+44 1.39365e+177 5.02475e+240
+9.44622e-128 1.12537e+142 8.28792e+180 8.33787e-188 2.46434e-125
+9.46842e+222 9.89510e+64 8.18028e-215 2.81532e+35 7.15345e+235
+7.19326e+96 4.63779e-244 1.77124e+253 1.37071e+267 2.71286e+197
+2.14291e+141 3.78216e+213 3.89643e+115 7.70128e+127 5.21545e-261
+
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_Which_Max_Matrix_NA_test

@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_rhoRcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/rhoRcpp/rhoRcpp_output/aae6cf2bf95120459883e0e3b90552bfca689848.fail`
+TRACE: Running: propr_deepstate_test_rhoRcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/rhoRcpp/rhoRcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 4.37569e-228 3.56239e+118 5.36827e+31 3.21314e-202 1.28338e+69 8.21212e-275 2.82679e+141
+1.86900e+120 1.08787e-166 7.16974e+60 2.44801e+189 1.18105e-88 6.44478e+129 5.15697e-182
+7.15348e+39 2.68569e+60 1.37044e+122 3.87107e+190 2.35178e+185 1.20037e-276 3.35483e+08
+5.59245e+39 5.11606e-242 1.66246e+68 5.92581e-204 3.54763e+12 2.52089e+78 1.21115e-159
+3.52487e+73 1.05600e+65 1.70694e+252 1.07454e+194 3.16333e+127 4.06672e-197 1.41069e-67
+3.76299e-138 2.59497e-255 8.35113e+40 1.20533e-14 7.72195e+241 1.20780e+37 1.14141e+292
+2.68336e-251 1.50241e-225 7.88882e+173 1.90527e-103 5.60912e-84 7.64710e+158 2.69827e+276
+
+lr values: 1.42671e+298
+1.24637e+230
+
+ivar values: -860301243
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=1; column extent=1].
+ERROR: Failed: propr_deepstate_test_rhoRcpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/rhoRcpp/rhoRcpp_output/aae6cf2bf95120459883e0e3b90552bfca689848.fail failed

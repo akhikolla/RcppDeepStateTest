@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blockaves_i_max_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_output/41e4e778f0a1a24f34e9e54fc75efa73c57acf2b.crash`
+TRACE: Running: accelerometry_deepstate_test_blockaves_i_max_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1619234016 155092427 1398872520 1816116287 1344014964 1919178112 -437660872 1256980650 1871481721 -904903499 191847287 -1374177282 868315814 -2147483648 -1325776134 -431774378 -818884710
+window values: 1757506329
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blockaves_i_max_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_i_max/blockaves_i_max_output/41e4e778f0a1a24f34e9e54fc75efa73c57acf2b.crash crashed

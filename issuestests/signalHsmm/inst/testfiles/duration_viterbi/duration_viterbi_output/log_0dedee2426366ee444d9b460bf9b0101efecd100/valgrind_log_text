@@ -1,0 +1,26 @@
+WARNING: No test specified, defaulting to first test defined (signalHsmm_deepstate_test_duration_viterbi_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signalHsmm/inst/testfiles/duration_viterbi/duration_viterbi_output/0dedee2426366ee444d9b460bf9b0101efecd100.crash`
+TRACE: Running: signalHsmm_deepstate_test_duration_viterbi_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signalHsmm/inst/testfiles/duration_viterbi/duration_viterbi_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+aa_sample values: 2.69743e-268 inf 2.95677e-148 -2.84968e+88 0.00122177 1.94261e-74 -1.10131e+286 2.97595e+224 5.91549e-289 inf -1.51626e-269 nan -1.88032e-57 -2.37788e-202 2.93603e+208 4.69403e-66 -8.17983e+50 -6.22895e-162 9.51434e+271 2.63469e-263 -1.4525e-59 -2.83284e-88 -6.68205e-257 -3.31502e+198 29241.3 -6.99717e-69 4.38425e+06 3.33997e-106 1.76239e-250 -2.96613e+122 inf 0
+pipar values: 1.71649e-158 8.24525e-100 -9.99471e-202 5.62969e-127 4.75119e+107 7.297e-30 1.74141e-163 -1.25108e+30 -2.85273e-169 -8.49887e-301 1.42353e-154 -1.63311e+240 1.49332e+143 -2.97007e+162 -2.43079e-287 2.88273e-78 1.90867e+243 1.08604e-130 -1.51549e-139 1.06748e-151 -7.17304e-217 2.12042e-180 1.35735e+212 -7.35137e-171 nan -5.50468e+197 -2.07782e+250 1.2385e+136 -1.2293e-117 8.97168e+272 -1.51928e+37 -7.64002e+284 1.3171e-162 -1.66904e-174 2.89477e+10 -1.56544e+285 nan 1.40813e-44 4.65221e-136 9.29832e+48 -4.64275e-250 3.28588e+189 -4.46338e-222 1.74141e-163 2.94288e+153 -1.3765e+190 -3.48676e+94 -3.73057e-225 -6.71248e+141 1.37407e-225 -1.5789e-64 -4.56943e+132 2.43306e-206 1.14781e-247 5.86882e-29 4.20705e+12 -1.19704e-34 -2.0547e-99 -1.01223e-244 -8.28596e+207 -8.95173e-147 -3.57259e-190 7.95021e+131 -2.50409e-177 -6.47746e-264 -1.47749e-190 5.41207e+201 1.02542e+117 -6.02482e+140 1.87991e+183 1.22189e+29 -1.16657e+26 5.56863e+07 4.69504e-158 1.72878e+300 nan
+tpmpar values: 3.06400e-06
+5.72181e-139
+5.49850e+178
+
+od values: 3.94536e+304 3.94388e-145 4.79756e+302 1.30579e+125 1.92015e+199 3.32752e+288 2.46513e+233 1.49731e+228 1.09248e+39 5.50016e+232
+4.69128e+237 1.41430e-242 2.81195e-65 1.33557e-37 7.84330e-254 5.16832e-114 1.66517e+166 1.74480e-123 4.67090e-289 7.28537e+30
+
+params values: 5.83095e+38 7.46024e-302 7.80377e+59 4.07590e+89 2.49528e-150
+3.88594e+267 2.56518e-13 1.33960e-36 1.04378e-185 2.16071e+231
+
+input ends
+==1773205==  If you believe this happened as a result of a stack
+==1773205==  overflow in your program's main thread (unlikely but
+==1773205==  possible), you can try to increase the size of the
+==1773205==  main thread stack using the --main-stacksize= flag.
+==1773205==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: signalHsmm_deepstate_test_duration_viterbi_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signalHsmm/inst/testfiles/duration_viterbi/duration_viterbi_output/0dedee2426366ee444d9b460bf9b0101efecd100.crash crashed

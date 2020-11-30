@@ -1,0 +1,80 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695547
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_simplex_3d_c_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 1258333682
+width values: -2088259589
+depth values: 1131444790
+seed values: 782285047
+freq values: 1.29164e-168
+fractal values: 517294045
+octaves values: -14205110
+lacunarity values: -3.86663e-79
+gain values: -3.0566e-17
+pertube values: 855507146
+pertube_amp values: -2.80554e+190
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: -1289490236
+width values: 1335454148
+depth values: 829901074
+seed values: -1339331332
+freq values: -2.1656e+78
+fractal values: 640230831
+octaves values: -1358544542
+lacunarity values: -4.39645e+285
+gain values: -3.95007e+32
+pertube values: -296792635
+pertube_amp values: 6.27452e+124
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 161308010
+width values: 394424835
+depth values: 1293359835
+seed values: -1262922313
+freq values: 8.22812e+195
+fractal values: 2076216775
+octaves values: 1441347423
+lacunarity values: 5.45499e+176
+gain values: -1.2473e-54
+pertube values: -1073089654
+pertube_amp values: -3.82264e-128
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: -1287152656
+width values: -825014885
+depth values: -654117626
+seed values: -936868973
+freq values: 1.90695e+69
+fractal values: -1776973777
+octaves values: -1463190949
+lacunarity values: -1.82561e+12
+gain values: 1.51852e+231
+pertube values: 85846252
+pertube_amp values: -8.64821e+267
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 4 failed/0 passed/0 abandoned tests

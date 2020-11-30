@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (Rvoterdistance_deepstate_test_vecminInd_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/vecminInd/vecminInd_output/486ce1393d84aea9990343b0fd5aba7f2db0ef92.pass`
+TRACE: Running: Rvoterdistance_deepstate_test_vecminInd_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/vecminInd/vecminInd_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 8.1122e+219 nan -inf -1.56182e-70 inf
+input ends
+TRACE: Passed: Rvoterdistance_deepstate_test_vecminInd_test

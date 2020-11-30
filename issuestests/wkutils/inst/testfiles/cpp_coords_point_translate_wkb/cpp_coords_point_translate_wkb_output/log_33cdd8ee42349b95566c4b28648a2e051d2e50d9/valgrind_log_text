@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (wkutils_deepstate_test_cpp_coords_point_translate_wkb_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_coords_point_translate_wkb/cpp_coords_point_translate_wkb_output/33cdd8ee42349b95566c4b28648a2e051d2e50d9.fail`
+TRACE: Running: wkutils_deepstate_test_cpp_coords_point_translate_wkb_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_coords_point_translate_wkb/cpp_coords_point_translate_wkb_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -6.40017e+114 -6.16783e-112 -3.38211e+164 1.27061e+154 -1.5733e+246 -6.83536e+26 -3.18047e+137 -3.23733e+190 -1.34266e-05 -3.20871e-102 1.55459e+99 2.70106e+115 -4.95381e+296 -6.16783e-112 5.97534e+47 -3.03733e-73 1.60938e-85 2.06855e+194 -1.51078e+185 3.06494e-294 nan 1.7702e+192 -3.11288e-146 inf 4.41154e+299 1.35788e+32 -2.68969e-300 1.06441e-301 -3.7184e+28 2.82637e-142 2.60282e+227 1.77083e-18 -1.88436e+207 6.08356e-92 -4.20511e+131 4.23589e-51 -5.89214e+118 -7.65274e+139 -4.80236e-34 -6.61052e+273 -1.54616e+125 4.03253e+40 1.1957e-193 -1.00017e+63 -2.07251e+188 -2.10471e-43 -6.54396e-261 -1.02622e-112 -5.22642e+101 1.17603e-233 -2.29474e+66 1.73317e-149 3.14502e+68 -1.09246e-86 2.56672e-163 4.35258e-107 0.00909893 0
+y values: 4.66608e-222 -4.96713e-251 6.07886e-89 -9.31528e+23 5.78122e+165 -7.34119e+140 5.60049e-05 2.35235e+181 6.40037e-246 -6.51865e-251 -1.42494e-145 -6.58749e+280 5.51323e+113 -5.96484e+143 inf -1.93064e+35 1.3643e-219 -1.06615e-173 -7.29359e+74 -1.60873e-191 8.23931e+278 -1.42009e-254 6.69824e-223 6.71014e+278 7.60875e-302 -3.30701e+130 inf 9.74418e-298 -1.00375e+110 5.78122e+165 1.14686e-261 -2.15513e-91 0
+z values: -5.99633e+257 1.68764e-242 -2.30856e+108 1.48465e+242 7.32507e-41 5.14893e-244 inf -4.9658e-47 -inf -8.1149e-258 -8.69574e-121 8.5436e+226 -8.56231e-99 -inf 7.87859e+298 -5.27817e-147 1.49737e-143 -5.11484e+97 8.42537e+300 6.24282e+157 -9.28833e-212 -inf -61.2505 -inf 3.88164e+79 -1.97258e-82 -3.73927e-103 2.20588e-305 -1.46444e+59 5.78416e-12 -1.44542e-168 -1.43383e+305 9.48e-189 1.90169e+208 2.23012e+237 1.80255e+228 -1.86123e+182 1.54337e-178 1.89276e+202 -2.83463e+153 -3.63552e-253 -1.94829e-50 -4.26608e+44 3.53096e+40 2.07998e+99 -9.0966e+148 0
+m values: 1.05104e-07 1.02e-288 3.19925e-102 -1.05294e+125 1.0008e+171 -2.18937e+128 -6.8418e-143 1.48935e+190 26664.3 -1.05104e+216 inf nan -1.68208e-223 3.1146e+63 6.80708e+260 -4.14714e-95 6.22036e+93 6.63751e-205 -4.48006e+54 2.33421e+135 4.32698e+204 -2.59251e-295 4.24604e+149 4.68856e+126 nan 6.03914e+158 -3.80126e-126 1.11586e-85 6.58284e+215 1.08889e-278 -1.02638e+60 -4.03999e+103 -7.38246e+13 5.00324e+08 -1.89976e-25 1.55815e+134 -4.14714e-95 -3.0664e+307 6.35825e+272 2.58075e-254 -8.41788e+43 1.15446e-187 0
+endian values: -2111846750
+bufferSize values: -1662529502
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Attempt to set zero or negative buffer size
+ERROR: Failed: wkutils_deepstate_test_cpp_coords_point_translate_wkb_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_coords_point_translate_wkb/cpp_coords_point_translate_wkb_output/33cdd8ee42349b95566c4b28648a2e051d2e50d9.fail failed

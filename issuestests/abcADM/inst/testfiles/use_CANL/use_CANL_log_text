@@ -1,0 +1,42 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606679850
+WARNING: No test specified, defaulting to first test defined (abcADM_deepstate_test_use_CANL_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 1.02355e-175
+3.15696e-47
+6.79755e-187
+6.16302e-265
+5.98970e+66
+1.10518e-73
+1.16751e+178
+
+N values: -140469226
+w0 values: 7.1251e-206
+k values: 1.0422e+51
+eps values: -3.91126e+269
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: abcADM_deepstate_test_use_CANL_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/abcADM/inst/testfiles/use_CANL/use_CANL_output/681ef1934ef98aa17233ad82ef281d6857658f8d.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 1.86793e+231 1.07971e+146 9.43925e+171 1.57389e+289 5.84145e-238 1.70604e+95 1.41437e-219 4.75431e-191 6.66024e+242 2.15485e-70
+2.51023e+13 2.24819e-195 2.10379e-170 7.30178e+74 5.61026e+286 8.21521e-256 4.28455e+136 5.58328e-83 1.55385e-33 1.26803e+222
+9.50800e+08 7.81417e-112 3.09479e+285 1.43150e-138 3.79654e-123 9.38204e-38 3.99410e-48 5.56179e+29 5.39381e-246 5.80700e+155
+6.24053e-80 6.92934e+145 2.19521e+111 9.87557e+126 3.03626e-52 2.75527e-176 4.45775e-100 4.25560e-230 3.26833e-305 1.55930e+44
+1.92789e+69 6.20099e-174 1.19118e+86 1.91424e+229 1.16243e+258 2.53382e+185 1.06922e+37 3.85898e+283 2.50907e-107 1.97343e-288
+3.72335e+129 3.06022e+152 6.60576e+278 8.88550e+252 7.92194e+91 3.29747e+190 3.96354e-157 1.33914e-21 2.16287e+95 7.44534e-149
+1.33556e+200 1.94230e+189 1.55240e+201 1.52500e+185 3.29177e-67 1.45772e+264 1.18079e+243 1.83622e-115 1.79581e-17 3.96678e-119
+
+N values: 1335009263
+w0 values: 9.33399e-84
+k values: -4.58059e-124
+eps values: -1.18574e-88
+input ends
+ERROR: Crashed: abcADM_deepstate_test_use_CANL_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/abcADM/inst/testfiles/use_CANL/use_CANL_output/79ac37291131ac81e8d36434c1c15b6d50987c18.crash`
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests

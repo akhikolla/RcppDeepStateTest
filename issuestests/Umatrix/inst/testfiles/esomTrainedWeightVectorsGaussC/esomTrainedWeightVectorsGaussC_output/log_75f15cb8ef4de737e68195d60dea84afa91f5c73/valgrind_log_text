@@ -1,0 +1,30 @@
+WARNING: No test specified, defaulting to first test defined (Umatrix_deepstate_test_esomTrainedWeightVectorsGaussC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsGaussC/esomTrainedWeightVectorsGaussC_output/75f15cb8ef4de737e68195d60dea84afa91f5c73.crash`
+TRACE: Running: Umatrix_deepstate_test_esomTrainedWeightVectorsGaussC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsGaussC/esomTrainedWeightVectorsGaussC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+WeightVectors values: 113591. 6.68297e+278 1.09990e-167 1.41723e-220
+2.02440e-120 3.56510e-187 2.11577e+09 3.47046e-197
+2.99074e+126 1.54110e+94 5.98088e+84 8.57495e-181
+6.50711e+255 3.31571e-183 7.61716e-244 1.20634e+250
+2.77993e-145 7.33467e+18 3.70697e+129 1.08932e-176
+5.05237e-152 2.89420e-304 3.95548e+230 2.86261e+68
+9.12480e+279 6.90303e+190 1751.01 6.46731e+238
+1.98407e-301 9.12835e+237 1.42008e-95 2.48039e-82
+1.43504e-187 3.39073e-161 1.78634e+215 3.72710e+66
+3.70267e-124 3.08024e-121 4.35507e+16 4.63636e+117
+
+DataPoint values: -5.77676e-88 -1.40173e+42 7.97775e+286 -2.9103e-66 5.21236e+149 inf -3.26827e-09 1.2047e+105 1.92238e-292 2.30038e+185 -2.26422e-207 -1.93878e-270 -1.58185e-75 5.98466e+200 -6.98099e-184 -4.12899e-154 -1.14615e-200 2.57324e-135 -1.3211e-124 8.7545e+69 4.41893e+108 1.03547e+129 1.56576e+220 4.72887e-239 -2.77352e-162 -4.54686e+47 -4.76854e-241 2.25891e-94 -1.06921e-84 -2.77992e-68 1.63474e+199 -inf -7.83038e-237 -3.71225e+84 -1.00167e+09 4.42155e+58 -2.38983e+50 -8.65609e+189 -6.91057e-151 -1.12701e-303 -9.3802e-303 -1.0848e+26 5.28371e+273 -1.24814e+253 nan 3.26836e-125 7.26735e-232 5.39263e-75 0
+indices values: -1.04345e-25 7.47127e-122 -1.09824e+308 4.20075e-124 8.29864e+18 4.79042e-94 -3.11526e+68 2.95623e-161 3.21299e-284 -8.50472e+39 -inf -2.82513e-22 6.81761e-244 -7.1624e-237 -4.89832e+17 -9.0938e-80 -6.6219e-231 1.55773e+91 -5.34588e-48 7.12936e-227 nan 1.46741e-282 -7.80677e+201 inf -4.8805e-217 2.12839e+73 inf 8.73404e-244 -8.1608e+10 4.17579e-162 inf 1.87252e-186 -1.72853e+48 1.40097e+303 -1.08309e+271 4.35345e+66 9.38731e-48 -1.26474e-141 8.75809e+258 -9.01733e-83 1.48355e-178 6.05628e-148 -4.52383e+166 -5.20597e+235 1.90242e+302 -5.6848e-26 0
+DistancesToBm values: 1.6689e-37 1.57362e+123 -4.71231e-155 2.85426e+155 9.2115e-207 -5.19591e+31 -5.78616e-127 -3.48961e+186 -3.92524e-88 -2.85803e-295 -3.00621e-230 1.48662e+169 7.23206e+129 6.40669e+300 5.24699e+234 -5.97019e-232 -7.31146e-305 2.32443e+130 -5.74309e-99 2.78818e+131 nan 2.33034e+228 -3.43954e-227 5.3746e+194 1.92949e+237 3.53139e-193 -1.07335e+44 8.25373e-63 1.27326e+70 5.53467e+37 -3.78299e-21 -5.92749e+265 0.0341869 -inf 2.69205e-44 -1.57813e-244 31239.3 1.99529e+38 1.11016e+88 13819.2 1.63994e-128 7.8214e+285 -4.59837e-161 -2.1114e-150 -1.27438e+297 1.57286e-265 2.11756e-122 6.94544e+280 2.74895e-136 1.24428e-207 -9.57383e-139 -2.46274e+284 4.36738e-160 2.1174e-277 -4.8286e+06 -1.44068e-197 -4.57405e-11 2.39794e-21 -inf 6.39473e-186 -2.86466e-266 -1.77924e+147 2.45282e+272 -8.40261e-21 3.60691e+294 -2.48881e-106 1.20379e+86 -9.1048e-145 -7.41222e+254 -3.05751e-235 -9.68982e+243 -6.94538e-210 7.8074e+305 6.78401e+95 4.20781e+61 1.81489e+85 -25857.4 -inf 1.28587e+45 -1.28901e-263 1.22207e-64 1.81311e-177 -5.54732e+272 1.82378e+234 -1.43235e+150 -2.37649e+146 -2.97178e-41 4.08712e+168 nan 0
+Radius values: 1.08049e-293
+LearningRate values: -2.73969e-131
+input ends
+==1779033==  If you believe this happened as a result of a stack
+==1779033==  overflow in your program's main thread (unlikely but
+==1779033==  possible), you can try to increase the size of the
+==1779033==  main thread stack using the --main-stacksize= flag.
+==1779033==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: Umatrix_deepstate_test_esomTrainedWeightVectorsGaussC_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsGaussC/esomTrainedWeightVectorsGaussC_output/75f15cb8ef4de737e68195d60dea84afa91f5c73.crash crashed

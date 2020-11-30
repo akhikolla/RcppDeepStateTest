@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blocksums_i_max_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_output/06b51c18141e4b81b980fecacb542fc2578739f4.crash`
+TRACE: Running: accelerometry_deepstate_test_blocksums_i_max_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 873361789 2115529105 -1110079688 303547368 1248293279 2113605798 -1614281062 -72232297 -425514139 -1147865479 1769910651 -1787534369 -606831015 -795934865 1460013520 -566526267 -559338855 1025512103 -1631378893 931533587 1519479850 -2147483648 1906526032 -557509188 1849644460 1600672766 729100643 -79399338 -689798922 1293577663 -1112272997 2049202152 1672254658 350732352 1576182616 907652620 -80805304 1232013062
+window values: 312260681
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_i_max_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_i_max/blocksums_i_max_output/06b51c18141e4b81b980fecacb542fc2578739f4.crash crashed

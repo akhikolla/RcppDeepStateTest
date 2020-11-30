@@ -1,0 +1,25 @@
+WARNING: No test specified, defaulting to first test defined (HDLSSkST_deepstate_test_gMADD_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/gMADD/gMADD_output/5bf5daf0772752fc503f98a937d15a0b6f039f30.crash`
+TRACE: Running: HDLSSkST_deepstate_test_gMADD_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/gMADD/gMADD_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+s_fn values: 6869948
+n_clust values: 265155824
+lb values: 534444971
+M values: 2.35195e+28 4.27556e-277 3.68748e-59 2.41741e-274 4.61330e-286 6.25587e+298 4.09812e+248
+4.70587e-103 2.09300e-141 1.86331e-49 2.68603e+99 6.57458e+134 1.13681e+261 1.54458e+211
+1.49372e-12 3.93614e+160 7.40717e+292 3.05273e+268 4.32032e+57 5.36578e+249 1.13988e+136
+2.29093e-213 7.59563e-269 0.000180809 0.00132270 6.24564e-295 4.01871e+209 3.20785e+76
+4.28925e-228 1.00947e+304 2.83860e-111 1.03446e-27 1.75468e+277 3.16736e-257 9.70919e+175
+6.97929e-95 3.07009e-153 5.66665e-21 2.80841e+102 1.01266e-272 2.47294e-110 8.43756e+264
+9.38291e+250 7.25609e+304 8.37612e-131 1.72079e-237 1.19401e-242 3.95202e+157 9.21834e+166
+
+input ends
+==1804874==  If you believe this happened as a result of a stack
+==1804874==  overflow in your program's main thread (unlikely but
+==1804874==  possible), you can try to increase the size of the
+==1804874==  main thread stack using the --main-stacksize= flag.
+==1804874==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: HDLSSkST_deepstate_test_gMADD_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/gMADD/gMADD_output/5bf5daf0772752fc503f98a937d15a0b6f039f30.crash crashed

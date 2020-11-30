@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_Wtau_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/Wtau/Wtau_output/6d2a7f60be602ccdf97b03cf26fa2939653e49e0.pass`
+TRACE: Running: rankdist_deepstate_test_Wtau_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/Wtau/Wtau_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 16132.3
+1.22665e+58
+7.05986e-207
+1.10332e+96
+5.30052e+152
+3.14077e+200
+7.15216e-286
+
+pi0 values: -1.11145e+198 -3.00018e+27 9.86996e+45 -1.53891e+199 -9.48261e+267 -6.64905e-303 1.28922e-269 -2.87516e-191 3.97523e-49 -7.75874e-149 nan 2.40549e+76 nan 8.52378e-31 1.45039e-52 1.00333e+21 -6.50314e+108 3.52119e-134 -8.14295e-89 5.48538e+271 1.13003e+124 -3.60909e+201 6.75123e-85 -2.9584e+302 1.1088e-163 -6.61363e+68 -1.40696e-216 -2.5954e-182 -0.0022524 -inf -2.31016e-294 5.67846e-12 -inf
+input ends
+TRACE: Passed: rankdist_deepstate_test_Wtau_test

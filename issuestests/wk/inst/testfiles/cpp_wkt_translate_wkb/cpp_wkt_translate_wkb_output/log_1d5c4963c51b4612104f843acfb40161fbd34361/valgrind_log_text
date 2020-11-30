@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_wkt_translate_wkb_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/1d5c4963c51b4612104f843acfb40161fbd34361.fail`
+TRACE: Running: wk_deepstate_test_cpp_wkt_translate_wkb_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "xpljguulpognfiufbap" "cusjllai" "NA" "NA" "NA" "cvsjffggwrvfmlloaqaa" "hsfapykupxlcebkujpht" "NA" "c" "hgcbvjobet" "NA" "NA" "NA" "kwuspiopdlbmrkmsbjou" "fvohrn" "NA" "NA" "NA" "ryymbduxkmaesgpykzmx" "yqimdzsagokahg" "NA" "nrgknswsahehmdghfx" "ikvhkknkfcfrgldtohqk" "vtyyeazv" "bhpysdqjdlrtjkltpdip" "kggqfyoavsyjklkxhhbe" "bkeiqolksthltdqyvqza" "NA" "khkztxr" "NA" "rljrziatjyxzgnfxztuy" "ufngvfskvbprvxizakht" "atptzjpzqljrwy" "msbmerjkvoetk" "NA" "NA" "zkjjjxwqyhiasrvsbxlw" "cmjakvg" "pwlgbtxjnleuxgtyulxz" "hesmbcwxhxyyzhsqgxkc" "sr" "djrakfzvjzmwufojugpp" "fjceiwnkabdkwawxahys" "ewnvgteakyrvoiwurcth" "NA" "epjgbtswodapfvjudtbf" "NA" "gmwjbycxamcausfjtxzu" "cxwtydpnqtdrtourqnvt" "ytzxcgytngdnhogourgr" "gklgslh" "pubiafoshybeishm" "NA" "rmvewekdfv" "NA" "xakepcjkngzjfjbxqfqt" "twwhc" "tngnawyxxalxrczilcfp" "jlt" "rssu" "NA" "rveakefjhbgzmsxwjicr" "NA" "eyzgoi" "nngcguexitbxntcpe" "yfoepsgkeqrxzbkutpgq" "lejfudtzcdltuciuurzj" "NA" "zk" "NA" "NA"
+includeZ values: 233046352
+includeM values: 378009996
+includeSRID values: 1483711004
+endian values: -716417885
+bufferSize values: -1359520206
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Attempt to set zero or negative buffer size
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/1d5c4963c51b4612104f843acfb40161fbd34361.fail failed

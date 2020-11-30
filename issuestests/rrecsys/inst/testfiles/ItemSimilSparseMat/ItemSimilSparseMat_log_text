@@ -1,0 +1,38 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606676681
+WARNING: No test specified, defaulting to first test defined (rrecsys_deepstate_test_ItemSimilSparseMat_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.42253e-84 1.32137e+297
+2.90188e-129 1.45213e-70
+
+dim values: -1236953757
+DAMP values: -1072097893
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.11222e+187
+5.74283e+260
+1.19685e-233
+1.04398e+55
+2.11852e-250
+2.69155e-195
+5.80739e+119
+3.93254e-84
+3.71578e+50
+6.50076e+274
+
+dim values: -1999337477
+DAMP values: -1478051371
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 2 tests (1 tests/second) with 2 failed/0 passed/0 abandoned tests

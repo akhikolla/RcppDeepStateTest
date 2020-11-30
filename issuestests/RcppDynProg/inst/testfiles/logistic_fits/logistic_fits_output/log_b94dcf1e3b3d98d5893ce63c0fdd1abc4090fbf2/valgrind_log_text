@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_logistic_fits_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/logistic_fits/logistic_fits_output/b94dcf1e3b3d98d5893ce63c0fdd1abc4090fbf2.fail`
+TRACE: Running: RcppDynProg_deepstate_test_logistic_fits_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/logistic_fits/logistic_fits_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.40081e+114 -4.03238e-290 -1.21707e+176 9.20924e-245 -3.46786e+187 7.84907e-50 7.64191e+36 -8.78643e-145 -7.81811e+223 -3.93491e-97 6.48243e-113 3.78899e+175 9.3678e+165 inf -3.35302e+125 -7.25349e-137 1.31879e-84 9.05263e-255 -2.59577e+260 nan -2.75204e-243 -1.78116e+193 -3.59835e+98 6.13312e-302 -5.0811e+135 -2.73443e+142 4.26912e+36 -8.10465e-35 2.43273e+303 -1.37494e-155 1.84163e-202 2.05248e-169 2.31989e-194 -1.58608e-225 -3.16314e+273 8.13632e+272 -2.87774e+09 -1.07013e-249 -3.24212e+239 5.56219e-162 -8.31454e+141 -8.83093e-102 -2.83562e-230 5.33769e+307 -inf 3.90581e+74 -1.59185e-162 4.4869e-242 -2.37421e+95 -1.51651e+67 2.31792e-240 -3.71129e-252 -4.23168e-152 -9.25363e+139 2.2635e+39 -1.25592e+151 4.19054e-78 -1.64491e+15 3.45759e-16 -2.52906e-164 -8.60164e-40 -1.77735e-271 -1.99199e+120 -1.83095e+74 -0.090911 0.0199497 -6.97632e-192 -3.57429e-276 -3.80572e+146 -3.80572e+146
+y values: 
+w values: nan -7.17575e-191 inf -inf -inf
+i values: 1630296053
+j values: 1956059806
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=1630296053; extent=5].
+ERROR: Failed: RcppDynProg_deepstate_test_logistic_fits_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/logistic_fits/logistic_fits_output/b94dcf1e3b3d98d5893ce63c0fdd1abc4090fbf2.fail failed

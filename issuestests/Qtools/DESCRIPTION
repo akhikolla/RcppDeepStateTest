@@ -1,0 +1,36 @@
+Package: Qtools
+Type: Package
+Title: Utilities for Quantiles
+Version: 1.5.3
+Date: 2020-11-26
+Authors@R: c(
+	person(given="Marco", family="Geraci", role=c("aut", "cph", "cre"), email="marco.geraci@uniroma1.it", comment = c(ORCID = "0000-0002-6311-8685")),
+	person(given="Alessio", family="Farcomeni", role=c("ctb"), email="alessio.farcomeni@uniroma2.it", comment = c("Contributions to midrq code", ORCID = "0000-0002-7104-5826")),
+	person(given="Cinzia", family="Viroli", role=c("ctb"), email="cinzia.viroli@unibo.it", comment = c("Contributions to dqc code", ORCID = "0000-0002-3278-5266"))
+	)
+Maintainer: Marco Geraci <marco.geraci@uniroma1.it>
+Depends: R (>= 3.0.0)
+Imports: utils, glmx, Gmisc, grDevices, graphics, gtools, stats, MASS,
+        Matrix, np, quantreg, boot, numDeriv (>= 2016.8-1), Rcpp (>=
+        0.12.13)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: survey, mice, knitr, rmarkdown
+VignetteBuilder: knitr
+Description: Functions for unconditional and conditional quantiles. These
+    include methods for transformation-based quantile regression,
+    quantile-based measures of location, scale and shape, methods for quantiles
+    of discrete variables, quantile-based multiple imputation, restricted
+    quantile regression, and directional quantile classification. A vignette
+	is given in Geraci (2016, The R Journal) <doi:10.32614/RJ-2016-037> and
+	included in the package.
+License: GPL (>= 2)
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2020-11-26 22:11:13 UTC; geraci
+Author: Marco Geraci [aut, cph, cre] (<https://orcid.org/0000-0002-6311-8685>),
+  Alessio Farcomeni [ctb] (Contributions to midrq code,
+    <https://orcid.org/0000-0002-7104-5826>),
+  Cinzia Viroli [ctb] (Contributions to dqc code,
+    <https://orcid.org/0000-0002-3278-5266>)
+Repository: CRAN
+Date/Publication: 2020-11-27 10:30:02 UTC

@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (PAutilities_deepstate_test_get_indices_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PAutilities/inst/testfiles/get_indices/get_indices_output/edd7f7cf52d193aba83a2cd6bec130f2ed9d45ca.fail`
+TRACE: Running: PAutilities_deepstate_test_get_indices_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PAutilities/inst/testfiles/get_indices/get_indices_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y_var values: 1.82982e-105 nan 5.18131e+265 nan -3.74071e-36 -5.22443e+124 2.29083e-46 nan -2.67387e-137 -1.14999e+56 nan 1.19771e+30 4.64233e-172 -1.13415e+284 nan 1.28655e-257 -1.4952e+259 -4.4393e+50 1.47898e+67 0
+window_size values: -1216005900
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  upper value must be greater than lower value
+ERROR: Failed: PAutilities_deepstate_test_get_indices_test
+ERROR: Crashed: PAutilities_deepstate_test_get_indices_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PAutilities/inst/testfiles/get_indices/get_indices_output/edd7f7cf52d193aba83a2cd6bec130f2ed9d45ca.fail crashed

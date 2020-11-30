@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (mosum_deepstate_test_mean_help_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/mean_help/mean_help_output/61c1fe39379c3b768d14863155e3b2f13b2395cd.crash`
+TRACE: Running: mosum_deepstate_test_mean_help_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/mean_help/mean_help_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 4.54117e+230 5.04121e+175 -5.00959e-251 -3.88561e-101 -1.70536e-195 nan 1.25929e-170 -1.40234e+199 -5.21187e-244 -2.86735e+295 -5.39968e+241 1.92784e-25 1.73833e+226 -9.94601e+16 2.36504e-126 1.87467e+170 -1.03471e-138 -3.15592e+266 1.00622e+282 -9.07315e+263 -1.50121e+268 2.10463e-114 1.66394e-268 -2.08679e+105 -2.44417e+191 4.72672e+123 -2.23338e-218 -1.14681e+101 1.26373e+65 2.49019e-166 inf -8.64616e-204 -1.75955e+115 1.27796e+259 -2.49442e+93 1.78576e-77 4.20688e-298 1.03503e-88 6.5382e+283 4.75326e-298 -3.92826e+37 -1.55315e-155 -6.53993e+277 3.79236e+218 6.23781e-292 1.65493e+239 -inf 4.52407e-253 -1.38782e+142 nan -1.33573e-51 1.01626e+95 1.25175e+22 -2.0329e-307 2.0664e-54 5.02076e-278 -1.63867e-189 1.58213e-145 0
+l values: -1216443433
+r values: -81668458
+input ends
+==1794969==  If you believe this happened as a result of a stack
+==1794969==  overflow in your program's main thread (unlikely but
+==1794969==  possible), you can try to increase the size of the
+==1794969==  main thread stack using the --main-stacksize= flag.
+==1794969==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: mosum_deepstate_test_mean_help_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/mean_help/mean_help_output/61c1fe39379c3b768d14863155e3b2f13b2395cd.crash crashed

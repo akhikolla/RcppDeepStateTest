@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_movingaves_i_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/movingaves_i/movingaves_i_output/64af39806c2b26b297924b5d8d41ae6020069860.pass`
+TRACE: Running: accelerometry_deepstate_test_movingaves_i_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/movingaves_i/movingaves_i_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 813557045 -398847619 -2147483648 -1214305258 876807081 -1568564594
+window values: 9.15919e-303
+input ends
+TRACE: Passed: accelerometry_deepstate_test_movingaves_i_test

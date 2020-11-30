@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rcos_unimodal_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/19843d4e8f332557bf49c604606fc06d9e1db6b4.fail`
+TRACE: Running: BAMBI_deepstate_test_rcos_unimodal_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1568107224
+k1 values: -1.59292e-242
+k2 values: -1.02489e-25
+k3 values: -3.34797e+182
+mu1 values: 1.55006e+233
+mu2 values: -1.9765e-44
+kappa_opt values: 4.8367e-261
+log_I0_kappa_opt values: -1735.9
+logK values: 2.24985e+240
+log_const_vmcos values: -1.49436e-123
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/19843d4e8f332557bf49c604606fc06d9e1db6b4.fail failed

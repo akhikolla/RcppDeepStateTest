@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (RTransferEntropy_deepstate_test_calculate_transition_probabilities_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/5b96b367555573cf14a57a4266f2a8cf356e8c5d.fail`
+TRACE: Running: RTransferEntropy_deepstate_test_calculate_transition_probabilities_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 26513277 -92833251 -396715027 5535837 -1476277808 239832605 -718052125 2129789056 -2020541055 125279983 -767959854 -1923862474 1442383502 -1425502080 1005937850 -412861842 -197660677 -1349588351 -943303851 444828527 2106719784 -1701926699 239832605 1909053797
+lx values: -1868911318
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  vector::reserve
+ERROR: Failed: RTransferEntropy_deepstate_test_calculate_transition_probabilities_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/5b96b367555573cf14a57a4266f2a8cf356e8c5d.fail failed

@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blocksums_n_max_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/b66698937146ffbb19804ad7c847ef8a5e0e691e.crash`
+TRACE: Running: accelerometry_deepstate_test_blocksums_n_max_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -6.3118e+130 -0.0154889 1.40255e+233 5.83178e-235 -1.83747e+55 2.05676e-27 -6.51846e-290 -3.02175e+153 -9.75018e-89 -4.04078e-302 3.21356e+190 -8.37324e+120 -1.55173e+183 8.36037e-255 1.53477e-102 8.60408e+304 inf 3.54883e-154 2.25831e-167 -4.58738e+123 2.06767e-76 nan -1.30247e-245 1.09764e-215 3.39654e-111 -4.67698e+196 4.56266e+187 8.45665e+298 -7.93048e+138 5.2026e+115 6.71839e+157 8.86867e-143 -2.61236e-194 -3.86823e-234 -7.70676e+118 -1.42232e-130 1.31368e-252 nan -5.69833e-71 1.55073e+154 7.38094e-186 1.46202e-190 1.65273e+97 2.30188e+163 -1.37503e-116 2.45465e+26 2.55787e-236 4.84697e+43 2.09478e-74 1.0902e+88 inf -1.61197e-259 -1.16144e-14 3.96504e+182 -3.83434e-228 2.7145e-269 3.39151e+298 1.05677e+26 inf 5.14354e+21 -5.96106e-32 3.94e-286 5.33982e-284 -1.30842e+212 -1.86696e-81 2.27484e+251 0
+window values: -1609156054
+input ends
+==1782660==  If you believe this happened as a result of a stack
+==1782660==  overflow in your program's main thread (unlikely but
+==1782660==  possible), you can try to increase the size of the
+==1782660==  main thread stack using the --main-stacksize= flag.
+==1782660==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/b66698937146ffbb19804ad7c847ef8a5e0e691e.crash crashed

@@ -1,0 +1,106 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606746544
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 2.09323e+304 2.37679e-267 3.05074e+225
+4.48577e+42 1.26089e-111 9.13295e+61
+2.06071e-244 2.36003e-40 9.89264e+191
+3.92330e+233 1.08535e-69 3.00373e-179
+1.10584e+109 6.61382e-49 2.74125e+33
+3.79352e+141 4.99191e-75 1.29630e-83
+5.45217e-278 3.86185e+57 2.59627e+306
+2.29995e+278 2.02876e+207 1.45899e+262
+1.83393e+160 2.11038e+284 3.90360e+205
+
+i1 values: 415975408
+i2 values: 410739096
+input ends
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/21d24ed6d059b4789ca4a2711746a66c73fb1c1e.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 7.38500e-100 5.92528e-178 2.97789e+134 2.10088e-201 3.15410e+38
+4.32010e+30 3.10671e-193 8.86856e-275 1.43737e+124 6.16297e+154
+5.82711e-173 3.90489e+143 4.42292e-152 6.76271e-38 1.10523e+41
+6.65624e+207 1.10254e-50 1.44932e+257 1.67591e+106 3.98864e-87
+2.43915e-20 1.01143e-286 3.65287e-91 8.28917e+307 7.99812e-174
+7.70598e-28 9.24748e+191 1.39808e-227 4.71554e-152 2.86736e+234
+2.52240e+164 5.15342e-204 1.17970e+88 3.03148e-248 4.70711e-85
+1.14606e-108 6.78273e-74 1.66156e+66 2.56050e+188 6.53240e-102
+
+i1 values: -302906104
+i2 values: 1979958246
+input ends
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/a27863de9581dd9c112501c49aa38b43dbb3e817.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.18334e+23 6.74695e+253 7.21260e+42 6.91591e-47 4.79976e+169 5.48288e+49 2.07800e+211 1.31847e+144 2.99408e+125
+
+i1 values: -822284884
+i2 values: 1013924264
+input ends
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/fc76649625f443e4ca161de9d5161b407b7d0032.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 5.75989e+79 3.76132e-304 1.19361e-27 6.99992e-244 4.17170e+64 3.22555e+179 6.25833e+304 5.55349e-129
+1.96866e+250 4.31098e-07 5.63563e+137 3.02225e+101 4.14000e-216 1.43488e+80 3.41606e-97 1.20957e-136
+3.83691e-156 4.91230e+120 4.77224e-254 6.27984e+140 7.33299e+128 1.34154e-166 1.37907e-109 1.60597e+176
+6.37556e-152 8.15385e-177 1.06052e+160 4.79046e+46 7.57511e-277 6.89473e+279 9.05766e+101 1.18315e+165
+3.61530e+259 4.28318e+134 2.12701e+111 2.43718e-96 4.82037e-235 3.63983e-134 1.91194e+161 7.49986e-82
+9.12856e+289 1.37385e+237 6.95549e-28 4.18342e+270 1.59002e-20 6.96488e-200 4.17868e-110 4.34219e+167
+3.93719e+190 3.55475e+11 8.15817e-166 1.45344e+240 1.35714e-224 3.98722e-181 5.10734e+254 1.13893e+59
+
+i1 values: -1349510697
+i2 values: -1345463681
+input ends
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/817f50c8084fd7e27aacb43cf2a9666f8dedda5e.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.15314e+179 4.43485e-109 4.73089e+197 1.13676e+182 1.54369e-86 1.53828e+117 3.52696e+141 4.16452e-180 3.78938e+245
+4.32836e+281 1.79331e+99 5.51060e-184 3.50507e+172 1.59754e+280 1.37999e-103 3.75097e-225 5.55603e+57 1.42286e-235
+3.46111e-61 8.03594e-236 3.36268e+18 1.36669e-48 7.90085e+62 1.20227e+280 4.24759e-137 8.31556e-259 9.73350e-273
+2.85176e+66 1.62610e+128 1.00355e-284 1.83071e-84 1.09415e+113 1.57630e-148 1.10091e-280 4.52576e-94 4.06748e-88
+3.80724e+199 1.04330e+58 7.41312e-143 2.61880e+108 1.00058e+22 2.65013e-179 5.17047e-164 7.54452e+215 1.71083e+120
+7.40793e+112 1.76787e-190 7.94032e-14 1.40829e+283 3.32942e+40 1.52467e-87 1.78865e+265 6.94974e-220 2.88998e-133
+2.28055e+152 3.09954e+151 1.19929e+286 4.82135e-118 1.98477e+229 1.50359e-116 8.06111e+181 4.24164e-168 6.25416e+16
+1.83552e-68 3.27045e+71 1.30620e-140 2.44098e-41 4.11969e+155 2.47313e+116 1.08826e-215 3.95062e-302 5.55504e-302
+1.10600e-257 1.47250e-226 0.0193000 1.52935e+24 2.27449e+227 2.66278e+58 1.40007e+240 1.55554e+95 5.08423e-189
+
+i1 values: -959186696
+i2 values: 94118594
+input ends
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/78e3a5a0230081b14275a46e2ac31b4833bd85da.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 6.01221e-270 5.25129e+36 1.62884e-187 4.25574e-214 1.61821e-14 3.58921e-240 1.72775e+153 4.50075e+259
+5.36007e+192 6.26171e+121 6.35232e-200 2.40644e+13 1.35699e+127 5.38754e+172 1.53820e-153 1.76880e-171
+2.96501e-212 7.92491e-14 1.88562e-227 4.27695e-122 6.19048e-226 1.43959e+302 3.48004e-258 3.91599e+09
+3.27679e-289 3.67695e-129 1.72367e+184 1.65344e+40 5.89821e+255 8.31842e+127 1.50397e+152 7.18854e+301
+
+i1 values: -53167239
+i2 values: -1130948648
+input ends
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/ca845fa5945d21a13c9746e53c363d90714d1e2a.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.53504e+244 1.03402e+145 9.77589e+107 1.80488e-205
+
+i1 values: -1120109374
+i2 values: 247691884
+input ends
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/407bd5e93bd1959775b7b85323b92c76ce194037.crash`
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 7 failed/0 passed/0 abandoned tests

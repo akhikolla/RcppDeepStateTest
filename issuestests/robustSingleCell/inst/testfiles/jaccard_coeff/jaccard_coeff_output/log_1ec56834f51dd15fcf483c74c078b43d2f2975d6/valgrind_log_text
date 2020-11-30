@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (robustSingleCell_deepstate_test_jaccard_coeff_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robustSingleCell/inst/testfiles/jaccard_coeff/jaccard_coeff_output/1ec56834f51dd15fcf483c74c078b43d2f2975d6.fail`
+TRACE: Running: robustSingleCell_deepstate_test_jaccard_coeff_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robustSingleCell/inst/testfiles/jaccard_coeff/jaccard_coeff_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+idx values: 8.78966e-280 5.45421e-192 4.99537e+121
+3.38329e-289 1.88774e-51 5.26994e-238
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=-1; row extent=2].
+ERROR: Failed: robustSingleCell_deepstate_test_jaccard_coeff_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robustSingleCell/inst/testfiles/jaccard_coeff/jaccard_coeff_output/1ec56834f51dd15fcf483c74c078b43d2f2975d6.fail failed

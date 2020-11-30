@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_subseries_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/subseries/subseries_output/5420578e3f9fc7cd4ab76a3fe857a910d302a81d.pass`
+TRACE: Running: jmotif_deepstate_test_subseries_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/subseries/subseries_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: -2.75312e-218 8.38667e+146 -inf 8.79438e+55 2.31841e+26 -4.90669e+07 -1.98265e+261 -2.47567e-16 -1.12128e-201 1.77467e-57 6.9095e+34 3.76751e+266 -6.17336e-180 -3.80165e-224 2.78809e+86 4.29162e-67 -7.71183e+247 nan 2.94036e-35 -3.94284e-58 -9.81695e+228 8.81443e+229 2.39163e+131 4.47643e-301 3.71429e+28 nan
+start values: -6927815
+end values: -469460724
+input ends
+Exception Handled
+TRACE: Passed: jmotif_deepstate_test_subseries_test

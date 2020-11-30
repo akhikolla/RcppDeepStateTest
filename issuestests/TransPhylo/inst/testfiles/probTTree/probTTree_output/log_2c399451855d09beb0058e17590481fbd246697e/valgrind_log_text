@@ -1,0 +1,29 @@
+WARNING: No test specified, defaulting to first test defined (TransPhylo_deepstate_test_probTTree_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probTTree/probTTree_output/2c399451855d09beb0058e17590481fbd246697e.crash`
+TRACE: Running: TransPhylo_deepstate_test_probTTree_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probTTree/probTTree_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ttree values: 3.12099e-146 7.69032e-115 1.60716e-57 1.91728e-187 2.40281e-131
+4.77351e+79 1.84116e-283 8.86592e-228 7.65279e-179 3.77615e-151
+1.03274e+281 3.67145e-106 1.87387e-219 1.29193e+288 8.09433e+92
+1.47945e+150 4.13469e+159 2.86240e-82 8.65617e+153 1.73003e-282
+3.20572e+69 9.29561e+08 1.03404e-108 4.16116e+143 2.40054e-179
+3.30332e-25 1.47612e-177 1.03501e+252 2.34847e+21 2.88845e+137
+2.23442e-111 1.15519e+222 1.65571e-258 1.44713e+19 3.23193e+227
+
+rOff values: -3.56034e-305
+pOff values: -1.28953e-123
+pi values: -6.23952e-174
+shGen values: 3.98471e-32
+scGen values: 2.22637e+136
+shSam values: -2.03536e+131
+scSam values: 5.69813e+232
+dateT values: -2.43285e+207
+delta_t values: -1.73358e+42
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probTTree/probTTree_output/2c399451855d09beb0058e17590481fbd246697e.crash failed

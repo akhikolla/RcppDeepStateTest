@@ -1,0 +1,43 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606696383
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_get_angle_cpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+xy values: 3.84782e+286 6.12750e-69 2.14800e-289 2.05532e+86 1.65367e+285
+8.99932e-295 2.29385e-276 1.30838e-160 2.21015e+101 2.55174e+19
+3.21396e-217 6.07619e-221 1.14171e-23 4.19217e+294 7.30638e+283
+8.97854e-41 1.67998e-06 2.15424e+105 1.66258e-78 6.62703e-228
+9.58930e+88 1.66231e+208 1.05293e+151 1.71862e+207 2.78046e+12
+3.35184e+114 2.00179e+152 8.88981e-277 3.55434e-11 3.67784e+246
+1.60848e-50 4.13235e-207 6.98493e-78 2.86077e-303 8.32673e-44
+2.97827e-104 1.20823e-150 1.68341e+27 7.36487e-92 5.06080e-296
+3.28991e+40 4.06240e-97 4.60219e+210 2.81344e+212 2.53325e+25
+
+dir values: -2.26737e-19
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+xy values: 1.40713e-184 5.19238e-235
+1.90233e-123 5.34995e-49
+2.31212e+171 9.53772e+184
+
+dir values: -1.7528e+46
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+xy values: 1.86420e-87 9.67961e+266 2.53747e-191 2.41884e+98 6.04854e+73 2.66192e+297 1.00055e+249 6.86176e-175 1.04141e-78 5.31036e+88
+6.91984e+236 8.96372e-166 1.76097e-239 8.69090e-258 5.72102e+138 3.51713e+25 4.63625e+25 1.23790e+305 6.28823e-134 4.02216e-17
+
+dir values: 9.16695e+110
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+xy values: 3.28024e+31 1.90740e-133 1.28230e-281
+
+dir values: -1.43704e+272
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

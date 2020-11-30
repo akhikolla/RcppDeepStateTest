@@ -1,0 +1,45 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606686271
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rcos_bimodal_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -388027017
+k1 values: 7.60578e+105
+k2 values: -5.36625e-226
+k3 values: 8.86681e-84
+mu1 values: 1.77803e+225
+mu2 values: 3.67822e+71
+kappa_opt values: 0.0013006
+log_I0_kappa_opt values: -1.68797e-189
+logK values: -5.90831e+59
+log_const_vmcos values: -1.06121e-21
+mode_1 values: -1.98758e+217
+mode_2 values: -3.81848e-199
+vmpropn values: -7.72722e-16
+unifpropn values: -2.97532e+69
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_bimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_bimodal/rcos_bimodal_output/36d69d4f3bc271e2a015e11d230ca91dfe48b88e.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 66626701
+k1 values: 2.49445e-198
+k2 values: 2.50646e-193
+k3 values: -5.08856e-248
+mu1 values: 6.14655e+280
+mu2 values: -7.42787e-197
+kappa_opt values: -1.1104e-229
+log_I0_kappa_opt values: -2.99979e-94
+logK values: 1.55779e-105
+log_const_vmcos values: -1.38642e+273
+mode_1 values: -2.47011e-256
+mode_2 values: 5.46582e-65
+vmpropn values: -8.24006e+193
+unifpropn values: -5.89804e-14
+input ends

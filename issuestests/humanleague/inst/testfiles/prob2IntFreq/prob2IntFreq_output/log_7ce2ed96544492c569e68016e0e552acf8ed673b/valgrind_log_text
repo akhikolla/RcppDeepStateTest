@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (humanleague_deepstate_test_prob2IntFreq_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/prob2IntFreq/prob2IntFreq_output/7ce2ed96544492c569e68016e0e552acf8ed673b.fail`
+TRACE: Running: humanleague_deepstate_test_prob2IntFreq_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/prob2IntFreq/prob2IntFreq_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pIn values: -4.17927e+120 4.71248e+180 -3.99537e-224 2.0499e-132 -9.79239e+196 -1.77014e-270 1.63847e+165 9.14084e+48 -1.90548e+152 -1.25836e-14 -2.04465e-203 1.24266e-88 -2.62012e+56 -2.2356e+299 1.30491e-297 4.05766e-53 -4.91746e-126 -1.71528e+193 1.60112e+201 nan -6.73708e-24 -187206 2.95751e+75 3.51382e+273 -7.7907e+193 1.43778e-57 5.518e-306 1.63382e+292 -1.1236e+85 2.22798e+126 1.23922e+249 -6.45559e-170 3.68961e-298 -1.62253e-166 -7.98107e-291 8.83093e-49 -2.90873e-148 6.77051e-191 -6.6025e-120 nan 7.15614e+269 9.83286e+276 -1.53924e-249 -9.21716e+159 3.48072e-143 -4.05872e+156 8.49556e+104 -inf 1.83998e+50 3.29642e+286 -6.69685e-277 -2.06426e-220 2.81432e-248 -5.79187e+78 8.28334e+298 8.34674e-103 -1.17868e+21 2.50008e+58 6.71196e+239 -9.26258e-218 -6.13381e+276 7.77938e-298 1.04317e-64 -1.80306e-303 2.65721e-177 4.92803e-95 -2.68338e+117 0
+pop values: -1873622879
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  population cannot be negative
+ERROR: Failed: humanleague_deepstate_test_prob2IntFreq_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/prob2IntFreq/prob2IntFreq_output/7ce2ed96544492c569e68016e0e552acf8ed673b.fail failed

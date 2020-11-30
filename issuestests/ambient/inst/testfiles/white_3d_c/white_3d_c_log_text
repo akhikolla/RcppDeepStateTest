@@ -1,0 +1,79 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695590
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_white_3d_c_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: -1571656166
+width values: -658128025
+depth values: 364903407
+seed values: -1273852645
+freq values: -8.29477e+246
+pertube values: -106892414
+pertube_amp values: -1.26335e+266
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 1165680498
+width values: 1786012535
+depth values: 44593224
+seed values: -2036588395
+freq values: -9.68758e-252
+pertube values: -2129321632
+pertube_amp values: -1.88541e+200
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 1307046397
+width values: 1872386660
+depth values: -1410854433
+seed values: 45128815
+freq values: -1.41127e+10
+pertube values: 1450423299
+pertube_amp values: -2.64295e+241
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 1884532785
+width values: -1726705913
+depth values: -1385806997
+seed values: 638675399
+freq values: -2.28692e-91
+pertube values: 1702737773
+pertube_amp values: -1.17674e-263
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 430025845
+width values: -1967070912
+depth values: 773974951
+seed values: -1886800854
+freq values: 9.1509e+28
+pertube values: 1955036438
+pertube_amp values: 1.12442e+152
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (Rvoterdistance_deepstate_test_distanceEarth_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/distanceEarth/distanceEarth_output/439a70243426e8b4fb2e5024835ff1534edbe002.pass`
+TRACE: Running: Rvoterdistance_deepstate_test_distanceEarth_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/distanceEarth/distanceEarth_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lat1d values: 1.03772e-188
+lon1d values: -1.08864e-277
+lat2d values: -1.66939e+265
+lon2d values: 8.52105e+87
+input ends
+TRACE: Passed: Rvoterdistance_deepstate_test_distanceEarth_test

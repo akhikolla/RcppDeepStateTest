@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (robmixglm_deepstate_test_llrandbinomcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandbinomcpp/llrandbinomcpp_output/3a2d9b2efce83dd3134e95fc5c626639166a1880.pass`
+TRACE: Running: robmixglm_deepstate_test_llrandbinomcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandbinomcpp/llrandbinomcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 8.10757e+25 4.52857e+179 5.64941e+163 9.29703e+241 0.289123
+4.64720e+292 1.15983e+194 1.41091e-136 2.65847e-150 3.90757e+301
+1.64463e+71 1.24737e+70 8.24762e+84 3.70252e+207 1.72573e-48
+1.21852e-57 1.30604e-26 6.53250e+282 1.33150e-268 3.84653e+188
+4.15051e+81 2.14312e-186 4.16903e-42 3.87870e+185 5.08405e+279
+1.99189e-92 3.67466e+307 7.85237e-85 2.40818e+79 3.46626e+37
+1.78161e-165 1.72895e+66 9.45645e+255 3.89970e-75 1.72876e+84
+4.05797e+180 1.13606e+281 1.63829e-42 4.13068e-153 2.17688e+136
+9.31833e+59 1.15037e+13 9.01092e+118 4.85259e+306 2.99511e+228
+1.39853e-129 9.82582e-211 5.92770e-93 1.06793e-30 8.02954e-13
+
+lp values: -3.40164e-290 -6.36879e-23 nan inf -inf -1.31137e+44 nan -1.22507e+205 -2.08761e-214 7.30822e+195 0
+tau2 values: -6.65197e-86 nan inf -6.66387e-179 7.25208e-103 2.86577e+212 -6.43863e-52 1.36902e+187 2.86577e+212 0
+gh values: 3.96830e+116 1.52944e+39 1.39948e-161 7.31766e-75 5.25933e+143 1.74773e-258 6.39640e-137
+1.94796e-294 4.22440e+122 1.05619e-150 2.27856e-125 1.68796e-164 1.67048e+231 2.94346e+192
+
+input ends
+TRACE: Passed: robmixglm_deepstate_test_llrandbinomcpp_test

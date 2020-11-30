@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_wkt_translate_wksxp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/2fb0fb8accd30a27a5a5e9fdcad5f4024b236be3.fail`
+TRACE: Running: wk_deepstate_test_cpp_wkt_translate_wksxp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "ncjpnhllsccngpzlpoex" "yxu" "dvhyqwlg" "beglqtnhrysdsdhluln" "ouablaqpofbyndujkgqn" "NA" "ndqcrthlehkxxunwbel" "NA" "sypeatkxqzxehpbqff" "ktputvfmrqshbdleqyfr" "NA" "yqfimudacfezapox" "pfjrlororbpt" "gjkmgmwsfbfctykhindt" "NA" "hzyvreynlvqfavyrohcn" "NA" "NA" "NA" "ajfqtwkqdqjpolwybvlg" "yrfaziyvwsbpqciadhdn" "jvyvkeehfhwpbcmdjcqw" "NA" "xedjutjazpiwbgkyqvwj" "NA" "nbiqrgvcxjgqwgsihwnc" "NA" "NA" "jhfbpzbpmxyzaarshojx" "cqnnhsajcuot" "NA" "ndvgpopvtljpbptilbqb" "NA" "NA" "" "ukiszbfigexpqhibbepi" "NA" "jehwruaofdxkpyockedb" "fcbkldzqyuavltocbehl" "NA" "olewhf" "NA" "anqkfqqwenibpzvaurty" "NA" "rmnuurixezydwohfbrll" "bmfeysgmkrwfepyie" "umxdupgmmcmgyirobaal" "qdzcozjerequraksxztp" "ldkwbiqqzhkqovlqwodg" "bgxeceotsypeicojzrst" "agpojbcyjjinvjdlzoyz" "jmxjozlazhz" "ipmmzuurjcnb" "kfcbtqpchljzxpgtrkmt" "hojboxurnqmovxizdfpi" "NA" "NA" "NA" "ingdaawgfrhbcnakwvfe" "mpshmvkwmxfvsnpagwcd" "NA" "drojj" "ibwctqym"
+includeZ values: -1617322373
+includeM values: -1327427303
+includeSRID values: -1370881418
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'ncjpnhllsccngpzlpoex' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wksxp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/2fb0fb8accd30a27a5a5e9fdcad5f4024b236be3.fail failed

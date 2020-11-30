@@ -1,0 +1,67 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677840
+WARNING: No test specified, defaulting to first test defined (humanleague_deepstate_test_integerise_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: nan -9.27165e-62 -4.30036e+219 7.90549e-280 8.45847e-33 3.41024e+109 -1.14137e-231 3.65494e-166 -1.09484e+07 -2.57015e+247 -3.65308e+47 8.60486e+285 1.32733e-89 -3.31552e+16 1.44151e-174 nan 2.36718e+296 -6.59326e-151 -3.70082e+34 1.02306e+293 -1.95259e+306 1.69162e+99 1.46924e+197 nan -1.05365e+289 1.77579e+58 -3.37368e-116 -inf -3.48326e+262 1.06385e-304 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/22539cafb3f1464043cca91c13c1fd92ff58bf87.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: -3.72986e-51 nan -6.71854e-231 -1.48733e-301 1.4341e-277 -2.06332e+50 -9.32568e+264 3.72967e+243 -1.54336e-34 -3.77052e-173 1.53671e+33 -6.43306e+78 -4.25318e+17 -2.66553e+106 1.2392e-173 1.1511e-12 8.58779e+248 -3.90939e-44 4.18356e+279 -4.56786e+217 -2.27015e-299 -1.0428e-174 -3.3282e-199 1.53366e-161 -2.24131e+141 1.29879e+297 1.26683e-306 3.75378e+100 1.50466e+15 -inf -5.72949e-171 -4.87476e+129 -3.93985e-199 -6.39324e+211 -1.7583e+63 1.47871e-243 -1.52361e+251 -2.19897e-09 inf -21.2133 6.79123e+79 -1.89055e+178 1.71424e-226 -1.72653e+29 3.05033e-70 -1.11778e+297 -7.63175e-97 -9.21107e+60 3.86517e-198 5.6482e-91 6.46285e-136 -1.1102e+177 -7.27161e-81 -2.78873e-83 5.0352e-45 -1.0788e-105 1.95854e+69 -3.64461e-186 -3.24147e-194 2.42277e-147 -1.33686e+36 -6.12687e-91 -6.45584e+240 -7.58959e-301 -1.32796e+48 -7.08307e-43 nan -1.72076e+212 2.47943e-130 -1.17882e+297 1.42816e+197 -3.08484e-54 5.15634e+122 nan 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/2d20288acf3124ebaf31f22e6c1065c83e9561f3.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: -6.45123e+160 2.14983e-299 -3.40664e-09 2.77537e-291 -1.40561e+206 -inf 5.75257e+58 1.22773e+70 -1.3046e+146 -151.77 nan -4.97749e+141 3.34644e-114 -inf nan -5.47278e-231 -4.41848e+53 3.69324e-279 3.86752e+128 -2.90324e+23 2.02635e-223 1.36585e-159 1.90039e-249 -7.50755e+284 -3.31515e+161 5.0483e-55 -4.79269e-119 7.45003e-280 1.9211e-158 -2.94653e+69 -2.26793e+50 2.85341e-67 -2.75671e+102 2.15093e+83 -2.31133e+75 -7.07311e+35 7.06192e+13 5.38795e-08 -5.01977e-55 1.84571e-116 -6.87195e-15 -6.04613e+58 -2.01467e+21 -8.62894e-94 1.68202e+227 -1.9903e+248 1.53033e+54 2.52958e+233 1.44983e+35 -5.29112e-111 -5.60587e+54 -1.4613e-276 1.78657e+25 1.07521e-97 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/0a94baca8a2b17bdcb1d57cac8d6ac7a61f1bbb3.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: -5.53049e+195 -8.69506e-61 -1.20372e-135 -8.27408e+302 3.28538e+202 -1.74377e+36 3.55414e-68 -1.47378e-261 -3.36039e-297 -9.21229e+196 5.04311e-304 1.13111e-107 -3.36265e-246 2.10943e-76 -1.54073e-230 1.04863e-101 4.84015e-288 1.11011e+53 6.15653e-212 7.00302e-138 5.26489e+272 2.81933e+181 -1.12702e-231 -1.96011e-119 1.06039e+75 -1.55597e+301 2.74198e-64 8.65361e+24 -2.39763e-56 -1.65256e-200 -8.05673e+270 -4.89538e+232 -2.25199e+210 2.55089e-23 -2.11447e-186 5.7371e-87 -1.39649e+119 9.93085e-213 5.35701e+259 -4.10704e-139 4.58692e-261 -5.9106e+154 3.72492e-170 9.01933e+261 -1.36696e+138 -5.80804e-16 2.16203e+82 4.44012e-191 2.67839e-233 -5.76891e+189 4.96782e-06 2.3944e-84 3.52847e-102 6.31197e-114 nan 2.20656e-98 2.05446e+116 1.21725e+161 -2.22504e+148 -5.39574e+56 2.75044e-28 -5.25483e+269 -1.96376e-119 3.33066e+28 -1.274e+291 -4.21096e-271 4.78154e+201 -4.35346e-300 -5.23368e-86 -9.7355e-145 9.50634e-213 -1.36269e-202 -4.58985e-245 -1.23118e+18 -5.69879e-71 -1.53178e-227 inf 4.00625e+124 -1.58728e+51 -1.59047e-133 1.188e-121 -1.76281e-277 -7.36825e+260 -1.27422e-228 -9.91457e-222 4.96302e+64 inf nan 1.54985e-283 9.79343e+90 -2.99462e+256 6.32509e-199 1.13263e-176 1.94482e+295 3.07048e-140 7.58109e+226 -3.89172e-230 5.82155e+21 -1.04097e+104 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/ab6edcbc5102c34bb2a55e00528c88c33210fdc4.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: -1.13377e+111 -8.59198e+112 -1.99974e-246 -2.48893e+154 6.21896e+161 -9.82762e-297 3.62496e-207 2.38659e-228 -3.69534e-303 -3.38007e+216 6.50134e+306 4.20717e+66 -4.63451e-91 -2.51448e-266 9.74155e-303 -inf 1.59187e-176 -4.25205e+269 2.139e-271 -9.44362e+169 -5.57637e-16 4.11617e+279 2.82434e-218 -2.28974e+179 -1.01049e-301 -3.68405e-188 -8.17901e-266 -1.80552e-196 8.73949e-38 1.79334e+301 -2.36096e-122 5.29633e+81 5.42842e-17 5.0693e-189 -5.2248e-304 nan -4.82668e-130 1.18712e-82 -3.10631e-261 2.09018e+40 1.89651e+59 9.77117e-259 -2.12785e+33 6.99172e-258 nan 2.28306e+54 -6.07588e-40 3.28211e+28 3.98112e+300 inf 3.58906e-265 -1.39381e-72 -inf 4.15231e-179 -1.35656e+191 2.29433e+138 1.98443e+196 -8.06299e+199 -1.26409e+07 1.78553e+15 -2.24322e-16 -4.7017e-180 -3.16521e+156 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/40950fa54d23c533d42fe4f9d816798b91190be5.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: -5.21613e+91 9.19065e-224 3.30798e-149 1.32145e+19 1.29699e-130 1.42109e-308 -2.62476e-92 1.49265e-203 6.96937e+178 -1.51427e-264 -9.79265e+236 -8.20747e-69 4.84572e+180 -3.84298e-146 -3.61332e+110 -3.54456e+171 4.76847e-63 4.00234e+183 -5.10403e-225 -3.02373e-134 -1.67424e-23 nan -3.29629e-148 -1.29169e+148 -2.17163e+258 1.18096e+84 -3.86298e-285 -7.82588e+07 1.72715e+122 3.2991e-305 3.0258e+35 1.28462e+69 -4.90495e-191 1.75154e+193 8.02011e+211 4.29836e+42 -3.38909e-54 3.47664e-276 nan 2.25968e-131 -4.82364e+200 9.23389e+60 nan -8.07392e+199 1.45928e-246 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/37152ca17a7a83d0209e6d429ffeaace1d33ad51.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: 8.34873e+151 nan 3.3517e+154 -1.01107e+30 -4.29391e+69 -7.01344e+168 1.35632e-218 -2.51203e-207 -1.944e+79 -2.09814e-81 -4.61641e+93 -1.08539e+31 9.58405e+138 4.0023e-238 1.55991e+118 1.04697e+31 6.39334e+278 -1.11674e-307 1.78278e-205 -1.54641e-216 1.14717e-208 -5.7415e+299 4.76864e-167 -7.98792e+234 nan -1.20328e-147 3.55244e-250 -1.21506e-84 -6.77279e+164 inf -3.25804e-71 -inf -1.19455e-216 4.94997e+232 -4.10449e-223 1.54223e+57 1.30038e+271 -1.61382e+90 -7.81536e+74 7.39789e+162 nan -2.51427e+290 4.77802e+213 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/ee365ba40aeb9d7c5249218cfe78b45929f74ab4.fail`
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 7 failed/0 passed/0 abandoned tests

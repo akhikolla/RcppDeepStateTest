@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (QuantTools_deepstate_test_crossover_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/crossover/crossover_output/2d4a767456f5ebc714e294ed93aefe91bdb23378.fail`
+TRACE: Running: QuantTools_deepstate_test_crossover_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/crossover/crossover_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.88744e-46 -2.0425e-40 -6.41187e+235 -inf -2.7688e-37 4.08883e-282 -1.61955e-25 8.02985e+43 -4.14905e-202 -2.2014e+71 -1.7882e-97 1.01714e+250 -3.83954e-168 -2.5963e+162 5.811e-243 -1.07832e+219 -3.35264e-107 3.00482e-07 3.18195e+189 -2.48076e-298 -5.03053e-203 2.24112e-211 4.90212e+232 2.08032e+194 0.00202825 -2.22883e+254 1.10495e-214 5.05316e+204 -1.0315e+48 1.00401e+76 7.22742e-49 1.14787e-301 1.50295e+281 nan -8.15038e+92 -6.22183e+234 -2.53746e-228 6.87864e+104 -3.56536e-238 -1.42616e+20 -1.1475e+182 -4.19559e-64 -1.28806e-23 -8.09795e-173 3.10135e+187 1.48859e-61 -6.89426e-202 -4.75535e-37 -4.98348e-137 nan -inf -2.63595e-244 1.76775e+170 7.72408e+225 4.9456e-213 2.43097e-283 6.91485e+130 -1.71919e-265 -7.83913e+182 -1.50951e+77 6.20355e-286 -6.10919e-293 -2.83126e-287 -7.13128e+59 -7.93704e-17 -1.10589e+124 2.58639e-145 -9.65744e+31 -2.73826e-245 8.86228e-181 -2.83619e-102 1.48245e+305 -2.81018e-145 -1.07164e-288 -1.40635e+69 -1.01676e-295 1.13879e+147 -3.14889e-289 -2.56254e+265 0.00352144 -1.76205e-248 -1.61897e-137 7.53282e+22 1.70204e-142 3.88113e+248 2.26667e-218 -7.65883e+43 -1.68926e-33 -1.07896e+71 0
+y values: 9.83832e-158 -6.99593e+210 -1.10768e-194 -7.35268e+97 -1.60278e+32 7.14554e-173 4.6084e+189 2.29856e+141 -1.09755e+59 -1.5249e-241 -1.86747e-63 1.30662e+149 -3.68972e+14 1.38019e-07 nan -2.11497e+302 -1.66437e-195 -1.45773e+249 inf -3.40728e-185 4.5754e-289 -6.03959e-292 -5.88891e+130 inf 2.98926e+182 -4.14958e+177 1.38126e+162 1.47174e-128 -3.22147e+274 -0.000857023 -1.13114e+81 1.04231e+80 2.24117e+76 nan 2.25549e+96 6.10776e+30 -1.01723e-234 -3.24601e+153 nan 1.3751e+71 -1.23084e-204 1.43251e-242 1.36388e+33 0
+input ends
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  x and y lengths must be equal
+ERROR: Failed: QuantTools_deepstate_test_crossover_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/crossover/crossover_output/2d4a767456f5ebc714e294ed93aefe91bdb23378.fail failed

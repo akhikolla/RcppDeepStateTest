@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./Wijs_gauss_cpp_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_output/3b891cdea06d0f490bab2e3fe0add371e0a0c7e6.pass</line>
+</preamble>
+
+<pid>1889967</pid>
+<ppid>1889966</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_output/log_3b891cdea06d0f490bab2e3fe0add371e0a0c7e6/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./Wijs_gauss_cpp_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_output/3b891cdea06d0f490bab2e3fe0add371e0a0c7e6.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.030 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x41DEA0</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>Wijs_gauss_cpp(Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP</dir>
+      <file>src/EMSE.cpp</file>
+      <line>64</line>
+    </frame>
+    <frame>
+      <ip>0x409B67</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_hetGP_deepstate_test_Wijs_gauss_cpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp</dir>
+      <file>Wijs_gauss_cpp_DeepState_TestHarness.cpp</file>
+      <line>27</line>
+    </frame>
+    <frame>
+      <ip>0x4095C8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_hetGP_deepstate_test_Wijs_gauss_cpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp</dir>
+      <file>Wijs_gauss_cpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41A228</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A4C9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A5A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x92f9e10 is 0 bytes after a block of size 336 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x49CA3E4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_allocVector3</fn>
+    </frame>
+    <frame>
+      <ip>0x414AEF</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::Vector(Rcpp::Dimension const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>135</line>
+    </frame>
+    <frame>
+      <ip>0x40BD66</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;::Matrix(int const&amp;, int const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Matrix.h</file>
+      <line>59</line>
+    </frame>
+    <frame>
+      <ip>0x409114</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>RcppDeepState_NumericMatrix()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState</dir>
+      <file>include/RcppDeepState.h</file>
+      <line>95</line>
+    </frame>
+    <frame>
+      <ip>0x4097A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_hetGP_deepstate_test_Wijs_gauss_cpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp</dir>
+      <file>Wijs_gauss_cpp_DeepState_TestHarness.cpp</file>
+      <line>17</line>
+    </frame>
+    <frame>
+      <ip>0x4095C8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_hetGP_deepstate_test_Wijs_gauss_cpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp</dir>
+      <file>Wijs_gauss_cpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41A228</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A4C9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A5A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_gauss_cpp/Wijs_gauss_cpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.188 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>40</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.654 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

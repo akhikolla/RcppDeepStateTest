@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (Phase12Compare_deepstate_test_MATMULT_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Phase12Compare/inst/testfiles/MATMULT/MATMULT_output/5b534079c54a0ce39684f9c6d77057ea33e73500.fail`
+TRACE: Running: Phase12Compare_deepstate_test_MATMULT_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Phase12Compare/inst/testfiles/MATMULT/MATMULT_DeepState_TestHarness.cpp(10)
+input starts
+X values:   5.7955e-172  8.9453e-153   5.6487e-99
+
+Y values:   -6.4730e-82 -3.6968e-179   1.2568e-96   2.7306e-30 -4.3196e-254  1.7021e+171  -1.1164e-04   2.0721e+53 -6.7648e-248   3.3463e+87
+   8.1554e+09   2.0150e-86  -2.0233e+06 -9.2452e+222  2.4902e-136  1.7067e-199 -7.3740e-211   1.9573e+30   1.5366e-23 -1.3390e-292
+ -9.0484e+123  6.9188e-252 -2.0724e-243 -3.8845e+242 -2.0678e+189  2.1211e+307 -2.4529e-147 -2.6946e-105  -1.9530e+71  7.3968e-131
+  -6.5421e-30  5.6147e-174 -1.7674e+295  3.5364e-201 -9.6574e+148 -2.1549e-233  3.0224e-234   2.5386e-24  2.0986e-208   2.6274e+18
+ -7.7617e+207 -1.6255e+113   2.4551e-92 -8.0359e-256 -1.5495e+182  -3.5279e+37  -1.0300e-45 -3.4629e+271 -2.4723e-232 -1.7764e+118
+ -2.9556e-118  6.7194e+206  1.9654e+230  1.9334e-224  5.8703e+197  -4.2666e+58  -2.9972e+94  1.0390e-258  1.3591e-271  6.8691e-228
+
+input ends
+TRACE: Passed: Phase12Compare_deepstate_test_MATMULT_test

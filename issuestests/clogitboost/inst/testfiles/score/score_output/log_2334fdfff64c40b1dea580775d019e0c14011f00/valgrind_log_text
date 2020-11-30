@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (clogitboost_deepstate_test_score_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/clogitboost/inst/testfiles/score/score_output/2334fdfff64c40b1dea580775d019e0c14011f00.pass`
+TRACE: Running: clogitboost_deepstate_test_score_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/clogitboost/inst/testfiles/score/score_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+g values: -4.85129e+128 nan 6.25016e-206 1.53928e-226 -1.94074e-13 nan -1.84807e+49 -2.51139e+43 6.43306e+230 2.1779e+30 2.17045e+119 -1.06398e-238 -3.01523e-38 -1.35209e-48 -1.12917e+196 -5.50761e+73 -7.20363e+288 nan -inf -6.91784e-230 0
+y values: inf
+w values: 1.22068e-169 1.36578e+92 -1.84472e-113 -1.13023e+147 -5.29614e+239 nan 1.08029e+169 -1.21702e-126 -2.05414e+61 7.9841e+208 -3.80042e+243 -1.12168e+89 2.28679e-268 -1.21702e-126 3.2465e-250 2.36906e-94 -6.98786e-69 inf 3.177e+264 -6.15777e-207 3.74274e-07 -2.99473e+220 -2.45238e-292 -2.09638e+91 -1.42878e+119 8.56173e+170 -1.21702e-126 2.71005e-81 1.58063 0
+n values: -1164426893
+group values: 1.00963e-192 -6.57464e-298 -2.3788e+190 1.33185e-38 4.52077e-200 1.55949e+193 4.07827e+240 -7.83395e+104 -1.4592e+07 -1.0412e-56 -4.58292e-96 5.99763e-102 -8.9924e-131 -3.03618e+183 9.15111e-232 1.1912e-98 1.08709e+260 -7.27258e-150 -3.32151e+240 1.38862e+78 1.4273e+51 -1.24815e-106 -1.64999e-09 -7.01599e-233 -4.75232e+103 1.63478e-292 -2.07554e-282 1.27467e+245 8.06839e-07 -7.20003e+173 5.06102e+42 7.44061e+186 7.68369e+61 nan 9.85872e+208 3.07276e-223 -1.24569e-166 -1.79812e-76 -5.75741e-41 1.07938e+300 3.48119e+54 4.93801e+95 -2.67435e-281 nan 3.92083e+179 1.56852e+161 3.71289e+67 1211.63 5.49368e+197 -2.11684e-108 -8.10585e-39 -2.4543e-306 nan 1.63637e+63 -2.67607e+209 1.14159e-220 1.98462e-263 1.57234e-65 -5.8519e+302 nan 9.55804e+18 8.48033e+254 -2.8045e+43 nan 2.12027e+288 -1.96634e-234 -8.99446e+219 0
+theta values: -9.83828e+287
+input ends
+TRACE: Passed: clogitboost_deepstate_test_score_test

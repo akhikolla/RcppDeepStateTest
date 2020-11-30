@@ -1,0 +1,16 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606694834
+WARNING: No test specified, defaulting to first test defined (grainscape_deepstate_test_habConnRcpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cost values: -6.92638e+90 5.85741e-50 1.03884e-203 1.09012e+134 1.13183e-229 -3.39711e-63 4.09137e-305 -5.02048e-176 3.1e+177 -4.9415e+262 1.39456e-298 -9.35515e+172 1.03524e-219 -1.99485e+51 6.5774e+52 -2.6568e-71 6.56164e-189 nan inf -2.29021e+92 -8.86236e+266 -5.34181e+149 6.06807e-146 -5.52078e-56 -5.64186e+17 1.64735e-98 2.68345e-308 -5.49255e+83 -inf inf 3.38404e-93 -1.72967e-135 -1.57809e+29 3.0007e-202 3.76295e+115 1.65564e-19 -3.72092e-144 0
+patches values: inf 2.1349e-210 -2.90278e-16 -1.07001e-117 -1.65072e-66 -1.63477e+149 4.63858e+113 9.33683e-303 24124.4 -7.95664e-74 -9.36131e+51 2.17934e-272 2.62009e+153 1.6066e-196 -3.40851e+25 -1.34646e-177 5.87006e-279 -7.65049e+109 1.932e+56 3.36205e+163 -1.93147e+09 3.80658e-44 -2.01148e+92 8.00037e+80 2.2218e+95 -1.00005e-63 7.40633e-58 2.06402e-88 -1.25873e-175 -1.13705e+169 4.38533e+47 1.43129e-242 5.87006e-279 2.30485e-283 -1.68533e+275 2.9964e-142 inf -2.32967e-271 -5.45421e-56 1.87682e+70 5.36058e-08 1.23011e-217 -1.08969e+42 1.81737e+41 -1.64908e+232 -7.22618e+217 -2.03886e-25 2.29346e-249 nan 2.62924e+149 -5.01439e+61 6.86209e-107 1.81616e-135 1.47891e-76 -6.06382e+270 1.43445e+197 -3.63749e-267 -8.36365e+151 1.96766e+14 -4.7444e+264 1.84799e+128 -1.2284e-175 -2.59166e-228 -5.56439e+137 -4.39065e+150 -0.00543209 -5.54381e-213 -4.35095e-54 -2.75799e-195 2.99819e+300 -3.67103e+139 1.08772e+126 1.87039e-254 -4.42388e-296 -7.27808e-142 -2.78187e-126 0
+ncol values: 1273494042
+nrow values: -950249969
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: grainscape_deepstate_test_habConnRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/grainscape/inst/testfiles/habConnRcpp/habConnRcpp_output/194c52ecf2e8d5595797616a4827e8df21b73a32.fail`
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 1 failed/0 passed/0 abandoned tests

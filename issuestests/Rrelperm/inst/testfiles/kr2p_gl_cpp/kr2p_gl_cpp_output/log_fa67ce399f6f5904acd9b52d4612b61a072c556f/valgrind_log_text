@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr2p_gl_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_output/fa67ce399f6f5904acd9b52d4612b61a072c556f.crash`
+TRACE: Running: Rrelperm_deepstate_test_kr2p_gl_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -1.52062e+140
+SOIRG values: -3.50627e+78
+SORG values: -5.83698e-05
+SGCON values: -1.51131e+246
+SGCRIT values: -1.29362e-46
+KRGCL values: -8.78957e-19
+KROGCG values: -5.45681e+122
+NG values: -1.60884e+106
+NOG values: -1.0659e-42
+NP values: 1059985409
+input ends
+==1884906==  If you believe this happened as a result of a stack
+==1884906==  overflow in your program's main thread (unlikely but
+==1884906==  possible), you can try to increase the size of the
+==1884906==  main thread stack using the --main-stacksize= flag.
+==1884906==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: Rrelperm_deepstate_test_kr2p_gl_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_output/fa67ce399f6f5904acd9b52d4612b61a072c556f.crash crashed

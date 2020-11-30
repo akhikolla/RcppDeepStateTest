@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (icensmis_deepstate_test_loglikA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/loglikA/loglikA_output/f4fe3417488306fe3e68afb5565d1ad0ece10094.pass`
+TRACE: Running: icensmis_deepstate_test_loglikA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/loglikA/loglikA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+parm values: -inf -6.29977e-302 nan -inf 2.80556e-28 -3.42373e-24 nan
+Dm values: 9.76310e-20
+
+Xmat values: 2.54214e-55 3.21209e+40 2.41395e-36 5.48327e-20 1.19724e-61 9.40399e-297 2.03453e+95
+7.27750e+43 5.89039e+79 5.49875e+242 3.71120e+26 9.64302e-207 8.36617e-193 3.62971e-257
+9.93986e-59 3.69691e-07 2.31434e-32 1.12989e+138 4.16169e-209 5.96000e-195 3.13745e+49
+6.20707e-254 4.44068e-12 5.37166e-23 2.38136e-80 8.42092e+95 2.02515e-147 2.20643e-81
+
+input ends
+TRACE: Passed: icensmis_deepstate_test_loglikA_test

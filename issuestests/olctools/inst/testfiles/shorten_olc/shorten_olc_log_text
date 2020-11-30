@@ -1,0 +1,37 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606676414
+WARNING: No test specified, defaulting to first test defined (olctools_deepstate_test_shorten_olc_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+olcs values: "fywdvghitnsznpvaflgf" "udfbsjsknuahzzyvlmbq" "jxabwaejnpituyxatlgn" "ncaakvmrtnpbbrnixdcs" "dcaekzodxmvntejbgwaa" "NA" "zfgbfvvwxkss" "NA" "paxzsgwdkpfcoywhmxxw" "ct" "y" "owrugrsz" "vcndiakkjogvnptmhkjt" "qsos" "vdbjysubqrkrojnvrfli" "spvlzeftqad" "zzlkvuvywqvjlzmkg" "" "caucrslneegxiozeaxq" "bunrbaazdqkvzqknkvsg" "jwhnjddwslzkisqvxnit" "NA" "qeke" "wnhjvuhalfgxropmpgfe" "NA" "" "NA" "NA" "vnicxnluaaymaknuvbsx" "NA" "NA" "txxpczgttjvbbanuw" "wytvxalhwnjwuknmnxyg" "NA" "NA" "NA" "NA" "xngixkpihtbiiwyaoduc" "zlypoxoftqdsctokdgpw" "w" "NA" "NA" "NA" "armfcjgrhavvsj" "NA"
+lats values: nan 1.92418e+08 7.28382e+269 -6.74489e+292 -2.35912e-75 -3.21061e-217 -2.32216e-236 3.6668e+53 -1.66174e-79 -4.31193e+73 -7.62168e+262 -inf -4.91647e-184 -4.95893e+117 -1.29281e+90 -1.0352e+140 -2.1053e+87 2.50139e+177 -5.54222e-196 nan 3.72221e-38 -1.78904e+28 -4.90928e+269 1.14992e-175 -4.87659e+122 -4.32131e+203 1.15764e+147 -3.43785e+174 3.71652e+143 -8.03677e+271 1.11414e+11 -4.10144e+164 -3.48412e-74 inf 4.2205e+261 3.0407e-103 2.42533e+252 5.69281e-33 -6.0086e+168 1.0563e+228 -3.62503e-202 5.79711e+10 -8.84016e+189 9.95142e-269 -2.0464e-84 2.03258e+274 -3.77098e+62 -inf 7.94044e-151 2.29437e+115 -1.26114e-272 1.51343e+177 -2.07611e+133 1.61879e+49 6.49636e-262 5.81977e-188 0
+longs values: -4.35519e+41 -inf -8.89103e+144 -1.19902e-30 2.31279e+227 3.12386e-289 4.76997e-08 2.0453e-175 1.05822e-186 -0.396918 6.13431e+74 -8.32082e+93 7.28969e-23 -5.52975e-272 5.10292e+263 nan -1.6303e-37 -5.74836e-159 0
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  There must be as many longitude values as latitude values
+ERROR: Failed: olctools_deepstate_test_shorten_olc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/olctools/inst/testfiles/shorten_olc/shorten_olc_output/dcdb8e313821065b9f11618ba0578d05ae02c33f.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+olcs values: "hmaykxiqtpgjsqqphubm" "mlpzhzmqnpk" "NA" "jypfhauhz" "ooctkyzkhvckdlscrche" "hbbnzylozsmrfvywtrbh" "amveiguidlnxnyznwmae" "NA" "ltuqdcxjlvwjt" "NA" "qxfkxesrjqoqg" "envpcauvpipyfeywwfih" "whn" "bzhhmdhjdfapwizriakg" "tbztenycfhs" "kszdadcadffqicuseiie" "dnjtqtcucrkgvmzggqba" "ulcmhmqdvmzppwkfenuf" "NA" "NA" "jizrotwpdbdczngufaay" "NA" "NA"
+lats values: 3.22144e-142 -8.09506e-167 nan 7.38259e-285 -2.6608e+122 1.39998e-245 8.50561e-132 -1.36606e-226 4.65914e+186 4.43763e+98 -5.81428e-99 -7.53895e-277 1.1301e-51 8.09845e+179 -1.24716e+164 1.29933e+177 -1.41273e+191 3.73027e+12 1.65708e+272 -1.07256e+49 9.25449e-167 -5.01084e-186 -1.18105e+252 -2.96189e-74 -2.60471e-36 -1.0697e-09 -1.93956e+111 -1.02253e+18 -4.18611e-156 9.70913e+177 -2.67755e+246 4.98249e+238 -1.01193e+264 4.89698e+202 4.84671e-36 -8.69085e-120 1.26682e+99 6.7612e-276 -4.04186e+80 1.37036e-74 6.05693e+40 -1.37242e+17 4.91291e-10 -6.44472e+32 -3.10966e-196 7.74943e+229 1.23838e+07 -1.60107e-292 5.44872e-278 -2.522e-49 1.23901e-143 inf 1.40345e-145 -1.77615e+102 2.91351e-110 -4.93798e-123 -3.98215e-40 2.45018e+305 -3.19823e-54 -3.39787e-12 -9.6275e-299 -9.34319e+214 1.13134e-27 -1.7787e-93 -1.07505e-228 -1.24706e-73 8.45744e+192 -2.20646e-291 -3.11924e+307 -5.30124e+50 -1.03912e+40 -1.51839e-106 -2.75663e-190 2.38113e-99 8.45186e-64 -6.94621e-53 -1.8571e-84 7.25676e+142 -7.25638e-75 -2.24818e+276 -1.09054e+22 6.60628e+262 -7.14124e+264 2.58502e+300 -inf 2.36043e-237 5.83215e+302 -6.29148e-34 -8.45593e+164 -inf -2.62458e+10 9.19902e+215 1.34233e-232 0
+longs values: -3.51234e-43 2.0496e+49 4.19654e-108 -2.67769e+132 5.31967e-48 -inf 1.41703e+283 2.07048e-265 -inf 9.2075e-31 8.09917e-262 -8.67962e-137 -2.93641e-229 3.97775e-162 3.19514e+202 -8.67962e-137 7.13832e+124 -4.42868e-287 2.00048e-302 inf
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  There must be as many longitude values as latitude values
+ERROR: Failed: olctools_deepstate_test_shorten_olc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/olctools/inst/testfiles/shorten_olc/shorten_olc_output/2fac24efc90b9e7d8cb428a4c562878a62686472.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+olcs values: "ujuextunzitodbhtxzgn" "NA" "ukluqvffjhtwkeyzvmui" "uvfngraoilfvqdnmjgry" "jkowalykkifixtfriceo" "NA" "ykddtbsbzjjrntdtjuto" "gpnsjtfesortueahuqfy" "NA" "yqhgcprkmqwmsxjdeggz" "NA" "NA" "lwrybjcqjrh" "emvjhqegkhzshhskh" "bevyshpmfmegvsevqzgz" "NA" "NA" "jdmrqqbylisoxbqqoint" "vjrn" "sgoz" "jaoypywvcqsqigvayabk" "NA" "nfmpcycbsvohazayvdot" "NA" "NA" "liospieumzjcyvxvmxof" "NA" "mlmlkodsofbgkmezxaln" "wqlyueopwdglormyqgbe" "NA" "NA" "catkjdgnfqvytajogawa" "cmnrpvcgubcidctdubrr" "xhjoghrvbwjtmbpzey" "sopgatymjvuepztvggpr" "x" "NA" "cndqdvenusfmmokisqxs" "NA" "jpsydoqwkgvogzgf" "qquetsyauopzepypdeut" "NA" "pyzhxenszpkqvmsgbelc" "ojzcljfvydfluxecnxkx" "jxlpitcbargerysqcfpe" "cyhlqko" "NA" "uzdpkoz" "gfgyndywsvvhejmtjblz" "NA" "hwjaycrjyxoqflutuyco" "kmcjzsgyirqavftfarfi" "NA" "NA" "NA" "bwnwbjjtewzmrbrrpmou" "creodrdcvcwgnxrsxrfk" "jnvpqgackrshovyrslsk" "bexhaftcehlgb" "nsmyivgyekdwulpybsgb" "NA" "mowksspvuyahbpqddwgd" "NA" "usrtwitwhocyxzgybxqz" "knkycfxjtxfojzbqul" "jtcgjoqqiyqxicmzxbpf" "pfzncljlvwekfuwffhan" "osyqvofrejngkirnfcnc" "NA" "erkmymmvintaqullkl" "ozucvmnwtuqbtxmfqdvl" "NA" "posldfonhqfdehbbtjhw"
+lats values: -8.73843e-132 1.67663e-300 3.7663e+158 9.66047e-217 3.6921e-208 6.96772e-168 0.00671961 -4.82181e-42 1.22055e+255 2.70182e+60 -6.05222e-69 -6.88148e+159 -inf 7.77378e-125 -1.92074e+240 nan -6.64614e-83 1.14517e+283 -1.60227e+66 3.18725e-271 -4.21246e+129 6.15338e+185 -9.13968e+19 -2.20354e-264 1.73296e-166 4.29547e+300 4.92416e-130 -2.20354e-264 1.52549e+91 1.0466e+243 2.34252e-113 -2.20354e-264 3.7719e-128 3.77763e+266 -1e+211 0
+longs values: 1.64037e-264 nan -0.0023054 2.78348e-08 1.14028e+247 9.72816e-25 1.16538e-19 1.57349e-177 -8.12363e+175 -2.0551e-138 2.22753e-81 -3.47516e+147 1.72707e+143 -1.52639e+248 2.02687e+306 -6.162e-154 -1.1735e+290 9.71243e+259 -inf 7606.86 -2.59151e-289 -1.14346e-49 -9.81153e+223 1.93627e+238 1.07057e+307 -451875 -3.32058e+255 -592.352 -2.34757e+39 -3.41357e-130 -2.36923e-238 3.4475e-100 -6.37011e-254 -8.49049e+81 8.54121e-253 1.03696e+261 -3.57936e-191 -7.50445e+248 -2.67911e+134 2.86137e+104 -inf 1.20164e+263 nan 3.07307e-255 -1.14626e-116 -6.62465e-172 2.24136e-115 5.47346e+169 -6.13393e+37 1.41736e-36 1.36042e+56 -3.60804e+47 -2.05787e+130 -1.80899e-139 0
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  There must be as many longitude values as latitude values
+ERROR: Failed: olctools_deepstate_test_shorten_olc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/olctools/inst/testfiles/shorten_olc/shorten_olc_output/1c96ec790a14367236e0c1321614f6412d709f9a.fail`
+INFO: Done fuzzing! Ran 3 tests (1 tests/second) with 3 failed/0 passed/0 abandoned tests

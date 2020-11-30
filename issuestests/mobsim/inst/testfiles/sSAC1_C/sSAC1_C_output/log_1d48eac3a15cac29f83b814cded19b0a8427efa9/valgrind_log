@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./sSAC1_C_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_output/1d48eac3a15cac29f83b814cded19b0a8427efa9.pass</line>
+</preamble>
+
+<pid>1794586</pid>
+<ppid>1794585</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_output/log_1d48eac3a15cac29f83b814cded19b0a8427efa9/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./sSAC1_C_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_output/1d48eac3a15cac29f83b814cded19b0a8427efa9.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.027 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.141 </time>
+</status>
+
+<error>
+  <unique>0x16</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>48 bytes in 1 blocks are definitely lost in loss record 23 of 1,349</text>
+    <leakedbytes>48</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483C583</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new[](unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4214B0</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_DeepState_TestHarness</obj>
+      <fn>sSAC1_C(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim</dir>
+      <file>src/SAC_spatial.cpp</file>
+      <line>37</line>
+    </frame>
+    <frame>
+      <ip>0x409617</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mobsim_deepstate_test_sSAC1_C_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C</dir>
+      <file>sSAC1_C_DeepState_TestHarness.cpp</file>
+      <line>27</line>
+    </frame>
+    <frame>
+      <ip>0x409078</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mobsim_deepstate_test_sSAC1_C_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C</dir>
+      <file>sSAC1_C_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419308</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4195A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x419684</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x4077E5</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/sSAC1_C/sSAC1_C_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.604 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

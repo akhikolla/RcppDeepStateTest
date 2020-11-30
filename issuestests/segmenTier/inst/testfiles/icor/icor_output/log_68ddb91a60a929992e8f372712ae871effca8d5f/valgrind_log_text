@@ -1,0 +1,21 @@
+WARNING: No test specified, defaulting to first test defined (segmenTier_deepstate_test_icor_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/icor/icor_output/68ddb91a60a929992e8f372712ae871effca8d5f.pass`
+TRACE: Running: segmenTier_deepstate_test_icor_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/icor/icor_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k values: 1030175090
+j values: -238931463
+c values: -1550396995
+seq values: -9.12839e+85 1.12136e+192 4.0552e+172 2.77425e+63 -2.90291e+284 -5.31963e+16 2.20091e+30 6.14665e-195 -1.45244e-263 9.14164e-251 1.28531e+228 -9.52628e+222 1.37289e+64 1.06364e-30 7.84399e+148 3.5399e+125 -1.15879e+151 nan 6.38721e+57 8.13268e+188 -4.38624e-118 1.7039e-77 -7.94611e+22 1.42676e+230 8.49424e+134 -inf -5.79042e+202 nan -5.32081e+97 -6.70174e-163 -7.94611e+22 1.5341e+44 5.48879e+109 4.74567e+122 1.75077e-193 -6.04948e-201 -2.65684e+53 -4.34135e-245 4.90916e-178 -1.29043e+291 -3.46884e+196 -5.16185e-26 2.30044e+289 -2.59152e+76 0
+M values: -2104126554
+csim values: 3.84772e-89 9.06775e+127 7.58672e-206 5.81054e+72 6.40629e+170
+5.14102e-62 3.47116e+85 3.39524e+183 3.72721e-258 2.33032e-55
+1.98430e-241 4.25999e-75 4.79443e-245 9.55118e-297 4.98544e-168
+8.43293e-142 1.40293e-46 2.32502e-110 3.21701e+13 5.82621e+249
+1.86493e+279 2.82793e-233 9.00423e-287 4.87406e-137 5.70393e+214
+3.38332e+238 2.06024e-47 3.36670e-287 1.62404e+207 7.48827e+298
+5.58632e-127 3.29546e-193 6.20872e-54 9.14911e-41 3.36930e-52
+
+input ends
+TRACE: Passed: segmenTier_deepstate_test_icor_test

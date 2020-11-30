@@ -1,0 +1,28 @@
+WARNING: No test specified, defaulting to first test defined (Umatrix_deepstate_test_esomTrainedWeightVectorsMexicanHatC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsMexicanHatC/esomTrainedWeightVectorsMexicanHatC_output/37a9ee49ed044dbdea6baa814ae914d5b7ea5233.crash`
+TRACE: Running: Umatrix_deepstate_test_esomTrainedWeightVectorsMexicanHatC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsMexicanHatC/esomTrainedWeightVectorsMexicanHatC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+WeightVectors values: 9.43022e+150 9.89798e-263
+2.93964e-261 7.75879e-304
+2.02838e-57 3.95339e+79
+5.43865e-142 8.88381e+129
+2.73703e-12 6.46939e+302
+1.38042e-226 8.49449e-256
+1.19178e+198 1.66353e+50
+4.96900e+93 1.69106e+218
+
+DataPoint values: 8.40776e+132 nan 2.85196e+98 inf -4.33267e-271 -5.54466e+237 1.99393e+198 4.65476e-147 -8.78468e+102 -4.09626e+270 -inf 2.91954e+296 7.80191e-23 3.88686e-275 nan -7.81152e+199 1.62578e+246 -3.87758e+245 inf -5.00618e-64 -1.01463e+62 -8.34279e-20 0
+indices values: 3.83829e-134 inf -1.63105e-47 -1824.03 inf 3.09569e+130 inf
+DistancesToBm values: inf 3.31161e-289 2.09624e+120 5.85797e+56 -9.12352e+192 2.21066e-93 1.58549e-238 -4.99246e+06 inf inf -2.18492e-70 -1.034e-164 -4.95264e+258 -4.92873e+294 5.33649e+300 4.6033e+87 nan 8.87392e+208 6.81607e+20 -inf -1.47487e+99 -1.92773e+202 7.23749e-217 -5.57914e+295 1.47683e+165 1.75294e-235 -2.25746e-152 -2.85995e-224 -1.39927e-161 0
+Radius values: 4.26185e+236
+LearningRate values: 9.98804e+176
+input ends
+==1779058==  If you believe this happened as a result of a stack
+==1779058==  overflow in your program's main thread (unlikely but
+==1779058==  possible), you can try to increase the size of the
+==1779058==  main thread stack using the --main-stacksize= flag.
+==1779058==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: Umatrix_deepstate_test_esomTrainedWeightVectorsMexicanHatC_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsMexicanHatC/esomTrainedWeightVectorsMexicanHatC_output/37a9ee49ed044dbdea6baa814ae914d5b7ea5233.crash crashed

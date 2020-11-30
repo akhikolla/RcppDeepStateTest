@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (icensmis_deepstate_test_gamma_mean_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/gamma_mean/gamma_mean_output/8f4781e195a996254d8d7c60ffcb9542489d97e3.pass`
+TRACE: Running: icensmis_deepstate_test_gamma_mean_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/gamma_mean/gamma_mean_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+outgamma values: 1445292575 -1465810138 1851373373 -308592801 1440842661 -150460797 -744427856 -1535077894 -1510270386 -1667402742 -164935453 -947437028 1774567776 -2147483648 -2147483648 1390552823 -582990470
+start values: 1912679930
+input ends
+TRACE: Passed: icensmis_deepstate_test_gamma_mean_test
+ERROR: Crashed: icensmis_deepstate_test_gamma_mean_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/gamma_mean/gamma_mean_output/8f4781e195a996254d8d7c60ffcb9542489d97e3.pass crashed

@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (wkutils_deepstate_test_cpp_wkt_has_missing_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_wkt_has_missing/cpp_wkt_has_missing_output/8ef3e1e898895530f1413ebbbbb1a963756565d0.fail`
+TRACE: Running: wkutils_deepstate_test_cpp_wkt_has_missing_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_wkt_has_missing/cpp_wkt_has_missing_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "NA" "NA" "NA" "jyao" "ynqazuczqiqoaytbbtvz" "NA" "wqtfhausntkdhvcfguyb" "qwhkdtwfuylmoajapanj" "NA" "izcahhmegzlxmgh" "gcuntn" "mvgra" "hcqutlalrbxkyknhndta" "nzpgiljcofrpjluvwmsy" "fuoytbzftbrhacyfebps" "tufcaeb" "" "zunpumqve" "ekxuvxoemyse" "NA" "rasyszx" "ipltiliojhhcgrozrewl" "dripxrhvptlsxclznfeb" "ayvbclqxclfla" "NA" "jyjzoprvpsmyigbud" "" "oiwqvebifxkdfbp" "NA" "aaxdgsuiixl" "NA" "nqmzwklndmuuidygafqo" "iiiyhynvkemtxhctkwvf" "yuk" "izktwbkmpvsmctyq" "NA" "NA" "auyhaokp" "lutvaouhzporbmxmdqpx" "dfsbrpljahqrh" "pkkxdabrthhqcttzvqzr" "ttytbwkvvtqsczqvdkap" "nhoxerkrgfehhdclstl" "idd" "nsusretliuxlkjplkmoi" "NA" "NA" "palelgmxfzufwpakjzd" "NA" "dspdvemthgkarpobofxm" "NA" "tqvyzxtckiatpr" "auledjydnqygooouksks" "gsqpznmtlsmljrwajkns" "NA" "zospfbqlgxhrjkfbduef" "NA" "NA" "dataviomxctsgt"
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'jyao' (:0)
+ERROR: Failed: wkutils_deepstate_test_cpp_wkt_has_missing_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_wkt_has_missing/cpp_wkt_has_missing_output/8ef3e1e898895530f1413ebbbbb1a963756565d0.fail failed

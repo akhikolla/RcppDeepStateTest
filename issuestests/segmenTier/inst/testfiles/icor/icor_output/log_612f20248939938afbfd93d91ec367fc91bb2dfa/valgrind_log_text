@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (segmenTier_deepstate_test_icor_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/icor/icor_output/612f20248939938afbfd93d91ec367fc91bb2dfa.crash`
+TRACE: Running: segmenTier_deepstate_test_icor_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/icor/icor_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k values: -224081199
+j values: 969028049
+c values: 941934909
+seq values: -2.90625e-241 inf -1.51128e+88 inf 2.00899e+209 nan
+M values: -829644152
+csim values: 8.14055e+285 2.12721e-12 4.17156e-253
+1.14104e+95 1.03927e-106 1.09684e-40
+
+input ends
+==1772677==  If you believe this happened as a result of a stack
+==1772677==  overflow in your program's main thread (unlikely but
+==1772677==  possible), you can try to increase the size of the
+==1772677==  main thread stack using the --main-stacksize= flag.
+==1772677==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: segmenTier_deepstate_test_icor_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/icor/icor_output/612f20248939938afbfd93d91ec367fc91bb2dfa.crash crashed

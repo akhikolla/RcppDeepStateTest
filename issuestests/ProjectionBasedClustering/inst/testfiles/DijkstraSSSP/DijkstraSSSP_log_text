@@ -1,0 +1,120 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606694598
+WARNING: No test specified, defaulting to first test defined (ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Adj values: 3.66053e+32 9.62290e-118 2.87263e-86 3.56403e+163 2.16071e-135
+2.91403e-07 1.17392e+51 5.47018e-237 1.61566e+274 1.94333e-51
+4.27295e-59 8.09353e-172 8.24376e+269 4.28021e-48 1.38100e+231
+6.86203e-86 8.50440e-105 153.181 8.50599e+18 8.35100e-163
+
+Costs values: 7.41470e+49 1.27339e-185
+5.94638e-72 9.91372e+33
+2.00837e-260 249.199
+2.39353e+76 9.38085e-20
+9.06604e-121 6.06366e+169
+
+source values: 664855870
+input ends
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/e0848d1f278e24731ef06c08f2ea001e09287379.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Adj values: 1.67998e+63 2.10939e+281 1.49306e+252
+1.72820e+120 3.24451e+104 1.81334e-119
+4.05044e-79 1.22315e-257 1.17141e+52
+9.33891e+178 1.88804e-257 2.73216e-200
+3.92517e-284 2.35702e-76 1.62433e-68
+2.31075e-299 8.76678e-284 3.13247e+231
+
+Costs values: 1.77617e+277 9.03821e-295 5.51210e+71 9.54739e-220 3.68368e+103 8.40874e+11 1.62059e-136 2.20205e-302
+8.72230e-84 1.13235e-292 2.26148e+162 3.83759e+302 8.55640e+145 5.52603e+141 1.35611e-201 8.19505e+18
+2.18301e+121 1.05713e-134 3.79666e-179 5.30456e+267 3.55539e-31 1.68907e-119 1.55715e+33 2.30779e-94
+3.61326e+18 2.89877e-245 1.64845e+184 1.47236e-128 4.35706e-227 2.18519e+71 5.51843e-90 4.56406e-52
+2.30165e-75 7.29191e+129 2.03494e+200 2.00775e+158 6.72692e+295 9.52553e+207 6.00475e+91 4.46027e+83
+9.44564e-232 1.14604e+145 6.29345e+210 5.18225e-128 4.69054e+291 3.50379e-106 2.20424e-266 5.99810e-195
+4.35330e-138 2.16859e+214 6.22803e-249 2.02309e+08 1.91925e-275 3.97925e-286 1.94023e+105 1.70630e+11
+1.03873e-237 8.21435e-109 6.71775e-309 3.65136e+304 1.13235e+269 7.28744e-303 2.61230e-12 1.27141e-291
+9.15321e-269 3.96646e+257 9.86017e-182 1.13580e+251 5.94202e+199 0.000472127 1.25255e-169 1.40559e-84
+2.02164e-75 1.98047e-17 3.47110e+286 1.83178e+128 8.11264e+247 3.58762e-289 2.92602e+150 7.65646e+136
+
+source values: 1660670983
+input ends
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/450d1e53205294d132c66d6b74f21685c93d7809.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Adj values: 4.08050e+127 1.30143e+290 1.04029e+259 2.72552e-48 7.75313e-167 2.91682e-118 1.44093e-209 3.80314e-93
+4.66259e+70 1.07157e-102 6.45674e+55 7.75221e+85 2.59637e-207 3.83812e-247 7.82874e+50 1.61328e-09
+6.34827e+121 1.03552e+88 3.36776e-163 7.17418e-295 4.80575e+44 4.23788e-78 2.47242e+99 5.85255e+239
+5.57060e-157 1.13259e-296 9.23971e-140 7.80596e-274 8.14525e-59 1.59848e+143 5.42619e-247 7.14215e-18
+2.31187e+278 6.64954e-154 1.69432e-75 3.40698e+157 1.30137e+165 2.13240e-13 1.84986e+305 2.98773e-176
+1.54433e-54 4.87282e+151 3.48563e+47 5.16071e-54 1.80781e-255 1.85358e+91 4.86934e+93 7.22466e+24
+3.41438e+90 1.14197e+248 6.02358e+189 1.28441e+21 1.77561e-149 5.94290e-169 4.98106e+210 3.77922e+145
+6.35598e-276 8.22582e-128 9.12776e+29 2.44712e-293 2.21822e-246 5.45507e+51 6.76291e-129 1.58862e+31
+
+Costs values: 1.40290e+165
+3.33779e+226
+1.43082e+10
+9.89102e+200
+1.13930e+160
+3.47966e-40
+4.01065e-110
+4.23363e+289
+1.19684e+199
+2.01985e-283
+
+source values: 554012509
+input ends
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/0a7d99f32ab06e5fa06243b6fc6e59e5353ce2f1.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Adj values: 1.89804e-107
+7.78488e+148
+7.69769e-148
+7.07709e+97
+5.07831e-212
+4.91916e+304
+
+Costs values: 1.00918e-230 1.84490e-267
+3.77497e+291 1.11642e-66
+7.42008e+267 7.09389e-182
+2.27802e-148 2.92611e+96
+9.75829e+143 4.91214e+221
+1.27253e-267 1.17450e+266
+
+source values: -2090750363
+input ends
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/3b323d43eed06f1b1da211b7822fd191cd3fa728.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Adj values: 2.05531e+264 4.67935e+74 1.13883e+255 0.000105677 8.44574e-208 2.00947e+126
+9.56592e+86 1.86019e+227 6.31483e+282 2.15929e+107 3.33170e+200 8.18138e+188
+1.63392e+153 4.86064e-231 3.32549e+98 4.20407e-220 6.81991e-309 7.65305e+77
+4.09589e+226 1.57418e+150 9.45819e-284 4.23675e+266 9.08657e+77 2.29736e+112
+1.94803e-75 9.27617e+263 7.58463e+257 4.04369e+183 7.46779e+20 1.88247e+58
+2.45332e-241 5.09465e-157 3.55710e-25 4.20957e-289 7.39286e-192 6.26696e-194
+
+Costs values: 2.64949e-251 5.17480e+08 9.76119e-79
+1.07045e-277 1.28109e-23 5.54972e+293
+3.38366e-40 3.04507e-24 336111.
+2.37758e+55 4.07139e-15 1.31497e-231
+2.22513e+86 4.86253e+94 2.83410e-301
+6.49550e+296 1.92464e+188 3.40408e-211
+4.05904e-305 3.83442e+123 1.06592e+278
+2.74866e-282 2.08183e+296 4.11689e-21
+1.39128e+251 4.30679e+53 3.63528e+220
+4.03804e-205 1.23187e-263 4.50795e+265
+
+source values: 1969969108
+input ends
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/99ab2bfecfa5339d171457cf67f14e6d7189c778.crash`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

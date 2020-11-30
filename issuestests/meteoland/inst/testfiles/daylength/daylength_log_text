@@ -1,0 +1,36 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606701121
+WARNING: No test specified, defaulting to first test defined (meteoland_deepstate_test_daylength_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+latrad values: -2.19225e-112
+slorad values: 4.05613e+170
+asprad values: 1.14783e-118
+delta values: 1.08694e+90
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+latrad values: 2.53634e+260
+slorad values: -2.52794e+256
+asprad values: -1.47507e-146
+delta values: -1.30526e+220
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+latrad values: 1.76663e-29
+slorad values: -3.76566e-38
+asprad values: -3.08188e-308
+delta values: -1.45383e-43
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+latrad values: -4.47178e+261
+slorad values: 3.47776e+246
+asprad values: 1.01096e+247
+delta values: 6.73444e+244
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

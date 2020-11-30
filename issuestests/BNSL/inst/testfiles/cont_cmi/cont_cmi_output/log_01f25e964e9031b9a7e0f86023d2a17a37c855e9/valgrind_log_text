@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_cont_cmi_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/cont_cmi/cont_cmi_output/01f25e964e9031b9a7e0f86023d2a17a37c855e9.fail`
+TRACE: Running: BNSL_deepstate_test_cont_cmi_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/cont_cmi/cont_cmi_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.03496e+147 -7.09422e+87 1.11128e-24 2.76423e+286 7.55259e-261 8.68357e+112 -1.96155e+51 inf 3.2145e+246 -2.79131e-160 2.18483e+38 -1.06149e-115 -1.07735e-99 7.92827e+50 1.97167e-20 3.30006e+60 -9.07496e+224 inf -1.39599e-43 -2.57005e+68 -4.44971e+295 nan 4.32174e+177 -1.18563e-09 7.30548e+188 -1.22219e-37 -1.7803e+87 1.1044e+165 4.8337e+143 0
+y values: 1.29436e+48 2.87975e+217 2.19888e-179 -1.01535e-177 -2.67746e+273 -2.96156e+12 8.16555e-193 -8.98394e-126 9.401e-123 -1.79367e-143 1.86632e-44 -inf -4.5332e-191 -1.34975e+132 6.82172e-126 7.70727e+246 2.44862e-47 1.01448e+287 1.01113e-226 -1.08791e+295 7.35729e+114 1.37302e+80 inf 5.76231e-198 -1.24104e+78 2.58116e+118 3.91126e-107 2.0594e-282 -2.68647e-67 -3.6273e-14 -4.18066e+145 1.8535e-25 -1.76489e-48 1.32678e+250 -1.06041e-202 -1.31616e-69 8.94031e+231 -2.81818e-117 -1.40448e+07 -1.63036e-21 -4.00134e-168 3.32086e+191 5.89249e+40 4.05336e+58 1.19186e-54 1.28439e-185 -6.43498e+115 2.95048e+276 -3.30719e-226 -3.44631e-13 -7.91231e+179 6.15575e+77 -6.50525e+302 -2.57875e+47 1.14984e-49 -1.07381e-187 8.69915e+219 3.83536e-204 6.7467e+232 -8.00865e-227 -2.30272e-155 -3.06892e+270 3.1718e-53 3.21773e+91 2.59349e+248 1.21419e+233 7.18434e-253 1.80672e-66 nan 3.37869e+146 -3.11925e+63 3.97055e+108 -6.27425e+62 6.24608e-98 6.19137e+109 9.401e-123 -1.20621e+37 -2.90238e+177 1.66722e+27 -8.35423e+294 7.25973e+124 5.58398e+135 0
+z values: -4.30149e+145 inf nan
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=3; extent=3].
+ERROR: Failed: BNSL_deepstate_test_cont_cmi_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/cont_cmi/cont_cmi_output/01f25e964e9031b9a7e0f86023d2a17a37c855e9.fail failed

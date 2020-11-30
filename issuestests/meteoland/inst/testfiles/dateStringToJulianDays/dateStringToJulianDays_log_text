@@ -1,0 +1,49 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606701083
+WARNING: No test specified, defaulting to first test defined (meteoland_deepstate_test_dateStringToJulianDays_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+dateStrings values: "rfwjkdqvcvehbfvrkmfv" "jjystlpamcheyiahsfez" "NA" "qijjcfrtagkwrtcbytjc" "NA" "rcttjpsan" "vhljwgfxlorh" "jzwqvrbqpoioqgngdmr" "cifqsistfwqymlkwekhs" "dolbayvedutdvqhllvj" "yzmfkdwfddhzoekwvwgx" "edldasskjlvifov" "jqnucncemxbihkmirjcz" "seybpmebiqbirceeqimv" "NA" "vttmishiuzcaoh" "nzvinzoutdxvzvbqktzh" "herkrerzudmsarjdpdge" "NA" "NA" "easqvl" "mpenalphadxtamgfrqdz" "fryiummgbj" "ncfrfnitlombuvgsbycb" "vsrwvbgbhlfbcifqsrlz" "NA" "wklgjbojpefgmloecgum" "nind" "NA" "nieixjrkhikzbiylxpyf" "nsfdxoapyrzlvwhjhgoj" "mpvernfgdwutyjabfflp" "gsanquzyeole" "rxapeufmtc" "NA" "jlrbeixizvshaccgbkyn" "qoeeswxkeveipocxfgod" "dmslnkombpdploqygunz" "NA" "" "ttxwrrhuaoyvf" "NA" "xmimdvfvlfu" "bdsfkuy" "g" "NA" "ozqizpc" "NA" "vghjbyijundbzxovxxlg" "NA" "gvybyxlmureebonodujc" "NA" "xiaeoedcvlmtswuaayot" "ymmhdfxdjwmvhaxqbqph" "lfotqeppmvfrwqeon" "pkupplbowgogf" "uhosxhnrjadiwrebsses" "NA" "hlhwapkycnafpflcgjdh" "NA" ""
+input ends
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  basic_string::substr: __pos (which is 5) > this->size() (which is 2)
+ERROR: Failed: meteoland_deepstate_test_dateStringToJulianDays_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/meteoland/inst/testfiles/dateStringToJulianDays/dateStringToJulianDays_output/14ace77e3c12f84f1829eb2bdeb76fd73731faf2.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+dateStrings values: "hgr" "cmukfvikxfbngfdsytzl" "vtnhkhnadhwghalcgbeg" "vtdryrazcrcscdoipajl" "finohwvlpswslmpdgvqd" "eywqebvgjhlpqajanjwp" "lqetdwm" "NA" "qvfjtazuc" "meyriovjnvaamejgliim" "NA" "loxijmhffqyexk" "ldcw" "wxoqzuakhagtbvphxc" "bp" "NA" "mwxooifsggowj" "NA" "blngmlmdukvl" "nxd" "bicegjqtvypxqgntghor" "bhlmsdblfjwwhbvrgmg" "NA" "huzuoixyxeojhs" "zmpmg" "NA" "hplxrppjjyctsckxvmzj" "NA" "viiwhvvjrlcrbnoveplq" "" "NA" "zwqenfdcifxolyleifcp" "cgy" "jnnqmtscqmlwfreujtet" "ihozucxbllbxyv" "acobhgl" "jbjgfhltqxzddciehlz" "NA" "imzyhsmwoqqmuwfwfjyg" "NA" "evszlycbelmihhemghht" "mgshidroujekghezuazm" "NA" "NA" "NA" "p" "likqpypcpkalodmltimg" "kecekfycwofzdtqekfli" "ghfaz" "NA" "jcfttakwczj" "faxtzilllhruzbvqnrti" "gbqqcckfdnjpthcq" "NA" "zbt" "qzckkrjdpfbkblymvwzm" "ksfenugbgndohuse" "hburpvsxfgtsvrsfoqto" "NA" "akplbzwvevw" "NA" "zz" "tyulqajgsqwczzmy" "uakvlogijkaejnpuxsci" "NA" "wefxihlemrbwaq" "NA" "fumnjakyulyopvdjuucm" "zqvyexheocucrxpeof" "euyninivzfxejvjmjcup" "NA" "biwxaj" "NA" "npery" "lfzwtzrbyuiijksecyid" "NA" "NA" "NA" "xvwauoigdhvlljnmuezk" "bnfosaqpggfkktudrucc"
+input ends
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  basic_string::substr: __pos (which is 5) > this->size() (which is 3)
+ERROR: Failed: meteoland_deepstate_test_dateStringToJulianDays_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/meteoland/inst/testfiles/dateStringToJulianDays/dateStringToJulianDays_output/85377e40cd20276695cefeeae32b3fdb403ce7cb.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+dateStrings values: "NA" "ohenfsweueqwoyjhbvnw" "tgwvasefuqypquwlnleu" "NA" "afkbemoswwxbvhwmjjvt" "zwqbvgayckekicluhh" "NA" "rtfidh" "NA" "sjcfeyfnygkwdqcrbxyx" "nabypaldzvuawtntbyga" "NA" "NA" "ptdlzyluzxetvmjvgpkt" "fkyiabqzoehtalutjozd" "NA"
+input ends
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  basic_string::substr: __pos (which is 5) > this->size() (which is 2)
+ERROR: Failed: meteoland_deepstate_test_dateStringToJulianDays_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/meteoland/inst/testfiles/dateStringToJulianDays/dateStringToJulianDays_output/5a754f0075b791064e82ea47bec5510ac8f07f0e.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+dateStrings values: "wdkuowowtnqsyplkrbym" "bmafolqohnxhestyagaf" "ffsbzbgovuwiizpvrvei" "bpvmocfcecxjkogthu" "htgralkatbuqtzbgrzud" "jckdkhyaffqesshxvmie" "NA" "NA" "NA" "veezuxcxraezgkxrwhfv" "NA" "wopcvtcvqwfrapwcwpsq" "py" "ekrndhtykpyexcfclwdf" "a" "wpbyralftdmwkjwtrjkq" "qndqgkivanqrtnprx" "yftidchzlpzkjvbiyhog" "NA" "NA" "NA" "NA" "araqydjhxqsj" "NA" "arpwbebhqmkoubuqojsr" "NA" "NA" "NA" "ndwfuiedqepcznrtnqxa" "NA" "lhhzfjkauhohdbxwphlr" "gwsuizdghrmwjcqpozom" "x" "NA" "viuluifzqckyly" "NA" "hbqdmofgfvotsrflfhqd" "keqpenddencdfone" "psgidheszpcztdkckius" "fvbhgnjeknuuaaxjtbqx" "msyjdpyudrxhysobthvd" "elzucqgnauwwvmekbjfy" "hyrveeyzpriywahazert" "bazyfkcxjtt" "sbkrammpouwhwzhnqaoa" "hadivvdbxjocfoeboewv" "NA" "xfxtxwykpjtjakwyiaex" "qnffxyseusuawkpspljv" "pnmauvamkbidi" "vsee" "NA" "NA" "krbjvllpffbsrrofbsrf" "t" "NA" "qlmgfnddolvwykieqlcj" "ywcpbyexdtivjwscsg" "NA" "nsaszubydcpdyawmqjkj" "mubo" "NA" "neoapzwbhqgkyz" "wojwxpgeivdtspymrpvs" "wfnwdqidyzmfkheltsy" "NA" "drvuvfqqv" "nhfugbgxqhumsjomanwo" "lwlzmcbgjfkhvxhslwf" "NA" "ospzhcmbnv" "oibdbsslsaqbznjaabws" "frqlhgfecidnrploxwne" "NA" "d" "zpmteoevhqnhqvandrvs" "NA" "usldkxmwdzdjgjshdqul" "hakcyrisdgtrkgfqsosf" "ozxh" "duumqrpmyjukoeiikkil" "aehabiihmftof" "NA" "auanfjwukoekfvhetfzq" "NA" "khjzvjhqbfahvktvkn" "jzfthvlyamcjqzddfmca" "pjzntmyhjusjkkzibycz" "NA" "jdpjrsdcrdlbtcqtqakw"
+input ends
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  basic_string::substr: __pos (which is 5) > this->size() (which is 2)
+ERROR: Failed: meteoland_deepstate_test_dateStringToJulianDays_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/meteoland/inst/testfiles/dateStringToJulianDays/dateStringToJulianDays_output/91c8deb69623d5f806613a79d537074a8025edc8.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+dateStrings values: "mralqokdvvintlseimcm" "nujcly" "rjuywzahtaxlggwweewc" "znhvclddbcezjgwbkyhh" "enrghzaiisgxougwdwjs" "NA" "sdyhjwqzgkwjvkvp" "hdejztw" "gdhsmuyzdsltzrfqkebm" "hoxuuxreygetksjuvzdw" "drrfdjkakizfigkzjcmd" "ptbqckcptdszjaaoaivk" "NA" "NA" "vrkxhzvjkrxgohrnlvsn" "NA" "NA" "NA" "NA" "qq" "NA" "NA" "hlitunkbdylifaympop" "kavznawqs" "kzvefsampe" "mhksbnkxvstpwkqs" "dqmcmkcxbfldlsosmkop" "yytozonmmdzgzfxjeoto" "NA" "iasbgrqfnkaphzlltczb" "NA" "NA" "NA" "NA" "kygsasvjjbjdznqprgfc" "g" "cglqzlpovtohffxxwngh" "NA" "NA" "NA" "NA" "NA" "pg" "bfs" "fclcnrfcyhwwvtifwopr" "evkicvlssxalkwawokqj" "NA" "m" "qfvlegowfoyu" "NA" "vqxjntshiafahdibhycu" "t" "xuqonrknnekdee" "xnharhipyopueguyigxk" "NA" "xhcjbmvahceosrfkcfpm" "tawzjfjyrrt" "NA"
+input ends
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  basic_string::substr: __pos (which is 8) > this->size() (which is 6)
+ERROR: Failed: meteoland_deepstate_test_dateStringToJulianDays_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/meteoland/inst/testfiles/dateStringToJulianDays/dateStringToJulianDays_output/8331ea85a08776fbbdc708950b2a49ecd1dbb505.fail`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

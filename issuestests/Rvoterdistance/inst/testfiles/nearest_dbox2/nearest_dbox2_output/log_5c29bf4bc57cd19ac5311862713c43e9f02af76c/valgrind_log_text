@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (Rvoterdistance_deepstate_test_nearest_dbox2_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/nearest_dbox2/nearest_dbox2_output/5c29bf4bc57cd19ac5311862713c43e9f02af76c.pass`
+TRACE: Running: Rvoterdistance_deepstate_test_nearest_dbox2_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/nearest_dbox2/nearest_dbox2_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lat_lon1d values: 1.11212e-75 2.96625e-297 5.68201e-254 1.87157e+135 7.55718e+267 2.82761e+200 2.18984e-163
+1.06937e+214 2.17045e+229 3.48262e+191 2.27071e-203 1.67879e+226 1.11141e-218 1.11070e-281
+1.46267e+280 1.60287e+191 1.27200e+57 3.07377e+177 3.55745e-257 1.09666e-17 1.66252e+277
+3.50885e-122 4.02375e+225 6.28428e+236 1.24465e-71 3.02186e-111 1.38064e-231 1.87203e+254
+4.17787e-122 0.0822963 1.61604e+148 2.86072e+229 1.92872e+123 1.91104e+219 9.40792e+270
+
+lat_lon2d values: 1.30493e+159 7.93255e-118 1.82079e+43 4.00175e-193 5.01724e+305 2.65213e+215
+3.39688e+244 1.82126e-23 3.56759e+66 8.15266e+11 7.70191e-198 1.30669e-298
+3.73969e+18 2.12263e+40 6.79593e+157 1.32195e-181 5.44051e-29 2.42272e-91
+1.16981e-101 5.57146e-154 3.46999e-280 7.31487e+37 2.04696e-117 9.29084e-203
+4.63244e-126 4.16358e+33 2.62121e-252 2.44221e+229 9.00334e+215 1.52006e-143
+
+input ends
+TRACE: Passed: Rvoterdistance_deepstate_test_nearest_dbox2_test

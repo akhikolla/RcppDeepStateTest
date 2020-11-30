@@ -1,0 +1,44 @@
+WARNING: No test specified, defaulting to first test defined (PLMIX_deepstate_test_loglikPLMIX_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PLMIX/inst/testfiles/loglikPLMIX/loglikPLMIX_output/0cb4238a8c50c09da48cb7770ce14a047c89f137.crash`
+TRACE: Running: PLMIX_deepstate_test_loglikPLMIX_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PLMIX/inst/testfiles/loglikPLMIX/loglikPLMIX_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p values: 5.68703e-102 2.56185e-241 3.97249e+258 8.95830e-66 1.66624e-18
+1.29500e+135 1.44569e+295 7.89735e-221 3.09305e+38 9.07779e+299
+3.07978e-210 3.13077e-58 1.05481e+225 4.13025e-209 5.19929e+13
+4.10631e-199 5.29493e-08 2.96595e-21 3.10086e+36 4.51024e-197
+4.02126e-201 1.25808e-269 2.16292e-106 4.60070e-39 2.76690e-155
+8.21673e+237 1.69879e+47 8.61961e-137 7.59697e+239 2.43131e-173
+0.137711 1.90360e-236 2.54582e-197 5.20896e+251 1.20634e+238
+
+ref_order values: 3.61578e+226 3.35676e+160 6.56109e-37 2.93074e-67
+6.25417e-211 1.85865e-199 3.20801e+193 1.70687e+205
+9.35138e-25 2.32068e+203 1.78134e+46 1.19569e-257
+7.05505e+282 2.53495e-290 8.22057e+09 8.14472e-84
+6.13602e+290 2.29735e+77 32293.9 3.63981e-125
+3.71259e-116 3.77402e+252 8.78885e+250 6.34469e+184
+5.18086e-227 2.95692e+286 1.46310e+82 7.69981e+110
+1.09984e+273 8.78903e+274 4.18800e-11 52.1305
+3.46603e+269 2.01434e+194 4.29256e+152 1.68999e+281
+
+weights values: -2.91646e-126 -8.49191e-273 2.77936e-166 -9.65094e-65 -5.56116e+204 1.04774e-249 8.51253e+167 1.38669e+211 -2.19555e+226 2.84986e+296 -3.43256e+251 -1.346e+251 -1.9252e+71 nan 4.55388e-125 4.36596e+159 9.73735e+76 4.19067e+156 1.13463e+153 -4.94753e-255 -1.0291e-299 -7.48765e-150 -1.75609e+284 -4.2754e-148 3.89965e+33 3.35841e-182 -1.74068e-12 3.03858e+37 -3.69149e+292 -1.72107e-33 6.94339e+300 -3.48941e-210 5.64138e-106 -5.60256e+165 1.23042e+39 1.56603e-201 4.55399e-51 inf -5.33255e-42 1.52741e-186 nan -4.58219e+56 4.737e+256 -1.07652e+301 5.43049e+87 -1.5338e-07 -8.54545e-210 -8.09715e+217 -7.97536e-293 -3.48941e-210 2.88813e+305 -2.92135e+129 9.29389e+294 2.19095e+76 1.06557e+266 -1.55824e-259 1.07953e+190 4.06777e+54 -8.10152e-308 0
+pi_inv values: 1.75677e-20
+2.43872e-26
+1.03105e+187
+2.97198e+48
+1.74875e+144
+5.10397e-177
+5.66799e+259
+6.39026e-184
+1.70990e+60
+3.98856e+242
+
+input ends
+==1822987==  If you believe this happened as a result of a stack
+==1822987==  overflow in your program's main thread (unlikely but
+==1822987==  possible), you can try to increase the size of the
+==1822987==  main thread stack using the --main-stacksize= flag.
+==1822987==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: PLMIX_deepstate_test_loglikPLMIX_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PLMIX/inst/testfiles/loglikPLMIX/loglikPLMIX_output/0cb4238a8c50c09da48cb7770ce14a047c89f137.crash crashed

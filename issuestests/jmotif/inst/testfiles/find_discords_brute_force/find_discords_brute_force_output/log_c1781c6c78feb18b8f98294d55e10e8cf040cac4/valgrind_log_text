@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_find_discords_brute_force_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_brute_force/find_discords_brute_force_output/c1781c6c78feb18b8f98294d55e10e8cf040cac4.pass`
+TRACE: Running: jmotif_deepstate_test_find_discords_brute_force_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_brute_force/find_discords_brute_force_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: nan nan -inf
+w_size values: -264183185
+discords_num values: -1002671894
+input ends
+TRACE: Passed: jmotif_deepstate_test_find_discords_brute_force_test

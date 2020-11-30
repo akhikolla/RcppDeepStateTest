@@ -1,0 +1,36 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745678
+WARNING: No test specified, defaulting to first test defined (Rvoterdistance_deepstate_test_distanceEarth_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lat1d values: 1.03772e-188
+lon1d values: -1.08864e-277
+lat2d values: -1.66939e+265
+lon2d values: 8.52105e+87
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lat1d values: -2.04894e+195
+lon1d values: 1.18514e+221
+lat2d values: 1.57933e+179
+lon2d values: 1.9722e-160
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lat1d values: -2.50346e-304
+lon1d values: -1.3703e+163
+lat2d values: -2.00246e+236
+lon2d values: 2.18958e-120
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lat1d values: 1.7479e-33
+lon1d values: 1.04031e+255
+lat2d values: -7.62841e+57
+lon2d values: -1.52465e-88
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_wkt_translate_wkb_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/2aebdcedc0106a5f304cca0d0416c0cebaa87863.fail`
+TRACE: Running: wk_deepstate_test_cpp_wkt_translate_wkb_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "NA" "nhjpnyagrcwru" "owcyixvjhmsbxsozgxok" "clanvcjeib" "NA" "NA" "extvnighqwwvhbrbsaeg" "NA" "vkezwomtckxdtqdgufaz" "watiimnarrzpbbqtdjlj" "qxmorqekhrftiztqnbap" "NA" "nxbq" "l" "NA" "xcnezzbcvgcrmtuikree" "NA" "NA" "lydtitthysrraladulxg" "lgcoelbjehlglgnegagp" "mvqzhkxtoxxlk" "NA" "aqubboyndtsyryzub" "NA" "xnepwple" "tryncrel" "NA" "NA" "xqozpiqiyiefyitthjze" "oqrjjas" "NA" "ozkzqoclklahmydri" "NA" "NA" "nmymxvwyjsidxpgsafiu" "qbakdeblwbyug" "NA" "NA" "rgorhcijcxvfqekevgyg" "NA" "ymfluxhasewxnppkswac" "yzgfmyifhrifpsolpvvj" "NA" "enqofltyivpmzgysfhjm" "NA" "ejmzf" "twpzabsnphkqnkphsjsb" "envftobjgsskdomaxyak" "NA" "ewphlcckohisiiboouuj" "NA" "sqkkuxkoataknvikjbth" "" "lkiwsrajcafasqtcetzf" "xfxsdcjtxkatfssuvves" "htwmqzualmssdwcmbbne"
+includeZ values: -164154306
+includeM values: -212188125
+includeSRID values: -960150290
+endian values: -114892619
+bufferSize values: 44657378
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'nhjpnyagrcwru' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/2aebdcedc0106a5f304cca0d0416c0cebaa87863.fail failed

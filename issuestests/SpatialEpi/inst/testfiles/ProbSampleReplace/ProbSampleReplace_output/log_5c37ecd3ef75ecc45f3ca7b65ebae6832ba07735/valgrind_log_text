@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (SpatialEpi_deepstate_test_ProbSampleReplace_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_output/5c37ecd3ef75ecc45f3ca7b65ebae6832ba07735.crash`
+TRACE: Running: SpatialEpi_deepstate_test_ProbSampleReplace_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prob values: 3.0402e-47 4.27117e+255 4.83272e-168 -4.53603e-296 -1.36241e+101 2.24482e-237 -4.16939e-302 -1.20774e-151 8.17077e+223 1.35966e+191 2.89571e+77 5.5809e-287 1.1679e+248 -2.58641e-225 -4.20067e-224 1.8051e+216 9.67629e-100 -3.62905e-95 1.19982e+67 2.40623e-261 1.75467e+103 3.78124e-109 3.46099e+22 1.08859e+178 -1.84613e+209 -4.68616e-61 -1.10511e+51 2.22579e+291 4.66e+190 -1.97655e-29 nan 3.67911e+293 nan nan nan 5.39858e+243 2.65876e-295 -6.20959e-86 8.35222e-44 0
+input ends
+==1807059==  If you believe this happened as a result of a stack
+==1807059==  overflow in your program's main thread (unlikely but
+==1807059==  possible), you can try to increase the size of the
+==1807059==  main thread stack using the --main-stacksize= flag.
+==1807059==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: SpatialEpi_deepstate_test_ProbSampleReplace_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_output/5c37ecd3ef75ecc45f3ca7b65ebae6832ba07735.crash crashed

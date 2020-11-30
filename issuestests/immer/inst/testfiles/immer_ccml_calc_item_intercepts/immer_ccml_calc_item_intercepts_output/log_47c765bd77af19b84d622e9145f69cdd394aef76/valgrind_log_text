@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (immer_deepstate_test_immer_ccml_calc_item_intercepts_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/immer/inst/testfiles/immer_ccml_calc_item_intercepts/immer_ccml_calc_item_intercepts_output/47c765bd77af19b84d622e9145f69cdd394aef76.pass`
+TRACE: Running: immer_deepstate_test_immer_ccml_calc_item_intercepts_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/immer/inst/testfiles/immer_ccml_calc_item_intercepts/immer_ccml_calc_item_intercepts_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+b_fixed values: 1.08308e+58 3.93610e-271 4.22191e+301
+2.90381e-227 2.24567e-34 4.41452e-120
+3.80410e-180 3.55278e-11 2.95359e+119
+2.34174e-115 6.16679e-52 1.71030e-165
+1.23757e-100 2.22070e+148 4.75977e+250
+2.93102e+209 2.85499e+211 4.53589e+178
+3.11996e+58 3.35394e-234 5.78694e+209
+4.11854e+236 2.21380e-202 7.14332e+136
+
+A_ values: inf nan -7.75116e+41 nan -1.59675e+190 nan nan
+par values: -inf -1.2176e-51 8.0095e-280 inf 3.84794e+298 7.58797e-172 -3.2481e-129 -5.34034e+184 1.45752e-172 7.29402e-135 -2.53335e+288 -3.70543e+125 inf -3.80701e+150 3.78289e+206 -6.26752e+207 -1.77568e+93 2.18968e-138 2.04423e-42 -1.33597e+233 -2.41061e+133 6.00426e-18 -4.45823e+272 -3.40548e-56 -7.06699e+161 -4.72299e-133 1.19916e-193 -3.77263e-233 -6.75082e+255 2.39729e+163 -5.97681e+68 -2.69288e+125 -1.71006e-140 -6.03455e+222 4.70266e-214 -2.10619e-281 -3.78657e+242 4.71734e+116 -1.55183e-293 -3.24602e+27 inf 1.54976e+246 1.02056e+56 -1.64889e-293 5.26867e-79 -1.7566e+134 0.00804323 2.65388e-117 1.36353e-68 -4.99043e+89 6.14642e+52 -1.54669e-156 7.72285e+158 -5.03756e-307 1.3562e+127 -4.5606e+233 8.64579e-92
+input ends
+TRACE: Passed: immer_deepstate_test_immer_ccml_calc_item_intercepts_test

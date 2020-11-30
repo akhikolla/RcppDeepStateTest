@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_sax_via_window_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/sax_via_window/sax_via_window_output/f693d25307c68d27eb152317fb389d183ab0c03d.fail`
+TRACE: Running: jmotif_deepstate_test_sax_via_window_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/sax_via_window/sax_via_window_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: nan 1.58492e+78 -4.46341e+60 -2.92757e+192 3.57836e-166 1.33844e+189 1.21982e+140 3.60373e+45 2.71769e+121 5.75997e-137 -inf 3.60692e+141 5.12763e+49 -1.66783e-90 -6.95807e+264 -513113 -1.62691e+59 -1.56121e-48 inf 2.47517e+63 2.29989e-205 -2.65943e-232 -5.73166e+169 -3.01776e+42 -5.68646e-112 2.13772e-224 -2.93681e-174 -1.95454e-268 -4.81759e+240 2.38394e+222 -5.81635e+30 2.28633e-306 9.98597e-10 -2.03223e-74 -9.11462e+210 1.16831e-32 -2.10493e-235 1.10407e+214 -8.32653e-170 nan 4.61852e+48 -2.03141e-96 -1.77985e-18 nan 4.45792e+118 7.82488e-259 6.47395e+249 -7.73096e-113 1.70867e+241 -3.33881e-217 -1.92481e-52 -5.42462e-107 3.95315e+118 -1.04181e-255 -1.48743e+276 7.82579e+257 -3.90224e-282 2.7233e-253 -3.09404e-291 -1.48317e-33 -1.19233e-138 -1.48242e+21 7.15676e-113 5.7263e+175 -6.23227e+183 0
+w_size values: -1841273426
+paa_size values: -1311596773
+a_size values: 272780607
+nr_strategy values: "fvylaezejkepkghiubpa" "mxnyzfrxjnwoyetbdclr" "NA" "wrhnqpdjksyz" "xdfndrfyb" "NA" "hnnmmnsemjxphcfkrfwg" "NA" "dgbiktgirohfxssnekhc" "jmvjhfeqlcxlrxrdaoqv" "NA" "koygplfy" "NA" "NA" "oungbxcumlotezyekkfw" "juwuhshvplhzddkztotn" "wyjnneqpjtuaqbmbfgmk" "uxdjqypirfqi" "wunfngghhsu" "hhxpgdfhptvigrzdtv" "cfnchmociyulwvdklbzv" "sqqedtnzbycysypbwpvu" "NA" "xvfbxbkxyctussmsuvxj" "gfakcrhdqmcfkjhnzmat" "yklndgvplxtuwugolbqy" "qivrvxssalgqhezjvnyf" "NA" "hftgnqapbonteozwurkf" "eofmrdjsuvocadwtazmn" "ngtqdniyjrxaiwppwron" "NA" "gaoeowijlxvttihtrjzq" "qbjmcfeka" "NA" "NA" "t" "tcbtffxckrgobuhaauk" "eutobhtzpdtwggscnrco" "pjsdwfqsvxailihrolsk" "waffgvcnczddalbentpp" "bbvket" "yknlrpkk" "NA" "l" "arotn" "NA" "NA" "NA" "tkferhmfuptztfxnuznr" "NA" "ukjjjrbzaqrciwctjlcl" "NA" "vixnfvkfp" "ivacrjzdtbufhovmxbdb" "NA" "mtnmhhvoy" "yzocwjarrpkrjuyjv" "raabenhsijknoklexkvs" "kheorhlyrpak" "NA" "wywekjm" "tgdxearvkknxwlibskuc" "NA" "NA" "fsycmdizwvumyypxpdgr" "NA" "vuwuqevhiuwyajmemagk" "NA" "xuvvnosyudqf" "qgtblubwfdjckdxnghhl" "yvznl" "xrmipiqdiknckinj" "NA" "NA" "lejxzdbfrtlagtbdnif" "NA" "NA" "NA" "cohaacf" "hzjzhklobgynofprglxn" "paesjlmmwkdrvsgox" "NA" "NA" "jkxazdfqycyqqgizuoul" "NA" "xuqthkyu" "r" "nldzkfnjxvwxzkire" "NA" "vipvdrqa" "NA" "NA" "qsttfaofydptkuiclonv" "huxpodquvqcmmflr"
+n_threshold values: -9.37206e+81
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=95].
+ERROR: Failed: jmotif_deepstate_test_sax_via_window_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/sax_via_window/sax_via_window_output/f693d25307c68d27eb152317fb389d183ab0c03d.fail failed

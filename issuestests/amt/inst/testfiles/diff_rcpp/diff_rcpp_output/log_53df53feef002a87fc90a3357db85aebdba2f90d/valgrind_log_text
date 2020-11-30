@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_diff_rcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/diff_rcpp/diff_rcpp_output/53df53feef002a87fc90a3357db85aebdba2f90d.pass`
+TRACE: Running: amt_deepstate_test_diff_rcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/diff_rcpp/diff_rcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+xs values: 5.25145e-64 3.9948e-174 1.56544e+241 7.39022e+119 2.32812e+40 -7.1028e+92 -1.35687e+130 4.70631e-198 8.89428e+291 -1.37304e-127 1.53406e-71 -1.49632e+85 1.45204e-82 7.39022e+119 -0.0314951 2.0392e+149 -9.44023e-91 3.39428e+222 2.45261e-281 -1.32522e-228 -3.1145e-292 -3.93329e+179 -1.36868e-248 nan 1.28763e+191 8.39627e+63 -4.53378e+282 -3.16516e-23 -2.24587e+151 9.12511e+257 5.32731e+57 -7.46263e+217 -6.93328e-153 1.0599e+88 6.69823e+290 -1.81462e+292 -3.72589e-274 -3.46555e+118 2.14271e+133 -2.60181e-22 1.52943e-282 1.55446e+205 -5.81989e+163 -4.97952e+53 1.01545e-94 7.09421e-249 -2.23259e+112 3.73528e-193 -3.20095e-195 nan -1.09421e+77 -3.34479e+300 2.62496e+53 -3.28356e-223 -5.05781e+63 -4.03269e+29 -1.90269e-52 -3.2702e+284 -9.14108e+255 -4.94036e-123 -3.03433e+56 4.61688e+193 -5.5983e-207 -1.26687e+135 -8.29549e-254 0
+input ends
+TRACE: Passed: amt_deepstate_test_diff_rcpp_test

@@ -1,0 +1,31 @@
+WARNING: No test specified, defaulting to first test defined (ProjectionBasedClustering_deepstate_test_klrank_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/klrank/klrank_output/09e2ebd04c9bbaea46ba3dbda4267a3831a1d711.crash`
+TRACE: Running: ProjectionBasedClustering_deepstate_test_klrank_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/klrank/klrank_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Data values: 7.35736e+165 9.50905e+305 8.21428e-195 1.25905e+122 1.31749e+106 5.00169e+169
+5.64263e-238 8.15744e-190 8.78104e-98 2.84845e+166 6.02877e+212 3.27766e+158
+4.85970e+247 9.16322e-108 5.89422e-95 1.96415e+16 6.43797e+24 1.80622e+292
+3.90484e+77 1.58410e+153 2.82587e+118 1.38799e-121 2.31946e+53 3.37632e+50
+1.91624e-135 6.54610e+245 2.95814e-211 1.31897e+11 2.09480e-83 2.69736e-289
+2.34623e-297 3.02016e+265 6.87021e-118 1.95827e-62 4.83996e-286 1.45896e+84
+1.23149e-23 1.79617e-211 2.82156e-300 4.17111e-262 7.76198e+39 6.59102e-31
+1.14251e-138 2.61097e-20 3.74265e-115 2.29045e-189 3.94941e+90 1.15285e-223
+1.93670e-37 1.47430e-185 1.24884e-157 3.10677e+257 3.45916e+263 4.36957e-157
+1.09753e-88 3.27103e-130 4.44958e+108 7.95387e-271 5.91569e-282 6.27475e+75
+
+pData values: 1.91832e-201 2.66659e+69
+3.40009e-97 1.69994e+258
+7.75147e+167 2.29146e+158
+1.21652e+274 5.74167e-257
+
+NeighborhoodSize values: -310103327
+input ends
+==1807879==  If you believe this happened as a result of a stack
+==1807879==  overflow in your program's main thread (unlikely but
+==1807879==  possible), you can try to increase the size of the
+==1807879==  main thread stack using the --main-stacksize= flag.
+==1807879==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_klrank_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/klrank/klrank_output/09e2ebd04c9bbaea46ba3dbda4267a3831a1d711.crash crashed

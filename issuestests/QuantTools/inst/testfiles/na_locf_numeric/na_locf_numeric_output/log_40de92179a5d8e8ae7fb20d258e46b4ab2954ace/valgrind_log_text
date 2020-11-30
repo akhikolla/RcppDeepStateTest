@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (QuantTools_deepstate_test_na_locf_numeric_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/na_locf_numeric/na_locf_numeric_output/40de92179a5d8e8ae7fb20d258e46b4ab2954ace.pass`
+TRACE: Running: QuantTools_deepstate_test_na_locf_numeric_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/na_locf_numeric/na_locf_numeric_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.80642e+119 -4.52271e-206 nan -6.33826e+178 -2.10954e+123 3.87566e-40 -1.09595e-115 6.22586e+248 -8.53035e-81 2.09009e-268 -3.18377e-226 -1.76524e-270 7.07505e+172 -1.7708e+106 -1.72008e+239 nan nan 5.10464e+51 3.54957e-166 9.0266e+11 -1.07609e+215 -1.89733e-273 2.79023e+139 -1.22647e-80 -1.20847e+63 -5.23243e-188 -1.38485e-59 -5.9842e-218 -1.20078e-147 7.69705e-81 5.17807e+289 3.14612e+155 nan
+input ends
+TRACE: Passed: QuantTools_deepstate_test_na_locf_numeric_test

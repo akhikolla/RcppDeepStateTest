@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_summ_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_summ/rcpp_summ_output/44930a5777e3c40fb3b84a3203b3410859c631db.pass`
+TRACE: Running: NHMM_deepstate_test_rcpp_summ_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_summ/rcpp_summ_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+A values: 2.10340e-48 2.38371e-90 2.17011e+92 1.87423e+234 2.47643e-76 1.08558e-271 6.11808e+14
+8.89224e-234 3.60227e-177 0.000808987 3.12513e+273 2.50915e+167 4.30428e-138 3.98547e-15
+7.92910e+31 4.90445e-23 2.00416e-107 4.36422e+76 1.04427e-143 7.74865e-302 1.32726e+286
+6.16732e-83 6.23640e-57 2.30951e-290 1.45350e-125 1.10335e+294 8.59549e-216 1.28546e+179
+
+input ends
+TRACE: Passed: NHMM_deepstate_test_rcpp_summ_test

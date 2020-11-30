@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (ipft_deepstate_test_ipfLGD_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ipft/inst/testfiles/ipfLGD/ipfLGD_output/0ffe203bcfe9aceb90c36e8d3e25d79e79c99f45.pass`
+TRACE: Running: ipft_deepstate_test_ipfLGD_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ipft/inst/testfiles/ipfLGD/ipfLGD_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+train values: 4.33715e+265 4.49044e-238 9.31101e+134
+2.42423e+169 9.36255e-129 2.43192e-25
+
+test values: 5.81119e-188 2.02430e+116 2.01393e-69 6.77715e-251 1.86203e-13 1.15056e-177 2.26780e+230 1.41141e+38 3.25574e-307 6.44841e-88
+9636.38 4.64507e+122 8.33813e+136 5.94808e+133 2.46370e-59 7.20570e-301 1.24239e+223 1.52576e+189 1.52100e+109 5.26081e-260
+2.29318e-113 2.89485e-279 5.43608e+257 3.32165e+215 4.13810e+148 8.16864e-150 4.34891e-194 7.67765e+113 8.58955e-162 6.37032e+134
+2.50662e+272 4.72597e-176 1.20321e+258 2.14497e+57 2.18102e-45 4.49949e+181 6.05222e+176 6.64553e+267 3.78515e-139 1.38407e-148
+1.72258e+233 2.21859e+110 3.86926e+211 1.46270e-21 6.78292e+285 4.02929e-76 1.80039e+115 3.11221e+109 1.58523e+206 2.35902e+221
+2.52325e+36 9.23250e-225 2.42054e-18 1.07910e-223 3.13489e-127 4.99592e-82 1.67993e-227 7.13453e-58 3.73912e-268 2.48192e-175
+
+sd values: 1.10605e+222
+epsilon values: -2.53759e-13
+input ends
+TRACE: Passed: ipft_deepstate_test_ipfLGD_test

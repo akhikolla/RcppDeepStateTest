@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_rowSums_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/rowSums_C/rowSums_C_output/010a17c1fd8ae780488d4d6b3d1f220240c57877.pass`
+TRACE: Running: BoostMLR_deepstate_test_rowSums_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/rowSums_C/rowSums_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.56862e+40 8.68112e-122 2.70203e-241 8.74695e-231
+1.02088e+78 1.83544e-127 5.71714e+221 1.91943e+253
+3.10532e+259 2.35364e-146 7.05449e-52 3.14826e-140
+6.78893e+295 8.46788e+113 2.51121e+38 8.35399e+196
+5.49037e+301 4.50906e-169 5.41922e-98 8.94133e-250
+2.08356e-274 2.85088e+224 9.39009e+173 1.57157e-104
+4.51029e+238 2.31981e+94 2.85021e+177 7.51642e-93
+8.69633e+307 1.28629e+242 3.50012e+185 1.51966e+159
+1.64798e-100 7.42007e-248 4.02226e+42 7.36202e-228
+1.10836e+119 3.65435e+107 3.63968e+110 2.09753e+178
+
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_rowSums_C_test

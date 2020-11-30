@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (surveysd_deepstate_test_ipf_step_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/ipf_step/ipf_step_output/1d440923ef493b4b22b1cc8473158b3987d80fbe.fail`
+TRACE: Running: surveysd_deepstate_test_ipf_step_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/ipf_step/ipf_step_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+w values: 
+classes values: 728304678 -588916038 -1064764376 487620775 317037166 -294385123 -1943397016 267854394 1613717679 -867885683 -837175829 691376699 439134473 -1582094803 -582773268 1001858715 -427406669 -865648486 -2131393111 706208836 1133333988 -588916038 -1213855246 1580174660 -1227294846 1060576448 748775766 -1202807813 -605495268 1559312659 -1740438026 1922185768 1781705386 1774611094 1741941791 562502653 1895504332 -330113148 -1780188664 1991586017 -405042352 -1577720311 -925685526
+targets values: 1.03343e+82 nan 4.64345e-222 -1.74611e+141 nan -2.37645e-304 3.68576e-299 1.37407e-170 5.17267e-42 nan inf 2.75197e-123 1.11196e+283 -2.13887e+64 2.41318e-35 0
+input ends
+EXTERNAL: Not compatible with STRSXP: [type=NULL].
+ERROR: Failed: surveysd_deepstate_test_ipf_step_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/ipf_step/ipf_step_output/1d440923ef493b4b22b1cc8473158b3987d80fbe.fail failed

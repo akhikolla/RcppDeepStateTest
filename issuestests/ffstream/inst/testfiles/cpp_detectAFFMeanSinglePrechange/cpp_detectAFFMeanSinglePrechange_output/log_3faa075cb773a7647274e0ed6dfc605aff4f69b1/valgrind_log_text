@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectAFFMeanSinglePrechange_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectAFFMeanSinglePrechange/cpp_detectAFFMeanSinglePrechange_output/3faa075cb773a7647274e0ed6dfc605aff4f69b1.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectAFFMeanSinglePrechange_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectAFFMeanSinglePrechange/cpp_detectAFFMeanSinglePrechange_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -2.63721e-111 8.40736e-207 -9.23339e+80 -1.24999e-242 -4.75424e+181 2.33547e-130 8.06101e+251 9.06862e-296 4.15488e+291 3.26083e-209 -1.77432e+217 3.70241e-220 -4.95774e+64 nan 4.25194e-125 1.41529e-12 2.12304e+222 3.2184e+109 -1.92445e+257 1.82374e-270 -8.09851e+94 3.37318e+137 1.8788e+234 -4.60945e-41 4.15046e-181 4.08441e-13 -2.06531e-179 1.08609e-145 -6.19655e+168 nan -1.31567e+32 nan 8.67225e-60 -1.71634e+264 -1.20658e+12 -1.00805e-261 -8.1763e-160 -3.05785e-307 2.18971e-183 5.50383e-282 5.90154e+165 -1.64521e+209 4.7117e-197 -4.92809e+59 8.18538e+51 -2.77553e-61 -2.31807e-220 -2.33414e-273 -1.85429e-129 4.85205e-308 nan -1.83689e-214 -2.23954e+274 4.25547e+173 -9.3671e+19 -4.36011e-201 -2.2881e-194 4.37491e-205 1.37424e+74 2.66636e+12 -1.14812e+26 0.0257777 4.75333e+10 -1.25489e+111 -3.04525e-150 3.84334e-142 -2.29648e+21 6.76982e-37 3.84862e-97 -1.02571e-282 0
+alpha values: -3.21546e-249
+eta values: -3.15263e+194
+prechangeMean values: -3.25789e+292
+prechangeSigma values: -1.31487e-307
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectAFFMeanSinglePrechange_test

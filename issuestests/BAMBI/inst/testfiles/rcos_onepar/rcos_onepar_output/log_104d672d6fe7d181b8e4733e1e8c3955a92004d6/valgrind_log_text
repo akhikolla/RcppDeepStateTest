@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rcos_onepar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_output/104d672d6fe7d181b8e4733e1e8c3955a92004d6.fail`
+TRACE: Running: BAMBI_deepstate_test_rcos_onepar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1213044206
+k1 values: 1.72695e-186
+k2 values: -1.05912e-106
+k3 values: -1.1575e-120
+mu1 values: 1.0615e+244
+mu2 values: 1.33769e-163
+I_upper_bd values: 3.57707e+94
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_onepar_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_onepar/rcos_onepar_output/104d672d6fe7d181b8e4733e1e8c3955a92004d6.fail failed

@@ -1,0 +1,26 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/78e3a5a0230081b14275a46e2ac31b4833bd85da.crash`
+TRACE: Running: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.15314e+179 4.43485e-109 4.73089e+197 1.13676e+182 1.54369e-86 1.53828e+117 3.52696e+141 4.16452e-180 3.78938e+245
+4.32836e+281 1.79331e+99 5.51060e-184 3.50507e+172 1.59754e+280 1.37999e-103 3.75097e-225 5.55603e+57 1.42286e-235
+3.46111e-61 8.03594e-236 3.36268e+18 1.36669e-48 7.90085e+62 1.20227e+280 4.24759e-137 8.31556e-259 9.73350e-273
+2.85176e+66 1.62610e+128 1.00355e-284 1.83071e-84 1.09415e+113 1.57630e-148 1.10091e-280 4.52576e-94 4.06748e-88
+3.80724e+199 1.04330e+58 7.41312e-143 2.61880e+108 1.00058e+22 2.65013e-179 5.17047e-164 7.54452e+215 1.71083e+120
+7.40793e+112 1.76787e-190 7.94032e-14 1.40829e+283 3.32942e+40 1.52467e-87 1.78865e+265 6.94974e-220 2.88998e-133
+2.28055e+152 3.09954e+151 1.19929e+286 4.82135e-118 1.98477e+229 1.50359e-116 8.06111e+181 4.24164e-168 6.25416e+16
+1.83552e-68 3.27045e+71 1.30620e-140 2.44098e-41 4.11969e+155 2.47313e+116 1.08826e-215 3.95062e-302 5.55504e-302
+1.10600e-257 1.47250e-226 0.0193000 1.52935e+24 2.27449e+227 2.66278e+58 1.40007e+240 1.55554e+95 5.08423e-189
+
+i1 values: -959186696
+i2 values: 94118594
+input ends
+==1891684==  If you believe this happened as a result of a stack
+==1891684==  overflow in your program's main thread (unlikely but
+==1891684==  possible), you can try to increase the size of the
+==1891684==  main thread stack using the --main-stacksize= flag.
+==1891684==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX_i1_i2_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX_i1_i2/partial_d_dist_dX_i1_i2_output/78e3a5a0230081b14275a46e2ac31b4833bd85da.crash crashed

@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (icensmis_deepstate_test_loglikB_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/loglikB/loglikB_output/405dcf5c8c4a00f249724037c521f503561156dd.pass`
+TRACE: Running: icensmis_deepstate_test_loglikB_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/loglikB/loglikB_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+parm values: 1.0774e-300 -1.1333e-27 -5.09708e-68 -4.09911e+291 -1.8397e+114 2.32361e-68 5.63575e+266 3.1398e+220 -2.47776e-291 5.98884e+82 5.96264e+200 -4.19662e-225 4.17107e-09 5.8912e-107 3.94757e+95 -1.25483e-201 -7.28799e-95 inf nan -1.13794e+294 2.79374e-269 6.10445e+209 -0.668472 -1.00592e-25 2.84038e+275 3.64077e+42 1.9397e-81 -2.71746e+106 2.50313e+291 1.18712e-246 6.11416e+275 1.98995e+194 6.99816e-38 -inf -1.79933e-229 1.26805e-198 -3.59693e-68 -6.00864e-251 4.82361e+70 4.32745e+107 1.22272e-55 -3.61783e-175 3.3903e+121 7.24113e+48 -1.16838e+117 3.58567e-29 -2.63675e+60 -1.50722e-05 -4.24576e+292 2.6196e+166 nan -9.0044e-46 -1.15485e-239 2.20002e+23 8.03305e+46 2.78168e+285 -9.62307e+269 -7.16791e+261 0
+Dm values: 2.03348e-306
+1.01018e+248
+1.86587e-180
+4.56415e-23
+4.29131e-79
+3.44460
+
+Xmat values: 1.42714e-208 2.04820e+178 1.26399e+289 1.26656e-291 6.01795e+287 2.80840e-188 5.28140e-210 6.23102e+13
+2.14078e-292 3.36926e+146 32259.7 1.46520e-140 5.56918e-176 4.03640e-127 5.89923e+11 1.04963e+278
+2.31808e-180 8.37496e+114 751.656 1.28401e+153 4.82974e+118 4.61337e-174 1.25645e-237 3.91392e-104
+
+input ends
+TRACE: Passed: icensmis_deepstate_test_loglikB_test

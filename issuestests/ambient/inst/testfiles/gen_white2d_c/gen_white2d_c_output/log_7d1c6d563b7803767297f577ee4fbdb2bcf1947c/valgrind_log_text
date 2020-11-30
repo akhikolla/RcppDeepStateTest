@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_white2d_c_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_white2d_c/gen_white2d_c_output/7d1c6d563b7803767297f577ee4fbdb2bcf1947c.pass`
+TRACE: Running: ambient_deepstate_test_gen_white2d_c_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_white2d_c/gen_white2d_c_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -6.32622e-34 8.38219e+89 3.04081e+122 1.53058e+211 -1.39147e+125 nan nan -8.48672e-215 -1.6954e+281 -6.81533e+236 2.60938e+107 inf 1.70926e+95 1.96863e+41 3.04081e+122
+y values: -2.4446e+11 -6.88942e-81 4.20605e-281 3.87317e+12 2.08678e+220 1.3393e+116 nan 1.72014e+69 -1.21475e-234 -1.46538e-295 2.26746e-262 4.4672e-244 -4.29601e-185 2.87205e+181 2.7127e+220 1.51885e-115 4.16788e-204 -3.03153e-56 7.13154e+173 8.24054e-226 -8.65681e+106 -2.83014e-291 -1.93482e+192 1.14528e+199 -2.47764e+129 3.18623e-147 1.90119e+276 -5.7382e+298 -inf 9.98616e-307 5.4728e-76 2.08899e+40 8.18679e+173 1.87406e+267 1.72261e+225 7.23068e-16 -1.36227e+307 6.31992e+280 -0.0280081 -2.74222e-46 -5.95174e-193 -inf -7.65487e+14 4.5966e-163 5.52653e-231 4.82139e-54 -1.38293e+154 -1.68422e-47 8.66948e-160 -1.17347e-235 nan 2.72839e+172 5.4192e-33 2.1882e-288 7.63213e-15 -1.54427e+135 -9.73237e+291 2.68999e-291 -2.50906e-257 nan -8.37439e+186 2.41409e-291 -6.69074e+242 1.46522e-256 0
+freq values: 1.91218e+201
+seed values: -1902020297
+input ends
+TRACE: Passed: ambient_deepstate_test_gen_white2d_c_test

@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (PP_deepstate_test_r_huber_gpcm_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/r_huber_gpcm/r_huber_gpcm_output/d39dbdea3614559195928163e62ce56c8094d7e0.pass`
+TRACE: Running: PP_deepstate_test_r_huber_gpcm_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/r_huber_gpcm/r_huber_gpcm_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+delta values: -4.12991e+112 -4.21434e-227 2.99326e+13 2.05457e-194 -1.99174e+219 -1.39537e-76 -4.68021e+265 10163.7 -3.45192e-106 8.31577e-277 -7.5441e+22 4.80321e-227 -9.58115e+69 -1.03911e-29 -4.45468e-253 nan -4.50797e-251 2.75402e+281 -8.6576e+165 -1.78005e+74 -8.1111e-166 -2.41198e-250 -7.74811e+203 -1.53397e+294 7.2583e+296 inf 8.60663e+147 9.89673e+275 -inf -4.68584e+145 2.60472e+46 4.41696e+38 8.00204e-53 -1.95691e-227 9.44114e+271 -1.90254e+65 -7.6879e-250 1.87095e-114 -2.35715e+193 2.86957e-43 -5.16699e-163 1.33099e-138 -4.78354e+111 -1.0532e-149 -2.74968e+15 2.35402e-300 2.09858e-121 -5.65264e-217 nan 6.88235e-97 2.34153e-181 8.88705e-131 -nan 3.28848e+12 -1.93966e+230 -2.65949e-107 1.56228e+17 -7.26869e-301 -1.70111e-305 5.77922e+224 2.32799e+226 -1.46623e-179 -1.8506e+295 -1.1468e+51 -1.04245e+98 5.21268e-211 3.76915e+297 -1.08619e-93 1.86207e+257 4.77035e+50 -2.84584e+29 1.01255e+141 1.94051e+199 -2.2668e+103 -7.17621e-277 -7.25882e+92 1.85869e-294 1.61688e+280 6.45981e-277 -1.82367e+214 -2.14413e-277 9.85884e-282 -6.44985e+194 -3.21525e-298 1.50768e-98 -5.78924e-09 4.32145e+50 -2.57977e+152 2.80088e-118 5.80149e+212 2.75217e+198 -2.97823e-72 0
+alpha values: 1.67056e+278
+theta values: 3.86257e-230
+H values: -5.18643e-51
+input ends
+TRACE: Passed: PP_deepstate_test_r_huber_gpcm_test

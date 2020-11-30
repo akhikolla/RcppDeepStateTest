@@ -1,0 +1,88 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677504
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_wkt_translate_wkb_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "NA" "vvlgzxllrphzakwlbzdu" "pvvny" "oyvckmdyuhqdbnhwhwat" "uaooscgbrvjzffwidez" "wlvaflqmbjavwgsfobyc" "tgkpgublmbcljvkdcjxz" "prgwfdaiiocdrmrmprlo" "wafbijcievacnjvb" "phyehsjrmpqkxlxxskwc" "dzbmhrybpjfvrcgqd" "amrlludlwvcyfsbdokai" "vvjwihukrurbylqwrnwl" "gltmgvaaqubgoadrpibx" "NA" "iqyyxkboifdlgavliapy" "ziboscysdfgyythknngr" "NA" "ibzdkob" "" "NA" "NA" "" "cizkqtunaqnfqmrqzojx" "NA" "ktgdvfcrep" "NA" "dmfwg" "nwcxifnuhpn" "teqkbispcowbpecufjcr" "ellewsxoavlwlkdj" "NA" "NA" "yxnazmvtoqmwnnvhgqam" "NA" "nqlxaesvazlxlsicfaws" "mmvynh" "qzzin" "NA" "ednxhl" "xqsimieraunttigbqgiu" "NA" "NA" "qlekdpmvsdtgnbpqzhds" "kghytsktykhshfwrkkyl" "ghmkdayhoocbfvbyitud" "NA" "imaa" "uevb" "xcdhtrueqqvnmsnyvmgb" "pevonvcxelkpaylwyjoj" "itnpz" "jxvhzvlqhllrjjvtql" "noclddtobazcmzamssqt" "azdhxvfnubbfuommrlos" "hwkejvuhuhfgupw" "nbqqygtmketfhymobsoi" "eawjirprnkhjemgcsrht" "maffiinvsxftohqzzkkt" "NA" "l" "NA" "NA"
+includeZ values: 858014754
+includeM values: -1352957690
+includeSRID values: -549336940
+endian values: -735579587
+bufferSize values: -1247316966
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Attempt to set zero or negative buffer size
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/f7f4b8a36de7169327dab22b9f43f0de7c224c5b.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "hckunuozxkyb" "NA" "bkmpyvzvgphohp" "dpsttqlwpfyegiwaxupx" "mglvkf" "lsoymxtfli" "NA" "bxuspdcfv" "yfjmzdsiijuzqeowttrz" "NA" "NA" "NA" "fvlikdkrgdwafmwjhhno" "NA" "wznyhrwepuotlkkcbmwb"
+includeZ values: -5168524
+includeM values: 439104111
+includeSRID values: -930991262
+endian values: -423929257
+bufferSize values: -2028780275
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Attempt to set zero or negative buffer size
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/2f09ed87c6105fac722f9bd83c8b139329d17583.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "NA" "nhjpnyagrcwru" "owcyixvjhmsbxsozgxok" "clanvcjeib" "NA" "NA" "extvnighqwwvhbrbsaeg" "NA" "vkezwomtckxdtqdgufaz" "watiimnarrzpbbqtdjlj" "qxmorqekhrftiztqnbap" "NA" "nxbq" "l" "NA" "xcnezzbcvgcrmtuikree" "NA" "NA" "lydtitthysrraladulxg" "lgcoelbjehlglgnegagp" "mvqzhkxtoxxlk" "NA" "aqubboyndtsyryzub" "NA" "xnepwple" "tryncrel" "NA" "NA" "xqozpiqiyiefyitthjze" "oqrjjas" "NA" "ozkzqoclklahmydri" "NA" "NA" "nmymxvwyjsidxpgsafiu" "qbakdeblwbyug" "NA" "NA" "rgorhcijcxvfqekevgyg" "NA" "ymfluxhasewxnppkswac" "yzgfmyifhrifpsolpvvj" "NA" "enqofltyivpmzgysfhjm" "NA" "ejmzf" "twpzabsnphkqnkphsjsb" "envftobjgsskdomaxyak" "NA" "ewphlcckohisiiboouuj" "NA" "sqkkuxkoataknvikjbth" "" "lkiwsrajcafasqtcetzf" "xfxsdcjtxkatfssuvves" "htwmqzualmssdwcmbbne"
+includeZ values: -164154306
+includeM values: -212188125
+includeSRID values: -960150290
+endian values: -114892619
+bufferSize values: 44657378
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'nhjpnyagrcwru' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/2aebdcedc0106a5f304cca0d0416c0cebaa87863.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: 
+includeZ values: -620432556
+includeM values: 2135549767
+includeSRID values: 2026185621
+endian values: -1871382132
+bufferSize values: -418664588
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Attempt to set zero or negative buffer size
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/6160d59ea540aeb9d0c99baf8b1af3b541517ff1.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "xpljguulpognfiufbap" "cusjllai" "NA" "NA" "NA" "cvsjffggwrvfmlloaqaa" "hsfapykupxlcebkujpht" "NA" "c" "hgcbvjobet" "NA" "NA" "NA" "kwuspiopdlbmrkmsbjou" "fvohrn" "NA" "NA" "NA" "ryymbduxkmaesgpykzmx" "yqimdzsagokahg" "NA" "nrgknswsahehmdghfx" "ikvhkknkfcfrgldtohqk" "vtyyeazv" "bhpysdqjdlrtjkltpdip" "kggqfyoavsyjklkxhhbe" "bkeiqolksthltdqyvqza" "NA" "khkztxr" "NA" "rljrziatjyxzgnfxztuy" "ufngvfskvbprvxizakht" "atptzjpzqljrwy" "msbmerjkvoetk" "NA" "NA" "zkjjjxwqyhiasrvsbxlw" "cmjakvg" "pwlgbtxjnleuxgtyulxz" "hesmbcwxhxyyzhsqgxkc" "sr" "djrakfzvjzmwufojugpp" "fjceiwnkabdkwawxahys" "ewnvgteakyrvoiwurcth" "NA" "epjgbtswodapfvjudtbf" "NA" "gmwjbycxamcausfjtxzu" "cxwtydpnqtdrtourqnvt" "ytzxcgytngdnhogourgr" "gklgslh" "pubiafoshybeishm" "NA" "rmvewekdfv" "NA" "xakepcjkngzjfjbxqfqt" "twwhc" "tngnawyxxalxrczilcfp" "jlt" "rssu" "NA" "rveakefjhbgzmsxwjicr" "NA" "eyzgoi" "nngcguexitbxntcpe" "yfoepsgkeqrxzbkutpgq" "lejfudtzcdltuciuurzj" "NA" "zk" "NA" "NA"
+includeZ values: 233046352
+includeM values: 378009996
+includeSRID values: 1483711004
+endian values: -716417885
+bufferSize values: -1359520206
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Attempt to set zero or negative buffer size
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/1d5c4963c51b4612104f843acfb40161fbd34361.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "NA" "utxbshljpslfyeoktknd" "dcxoig" "rwxoekvcdzptffumsscn" "NA" "NA" "NA" "NA" "ufhnmtjcucgdmidmqes" "NA" "xngmxisazjiltoksbxtk" "bqhefzxvtowxpvotvjws" "lwpweigxyslz" "wpicgezaogertr" "yuot" "NA" "niuhvcikmgdapnwbxogg" "ewlvqdldjvqumfxeqke" "NA" "NA" "NA" "NA" "oumasqpzrnyejaoalcsc" "puxxpdssrzbtmudmrfym" "oxswqtrunoiuzzbxnkpa" "NA" "jvneucyrdzdimxujshgo" "NA" "NA" "kdgrxuhcraw" "NA" "fuswzsxdzbxsstxfmvmp" "NA" "NA" "NA" "NA" "cafbxlnascvpnrnqlttr" "NA" "qm" "xwztujpjzwxdmagzcfnr" "creby"
+includeZ values: -1579406054
+includeM values: 703738218
+includeSRID values: 686655654
+endian values: -424515230
+bufferSize values: 1132113400
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'utxbshljpslfyeoktknd' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/c74f7be60a296f373c5d44444d0b4aa11e099ff9.fail`
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 6 failed/0 passed/0 abandoned tests

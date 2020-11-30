@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./llrandpoiscpp_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/322a024210c01d710cad2b499ec5a3ad6c76ec8f.pass</line>
+</preamble>
+
+<pid>1787716</pid>
+<ppid>1787715</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/log_322a024210c01d710cad2b499ec5a3ad6c76ec8f/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./llrandpoiscpp_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/322a024210c01d710cad2b499ec5a3ad6c76ec8f.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.027 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.641 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:08.125 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

@@ -1,0 +1,7 @@
+import("ggplot2")
+useDynLib(dslice, .registration = TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(stats, runif, sd)
+importFrom(utils, write.table)
+importFrom(Rcpp, evalCpp)
+importFrom(scales, percent)

@@ -1,0 +1,690 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./g_weib_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_output/16795224473068320b74ddd9862b83da953e752b.pass</line>
+</preamble>
+
+<pid>2179145</pid>
+<ppid>2179144</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_output/log_16795224473068320b74ddd9862b83da953e752b/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./g_weib_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_output/16795224473068320b74ddd9862b83da953e752b.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.092 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4383A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>pow.h</file>
+      <line>36</line>
+    </frame>
+    <frame>
+      <ip>0x4383A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/operators</dir>
+      <file>times.h</file>
+      <line>71</line>
+    </frame>
+    <frame>
+      <ip>0x4383A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/operators</dir>
+      <file>times.h</file>
+      <line>71</line>
+    </frame>
+    <frame>
+      <ip>0x4383A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>get</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>sum.h</file>
+      <line>65</line>
+    </frame>
+    <frame>
+      <ip>0x4383A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator double</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>Lazy.h</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x4383A4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>g_weib(double, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/src</dir>
+      <file>mixCpp.cpp</file>
+      <line>839</line>
+    </frame>
+    <frame>
+      <ip>0x41875C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x963b4c8 is 0 bytes after a block of size 424 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x49CA3E4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_allocVector3</fn>
+    </frame>
+    <frame>
+      <ip>0x41A70D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::Vector(int const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0x41717A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>RcppDeepState_NumericVector()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState</dir>
+      <file>include/RcppDeepState.h</file>
+      <line>44</line>
+    </frame>
+    <frame>
+      <ip>0x418369</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>22</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4383B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/block</dir>
+      <file>Vectorized_Math.h</file>
+      <line>38</line>
+    </frame>
+    <frame>
+      <ip>0x4383B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/operators</dir>
+      <file>times.h</file>
+      <line>71</line>
+    </frame>
+    <frame>
+      <ip>0x4383B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>get</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>sum.h</file>
+      <line>65</line>
+    </frame>
+    <frame>
+      <ip>0x4383B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator double</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>Lazy.h</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x4383B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>g_weib(double, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/src</dir>
+      <file>mixCpp.cpp</file>
+      <line>839</line>
+    </frame>
+    <frame>
+      <ip>0x41875C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x963b4c8 is 0 bytes after a block of size 424 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x49CA3E4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_allocVector3</fn>
+    </frame>
+    <frame>
+      <ip>0x41A70D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::Vector(int const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0x41717A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>RcppDeepState_NumericVector()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState</dir>
+      <file>include/RcppDeepState.h</file>
+      <line>44</line>
+    </frame>
+    <frame>
+      <ip>0x418369</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>22</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x12</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x43843C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>pow.h</file>
+      <line>36</line>
+    </frame>
+    <frame>
+      <ip>0x43843C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/operators</dir>
+      <file>times.h</file>
+      <line>71</line>
+    </frame>
+    <frame>
+      <ip>0x43843C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>get</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>sum.h</file>
+      <line>65</line>
+    </frame>
+    <frame>
+      <ip>0x43843C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator double</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>Lazy.h</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x43843C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>g_weib(double, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/src</dir>
+      <file>mixCpp.cpp</file>
+      <line>840</line>
+    </frame>
+    <frame>
+      <ip>0x41875C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x963b4c8 is 0 bytes after a block of size 424 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x49CA3E4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_allocVector3</fn>
+    </frame>
+    <frame>
+      <ip>0x41A70D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::Vector(int const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0x41717A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>RcppDeepState_NumericVector()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState</dir>
+      <file>include/RcppDeepState.h</file>
+      <line>44</line>
+    </frame>
+    <frame>
+      <ip>0x418369</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>22</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1b</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4384A7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/block</dir>
+      <file>Vectorized_Math.h</file>
+      <line>38</line>
+    </frame>
+    <frame>
+      <ip>0x4384A7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator[]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/operators</dir>
+      <file>times.h</file>
+      <line>71</line>
+    </frame>
+    <frame>
+      <ip>0x4384A7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>get</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>sum.h</file>
+      <line>65</line>
+    </frame>
+    <frame>
+      <ip>0x4384A7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>operator double</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/sugar/functions</dir>
+      <file>Lazy.h</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x4384A7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>g_weib(double, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/src</dir>
+      <file>mixCpp.cpp</file>
+      <line>841</line>
+    </frame>
+    <frame>
+      <ip>0x41875C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x963b4c8 is 0 bytes after a block of size 424 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x49CA3E4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_allocVector3</fn>
+    </frame>
+    <frame>
+      <ip>0x41A70D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::Vector(int const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0x41717A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>RcppDeepState_NumericVector()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState</dir>
+      <file>include/RcppDeepState.h</file>
+      <line>44</line>
+    </frame>
+    <frame>
+      <ip>0x418369</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>22</line>
+    </frame>
+    <frame>
+      <ip>0x417FA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_mixR_deepstate_test_g_weib_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib</dir>
+      <file>g_weib_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4282A8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x428549</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x428624</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x416535</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/g_weib/g_weib_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:14.522 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>9</count>
+    <unique>0x1b</unique>
+  </pair>
+  <pair>
+    <count>9</count>
+    <unique>0x12</unique>
+  </pair>
+  <pair>
+    <count>9</count>
+    <unique>0x1</unique>
+  </pair>
+  <pair>
+    <count>9</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:15.520 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

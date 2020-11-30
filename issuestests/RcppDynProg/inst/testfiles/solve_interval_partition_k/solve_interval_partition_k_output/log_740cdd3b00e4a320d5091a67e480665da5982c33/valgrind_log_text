@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_solve_interval_partition_k_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_k/solve_interval_partition_k_output/740cdd3b00e4a320d5091a67e480665da5982c33.pass`
+TRACE: Running: RcppDynProg_deepstate_test_solve_interval_partition_k_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_k/solve_interval_partition_k_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.84208e-190 1.19913e-101 1.97337e-188 8.67100e+20 8.74426e-114
+8.22513e-20 8.25418e+262 1.57480e+13 2.22588e-82 5.56561e-126
+9.61596e-121 8.43402e-125 4.64824e-104 5.64624e+276 9.23467e-295
+2.26448e-299 8.90055e+227 9.08586e-67 5.08767e+20 2.83017e-120
+
+kmax values: -800953984
+input ends
+TRACE: Passed: RcppDynProg_deepstate_test_solve_interval_partition_k_test

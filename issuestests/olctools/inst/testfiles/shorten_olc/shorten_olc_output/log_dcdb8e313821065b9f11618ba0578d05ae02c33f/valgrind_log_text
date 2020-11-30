@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (olctools_deepstate_test_shorten_olc_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/olctools/inst/testfiles/shorten_olc/shorten_olc_output/dcdb8e313821065b9f11618ba0578d05ae02c33f.fail`
+TRACE: Running: olctools_deepstate_test_shorten_olc_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/olctools/inst/testfiles/shorten_olc/shorten_olc_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+olcs values: "fywdvghitnsznpvaflgf" "udfbsjsknuahzzyvlmbq" "jxabwaejnpituyxatlgn" "ncaakvmrtnpbbrnixdcs" "dcaekzodxmvntejbgwaa" "NA" "zfgbfvvwxkss" "NA" "paxzsgwdkpfcoywhmxxw" "ct" "y" "owrugrsz" "vcndiakkjogvnptmhkjt" "qsos" "vdbjysubqrkrojnvrfli" "spvlzeftqad" "zzlkvuvywqvjlzmkg" "" "caucrslneegxiozeaxq" "bunrbaazdqkvzqknkvsg" "jwhnjddwslzkisqvxnit" "NA" "qeke" "wnhjvuhalfgxropmpgfe" "NA" "" "NA" "NA" "vnicxnluaaymaknuvbsx" "NA" "NA" "txxpczgttjvbbanuw" "wytvxalhwnjwuknmnxyg" "NA" "NA" "NA" "NA" "xngixkpihtbiiwyaoduc" "zlypoxoftqdsctokdgpw" "w" "NA" "NA" "NA" "armfcjgrhavvsj" "NA"
+lats values: nan 1.92418e+08 7.28382e+269 -6.74489e+292 -2.35912e-75 -3.21061e-217 -2.32216e-236 3.6668e+53 -1.66174e-79 -4.31193e+73 -7.62168e+262 -inf -4.91647e-184 -4.95893e+117 -1.29281e+90 -1.0352e+140 -2.1053e+87 2.50139e+177 -5.54222e-196 nan 3.72221e-38 -1.78904e+28 -4.90928e+269 1.14992e-175 -4.87659e+122 -4.32131e+203 1.15764e+147 -3.43785e+174 3.71652e+143 -8.03677e+271 1.11414e+11 -4.10144e+164 -3.48412e-74 inf 4.2205e+261 3.0407e-103 2.42533e+252 5.69281e-33 -6.0086e+168 1.0563e+228 -3.62503e-202 5.79711e+10 -8.84016e+189 9.95142e-269 -2.0464e-84 2.03258e+274 -3.77098e+62 -inf 7.94044e-151 2.29437e+115 -1.26114e-272 1.51343e+177 -2.07611e+133 1.61879e+49 6.49636e-262 5.81977e-188 0
+longs values: -4.35519e+41 -inf -8.89103e+144 -1.19902e-30 2.31279e+227 3.12386e-289 4.76997e-08 2.0453e-175 1.05822e-186 -0.396918 6.13431e+74 -8.32082e+93 7.28969e-23 -5.52975e-272 5.10292e+263 nan -1.6303e-37 -5.74836e-159 0
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  There must be as many longitude values as latitude values
+ERROR: Failed: olctools_deepstate_test_shorten_olc_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/olctools/inst/testfiles/shorten_olc/shorten_olc_output/dcdb8e313821065b9f11618ba0578d05ae02c33f.fail failed

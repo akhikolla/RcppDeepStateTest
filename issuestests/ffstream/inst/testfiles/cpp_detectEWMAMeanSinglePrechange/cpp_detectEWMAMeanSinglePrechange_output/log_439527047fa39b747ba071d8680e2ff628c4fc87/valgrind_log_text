@@ -1,0 +1,3 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectEWMAMeanSinglePrechange_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectEWMAMeanSinglePrechange/cpp_detectEWMAMeanSinglePrechange_output/439527047fa39b747ba071d8680e2ff628c4fc87.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectEWMAMeanSinglePrechange_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectEWMAMeanSinglePrechange/cpp_detectEWMAMeanSinglePrechange_DeepState_TestHarness.cpp(10)

@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_kruskal_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/kruskal/kruskal_output/3edea9a9a3eb4a217cc044b9780312e40c2a5d3f.pass`
+TRACE: Running: BNSL_deepstate_test_kruskal_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/kruskal/kruskal_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+W values: 9.08161e-241 1.29812e+215 28251.0 5.35793e-185 2.38491e+30 1.66588e+273 4.99832e-255 2.30051e-288
+1.17726e+283 5.75538e+147 1.29701e+63 4.63455e-224 2.98383e-262 9.04484e+78 3.95245e-55 4.09867e-51
+5.35739e+255 3.10404e-305 1.63842e-40 6946.55 6.25727e-108 1.75151e+215 1.75855e+89 5.91278e-08
+2.45088e-252 6.95029e-62 3.32411e-305 4.18684e-219 8.87924e-151 1.30889e+260 2.73280e+237 1.20302e-62
+2.07269e-66 8.21026e-112 6.05431e-270 3.60678e+200 4.86500e-204 1.06511e-173 4.26405e+103 1.45601e+97
+1.86787e+106 1.45181e+117 5.87714e-233 2.06271e-224 4.84773e+89 2.78313e-260 3.02400e+60 2.61272e+83
+6.91849e+132 2.96022e+127 6.30996e-108 4.66397e+229 1.91382e-242 1.04359e-275 4.15159e+70 6.44222e-125
+3.09261e-06 8.97504e+38 8.20773e-98 2.61855e+300 8.44564e-97 1.03439e-131 2.33238e-172 4.73886e-166
+
+input ends
+TRACE: Passed: BNSL_deepstate_test_kruskal_test

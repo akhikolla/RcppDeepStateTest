@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_egamma_trunc_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/egamma_trunc/egamma_trunc_output/74a70b74842ead6ace5e4441718b3b6af01fc844.pass`
+TRACE: Running: mixR_deepstate_test_egamma_trunc_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/egamma_trunc/egamma_trunc_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: 1.56815e-218
+b values: 1.44518e-148
+alpha values: 8.6858e+153
+lambda values: 5.31135e+11
+input ends
+TRACE: Passed: mixR_deepstate_test_egamma_trunc_test

@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (signnet_deepstate_test_arcDistMat_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signnet/inst/testfiles/arcDistMat/arcDistMat_output/38c8a7c52a961cd334dc54c9ebe246f8eb082ce5.pass`
+TRACE: Running: signnet_deepstate_test_arcDistMat_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signnet/inst/testfiles/arcDistMat/arcDistMat_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 3.56063e+220 8.05136e-203 2.16531e-91 3.11354e-193 1.96959e+61 2.93710e+59 9.23665e+53 3.07618e-17 2.51076e+56
+6.65270e-52 5.84037e-41 1.99052e+62 2.30508e-92 1.47671e+160 8.29787e-209 1.12837e+283 1.94727e-102 8.56218e+16
+4.30038e-222 1.59351e+208 3.82234e-207 3.52065e-276 5.76726e-121 6.11024e-99 7.63980e+149 2.29010e+249 1.06639e-194
+
+r values: 1.21251e+208
+input ends
+TRACE: Passed: signnet_deepstate_test_arcDistMat_test

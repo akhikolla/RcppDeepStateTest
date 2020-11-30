@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (fbroc_deepstate_test_add_roc_points_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/add_roc_points/add_roc_points_output/156f86b4557739feff9be413e1f120935f2d5d2a.pass`
+TRACE: Running: fbroc_deepstate_test_add_roc_points_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/add_roc_points/add_roc_points_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tpr values: -5.85785e-13 nan -inf nan
+fpr values: -9.59098e+234 -3.84371e+116 8.96628e-181 -2.77109e+06 3.97695e+114 -1.36942e+19 -4.89764e-178 3.49548e+304 -2.63256e-245 -inf 3.41871e+22 1.28997e+179 1.67233e+158 -2.91604e+31 3.80672e+283 1.27209e+231 -8.55445e-172 -6.45592e-157 -1.37153e+158 -2.53797e-52 1.12631e-108 -2.14632e-259 -2.34774e+107 3.53166e+131 -2.95067e-264 1.06397e-69 1.06825e+294 3.52542e-103 nan 3.90903e-28 -5.0575e+216 3.20049e+277 nan -2.22615e-262 2.3969e+11 nan 6.35616e-78 -5.09636e-225 1.038e-184 -4.32124e-273 1.92875e+181 inf -5.4768e-288 4.09346e+39 0
+input ends
+TRACE: Passed: fbroc_deepstate_test_add_roc_points_test

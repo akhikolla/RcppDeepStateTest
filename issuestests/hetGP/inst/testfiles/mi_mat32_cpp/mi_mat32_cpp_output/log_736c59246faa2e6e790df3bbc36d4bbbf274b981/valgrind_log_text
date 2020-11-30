@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_mi_mat32_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/mi_mat32_cpp/mi_mat32_cpp_output/736c59246faa2e6e790df3bbc36d4bbbf274b981.pass`
+TRACE: Running: hetGP_deepstate_test_mi_mat32_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/mi_mat32_cpp/mi_mat32_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Mu values: 3.59663e-18
+4.82627e+250
+1.18003e+299
+8.82365e+142
+4.48045e+306
+5.70980e-249
+3.95053e-133
+7.26092e+196
+5.16089e+276
+3.53491e+166
+
+sigma values: 3.65603e-223 nan -1.37541e+35 2.90229e-137 -2.07946e+265 nan inf 1.78999e+74 4.69694e-80 inf -3.56341e-228 0
+input ends
+TRACE: Passed: hetGP_deepstate_test_mi_mat32_cpp_test

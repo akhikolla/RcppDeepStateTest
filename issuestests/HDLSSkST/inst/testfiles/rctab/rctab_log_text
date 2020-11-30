@@ -1,0 +1,98 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606694583
+WARNING: No test specified, defaulting to first test defined (HDLSSkST_deepstate_test_rctab_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 5.43267e-197 2.12781e+102 1.00933e+210 4.30726e+49 6.12508e-84 1.78684e-32 2.25526e+223 3.08931e-199 3.08617e-17 5.74838e+20
+3.41028e-301 1.86027e+121 3.02161e+130 4.01571e-200 1.88678e-90 5.64093e+120 1.83566e-58 1.76118e-158 3.83338e-29 5.88398e+167
+2.03268e-66 4.68257e-275 2.65645e-120 3.48625e-282 1.42046e+293 3.09656e-148 10.4947 3.03153e-220 4.72932e-204 3.65193e-273
+9.89938e-149 3.75651e-271 6.98500e-180 6.17914e-103 1.66771e-171 2.11327e+251 1.62233e-156 4.24364e-42 1.70256e+246 4.10060e+73
+5.10826e+301 4.35428e-70 1.01857e-135 1.16601e+253 2.10705e-308 3.58689e+251 1.17906e-151 3.56342e+271 5.15476e-174 9.09104e-294
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/5fff9e95b9609d04de7cd05998ee640b30bde429.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 1.10772e-41
+2.44483e+297
+2.74332e+261
+1.07438e+67
+5.38046e+298
+2.93468e-64
+3.27384e-236
+3.10550e+130
+3.99718e+166
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/9a2ba27f2adf2cdc7ffc1862e0e59ba25cefe5f0.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 3.73197e+88 1.98520e-152 3.94516e+42
+1.53909e-61 1.10955e-33 1.59905e-06
+2.33893e-234 2.11965e+229 1.70274e-68
+7.88786e-25 2.67100e-163 8.49587e+199
+1.47588e+303 1.17918e-141 0.319380
+1.51365e+262 2.03435e+224 7512.55
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/ffcac738a079a54d5b0dd49d488570e70a1c144c.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 3.18039e-104 1.73395e+97 1.39468e+302 3.94328e+272 6.57765e+119 5.08784e+297 1.65418e-46
+1.61277e-25 9.18384e-170 5.52017e-43 2.34610e-225 7.39685e-226 2.99649e-89 9.10588e-268
+9.90160e+138 2.82557e+107 5.63453e-201 9.15933e+255 2.08970e-85 1.11695e+68 7.29781e-191
+1.53095e+289 1.88686e-285 3.88666e-233 5.88159e+231 1.05058e-262 4.30243e-305 4.99377e+69
+4.81425e-115 1.59273e-192 3.70795e+223 7.00415e+131 2.93681e+83 6.43375e+19 3.09047e+41
+2.30392e+10 3.71326e+174 2.32346e-307 1.52713e-164 2.16194e+111 5.67131e+279 6.40471e+173
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/854ad49db2eb14c47e54aa8b537fd0966d03191d.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 2.01836e+11 3.30745e-28 2.23573e+06 2.72046e-112 2.27971e+118
+2.40665e-280 1.66339e+251 8.44853e+86 2.39098e-248 1.25403e+154
+1.44019e-290 3.39726e-127 1.88399e-298 5.04021e+225 5.71342e+107
+7.89942e-44 9.12342e-46 6.94964e+74 3.50618e+152 3.05472e-203
+1.95524e-122 4.00509e+237 1.17930e+207 6.07697e-228 1.78384e+57
+8.15063e-17 5.52341e-300 1.31171e-294 3.16664e+38 6.48568e-171
+4.01343e+101 5.38569e-160 1.75776e+30 4.32119e+243 1.93264e+228
+1.49595e-217 1.30583e-251 8.82456e-70 6.83866e-187 4.21000e-87
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/c353182b8223c3b4f954b0d90b1f272ea72bf467.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 1.83337e-84 1.16545e-30 3.97193e-238 1.99733e+90 3.25876e-160 2.41595e+62 1.39908e+156 2.33067e+85 1.99441e+106
+1.14538e-46 4.68866e-70 7.24601e-59 7.72409e+66 6.43172e+281 2.38548e+285 7.12362e+39 2.95687e-292 1.63481e-203
+1.84411e-128 1.18854e+84 4.98002e-50 1.13609e+134 1.54939e+60 1.06514e+22 5.81600e-281 1.99185e-41 1.34332e-18
+4.09147e+73 4.45974e-31 1.59419e-157 8.67915e-237 1.30900e+190 7.18068e-184 2.15941e-165 2.58929e+187 2.22895e+48
+1.39341e+175 5.28059e-98 2.44434e-187 3.59165e-196 6.34629e-307 4.56497e-166 5.88859e+264 8.92730e+16 4.01655e+197
+8.43957e+59 5.91157e+170 2.76511e-106 4.50944e-65 4.67830e+202 5.33773e+234 1.58882e-94 2.03084e-60 2.20746e-252
+1.08021e-304 6.21962e-20 5.93302e+06 1.07137e-96 1.51191e+258 7.85752e-292 5.13232e+114 8242.14 3.43784e+25
+9.26167e+216 3.14043e-251 4.20369e+172 7.78319e+182 2.34965e+264 6.75159e+276 1.90668e+242 3.49536e-291 3.80669e-236
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/ad55bf220851362fa1cb78071f8640afd049f7b0.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 1.88396e-251 3.15579e-87 5.46493e-181 3.43817e+147 8.57866e+303 0.000634114 1.07958e+256 3.99949e+198 9.91168e+12 3.33412e-276
+2.57435e-289 3.18100e-58 1.63709e-32 4.23949e-190 9.17838e+26 1.81673e-22 5.57363e+18 5.82041e+43 1.95591e-30 2.71104e-170
+1.16333e+33 2.89161e+99 3.88197e-285 2.61204e-308 2.34970e+116 4.96401e+63 8.47399e+291 4.09816e+73 3.52476e-73 7.25862e+207
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/e017f3a35d82ec4a71e9535eb614af59060f9b2e.crash`
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 7 failed/0 passed/0 abandoned tests

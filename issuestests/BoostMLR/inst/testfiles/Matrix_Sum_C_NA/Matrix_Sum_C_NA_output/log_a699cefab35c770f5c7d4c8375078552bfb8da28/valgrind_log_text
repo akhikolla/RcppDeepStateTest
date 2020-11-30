@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_Matrix_Sum_C_NA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Matrix_Sum_C_NA/Matrix_Sum_C_NA_output/a699cefab35c770f5c7d4c8375078552bfb8da28.pass`
+TRACE: Running: BoostMLR_deepstate_test_Matrix_Sum_C_NA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Matrix_Sum_C_NA/Matrix_Sum_C_NA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.71225e+78
+2.36735e-254
+4.56570e+192
+7.90316e+64
+
+y values: 2.79017e-160
+1.61211e+186
+2.76687e-281
+2.97762e+305
+1.30759e-281
+9.58023e-53
+1.80425e-297
+
+input ends
+Exception Handled
+TRACE: Passed: BoostMLR_deepstate_test_Matrix_Sum_C_NA_test

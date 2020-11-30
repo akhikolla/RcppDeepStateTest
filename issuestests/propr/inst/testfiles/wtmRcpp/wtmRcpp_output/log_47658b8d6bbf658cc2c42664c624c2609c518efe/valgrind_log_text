@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_wtmRcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/wtmRcpp/wtmRcpp_output/47658b8d6bbf658cc2c42664c624c2609c518efe.pass`
+TRACE: Running: propr_deepstate_test_wtmRcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/wtmRcpp/wtmRcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -4.76441e-18 5.02042e-215 6.53292e+85 -6.54408e-206 5.02882e-286 -7.42577e+265 -7.16466e+89 1.47759e-58 8.25389e+169 1.46324e+219 2.12662e+307 1.67768e-26 -2.21758e-136 1.42918e-145 9.28509e-102 2.39073e-227 -531192 -1.09433e-263 7.82115e-224 inf 2.6587e+234 3.31901e+247 3.15706e-291 -1.61543e+145 5.26221e+274 -6.25215e+276 3.88795e+251 -2.73971e-66 6.08628e+265 -2.33158e+103 -4.92311e-225 1.3144e+181 -9.43328e+34 -5.1367e-259 7.34719e-178 -5.75199e+169 -9.93435e+216 nan 4.32514e-12 0.0236359 6.0749e+268 -1.22792e+148 -8.82858e+21 3.4699e-127 4.50118e-64 2.1667e+205 0.000199581 -1.76917e+282 5.22685e-264 -1.76064e+267 -1.22761e+199 -1.8517e+86 1.9091e+152 -9.00115e+53 1.633e-72 4.65653e+275 0.0268945 -5.72304e-115 5.99998e-134 4.10275e+13 3.85469e-168 5.45498e-75 4.70395e-34 -2.14949e+151 2.21515e-287 2.09292e+250 -inf -2.60043e+33 9.71155e-16 -2.95874e-07 8.31215e-211 -8.99164e+156 -2.35653e-272 inf -1.02071e+277 6.65359e-158 -2.95774e-104 5.228e+246 2.6734e-186 8.92203e-95 1.46148e-29 7.87877e-18 nan 5.6613e+133 0
+w values: -9.82166e-153 inf 6.58078e-137 -48.8888 5.67874e+136 1.84201e-245 -inf 2.79348e-304 -2.01452e+101 -5.57433e+196 inf 0
+input ends
+TRACE: Passed: propr_deepstate_test_wtmRcpp_test

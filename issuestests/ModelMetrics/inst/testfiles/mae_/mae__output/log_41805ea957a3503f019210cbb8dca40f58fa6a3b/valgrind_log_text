@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (ModelMetrics_deepstate_test_mae__test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/mae_/mae__output/41805ea957a3503f019210cbb8dca40f58fa6a3b.pass`
+TRACE: Running: ModelMetrics_deepstate_test_mae__test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/mae_/mae__DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+actual values: 2.87476e-125 2.49327e-81 -1.27352e+275 4.05925e+242 5.19865e+36 7.3795e-267 -2.00167e+51 -5.82857e-77 4.53428e+305 -1.51844e-289 2.65912e-78 nan nan -1.39159e-98 -4.59324e-55 -5.31163e-66 nan -3.61117e+120 5.03904e-28 2.22222e-238 nan 2.0103e-253 1.18059e-64 1.76039e+195 1.67111e+136 -2.53433e-118 3.83737e-221 -4.5441e+18 -3.10805e-257 9.1742e+109 -3.60355e+08 -1.04869e+301 -2.76915e-126 3.94735e-231 -1.31689e-165 -7.52944e+129 -1.10836e+113 5.01363e-273 -2.55961e+181 7.7182e+203 2.85699e+197 7.3356e+93 -6.56271e+253 1.609e-285 4.47414e+38 7.64181e-236 1.8165e-166 -1.37782e-207 -2.79028e-67 1.43069e+172 -1.06082e-07 0
+predicted values: 1.37221e+51 1.81743e-12 9.61812e+211 nan -3.7817e-258 -1.59443e+119 6.48042e-121 6.98652e+255 9.7549e-159 inf 8.1485e-219 1.34302e-76 4.78041e+74 -2.59195e-306 -3.49416e+06 5.65258e-167 14270.2 -1.11184e+302 1.70591e+128 1.14923e-46 -2.1681e-219 -8.68517e+85 9.66938e+94 2.98901e+198 8.19684e+178 1.36718e-128 8.75354e+186 2.439e-111 -4.5926e+202 2.53898e-208 -1.2021e-65 -8.75178e-265 3.92032e-233 -5.42364e+195 -8.39767e+235 1.8135e+24 -3.55234e-143 -inf 5.60526e+178 -4.81172e-51 3.43254e-131 9.06796e+229 -7.34117e+208 -2.08396e+126 -3.738e+301 4.7421e-39 -1.27014e-172 1.34517e-109 2.21548e-92 2.96525e-181 -1.45986e-270 -1.23821e-225 -1.29673e-153 -3.62428e+45 nan 1.60399e+254 -5.9432e+304 2.03805e+19 0
+input ends
+TRACE: Passed: ModelMetrics_deepstate_test_mae__test

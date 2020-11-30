@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (eseis_deepstate_test_stalta_event_nofreeze_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/eseis/inst/testfiles/stalta_event_nofreeze/stalta_event_nofreeze_output/1cbf8cfbf324915639ddf7e32a1c4885434cf48e.crash`
+TRACE: Running: eseis_deepstate_test_stalta_event_nofreeze_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/eseis/inst/testfiles/stalta_event_nofreeze/stalta_event_nofreeze_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+event_length values: 2099847586
+ratio values: -2.1924e+101 5.81322e-16 -7.46476e-169 1.14908e+169 -2.60058e+16 -3.82593e+158 -3.49195e+250 -2.93148e-239 -5.83162e-298 -2.72918e+245 2.19981e-10 2.97999e-79 nan inf -9.00989e+51 -6.85271e+112 2.70115e-262 -7.14905e+77 -3.22158e-20 6.52567e+233 -6.93008e-149 -6.1066e-254 -1.35357e-209 4.63043e+197 1.37468e+177 -6.45441e+77 -1.74458e-249 3.22062e+45 -3.54146e+203 5.54699e+154 -7.15231e+207 -4.71497e+267 4.77789e+37 4.0947e-256 1.37055e-247 2.43064e-236 -2.47925e+139 -1.07233e-88 -5.79596e-08 2.4481e-132 6.24277e-274 2.47421e-175 -1.54056e+218 1.26068e+199 -1.5477e-131 1.82216e+104 -1.79182e-127 inf -6.88091e-182 -1.65002e+28 -1.26317e-22 554650 0
+on values: 2.61749e-264
+off values: -1.55007e-131
+input ends
+ERROR: Crashed: eseis_deepstate_test_stalta_event_nofreeze_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/eseis/inst/testfiles/stalta_event_nofreeze/stalta_event_nofreeze_output/1cbf8cfbf324915639ddf7e32a1c4885434cf48e.crash crashed

@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (graphlayouts_deepstate_test_constrained_stress_major_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/graphlayouts/inst/testfiles/constrained_stress_major/constrained_stress_major_output/ba430a271741ca84e354f7261817afc5a08aaa1c.pass`
+TRACE: Running: graphlayouts_deepstate_test_constrained_stress_major_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/graphlayouts/inst/testfiles/constrained_stress_major/constrained_stress_major_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 6.02188e-287 1.16755e+150 3.23563e-211 1.03883e-159 3.52626e-121 118584. 7.26008e-81 5.16956e+205
+4.03397e+82 4.91499e-72 6.66046e-77 3.06741e-278 9.87962e+54 7.93066e-254 4.51466e-153 7.57448e+127
+3.38048e-298 9.88206e-07 4.12918e+245 1.30393e-301 2.72397e-204 3.86780e-167 3.52032e+148 5.57834e+258
+
+dim values: -724001898
+W values: 1.55901e+286 6.72365e+203 3.35386e+262
+
+D values: 1.12596e-56 9.63480e-92 9.12335e+14 6.28968e+07 3.90685e-159 1.21651e+08 3.94143e+156 1.90815e+175 2.79024e-211 5.11420e-17
+7.15100e-16 1.35668e+34 1.49093e-174 1.98621e-285 4.04026e-204 6.10184e-209 3.70937e+98 1.01118e+15 4.39907e-125 1.26477e-160
+1.73433e+276 1.53683e-93 1.24908e-185 1.06752e-194 8.82152e+236 3.07327e+259 9.61790e+207 1.56555e-245 2.65959e-240 2.00088e+297
+
+iter values: 1685141642
+tol values: -1.45142e-15
+input ends

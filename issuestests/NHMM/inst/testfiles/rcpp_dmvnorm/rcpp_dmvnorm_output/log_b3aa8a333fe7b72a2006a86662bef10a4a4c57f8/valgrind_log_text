@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_dmvnorm_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_dmvnorm/rcpp_dmvnorm_output/b3aa8a333fe7b72a2006a86662bef10a4a4c57f8.fail`
+TRACE: Running: NHMM_deepstate_test_rcpp_dmvnorm_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_dmvnorm/rcpp_dmvnorm_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+dataf values: inf -9.17639e+92 5.13137e+82 4.26941e+190 4.99937e-214 -5.22417e-188 -1.80589e+134 8.03092e-153 1.26458e-175 -6.01294e+54 -2.52604e-163 1.79078e-194 1.39224e+152 nan -1.38058e+09 1.22498e-54 4.71375e+195 -1.33208e+269 3.17929e+224 1.17452e-282 1.76389e-119 3.61406e-97 -2.66589e+222 0.00100804 -4.61245e-30 2.02912e+113 2.22399e+56 -5.33084e+70 -1.97296e-282 3.19466e+158 1.67128e+120 -8.37769e+55 -5.19959e+239 nan -1.46407e+253 -9.56957e-176 -1.02799e-98 2.15078e+266 -4.49117e-102 1.44831e-195 -58006 7.21461e-260 2.56372e-63 -1.06585e-128 -1.0067e+26 -5.38936e-148 -1.38847e-104 -8.89638e+83 -4.26579e+70 -1.01496e+192 -3.85592e+56 0
+meanf values: inf 8.56448e-23 -2.70437e-271 -6.81445e+306 nan -inf -inf -1.13738e-136 nan 6.96131e+307 0
+Siginvf values: 4.90609e-30 2.23532e+64 1.44860e-22 8.32531e+123 5.83325e-64 5.73444e-179 3.36407e-87 1.03107e-92 6.73490e-17 3.36950e+201
+3.06610e+124 8.06521e+61 0.000113831 7.97869e+305 6.05776e-301 1.94424e+138 1.97044e+32 3.48630e+106 2.69589e+244 3.43504e-124
+4.27501e-111 7.76346e-28 6.42265e+206 1.96180e+267 5.98332e+165 9.46006e+294 9.13782e+41 1.67137e+190 8.37360e-156 2.64092e-94
+2.05656e+185 1.07634e-181 9.37747e-279 1.66250e+247 1.83413e+259 6.23091e+238 1.68203e-289 1.06456e-122 7.41351e+55 8.01542e+89
+3.63178e-110 6.57990e+69 9.78482e-146 1.92582e-299 1.51157e+49 4.87011e-108 3.87141e-108 3.87912e-265 2.43563e-238 3.31007e+103
+2.17282e+167 6.40503e-286 6.03584e+75 7.88613e-215 7.08037e+110 6.44648e-79 1.22040e-22 2.33435e-73 6.53551e-249 2.24444e-48
+2.83932e-260 6.09736e+178 6.74844e-218 7.51106e+137 8.42668e-72 7.71033e-99 3.78021e+241 1.76362e+202 1.95815e-176 4.92726e-223
+1.33447e+298 9.34496e+298 6.62518e-150 1.48822e-64 1.72590e+129 4.45012e-55 1.96102e+82 1.47806e+261 4.79043e-188 4.67538e-278
+2.73074e-245 8.33982e-103 1.02469e-220 1.09021e+131 4.83434e-206 7.84520e-37 6.66204e+50 2.53566e+248 3.54435e-218 6.03495e+87
+
+detf values: 7.09299e-282
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=11; extent=11].
+ERROR: Failed: NHMM_deepstate_test_rcpp_dmvnorm_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_dmvnorm/rcpp_dmvnorm_output/b3aa8a333fe7b72a2006a86662bef10a4a4c57f8.fail failed

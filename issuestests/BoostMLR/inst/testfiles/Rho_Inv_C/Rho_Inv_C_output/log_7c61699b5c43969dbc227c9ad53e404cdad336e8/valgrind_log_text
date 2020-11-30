@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_Rho_Inv_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Rho_Inv_C/Rho_Inv_C_output/7c61699b5c43969dbc227c9ad53e404cdad336e8.pass`
+TRACE: Running: BoostMLR_deepstate_test_Rho_Inv_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Rho_Inv_C/Rho_Inv_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rho_Value values: 2.54766e-44
+N_Value values: 0.00548014
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_Rho_Inv_C_test

@@ -1,0 +1,207 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606690596
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_vmsin_var_corr_mc_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -3.26477e-203
+k2 values: -4.20293e-293
+k3 values: 2.03836e+256
+uni_rand values:   2.4722e-132
+  4.1554e+249
+   1.0277e-81
+  1.8225e+183
+  -8.9885e-44
+  5.4655e-233
+   5.9295e+36
+ -1.4815e-290
+ -6.8174e+248
+
+ncores values: -1198639710
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/db874a57f6bcd5945806351c12b4f4edf64319b0.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -2.34424e-260
+k2 values: -1.95537e-86
+k3 values: 1.02679e-236
+uni_rand values:  -2.8032e-196  1.3195e-151  6.5185e-173 -2.9935e-224  3.3014e+175 -3.9639e-296
+   1.7491e-87  6.3589e+166  6.2083e+262   5.0142e-03  -7.8946e+11  1.0119e-216
+   8.9275e-28  2.7272e-176   3.7969e+21  -2.0646e-13 -1.0861e-104 -1.1855e+145
+ -5.3323e+263  2.5984e-273  5.8780e-300  4.1833e-309 -9.7871e-220  1.4846e-166
+  6.8975e-134 -6.0841e-136  9.1475e-112 -1.4170e+306 -4.6047e-183 -1.4618e-300
+ -1.4001e-105  -4.3924e-23 -2.7519e+225  5.9607e-134 -2.4929e-296  5.7058e+273
+   5.3441e+32 -6.5367e+121  -4.5363e+27   2.3529e-07  1.6050e-224   1.1803e-35
+
+ncores values: -1099996310
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/2a76156beb409c9da592333f0460a60c0721c8da.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 6.87264e-90
+k2 values: 9.95488e-291
+k3 values: -5.62383e+116
+uni_rand values:   1.5612e-276  -3.6130e+17  4.6842e+137  7.3008e-122  1.2169e+191
+ -9.8423e+216 -1.7266e+302  4.1135e-254  2.1756e-152 -2.8521e-149
+  1.7107e+209 -9.1048e-261 -2.6447e+271   6.0483e+19  9.4415e+130
+
+ncores values: -323403489
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/d3581d3104adaa3a57bc90641b2d1f2e27645955.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -5.91498e+289
+k2 values: -1.3605e-245
+k3 values: -8.56993e-268
+uni_rand values:  -2.2774e+255 -1.5790e-111  -7.8847e+06   1.9681e-55
+  -1.2629e-86  -1.2649e-79  1.0801e-119 -1.1054e-147
+
+ncores values: 697812600
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/6c1797bb4af6cec8e2b7909bd4d58c4e8662d1d1.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 5.71317e-76
+k2 values: -8.04676e+207
+k3 values: -3.37229e-139
+uni_rand values:  -9.4813e+231   2.2326e-32
+   2.0155e+67 -2.6890e-107
+ -7.5337e-303  7.3356e-242
+
+ncores values: -1801760278
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/127ea0a400783488e71aa16b419c99abc29623a2.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -1.59243e+69
+k2 values: 6.45635e-239
+k3 values: 1.13053e-139
+uni_rand values:   3.9646e-273   6.3752e-36 -4.7292e-138  -1.3569e+23
+  2.4902e-120  2.9323e+147   5.3176e-55 -1.0255e+229
+  2.2982e-166  7.8053e-258   6.6936e+41 -7.6404e-128
+   6.3982e+86  1.1543e-267 -1.6090e-150 -1.7982e-175
+  5.3269e-158  2.7402e-182  -7.0210e+17 -7.5665e+251
+ -1.8837e+171 -2.1129e+173  1.1385e+157 -1.7904e+106
+  1.0858e-193  5.1114e+105  -6.8171e-35 -8.5657e+262
+   7.4224e-30  1.6191e-282  8.6253e-107  3.8915e-168
+  -1.2142e-25 -3.7661e+232   2.6179e-86  2.5000e+295
+
+ncores values: -1322645854
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/bc026310829ac017236268de091af12ad2d36e3e.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -9.56819e+59
+k2 values: 9.89469e-50
+k3 values: 1.99328e+276
+uni_rand values:   1.4298e+155 -9.0904e+122 -1.6489e-165  -7.1616e-99
+  2.9980e+273 -6.0251e+277   3.6711e-72   8.8184e-07
+
+ncores values: 380736491
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/85d1a42aa4305709c64f55dbf59232ab77d2bfc5.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 1.36216e+98
+k2 values: 1.36921e+280
+k3 values: 4.01956e-86
+uni_rand values:    1.4760e+66   1.3961e+60  1.0500e+152  4.5704e+131  -3.0651e-35  6.0492e-193   6.2353e+93
+  1.0353e-277 -1.2625e+280 -2.3332e+169 -1.8219e-102 -8.4980e-147  1.2220e-208  -1.3178e+51
+ -1.6770e+235 -6.8347e+264 -2.8788e+109 -1.0429e-178  1.3565e+141  5.0145e-166 -1.5021e+151
+  5.8040e+147  -6.6628e+43  -2.6529e-21  -9.2718e+58 -3.1449e-190  -2.1876e+69   1.6227e-05
+  4.7179e-237 -2.3354e+110  5.1873e+130  -5.3249e+60  -4.0933e+21 -1.0402e-104 -5.7112e+186
+  2.0260e+244  -1.1560e-99   1.8790e-33  6.3931e+296   1.4230e+81  -7.5740e-08  4.7775e+150
+ -8.4286e-150 -2.9370e+121  2.7940e-121 -4.2729e+179   1.4702e-68 -3.2831e+187   1.4120e+62
+  3.0219e+291 -9.3580e+176  3.5394e-107 -1.9937e+232   9.2097e+98  5.8663e-160 -2.0294e+112
+  2.3399e+229  -1.6564e+30  -5.7831e-44 -2.5441e-131 -5.0341e-225  -5.0374e+46  5.9070e+235
+ -1.5607e+174  1.7882e-271  1.7344e+272   6.4024e-18  -3.5602e+52  -3.0850e+93 -5.8491e-130
+
+ncores values: 96309933
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/4f6380330d7ea14f6e0d44bcb65c5d19c7c47087.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -9.63256e-245
+k2 values: -2.58004e-271
+k3 values: 6.12546e+296
+uni_rand values:   4.5060e-286 -1.1037e+281   2.1859e-67 -5.7670e-291  1.4990e-158 -1.4363e+159 -1.4040e+148  3.2920e+196
+  -5.9091e-94  1.5184e+238   4.4817e+29 -5.8441e-274 -6.0872e+226 -1.4558e+299 -5.2929e+223  -2.8942e-28
+  -6.5212e+00  1.5675e-245 -3.7942e-280   1.1496e+16   4.0378e-72   1.2977e-07 -3.1661e-126  3.8798e-161
+  -3.7951e-85 -6.1060e+140   2.8947e+97 -1.5735e-179 -3.4145e+239  -2.0391e-10  1.1101e+228  -3.8089e-86
+
+ncores values: 1006807582
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/2144955b1f765647736e76f81a831133288bdd7e.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -4.13947e-223
+k2 values: -3.71008e+295
+k3 values: 1.40618e-111
+uni_rand values:   4.4912e-115  3.0809e+291 -5.3055e+274  -3.5861e+32  3.9245e-110
+  1.0169e+273  7.4474e+252  4.6347e-122 -6.0650e-204   1.7633e-77
+   4.8821e+08 -2.3440e-201  9.8633e-302  4.0848e-256  4.1034e+229
+ -1.5090e+196  6.4999e-298  1.1199e-164  1.1006e-268  7.5503e-277
+
+ncores values: -1755496365
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmsin_var_corr_mc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_mc/vmsin_var_corr_mc_output/28a70b400bc81c3452fe718b8dfe31f5a9ca40b4.fail`
+INFO: Done fuzzing! Ran 10 tests (5 tests/second) with 10 failed/0 passed/0 abandoned tests

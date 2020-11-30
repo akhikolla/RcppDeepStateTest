@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_gs_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_output/27deafd80c09ecc2b211f851f64f82ba998385b9.fail`
+TRACE: Running: NAM_deepstate_test_gs_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+C values: 1.01280e+83 4.72643e+125 1.97536e-237 7.04309e+61 1.80079e-124 1.51845e+53 3.99539e-173
+7.23831e-11 3.16856e-191 1.45770e+245 2.41239e-273 2.70773e+56 4.27998e-38 3.86826e+46
+
+g values: -1.98123e-80 -1.37141e+295 -3.76244e-161 1.01226e+214 2.89486e-242 -1.13286e-27 -6.54582e+249 -2.19423e-171 -9.70415e+219 -2.33055e+255 1.231e+39 inf -1.39625e-28 -1.23564e+238 -1.12454e+198 -1.77636e+276 2.16448e+32 6.11003e+126 1.31202e-164 -3.25207e-208 2.19019e+42 6.29606e-280 -2.133e+138 1.6179e+125 -1.0893e+21 -9.97999e+194 4.35885e-94 -1.71937e-292 -4.13965e-163 8.9313e+141 inf 3.47309e+06 -1.13286e-27 6.37609e+42 2.18969e+160 -1.01104e-296 -9.92436e-158 -2.84565e-99 -5.95336e-07 -1.06681e-295 1.79035e-162 3.89587e-192 1.25787e+07 2.90752e+224 -9.25342 -3.38823e+276 7.44986e+272 -3.5893e+104 3.29212e-17 -4.52023e-113 -2.79613e-98 7.32398e-41 -1.69195e+115 -7.38004e-72 1.38576e+117 -5.31686e+275 -3.68991e+180 3.0123e+56 -1.69351e+187 -4.32443e+57 -1.53807e-06 8.74438e+216 2.84762e+19 6.59246e-217 -1.56372e+223 6.26354e+23 4.76132e-209 -4.95808e-260 4.22601e+173 -5.53617e-179 -6.29386e-63 -2.30222e-226 -1.38837e+62 -2.60498e+149 3.54162e+33 1.75647e-12 -2.02954e+175 -6.49391e+45 4.9116e+10 -2.22205e+203 -2.84367e-268 8.29819e-292 -1.01082e+107 -1.27006e+57 -1.13286e-27 2.38799e-192 9.35419e-220 -2.49185e+112 -6.13916e-282 -5.31962e+176 1.11066e-48 -1.75059e-192 -1.44798e+88 -1.15455e-272 6.77959e-152 -4.27448e-94 1.27565e-77 -1.34675e+182 0
+r values: 1.59898e-92 inf -8.51685e-147
+N values: 1010265520
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=2; row extent=2].
+ERROR: Failed: NAM_deepstate_test_gs_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_output/27deafd80c09ecc2b211f851f64f82ba998385b9.fail failed

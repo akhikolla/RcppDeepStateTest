@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./anti_transformation_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RMPSH/inst/testfiles/anti_transformation/anti_transformation_output/19f327afce016f5bf155813d8e85ca0e3f167c53.pass</line>
+</preamble>
+
+<pid>1883973</pid>
+<ppid>1883972</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RMPSH/inst/testfiles/anti_transformation/anti_transformation_output/log_19f327afce016f5bf155813d8e85ca0e3f167c53/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./anti_transformation_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RMPSH/inst/testfiles/anti_transformation/anti_transformation_output/19f327afce016f5bf155813d8e85ca0e3f167c53.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.048 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:09.360 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:09.925 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

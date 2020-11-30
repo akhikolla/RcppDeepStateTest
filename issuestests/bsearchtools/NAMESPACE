@@ -1,0 +1,54 @@
+useDynLib(bsearchtools, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+
+export(lbNumeric,
+       ubNumeric,
+       indexesInRangeNumeric,
+       indexesEqualToNumeric,
+       lbInteger,
+       ubInteger,
+       indexesInRangeInteger,
+       indexesEqualToInteger,
+       lbCharacter,
+       ubCharacter,
+       indexesInRangeCharacter,
+       indexesEqualToCharacter,
+       lbLogical,
+       ubLogical,
+       indexesInRangeLogical,
+       indexesEqualToLogical,
+       lb,
+       ub,
+       indexesInRange,
+       indexesEqualTo,
+       DFI,
+       as.DFI,
+       is.DFI,
+       DFI.getIndex,
+       DFI.indexes,
+       DFI.unWrap,
+       DFI.subset,
+       RG,
+       IN,
+       EQ,
+       NOT,
+       OR,
+       AND,
+       EQNA,
+       intersectIndexesList,
+       unionIndexesList,
+       print.DFI,
+       as.data.frame.DFI,
+       as.matrix.DFI,
+       print.DFI.FEXPR,
+       toString.DFI.FEXPR,
+       as.character.DFI.FEXPR
+       )
+
+       
+S3method(print, DFI)
+S3method(as.data.frame, DFI)
+S3method(as.matrix, DFI)
+S3method(print, DFI.FEXPR)
+S3method(toString, DFI.FEXPR)
+S3method(as.character, DFI.FEXPR)

@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_emGWA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emGWA/emGWA_output/8de2a70ec0d3905bc0f98d3d29a185c02a2c12bd.pass`
+TRACE: Running: NAM_deepstate_test_emGWA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emGWA/emGWA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 3.15925e+187 nan -1.93316e+292 1.9279e+124 -8.94695e-60 -4.49918e-100 -3.95308e-174 -2.34722e+118 1.95505e-36 nan -7.30715e-259 -5.65121e-287 -1.8502e-289 -2.21497e-233 -1.31317e-161 5.54892e-250 3.85017e-225 -4.41294e+87 -3.13368e+174 -1.93946e-149 -9.03093e+258 3.41493e+276 1.0649e-226 -4.77822e-210 4.61933e-214 -8.68817e+186 -2.14714e-228 -3.66383e+166 1.53862e+109 5.83999 -4.3711e+22 -2.87313e-29 3.48241e-126 -5.09848e+286 9.59928e-220 1.19567e+55 -inf 6.10895e-294 -1.30017e-282 -2.38287e-188 -2.27975e+25 -1.9932e-80 -2.37148e-220 nan 2.10254e+127 3.8188e-131 9.99155e+115 -1.35264e-226 -2.37266e+265 7.437e-246 inf -3.76195e-208 1.2255e+129 -1.14255 -3.79395e-07 2.05092e-38 -5.59437e-78 -3.23185e-81 -1.16846e+42 -7.64488e-208 2.90064e+10 1.49598e-95 -3.03623e-176 -9.5681e+306 -3.92254e+241 -1.4487e+162 -1.77181e+203 -3.98418e+164 0
+gen values: 1.18675e-163 3.46658e-124 1.25980e+176
+1.68281e-251 5.60898e+249 4.73120e+124
+1.79752e+175 1.34335e+145 5.18923e+256
+1.59920e+49 6.52749e+192 2.55450e+214
+1.47841e-198 3.19652e-253 4.28034e-44
+1.19134e-213 9.54796e+272 2.67374e+101
+6.16529e+237 1.13233e-295 8.91820e+22
+5.02506e+240 1.09407e-290 2.95220e-168
+9.78695e+303 1.32869e-288 2.57681e+204
+
+input ends
+TRACE: Passed: NAM_deepstate_test_emGWA_test

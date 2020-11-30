@@ -1,0 +1,37 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606704049
+WARNING: No test specified, defaulting to first test defined (rbscCI_deepstate_test_bscCI_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_tot values: -553855091
+n_suc values: -1089841518
+conf values: -8.89708e+282
+input ends
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: rbscCI_deepstate_test_bscCI_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rbscCI/inst/testfiles/bscCI/bscCI_output/f25a7062685bcecb25d8f43ec812fd6efc97cf92.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_tot values: -204109401
+n_suc values: 2117044975
+conf values: -4.96527e+232
+input ends
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: rbscCI_deepstate_test_bscCI_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rbscCI/inst/testfiles/bscCI/bscCI_output/87db84adf391d62070a875025b086afe2caa0470.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_tot values: 1114625845
+n_suc values: 472719877
+conf values: -3.76894e+192
+input ends
+terminate called after throwing an instance of 'boost::wrapexcept<std::domain_error>'
+  what():  Error in function boost::math::ibeta_inv<double>(double,double,double): Argument p outside the range [0,1] in the incomplete beta function inverse (got p=-1.8844682986346774e+192).
+ERROR: Failed: rbscCI_deepstate_test_bscCI_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rbscCI/inst/testfiles/bscCI/bscCI_output/d67bbd69b0abd1b0c87a9d125021c29a9054ebd9.fail`
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 3 failed/0 passed/0 abandoned tests

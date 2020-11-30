@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_FindCayley_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/1915f325219781c4c68a1e4533cf73b8ccdbff11.fail`
+TRACE: Running: rankdist_deepstate_test_FindCayley_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 6.99975e+149 1.30990e-194 1.60603e+156 2.82073e-231 2.48244e+301 5.64617e-238
+2.90966e-229 4.04577e+22 6.03530e-283 1.12550e-285 1.82552e-32 3.08147e-95
+2.75659e+233 3.26828e-69 3.10516e+96 1.76426e-130 2.71090e-185 6.00308e+156
+
+pi0 values: 5.40813e-210 -27.3599 3.49654e-30 -1.68488e+215 1.64548e-131 -2.6396e+91 4.29974e-173 nan inf nan 4.92144e-104 -1.66895e-124 -1.01653e-151 -inf -1.06982e+62 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1; extent=6].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/1915f325219781c4c68a1e4533cf73b8ccdbff11.fail failed

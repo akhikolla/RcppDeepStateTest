@@ -1,0 +1,21 @@
+WARNING: No test specified, defaulting to first test defined (clogitL1_deepstate_test_clogitl1_c_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/clogitL1/inst/testfiles/clogitl1_c/clogitl1_c_output/456ffb7fde4aa8309d67f5e494c9c0f056f4163f.fail`
+TRACE: Running: clogitL1_deepstate_test_clogitl1_c_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/clogitL1/inst/testfiles/clogitl1_c/clogitl1_c_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 6.04766e-139 1.61591e-42 -3.88383e+70 1.69097e-23 3.77549e-119 1.33897e+127 inf 9.10499e+217 7.17108e-54 2.01728e-131 7.14875e+176 1.04346e+280 -2.42192e-06 -2.36069e+87 1.0329e-86 -inf -inf -1.28386e-208 inf 8.8042e+161 7.85624e+95 -1.28409e-181 -5.49344e+22 1.2287e-301 4.51316e+21 1.54871e+270 1.54145e-304 1.76065e+217 -3.14257e+79 5.91835e-237 0
+m values: -inf nan inf
+Xmat values: 4.68671e+80 1.42496e-12 1.49253e-241 4.31882e-221 2.34030e+203 2.34345e+236 3.66373e+35 8.54234e+97 3.47067e+31 1.84657e+260
+2.22955e+159 2.34773e+119 2.82084e+283 1.45621e-286 3.03921e-121 1.75949e+279 2.06462e-91 9.52423e+129 3.05087e+273 1.46927e+148
+
+yvec values: -7.04025e+116 -2.86744e-43 -inf -1.00769e+219 1.01363e+34 -1.70199e-210 nan 1.09476e+297 nan 1.94504e-81 -3.85486e-25 1.64935e-229 -1.10793e-255 1.47853e-52 6.32875e+46 -1.53055e-60 7.43058e-39 5.69012e-216 9.28657e-138 1.80575e-123 -inf 5.44144e+141 0
+switchIter values: 327321018
+numLambda values: 1758541051
+minLambda values: -3.37795e-209
+alpha values: -4.58815e-113
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: clogitL1_deepstate_test_clogitl1_c_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/clogitL1/inst/testfiles/clogitl1_c/clogitl1_c_output/456ffb7fde4aa8309d67f5e494c9c0f056f4163f.fail failed

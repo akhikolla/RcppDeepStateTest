@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (aphid_deepstate_test_logsum_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/logsum/logsum_output/7cfa4bb55ed56e1d16b06788f03bb142e4d2f874.pass`
+TRACE: Running: aphid_deepstate_test_logsum_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/logsum/logsum_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -9.15336e-246 1.41439e+255 3.70268e+203 2.74972e-274 nan 1.7318e-273 -7.49081e+151 1.04801e-47 -4.36291e+218 -inf -1.70457e-228 2.40301e-86 -1.25249e-250 2.64767e+157 7.56413e+38 -2.55269e-292 1.16211e-277 -2.45815e-84 4.55275e+215 3.04411e-242 -1.04649e+295 -4.96452e-67 2.49772e+26 -9.00473e-29 -1.55124e+243 -4.6227e+150 -2.4167e+205 -1.70347e-178 -1.67463e-07 2.5087e+228 1.73443e+38 7.90181e-212 -2.21445e-47 -1.07943e+49 -4.1438e+60 8.00199e-56 2.55613e+269 5.50474e+126 1.19953e-168 5.51466e+53 107820 2.4102e+305 5.04914e-21 1.04292e+252 6.59918e+202 -4.57468e-68 -2.87262e+38 3.45888e+19 -6.89249e+270 -1.69277e+247 -2.43087e+108 -1.06834e+179 nan -inf 1.35791e+202 -2.9873e+262 4.79534e+23 -1.42568e+222 0
+input ends
+TRACE: Passed: aphid_deepstate_test_logsum_test

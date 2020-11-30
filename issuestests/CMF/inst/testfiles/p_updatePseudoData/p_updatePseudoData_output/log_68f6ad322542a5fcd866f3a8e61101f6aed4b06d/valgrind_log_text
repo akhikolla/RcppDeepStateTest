@@ -1,0 +1,36 @@
+WARNING: No test specified, defaulting to first test defined (CMF_deepstate_test_p_updatePseudoData_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CMF/inst/testfiles/p_updatePseudoData/p_updatePseudoData_output/68f6ad322542a5fcd866f3a8e61101f6aed4b06d.crash`
+TRACE: Running: CMF_deepstate_test_p_updatePseudoData_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CMF/inst/testfiles/p_updatePseudoData/p_updatePseudoData_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Xm values: 6.19496e-189 9.78309e+218 8.73667e+74 1.98841e-164 1.73894e-79 3.03810e-224 1.79228e-119 7.86818e-302 8.09867e-08 0.00720991
+1.56731e+273 1.78969e-201 3.19726e+179 1.41549e+70 3.02439e+185 1.78362e-280 10947.0 4.19423e-147 6.65020e-215 4.75319e+121
+
+U1m values: 4.27944e-159 7.46721e+32 1.40799e-08 3.76665e+259
+1.88858e-209 1.34249e-42 4.24527e+294 1.54567e+51
+3.78133e+152 3.72470e-127 1.19118e+147 2.44038e+144
+7.63479e+248 8.04940e+248 7.83799e+229 2.04714e-165
+2.70780e+108 1.99199e-305 3.11949e+78 8.76052e+94
+9.13706e-100 1.71291e-239 2.88861e-08 4.99931e-82
+2.71343e-114 1.05021e-54 1.98963e+183 1.24416e-73
+
+U2m values: 1.56580e+216 1.13655e-21 5.20774e-129 4.56785e-287
+2.70159e-12 3.91626e-08 3.60080e+267 2.92533e+215
+3.51194e-91 3.13400e-141 1.68926e+53 4.40007e-153
+7.00653e+220 1.66163e-249 2.63053e-180 1.13874e+82
+1.15364e+251 8.26487e-122 4.06385e+244 1.77591e-127
+2.76999e+54 1.36283e-68 1.22285e+101 1.17088e+284
+5.66120e+132 9.64044e-141 4.39382e+197 1.24627e+84
+1.74581e-219 1.90223e-175 1.52485e-170 4.16172e-147
+
+Rv values: -2.16917e-63 -5.15737e-160 -1.20315e-37 1.83925e+140 3.88211e-115 1.07574e+166 -1294.04 4.14877e+127 -2.42532e-127 -1.36405e+159 nan 1.83398e+201 7.8307e+141 3.39607e-106 inf 1.47779e-307 5.74018e+125 -1.45722e+28 -3.43643e+293 4.61678e-37 -3.41815e+280 -1.52947e-256 -3.40907e+302 -3.69561e-28 -1.04095e-206 3.82551e-192 2.9853e+288 nan 3.91516e-97 0
+Cv values: 9.06723e-154 3.12183e-125 -9.56043e+280 2.67087e-104 3.21997e+47 -3.07475e+235 -8.93359e-199 -inf 5.76561e-131 nan -323178 -1.08074e+307 5.36824e+146 -1.74773e+160 -7.05629e-35 2.05822e-29 -1.26447e-45 3.82572e-189 -8.15336e+75 -2.41588e-149 -9.48259e-289 9.1485e-97 -46785.6 -2.05182e+76 1.33402e+160 inf 7.5742e+276 inf 3.50071e-12 -1.90353e-199 -1.06347e-304 nan 2.35023e-111 -3.48894e-274 -3.83224e+25 3.12426e+134 -1.28125e+262 0
+input ends
+==1830093==  If you believe this happened as a result of a stack
+==1830093==  overflow in your program's main thread (unlikely but
+==1830093==  possible), you can try to increase the size of the
+==1830093==  main thread stack using the --main-stacksize= flag.
+==1830093==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: CMF_deepstate_test_p_updatePseudoData_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CMF/inst/testfiles/p_updatePseudoData/p_updatePseudoData_output/68f6ad322542a5fcd866f3a8e61101f6aed4b06d.crash crashed

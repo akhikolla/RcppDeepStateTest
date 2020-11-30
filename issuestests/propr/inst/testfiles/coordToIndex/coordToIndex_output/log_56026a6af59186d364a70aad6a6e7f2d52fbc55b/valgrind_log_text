@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_coordToIndex_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/coordToIndex/coordToIndex_output/56026a6af59186d364a70aad6a6e7f2d52fbc55b.pass`
+TRACE: Running: propr_deepstate_test_coordToIndex_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/coordToIndex/coordToIndex_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+row values: 326282000 -2072327370 -2072327370 -1880788522 520532224 1535731267 -991354296
+col values: 735007472 -1200343012 1656197827 -501651612 357438625 -1286554371 -38967632 1355791995 -1626313897 -2147483648 1527163453 521314869 1622595092 110301443 1081652112 1198656742 -2106114553 464646007 -1214663465 -1420424180 -1281201906 1966151606 -1446361359 1012062143 -904542491 -944415618 1326536186 1734411892 1143376057
+N values: -518773456
+input ends
+TRACE: Passed: propr_deepstate_test_coordToIndex_test

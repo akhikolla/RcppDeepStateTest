@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_c1_mat52_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat52_cpp/c1_mat52_cpp_output/681b64c716b5301928ff2ad7af4ba760f7b5b7dd.pass`
+TRACE: Running: hetGP_deepstate_test_c1_mat52_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat52_cpp/c1_mat52_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: nan -1.98557e+58 -102.534 99.1511 -inf 2.84889e-93 2.64414e+157 1.02126e-106 -2.50994e-275 2.71837e-154 5.08934e+99 -2.04515e-288 -2.09212e-191 -8.41769e+96 -4.27071e-180 -2.11449e-189 5.14849e-215 8.05132e+285 3.77683e-191 nan 3.54499e-133 -4.33352e-121 -2.86926e-229 -5.42013e-41 6.21541e+132 3.85827e+63 2.38836e+55 1.25159e+297 3.94853e-94 nan -1.04796e-139 -1.9241e-202 -2.34204e-23 1.00621e-248 -2.06897e+23 2.16952e+98 2.23431e-172 nan 1.1355e-303 4.33342e-241 0
+x values: -4.40177e+191
+sigma values: -1.46883e+299
+W values: 5.70312e+141 2.78906e+184 2.96185e-38 -2.03411e+131 -3.71527e+236 -4.97626e+188 -inf 1.5973e+162 -4.32293e+260 -2.6134e+144 -5.53936e+194 -8.79242e+23 -1.14592e-287 6.65042e-173 -3.92458e+71 2.28989e+254 -6.87888e+143 2.00065e+49 -2.4909e-92 -8.8103e-94 -1.60134e+190 -2.41841e-245 -2.85378e-16 -2.71941e+43 -4.64286e-17 2.93159e-304 -1.4059e+227 3.33185e+263 3.57615e-157 -2.44903e+100 -1.57179e-125 6.91853e+251 5.65071e-193 -9.62875e+121 -2.98827e+292 2.41492e+265 1.93994e+281 nan -1.605e-85 3.77365e+86 nan 1.36735e+271 -3.52579e-190 -3.87393e-171 1.22086e-210 -5.99278e+210 -1.63798e+110 1.19934e-308 inf -9.15709e+39 0
+input ends
+TRACE: Passed: hetGP_deepstate_test_c1_mat52_cpp_test

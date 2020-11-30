@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_maxcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/maxcpp/maxcpp_output/49a9deebdf5849d1c5662c04a0721bf649f17ec4.fail`
+TRACE: Running: timma_deepstate_test_maxcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/maxcpp/maxcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 1.74564e-230 4.19684e-22 -1.24065e-210 -1.65725e+237 -4.42844e+248 2.01958e-100 -2.93925e-06 2.02136e+08 -4.05655e+188 -1.66057e-17 2.37992e+153 -1.84688e+116 2.57663e-224 -1.00432e-174 -2.46311e-196 -1.6489e+307 -3.29703e-46 1.16295e-83 -4.22501e+122 -1.79436e-207 5.49561e+17 2.57194e+97 -6.9936e-193 8.26254e+87 nan 3.6786e-195 -3.43447e-242 2.88304e-07 -2.14457e+170 -1.93932e+283 6.15604e+193 8.74079e-36 7.45187e+07 -9.46259e+31 1.234e-147 5.16861e+143 2.14715e-190 -1.85071e+89 3.39097e+57 -1.89947e-120 7.16435e-256 -1.25222e+207 4.59637e+249 8.77422e-197 -1.90186e-86 2.18976e-281 -4.3787e-241 -1.8621e+40 -4.91423e-20 -4.85553e+260 -2.73824e+283 -1.16094e+82 -4.1878e-31 1.40643e-269 -1.0539e+291 -6.73483e-10 -5.19494e+36 8.54103e+79 -9.84292e+23 6.84466e-47 1.9684e+125 -2.85681e-149 6.78165e+215 -3.04147e+101 4.62065e+303 1.62901e+132 -2.6271e+286 4.36335e-90 1.28508e-101 -796495 inf 3.99359e-277 -7.28186e-14 -1.04424e-81 -4.53995e-250 2.83627e-156 3.27386e+191 1.37903e-151 2.65659e+165 3.53801e+297 -1.96017e-20 8.60367e-13 -1.94338e-238 9.20237e-306 -3.93539e-233 -8.72481e+118 1.83522e+51 6.80518e+40 5.62284e-276 -1.63247e-218 -7.96947e-228 3.02823e-40 2.1157e-133 3.89073e+305 nan -3.88328e+300 -inf 6.65597e+182 0
+x values: 1687583544
+y values: -1505086339
+j values: 1966691165
+input ends
+
+error: Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+ERROR: Failed: timma_deepstate_test_maxcpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/maxcpp/maxcpp_output/49a9deebdf5849d1c5662c04a0721bf649f17ec4.fail failed

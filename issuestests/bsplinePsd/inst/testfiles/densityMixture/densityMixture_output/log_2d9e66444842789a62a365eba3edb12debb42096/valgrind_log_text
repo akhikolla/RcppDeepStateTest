@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (bsplinePsd_deepstate_test_densityMixture_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsplinePsd/inst/testfiles/densityMixture/densityMixture_output/2d9e66444842789a62a365eba3edb12debb42096.pass`
+TRACE: Running: bsplinePsd_deepstate_test_densityMixture_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsplinePsd/inst/testfiles/densityMixture/densityMixture_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+weights values: -3.92056e+210 4.67224e+171 nan -2.6317e+225 -3.82157e-211 1.84829e-43 -1.29937e+118 1.46382e-15 -6.11514e+259 nan -4.87566e+25 -3.84795e-95 nan -1.24063e-282 -1.28688e-68 -2.27245e+188 2.19176e+268 7.02628e+120 3.49726e+28 -1.1564e+28 3.37941e-164 6.68151e-301 4.69261e-241 -inf -1.10493e-290 -1.87458e-202 -2.71946e+225 -1.29764e+118 -5.86966e-296 7.98921e-53 0
+densities values: 2.77908e-58 1.51208e+12 2.41556e+201 2.23347e-66 3.52799e+251 9.08242e-120 1.28025e-295 1.77808e+55
+4.96797e+58 7.17223e+200 1.68758e+143 3.89276e+215 1.55627e-114 5.65571e-05 6.12806e-145 2.82576e+185
+8.15722e+203 7.89327e+99 2.38716e-132 5.45419e+200 1.82475e+57 8.43043e-228 5.45172e-141 4.84236e-225
+
+input ends
+TRACE: Passed: bsplinePsd_deepstate_test_densityMixture_test

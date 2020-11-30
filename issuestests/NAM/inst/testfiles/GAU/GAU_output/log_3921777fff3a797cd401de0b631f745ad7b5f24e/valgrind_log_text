@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_GAU_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/GAU/GAU_output/3921777fff3a797cd401de0b631f745ad7b5f24e.pass`
+TRACE: Running: NAM_deepstate_test_GAU_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/GAU/GAU_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 2.52509e+11 8.81743e+232 1.95242e-193 6.56801e+184
+1.17460e+266 2.24690e-144 1.94074e+167 1.41600e+266
+2.71607e+219 1.51956e+280 7.49118e-181 2.41229e+96
+4.33416e+80 5.34040e-49 2.77215e-279 1.23082e+91
+6.71162e+175 2.63414e+39 5.51677e-89 2.65765e-205
+3.04485e+72 2.90012e-211 9.09010e+114 1.06798e-147
+2.24475e-41 2.36635e-152 2.94715e+219 2.15922e+135
+1.20849e-211 5.08246e-29 6.63315e+300 5.09747e-220
+8.99425e-221 1.65774e+20 7.77938e+278 5.18607e-266
+3.59472e+135 2.60586e+278 1.95843e-43 4.28342e+120
+
+input ends
+TRACE: Passed: NAM_deepstate_test_GAU_test

@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (fbroc_deepstate_test_get_uncached_perf_paired_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/get_uncached_perf_paired/get_uncached_perf_paired_output/6ebb43c69dde805187cada47e01fcf43dfe22a8c.crash`
+TRACE: Running: fbroc_deepstate_test_get_uncached_perf_paired_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/get_uncached_perf_paired/get_uncached_perf_paired_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pred1 values: -inf 1.73307e-102 -inf -3.66922e-31 8.0472e+229 nan -1.37274e+157 -5.81109e-41 -5.60937e-89 -1.19213e+91 5.08643e+269 3.37859e-178 2.00323e+101 -5.0498e-33 -1.11773e+300 -1.24559e+30 1.67643e-273 3.10683e+178 -5.28633e-08 -4.64804e-120 9.71661e-88 1.16376e-164 1.74269e+137 -3.05337e-26 -1.04921e+51 -2.23623e-155 6.777e-193 -2.16573e+48 -1.08712e-53 -5.58643e-108 -2.0071e-72 -1.08073e+61 2.96256e-279 9.87618e+140 2.38896e-250 2.37818e+145 4.14725e-214 nan -3.30438e-95 -8.36929e+139 5.03927e-298 1.48176e-292 6.7338e-47 -6.55931e-158 -4.19035e-139 1.96112e+296 3.11279e-160 -inf 4.60033e+188 8.96934e-33 -1.39663e+41 4.35043e+307 0.0430944 -1.55637e+55 2.81455e-99 4.08347e-135 8.7139e-215 -3.27065e-202 -4.78086e-285 4.62652e+139 -7.20939e+169 -8.96926e+226 0
+pred2 values: inf 162052 -3.31264e+98
+true_class values: 1614179134 -1179256368 -1256519043 1082395745 -1000629178 1831395430 -1554405265 -2079745820 -869572567 -1206138515 936634999 -2147483648 1383424703 -1656609472 -1681019105 -699989227 1243942403 1104638072 -1436815615 1388846500 1031758810 -1048044707 1439333420 310395228
+param values: 6.61263e+24 -6.22999e+112 2.64678e-258 -7.07441e-218 -1.1714e+213 -1.01848e+308 1.69716e-281 -1.45352e+74 7.52039e-58 -2.66761e-201 -1.05544e+297 -1.08889e+76 3.07162e+242 -2.023e+113 8.8851e+119 -6.17763e+72 -1.01653e+213 -8.6927e-308 -3.96013e+268 nan -3.78988e+256 8.13668e-133 -1.7951e+90 1.99463e+132 -1.46031e-44 -9.73031e-67 1.12334e-207 2.03496e+55 -4.55271e-18 4.59124e+151 -1.39031e+134 5.77371e+287 -4.55825e+255 -9.87185e-106 -2.43794e+90 5.40589e+101 7.7455e-234 4.60027e+19 -3.85695e-171 1.28158e+177 3.25371e+183 7.1219e+184 -1.202e-114 1.04271e-190 -2.91181e-85 2.08657e-269 1.18875e+185 7.35618e-115 8.68529e+125 1.03239e+85 -2.36138e-68 -3.33941e+77 inf 8.37762e-128 8.35337e+210 4.22863e-299 -1.23721e-185 -1.00915e-35 7.35126e+169 3.37667e+56 -1.44729e-280 2.01092e+97 1.23179e+188 -1.51727e+96 -2.13069e+140 7.09353e-223 4.90831e-265 8.54293e-265 3.16687e+97 2.53874e-106 -5.88214e-271 -1.69633e+226 2.5202e-282 4.28782e+269 -1.21463e-137 nan 1.00783e-274 -9.39747e-152 7.74384e+258 inf -4.86158e-244 1.20884e+54 2.06783e+84 3.39365e-71 -4.41025e+218 5.93208e+59 -3.74811e+229 -1.19276e+286 3.19271e-221 -4.81e-142 -1.70231e+28 6.3186e+253 -1.31716e-269 -6.75964e+107 -2.18464e+85 -1.81612e+222 2.13706e-253 6.74096e-300 0
+n_boot values: 1646901192
+measure values: -427251353
+input ends
+==1841349==  If you believe this happened as a result of a stack
+==1841349==  overflow in your program's main thread (unlikely but
+==1841349==  possible), you can try to increase the size of the
+==1841349==  main thread stack using the --main-stacksize= flag.
+==1841349==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: fbroc_deepstate_test_get_uncached_perf_paired_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/get_uncached_perf_paired/get_uncached_perf_paired_output/6ebb43c69dde805187cada47e01fcf43dfe22a8c.crash crashed

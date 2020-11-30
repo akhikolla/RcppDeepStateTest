@@ -1,0 +1,663 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./tpr_fpr_boot_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_output/51b9f52402cad4d4a31f93329a5a6d6ce25d7717.crash</line>
+</preamble>
+
+<pid>1841845</pid>
+<ppid>1841844</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_output/log_51b9f52402cad4d4a31f93329a5a6d6ce25d7717/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./tpr_fpr_boot_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_output/51b9f52402cad4d4a31f93329a5a6d6ce25d7717.crash</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.056 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x43AAAE</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>281</line>
+    </frame>
+    <frame>
+      <ip>0x42BC46</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>Bootstrapped_ROC::Bootstrapped_ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>bootstrapper.cpp</file>
+      <line>16</line>
+    </frame>
+    <frame>
+      <ip>0x434B84</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>tpr_fpr_boot(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>interface.single.cpp</file>
+      <line>14</line>
+    </frame>
+    <frame>
+      <ip>0x4120A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x411AB8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x421E18</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4220B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x422194</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40EB45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x7</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x439831</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::find_thresholds(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>87</line>
+    </frame>
+    <frame>
+      <ip>0x43AB64</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>284</line>
+    </frame>
+    <frame>
+      <ip>0x42BC46</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>Bootstrapped_ROC::Bootstrapped_ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>bootstrapper.cpp</file>
+      <line>16</line>
+    </frame>
+    <frame>
+      <ip>0x434B84</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>tpr_fpr_boot(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>interface.single.cpp</file>
+      <line>14</line>
+    </frame>
+    <frame>
+      <ip>0x4120A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x411AB8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x421E18</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4220B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x422194</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40EB45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xe</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x437DA6</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::build_pred(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>262</line>
+    </frame>
+    <frame>
+      <ip>0x43AC26</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>285</line>
+    </frame>
+    <frame>
+      <ip>0x42BC46</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>Bootstrapped_ROC::Bootstrapped_ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>bootstrapper.cpp</file>
+      <line>16</line>
+    </frame>
+    <frame>
+      <ip>0x434B84</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>tpr_fpr_boot(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>interface.single.cpp</file>
+      <line>14</line>
+    </frame>
+    <frame>
+      <ip>0x4120A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x411AB8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x421E18</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4220B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x422194</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40EB45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x15</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x43A184</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::build_index(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>64</line>
+    </frame>
+    <frame>
+      <ip>0x43AD6F</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>288</line>
+    </frame>
+    <frame>
+      <ip>0x42BC46</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>Bootstrapped_ROC::Bootstrapped_ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>bootstrapper.cpp</file>
+      <line>16</line>
+    </frame>
+    <frame>
+      <ip>0x434B84</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>tpr_fpr_boot(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>interface.single.cpp</file>
+      <line>14</line>
+    </frame>
+    <frame>
+      <ip>0x4120A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x411AB8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x421E18</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4220B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x422194</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40EB45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x4d</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x43A17E</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::build_index(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>64</line>
+    </frame>
+    <frame>
+      <ip>0x43AD6F</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>288</line>
+    </frame>
+    <frame>
+      <ip>0x42BC46</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>Bootstrapped_ROC::Bootstrapped_ROC(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>bootstrapper.cpp</file>
+      <line>16</line>
+    </frame>
+    <frame>
+      <ip>0x434B84</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>tpr_fpr_boot(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>interface.single.cpp</file>
+      <line>14</line>
+    </frame>
+    <frame>
+      <ip>0x4120A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x411AB8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x421E18</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4220B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x422194</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40EB45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x8044648 is 0 bytes after a block of size 7,960 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x49C8CA3</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x49CA5CC</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_allocVector3</fn>
+    </frame>
+    <frame>
+      <ip>0x4A27AB0</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A27BE7</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A27BE7</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A266CA</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A26103</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A27F71</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>R_Unserialize</fn>
+    </frame>
+    <frame>
+      <ip>0x4A2939C</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A29753</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x498DB82</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_eval</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xbc6</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 4</what>
+  <stack>
+    <frame>
+      <ip>0x4373F4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::strat_shuffle(Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;&amp;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>179</line>
+    </frame>
+    <frame>
+      <ip>0x42BB06</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>Bootstrapped_ROC::bootstrap()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>bootstrapper.cpp</file>
+      <line>13</line>
+    </frame>
+    <frame>
+      <ip>0x434C0A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>tpr_fpr_boot(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>interface.single.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4120A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x411AB8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x421E18</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4220B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x422194</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40EB45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x253d74e8 is not stack'd, malloc'd or (recently) free'd</auxwhat>
+</error>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>11</signo>
+  <signame>SIGSEGV</signame>
+  <sicode>1</sicode>
+  <event>Access not within mapped region</event>
+  <siaddr>0x253D74E8</siaddr>
+  <stack>
+    <frame>
+      <ip>0x4373F4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>ROC::strat_shuffle(Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;&amp;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>roc.cpp</file>
+      <line>179</line>
+    </frame>
+    <frame>
+      <ip>0x42BB06</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>Bootstrapped_ROC::bootstrap()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>bootstrapper.cpp</file>
+      <line>13</line>
+    </frame>
+    <frame>
+      <ip>0x434C0A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>tpr_fpr_boot(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/src</dir>
+      <file>interface.single.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4120A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x411AB8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fbroc_deepstate_test_tpr_fpr_boot_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot</dir>
+      <file>tpr_fpr_boot_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x421E18</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x4220B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x422194</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40EB45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/tpr_fpr_boot/tpr_fpr_boot_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:30.652 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>1</count>
+    <unique>0xbc6</unique>
+  </pair>
+  <pair>
+    <count>2937</count>
+    <unique>0x4d</unique>
+  </pair>
+  <pair>
+    <count>56</count>
+    <unique>0x15</unique>
+  </pair>
+  <pair>
+    <count>7</count>
+    <unique>0xe</unique>
+  </pair>
+  <pair>
+    <count>7</count>
+    <unique>0x7</unique>
+  </pair>
+  <pair>
+    <count>7</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:44.265 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

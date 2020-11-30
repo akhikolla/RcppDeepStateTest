@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (expperm_deepstate_test_ryser_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/expperm/inst/testfiles/ryser_cpp/ryser_cpp_output/0a284f2863e8aea72b0460bca3948c986b0ab321.pass`
+TRACE: Running: expperm_deepstate_test_ryser_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/expperm/inst/testfiles/ryser_cpp/ryser_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+A values: 1.12513e-274 1.62166e+103 2.71692e+181 1.77934e+254 7.19636e-156 3.11690e+26 7.19603e-233 2.48774e-261 2.97506e+144
+1.27809e+296 9.11743e+26 1.20863e+126 1.30931e-48 1.50584e+238 3.54538e-72 5.81762e+291 1.55700e+23 1.14386e+229
+6.45916e+157 1.40581e-298 1.55794e+120 8.84916e+225 2.52264e-235 8.19363e-286 1.68406e+186 2.65911e-245 9.25335e+230
+7.75962e+219 1.47443e+34 6.11647e-112 1.34487e+112 2.83469e-231 1.24627e-259 1.86382e-296 7.18173e-185 5.13501e-13
+4.11812e-212 1.02857e-301 2.88191e+76 1.75194e+128 1.12757e-29 6.16873e-256 1.28590e-51 4.41001e+268 4.48609e+245
+
+input ends
+TRACE: Passed: expperm_deepstate_test_ryser_cpp_test

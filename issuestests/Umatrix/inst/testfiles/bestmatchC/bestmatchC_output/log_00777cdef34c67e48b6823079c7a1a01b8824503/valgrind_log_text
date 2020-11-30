@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (Umatrix_deepstate_test_bestmatchC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/bestmatchC/bestmatchC_output/00777cdef34c67e48b6823079c7a1a01b8824503.pass`
+TRACE: Running: Umatrix_deepstate_test_bestmatchC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/bestmatchC/bestmatchC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+WeightVectors values: 9.03762e-26 4.82113e-221 2.14790e-55 2.43367e+201 4.64109e-151 8.81437e-209
+1.61897e-246 3.10991e+166 6.38618e+232 1.48810e+69 1.35139e-198 4.16612e+242
+7.81631e-137 0.218612 3.74025e-174 5.15509e-128 7.58762e+229 2.66742e-95
+7.77828e-146 2.81059e-68 4.70896e+14 2.66351e-235 5.66957e+270 2.10955e+104
+7.40420e-25 2.96935e+33 2.46149e+34 3.28753e-261 5.50056e+216 7.54235e-50
+
+DataPoint values: -inf -5.46329e+51 -2.3358e-154 8.58808e+295 -2.00103e+222 -6.77326e+292 1.09244e-246 -1.8774e+52 -1.21813e+221 -1.57495e+43 2.92984e+32 inf 1.4923e-16 5.38689e-58 -7.38228e+157 1.88428e-192 -1.77186e-45 -1.05629e-32 nan 3.9822e+158 1.10179e-172 -1.23348e-277 -5.7776e-175 7.93445e+244 -1.63364e-81 -inf 3.29076e+272 0
+input ends
+TRACE: Passed: Umatrix_deepstate_test_bestmatchC_test

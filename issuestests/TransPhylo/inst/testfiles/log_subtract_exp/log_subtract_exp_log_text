@@ -1,0 +1,28 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606679121
+WARNING: No test specified, defaulting to first test defined (TransPhylo_deepstate_test_log_subtract_exp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+u values: -1.0147e-118
+v values: 1.46677e-257
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+u values: 8.92853e-91
+v values: 2.21984e+135
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+u values: -3.54522e-130
+v values: -2.26943e+79
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+u values: -1.57556e+280
+v values: 2.98821e-22
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

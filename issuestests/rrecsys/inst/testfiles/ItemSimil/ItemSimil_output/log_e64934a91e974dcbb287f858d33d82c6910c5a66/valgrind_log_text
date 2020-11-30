@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (rrecsys_deepstate_test_ItemSimil_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/ItemSimil/ItemSimil_output/e64934a91e974dcbb287f858d33d82c6910c5a66.pass`
+TRACE: Running: rrecsys_deepstate_test_ItemSimil_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/ItemSimil/ItemSimil_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.42299e-295 1.80016e-174 4.35244e+217 1.58049e+102 1.77423e+93 1.31755e-114 9.17675e-305 5.97007e-123 2.74498e-91
+7.15143e-16 5.92581e+37 4.87961e+120 5.05842e-167 6.76853e+133 6.23978e+280 1.87414e-69 8.58110e+174 0.0225136
+6.40077e-263 4.30994e+48 4.80978e-104 7.06701e-22 3.66688e+112 4.57938e+198 3.28815e-308 1.77981e-112 1.26989e-24
+2.45264e+43 1.34920e-275 5.59865e+43 4.33251e-21 1.87377e-109 5.64831e-80 3.19922e-22 1.22775e+104 4.10786e+283
+
+DAMP values: -2090966296
+input ends
+TRACE: Passed: rrecsys_deepstate_test_ItemSimil_test

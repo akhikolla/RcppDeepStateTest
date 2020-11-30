@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_const_cost_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_cost/const_cost_output/b328d3dd854d0782793efc6ba604fd9a0b2effb7.pass`
+TRACE: Running: RcppDynProg_deepstate_test_const_cost_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_cost/const_cost_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 3.84155e-291 7.50039e-78 nan 1.74051e-164 9.64635e-121 -inf 1.69916e-102 -4.43354e+31 -1.63831e-240 nan
+w values: -2.03863e-112 -1.27515e-253 -9.943e+219 nan 5.84763e+219 -23773.9 -inf 5.36907e-230 -inf 2.89809e+247 -6.65049e+176 -inf 36585.3 1.35975e-275 nan 5.85427e-81 -5.4909e-110 5.29712e-201 -6.29264e+222 -2.18588e+67 0
+min_seg values: -1547612246
+i values: -1733048563
+j values: -451082369
+input ends
+TRACE: Passed: RcppDynProg_deepstate_test_const_cost_test

@@ -1,0 +1,29 @@
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_output/0822bf323fa40ebce111d3b0db72d5ded008f3a2.fail`
+TRACE: Running: Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -1.97865e-199
+SWCRIT values: 6.68873e+43
+SOIRW values: -7.12281e+277
+SORW values: -6.02577e+161
+SOIRG values: 8.70372e-167
+SORG values: -4.44283e+174
+SGCON values: 3.6782e-98
+SGCRIT values: -1.15649e-302
+KRWIRO values: -3.93157e+196
+KROCW values: -7.1796e+71
+KRGCL values: -8.58474e-59
+NW values: -1.17611e+119
+NOW values: 78797.6
+NG values: -2.99166e-191
+NOG values: 1.8262e-137
+NP values: 1167935764
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_output/0822bf323fa40ebce111d3b0db72d5ded008f3a2.fail failed

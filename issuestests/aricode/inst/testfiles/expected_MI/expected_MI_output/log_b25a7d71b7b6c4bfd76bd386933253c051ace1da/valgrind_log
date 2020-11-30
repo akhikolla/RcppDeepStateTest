@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./expected_MI_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_output/b25a7d71b7b6c4bfd76bd386933253c051ace1da.pass</line>
+</preamble>
+
+<pid>1835376</pid>
+<ppid>1835375</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_output/log_b25a7d71b7b6c4bfd76bd386933253c051ace1da/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./expected_MI_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_output/b25a7d71b7b6c4bfd76bd386933253c051ace1da.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.058 </time>
+</status>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>2</signo>
+  <signame>SIGINT</signame>
+  <sicode>128</sicode>
+  <siaddr>0x0</siaddr>
+  <stack>
+    <frame>
+      <ip>0x5139DBA</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>wait4</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/posix/../sysdeps/unix/sysv/linux</dir>
+      <file>wait4.c</file>
+      <line>27</line>
+    </frame>
+    <frame>
+      <ip>0x41B705</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41B7F4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x409C45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>2</signo>
+  <signame>SIGINT</signame>
+  <sicode>128</sicode>
+  <siaddr>0x0</siaddr>
+  <stack>
+    <frame>
+      <ip>0x4EFAAB0</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libm-2.31.so</obj>
+      <fn>lgamma@@GLIBC_2.23</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/math/.</dir>
+      <file>w_lgamma_main.c</file>
+      <line>29</line>
+    </frame>
+    <frame>
+      <ip>0x4227CB</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>expected_MI(Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/src</dir>
+      <file>aricode.cpp</file>
+      <line>85</line>
+    </frame>
+    <frame>
+      <ip>0x40BA95</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_aricode_deepstate_test_expected_MI_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI</dir>
+      <file>expected_MI_DeepState_TestHarness.cpp</file>
+      <line>23</line>
+    </frame>
+    <frame>
+      <ip>0x40B6B8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_aricode_deepstate_test_expected_MI_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI</dir>
+      <file>expected_MI_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41B478</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41B719</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41B7F4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x409C45</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aricode/inst/testfiles/expected_MI/expected_MI_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:25:59.047 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:25:59.067 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

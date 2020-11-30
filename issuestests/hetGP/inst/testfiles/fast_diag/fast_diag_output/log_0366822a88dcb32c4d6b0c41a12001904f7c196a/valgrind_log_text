@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_fast_diag_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/fast_diag/fast_diag_output/0366822a88dcb32c4d6b0c41a12001904f7c196a.pass`
+TRACE: Running: hetGP_deepstate_test_fast_diag_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/fast_diag/fast_diag_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+A values: 2.10097e-75 1.48271e+46 2.19725e-92
+6.64429e+102 9.82399e+202 1.15275e+289
+8.27404e+210 1.14912e-158 3.86909e-199
+5.36746e+283 2.49553e+282 3.58232e-168
+1.86964e+91 2.31210e-251 5.86606e+214
+9.37784e-219 2.47274e+96 1.29798e-214
+1.40884e-221 1.11207e+94 3.39155e+151
+
+B values: 7.50654e-138 2.32761e+108 1.45479e+216 3.34961e-130 3.83364e+167 4.29098e-55 8.30170e+20 1.57644e+51 6.43968e-109
+1.59829e+96 3.06726e-24 6.54867e+231 3.34899e-121 5.12254e+228 2.34127e-99 2.69078e-35 6.95269e+259 1.50512e-125
+4.48505e+115 5.36179e-176 2.54399e-218 2.83239e+292 3.69198e+214 2.85402e+268 2.38916e+115 3.59264e+202 7.32577e+143
+6.91303e+239 2.86545e-67 2.01744e-26 0.0257310 1.23398e+194 9.83124e-144 8.37992e-120 1.21619e+304 2.06669e-302
+7.29948e+71 1.48290e+293 3.41469e+246 2.32609e+280 3.72410e-126 9.53028e+119 2.61688e-161 6.58239e+301 1.64333e-139
+3.43886e-307 4.47184e+21 1.40276e+106 1.18360e+202 7.16749e-92 3.35108e+69 1.85291e+235 8.22894e-167 9.58684e+55
+5.90081e+17 3.64961e+61 874.592 3.00853e+302 1.11585e-238 1.89634e+217 1.27576e+175 2.77728e-160 5.82018e+286
+
+input ends
+TRACE: Passed: hetGP_deepstate_test_fast_diag_test

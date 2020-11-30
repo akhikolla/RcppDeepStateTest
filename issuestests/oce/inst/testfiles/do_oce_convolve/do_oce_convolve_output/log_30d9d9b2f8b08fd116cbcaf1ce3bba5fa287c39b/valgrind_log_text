@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (oce_deepstate_test_do_oce_convolve_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/oce/inst/testfiles/do_oce_convolve/do_oce_convolve_output/30d9d9b2f8b08fd116cbcaf1ce3bba5fa287c39b.pass`
+TRACE: Running: oce_deepstate_test_do_oce_convolve_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/oce/inst/testfiles/do_oce_convolve/do_oce_convolve_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.66855e-70 inf -5.92444e+25 -2.59311e-216 2.4493e+256 5.41248e-166 nan 1.44093e+58 nan 7.54282e-221 1.29271e-95 nan 2.40933e+144 -2.28039e+63 0
+f values: 2.21889e-58 5.54742e+44 1.19108e-98 3.72154e-298 6.51011e-158 1.3955e+97 -1.48379e+126 -2.60807e-85 4.4627e-290 3.30942e-305 4.5004e-42 -1.3378e-155 -6.58301e+211 -5.2556e-152 9.57543e-193 -3.01384e-207 3.6971e-236 1.22678e-250 1.20516e+305 -5.73545e+225 4.22516e-45 1.84273e-299 5.08643e+173 inf -1.03795e+230 -1.5409e+139 nan 1.7045e-159 -9.58959e+176 nan -1.44916e-287 1.69942e+105 9.66757e+40 448749 -1.27661e-77 1.79141e+304 3.39883e-104 -5.91413e+277 -inf 4.59889e-111 4.23545e-61 3.83948e+235 -3.76876e+18 1.31371e-31 -650448 -6.69507e+134 -2.5214e-33 3.9889e-120 2.50414e+28 0
+end values: 1.06471e-125 -4.00207e+85 5.0421e+40 9.72895e+287 2.20148e-263 -4.3953e+64 1.88631e-16 -1.54408e+144 1.80493e+47 nan -1.23476e+214 1.40184e-132 6.79835e+183 -1.86713e+304 -3.02364e+70 6.05472e+45 0.0113275 2.17299e-288 -2.91999e+163 -3.03506e+307 4.39027e-82 3.05254e-06 5.58863e-180 4.51921e+191 4.10234e-181 2.16163e+245 inf inf -6.20698e-228 -inf -1.12253e+70 -2.00516e-297 7.0579e-74 1.07441e+11 -6.37943e+152 -4.69239e+54 0
+input ends
+TRACE: Passed: oce_deepstate_test_do_oce_convolve_test

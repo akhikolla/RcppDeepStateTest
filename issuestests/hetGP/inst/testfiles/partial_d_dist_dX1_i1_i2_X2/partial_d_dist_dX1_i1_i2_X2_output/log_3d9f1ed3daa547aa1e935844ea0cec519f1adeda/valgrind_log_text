@@ -1,0 +1,25 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_partial_d_dist_dX1_i1_i2_X2_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX1_i1_i2_X2/partial_d_dist_dX1_i1_i2_X2_output/3d9f1ed3daa547aa1e935844ea0cec519f1adeda.crash`
+TRACE: Running: hetGP_deepstate_test_partial_d_dist_dX1_i1_i2_X2_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX1_i1_i2_X2/partial_d_dist_dX1_i1_i2_X2_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.59290e+240 3.76390e-48 5.30336e-292 40579.9 2.32500e+103 1.17147e-190 2.24164e+116
+9.83154e-219 5.58138e+31 1.02264e+291 1.32230e-288 3.89444e-44 5.36415e-39 4.62052e+132
+1.76825e-27 2.02743e-260 1.49385e-118 5.91259e+97 4.69102e-85 3.24344e-153 2.15330e+35
+1.06070e+60 1.48207e-297 3.36223e+59 7.18243e-163 1.97430e-107 5.26808e-92 3.15834e+27
+3.79268e-62 4.25923e+136 0.458508 2.27126e-51 9.75099e-204 7.59949e+62 5.50444e-289
+3.81747e-296 3.88481e-32 3.25448e-268 1.46436e+63 2.83363e-284 2.15491e+38 5.38682e-269
+
+X2 values: 1.21884e-233 4.69455e-52
+
+i1 values: -359125535
+i2 values: 974295192
+input ends
+==1891613==  If you believe this happened as a result of a stack
+==1891613==  overflow in your program's main thread (unlikely but
+==1891613==  possible), you can try to increase the size of the
+==1891613==  main thread stack using the --main-stacksize= flag.
+==1891613==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_dX1_i1_i2_X2_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_dX1_i1_i2_X2/partial_d_dist_dX1_i1_i2_X2_output/3d9f1ed3daa547aa1e935844ea0cec519f1adeda.crash crashed

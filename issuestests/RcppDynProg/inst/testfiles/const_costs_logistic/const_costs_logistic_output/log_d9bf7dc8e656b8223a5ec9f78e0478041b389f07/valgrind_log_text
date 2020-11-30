@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_const_costs_logistic_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_costs_logistic/const_costs_logistic_output/d9bf7dc8e656b8223a5ec9f78e0478041b389f07.fail`
+TRACE: Running: RcppDynProg_deepstate_test_const_costs_logistic_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_costs_logistic/const_costs_logistic_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -3.62212e+28 1.7565e-153 -inf -2.75181e-68 -inf -inf 3.46292e-85 -6.02207e-108 -2.43068e+78 -7.45919e+204 -7.49231e-259 0
+w values: 1.89934e-203 -13523 1.99423e+59 -4.22824e-141 -3.0263e-205 4.37862e-97 -inf -1.04657e+257 -1.50254e-28 nan 5.6313e+72 4.43504e+94 -1.19552e+134 -2.50974e+90 -1.04653e-255 3.34593e-20 1.29147e-90 -1.8118e+270 6.77415e+198 -1.33855e+68 1.21546e-170 3.34555e-149 8.99936e-270 -1.25691e-239 -inf 2.34567e+82 63606.9 inf 1.2987e+160 6.99891e-287 -4.11111e-105 -3.03896e+60 -5.28024e-306 1.3514e+58 2.06099e+255 -3.90031e+12 1.58443e-111 -1.10426e-208 nan 1.71825e-67 -2.03489e+55 -4.42653e+46 -7.683e-49 0
+min_seg values: -1006092317
+indices values: -2002150402 235453290 1697575087 -1489736391 1747968813 924979439 -1052514815 -774707878 2072074377 -1995181074 1122279145 1083108324 990293618 683565802 38333395 -2147483648 1384456155 -1726756389 -144194545 1944555694 -314695659 -41746433 -873737499 -1140819186 -2053379810 -1364002395 448705677 -1522189422 -2091145344 -559448151 -1840083378 1376410839
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-2002150403; extent=12].
+ERROR: Failed: RcppDynProg_deepstate_test_const_costs_logistic_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_costs_logistic/const_costs_logistic_output/d9bf7dc8e656b8223a5ec9f78e0478041b389f07.fail failed

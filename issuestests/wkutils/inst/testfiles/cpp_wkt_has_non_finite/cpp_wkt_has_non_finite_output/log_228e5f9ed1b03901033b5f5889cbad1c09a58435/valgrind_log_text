@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (wkutils_deepstate_test_cpp_wkt_has_non_finite_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_wkt_has_non_finite/cpp_wkt_has_non_finite_output/228e5f9ed1b03901033b5f5889cbad1c09a58435.fail`
+TRACE: Running: wkutils_deepstate_test_cpp_wkt_has_non_finite_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_wkt_has_non_finite/cpp_wkt_has_non_finite_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "piacswumrulcx" "pkwewzzd" "sbqc" "vxfwoivbeomjef" "NA" "iwtecfpxazjtpm" "NA" "tnqwcunonvmfctqswmml" "NA" "vfwumtqnlzi" "bympiywznyibzetqzeox" "hkk" "NA" "ucpnaaqnsmjucshphut" "yicmrmyhhoooimfiay" "mawqhagnivpllgvipzti" "srbmtklquabaigxbqhtq" "pipabinkxqk" "tasrfdeskwyhevhwcerm" "gawbujonsyzdbwmqwf" "krmnjqrrcvazytijplfb" "yovgxiapvdqbvdzodabk" "NA" "NA" "gsxqmd" "NA" "arjdeynkewvqleikzvjn" "vr" "fhkcodtiahgyfvnzbbsn" "pjknghfvpgccqzimdqzh" "NA" "st" "NA" "NA" "hxtcjwxuoztf" "uh" "uvxjbmdlpmfbhsiy" "NA" "NA" "eahfvzwjfwvnxgvrgjkk" "nwsjpglguggcurtccavw" "xuwnrbxzkvgtmrxpxckr" "gygqhkorxgpxyj" "imekdgpdoczbxinkhr" "ahcjmkbpbjnyugsruyrz" "coyuxdulnjitbjxtdvm" "NA" "tsg" "qikzkaqffejizvjup" "NA" "NA" "tkcuung" "wwhycdcespnqjcdbdryd" "tgmxvjmkgqgpygif" "xjvuinqrgwjfldyvramv" "mtibbbtqo" "rnqpmsxavegbugsead" "NA" "mhupipaejzndt" "jgnyyuibeczj" "NA" "yehhqnjccg" "NA" "qrcsugyqnchiazjnuyps" "NA" "goxdgnxilupranczhrsv" "fmygdybebdirfpqfaljn" "NA" "hzxvzgqj" "bqyrgeycxwcecnugosfa" "rvcjvkaftzxsnagqshqf" "b" "xuuxokakvo" "NA" "vkdjcorjfqhhmfc" "knyz" "knpkdyzivqoocrqr" "ntjuxxzlxrelmtsuuvfn" "NA" "itstqbkqporzrpfqjvya" "NA" "NA" "NA" "lym" "pfzuvsijyxwqnypunhnd" "hgezitatyjdttpsvosei" "NA" "yximtnbgdgiwmbeenpoh" "NA" "NA" "rikbplqjtbqx" "gvpidcidmnhewxsjpxcw" "obkjhmnkrebzpkjkjlpv" "zdbwxouzgveuahnmqiuf" "wisz" "fglzerdzoeowndsedqgk" "masplgozdmzxmwmrtwud"
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'piacswumrulcx' (:0)
+ERROR: Failed: wkutils_deepstate_test_cpp_wkt_has_non_finite_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wkutils/inst/testfiles/cpp_wkt_has_non_finite/cpp_wkt_has_non_finite_output/228e5f9ed1b03901033b5f5889cbad1c09a58435.fail failed

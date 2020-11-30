@@ -1,0 +1,26 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606701652
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_AllPerms_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+nobj values: -779559657
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+nobj values: -1607648587
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+nobj values: 929115619
+input ends

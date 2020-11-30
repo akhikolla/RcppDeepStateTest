@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (phylobase_deepstate_test_hasPolytomy_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/hasPolytomy/hasPolytomy_output/8a323518c4f66f591076ae2aa875706faa1df25b.pass`
+TRACE: Running: phylobase_deepstate_test_hasPolytomy_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/hasPolytomy/hasPolytomy_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ances values: 930861532 -14762734 -888677077 1160603378 -888677077 140105920 1383196190 2026064303 1041926974 944328913 -1741112099 1696845606 -1071798584 1988004040 -261167512 825170032 1252241026 -318876796 907043227 858833395 1298643907 -431780650 -1301135645 -1571400724 -100569370 12741430 -758328827 -40634294 -72151327 -157632600 217418926 1289722438 -519492383 -879290467 1693033057 2107288440 1303992643 1393618016 91754065 1470732088 -1295771267 1529944767 448536727 1456213923 -2056722727
+input ends
+TRACE: Passed: phylobase_deepstate_test_hasPolytomy_test

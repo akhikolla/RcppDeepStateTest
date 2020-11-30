@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./calculate_transition_probabilities_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/444e720bca552ce9a94b1e6676a55619b58288d4.crash</line>
+</preamble>
+
+<pid>1883074</pid>
+<ppid>1883073</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/log_444e720bca552ce9a94b1e6676a55619b58288d4/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./calculate_transition_probabilities_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/444e720bca552ce9a94b1e6676a55619b58288d4.crash</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.052 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4DC92FE</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::_Rb_tree_decrement(std::_Rb_tree_node_base*)</fn>
+    </frame>
+    <frame>
+      <ip>0x422A7C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>operator--</fn>
+      <dir>/usr/include/c++/9/bits</dir>
+      <file>stl_tree.h</file>
+      <line>302</line>
+    </frame>
+    <frame>
+      <ip>0x422A7C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>operator-&gt;</fn>
+      <dir>/usr/include/c++/9/bits</dir>
+      <file>stl_iterator.h</file>
+      <line>194</line>
+    </frame>
+    <frame>
+      <ip>0x422A7C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>calculate_transition_probabilities(Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/src</dir>
+      <file>calculate_transition_probabilities.cpp</file>
+      <line>29</line>
+    </frame>
+    <frame>
+      <ip>0x40BCAE</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_RTransferEntropy_deepstate_test_calculate_transition_probabilities_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities</dir>
+      <file>calculate_transition_probabilities_DeepState_TestHarness.cpp</file>
+      <line>24</line>
+    </frame>
+    <frame>
+      <ip>0x40B878</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_RTransferEntropy_deepstate_test_calculate_transition_probabilities_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities</dir>
+      <file>calculate_transition_probabilities_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41B718</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41B9B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41BA94</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x4098C5</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x8 is not stack'd, malloc'd or (recently) free'd</auxwhat>
+</error>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>11</signo>
+  <signame>SIGSEGV</signame>
+  <sicode>1</sicode>
+  <event>Access not within mapped region</event>
+  <siaddr>0x8</siaddr>
+  <stack>
+    <frame>
+      <ip>0x4DC92FE</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::_Rb_tree_decrement(std::_Rb_tree_node_base*)</fn>
+    </frame>
+    <frame>
+      <ip>0x422A7C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>operator--</fn>
+      <dir>/usr/include/c++/9/bits</dir>
+      <file>stl_tree.h</file>
+      <line>302</line>
+    </frame>
+    <frame>
+      <ip>0x422A7C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>operator-&gt;</fn>
+      <dir>/usr/include/c++/9/bits</dir>
+      <file>stl_iterator.h</file>
+      <line>194</line>
+    </frame>
+    <frame>
+      <ip>0x422A7C</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>calculate_transition_probabilities(Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/src</dir>
+      <file>calculate_transition_probabilities.cpp</file>
+      <line>29</line>
+    </frame>
+    <frame>
+      <ip>0x40BCAE</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_RTransferEntropy_deepstate_test_calculate_transition_probabilities_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities</dir>
+      <file>calculate_transition_probabilities_DeepState_TestHarness.cpp</file>
+      <line>24</line>
+    </frame>
+    <frame>
+      <ip>0x40B878</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_RTransferEntropy_deepstate_test_calculate_transition_probabilities_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities</dir>
+      <file>calculate_transition_probabilities_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41B718</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41B9B9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41BA94</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x4098C5</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:10.781 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>1</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:11.584 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

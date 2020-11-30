@@ -1,0 +1,49 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606706228
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_convertPvalueToCorrectSideRcpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p_ values: 5.22412e+30 -4.5212e-113 inf 1.27526e-281 1.33073e+122 -inf 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=7].
+ERROR: Failed: ffstream_deepstate_test_convertPvalueToCorrectSideRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/convertPvalueToCorrectSideRcpp/convertPvalueToCorrectSideRcpp_output/b937015df8043a931359a9f85a95356ee95fbaca.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p_ values: 1.07584e-58 nan -inf 4.87971e-294 inf
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=5].
+ERROR: Failed: ffstream_deepstate_test_convertPvalueToCorrectSideRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/convertPvalueToCorrectSideRcpp/convertPvalueToCorrectSideRcpp_output/f45f2454b9b15cca45df6356ab4d2ae1e3107643.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p_ values: inf 2.18553e-103 -3.37436e-272 1.82844e-203 -1.54145e-279 1.08741e-209 3.04294e+240 nan -1.07427e+69 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=10].
+ERROR: Failed: ffstream_deepstate_test_convertPvalueToCorrectSideRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/convertPvalueToCorrectSideRcpp/convertPvalueToCorrectSideRcpp_output/9d6feae6d2cf720e9d6a587b6c025c8e9ed79be6.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p_ values: -4.29654e+152 -1.70928e+302 3.86195e+58 -1.83586e-89 2.71345e+206 1.20253e+145 1.12493e+133 16.5959 36797.2 -7.03722e+40 -3.10701e-68 5.13965e+204 -1.65584e+43 -1333.9 1.5007e+38 7.99255e+251 -1.11601e-140 2.87646e-296 1.84792e+99 nan 3.00579e+125 -1.35701e-114 -5.29085e-188 8.638e-247 6.22272e-21 1.95879e+11 1.59781e-133 -1.59704e+245 4.52602e-35 inf 3.48592e-149 -3.67006e+80 2.43512e-232 6.45855e-193 -402.795 6.62575e-108 -1.13204e+40 -8.93707e+246 1.81322e+15 -1.83106e+65 1.95551e-34 1.03673e+249 -8.63783e+127 7.00959e+110 2.58304e+135 -6.11015e-58 -7.03722e+40 -2.75384e+187 -6.0033e-223 6.9609e-151 1.5377e-67 7.28016e-305 7.16173e+227 nan -1.38637e-143 1.1137e+245 -2.00388e-243 1.44245e-28 6.52429e+218 8.884e-287 -2.44452e+69 2.14418e+107 -4.62836e-131 1.54524e+282 8.12542e-281 4.08761e+273 -1.38541e-248 1.07939e+239 2.73841e+306 -4.44285e-265 -4.06336e-81 1.60854e-183 -7.74509e+48 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=74].
+ERROR: Failed: ffstream_deepstate_test_convertPvalueToCorrectSideRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/convertPvalueToCorrectSideRcpp/convertPvalueToCorrectSideRcpp_output/7ee339fb8e7fd284c56f3f25a79cb2020e5385f0.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p_ values: -3.51305e+84 4.87995e+286 -8.17751e+242 -1.28023e+106 6.35314e-77 5.80381e+230 -4.88501e+27 inf -inf 1.28596e+252 1.21234e+283 -3.10447e-204 nan -2.73309e-172 -1.02561e+178 1.90406e+15 -7.03639e-88 -2.98333e-24 -1.30201e+08 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=20].
+ERROR: Failed: ffstream_deepstate_test_convertPvalueToCorrectSideRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/convertPvalueToCorrectSideRcpp/convertPvalueToCorrectSideRcpp_output/fe76e608c2381c54d657f4721f35a5da3502b0a7.fail`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

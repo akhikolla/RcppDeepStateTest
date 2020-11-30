@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_find_discords_rra_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_rra/find_discords_rra_output/2064408d73d17c79066bbaac71ae76596bdab583.fail`
+TRACE: Running: jmotif_deepstate_test_find_discords_rra_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_rra/find_discords_rra_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+series values: 2.73848e-269 -3.61299e+274 -1.7207e+44 -1.35305e-25 inf 3.17273e+77 -1.09111e-293 1.33042e-111 -1.20954e+99 3.05839e+252 29.1136 -6.40992e+65 -5.5212e+20 -4.08482e+190 4.58901e+235 -3.36654e+204 8.28908e-102 -7.8912e-41 1.52993e-274 6.1288e+202 -5.54249e-175 49.83 2.38635e+35 -8.87215e+08 6.10277e+83 -3.28934e-66 2.42049e-126 7.94976e+297 1.3768e-212 -1.87003e+31 -3.14195e-72 -1.00956e-170 -1.834e-217 1.84376e+105 3.05839e+252 9.73268e-32 -4.17522e+228 -6.54961e-294 -1.02748e-96 -1.7802e+272 -4.52643e-55 7.78536e-64 1.04985e-42 -1.54709e-145 -3.07814e+13 -3.88066e-308 1.85213e+42 -3.34061e-282 1.09335e+209 1.02136e-16 -5.12182e+246 3.43171e-192 1.48351e+267 1.50763e-159 -1.81647e-35 4.68676e-304 1.05682e-256 3.87597e+204 2.40811e-283 -1.8835e-302 -6.26139e+29 5.36442e-280 8.81034e+276 -7.72518e-178 -3.32999e-223 3.10611e-119 3.92464e-127 nan 0
+w_size values: 862673014
+paa_size values: 1478224167
+a_size values: 1872013508
+nr_strategy values: "NA" "yszqqxpzflzvcrsqpewd" "jiyfqhgomcnbeesddszt" "udqkvhfcjjxd" "NA" "NA" "hnhahthogvvltbbrbqso" "NA" "kwokggfockzuszoblbkf" "NA" "jniotbfmjvbirqgdqyjw" "nmqtjjcqnufdwslymxjq" "NA" "ref" "lvgufnheixiveznrdojd" "NA" "pbaomn" "kcsxnmgvqotkeivfvshi" "NA" "byozxscdqxbaexxcqrbq" "rasbrivedsgylywseehe" "NA" "NA" "NA" "kmhrjmjxbljxipphwzr" "lxdnt"
+n_threshold values: -4.06384e+37
+discords_num values: 1911037021
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=26].
+ERROR: Failed: jmotif_deepstate_test_find_discords_rra_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_rra/find_discords_rra_output/2064408d73d17c79066bbaac71ae76596bdab583.fail failed

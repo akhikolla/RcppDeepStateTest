@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./WolframRule90_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_output/5a182dc9aadecef029eea69c1c21c6b20ca397c4.crash</line>
+</preamble>
+
+<pid>1826798</pid>
+<ppid>1826797</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_output/log_5a182dc9aadecef029eea69c1c21c6b20ca397c4/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./WolframRule90_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_output/5a182dc9aadecef029eea69c1c21c6b20ca397c4.crash</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.076 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4E4B9E4</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::c_str() const</fn>
+    </frame>
+    <frame>
+      <ip>0x4910BE</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>WolframRule90(Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, int, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL</dir>
+      <file>src/WolframRule90.cpp</file>
+      <line>23</line>
+    </frame>
+    <frame>
+      <ip>0x40DE73</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_PPRL_deepstate_test_WolframRule90_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90</dir>
+      <file>WolframRule90_DeepState_TestHarness.cpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40D668</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_PPRL_deepstate_test_WolframRule90_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90</dir>
+      <file>WolframRule90_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41DE38</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41E0D9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41E1B4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x409C55</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x8a4ff30 is 0 bytes after a block of size 416 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483BE63</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x416B06</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>__gnu_cxx::new_allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt;::allocate(unsigned long, void const*)</fn>
+      <dir>/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ext</dir>
+      <file>new_allocator.h</file>
+      <line>114</line>
+    </frame>
+    <frame>
+      <ip>0x416AB3</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>std::allocator_traits&lt;std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;::allocate(std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt;&amp;, unsigned long)</fn>
+      <dir>/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits</dir>
+      <file>alloc_traits.h</file>
+      <line>444</line>
+    </frame>
+    <frame>
+      <ip>0x416812</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>std::_Vector_base&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;::_M_allocate(unsigned long)</fn>
+      <dir>/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits</dir>
+      <file>stl_vector.h</file>
+      <line>343</line>
+    </frame>
+    <frame>
+      <ip>0x424DF3</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>std::_Vector_base&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;::_M_create_storage(unsigned long)</fn>
+      <dir>/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits</dir>
+      <file>stl_vector.h</file>
+      <line>358</line>
+    </frame>
+    <frame>
+      <ip>0x424C54</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>std::_Vector_base&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;::_Vector_base(unsigned long, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; const&amp;)</fn>
+      <dir>/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits</dir>
+      <file>stl_vector.h</file>
+      <line>302</line>
+    </frame>
+    <frame>
+      <ip>0x423848</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;::vector(unsigned long, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; const&amp;)</fn>
+      <dir>/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits</dir>
+      <file>stl_vector.h</file>
+      <line>508</line>
+    </frame>
+    <frame>
+      <ip>0x428279</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>Rcpp::traits::RangeExporter&lt;std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt; &gt;::get()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/internal/Exporter.h</file>
+      <line>46</line>
+    </frame>
+    <frame>
+      <ip>0x4281BB</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt; Rcpp::internal::as&lt;std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt; &gt;(SEXPREC*, Rcpp::traits::r_type_generic_tag)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/as.h</file>
+      <line>89</line>
+    </frame>
+    <frame>
+      <ip>0x423B32</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt; Rcpp::as&lt;std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt; &gt;(SEXPREC*)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/as.h</file>
+      <line>152</line>
+    </frame>
+    <frame>
+      <ip>0x490F70</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>WolframRule90(Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, int, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL</dir>
+      <file>src/WolframRule90.cpp</file>
+      <line>13</line>
+    </frame>
+    <frame>
+      <ip>0x40DE73</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_PPRL_deepstate_test_WolframRule90_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90</dir>
+      <file>WolframRule90_DeepState_TestHarness.cpp</file>
+      <line>33</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 1</what>
+  <stack>
+    <frame>
+      <ip>0x483F094</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>strcpy</fn>
+    </frame>
+    <frame>
+      <ip>0x4910CD</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>WolframRule90(Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, int, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL</dir>
+      <file>src/WolframRule90.cpp</file>
+      <line>23</line>
+    </frame>
+    <frame>
+      <ip>0x40DE73</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_PPRL_deepstate_test_WolframRule90_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90</dir>
+      <file>WolframRule90_DeepState_TestHarness.cpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40D668</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_PPRL_deepstate_test_WolframRule90_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90</dir>
+      <file>WolframRule90_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41DE38</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41E0D9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41E1B4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x409C55</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x0 is not stack'd, malloc'd or (recently) free'd</auxwhat>
+</error>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>11</signo>
+  <signame>SIGSEGV</signame>
+  <sicode>1</sicode>
+  <event>Access not within mapped region</event>
+  <siaddr>0x0</siaddr>
+  <stack>
+    <frame>
+      <ip>0x483F094</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>strcpy</fn>
+    </frame>
+    <frame>
+      <ip>0x4910CD</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>WolframRule90(Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;16, Rcpp::PreserveStorage&gt;, int, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL</dir>
+      <file>src/WolframRule90.cpp</file>
+      <line>23</line>
+    </frame>
+    <frame>
+      <ip>0x40DE73</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_PPRL_deepstate_test_WolframRule90_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90</dir>
+      <file>WolframRule90_DeepState_TestHarness.cpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40D668</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_PPRL_deepstate_test_WolframRule90_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90</dir>
+      <file>WolframRule90_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41DE38</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41E0D9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41E1B4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x409C55</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PPRL/inst/testfiles/WolframRule90/WolframRule90_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:01:28:18.375 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>1</count>
+    <unique>0x1</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:01:28:44.577 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

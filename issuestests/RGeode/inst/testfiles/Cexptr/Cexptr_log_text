@@ -1,0 +1,33 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695422
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_Cexptr_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -908279215
+lambda values: 2.38895e+21
+range values: -1.36746e-219 -2.66863e+28 -7.51355e+254 1.89103e-227 -4.2671e-243 -2.73701e+71 1.28868e+250 2.96729 7.39741e-68 4.29224e+227 1.14008e+114 -4.36444e+150 -9.73448e+86 -6.46318e+144 8.59203e+135 -4.02301e+49 4.63782e-81 -1.68642e+182 -7.60934e-218 -8.34728e-30 -5.22174e+143 inf -5.25559e+112 inf -4.43237e+266 -1.62568e+200 2.30715e+159 4.29224e+227 -3.77239e-149 -3.2889e+50 5.71394e+141 inf 4.61488e+58 -2.33524e-306 2.39454e+182 2.41087e-99 -2.56808e-47 -4.75628e-131 -3.73574e-274 4.98547e-296 -1.8755e-246 -2.25924e-283 -1.37451e+202 4.38194e-192 -1.07172e-63 -7.34743e-09 0
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -1689136988
+lambda values: 1.32351e-255
+range values: 5.20554e-103 -6.50044e-118 1.6921e+31 -5.85586e+287 9.37388e-258 nan 3.30653e-262 8.28239e-242 -0.000275148 -3.42575e-305 -3.35768e+145 -2.08754e+184 -inf -3.80119e-81 -1.99178e-237 3.15253e-242 1.12241e+161 4.14054e+79 2.3221e+27 -1.15404e+62 1.18787e-61 3.3356e-60 3.07657e+174 4.7098e-216 -1.08065e-125 2.52789e-185 -6.88532e+238 -4.70149e-218 -3.06365e-52 -3.4059e+259 8.07849e+203 2.71258e-171 -1.14761e-267 -2.97478e+220 -1.61424e-71 3.07519e-176 0.182957 -3.34976e+271 5.46326e-12 -inf 6000.21 -2.38696e+200 -1.18257e-24 -5.0345e+180 -inf -1.75265e-09 -8.78216e+291 -2.08371e-67 5.65951e+87 2.34197e+29 6.65185e-131 -1.23488e+279 -9.07408e+51 0
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1982683103
+lambda values: 2.88834e+247
+range values: 5.10583e-32 inf inf nan -9.09474e+95 nan nan 0
+input ends
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 2 failed/1 passed/0 abandoned tests

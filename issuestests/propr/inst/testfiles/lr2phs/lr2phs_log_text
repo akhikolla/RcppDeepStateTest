@@ -1,0 +1,43 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606700149
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_lr2phs_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lr values: 8.83988e+276 4.43347e-299
+7.24415e+230 2.72757e-261
+1.50746e-116 3.26753e-228
+1.08644e+209 4.97823e+229
+1.04172e-60 2.28120e+121
+9.32384e+170 7.73038e-169
+1.98467e-271 4.99723e-189
+4.00727e-100 1.01266e+227
+
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lr values: 3.24578e+218
+1.08422e-159
+2.00625e-38
+
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lr values: 1.12883e+250 2.58431e-71 2.95554e+189 5.49295e-33
+2.95414e-210 9.10357e-232 1.85630e-22 7.25730e-32
+5.33082e-197 1.11315e+247 2.08343e+177 8.88027e+197
+1.33983e+247 2.39824e+130 3.39243e-280 1.39030e+158
+2.86645e-228 2.02325e+150 1.05340e+62 1.89828e+38
+1.19841e-250 7.18455e+142 3.25553e-236 1.73439e+39
+
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lr values: 2.37033e-271 7.16073e-236 5.92111e-91 4.91959e+272 1.73714e+264 5.96970e-58 1.10850e+33
+6.66294e+193 1.56944e-251 1.55608e-284 4.34906e-24 4.34002e+174 1.59706e+210 1.07920e+248
+
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

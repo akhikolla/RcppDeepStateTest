@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./BellC_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_output/8995b7db7b1cfed28f7b5d621de08980216e839f.crash</line>
+</preamble>
+
+<pid>1809839</pid>
+<ppid>1809838</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_output/log_8995b7db7b1cfed28f7b5d621de08980216e839f/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./BellC_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_output/8995b7db7b1cfed28f7b5d621de08980216e839f.crash</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.072 </time>
+</status>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>11</signo>
+  <signame>SIGSEGV</signame>
+  <sicode>1</sicode>
+  <event>Access not within mapped region</event>
+  <siaddr>0x1FFE801FF8</siaddr>
+  <stack>
+    <frame>
+      <ip>0x42209E</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>Stirling2C(int, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/src</dir>
+      <file>compositions.cpp</file>
+      <line>53</line>
+    </frame>
+  </stack>
+</fatal_signal>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>11</signo>
+  <signame>SIGSEGV</signame>
+  <sicode>1</sicode>
+  <event>Access not within mapped region</event>
+  <siaddr>0x1FFE801FF0</siaddr>
+  <stack>
+    <frame>
+      <ip>0x4833134</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_core-amd64-linux.so</obj>
+      <fn>_vgnU_freeres</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:13.087 </time>
+</status>
+
+<error>
+  <unique>0x2f</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>24 bytes in 1 blocks are possibly lost in loss record 48 of 1,574</text>
+    <leakedbytes>24</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x5170ED3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>tsearch</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/misc</dir>
+      <file>tsearch.c</file>
+      <line>338</line>
+    </frame>
+    <frame>
+      <ip>0x509D51A</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>__add_to_environ</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/stdlib</dir>
+      <file>setenv.c</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0x484459F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>setenv</fn>
+    </frame>
+    <frame>
+      <ip>0x4CF3F94</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::initialize(int, char const* const*, bool, bool, bool)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>137</line>
+    </frame>
+    <frame>
+      <ip>0x4CF4483</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::RInside()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x40B673</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_multicool_deepstate_test_BellC_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC</dir>
+      <file>BellC_DeepState_TestHarness.cpp</file>
+      <line>11</line>
+    </frame>
+    <frame>
+      <ip>0x40B658</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_multicool_deepstate_test_BellC_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC</dir>
+      <file>BellC_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41B108</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41B3A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41B484</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x4096D5</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x30</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>24 bytes in 1 blocks are possibly lost in loss record 49 of 1,574</text>
+    <leakedbytes>24</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x5170ED3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>tsearch</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/misc</dir>
+      <file>tsearch.c</file>
+      <line>338</line>
+    </frame>
+    <frame>
+      <ip>0x509D51A</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>__add_to_environ</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/stdlib</dir>
+      <file>setenv.c</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0x484459F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>setenv</fn>
+    </frame>
+    <frame>
+      <ip>0x4CF2E90</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::init_tempdir()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>225</line>
+    </frame>
+    <frame>
+      <ip>0x4CF3FC9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::initialize(int, char const* const*, bool, bool, bool)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>149</line>
+    </frame>
+    <frame>
+      <ip>0x4CF4483</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::RInside()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x40B673</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_multicool_deepstate_test_BellC_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC</dir>
+      <file>BellC_DeepState_TestHarness.cpp</file>
+      <line>11</line>
+    </frame>
+    <frame>
+      <ip>0x40B658</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_multicool_deepstate_test_BellC_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC</dir>
+      <file>BellC_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41B108</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41B3A9</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41B484</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xe3</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>143 bytes in 7 blocks are possibly lost in loss record 228 of 1,574</text>
+    <leakedbytes>143</leakedbytes>
+    <leakedblocks>7</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x509D4E8</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>__add_to_environ</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/stdlib</dir>
+      <file>setenv.c</file>
+      <line>215</line>
+    </frame>
+    <frame>
+      <ip>0x484459F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>setenv</fn>
+    </frame>
+    <frame>
+      <ip>0x4A52E35</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x49716CF</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x498D60F</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_eval</fn>
+    </frame>
+    <frame>
+      <ip>0x498F41E</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4990252</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_applyClosure</fn>
+    </frame>
+    <frame>
+      <ip>0x497F404</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x498D60F</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_eval</fn>
+    </frame>
+    <frame>
+      <ip>0x498F41E</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4990252</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_applyClosure</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xf3</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>168 bytes in 7 blocks are possibly lost in loss record 244 of 1,574</text>
+    <leakedbytes>168</leakedbytes>
+    <leakedblocks>7</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x5170ED3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>tsearch</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/misc</dir>
+      <file>tsearch.c</file>
+      <line>338</line>
+    </frame>
+    <frame>
+      <ip>0x509D51A</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>__add_to_environ</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/stdlib</dir>
+      <file>setenv.c</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0x484459F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>setenv</fn>
+    </frame>
+    <frame>
+      <ip>0x4A52E35</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x49716CF</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x498D60F</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_eval</fn>
+    </frame>
+    <frame>
+      <ip>0x498F41E</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4990252</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_applyClosure</fn>
+    </frame>
+    <frame>
+      <ip>0x497F404</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x498D60F</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_eval</fn>
+    </frame>
+    <frame>
+      <ip>0x498F41E</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x11a</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>264 bytes in 11 blocks are possibly lost in loss record 283 of 1,574</text>
+    <leakedbytes>264</leakedbytes>
+    <leakedblocks>11</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x5170ED3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>tsearch</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/misc</dir>
+      <file>tsearch.c</file>
+      <line>338</line>
+    </frame>
+    <frame>
+      <ip>0x509D51A</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>__add_to_environ</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/stdlib</dir>
+      <file>setenv.c</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0x484459F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>setenv</fn>
+    </frame>
+    <frame>
+      <ip>0x48B6256</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x48B63E9</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>process_system_Renviron</fn>
+    </frame>
+    <frame>
+      <ip>0x4AB32F4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_initialize_R</fn>
+    </frame>
+    <frame>
+      <ip>0x4AAE4EC</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_initEmbeddedR</fn>
+    </frame>
+    <frame>
+      <ip>0x4CF404F</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::initialize(int, char const* const*, bool, bool, bool)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>155</line>
+    </frame>
+    <frame>
+      <ip>0x4CF4483</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::RInside()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x40B673</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_multicool_deepstate_test_BellC_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC</dir>
+      <file>BellC_DeepState_TestHarness.cpp</file>
+      <line>11</line>
+    </frame>
+    <frame>
+      <ip>0x40B658</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_multicool_deepstate_test_BellC_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC</dir>
+      <file>BellC_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+  </stack>
+</error>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:14.037 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

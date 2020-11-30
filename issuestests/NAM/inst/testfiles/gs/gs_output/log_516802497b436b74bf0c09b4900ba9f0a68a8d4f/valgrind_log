@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./gs_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_output/516802497b436b74bf0c09b4900ba9f0a68a8d4f.fail</line>
+</preamble>
+
+<pid>1846731</pid>
+<ppid>1846730</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_output/log_516802497b436b74bf0c09b4900ba9f0a68a8d4f/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./gs_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_output/516802497b436b74bf0c09b4900ba9f0a68a8d4f.fail</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.054 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x43DBCF</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>gs(Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/src</dir>
+      <file>Functions.cpp</file>
+      <line>645</line>
+    </frame>
+    <frame>
+      <ip>0x419B8D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x4193E8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x42A468</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x42A709</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x42A7E4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x417975</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x8a5a390 is 0 bytes after a block of size 432 in arena "client"</auxwhat>
+</error>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x43DC0F</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>gs(Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/src</dir>
+      <file>Functions.cpp</file>
+      <line>645</line>
+    </frame>
+    <frame>
+      <ip>0x419B8D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x4193E8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x42A468</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x42A709</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x42A7E4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x417975</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x8a5a390 is 0 bytes after a block of size 432 in arena "client"</auxwhat>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.298 </time>
+</status>
+
+<error>
+  <unique>0xb</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>8 bytes in 1 blocks are definitely lost in loss record 10 of 1,352</text>
+    <leakedbytes>8</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483BE63</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4CF40F7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::initialize(int, char const* const*, bool, bool, bool)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>198</line>
+    </frame>
+    <frame>
+      <ip>0x4CF4483</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::RInside()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x419403</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>11</line>
+    </frame>
+    <frame>
+      <ip>0x4193E8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x42A468</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x42A709</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x42A7E4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x417975</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1b</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>53 bytes in 1 blocks are possibly lost in loss record 26 of 1,352</text>
+    <leakedbytes>53</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483BE63</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E49E7D</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::_M_mutate(unsigned long, unsigned long, char const*, unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E4ADB5</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::_M_replace(unsigned long, unsigned long, char const*, unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E4301E</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_ostringstream&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::str() const</fn>
+    </frame>
+    <frame>
+      <ip>0x423971</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; tinyformat::format&lt;int, int&gt;(char const*, int const&amp;, int const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/utils/tinyformat/tinyformat.h</file>
+      <line>976</line>
+    </frame>
+    <frame>
+      <ip>0x45DD36</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>Rcpp::index_out_of_bounds::index_out_of_bounds&lt;int&amp;, int&gt;(char const*, int&amp;, int&amp;&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp</dir>
+      <file>exceptions.h</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0x40A0D7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>MatrixRow</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/vector</dir>
+      <file>MatrixRow.h</file>
+      <line>142</line>
+    </frame>
+    <frame>
+      <ip>0x40A0D7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>operator()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/vector</dir>
+      <file>Matrix.h</file>
+      <line>152</line>
+    </frame>
+    <frame>
+      <ip>0x40A0D7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>gs(Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, int) [clone .cold]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/src</dir>
+      <file>Functions.cpp</file>
+      <line>645</line>
+    </frame>
+    <frame>
+      <ip>0x419B8D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x4193E8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x42A468</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x42A709</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x42A7E4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x3c</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>168 bytes in 1 blocks are possibly lost in loss record 59 of 1,352</text>
+    <leakedbytes>168</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x4DB02E3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>__cxa_allocate_exception</fn>
+    </frame>
+    <frame>
+      <ip>0x40A0B3</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>MatrixRow</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/vector</dir>
+      <file>MatrixRow.h</file>
+      <line>142</line>
+    </frame>
+    <frame>
+      <ip>0x40A0B3</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>operator()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/Rcpp/include/Rcpp/vector</dir>
+      <file>Matrix.h</file>
+      <line>152</line>
+    </frame>
+    <frame>
+      <ip>0x40A0B3</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>gs(Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, int) [clone .cold]</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/src</dir>
+      <file>Functions.cpp</file>
+      <line>645</line>
+    </frame>
+    <frame>
+      <ip>0x419B8D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x4193E8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x42A468</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x42A709</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x42A7E4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x417975</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xb5</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>1,025 bytes in 1 blocks are definitely lost in loss record 180 of 1,352</text>
+    <leakedbytes>1025</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483BE63</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E4A3AF</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::reserve(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4CF2C55</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>MemBuf::MemBuf(int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>MemBuf.cpp</file>
+      <line>35</line>
+    </frame>
+    <frame>
+      <ip>0x4CF4467</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::RInside()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>56</line>
+    </frame>
+    <frame>
+      <ip>0x419403</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>11</line>
+    </frame>
+    <frame>
+      <ip>0x4193E8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_NAM_deepstate_test_gs_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs</dir>
+      <file>gs_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x42A468</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x42A709</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x42A7E4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x417975</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/gs/gs_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<errorcounts>
+  <pair>
+    <count>1</count>
+    <unique>0x1</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.765 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

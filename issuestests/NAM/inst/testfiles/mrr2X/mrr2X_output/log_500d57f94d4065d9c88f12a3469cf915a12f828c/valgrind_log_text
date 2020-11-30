@@ -1,0 +1,31 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_mrr2X_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_output/500d57f94d4065d9c88f12a3469cf915a12f828c.fail`
+TRACE: Running: NAM_deepstate_test_mrr2X_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 5.25765e+242 2.21500e+180 1.14227e+95
+1.80692e+204 9.77360e+57 7.14556e-60
+1.69619e-176 4.81164e-154 3.85529e-103
+4.45526e+15 1.94425e+82 5.66015e-189
+6.26585e+88 6.84960e+245 9.67987e+79
+9.66833e+125 9.40597e+285 2.90605e-221
+
+X1 values: 1.65033e+239
+7.85730e+138
+5.05609e-126
+1.84045e+159
+2.15421e+18
+1.36620e+81
+5.66161e-44
+2.56558e+85
+4.34479e-12
+1.81408e+242
+
+X2 values: 2.51940e+10 4.61580e-59 5.89494e-242 2.27256e-292 6.54336e+18 8.45672e-250 7.92124e+44 9.09419e+114 2.83424e+81 3.65402e-61
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: system is computationally singular: reciprocal condition number = 0.
+ERROR: Failed: NAM_deepstate_test_mrr2X_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_output/500d57f94d4065d9c88f12a3469cf915a12f828c.fail failed

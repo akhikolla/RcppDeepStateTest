@@ -1,0 +1,28 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745869
+WARNING: No test specified, defaulting to first test defined (Phase12Compare_deepstate_test_TruncNormal_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rho values: -7.40477e+264
+c1 values: 3.04831e-50
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rho values: -3.6531e+89
+c1 values: -2.15359e+70
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rho values: -3.76265e-304
+c1 values: 2.44942e+170
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rho values: -4.80947e-178
+c1 values: -7.01926e-168
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

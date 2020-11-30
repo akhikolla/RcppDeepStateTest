@@ -1,0 +1,16 @@
+Package: dslice
+Type: Package
+Title: Dynamic Slicing
+Version: 1.2.0
+Date: 2018-11-16
+Author: Chao Ye and Bo Jiang
+Maintainer: Chao Ye <yechao1009@gmail.com>
+Description: Dynamic slicing is a method designed for dependency detection between a categorical variable and a continuous variable. It could be applied for non-parametric hypothesis testing and gene set enrichment analysis.
+License: GPL (>= 2)
+Depends: R (>= 2.10), stats, utils, Rcpp (>= 0.11.1), ggplot2 (>=
+        0.9.3.1), scales
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2018-11-17 03:13:00 UTC; yc
+Repository: CRAN
+Date/Publication: 2018-11-17 05:40:07 UTC

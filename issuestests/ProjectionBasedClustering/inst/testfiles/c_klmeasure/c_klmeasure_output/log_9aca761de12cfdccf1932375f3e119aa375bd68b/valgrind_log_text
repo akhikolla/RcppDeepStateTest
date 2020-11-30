@@ -1,0 +1,30 @@
+WARNING: No test specified, defaulting to first test defined (ProjectionBasedClustering_deepstate_test_c_klmeasure_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/c_klmeasure/c_klmeasure_output/9aca761de12cfdccf1932375f3e119aa375bd68b.crash`
+TRACE: Running: ProjectionBasedClustering_deepstate_test_c_klmeasure_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/c_klmeasure/c_klmeasure_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Data values: 6.58606e+205 4.70923e-285 5.66063e+183 1.16396e+135 4.69223e-154 5.28327e+63 5.44708e+14
+4.24238e-05 1.42539e+246 7.57616e-12 1.79935e-149 3.36437e-99 2.66258e-21 4.44715e+228
+1.43025e+228 9.17616e-291 1.49836e-239 1.97393e-200 3.39705e-77 4.85632e-70 1.70563e-220
+0.0605214 2.76208e+141 1.75803e-174 8.30919e+96 1.67241e+239 7.55537e+145 7.74835e-43
+2.25570e-178 1.71073e-285 4.86682e-239 5.80411e-126 1.09869e-155 1.19660e+58 7.38543e-09
+5.14943e+77 2.66592e-302 7.13737e-81 6.85284e+85 8.47214e-213 1.22099e-158 367.585
+6.40302e+108 2.08808e+265 8.68192e-271 5.60885e+236 1.28816e-273 1.04162e+201 9.43219e-301
+1.50769e+260 3.85593e+287 7.69646e+20 2.82381e+256 1.53052e-268 1.63459e+30 7.49139e+56
+2.29083e-15 7.31073e+284 4.95107e+252 3.28016e+109 3.82005e+275 1.07453e+64 1.89584e-277
+
+pData values: 3.29332e+44 1.78343e-189 3.05447e-253
+76.1837 9.31776e-291 1.01385e+186
+6.26397e+147 3.43691e-166 2.00726e+111
+7.74606e+182 1.39239e+97 1.44743e+207
+
+NeighborhoodSize values: 1022414435
+input ends
+==1807777==  If you believe this happened as a result of a stack
+==1807777==  overflow in your program's main thread (unlikely but
+==1807777==  possible), you can try to increase the size of the
+==1807777==  main thread stack using the --main-stacksize= flag.
+==1807777==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_c_klmeasure_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/c_klmeasure/c_klmeasure_output/9aca761de12cfdccf1932375f3e119aa375bd68b.crash crashed

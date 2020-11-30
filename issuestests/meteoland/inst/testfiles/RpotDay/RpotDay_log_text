@@ -1,0 +1,49 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606700819
+WARNING: No test specified, defaulting to first test defined (meteoland_deepstate_test_RpotDay_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+solarConstant values: 4.9834e-41
+latrad values: 3.21747e+253
+slorad values: -2.65262e-252
+asprad values: 1.55542e-156
+delta values: 2.34831e+110
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+solarConstant values: 1.18754e-117
+latrad values: -2.3019e+183
+slorad values: -1.82405e-236
+asprad values: -1.79755e+273
+delta values: -4.99599e+73
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+solarConstant values: 6.76439e-222
+latrad values: -3.54982e-117
+slorad values: 2.08754e+151
+asprad values: -1.06185e+113
+delta values: 1.13519e-64
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+solarConstant values: -1.09877e+137
+latrad values: 3.1271e-10
+slorad values: -4.30518e-274
+asprad values: 2.30161e-231
+delta values: -3.95004e-171
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+solarConstant values: 0.00226
+latrad values: 1.78876e+252
+slorad values: 7.52832e-103
+asprad values: -3.51791e+80
+delta values: -8.01435e+286
+input ends
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 0 failed/5 passed/0 abandoned tests

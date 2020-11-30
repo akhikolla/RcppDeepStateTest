@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (phylobase_deepstate_test_tipsFast_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/tipsFast/tipsFast_output/ef0332cbb24f65abecec49a8a805f1ad1a04dc08.pass`
+TRACE: Running: phylobase_deepstate_test_tipsFast_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/tipsFast/tipsFast_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ances values: 66649224 -1938529746 996487194 645848771 883232473 -980062370 -589895773 970467133 -802962083 -1759015982 -1933841229 969569901 1887716917 431395830 -1938122299 1388315171 -473399174 -284472196 -969330689 61173107 699639874 -2147483648 -1227769079 -1849873292 -2052264331 -1220808323 1948286071 -974525458 -1651298298 -815137658 985108428 1958428922 1731161886 1784716254 -966528636 20984734
+input ends
+TRACE: Passed: phylobase_deepstate_test_tipsFast_test

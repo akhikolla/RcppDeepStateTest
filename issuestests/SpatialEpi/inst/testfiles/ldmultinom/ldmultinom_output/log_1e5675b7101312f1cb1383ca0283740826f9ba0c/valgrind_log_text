@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (SpatialEpi_deepstate_test_ldmultinom_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ldmultinom/ldmultinom_output/1e5675b7101312f1cb1383ca0283740826f9ba0c.pass`
+TRACE: Running: SpatialEpi_deepstate_test_ldmultinom_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ldmultinom/ldmultinom_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.30578e-101 -1.01076e+99 -3.00467e+301 6.0366e-283 8.28742e+79 -6.63078e-55 2.52484e+113 -inf 5.2066e+151 2.55562e-244 6.4337e+140 7.72323e-236 -5.9052e-116 -6.2726e+83 3.73525e-292 7.41918e-187 inf -2.87028e+96 -3.18049e+290 4.18649e-287 -3.56618e+221 1.99952e-184 4.17486e-29 -1.07983e-42 6.96394e-19 -4.88876e+170 2.95682e+271 2.29737e+13 -1.72902e+246 -1.91125e-284 1.44211e-68 -2.42273e+289 3.94343e-263 -2.68669e+141 -3.42804e-254 -1.56699e-24 -3.58267e+178 -1.5714e-246 -1.09963e+83 inf -2.46316e+285 -1.32508e-64 0
+prob values: 1.56595e+171 2.29759e+38 -3.13298e-07 8.79272e-244 -2.48267e+230 -4.33685e-103 1.11605e-204 3.84426e-137 9.22476e-12 4.44705e+100 inf -1.02355e+74 9.40266e+206 6.60447e-115 -4.33806e-181 2.46577e+160 -1.5599e+188 -8.52004e+151 nan -6.26396e+154 5.60771e+285 -2.18341e-298 -4.77617e-150 -5.48649e-289 -7.94542e+115 9.83393e+32 3.50174e+112 -3.56414e-308 4.46372e+44 9.36991e+294 -1.76484e+302 3.89271e+229 8.23318e+250 3.27187e-143 1.48151e-210 2.28433e+13 -1.64692e+65 1.3749e+13 -6.89137e-41 -8.77014e+225 5.595e+262 -7.26957e-83 5.27824e+307 -2.79769e-77 -2.32411e-96 nan 3.8979e+167 8.45512e+276 -4.2502e-113 -4.3809e+26 -7.83252e+23 1.40185e+206 2.8986e-48 6.24534e-55 -5.65675e+250 2.14654e-66 6.77955e+216 4.0736e+237 -4.09605e-236 -3.7937e+259 -7.28922e-148 2.36599e+226 2.25124e+246 9.40266e+206 2.6091e-154 -9.6929e-141 -8.21932e+177 5.92155e-84 -4.2914e+232 0
+input ends
+TRACE: Passed: SpatialEpi_deepstate_test_ldmultinom_test

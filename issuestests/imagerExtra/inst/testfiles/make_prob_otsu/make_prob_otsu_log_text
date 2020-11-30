@@ -1,0 +1,13 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606688111
+WARNING: No test specified, defaulting to first test defined (imagerExtra_deepstate_test_make_prob_otsu_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ordered values: nan -1.34838e+116 -2.41972e+243 -2.16019e+83 8.97778e-118 inf -2.73302e+251 inf
+bins values: 5.31197e+265 2.02917e-184 -inf 7.39513e+226 1.83347e-08 7.38296e+202 4.07817e+263 -7.39188e-212 2.44974e-244 2.17632e-265 -1.60032e-170 -2.28679e-17 7.02909e-244 -11575.1 8.04224e+171 5.46526e+59 1.59406e+31 -2.25473e-304 nan -4.90085e+200 4.24362e-239 3.29471e-208 -6.89094e-236 -4.01402e+51 2.64153e+83 3.47774e+256 nan 3.43267e-245 1.60469e+192 -6.96599e+240 2.48861e-41 -inf 30857.2 -1.30263e+167 -8.9573e-287 -8.38181e+138 inf -1098.81 -168980 -1.6597e+104 -2.03705e-98 -1.35043e-275 9.09905e+118 -1.14051e-306 -7.12272e+285 -1.42703e+87 5.13948e-141 2.04501e-298 -1.86161e-279 1.1277e-294 -1.08371e-109 2.70181e-180 -8.06819e-74 -5.56925e+214 2.19315e+221 0
+intervalnumber values: 278538284
+width values: 234794825
+height values: -1682679323
+input ends
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 0 failed/1 passed/0 abandoned tests

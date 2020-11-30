@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (HDLSSkST_deepstate_test_rctab_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/5fff9e95b9609d04de7cd05998ee640b30bde429.crash`
+TRACE: Running: HDLSSkST_deepstate_test_rctab_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+M values: 5.43267e-197 2.12781e+102 1.00933e+210 4.30726e+49 6.12508e-84 1.78684e-32 2.25526e+223 3.08931e-199 3.08617e-17 5.74838e+20
+3.41028e-301 1.86027e+121 3.02161e+130 4.01571e-200 1.88678e-90 5.64093e+120 1.83566e-58 1.76118e-158 3.83338e-29 5.88398e+167
+2.03268e-66 4.68257e-275 2.65645e-120 3.48625e-282 1.42046e+293 3.09656e-148 10.4947 3.03153e-220 4.72932e-204 3.65193e-273
+9.89938e-149 3.75651e-271 6.98500e-180 6.17914e-103 1.66771e-171 2.11327e+251 1.62233e-156 4.24364e-42 1.70256e+246 4.10060e+73
+5.10826e+301 4.35428e-70 1.01857e-135 1.16601e+253 2.10705e-308 3.58689e+251 1.17906e-151 3.56342e+271 5.15476e-174 9.09104e-294
+
+input ends
+==1809240==  If you believe this happened as a result of a stack
+==1809240==  overflow in your program's main thread (unlikely but
+==1809240==  possible), you can try to increase the size of the
+==1809240==  main thread stack using the --main-stacksize= flag.
+==1809240==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: HDLSSkST_deepstate_test_rctab_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/rctab/rctab_output/5fff9e95b9609d04de7cd05998ee640b30bde429.crash crashed

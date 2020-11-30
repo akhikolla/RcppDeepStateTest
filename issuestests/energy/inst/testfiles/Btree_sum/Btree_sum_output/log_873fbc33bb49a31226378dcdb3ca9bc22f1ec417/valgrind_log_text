@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (energy_deepstate_test_Btree_sum_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/Btree_sum/Btree_sum_output/873fbc33bb49a31226378dcdb3ca9bc22f1ec417.fail`
+TRACE: Running: energy_deepstate_test_Btree_sum_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/Btree_sum/Btree_sum_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -148187944 1025481588 -1207915215 -1201234461 1488919255 -1649566938 1402309744 -1757163377 1856268203 -1023270789 63810747 860462731 163078822 1727909049 -1839650262 -1661290230 -1642023327 601283878 -1551244842 -746626340 935625373 -1034987692 -1467908540 2067222297 1476754043 -615014018 -511552332 28741688 2064832061 1630376201 -1374663127 1201488543 -1564730755 347864053 1028630846 104429441 1263386285 2052044328 1594118567 -1584183741 1331806307 482039898 184653841 974099078 1548760022 -1612054785 -296769905 -487795918 1301517674 1341047898 -279155926 1828565192 -2147483648 -862065734 -309245233 2115830219 -1332267521 -2047256204 -2147483648 -1051817458 824835070 -941180748 2013430774 528859600
+z values: 1.2978e-250 nan
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-148187944; extent=128].
+ERROR: Failed: energy_deepstate_test_Btree_sum_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/Btree_sum/Btree_sum_output/873fbc33bb49a31226378dcdb3ca9bc22f1ec417.fail failed

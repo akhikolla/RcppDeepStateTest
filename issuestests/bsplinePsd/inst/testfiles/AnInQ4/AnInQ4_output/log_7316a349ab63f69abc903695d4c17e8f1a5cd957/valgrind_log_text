@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (bsplinePsd_deepstate_test_AnInQ4_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsplinePsd/inst/testfiles/AnInQ4/AnInQ4_output/7316a349ab63f69abc903695d4c17e8f1a5cd957.pass`
+TRACE: Running: bsplinePsd_deepstate_test_AnInQ4_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsplinePsd/inst/testfiles/AnInQ4/AnInQ4_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+knot values: 5.65739e-33 -3.23947e-217 7.60282e+73 1.15446e-299 inf -6149.77 2.6925e-290 -8.14566e-91 5.88656e+128 5.51059e+105 -6.01338e-276 -6.64323e+223 -0.0256401 1.14876e-226 -2.73545e-15 1.75527e-279 -1.5905e+136 7.06436e-254 -1.30004e+278 7.13883e-219 -3.64681e+41 2.13481e-165 4.8495e+296 -2.17463e-193 1.11234e-249 -5.83727e-305 6.41807e+205 4.55818e-89 -4.73239e-44 -1.91157e+123 2.13913e+173 3.00699e-197 -1.01494e+156 -1.2918e+37 -6.71277e+36 -4.94845e+81 6.10119e+193 -8.60641e-275 -1.17192e+191 -4.30424e+101 -2.79546e-151 2.53735e-56 -7.31825e-89 4.14773e+202 -1.40017e+06 5.15765e-43 -6.32156e+39 2.00285e+194 nan -1.45071e+253 -9.6401e+223 4.80082e+198 -9.93325e-112 -2.2077e+177 -4.93366e-112 -2.42598e-91 6.20251e-218 2.07332e-206 1.47949e-152 9.89079e+27 -1.7295e+232 -5.00785e-307 -3.06535e-298 -inf 2.42296e-281 nan nan -2.80732e-266 1.96956e-175 1.49192e+275 0
+input ends
+TRACE: Passed: bsplinePsd_deepstate_test_AnInQ4_test

@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (PLMIX_deepstate_test_Estep_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PLMIX/inst/testfiles/Estep/Estep_output/0eaaf7295fac7cf1f13870f6474301f0fabe1d87.pass`
+TRACE: Running: PLMIX_deepstate_test_Estep_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PLMIX/inst/testfiles/Estep/Estep_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p values: 4.48544e+214 4.00739e+152
+8.20987e+89 2554.28
+
+ref_order values: 2.08540e-250 1.73899e+104
+1.77275e-114 5.24580e-172
+1.29028e-160 3.96515e-230
+6.31413e+265 3.27004e+262
+1.97340e+37 6.52458e-218
+
+weights values: inf inf 235.256 235.256
+pi_inv values: 7.88591e-11 1.17158e-273 8.29533e-162 9.18110e-137 1.14196e+248 3.31168e+176 1.43507e+117 1.49624e+200 9.20359e-217 5.69431e+223
+
+input ends
+TRACE: Passed: PLMIX_deepstate_test_Estep_test

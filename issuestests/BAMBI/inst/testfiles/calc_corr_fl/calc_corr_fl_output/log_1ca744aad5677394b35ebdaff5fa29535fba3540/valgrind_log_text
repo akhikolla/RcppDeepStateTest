@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_calc_corr_fl_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/1ca744aad5677394b35ebdaff5fa29535fba3540.fail`
+TRACE: Running: BAMBI_deepstate_test_calc_corr_fl_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_DeepState_TestHarness.cpp(10)
+input starts
+samp_mat values:   9.3343e-235 -2.7447e+223 -1.3840e+226   3.0731e+29
+  6.9870e-145 -1.4041e+306  5.5784e+222 -8.1731e-185
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/1ca744aad5677394b35ebdaff5fa29535fba3540.fail failed

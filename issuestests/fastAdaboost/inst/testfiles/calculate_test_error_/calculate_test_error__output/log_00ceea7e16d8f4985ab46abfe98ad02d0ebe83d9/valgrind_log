@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./calculate_test_error__DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__output/00ceea7e16d8f4985ab46abfe98ad02d0ebe83d9.pass</line>
+</preamble>
+
+<pid>1840219</pid>
+<ppid>1840218</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__output/log_00ceea7e16d8f4985ab46abfe98ad02d0ebe83d9/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./calculate_test_error__DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__output/00ceea7e16d8f4985ab46abfe98ad02d0ebe83d9.pass</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.041 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 4</what>
+  <stack>
+    <frame>
+      <ip>0x42C903</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>calculate_test_error_(Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/src</dir>
+      <file>calculate_test_error.cpp</file>
+      <line>12</line>
+    </frame>
+    <frame>
+      <ip>0x40E7D5</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fastAdaboost_deepstate_test_calculate_test_error__test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_</dir>
+      <file>calculate_test_error__DeepState_TestHarness.cpp</file>
+      <line>23</line>
+    </frame>
+    <frame>
+      <ip>0x40E3F8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fastAdaboost_deepstate_test_calculate_test_error__test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_</dir>
+      <file>calculate_test_error__DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41E1B8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41E459</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41E534</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40C1A5</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x9f37950 is 0 bytes after a block of size 272 alloc'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x49CA3E4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_allocVector3</fn>
+    </frame>
+    <frame>
+      <ip>0x41070D</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;13, Rcpp::PreserveStorage&gt;::Vector(int const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>130</line>
+    </frame>
+    <frame>
+      <ip>0x40D8FD</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>RcppDeepState_IntegerVector()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState</dir>
+      <file>include/RcppDeepState.h</file>
+      <line>57</line>
+    </frame>
+    <frame>
+      <ip>0x40E5D4</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_Test_fastAdaboost_deepstate_test_calculate_test_error__test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_</dir>
+      <file>calculate_test_error__DeepState_TestHarness.cpp</file>
+      <line>17</line>
+    </frame>
+    <frame>
+      <ip>0x40E3F8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_Run_fastAdaboost_deepstate_test_calculate_test_error__test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_</dir>
+      <file>calculate_test_error__DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41E1B8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41E459</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41E534</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x40C1A5</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fastAdaboost/inst/testfiles/calculate_test_error_/calculate_test_error__DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:07.660 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>8</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:08.156 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

@@ -1,0 +1,32 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606676891
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_mincpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 1.376e-111 -inf 1.57931e+248 -1.61918e-55 inf 8.82267e-76 -1.2281e-106 -2.90546e-230 1.62461e-133 4.50645e+24 5.91799e-51 4.43686e-26 -7.42205e+18 1.3738e-82 7.6912e-101 1.24889e+138 1.16306e-85 -7.4797e+190 1.33146e-115 5.59108e-216 4.5721e+273 -1.25581e+156 6.38292e-211 8.24096e-71 -2.7156e-28 1.22813e+291 -1.39242e-82 -4.6992e-169 1.67828e+159 2.19308e+128 -8.10954e-265 -5.02321e+114 2.53886e+37 8.07209e-33 -6.41074e-93 -6.27697e-308 -1.08695e-175 3.64422e-197 2.24408e+152 -4.98994e-168 -8.42373e-116 -1.76309e-161 9.24059e+64 4.14828e-294 8.51608e-249 1.02441e+10 8.15083e-235 -4.09097e-11 -2.61802 -8.15851e-179 -8.7927e+107 -908.038 -6.97598e+255 9.27318e-268 5.77047e+162 5.74291e+55 3.21021e-11 -5.02061e+203 -9.49873e-120 -6.28829e+230 -3.97344e+223 -2.65161e+134 2.06404e-271 3.30121e-32 -2.35796e-304 696879 8.33672e-212 -3.66605e+296 -4.23852e-38 4.43686e-26 7.18235e-194 1.50176e+158 5.92475e+221 2.64171e-152 -1.68358e+255 -3.96279e+172 -1.82591e+136 -3.87933e+276 9.35252e-282 7.19067e-241 4.39244e+240 -1.13984e+53 -1.66869e-307 -9.82956e+87 3.55255e-194 -6.98541e+16 1.01697e-102 2.43427e-65 2.19659e+76 -9.74782e-126 inf 0
+x values: 127455833
+y values: -1260296791
+j values: -458654645
+input ends
+
+error: Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+ERROR: Failed: timma_deepstate_test_mincpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp/mincpp_output/f03149032fbb4e7d6db428ce2662e94d97ee1f13.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 4.27002e+273 1.66671e-65 2.32085e+291 -4.36889e-187 2.50105e-200 5.37165e-191 7.09713e-301 -4.39504e+23 3.72329e-218 -4.9391e+189 nan -11671.1 -7.7477e-232 1.90326e-175 -1.33286e+274 7.6186e-168 2.78895e-170 8.6173e-293 6.351e-22 -9.83397e-215 -1.20837e-141 2.84728e+22 -3.23567e-278 -5.36362e-156 -6.10128e+168 -2.28484e-64 -1.61646e+10 6.4051e+32 5.99986e-64 2.69768e-135 3.64714e-272 2.18754e-244 -5.04355e+230 -1.05356e+27 -1.34004e-135 -2.67957e+90 -2.32583e-253 -1.25702e+267 nan 6.07363e-262 8.00214e-64 -1.61315e+278 2.0302e+10 -inf 2.25023e+186 -1.39548e+80 -7.61053e+303 -1.8181e+307 inf -1.2649e+77 -4.83165e+249 1.74206e-266 -7.28432e-26 -1.29603e+26 2.8971e+34 -5.12616e-31 3.14646e+197 6.5479e+266 3.22146e-53 -2.28891e+111 7.20003e+283 4.22272e+129 9.98186e-118 1.19145e-188 -5.68703e-09 0
+x values: -2005540994
+y values: 1720822220
+j values: -1058596231
+input ends
+
+error: Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+ERROR: Failed: timma_deepstate_test_mincpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp/mincpp_output/76f0c7693d4f046bade2bd7622d604e7bd774d07.fail`
+INFO: Done fuzzing! Ran 2 tests (1 tests/second) with 2 failed/0 passed/0 abandoned tests

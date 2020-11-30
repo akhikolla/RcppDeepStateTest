@@ -1,0 +1,30 @@
+WARNING: No test specified, defaulting to first test defined (graphlayouts_deepstate_test_constrained_stress3D_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/graphlayouts/inst/testfiles/constrained_stress3D/constrained_stress3D_output/3d77600cc39aaa621c7b9acb5ec52015d9c49d05.pass`
+TRACE: Running: graphlayouts_deepstate_test_constrained_stress3D_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/graphlayouts/inst/testfiles/constrained_stress3D/constrained_stress3D_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 7.24078e+101 7.85736e-08 1.92774e+167 2.49106e+64 2.17895e+303 6.74404e-103 1.58206e+158 5.77389e+290 2.01417e+148
+9.89244e-269 1.34486e+247 5.97041e-05 4.72352e-193 1.45578e+277 1.40227e+108 3.28618e-234 2.14338e+114 3.77990e+193
+4.95738e-85 6.97738e+289 2.84147e+60 2.29454e-205 6.32075e-185 1.70103e+298 2794.35 2.50937e-149 1.01102e+212
+7.32767e+70 1.50091e-71 2.11167e-106 8.67695e+43 8.85407e+33 6.09962e-78 1.24504e+171 5.04780e+102 7.57916e+289
+4.15317e-46 6.73311e+06 2.41696e-279 8.18909e+237 4.97755e-152 3.47007e-125 2.57322e-77 478418. 2.36772e-191
+9.10117e+172 1.30879e+192 4.59975e+54 1.16662e-170 4.11722e-29 3.96918e-289 1.47644e+94 2.07228e-205 1.30850e-28
+
+W values: 1.85499e-97 1.78013e+90 3.94736e+207 2.19099e-13 2.81149e-233 3.71442e+249
+2.05295e-143 3.89553e+104 1.34474e+283 7.70779e+223 1.38812e+128 1.99563e+232
+3.21141e+72 8.03847e+84 2.51031e+131 4.45765e+104 7.37560e+155 4.82490e-06
+3.73913e-98 2.37950e-35 2.40220e+110 0.190785 2.41375e+66 0.558255
+2.56809e-127 3.38093e-174 2.92684e-240 6.65663e-94 7.66847e+117 3.77344e-136
+3.71535e+170 7.85441e+307 3.16039e+39 6.45650e+154 2.11880e-81 1.06624e+71
+
+D values: 6.75338e+191
+2.88834e-80
+7.93537e+269
+6.50238e-18
+2.34785e+153
+9.26426e+61
+7.78258e-40
+
+input ends
+TRACE: Passed: graphlayouts_deepstate_test_constrained_stress3D_test

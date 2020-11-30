@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (imagerExtra_deepstate_test_saturateim_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/saturateim/saturateim_output/1f51430de312ba90a6a19f04e58afbc0a12e52c3.pass`
+TRACE: Running: imagerExtra_deepstate_test_saturateim_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/saturateim/saturateim_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: nan 1.61421e-53 2.60582e+303 2.18203e-68 8.03697e-25 1.05338e-160 1.39679e-81 3.44459e+72 -5.13051e-154 2.31881e-256 -1.98544e+292 -2.60945e-216 nan -1.85417e-58 -1.75424e+193 6.56612e+64 -1.86871e+53 9.85505e-152 5.37607e-108 1.01842e-197 -1.95044e+79 3.39751e-278 -1.00241e+143 2.70329e-114 3.87613e+46 -3.71378e-241 5.72246e-174 -3.77351e+40 -1.91177e-275 -1.74217e-286 -7.5166e-296 -1.5501e+174 1.06724e+111 -3.45376e+16 -1.81203e+79 -inf -1.26359e+203 4.61934e-209 -7.90803e-20 4.06648e-15 -1.68491e+121 -1.17985e+102 -4.92822e+136 -1818.18 2.29012e+46 4.8199e-269 2.23684e-49 -4.92603e+143 -7.48184e+37 7.65748e-133 1.65955e+130 -4.85057e-247 2.95425e+175 inf 2.23792e-280 6.1984e-53 1.00947e-303 -2.25021e-09 8.96227e+269 -5.68222e+62 -8.53077e-192 5.01958e+141 4.30471e-126 2.73332e+13 -1.3504e+256 5.76852e+222 1.83203e-229 -1.49834e+77 -1.9991e+161 4.27495e+235 9.72314e-86 -1.62895e+99 5.44078e-244 4.70796e+207 6.71741e+292 -6.82304e-15 -1.84788e-34 -9.53834e+44 1.38258e-281 4.7668e-136 -6.95224e-120 0
+max_im values: 3.26321e+29
+min_im values: -6.84378e+252
+max_range values: -1.25222e+69
+min_range values: -3.07453e-220
+input ends
+TRACE: Passed: imagerExtra_deepstate_test_saturateim_test

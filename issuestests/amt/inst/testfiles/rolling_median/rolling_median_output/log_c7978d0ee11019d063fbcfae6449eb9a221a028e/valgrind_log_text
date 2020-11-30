@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_rolling_median_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/rolling_median/rolling_median_output/c7978d0ee11019d063fbcfae6449eb9a221a028e.pass`
+TRACE: Running: amt_deepstate_test_rolling_median_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/rolling_median/rolling_median_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 3.05583e-260 -3.71685e-31 -2.6868e+30 -1.51139e-265 1.25375e+220 3.775e+203 4.42681e+256 1.40384e+40 -7.34528e-182 -5.34532e+203 -1.74162e-285 -inf 9.54126e-146 -6.87093e-279 -2.45663e+132 -1.70019e-86 -1.72626e+268 -4.98882e-307 8.6764e-208 -6.49857e-254 -1.72718e-148 -9.74973e+151 5.12465e-39 1.57273e-59 -5.13625e-17 5.92047e+173 -2.01978e+260 -1.87315e-69 3.05391e-146 -6.32897e-223 -5.4345e+289 -7.02088e-63 -6.7131e-81 1.51738e-188 -2.73716e+16 1.52929e-114 1.60264e+153 -2.93854e-19 4.76795e-129 -3.35007e+189 9.70658e+115 1.10481e+169 -6.59554e+50 6.80102e+197 9.62544e-28 -1.02907e+66 1.06523e+116 -6.16255e+219 2.33018e+305 7.38336e-228 1.55777e+193 8.65422e+155 1.68248e+125 1.21729e-293 -1.50789e+289 inf -1.00775e-266 1.47148e-132 1.83905e+33 -1.90848e+40 2.81055e+219 -3.532e+222 -5.06724e-48 -1.40538e-36 8.88328e+117 -2.18503 4.45906e-17 3.34583e-238 -6.22392e+23 2.72883e-296 2.76152e-124 -6.50072e-46 -1.09523e+252 -3.91145e-212 -1.10313e-31 inf 3.86371e-85 1.44199e-305 inf 3.13663e+250 -9.10583e+97 -2.29218e+130 -1.61259e-124 2.46871e-250 -5.19847e+84 -1.63801e-12 -4.14819e-212 0
+win values: 79661469
+input ends
+TRACE: Passed: amt_deepstate_test_rolling_median_test

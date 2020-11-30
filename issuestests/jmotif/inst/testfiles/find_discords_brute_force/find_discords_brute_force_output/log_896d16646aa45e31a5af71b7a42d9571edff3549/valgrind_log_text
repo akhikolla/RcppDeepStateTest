@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_find_discords_brute_force_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_brute_force/find_discords_brute_force_output/896d16646aa45e31a5af71b7a42d9571edff3549.crash`
+TRACE: Running: jmotif_deepstate_test_find_discords_brute_force_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_brute_force/find_discords_brute_force_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: nan -3.65088e+200 -1.0345e+65 1.52594e-65 1.64317e-196 5.04834e+95 1.26485e-208 -2.57013e+104 9.61486e+122 5.04194e+08 -4.9576e-39 inf -5.26774e-180 5.13927e+22 -5.79805e-292 -1.98965e-292 -8.70457e-161 4.18505e+124 4.1112e-285 1.55823e-89 1.17905e+288 -4.20665e+219 -1.0001e-289 -3.77003e-249 3.01666e+47 1.14083e+258 7.40058e+54 7.00387e-91 2.94685e+276 5.85019e+198 nan 3.39461e+199 1.02097e-38 2.63287e-266 -5.53242e+217 -2.09868e+258 inf -2.08891e-268 8.73218e-294 -3.84686e+290 5.61257e-275 -4.77863e+284 9.10933e-163 -8.7689e+255 7.87941e+71 0
+w_size values: 874399298
+discords_num values: 301055353
+input ends
+==1571358==  If you believe this happened as a result of a stack
+==1571358==  overflow in your program's main thread (unlikely but
+==1571358==  possible), you can try to increase the size of the
+==1571358==  main thread stack using the --main-stacksize= flag.
+==1571358==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: jmotif_deepstate_test_find_discords_brute_force_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_brute_force/find_discords_brute_force_output/896d16646aa45e31a5af71b7a42d9571edff3549.crash crashed

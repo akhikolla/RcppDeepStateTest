@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (carSurv_deepstate_test_weightedVarRcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/carSurv/inst/testfiles/weightedVarRcpp/weightedVarRcpp_output/26700cf1e940b773903edd0f3ff1021388384392.pass`
+TRACE: Running: carSurv_deepstate_test_weightedVarRcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/carSurv/inst/testfiles/weightedVarRcpp/weightedVarRcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -6.47046e-306 6.88115e-277 -1.3671e+80 1.39314e-27 -1.84102e+138 nan -2.48163e-118 -8.31252e+299 -1.6702e-18 2.40198e+176 -1.65622e+249 -1.78912e-172 -6.47046e-306 1.50942e-299 -5.52026e-09 -6.08218e+190 inf
+w values: 1.00799e+54 -1.99017e-145 2.32839e-141 -2.37158e-253 2.20181e-92 nan 1.06369e+244 -3.24922 -1.38482e-59 1.72665e+17 4.28984e-20 1.12706e-115 -3.74412e+193 5.77582e-269 6.93134e-58 1.97009e-104 5.30005e-248 2.15558e+79 3.40555e-146 -7.31746e+133 -9.75506e+300 -1.27753e+261 2.39298e+211 3.9473e-168 -1.80553e-216 -2.4625e+241 6.20425e-06 -5.84895e+100 -2.61415e-150 -4.21926e-107 3.91676e+35 9.91877e-211 7.5248e-265 -3.29035e+183 -8.1811e-94 2.39298e+211 nan -1.14798e-286 nan -2.67195e-230 -4.28994e+46 1.75895e-242 3.39426e-181 6.86266e-236 4.60464e-54 -1.05162e+202 -7.08534e-107 -4.11407e+126 1.72356e+103 -7.95641e-23 -2.76042e-198 -1.2582e-138 0
+input ends
+TRACE: Passed: carSurv_deepstate_test_weightedVarRcpp_test

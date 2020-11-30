@@ -1,0 +1,29 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_mrr2X_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_output/4427189654c0fa0ebc6fc68b46c03ad7efff785d.fail`
+TRACE: Running: NAM_deepstate_test_mrr2X_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 9.00049e-141 9.81757e+26 9.24255e-206 6.46779e+166
+3.51847e+101 8.32771e+141 9.17346e+105 7.84724e+07
+1.31762e-77 1.14790e-73 1.48264e-134 1.78952e-208
+1.21325e-184 3.80431e-236 7.37170e-297 2.05377e+224
+4.10235e+189 6.54102e+280 3.09707e-270 6.23014e+105
+2.78963e-135 2.39319e+268 2.95632e+113 4.60618e+188
+
+X1 values: 1.88969e+23 2.58282e+156
+31875.8 5.14616e-283
+2.71594e-51 1.57075e-67
+5.24437e+290 1.43900e+11
+5.30996e-152 3.15867e-65
+8.66188e-17 4.94963e+128
+
+X2 values: 3.43613e+212 4.21022e-273 1.77034e-168 6.36368e-52
+2.04988e+300 1.31514e+180 4.08647e-111 9.74007e-278
+3.11946e+111 3.92487e+93 1.75355e+104 8.91537e+225
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=3; row extent=3].
+ERROR: Failed: NAM_deepstate_test_mrr2X_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_output/4427189654c0fa0ebc6fc68b46c03ad7efff785d.fail failed

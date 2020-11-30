@@ -1,0 +1,24 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606697927
+WARNING: No test specified, defaulting to first test defined (anytime_deepstate_test_setMaxIntAsYYYYMMDD_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+val values: -715160582
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+val values: 1770333392
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+val values: -1544588135
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+val values: 235870083
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

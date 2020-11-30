@@ -1,0 +1,21 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_d_matern5_2_2args_theta_k_iso_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/d_matern5_2_2args_theta_k_iso/d_matern5_2_2args_theta_k_iso_output/776374a0b97818322f696984744d39eb04e88883.pass`
+TRACE: Running: hetGP_deepstate_test_d_matern5_2_2args_theta_k_iso_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/d_matern5_2_2args_theta_k_iso/d_matern5_2_2args_theta_k_iso_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.67032e+77
+1.08952e-71
+1.99698e-63
+4.67121e-123
+1.20919e+200
+2.87027e-287
+
+X2 values: 9.15326e-12 2.91156e-142 5.15902e-79 3.53011e+227 2.37905e+134 5.10177e-205 4.06541e+117
+9.80372e+13 3.39254e+127 1.27239e-244 9.98382e+246 3.25905e+97 6.29242e+22 2.11815e-246
+3.89830e-224 4.39716e+283 1.15426e+60 1.52099e+229 1.27002e+263 1.63255e-120 1.26314e+130
+4.80732e+282 1.21587e-301 4.94317e+149 0.105980 1.97502e-299 3.59891e+230 4.92619e+35
+
+theta values: 1.89791e+212
+input ends
+TRACE: Passed: hetGP_deepstate_test_d_matern5_2_2args_theta_k_iso_test

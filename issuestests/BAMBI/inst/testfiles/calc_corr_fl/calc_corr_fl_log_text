@@ -1,0 +1,156 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606685730
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_calc_corr_fl_test)
+input starts
+samp_mat values:   -3.0430e+73
+ -2.4537e+131
+  5.7919e-246
+ -2.9247e+223
+  2.0452e+276
+ -4.0084e-275
+  3.7224e-144
+ -3.5877e+205
+  -1.2738e-05
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/cee181c92427114423fb387c3c9fd26905b86728.fail`
+input starts
+samp_mat values:   4.0700e+278
+ -4.0935e-136
+  -2.1627e+24
+ -6.2881e+298
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/dc47e7ebf51111a8f62c76f83bb850c2c0aa7857.fail`
+input starts
+samp_mat values:   -4.8410e-27  1.1025e+220 -2.1486e-251   6.7196e+39
+  1.4410e-151  7.6789e+101 -4.2152e+177  9.4583e-127
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/28efe3862a53ec97795a1ce65398bb0e3ed11574.fail`
+input starts
+samp_mat values:  -8.0688e+166  -1.0139e-56
+ -9.8326e+135  5.0466e+226
+ -9.2592e-213  8.8942e+187
+  1.8984e-209   2.7294e-93
+  3.2826e-226  4.0842e-103
+ -2.7822e+134  1.4850e-186
+ -2.5978e+231 -7.4725e-242
+ -2.1088e-204 -9.3072e-274
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/917ce8f55a56910b900610feeab97ed104dedc42.fail`
+input starts
+samp_mat values:   9.3343e-235 -2.7447e+223 -1.3840e+226   3.0731e+29
+  6.9870e-145 -1.4041e+306  5.5784e+222 -8.1731e-185
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/1ca744aad5677394b35ebdaff5fa29535fba3540.fail`
+input starts
+samp_mat values:  -1.7374e+203   9.3398e-59  1.0902e-190   2.6648e-18 -6.4608e-169 -7.3924e-178  8.8934e+253 -5.2996e-258
+ -8.5337e-143 -3.0848e+166  -1.6090e-31   6.3402e-25  1.5100e-200  3.1042e-138  3.1167e+178 -2.7493e+234
+  5.4408e-104  -2.4375e-62 -3.7518e-293 -2.4402e+132 -9.3856e-191  5.2900e-208  -1.6627e+47   2.4959e+51
+ -5.1417e+148   5.4264e+02 -1.2207e-147   2.2744e-18   1.8716e-85   6.2934e-82 -1.4632e-170 -4.9659e+147
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/76fd5cc008b0b4445517d64c43cab6a2c9016c16.fail`
+input starts
+samp_mat values:   1.0533e+117  9.8963e+205  7.0490e+169   1.8387e+32  1.3992e+222
+   1.1051e-51  -1.5451e-06  2.2749e-246   2.1147e+37  -6.1050e-66
+  2.4226e-108   9.2829e-17   4.6097e+88 -7.3775e+304 -5.9423e-168
+   8.3441e-44   3.1901e+27  8.1066e-240  -8.8496e-01  5.8946e-307
+  8.0110e+206  6.9304e-303 -6.9852e+281  1.2160e+189 -1.0284e-208
+ -1.6920e-167   1.3196e-68 -1.5322e-291  4.7699e-226  1.3451e-264
+ -1.2507e+238  1.0466e+220  1.7911e-160  6.1904e-136   1.0741e-94
+  6.7506e+169  1.2374e+128   1.0360e-24  6.2641e+151 -3.8165e+256
+  1.6327e-153   2.7227e-47  -2.7202e+07  2.3198e+266 -7.6792e-235
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/a615e592bd65b56a836886236724b0d56fb44460.fail`
+input starts
+samp_mat values:   2.9870e+203  1.2159e-132  -7.5763e-64 -7.5505e-181   1.2330e+94   7.9623e-91   5.5111e+79  3.4246e+257  -3.7942e-64
+  1.5228e+287  2.8348e+239  2.7611e-179   1.6029e-35  -6.6448e-82  -3.8683e-95  -1.2554e-46  -4.0628e-25   2.5099e+63
+  5.8716e+113 -4.3580e+149  4.4714e-198  1.2698e+245 -6.9907e-170  2.8232e+279  -2.1835e-15  -6.9453e-82  -7.0004e+68
+  -6.6802e-95  -1.9269e-63  2.9581e+103 -1.6522e+255 -3.8112e+255 -5.7613e-199  5.5947e+119   1.4107e-49   4.5949e-35
+   6.0437e-61  -7.9332e+43  1.5267e-191  1.5800e+184  -2.6836e-20   3.1129e-69  -3.2713e+72  2.8987e+136 -3.4190e-151
+ -1.9588e-180  4.2932e-279   3.0643e+02  -8.5111e+98 -2.0997e+136 -1.1535e-152  8.6318e-211  3.7026e+264 -1.2691e+104
+   1.2471e+72  1.5256e+209  7.3708e-183 -1.3958e-167 -8.6379e+228  -4.6095e+17  -6.0041e+75 -1.2805e+154  6.1633e-294
+  -5.0034e-07  8.1848e+144 -9.9769e+178 -9.2024e+226 -1.8789e+154  -1.8396e-99   1.5577e-86 -1.2042e-223  1.7078e+113
+ -2.7305e+303 -8.9651e+206 -2.3043e+242  -5.2705e+86   6.5930e-82  6.2794e-176   1.9321e-66   4.1779e-21 -1.9084e-147
+  1.0298e-171  3.3015e+138   1.2133e+51 -3.0134e+251   1.1829e+47  8.3115e+243  5.0640e+286  2.7581e+305   6.6564e+53
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/7ae97ffb9b25e1c72d6e8509da3571debb83a7e3.fail`
+input starts
+samp_mat values:    3.6835e-14  5.1840e-138  9.5281e-271
+   2.7793e+27  5.8752e+284  -3.2043e-24
+   2.5888e-52   3.1146e-15 -4.6312e+260
+   2.5193e-29  2.0952e+278  2.4248e-137
+ -6.0570e-302 -3.1860e+155  -2.1171e+33
+  8.6073e+267  5.7501e+219  -3.1928e+27
+  1.0155e+127  5.4122e+209   1.0133e-33
+  4.9654e+179  3.2524e+169 -7.3537e+140
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/d005767c9d7f6b30bc917e92aebc933643cb9372.fail`
+input starts
+samp_mat values:   8.4389e-196 -9.0195e+301
+  3.0770e+298  1.1357e-125
+  -4.9482e-12 -2.4712e-281
+  -1.3024e+85  4.9320e+257
+  3.8846e+216 -1.8989e-177
+ -8.0186e+181 -1.6061e-212
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_fl_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_fl/calc_corr_fl_output/9dc2206582022f1ed22ca77663025cdea90c9611.fail`
+INFO: Done fuzzing! Ran 10 tests (5 tests/second) with 10 failed/0 passed/0 abandoned tests

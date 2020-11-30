@@ -1,0 +1,23 @@
+useDynLib(equateMultiple, .registration = TRUE)
+
+# Imported functions
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "nlminb", "reshape")
+importFrom("graphics", "plot")
+importFrom("stats", "aggregate", "lm", "optim", "relevel")
+importFrom("equateIRT", "modIRT", "eqc", "itm", "score")
+importFrom("statmod", "gauss.quad.prob")
+importFrom("numDeriv", "grad", "jacobian")
+
+# Exported functions
+# export(multiec, summary.mlteqc, VarExtRcpp, gradRcpp, hessRcpp, ipfRcpp, objectivefzRcpp, partialABgammaRcpp)
+export(multiec, print.mlteqc, summary.mlteqc, eqc.mlteqc, itm.mlteqc, score.mlteqc)
+
+# S3 methods
+S3method(print, mlteqc)
+S3method(summary, mlteqc)
+S3method(eqc, mlteqc)
+S3method(itm, mlteqc)
+S3method(score, mlteqc)
+
+

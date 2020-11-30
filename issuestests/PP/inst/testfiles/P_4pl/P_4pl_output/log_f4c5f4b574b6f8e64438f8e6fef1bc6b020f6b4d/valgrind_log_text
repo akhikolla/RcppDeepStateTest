@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (PP_deepstate_test_P_4pl_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/P_4pl/P_4pl_output/f4c5f4b574b6f8e64438f8e6fef1bc6b020f6b4d.pass`
+TRACE: Running: PP_deepstate_test_P_4pl_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/P_4pl/P_4pl_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+delta values: -1.15734e-222 3.72056e-65 3.80201e-295 -1.77655e-257 2.43336e+140 -1.20439e+237 1.98512e+234 -1.47023e+36 -1.65797e+238 -1.52101e+228 -8.65915e+214 -inf 1.45317e-141 1.3878e-307 7.49521e+205 2.19752e-245 1.19101e+197 4.31572e+269 -4.60851e-153 3.4419e-57 -2.56831e-204 -4.76191e-199 2.14956e+25 7.77375e+94 inf -5.23632e-49 -2.05586e-103 6.44229e+80 7.9098e-10 -7.17465e-19 6.95247e-267 -2.01464e+42 -3.76001e-245 9.35971e-226 -2.79804e-36 -3.77252e-295 -7.06485e+105 -1.40154e-64 2.01225e-272 3.99428e+300 -1.74755e+94 2.75701e-128 5.75998e-90 5.91934e+130 1.3878e-307 -3.17746e+76 1.45238e+115 5.17064e+109 -4.85393e-169 -3.79712e+163 -1.1756e-41 6.0897e+114 2.18185e-157 -9.11595e-123 -7.20818e+07 -5.48348e+237 1.49219e+47 1.57752e-42 -5.42307e-10 -6.83864e+17 1.29667e+105 5.51145e-211 7.83592 1.41352e-253 -1.72775e+211 1.31073e-171 -2.52371e-102 1.06647e+69 1.34276e-205 3.88503e-18 1.3878e-307 3.58304e-72 -2.92963e-52 1.0682e+74 2.2991e-42 0
+alpha values: -2.22135e-35
+theta values: -9.0639e+279
+la values: 1.57175e-123
+ua values: 1.66025e-45
+input ends
+TRACE: Passed: PP_deepstate_test_P_4pl_test

@@ -1,0 +1,39 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606685702
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_BESSI0_C_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -9.40592e-197
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -8.97825e-40
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -8.64807e-36
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.21108e+233
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -4.08391e+116
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -6.08714e+100
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.64588e+300
+input ends
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 0 failed/7 passed/0 abandoned tests

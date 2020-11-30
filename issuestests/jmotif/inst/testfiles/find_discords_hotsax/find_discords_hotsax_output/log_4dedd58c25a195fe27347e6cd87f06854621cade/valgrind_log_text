@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_find_discords_hotsax_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/4dedd58c25a195fe27347e6cd87f06854621cade.fail`
+TRACE: Running: jmotif_deepstate_test_find_discords_hotsax_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 2.79718e+285 2.83562e-168 1.14454e-26 -inf 1.2586e-125 -9.2244e-231 2.03945e+225 8.86857e-122 -3.55921e-232 1.37278e-127 nan -4.71078e-271 nan -1.50879e-117 3.36442e-111 1.71512e+189 -inf -inf -2.0643e-94 5.35211e-232 -4.32211e-242 -1.39659e-300 3.45379e+179 2.24767e-26 -3.68621e+37 -7.97993e-46 4.62622e+75 -3.37306e-56 4.70786e+41 0
+w_size values: -1077402371
+paa_size values: 2037793718
+a_size values: -1548070072
+n_threshold values: -3.60801e-101
+discords_num values: -1532936137
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: jmotif_deepstate_test_find_discords_hotsax_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/4dedd58c25a195fe27347e6cd87f06854621cade.fail failed

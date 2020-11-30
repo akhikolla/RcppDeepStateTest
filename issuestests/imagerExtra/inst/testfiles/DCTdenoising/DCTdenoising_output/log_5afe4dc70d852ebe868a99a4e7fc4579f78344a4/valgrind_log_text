@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (imagerExtra_deepstate_test_DCTdenoising_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/DCTdenoising/DCTdenoising_output/5afe4dc70d852ebe868a99a4e7fc4579f78344a4.fail`
+TRACE: Running: imagerExtra_deepstate_test_DCTdenoising_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/DCTdenoising/DCTdenoising_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ipixelsR values: 7.90702e+111 3.97513e+135 5.01547e-158 2.98982e-245 9.44979e-109 1.49244e-27 4.88737e+50 2.40793e-152 4.26470e-33
+2.50160e-263 2.03029e+106 5.94968e+72 4.65922e-119 3.32699e-255 2.52362e+191 1.97416e-125 1.21922e+182 1.02794e-262
+
+width values: -1831030068
+height values: -878482075
+sigma values: 6.45171e-134
+flag_dct16x16 values: 1008951316
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  vector::_M_default_append
+ERROR: Failed: imagerExtra_deepstate_test_DCTdenoising_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/DCTdenoising/DCTdenoising_output/5afe4dc70d852ebe868a99a4e7fc4579f78344a4.fail failed

@@ -1,0 +1,56 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745670
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr2p_gl_cpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 1.15942e-178
+SOIRG values: -0.00232472
+SORG values: -1.85373e-42
+SGCON values: 4.60659e-91
+SGCRIT values: -1.5432e-215
+KRGCL values: -5.55814e-115
+KROGCG values: 6.0828e+70
+NG values: -1.31406e-232
+NOG values: -1.81819e-281
+NP values: -2044199944
+input ends
+ERROR: Crashed: Rrelperm_deepstate_test_kr2p_gl_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_output/ab3203973b8fb06f575536aa0a03dff7a2aa5319.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -2.2799e+73
+SOIRG values: 1.04391e-52
+SORG values: 3.14054e-170
+SGCON values: -1.16032e+284
+SGCRIT values: 1.46548e-282
+KRGCL values: 3.82675e+272
+KROGCG values: -7.13783e-73
+NG values: -9.63077e+250
+NOG values: 4.51601e+120
+NP values: -612718150
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr2p_gl_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_output/55e06ffbb18626b0e4b7848815431ff65e6bd568.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -1.52062e+140
+SOIRG values: -3.50627e+78
+SORG values: -5.83698e-05
+SGCON values: -1.51131e+246
+SGCRIT values: -1.29362e-46
+KRGCL values: -8.78957e-19
+KROGCG values: -5.45681e+122
+NG values: -1.60884e+106
+NOG values: -1.0659e-42
+NP values: 1059985409
+input ends
+ERROR: Crashed: Rrelperm_deepstate_test_kr2p_gl_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_output/fa67ce399f6f5904acd9b52d4612b61a072c556f.crash`
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 3 failed/0 passed/0 abandoned tests

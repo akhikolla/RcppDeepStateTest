@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_sum_pillars_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/sum_pillars/sum_pillars_output/32b55e6d1396fd9eade7cad92a841764a19fffc1.fail`
+TRACE: Running: autothresholdr_deepstate_test_sum_pillars_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/sum_pillars/sum_pillars_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: -3.69204e-303 -1.22782e-29 -3.11463e+117 1.11185e+23 -4.35267e-17 -6.3686e+63 -1.2609e+11 5.29317e-11 1.74766e+55 -inf -2.46107e+58 -2.41115e+53 6.26018e-140 1.16184e+243 3.24744e-80 -1.28632e+56 5.72538e-189 -1.51011e+147 4.32371e+47 2.14872e-263 -4.30332e+90 -1.37061e-223 -3.73116e+62 1.7494e+109 -8.45663e+144 -4.40274e+128 -4.52257e-90 2.90774e+50 0.0478744 2.80971e-147 -4.27107e+117 8.89304e+133 3.28762e-126 -1.43923e+279 -3.64018e-195 1.31394e+248 -8.96789e-290 1.06591e+74 -8.88622e-217 -1.49767e+233 -1.18024e-228 -1.093e+95 2.56275e+167 1.40332e-80 4.70789e-270 5.67893e+22 5.72538e-189 5.72538e-189 2.98031e-239 -1.72837e-192 3.9721e-281 7.02307e+50 -3.51224e+196 -1.89536e-90 -5.26563e+67 1.78053e+150 -1.17755e-20 -2.73579e+112 6.68559e+55 -4.97932e-236 inf -1.9419e-250 2.3408e+262 -3.16791e+128 1.03372e-189 -1.05434e+260 3.52674e-70 5.39765e+75 1.41863e+151 6.15228e+206 7.83924e+197 9.77976e-242 -4.79065e+137 -1.02999e+28 -9.91309e+112 -4.73209e+24 2.11479e-84 -1.05815e-258 1.13588e+258 7.38545e-204 -1.39745e+53 3.23101e-33 4.16601e-141 -9.79383e-142 5.82159e+257 4.46133e+153 3.68835e+249 1.25489e+78 -1.79692e+74 -0.000648707 5.27313e-70 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_sum_pillars_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/sum_pillars/sum_pillars_output/32b55e6d1396fd9eade7cad92a841764a19fffc1.fail failed

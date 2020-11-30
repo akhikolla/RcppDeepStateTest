@@ -1,0 +1,29 @@
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr3p_StoneI_SwSg_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneI_SwSg_cpp/kr3p_StoneI_SwSg_cpp_output/3a703508ad73c63d122e9fc451bc90ada1dd6d51.fail`
+TRACE: Running: Rrelperm_deepstate_test_kr3p_StoneI_SwSg_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneI_SwSg_cpp/kr3p_StoneI_SwSg_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 3.78412e-210
+SWCRIT values: -1.7065e-281
+SOIRW values: -9.62474e+287
+SORW values: -1.37787e+150
+SOIRG values: 1.91002e-58
+SORG values: 1.81998e-57
+SGCON values: 5.34805e+262
+SGCRIT values: -8.68831e-249
+KRWIRO values: -1.1358e+44
+KROCW values: 1.17009e-158
+KRGCL values: -9.82394e+62
+NW values: 8.61303e-119
+NOW values: -2.85208e+246
+NG values: -7.73417e+306
+NOG values: -3.90288e+174
+NP values: -1819425872
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneI_SwSg_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneI_SwSg_cpp/kr3p_StoneI_SwSg_cpp_output/3a703508ad73c63d122e9fc451bc90ada1dd6d51.fail failed

@@ -1,0 +1,21 @@
+WARNING: No test specified, defaulting to first test defined (pcIRT_deepstate_test_gamfunk_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_output/57edbb8a9ff06b4841c766ecb55ad0037f03a8d3.fail`
+TRACE: Running: pcIRT_deepstate_test_gamfunk_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+epsmat values: 5.59452e-12 -inf -2.07402e+90 3.4464e-279 -3.03106e-264 8.37206e-80 2.02301e-103 1.50796e-181 1.48623e-303 -3.6016e+27 inf -1.00016e+58 1.71519e+55 1.04601e-255 -1.04925e-168 3.52133e+164 -4.62912e-91 -3.04734e-30 -5.4774e-11 1.14871e+21 -9.75448e-198 9.64071e+54 -3.89345e+37 1.23918e+268 9.46715e+134 -3.26922e-44 9.90837e+09 -2.52522e+104 -inf 4.65364e+205 6.84588e-266 -5.06997e-203 -9.28059e-27 inf 1.56313e-171 -7.57468e-112 -3.59154e+30 -6.77358e+121 5.29701e+63 -7.35365e+50 1.14239e-134 8.43047e+272 6.62834e-273 inf -1.81244e+113 -2.0027e-263 -1.49982e-112 -2.02275e+250 1.34201e-41 8.42003e+21 0
+gammat values: 5.70596e-272
+5.10866e-217
+3.21085e+34
+105929.
+1.91192e-228
+1.81817e-233
+2.60457e-178
+1.25834e+270
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=50; column extent=1].
+ERROR: Failed: pcIRT_deepstate_test_gamfunk_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_output/57edbb8a9ff06b4841c766ecb55ad0037f03a8d3.fail failed

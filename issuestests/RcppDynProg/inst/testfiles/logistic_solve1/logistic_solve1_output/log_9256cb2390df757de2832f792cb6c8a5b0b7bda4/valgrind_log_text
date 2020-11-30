@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_logistic_solve1_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/logistic_solve1/logistic_solve1_output/9256cb2390df757de2832f792cb6c8a5b0b7bda4.fail`
+TRACE: Running: RcppDynProg_deepstate_test_logistic_solve1_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/logistic_solve1/logistic_solve1_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -8.22096e+36 -3.36514e+183 -2.82659e+158 1.21557e-39 1.81392e+211 7.57584e+289 6.04406e-289 1.11404e+145 1.35121e-202 -3.19119e+275 5.7895e-06 inf 1.87261e-198 -8.41322e+265 -9.99238e+271 -3.08891e+17 9.07223e+157 6.55124e-221 -9.86562e+113 5.48248e+209 -inf 7.13473e-137 -1.58479e-120 1.25811e-299 -2.3729e+291 -5.8287e+164 2.24369e-167 5.08173e+227 2.37507e-250 6.16201e-226 -2.92021e+60 -1.09914e+187 -2.61232e-33 nan 6.90121e+186 -1.50367e+168 -2.52379e+65 5.41293e-76 1.78007e-299 4.61583e-90 -2.61201e+243 6.73432e-25 4.52174e+230 nan 1.82034e-259 6.8923e+09 -4.31703e-164 nan 1.8789e-47 3.25454e+162 1.65309e+56 2.19114e+179 0
+y values: -2.88651e+96 -5.80584e-263 inf nan -3.33831e+203 1.73366e+220 3.88718e-235 -6.61465e+242 1.97996e+75 -1.4273e+132 1.47474e+144 -7.72956e+299 -2.31135e-151 nan -1.82535e-234 -6.26824e+166 1.62507e+25 2.38184e-267 1.93276e-11 3.71258e-262 -1.82903e-13 -1.07369e+111 0
+w values: nan nan 1.67408e+223 3.02816e+184 -3.83675e-47 -3.18612e+261 4.83992e+261 2.7088e+244 4.41345e-97 4.82234e-149 -9.46037e+154 6.03757e-209 -1.21767e+74 -7.39134e-106 -3.77807e+37 4.79292e-27 -3.33829e-131 -6.68089e-180 -1.05261e-299 -3.8626e+212 -4.81009e-122 inf -2.01385e+219 -1.16282e+93 -2.28261e-149 -3.94236e-34 1.60978e+288 -4.58809e-111 -1.03573e-82 nan 1.07171e-43 3.37316e-98 -2.84896e+143 0
+initial_link values: 9.49563e+60 6.25821e-18 9.39736e+202 1.14367e+21 -1.8132e+218 7.46159e+55 -2.88976e-283 -4.24343e+39 4.69447e+110 -inf -4.57833e+111 -5.00563e+100 -4.92152e+181 -5.20171e-14 5.53889e-207 -3.62805e-175 -2.18869e+130 236599 2.14274e-269 -1.01655e+62 3.47675e-105 -inf -2.97528e+254 2.82926e+263 -3.95573e+15 2.28052e-217 -2.12272e+262 5.64005e-34 5.70365e-255 8.6632e-240 -3.02095e+223 -inf -1.02884e+171 8.85544e-24 -1.14961e+285 -5.3139e-260 1.63935e-273 nan -1.38817e+60 2.08867e-193 -2.4397e+306 -1.58071e+103 -5.59469e+41 -1.1125e+278 3.83133e-110 1.44283e+301 3.90802e+273 -1.46936e+286 -7.23456e-227 2.23669e-137 -5.18056e-134 -1.32818e+153 -3.17355e+287 inf 2.99498e+110 5.97829e+231 1.67089e+10 2.87062e-52 -6.97022e+198 -4.63079e+105 3.18002e+229 1.06816e-120 -8.38514e+267 0
+i values: 1725364933
+j values: 1972320886
+skip values: -125740686
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=1725364933; extent=34].
+ERROR: Failed: RcppDynProg_deepstate_test_logistic_solve1_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/logistic_solve1/logistic_solve1_output/9256cb2390df757de2832f792cb6c8a5b0b7bda4.fail failed

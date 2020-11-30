@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (RMPSH_deepstate_test_anti_transformation_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RMPSH/inst/testfiles/anti_transformation/anti_transformation_output/08d2ae2f55f90bbee57fd1068e13c19c96f3413a.pass`
+TRACE: Running: RMPSH_deepstate_test_anti_transformation_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RMPSH/inst/testfiles/anti_transformation/anti_transformation_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.86553e+57 -1.03247e+14 4.41653e-300 nan 9.04777e+43 nan -1.34288e-06 -inf
+lb values: 5.33474e+255 inf -7.02982e-73 -2.02329e-168 7.35886e-244 -7.41996e+108 6.77387e+73 -4.15902e+247 -1.91473e+239 -1.18031e-138 5.73244e+102 2.58137e-260 8.31491e+203 -8.54581e-243 1.66026e+148 -7.25401e+286 -2.70961e+59 1.493e-294 -3.08821e+222 -4.55832e-246 5.69675e+77 -3.84963e+92 4.70166e+280 5.25539e+216 -1.19394e+111 8.8627e+158 -4.08552e-247 -1.63501e-244 inf nan -8.55077e-247 -1.55194e+94 -2.75534e+159 2.84969e-67 nan -7.585e-152 -1.89371e+45 8.04331e-96 inf 0
+ub values: nan -2.15979e-222 inf inf -inf 2.04942e+45 3.19009e+142 1.07792e+294 -2.58388e-259 -3.18199e-86 0
+input ends
+TRACE: Passed: RMPSH_deepstate_test_anti_transformation_test

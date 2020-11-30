@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (pinbasic_deepstate_test_simulateBS_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pinbasic/inst/testfiles/simulateBS/simulateBS_output/a46280e639fa80be074754097e80ee1828aa880b.pass`
+TRACE: Running: pinbasic_deepstate_test_simulateBS_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pinbasic/inst/testfiles/simulateBS/simulateBS_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+param values: 4.944e-144 -1.74551e-143 1.7808e-85 3.45099e+246 -1.23059e+128 -8.83151e-204 -7.4342e-202 -3.21724e-139 -2.72373e+64 6.46629e+16 nan -9.17626e+49 -1.40567e+262 2.95951e+11 nan -3.82006e+299 -2.33714e-75 -8.79897e+204 -7.6127e+288 -1.44731e-80 1.2757e-272 -1.47507e+218 1.45655e+225 7.8606e+77 -2.35037e-39 8.17475e+67 1.40674e+186 -9.79538e-191 -3.56498e+307 1.30807e+28 9.83238e-96 8.95661e-109 -2.8866e+205 -2.03596e-240 -9.58386e+267 2.61506e-117 -8.60388e+65 1.01508e-200 -6.10723e+250 -1.84767e-174 -3.82172e+279 -7.21283e+299 -4.11111e-47 9.44569e+32 -7.04022e+302 -3.14002e+157 -2.59821e-157 nan -4.35055e-74 1.6337e-226 1.74625e-82 -7.67028e+299 3.46922e-247 -1.54366e-80 6.99288e+166 -inf 3.93803e+123 -1.49863e-93 2.84685e+163 -8.37058e+290 2.19275e-117 -4.09569e-281 1.81242e-12 -7.19835e-162 4.45141e-233 1.32325e-212 3.01057e-129 1.30316e-252 2.59841e+141 0
+ndays values: 424146373
+input ends
+Exception Handled
+TRACE: Passed: pinbasic_deepstate_test_simulateBS_test

@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (windfarmGA_deepstate_test_wake_CPP_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/windfarmGA/inst/testfiles/wake_CPP/wake_CPP_output/3622dd7a55accf88ee3aaf39f1c1d791db3a8a4d.pass`
+TRACE: Running: windfarmGA_deepstate_test_wake_CPP_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/windfarmGA/inst/testfiles/wake_CPP/wake_CPP_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rotorf values: 3.26124e+106
+wakr values: 1.62947e-264
+leA values: -2.08111e-107
+input ends
+TRACE: Passed: windfarmGA_deepstate_test_wake_CPP_test

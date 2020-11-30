@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (RMPSH_deepstate_test_transformation_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RMPSH/inst/testfiles/transformation/transformation_output/09269cc1c2d9ff421c8509a6d4e65085abc37853.pass`
+TRACE: Running: RMPSH_deepstate_test_transformation_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RMPSH/inst/testfiles/transformation/transformation_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: nan -1.2818e-296 1.21469e+103 -5.66532e+116 -8.79073e+174 1.43852e+208 -8.27795e+242 1.09451e-13 4.46952e+72 3.74393e-153 inf -3.47016e+29 -8.27795e+242 3.63565e+189 -3.47579e+97 2.70404e+286 2.4884e-236 1.93456e-165 2.64696e-78 -5.97013e+296 3.75742e+18 -4.80798e+14 6.80028e-181 3.87727e-235 6.61404e+61 8.68563e+177 6.90758e+22 -1.21138e-230 4.00719e-112 -5.04834e-105 -4.41744e+131 nan
+lb values: -1.37204e-46 -7.13734e-302 2.19143e+270 nan -3.11664e-80 -0.20872 1.03804e+269 5.84949e-22 nan -1.72287e+146 inf -1.22426e+104 5.11327e-199 -4.5448e-38 1.89947e+146 4.11629e+237 2.78376e+32 -1.48504e-246 4.20535e-266 8.04195e+258 -7.95263e+119 2.61535e+76 -inf 3.11295e+170 0
+ub values: 2.82936e-223 1.07028e-187 -2.81967e-156 2.68546e-281 -3.05516e-233 -4.75833e-22 2.52138e-20 3.61187e+118 -7.50288e+259 -1.19362e+123 -7.50288e+259 -3.976e-107 1.0382e-121 9.96645e-262 -2.47512e+215 4.62274e-13 -2.62878e-60 -6.80347e+121 1.97714e-169 -7.51845e-153 3.70455e+212 3.95773e-64 1.03969e-76 -6.67726e+171 5.78095e+95 -3.27654e-33 -2.54432e+111 8.74872e-203 -2.52821e-257 nan 7.50401e+88 -1.927e-37 -1.77453e+71 6.84529e-191 2.3379e+95 1.66545e-103 -3.33169e+277 -4.57563e+151 3.62299e+75 -6.26548e-30 -9.33725e-156 3.4638e+193 -5.36543e-194 1.17296e-85 -7.50288e+259 2.48896e-267 1.25929e-130 -1.2413e+69 -4.61988e+196 -1.00786e-88 -7.55468e+157 inf 0
+input ends
+TRACE: Passed: RMPSH_deepstate_test_transformation_test

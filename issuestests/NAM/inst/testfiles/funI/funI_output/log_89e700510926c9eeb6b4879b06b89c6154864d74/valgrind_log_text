@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_funI_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/funI/funI_output/89e700510926c9eeb6b4879b06b89c6154864d74.pass`
+TRACE: Running: NAM_deepstate_test_funI_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/funI/funI_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+col values: 3.93638e+129 -3.56482e-207 -9.62175e+294 -3.56482e-207 -3.66118e-237 -9.92402e-229 -1.06815e-11 -9.5805e+227 -1.81769e-94 1.24854e+121 8.13904e+304 5.04759e+126 -1.19695e-246 1.70449e+88 nan 1.50922e+147 5.49369e+35 1.11807e-234 -2.46317e-13 5.41616e+175 -7.23184e-290 2.20737e-31 2.46607e-149 2.64249e+257 2.88714e-195 5.16581e-194 7.24832e+99 4.63882e-264 6.35138e+156 3.12477e+230 1.0374e-69 -1.61017e+183 2.98013e+112 3.56504e+224 nan -3.75413e+42 -7.43216e-46 7.10734e+253 -1.46583e+230 3.25221e+217 -5.79015e+251 4.18098e+109 8.90057e-74 -1.42083e+71 1.74604e+169 inf 5.56925e+26 -2.01382e+228 -3.36207e-89 -1.05579e-21 -10502.8 9.25084e-97 -2.68278e-284 4.02869e+64 0
+fam values: -822074902
+finsiz values: 1874740713
+f values: -1274966124
+input ends
+TRACE: Passed: NAM_deepstate_test_funI_test

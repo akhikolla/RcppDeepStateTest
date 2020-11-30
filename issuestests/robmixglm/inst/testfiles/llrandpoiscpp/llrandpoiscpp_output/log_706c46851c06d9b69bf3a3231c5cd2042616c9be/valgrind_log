@@ -1,0 +1,778 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./llrandpoiscpp_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/706c46851c06d9b69bf3a3231c5cd2042616c9be.fail</line>
+</preamble>
+
+<pid>1787730</pid>
+<ppid>1787729</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/log_706c46851c06d9b69bf3a3231c5cd2042616c9be/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./llrandpoiscpp_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_output/706c46851c06d9b69bf3a3231c5cd2042616c9be.fail</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.027 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4F2B1BC</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libm-2.31.so</obj>
+      <fn>log@@GLIBC_2.29</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/math/.</dir>
+      <file>w_log_template.c</file>
+      <line>32</line>
+    </frame>
+    <frame>
+      <ip>0x422969</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4F2B1D3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libm-2.31.so</obj>
+      <fn>log@@GLIBC_2.29</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/math/.</dir>
+      <file>w_log_template.c</file>
+      <line>34</line>
+    </frame>
+    <frame>
+      <ip>0x422969</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4F2B1D5</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libm-2.31.so</obj>
+      <fn>log@@GLIBC_2.29</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/math/.</dir>
+      <file>w_log_template.c</file>
+      <line>34</line>
+    </frame>
+    <frame>
+      <ip>0x422969</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x3</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4F6AF3C</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libm-2.31.so</obj>
+      <fn>__ieee754_log_fma</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/math/../sysdeps/ieee754/dbl-64</dir>
+      <file>e_log.c</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x422969</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x4</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4F6AF4B</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libm-2.31.so</obj>
+      <fn>__ieee754_log_fma</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/math/../sysdeps/ieee754/dbl-64</dir>
+      <file>e_log.c</file>
+      <line>85</line>
+    </frame>
+    <frame>
+      <ip>0x422969</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x5</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x4F6B0F0</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libm-2.31.so</obj>
+      <fn>__ieee754_log_fma</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/math/../sysdeps/ieee754/dbl-64</dir>
+      <file>e_log.c</file>
+      <line>88</line>
+    </frame>
+    <frame>
+      <ip>0x422969</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:08.221 </time>
+</status>
+
+<error>
+  <unique>0x225</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>8 bytes in 1 blocks are definitely lost in loss record 10 of 1,356</text>
+    <leakedbytes>8</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483BE63</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4CF40F7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::initialize(int, char const* const*, bool, bool, bool)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>198</line>
+    </frame>
+    <frame>
+      <ip>0x4CF4483</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::RInside()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>61</line>
+    </frame>
+    <frame>
+      <ip>0x408F23</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>11</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x231</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>44 bytes in 1 blocks are possibly lost in loss record 22 of 1,356</text>
+    <leakedbytes>44</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483BE63</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E49E7D</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::_M_mutate(unsigned long, unsigned long, char const*, unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E4ADB5</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::_M_replace(unsigned long, unsigned long, char const*, unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E4301E</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_ostringstream&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::str() const</fn>
+    </frame>
+    <frame>
+      <ip>0x424681</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; tinyformat::format&lt;long, long&gt;(char const*, long const&amp;, long const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/utils/tinyformat/tinyformat.h</file>
+      <line>976</line>
+    </frame>
+    <frame>
+      <ip>0x4245DC</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>Rcpp::index_out_of_bounds::index_out_of_bounds&lt;long const&amp;, long&gt;(char const*, long const&amp;, long&amp;&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/exceptions.h</file>
+      <line>231</line>
+    </frame>
+    <frame>
+      <ip>0x42451F</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::offset(long const&amp;) const</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>306</line>
+    </frame>
+    <frame>
+      <ip>0x424228</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::operator()(unsigned long const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>345</line>
+    </frame>
+    <frame>
+      <ip>0x422834</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x255</unique>
+  <tid>1</tid>
+  <kind>Leak_PossiblyLost</kind>
+  <xwhat>
+    <text>168 bytes in 1 blocks are possibly lost in loss record 58 of 1,356</text>
+    <leakedbytes>168</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483B7F3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>malloc</fn>
+    </frame>
+    <frame>
+      <ip>0x4DB02E3</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>__cxa_allocate_exception</fn>
+    </frame>
+    <frame>
+      <ip>0x4244C3</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::offset(long const&amp;) const</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>306</line>
+    </frame>
+    <frame>
+      <ip>0x424228</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;::operator()(unsigned long const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/vector/Vector.h</file>
+      <line>345</line>
+    </frame>
+    <frame>
+      <ip>0x422834</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>llrandpoiscpp(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;, Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm</dir>
+      <file>src/fit.robmixglm.cpp</file>
+      <line>28</line>
+    </frame>
+    <frame>
+      <ip>0x409662</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2d1</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>1,025 bytes in 1 blocks are definitely lost in loss record 182 of 1,356</text>
+    <leakedbytes>1025</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483BE63</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4E4A3AF</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
+      <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::reserve(unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4CF2C55</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>MemBuf::MemBuf(int)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>MemBuf.cpp</file>
+      <line>35</line>
+    </frame>
+    <frame>
+      <ip>0x4CF4467</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RInside/lib/libRInside.so</obj>
+      <fn>RInside::RInside()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/compileAttributes/RInside/src</dir>
+      <file>RInside.cpp</file>
+      <line>56</line>
+    </frame>
+    <frame>
+      <ip>0x408F23</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>11</line>
+    </frame>
+    <frame>
+      <ip>0x408F08</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_robmixglm_deepstate_test_llrandpoiscpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp</dir>
+      <file>llrandpoiscpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x419DE8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41A089</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41A164</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407795</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandpoiscpp/llrandpoiscpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<errorcounts>
+  <pair>
+    <count>90</count>
+    <unique>0x5</unique>
+  </pair>
+  <pair>
+    <count>90</count>
+    <unique>0x4</unique>
+  </pair>
+  <pair>
+    <count>90</count>
+    <unique>0x3</unique>
+  </pair>
+  <pair>
+    <count>90</count>
+    <unique>0x2</unique>
+  </pair>
+  <pair>
+    <count>90</count>
+    <unique>0x1</unique>
+  </pair>
+  <pair>
+    <count>90</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:08.702 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

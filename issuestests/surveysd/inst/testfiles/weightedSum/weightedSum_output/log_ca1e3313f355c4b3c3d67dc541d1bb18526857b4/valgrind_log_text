@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (surveysd_deepstate_test_weightedSum_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/weightedSum/weightedSum_output/ca1e3313f355c4b3c3d67dc541d1bb18526857b4.pass`
+TRACE: Running: surveysd_deepstate_test_weightedSum_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/weightedSum/weightedSum_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -2.68239e+163 -inf -3.80586e-298 -1.55792e-283 -1.27863e+67 1.1382e-167 5.37671e+301 7.53451e+90 -3.0521e+89 3.12124e+285 2.26e+110 1.73446e+267 -3.82749e-26 -2.1586e+70 nan 9.87317 -2.06121e-144 2.58197e-254 7.78751e-151 2.26e+110 -2.76448e+86 1.5305e-170 -2.58434e+237 5.39258e-55 -2.367e+120 1.09159e-44 1.54649e+118 0
+w values: 8.71916e+194 -5.78268e+76 8.3374e+197 -5.38501e-190 -4.88767e+19 -2.30257e-163 -1.21584e+45 1.20573e-301 -1.58825e-186 -1.73517e+44 -1.08486e-44 -1.31405e-70 1.41099e+45 -3.01877e+67 7.37783e-94 1.3438e+249 3.71564e-53 2.46478e-275 -1.68701e+90 6.30894e+131 -1.2629e-105 -4.67596e-11 -2.26394e+133 1.93867e-25 3.45114e-183 -4.47529e+281 -9.69158e-71 -9.34216e-242 2.03219e-19 4.4679e+182 1.32334e+107 2.10409e-185 1.12141e+109 -1.7641e-12 -5.64432e-10 -1.29882e+116 1.25459e-54 -1.24036e-155 1.41807e-208 -3.04648e+82 830.876 -1.95794e+118 3.11642e+219 -1.63337e-29 -1.2569e-254 nan 7.82697e-168 -9.49746e-259 inf 1.93217e-186 nan -8.01079e+188 -4.41086e-196 -1.23091e-65 -5.22925e-260 2.47325e-70 6.81712e+134 2.83158e-86 -5.27286e-171 7.30592e-294 -6.79501e-235 -3.9439e-35 -1.37439e-230 -4.52423e-149 4.4679e+182 -2.42738e+57 1.84989e-285 -1.74362e+302 4.06439e-155 7.51107e+185 -3.21463e-286 -1.63005e+94 -4.3735e+129 -5.8981e+178 0
+input ends
+TRACE: Passed: surveysd_deepstate_test_weightedSum_test

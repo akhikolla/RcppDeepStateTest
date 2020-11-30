@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_inputRow_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/inputRow/inputRow_output/66d94ac3c7699b4e8310b953bee0b631c1a1b747.pass`
+TRACE: Running: NAM_deepstate_test_inputRow_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/inputRow/inputRow_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.09584e+150 -1.56885e+141 1.39205e+48 -3.60712e-107 1.77614e+55 7.10881e+218 1.06481e+46 -4.69732e+98 1.84609e+262 -6.73269e+131 1.32022e-224 nan 2.27169e+120 -1.97516e+27 -1.82468e+62 -9.83992e-74 8.1223e-206 -7.4909e+115 -9.49389e+72 5.25739e-64 -5.23835e+303 5.56032e+77 3.28357e+160 3.01021e-224 5.87352e+203 -9.0897e+54 6.26684e-309 3.3417e-296 2.43631e+88 1.47577e-205 -1.66454e+88 4.68154e-294 -1.06827e-27 -5.54359e+307 -1.65953e-292 3.5216e-200 -9.533e-129 nan 3.64542e+65 4.71053e+289 -1.83368e-34 7.76009e+35 -2.5148e+67 -1.53585e+63 -2.58885e+45 -5.83438e-125 1.29431e-35 4.26432e+177 9.07302e+11 1.6667e-304 3.59287e+49 -9.27193e+114 1.36077e-47 nan -4.03224e-24 -1.04071e-283 5.04471e-57 1.75323e+192 5.19639e-159 -5.92077e+258 -4.1166e+24 -5.46579e-52 2.97921e+159 1.01617e+253 -1.09031e-169 -1.68816e-113 2.66878e-268 2.23769e+148 2.07472e-136 1.5064e+70 -1.26761e+105 nan 3.75134e+16 -2.9766e+83 -3.68073e+102 3.6556e-214 8.65043e-198 1.03484e+220 1.78732e-265 -8.04492e+229 -8.80577e-81 -1.1715e-231 1.99337e+18 1.49847e-48 3.71504e-25 nan 0
+exp values: 671243074
+n values: -427696771
+input ends
+TRACE: Passed: NAM_deepstate_test_inputRow_test

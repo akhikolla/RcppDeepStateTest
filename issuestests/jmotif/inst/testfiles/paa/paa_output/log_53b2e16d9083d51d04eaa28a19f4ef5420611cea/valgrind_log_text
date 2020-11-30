@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_paa_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/paa/paa_output/53b2e16d9083d51d04eaa28a19f4ef5420611cea.fail`
+TRACE: Running: jmotif_deepstate_test_paa_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/paa/paa_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 1.55299e-199 -2.6631e+220 -4.09323e-210 4.3506e-93 2.76485e+88 -1.95492e+09 -6.45138e-09 -1.587e-140 -5.27106e-280 0.380097 2.3591e-148 9.55999e+207 -2.17611e+25 6.41459e-125 -5.16294e+191 2.05557e-53 2.46878e+223 -2.60705e-73 3.89456e-60 -1.65202e+242 -4.15048e+189 -5.46725e-147 -2.36059e-271 1.12708e-157 nan 4.81404e-238 -inf -3.9759e-283 -9.32199e-296 3.04926e-43 nan 2.48389e-200 inf -2.5772e-17 inf -1.98735e-98 -2.05529e-203 -1.45448e-205 -3.83222e+111 -1.92725e+114 -5.23253e-275 1.19133e-206 -2.13193e+32 -1.77297e+194 -8.79469e+86 -1.26353e-176 -1.21327e-51 -6.94008e-159 0
+paa_num values: -661550631
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: jmotif_deepstate_test_paa_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/paa/paa_output/53b2e16d9083d51d04eaa28a19f4ef5420611cea.fail failed

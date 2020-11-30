@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_gamma_bisection_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/gamma_bisection_C/gamma_bisection_C_output/d3d1e79907b089f4717e0b3bffa01c8ef50dc96c.pass`
+TRACE: Running: mixR_deepstate_test_gamma_bisection_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/gamma_bisection_C/gamma_bisection_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 2.53572e-31 inf 1.80139e-163 1.86266e-122 1.44779e-25 3.81058e+55 -inf -inf nan -2.33009e-67 4.27701e+272 5.26072e+264 5.29226e+73 5.43332e-96 1.39943e-165 8.36022e-79 -8.10859e-272 -4.13762e-294 -9.76725e+157 -2.31121e-09 -2.70271e-193 4.45805e+67 -1.79612e+237 0
+ex values: 5.68297e+208 4.32044e-123 -7.08372e+113 -2.23077e+293 7.83065e+192 -1.20872e+256 -2.71643e-253 6.97663e-217 8.19644e+251 5.3478e-251 -5.97853e-277 3.61063e-243 8.76736e-10 -3.96667e-261 7.05581e+241 5.21687e+48 -2.29323e-121 -9.47739e+129 4.99612e+111 8.4066e+226 inf nan -1.65845e+15 2.42454e-141 -9.18345e+152 1.00719e-223 5.50488e+65 5.30854e-105 1.77458e+134 2.01907e-69 -5.32275e-25 1.80998e+233 -6.87667e+253 -9.49755e-88 3.60361e-107 -4.37847e+84 2.74058e-162 -1.34297e+164 1.08323e-206 -2.5586e+78 -1.96573e-145 -3.42659e+157 1.80998e+233 -3.42794e+290 -2.78781e-36 -2.36182e-36 3.42053e-62 1.97624e-275 1.80998e+233 -1.16474e-201 0
+tx values: 4.11498e+202 -4.37921e+179 -2.02598e-42 -3.59085e+192 -6.6236e-284 nan 3.29209e-71 3.43188e+251 4.62756e-263 5.29005e+45 4.8249e-194 -1.92306e+151 -1.25924e-135 -1.67134e+65 -2.64094e+265 1.53783e-30 1.21089e-76 2.39148e-115 -7.04508e+75 1.30134e+220 -1.31358e-120 2.47727e+255 nan 7.86479e+108 -7.76666e+192 -0.00187137 -5.68334e+51 9.57424e-102 -inf -1.29004e-220 3.08237e-183 2.53449e+105 2.59715e-23 -inf -1.43276e-22 -2.07606e-143 5.90229e-245 -4.45148e+63 -4.12379e+306 -3.05394e-77 1.73543e+21 -5.06275e+33 5.32286e-148 6.05096e-135 6.43782e+162 -1.2273e+241 2.76335e-250 -4.85642e-16 0
+tol values: -1.73744e+176
+max_iter values: -411774589
+xleft values: 4.67317e-192
+xright values: -8.12997e-78
+input ends
+TRACE: Passed: mixR_deepstate_test_gamma_bisection_C_test

@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_mk_reg_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg/mk_reg_output/b3fa994ef36129f0f0b7badf83c1391ed186ad5a.crash`
+TRACE: Running: amt_deepstate_test_mk_reg_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg/mk_reg_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+t1 values: 2.74727e-103 7.91215e-60 2.09552e-276 -3.14664e+140 9.17417e-157 -9.98418e-266 4.9573e-39 1.82457e+104 1.14746e+67 -1.37583e+216 1.524e+200 -9.98976e+96 6.10003e-239 1.77246e-24 -2.67177e+95 2.37257e+225 3.37352e-205 4.90252e-62 7.84558e+301 1.96323e-28 8.5879e+217 -4.4456e-231 1.89151e-190 9.39608e+217 -1.81928e+227 4.57661e+246 -1.14665e-175 nan -2.40238e-12 -4.28863e+179 nan -2.72349e+247 1.15191e-185 3.67151e+22 -2.89001e-249 4.49895e+118 3.21188e-245 -1.78783e-298 -5.06643e+12 2.61413e-178 1.86927e+211 7.06618e-303 4.09846e-32 -1.27231e+52 -1.8949e+200 5.36888e+115 5.5567e+48 1.17044e-54 3.37964e+255 2.65457e+299 -5.46672e-33 1.11397e-257 5.47695e+34 8.68919e+31 inf -7.08225e-75 2.25271e+219 -8.62085e+150 -1.36462e-217 3.91697e-210 7.73594e+223 -5.07962e+249 -1.90893e-64 -9.74258e-161 -3.21805e+301 -8.81614e+124 3.62046e-28 3.29366e+132 2.82344e-283 -5.91917e+180 -2.82396e-201 inf -8.79121e-15 -1.21037e-88 4.13022e-116 1.61884e-110 4.00573e+201 4.30375e-36 -3.44715e-251 -1.57635e+55 0
+time_dist values: -359120103
+time_tol values: -315144042
+start values: -935420687
+input ends
+==1824051==  If you believe this happened as a result of a stack
+==1824051==  overflow in your program's main thread (unlikely but
+==1824051==  possible), you can try to increase the size of the
+==1824051==  main thread stack using the --main-stacksize= flag.
+==1824051==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: amt_deepstate_test_mk_reg_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg/mk_reg_output/b3fa994ef36129f0f0b7badf83c1391ed186ad5a.crash crashed

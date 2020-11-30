@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectAFFMeanSingle_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectAFFMeanSingle/cpp_detectAFFMeanSingle_output/4c51f488c995a04d427660f22bec3ec7b19a5122.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectAFFMeanSingle_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectAFFMeanSingle/cpp_detectAFFMeanSingle_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -9.23172e+109 -9.10222e-143 1.49951e+256 -3.81658e-266 9.42459e-95 2.35892e+30 7.53142e-249 -1.84433e-246 -4.48794e-58 -1.78577e+237 -1.40228e-87 -2.06607e-125 -1.25849e-248 nan 3.38559e-37 -4.93965e-92 -1.2693e+160 -2.30186e+294 7.60069e+202 1.71495e+253 1.11486e+304 2.86619e+256 6.65988e+99 1.08415e+49 nan 8.7295e+263 -1.87277e-290 2.14621e-33 -inf 3.71463e-181 nan -3.22753e-279 1.59182e+206 6.58615e-279 3.13315e+110 4.56073e-10 -1.02847e-29 1.72683e+44 3.20244e+87 inf 0
+alpha values: -1.09975e+246
+eta values: -2.17941e-52
+BL values: -893308544
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectAFFMeanSingle_test

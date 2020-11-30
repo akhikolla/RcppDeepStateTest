@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_solve_interval_partition_no_k_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_output/481cc0dfece05f976e6ec518d1f81796fb2bb0b9.crash`
+TRACE: Running: RcppDynProg_deepstate_test_solve_interval_partition_no_k_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.81884e+149 1.94454e+200 3.04094e-246 1.05265e-267 3.81848e+172 1.53652e+101 3.03932e+175 2.02420e-231 6.87399e+307 1.66054e-59
+1.47566e-35 1.80640e+158 1.18623e-63 4.34808e+19 4.69306e-169 1.09504e-178 2.66322e+290 6.66140e-276 1.22120e+115 7.62550e+75
+
+input ends
+==1776628==  If you believe this happened as a result of a stack
+==1776628==  overflow in your program's main thread (unlikely but
+==1776628==  possible), you can try to increase the size of the
+==1776628==  main thread stack using the --main-stacksize= flag.
+==1776628==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_no_k_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_output/481cc0dfece05f976e6ec518d1f81796fb2bb0b9.crash crashed

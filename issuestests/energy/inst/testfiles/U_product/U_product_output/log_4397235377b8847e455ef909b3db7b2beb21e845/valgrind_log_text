@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (energy_deepstate_test_U_product_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/U_product/U_product_output/4397235377b8847e455ef909b3db7b2beb21e845.pass`
+TRACE: Running: energy_deepstate_test_U_product_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/U_product/U_product_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+U values: 1.43147e-07
+1.52349e+12
+1.71889e-216
+5.22488e-06
+
+V values: 2.67984e-292 119.010 2.01129e+226 1.69883e-112 9.24845e+160
+1.58647e-291 6.32517e-197 3.13720e-25 1.46141e-215 9.56188e+163
+2.70913e+180 4.12649e-246 1.67445e-135 1.07880e-178 5.02952e-144
+7.87875e-283 4.99311e+139 4.53269e+131 3.86049e+47 7.57039e-52
+
+input ends
+TRACE: Passed: energy_deepstate_test_U_product_test

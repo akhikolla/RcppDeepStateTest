@@ -1,0 +1,57 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745690
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr2p_ow_cpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -4.71073e+138
+SWCRIT values: -1.90901e-130
+SOIRW values: -3.5556e-229
+SORW values: 1.40016e-29
+KRWIRO values: 5.97841e+201
+KROCW values: 1.01439e-193
+NW values: 3.61549e+133
+NOW values: 5.56269e-253
+NP values: -1738669262
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr2p_ow_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_ow_cpp/kr2p_ow_cpp_output/1f317717e1914f8420e9ab9cb591c12d05f7d0eb.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -9.9594e-286
+SWCRIT values: -4.45979e+287
+SOIRW values: 1.17609e+08
+SORW values: 3.21274e+252
+KRWIRO values: -9.04293e-65
+KROCW values: 1.35658e-251
+NW values: -4.68528e-212
+NOW values: 3.78773e-80
+NP values: -222671133
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr2p_ow_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_ow_cpp/kr2p_ow_cpp_output/027cf151d19b35ff49a327a8f29036338af8b598.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 7.71994e-281
+SWCRIT values: -2.61987e+97
+SOIRW values: 2.83977e-158
+SORW values: 2.3583e-237
+KRWIRO values: -4.44684e+188
+KROCW values: -1.54494e-259
+NW values: -1.06005e-293
+NOW values: 4.65828e+61
+NP values: 1820483398
+input ends
+ERROR: Crashed: Rrelperm_deepstate_test_kr2p_ow_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_ow_cpp/kr2p_ow_cpp_output/81ce22bfb9f79e5cc44951f9e29c5eaef6c19704.crash`
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 3 failed/0 passed/0 abandoned tests

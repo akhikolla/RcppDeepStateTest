@@ -1,0 +1,60 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745942
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_elnorm_trunc_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -6.52206e+10
+b values: 7.66356e-138
+mulog values: -9.01984e+276
+sdlog values: 2.63833e-201
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -2.35184e+269
+b values: -1.55875e-293
+mulog values: -1.10911e+308
+sdlog values: 1.00417e-230
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: 1.15014e-45
+b values: -9.73941e-274
+mulog values: -9.4748e+222
+sdlog values: -1.11719e+80
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -5.26483e-176
+b values: 9.73963e-259
+mulog values: -1.79632e-79
+sdlog values: -5.04239e+281
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -1.49265e+175
+b values: 3.23531e-80
+mulog values: 3.70444e+277
+sdlog values: 2.02874e+53
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -1.0568e+240
+b values: -9.00003e+132
+mulog values: 1.36131e-107
+sdlog values: 4.57459e-176
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -2.35974e-151
+b values: -8.20881e-257
+mulog values: -5.56841e-90
+sdlog values: -1.18654e-167
+input ends
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 0 failed/7 passed/0 abandoned tests

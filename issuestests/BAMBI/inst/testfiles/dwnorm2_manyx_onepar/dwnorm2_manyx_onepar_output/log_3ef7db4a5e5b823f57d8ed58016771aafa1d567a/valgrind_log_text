@@ -1,0 +1,30 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_dwnorm2_manyx_onepar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/dwnorm2_manyx_onepar/dwnorm2_manyx_onepar_output/3ef7db4a5e5b823f57d8ed58016771aafa1d567a.crash`
+TRACE: Running: BAMBI_deepstate_test_dwnorm2_manyx_onepar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/dwnorm2_manyx_onepar/dwnorm2_manyx_onepar_DeepState_TestHarness.cpp(10)
+input starts
+x values:    2.9343e+38 -4.9684e+222   1.5854e+96  1.7253e-266  2.0613e+111  3.0153e+264   1.4202e+34   6.0980e-30
+   4.3850e+99 -1.8368e-174  1.1837e+129 -1.9960e-159 -1.0311e+292  -6.1418e+23 -2.8294e-139 -1.8428e+117
+
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -1.57633e-133
+k2 values: 1.19372e-192
+k3 values: 5.66503e-183
+mu1 values: 1.41165e-11
+mu2 values: -3.46564e+123
+omega_2pi values:    9.7773e-30 -3.9315e+228  -5.6371e-69
+  -8.5722e-37   2.5327e-58   2.0266e+47
+  3.5024e-292  1.2960e-285 -2.4003e+120
+  -1.9810e+33 -9.5169e+183  -6.9214e+95
+  2.6917e-156  -4.1960e+12  -8.3224e-32
+   2.4446e-28 -3.7650e+286   9.8016e-42
+ -1.8668e-120 -6.0780e+241  -3.6897e-09
+
+input ends
+==1799041==  If you believe this happened as a result of a stack
+==1799041==  overflow in your program's main thread (unlikely but
+==1799041==  possible), you can try to increase the size of the
+==1799041==  main thread stack using the --main-stacksize= flag.
+==1799041==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: BAMBI_deepstate_test_dwnorm2_manyx_onepar_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/dwnorm2_manyx_onepar/dwnorm2_manyx_onepar_output/3ef7db4a5e5b823f57d8ed58016771aafa1d567a.crash crashed

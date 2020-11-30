@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_vmsin_var_corr_anltc_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_anltc/vmsin_var_corr_anltc_output/213c381004209ae5b893e5d4bd5351e721359459.pass`
+TRACE: Running: BAMBI_deepstate_test_vmsin_var_corr_anltc_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmsin_var_corr_anltc/vmsin_var_corr_anltc_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -8.08926e+96
+k2 values: 3.86646e-286
+lambda values: -1.18554e-42
+input ends
+EXTERNAL: Warning message:
+
+EXTERNAL: bessel_i(3.86646e-286,nu=2): precision lost in result 
+
+TRACE: Passed: BAMBI_deepstate_test_vmsin_var_corr_anltc_test

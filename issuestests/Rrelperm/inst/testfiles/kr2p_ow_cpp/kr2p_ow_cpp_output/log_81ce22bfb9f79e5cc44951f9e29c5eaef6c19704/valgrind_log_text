@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr2p_ow_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_ow_cpp/kr2p_ow_cpp_output/81ce22bfb9f79e5cc44951f9e29c5eaef6c19704.crash`
+TRACE: Running: Rrelperm_deepstate_test_kr2p_ow_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_ow_cpp/kr2p_ow_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 7.71994e-281
+SWCRIT values: -2.61987e+97
+SOIRW values: 2.83977e-158
+SORW values: 2.3583e-237
+KRWIRO values: -4.44684e+188
+KROCW values: -1.54494e-259
+NW values: -1.06005e-293
+NOW values: 4.65828e+61
+NP values: 1820483398
+input ends
+==1886186==  If you believe this happened as a result of a stack
+==1886186==  overflow in your program's main thread (unlikely but
+==1886186==  possible), you can try to increase the size of the
+==1886186==  main thread stack using the --main-stacksize= flag.
+==1886186==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: Rrelperm_deepstate_test_kr2p_ow_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_ow_cpp/kr2p_ow_cpp_output/81ce22bfb9f79e5cc44951f9e29c5eaef6c19704.crash crashed

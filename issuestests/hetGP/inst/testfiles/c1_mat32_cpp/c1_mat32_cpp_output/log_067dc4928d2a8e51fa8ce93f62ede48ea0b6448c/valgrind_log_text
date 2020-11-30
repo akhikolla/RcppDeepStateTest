@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_c1_mat32_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat32_cpp/c1_mat32_cpp_output/067dc4928d2a8e51fa8ce93f62ede48ea0b6448c.fail`
+TRACE: Running: hetGP_deepstate_test_c1_mat32_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat32_cpp/c1_mat32_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: -5.49096e-186 9.92711e+84 -8.86263e+293 -9.99025e+306 7.11551e-269 -3.87585e+172 -1.45017e+27 -4.20532e+302 -1.69278e-125 2.82305e-13 -4.32412e-184 -4.25693e+58 3.85639e-146 -5.62397e-207 -2.03939e+137 1.21632e-127 -4.00458e-291 3.63558e-202 -9.81121e-94 -8.14305e-298 3.42638e+63 2.16223e+241 -4.2759e-281 -3.88126e-137 1.09895e-129 -2.55179e-114 -2.86053e+96 1.18031e+308 -3.75696e+282 -1.60879e+219 4.35493e-87 -2.96876e-129 -6.97719e-62 8.9272e-154 -7.29566e+18 7.76713e+295 -2.15966e-222 8.60383e+214 6.08142e+207 9.08335e-306 8.25662e+210 -2.25171e+218 6.80276e-189 -inf -1.25753e+308 7.79554e+232 1.18031e+308 -inf -3.34348e-12 -inf 2.04028e-91 1.31014e+186 -5.6822e-129 -2.98837e-61 3.01022e+149 1.1397e+231 6.28807e+27 0
+x values: -3.17046e+198
+sigma values: 5.71365e+217
+W values: 2.83686e-133 1.87171e+141 6.65364e-133 -inf -inf 2.97846e+114 -2.57857e-122 -9.0256e+121 1.24707e-274 3.76675e+09 inf 8.84764e-140 -1.72543e+213 1.68746e-75 1.29162e-294 2.07724e+45 -4.78074e+224 3.91637e+183 7.95655e+276 8.69643e+23 3.51642e+19 3.44572e+31 nan -1.19298e-125 -7.01686e+252 2.23799e+229 2.79753e-178 -1.25082e+117 4.88759e-44 2.38887e+73 4.89905e+08 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=32; extent=32].
+ERROR: Failed: hetGP_deepstate_test_c1_mat32_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat32_cpp/c1_mat32_cpp_output/067dc4928d2a8e51fa8ce93f62ede48ea0b6448c.fail failed

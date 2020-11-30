@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_c1_mat52_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat52_cpp/c1_mat52_cpp_output/3ea49a47314c018c3ac0302e62bef6524f6e9a5c.fail`
+TRACE: Running: hetGP_deepstate_test_c1_mat52_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat52_cpp/c1_mat52_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 1.48325e+69 8.36562e+136 4.91609e-183 7.88535e-219 1.6605e+217 5.76478e+50 -inf 4.75755e-126 -0.18673 -3.12136e+17 -8.81694e+58 -5.69703e+130 2.81003e-242 2.00437e-07 1.26869e+166 -1.23024e+129 -6.95674e+280 -inf 2.05811e-26 -3.10251e-111 -2.04874e+90 -1.20944e+239 -3.57851e-130 nan 6.26198e-15 4.62317e-230 -2.07303e+175 -4.82349e-280 6.46079e+66 -2.07244e-75 1.54356e+186 -2.88912e+261 1.23338e+72 -inf 3.98937e-48 5.56693e-233 1.68227e-193 2.91613e-194 -1.74242e-191 2.21544e+167 1.26511e-260 6.75218e+227 0
+x values: -2.03951e-125
+sigma values: -7.54302e-177
+W values: -6.32015e+44 5.6574e+36 -8.49302e+242 -1.65597e+255 -3.75213e+55 -1.01634e-287 -2.07246e-119 -6.03931e+147 1.90786e+26 3.15616e-297 1.80191e+142 -3.09936e-29 -8.26422e-285 1.14781e+157 1.9133e+79 nan 3.15493e+92 -2.35934e+36 -0.000146488 1.01379e-196 1.07601e+295 -1.00127e-17 6.71406e-271 -inf 3.11111e+140 -2.32475e-244 -2.39126e+188 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=28; extent=28].
+ERROR: Failed: hetGP_deepstate_test_c1_mat52_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat52_cpp/c1_mat52_cpp_output/3ea49a47314c018c3ac0302e62bef6524f6e9a5c.fail failed

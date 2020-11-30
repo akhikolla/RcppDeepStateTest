@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (Rvoterdistance_deepstate_test_nearest_dbox2_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/nearest_dbox2/nearest_dbox2_output/6b7e8a94bed9cb81bddc027b60b718573d6b7ff3.pass`
+TRACE: Running: Rvoterdistance_deepstate_test_nearest_dbox2_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rvoterdistance/inst/testfiles/nearest_dbox2/nearest_dbox2_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lat_lon1d values: 3.61435e-57 1.79600e-17 3.47474e-238 8.04570e+76 3.37411e-232 9.66026e+107
+
+lat_lon2d values: 1.09769e-46 3.88896e-295 3.21518e-53 2.79928e-129 2.86022e+189
+
+input ends
+TRACE: Passed: Rvoterdistance_deepstate_test_nearest_dbox2_test

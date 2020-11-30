@@ -1,0 +1,61 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677037
+WARNING: No test specified, defaulting to first test defined (PanelCount_deepstate_test_matVecProd_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+m values: 4.30694e-144 1.98591e-143 1.11529e+201
+5.26958e-226 1.24699e+28 1.72820e-304
+6.56578e-246 4.43794e-184 1.32467e+34
+1.19170e+54 7.95582e-66 1.14265e-142
+1.41069e-262 1.77355e+256 3.07956e-56
+
+v values: 2.04761e-20 1.01807e-237 -4.22828e+293 nan inf -1.17065e+55 1.71092e-196 -1.92032e-190 -9.73431e+137 -8.2786e+160 -8.2786e+160 1.1468e+104 -3.44845e-97 1.28462e-160 5.91994e-188 -7.43382e-62 -2.9021e+41 -1.17038e+200 -8.27518e-41 -5.64953e+300 -2.47861e-305 1.20119e-91 nan -4.10292e-221 -4.5603e+24 -5.89855e+22 -1.83834e-197 -2.36738e+80 -2.47012e+155 0
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: PanelCount_deepstate_test_matVecProd_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProd/matVecProd_output/7aff791c74d283b81d349d72d5fc1938327bb972.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+m values: 1.68362e-39
+3.43723e+286
+1.27864e+275
+1.64036e-256
+5.93331e+111
+1.03755e+196
+2.07948e-290
+6.91775e+238
+2.19543e+142
+
+v values: 1.78271e-53 5.71245e-196 -1.55699e-88 6.24762e+208 nan 2.3247e+184 8.40842e-305 -1.15752e-190 -inf 4.43323e-93 2.2879e-234 3.21561e-303 3.3365e+213 -8.8503e-196 2.86694e+295 3.23322e+131 2.77703e-66 -1.32015e+19 8.44142e+240 -1.15036e-139 -6.97862e-292 3.97715e+276 nan -7.54965e-36 -7.53234e+295 -1.45144e-266 7.65074e+241 -1.16928e+86 -7.07736e-28 1.42258e-146 1.16707e-94 3.44737e+11 48864.3 3.14012e-252 2.39724e-70 -4.91584e-89 -5.30955e+30 -1.23688e+180 5.0411e-78 -2.31477e-121 nan 2.18397e+93 -4.92057e-178 4.04295e-223 5.08311e-53 8.53636e+138 3.00896e-76 2.39338e-39 -6.86128e-62 5.74648e+06 1.83228e-156 9.99791e+299 3.81743e+80 5.29077e+234 -9.94672e+247 nan
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: PanelCount_deepstate_test_matVecProd_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProd/matVecProd_output/8f09be1c5a492d794c46d40317d5da15a2f50015.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+m values: 1.27725e-219 1.55563e+83 1.26681e+294 4.34337e+302 5.32511e-60 2.30623e-31
+4.65589e-10 2.22023e+68 3.31833e-53 3.70184e+197 3.42136e+92 3.84141e+286
+3.98966e+37 4.89102e+224 1.80494e-280 2.18572e+48 1.54264e+57 3.51226e+203
+1.34846e+44 7.58528e-253 4.74674e-207 8.53151e+161 1.25506e-228 5.58657e+293
+4.95966e+222 1.10546e-108 2.22735e-140 1.15462e+303 8.44398e-243 5.52487e+184
+9.16244e-133 1.09688e+265 1.84283e-85 5.57466e-151 2.74281e+281 8.06530e+62
+1.70845e+31 8.11850e+07 3.55123e-118 4.74350e-40 7.53157e+125 6.57633e-16
+
+v values: -6.32496e-119 -2.47303e-272 -7.7388e-233 4.52281e-196 3.87312e-56 2.81004e+208 2.88831e+282 2.45893e+217 7.41143e+155 -2.2525e-161 2.88327e-176 5.62778e-261 9.64786e+14 -1.15595e-153 4.87992e+204 -4.10151e+163 1.93623e+303 3.1468e-257 -9.63294e-268 5.62413e-213 -3.21495e-76 -3.25992e-177 -1.43783e+47 -1.57906e-20 6.13072e-204 -3.66361e-134 -5.84183e-99 1.37872e+175 4.67233e-140 22515.9 -3.88008e+186 1.06146e-174 -2.49805e+276 -7.77658e+272 nan -5.11796e-67 -5.61539e-178 -3.70574e+271 1.37872e+175 1.37872e+175 2.62623e-222 -4.08885e-251 -7.49458e+171 9.53046e+104 1.35473e-279 nan 1.05192e+49 -3.01288e+37 8.48257e+221 -3.78973e-31 0
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: PanelCount_deepstate_test_matVecProd_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProd/matVecProd_output/7e6656d6b3c947eb27d015326f76e3b511b778d2.fail`
+INFO: Done fuzzing! Ran 3 tests (1 tests/second) with 3 failed/0 passed/0 abandoned tests

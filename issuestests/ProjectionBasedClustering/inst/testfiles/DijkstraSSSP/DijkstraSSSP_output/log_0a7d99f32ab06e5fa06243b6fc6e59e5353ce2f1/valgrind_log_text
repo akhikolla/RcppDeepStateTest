@@ -1,0 +1,35 @@
+WARNING: No test specified, defaulting to first test defined (ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/0a7d99f32ab06e5fa06243b6fc6e59e5353ce2f1.crash`
+TRACE: Running: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Adj values: 4.08050e+127 1.30143e+290 1.04029e+259 2.72552e-48 7.75313e-167 2.91682e-118 1.44093e-209 3.80314e-93
+4.66259e+70 1.07157e-102 6.45674e+55 7.75221e+85 2.59637e-207 3.83812e-247 7.82874e+50 1.61328e-09
+6.34827e+121 1.03552e+88 3.36776e-163 7.17418e-295 4.80575e+44 4.23788e-78 2.47242e+99 5.85255e+239
+5.57060e-157 1.13259e-296 9.23971e-140 7.80596e-274 8.14525e-59 1.59848e+143 5.42619e-247 7.14215e-18
+2.31187e+278 6.64954e-154 1.69432e-75 3.40698e+157 1.30137e+165 2.13240e-13 1.84986e+305 2.98773e-176
+1.54433e-54 4.87282e+151 3.48563e+47 5.16071e-54 1.80781e-255 1.85358e+91 4.86934e+93 7.22466e+24
+3.41438e+90 1.14197e+248 6.02358e+189 1.28441e+21 1.77561e-149 5.94290e-169 4.98106e+210 3.77922e+145
+6.35598e-276 8.22582e-128 9.12776e+29 2.44712e-293 2.21822e-246 5.45507e+51 6.76291e-129 1.58862e+31
+
+Costs values: 1.40290e+165
+3.33779e+226
+1.43082e+10
+9.89102e+200
+1.13930e+160
+3.47966e-40
+4.01065e-110
+4.23363e+289
+1.19684e+199
+2.01985e-283
+
+source values: 554012509
+input ends
+==1806469==  If you believe this happened as a result of a stack
+==1806469==  overflow in your program's main thread (unlikely but
+==1806469==  possible), you can try to increase the size of the
+==1806469==  main thread stack using the --main-stacksize= flag.
+==1806469==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/0a7d99f32ab06e5fa06243b6fc6e59e5353ce2f1.crash crashed

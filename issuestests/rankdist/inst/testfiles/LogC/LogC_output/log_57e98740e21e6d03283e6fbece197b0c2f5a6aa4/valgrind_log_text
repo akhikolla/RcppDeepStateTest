@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_LogC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/LogC/LogC_output/57e98740e21e6d03283e6fbece197b0c2f5a6aa4.pass`
+TRACE: Running: rankdist_deepstate_test_LogC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/LogC/LogC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+fai values: -4.54524e+52 -1.53272e+224 1.80934e+47 5.80732e-161 1.00719e+155 -1.16176e+187 8.9958e+76 4.91523e-305 6.29533e+13 3.27406e+65 -7.51946e-29 -inf -3.19431e-56 -2.84241e+140 -9.65379e-209 -3.83389e-106 nan -6.26924e-198 -3.43196e+50 -7.91749e+06 2.28728e-106 -1.35981e+196 8.69261e-217 -2.49299e+239 1.17366e+101 5.80303e+190 4.40678e+226 6.27813e-18 -14.4493 -1.62686e+212 1.88462e+227 -2.53285e+172 -4.10023e-38 -8.48785e-68 30218.7 2.06162e+107 5.32417e+84 1.40237e-146 1.33647e+290 -8.78735e-225 -5.43987e-231 1.96879e-53 2.11047e-153 2.3299e-269 3.73485e-133 6.01507e+99 3.91757e+27 6.49842e+21 -7.73084e+24 -3.20881e-111 -109990 5.8736e+180 -3.54491e-34 -4.48177e-47 1.70337e-209 1.4355e+147 -2.89672e+107 4.70098e+248 -1.58941e-160 9.7665e-172 2.44329e+150 nan -9.00686e+32 -1.20566e-57 1.91152e-124 6.53753e-270 -3.27044e+230 1.68575e-73 -2.26845e+104 -3.0058e+34 -6.47793e-81 1.25486e-191 4.63503e+295 0
+input ends
+TRACE: Passed: rankdist_deepstate_test_LogC_test

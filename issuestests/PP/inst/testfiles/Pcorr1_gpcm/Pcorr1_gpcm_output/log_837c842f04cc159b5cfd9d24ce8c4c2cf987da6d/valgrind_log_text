@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (PP_deepstate_test_Pcorr1_gpcm_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/Pcorr1_gpcm/Pcorr1_gpcm_output/837c842f04cc159b5cfd9d24ce8c4c2cf987da6d.pass`
+TRACE: Running: PP_deepstate_test_Pcorr1_gpcm_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/Pcorr1_gpcm/Pcorr1_gpcm_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+delta values: 1.12734e+90 5.91814e-300 -4.08162e-151 -5.03875e-152 9.65747e+153 nan -8.09442e-251 -6.33978e+198 -1.6313e+140 7.76241e+121 -6.95875e-278 1.00454e+123 inf -2.93836e+11 1.17942e+156 -inf 6.37502e-64 -7.65389e+257 7.6009e-161 4.03544e+173 1.76534e+47 -2.96092e+223 -5.91616e-21 4.32209e-222 -4.58746e-190 -3.78351e-113 9.52061e+102 -2.44376e-171 9.56118e+174 7.00302e-44 2.81384e+197 -2.59462e-56 2.98293e-151 -6.06858e+172 3.77427e-100 -2.75109e+273 1.14527e+182 4.63531e-31 -5.63202e+54 1.07081e+34 1.56574e-63 3.02726e-190 -9.02047e-145 2.50592e-74 -4.97815e+213 -2.00875e-283 -4.08458e+30 6.73394e-53 -1.31196e+84 1.12315e-177 1.9487e+84 nan -3.03252e-177 8.35126e-160 -3.8791e-51 7.52406e-160 -3.2456e+186 -1.54326e+119 2.49039e+297 0
+alpha values: -1.58442e+91
+theta values: -4.76573e+232
+input ends
+TRACE: Passed: PP_deepstate_test_Pcorr1_gpcm_test

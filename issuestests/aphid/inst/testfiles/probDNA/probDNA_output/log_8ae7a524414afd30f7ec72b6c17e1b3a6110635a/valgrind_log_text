@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (aphid_deepstate_test_probDNA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/probDNA/probDNA_output/8ae7a524414afd30f7ec72b6c17e1b3a6110635a.pass`
+TRACE: Running: aphid_deepstate_test_probDNA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/probDNA/probDNA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1495667988
+probs values: -3.81364e+155 6.46582e-15 -1.42537e+288 6.7858e-70 -1.51479e+231 -1.58311e-130 -1.54983e-271 5.87485e-164 5.99164e+204 -1.58641e-130 3.88446e-50 -7.39884e+65 -5.78559e-223 4.41553e+176 -1.13374e+248 -2.73127e-27 -2.97364e+88 5.74921e-71 6.86181e+295 -1.2981e-88 -1.12979e-257 1.21448e-148 -9.35172e-176 5.14619e-38 4.26181e-17 -1.35748e-174 -2.71551e+219 7.67832e-148 -1.69259e+158 -3.22474e-115 -6.9476e-203 2.985e+29 nan 5.21415e-189 2.25153e-290 2.36501e-54 -8.57131e+156 -2.00643e-119 -1.38078e+289 4.71883e-231 -3.2123e-159 1.55849e-281 4.78066e+173 -2.50594e-30 -2.87807e-195 -5.88686e+274 -6.36475e-57 4.79332e-116 -4.67693e-24 -7.32108e-225 -1.07941e+88 -2.16665e+209 9.21841e-249 2.27281e+234 1.20827e-306 nan -9.19015e-144 nan inf -1.32299e+306 0
+input ends
+Exception Handled
+TRACE: Passed: aphid_deepstate_test_probDNA_test

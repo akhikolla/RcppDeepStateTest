@@ -1,0 +1,62 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606685922
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_d_const_vmcos_anltc_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -5.21556e+14
+k2 values: -2.83222e-307
+k3 values: 1.71048e-123
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_d_const_vmcos_anltc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_output/6218954296498ee399f07e0270fd28a9ab13156a.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 2.19457e+82
+k2 values: 3.21067e+139
+k3 values: 2.46228e+36
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_d_const_vmcos_anltc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_output/64c5e6f92f193aaebb8136641c6a4c0a0cff3e85.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 5.75531e+225
+k2 values: -1.86787e+158
+k3 values: -2.1294e-84
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_d_const_vmcos_anltc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_output/d08fe159ed6a1050b9938e884cb1c2592d90ee9d.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 4.02501e-100
+k2 values: 1.43934e+40
+k3 values: 3.05569e+28
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_d_const_vmcos_anltc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_output/742c3ba15277c0ec6c2991d4ff5298a0ccdf871d.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -7.45147e-232
+k2 values: -6.91059e-202
+k3 values: -8.30453e-50
+input ends
+EXTERNAL: Warning messages:
+
+EXTERNAL: 1: bessel_i(7.45147e-232,nu=2): precision lost in result 
+
+EXTERNAL: 2: bessel_i(6.91059e-202,nu=2): precision lost in result 
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 1.38351e+64
+k2 values: 1.58208e+195
+k3 values: -3.45602e+56
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_d_const_vmcos_anltc_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_output/d54494ab24e4eac93f6970042b094f11456d908b.crash`
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 5 failed/1 passed/0 abandoned tests

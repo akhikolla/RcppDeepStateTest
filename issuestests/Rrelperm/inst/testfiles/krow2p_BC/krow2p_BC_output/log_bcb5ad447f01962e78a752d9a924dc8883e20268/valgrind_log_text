@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_krow2p_BC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/krow2p_BC/krow2p_BC_output/bcb5ad447f01962e78a752d9a924dc8883e20268.pass`
+TRACE: Running: Rrelperm_deepstate_test_krow2p_BC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/krow2p_BC/krow2p_BC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SW values: 6.7352e+131
+SWCON values: 8.38799e-193
+SORW values: -7.70329e+296
+KROCW values: -4.67971e+268
+NOW values: -2.96609e+217
+input ends
+TRACE: Passed: Rrelperm_deepstate_test_krow2p_BC_test

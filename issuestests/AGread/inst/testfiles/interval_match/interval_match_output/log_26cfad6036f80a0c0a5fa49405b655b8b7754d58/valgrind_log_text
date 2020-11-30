@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (AGread_deepstate_test_interval_match_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/AGread/inst/testfiles/interval_match/interval_match_output/26cfad6036f80a0c0a5fa49405b655b8b7754d58.pass`
+TRACE: Running: AGread_deepstate_test_interval_match_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/AGread/inst/testfiles/interval_match/interval_match_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+proportion values: -1.44782e-239
+references values: -1.77825e-234 nan -3.3317e-127 nan 3.58427e+253 6.12223e-272 1.94025e+244 2.59906e+132 2.66507e+84 6.53297e+279 5.78379e-199 1.05138 1.25416e+266 1.5135e+151 -3.54385e+267 -inf 3.8106e+229 2.01732e-141 nan 2707.95 2.22684e+255 0
+input ends
+TRACE: Passed: AGread_deepstate_test_interval_match_test

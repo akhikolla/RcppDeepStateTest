@@ -1,0 +1,89 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606694888
+WARNING: No test specified, defaulting to first test defined (pcIRT_deepstate_test_gamfunk_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+epsmat values: nan nan -2.30689e-285 7.79126e+196 8.94044e-219 nan nan nan
+gammat values: 3.12982e-100 6.82333e+72 8.06623e-236 3.05060e+134
+1.72210e-141 1.88858e+137 6.85293e-125 7.44580e+98
+7.32779e+73 3.62298e+100 6.20699e-54 1.26064e+53
+5.33496e+243 2.49552e-71 4.11721e-246 3.60693e+27
+564565. 3.10677e-188 6.88114e-25 6.51887e-212
+6.59441e+270 1.55475e+117 8.43632e-131 1.06031e+29
+3.85798e-196 5.16062e+260 1.85076e-242 1.23697e-92
+9.48318e+185 4.02515e-10 1.15609e-276 3.44902e-70
+1.86747e-230 2.98171e-32 1.29813e-09 9.18437e+20
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=7; column extent=4].
+ERROR: Failed: pcIRT_deepstate_test_gamfunk_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_output/e5b52cfe3b9cf808229f853e7f7bf87ed23ff2d2.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+epsmat values: -2.73103e+172 1.80163e+214 -9.78124e+299 -inf 2.23125e-218 -3.34473e+230 -4.06529e+210 -1.50327e+218 1.13126e-299 -5.41441e+103 -5.94311e-05 1.15214e+26 -4.39458e+126 -5.74784e-08 3.63389e+59 3.3016e-98 -26.6123 1.21108e+76 -9.18557e-164 1.94373e+202 2.93256e-130 -9.85157e+141 6.31287e+282 -2.51555e+259 1.55803e-26 2.11483e-276 -2.37612e-169 -7.01072e+114 -2.21929e+285 1.05834e+25 1.63159e+22 -2.99936e-111 -3.39901e-115 1.68122e+110 -5.63013e+280 1.73934e-273 -3.6368e+299 -6.99327e+140 -2.08526e-178 -9.93218e-133 1.09803e+266 -1.05167e+269 -1.35102e+293 9.73452e-207 nan 2.77947e-269 2.23125e-218 -inf -3.80066e-209 -1.48352e-213 0
+gammat values: 2.60237e-104 1.80124e-198 1.92316e-142 83288.2 1.91611e+108 3.61776e-298 1.37759e-240 7.50732e+122 9.64356e+219
+2.09740e-275 8.33296e-236 6.68948e+194 3.36158e+97 1.91507e+160 3.18384e-263 2.92031e-293 7.53799e-304 7.07355e-156
+1.24375e+272 6.22661e+113 4.57848e-226 2.33953e-270 1.17573e+246 2.87265e-67 1.46189e+51 8.28743e+229 2.58329e-200
+1.47825e+104 8.88786e-21 6.84737e+176 3.40951e-189 1.36371e+222 8.54960e+77 4.15010e-276 7.40159e-34 1.71354e+27
+4.84721e-224 5.96773e+19 4.47099e+158 4.66381e-210 6.79781e-267 6.96977e+43 3.11548e-153 2.20802e-268 3.86412e+156
+3.70229e+280 1.69700e+223 1.20426e+149 1.55804e+239 2.29706e-240 5.24226e-226 8.51946e+37 2.68523e-244 9.65810e+162
+1.06380e+223 2.12081e-215 1.97273e-224 1.31575e-69 3.52357e+282 1.14047e-16 1.09304e-288 3.57991e-283 7.35336e-138
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=50; column extent=9].
+ERROR: Failed: pcIRT_deepstate_test_gamfunk_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_output/f3c8b4d924734f4cc3952d0dad23de4c104c5157.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+epsmat values: 5.59452e-12 -inf -2.07402e+90 3.4464e-279 -3.03106e-264 8.37206e-80 2.02301e-103 1.50796e-181 1.48623e-303 -3.6016e+27 inf -1.00016e+58 1.71519e+55 1.04601e-255 -1.04925e-168 3.52133e+164 -4.62912e-91 -3.04734e-30 -5.4774e-11 1.14871e+21 -9.75448e-198 9.64071e+54 -3.89345e+37 1.23918e+268 9.46715e+134 -3.26922e-44 9.90837e+09 -2.52522e+104 -inf 4.65364e+205 6.84588e-266 -5.06997e-203 -9.28059e-27 inf 1.56313e-171 -7.57468e-112 -3.59154e+30 -6.77358e+121 5.29701e+63 -7.35365e+50 1.14239e-134 8.43047e+272 6.62834e-273 inf -1.81244e+113 -2.0027e-263 -1.49982e-112 -2.02275e+250 1.34201e-41 8.42003e+21 0
+gammat values: 5.70596e-272
+5.10866e-217
+3.21085e+34
+105929.
+1.91192e-228
+1.81817e-233
+2.60457e-178
+1.25834e+270
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=50; column extent=1].
+ERROR: Failed: pcIRT_deepstate_test_gamfunk_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_output/57edbb8a9ff06b4841c766ecb55ad0037f03a8d3.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+epsmat values: 3.14162e-18 -inf nan 2.47133e+222 1.70609e+83 -3.67676e+124 3.2598e-292 8.55708e+233 -inf
+gammat values: 1.50533e-109 6.70061e-159
+9.68367e+14 7.95795e+215
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=8; column extent=2].
+ERROR: Failed: pcIRT_deepstate_test_gamfunk_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_output/8c2f227edd0c52ddd842da0f336f8251f701a707.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+epsmat values: 1.60643e-47 -4.14518e+180 1.08926e-32 -7.11009e-121 6.47531e+274 -1.88883e-193 1.20678e+102 9.44855e+201 2.01829e+245 1.71106e+82 1.85659e-131 -6.75461e-273 -2.78702e-186 1.95514e-103 5.42607e-76 inf 8.8668e-277 nan -2.57737e+68 2.21729e-51 -1.05137e+113 -inf -2.40843e-280 0
+gammat values: 5.02510e+30
+7.24954e+229
+1.43380e-250
+3.72515e-49
+4.38831e+46
+2.53838e+217
+4.64370e+134
+2.94377e-308
+2.06334e+77
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=23; column extent=1].
+ERROR: Failed: pcIRT_deepstate_test_gamfunk_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pcIRT/inst/testfiles/gamfunk/gamfunk_output/bb70dbe0d94a7f5a59ee35effd8a12ece6cb1abf.fail`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

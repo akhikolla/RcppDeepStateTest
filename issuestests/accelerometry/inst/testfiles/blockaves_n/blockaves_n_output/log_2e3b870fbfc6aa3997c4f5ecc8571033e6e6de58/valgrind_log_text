@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blockaves_n_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_n/blockaves_n_output/2e3b870fbfc6aa3997c4f5ecc8571033e6e6de58.pass`
+TRACE: Running: accelerometry_deepstate_test_blockaves_n_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_n/blockaves_n_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -4.7292e-63 4.99367e-174 1.24908e+97 -2.89737e+35 -1.64786e-296 1.21083e-287 -4.64353e+11 6.30491e-179 1.06626e+180 1.08386e+27 1.48993e-182 -1.40766e-179 -2.42223e+44 -9.00831e+116 -2.27471e+178 1.27196e-140 -4.71424e-183 -7.06923e-186 -6.49087e+299 4.71846e+203 inf -1.94124e-231 -1.31399e-231 -4.32478e-121 -7.83039e-164 -7.89828e-90 -5.7199e+284 -2.23161e-251 -4.49084e-250 -3.57333e+163 1.058e+169 1.6087e-201 2.93296e-270 -1.26525e-259 2.62389e-161 1.1361e-71 -8.94318e-147 -6.75279e+08 4.20393e-194 -7.19097e-132 -2.15442e+171 5.007e-08 -3.74656e-76 2.45718e-132 4.34038e+125 5.6693e-16 -5.01193e-114 -1.50815e-23 -4.94027e-77 1.23712e+93 -1.6616e-276 -8.55518e-187 1.84131e-234 nan -1.62486e+226 -inf -2.85999e-125 -6.3717e-300 2.57223e+35 -1.66651e-242 1.36774e-265 1.21247e-73 -3.6696e-83 7.46328e+292 -0.0692284 9.89232e-38 1.29518e-45 4.4324e+78 1.70796e-163 1.26027e+308 -4.78481e-82 8.49578e-271 9.11174e+277 1.79158e+295 -5.09012e-243 -3.41515e-210 3.08584e-112 -2.69033e-66 -6.61389e+125 -1.16404e+211 3.37597e-91 nan -1.68279e+168 1.23721e+182 -1.57261e+195 -1.50994e+47 1.11219e+232 -5.39187e-116 -3.59055e-290 0
+window values: -2130673306
+input ends
+TRACE: Passed: accelerometry_deepstate_test_blockaves_n_test

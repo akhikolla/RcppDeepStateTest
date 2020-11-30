@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_emEN_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emEN/emEN_output/76ff0379e4ee99ce301fe11f1341c803ff3f2a80.pass`
+TRACE: Running: NAM_deepstate_test_emEN_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emEN/emEN_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 4.41395e+132 1.13917e-231 1.74406e-73 3.80896e+240 -inf -1.39324e-27 inf 4.23994e+288 3.90859e-10 -3.81798e-104 -3.18375e-126 1.29144e-130 5.12073e+257 -2.92745e+296 -2.52198e+66 -2.62004e+104 5.25145e+156 -1.33034e-138 1.25496e-176 -1.35427e-136 -1.73956e-77 -2.72418e+196 1.82685e-245 -4.38689e+44 -5.72761e-18 inf 1.4346e+274 -1.2783e+178 7.66893e+114 inf 1.66817e+272 -1.64377e+67 -2.3651e-145 5.2473e-191 -3.48877e-220 2.11011e+70 5.11031e-25 3.12878e-248 6.09824e-102 -1.06063e+121 7.59491e-63 -9.71407e+206 0
+gen values: 1.17369e-307
+5.04895e-46
+
+R2 values: 7.11609e+27
+alpha values: 1.81542e-177
+input ends
+TRACE: Passed: NAM_deepstate_test_emEN_test

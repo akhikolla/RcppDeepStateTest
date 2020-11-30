@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (metadynminer3d_deepstate_test_hills3d1p12_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/metadynminer3d/inst/testfiles/hills3d1p12/hills3d1p12_output/46fd1ecef502e29398f133fa944b8c3c22931510.fail`
+TRACE: Running: metadynminer3d_deepstate_test_hills3d1p12_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/metadynminer3d/inst/testfiles/hills3d1p12/hills3d1p12_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cv1 values: 1.77942e-99 1.85402e+50 -1.44887e+208 1.67541e-44 1.85402e+50 inf -1.293e+280 -1.03249e+238 -5.63045e-65 -1.13218e+55 5.56253e+195 5.43809e+246 -1.79578e-215 4.4701e+56 nan -1.84332e-118 3.0562e-25 3.18954e-85 1.85402e+50 7.6849e-255 8.60513e-48 -2.66563e-188 -2.99366e-289 0
+cv2 values: 3.55433e+44 inf 5.47762e+152 1.45232e+35 -2.1774e+175 nan -1.45069e-198 -6.7944e-194 1.10726e-301 6.35908e+62 -inf -1.02911e-120 -3.46754e-89 -3.89103e+46 -9.56975e-217 -8.78136e-79 8.85199e+38 -2.89477e+213 2.48501e-57 nan
+cv3 values: 7.26548e-78 -8.35456e-220 5.08362e-163 5.24243e-104 1.19531e+225 8.09294e+248 9.73052e-05 5.99438e+129 -8.81707e-06 -1.86397e+302 4.19838e-133 1.74054e+254 6.24564e+264 390.318 1.62509e-53 1.00179e-182 -inf nan -3.71569e-43 -2.7548e+58 nan nan -438.209 9.93535e-247 1.12094e+270 -inf 0
+width1 values: -4.27601e-88
+width2 values: -1.31267e-107
+width3 values: -4.56915e-177
+heights values: -2.86678e-43 -3.86472e-286 9.56862e+63 1.16232e+204 1.16466e+104 inf 2.55053e-95 5.85405e-229 1.32531e+34 -6.90497e-155 -2.52506e+256 1.18963e+207 -2.3126e-237 inf 1.34195e+163 1.42253e-244 4.66588e+210 2.23879e-155 -5.0099e+101 nan -8.33939e+88 -1.99048e-130 -4.32573e+297 -1.53276e+227 1.30847e-76 -2.84661e+279 1.75033e+277 -2.9021e-46 1.34195e+163 1.09129e-265 2.38758e+235 -1.01745e-171 4.12812e-268 4.75806e+35 7.95606e+132 -5.53285e+62 -5.17638e+71 6.3274e+199 1.07268e-228 5.89989e-28 -4.23357e-29 -5.44351e+220 -4.10993e+71 -2.49225e+09 7.78666e+150 -1.94526e-64 1.40481e-174 -4.09991e+148 -4.50477e+287 -1.52892e-169 -1.74724e+304 8.31501e-231 1.39529e-287 -5.59982e+230 -5.01994e-227 1.3298e+171 9.66449e-93 -1.91728e-285 -8.84071e-115 0
+n values: 1847965425
+tmin values: -2096906263
+tmax values: -1183879762
+input ends
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/metadynminer3d/inst/testfiles/hills3d1p12/hills3d1p12_output/46fd1ecef502e29398f133fa944b8c3c22931510.fail failed

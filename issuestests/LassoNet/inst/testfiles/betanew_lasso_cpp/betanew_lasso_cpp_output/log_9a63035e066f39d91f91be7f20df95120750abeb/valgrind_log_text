@@ -1,0 +1,25 @@
+WARNING: No test specified, defaulting to first test defined (LassoNet_deepstate_test_betanew_lasso_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/LassoNet/inst/testfiles/betanew_lasso_cpp/betanew_lasso_cpp_output/9a63035e066f39d91f91be7f20df95120750abeb.fail`
+TRACE: Running: LassoNet_deepstate_test_betanew_lasso_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/LassoNet/inst/testfiles/betanew_lasso_cpp/betanew_lasso_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+xx values: 1.31474e+175 3.40790e+186 6.46356e-151 3.45677e-132 1.08044e-123 2.79300e-169 0.000180229
+5.40161e-100 9.69047e+230 1.59641e-52 1.24460e-60 1.19811e+114 1.05128e+191 9.83405e+203
+3.39833e+125 6.73307e-38 5.09912e+163 7.20563e+218 1.47799e-48 1.17110e-45 1.28220e-238
+
+xy values: 3.60122e+57 -2.90076e-290 -inf 2.24907e+45 -5.19328e+283 -5.99794e-138 3.60673e-308 -6.07558e+177 -8.32411e-47 9.41464e+11 8.26519e-292 -3.89195e-22 -5.36855e-90 -5.88548e+116 -2.60248e-304 -1.2325e-198 5.80884e+300 -6.05276e-158 8.00194e+263 -2.68048e+199 3.30595e+111 nan nan 1.75388e-61 -4.1784e+06 -1.97498e+172 1.18873e+155 -inf
+beta values: -8.54896e-301 1.3339e-248 -1.26477e-203 3.35398e+81 -9.63567e+246 4.46502e-281 -1.31305e+45 -1.37832e+56 -2.1595e-127 1.50867e+113 7.26765e+175 3.31867e+280 5.5487e-44 -1.35794e+243 5.54487e-220 -1.40385e-211 4.46502e-281 -1.5553e+188 -1.24779e+40 -2.57306e-119 1.52005e+60 1.32963e-166 3.40125e-109 1.75315e+194 1.67671e-189 2.38998e+215 -3.56614e+36 2.93443e-264 inf -1.00291e-18 6.16302e-257 4.29383e-233 -1.36859e-50 nan 1.64081e-276 2.88113e+82 1.53346e-69 -9.09163e-30 -2.73638e-258 8.63927e-244 -3.73244e+76 4.76419e-235 5.84426e-18 2.03314e+138 6.26784e-285 -1.41004e+280 -2.19805e-157 -8.37108e-242 4.47151e-170 -3.15062e-66 1.0308e+58 -2.31146e-254 9.50395e+189 inf -1.20416e-285 0
+M values: 4.96813e-06 1.78482e-267 1.55644e-69
+3.05877e+299 3.71278e+215 2.54382e+123
+
+y values: 2.90429e+304 1.95829e+96 4.08621e+08 7.57019e+298 4.25375e+250 7.6848e-263 -3.10343e-210 -2.09494e+28 -5.11696e+177 -1.06125e-16 inf 1.8191e+143 -2.64121e+122 -2.24149e-149 7.50754e-157 -9.72111e-142 -1.49825e+56 nan -1.39235e+256 8.27534e+275 -1.5576e-173 37.3416 nan 3.00393e+182 -1.10729e-49 4.99078e+250 4.98749e-209 7.20297e-212 1.56892e+274 -2.39774e-103 1.87215e-226 7.30234e-270 -3.13441e-248 -inf
+Lambda1 values: 2.06812e+258
+Lambda2 values: -2.35344e+201
+iter values: 3.62255e+221
+tol values: -7.57743e-06
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=2; row extent=2].
+ERROR: Failed: LassoNet_deepstate_test_betanew_lasso_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/LassoNet/inst/testfiles/betanew_lasso_cpp/betanew_lasso_cpp_output/9a63035e066f39d91f91be7f20df95120750abeb.fail failed

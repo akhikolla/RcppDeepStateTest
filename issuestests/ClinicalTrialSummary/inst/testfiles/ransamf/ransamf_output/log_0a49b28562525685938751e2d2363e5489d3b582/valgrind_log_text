@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (ClinicalTrialSummary_deepstate_test_ransamf_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ClinicalTrialSummary/inst/testfiles/ransamf/ransamf_output/0a49b28562525685938751e2d2363e5489d3b582.crash`
+TRACE: Running: ClinicalTrialSummary_deepstate_test_ransamf_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ClinicalTrialSummary/inst/testfiles/ransamf/ransamf_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+repnum values: 2112926950
+n values: 1040257492
+B1inq values: 2.28057e+183 7.58861e+43 nan -1.58523e-76 -1.44618e-137 3.57098e+303 -1.45028e+175 -8.23317e+104 nan -3.70814e+266 1.3318e+157 1.06229e-185 9.17525e+281 -6.85286e-191 2.26514e+214 2.66212e+46 8.6201e-99 7.79196e-292 -inf -5.24117e+118 5.29287e-77 6.36828e-127 0
+xi1d values: -1.56596e+79 1.88946e+40 -4.92487e-210 -7.95638e-267 5.73724e-150 -3.90336e+180 3.42778e+159 -5.88402e+72 6.69463e-283 -inf nan -1.50675e-166 nan 5.1273e-128 -5.44579e-06 -1.82817e-250 7.0045e+198 9.10489e+11 -1.71819e+176 1.17049e+54 -9.62043e-170 -2.20828e-19 -6.90944e+204 -1.0291e-177 -2.07045e-212 8.2083e-98 4.69417e+86 -2.64967e+245 -2.14144e-286 -1.00237e+99 -inf 1.50991e+281 nan 0
+xi2d values: 2.36284e-295 4.01531e+287 6.60538e+41 -2.2946e+27 3.52646e+234 9.59597e+130 3.40016e-108 -7.41157e+281 7.05563e+107 2.88974e-263 1.45868e-62 3.25722e+62 -3.06755e+112 15022.8 -3.7751e+96 -1.80233e+288 -2.81834e+254 3.74469e-173 -7.08261e+27 nan -1.55788e-205 1.23582e+139 1.44416e+122 -4.88163e-232 -5.93643e+119 -1.90429e+51 -inf -1.15287e-61 1.07049e+43 -1.62204e+114 -3.9962e-44 2.06977e+68 -5.00649e-10 -inf 1.45007e-195 -1.42957e-156 -2.44093e-33 5.41736e-49 2.00744e-287 2.94306e-55 4.51329e-113 1.07798e-155 -inf -1.61335e-36 9.90899e+267 422315 2.86994e-129 2.01107e-238 9.94381e+69 -3.94789e+10 -9.4261e+199 -1.7556e+224 1.37665e-18 -6.96546e+76 -8.71668e-264 -1.05482e+276 4.19658e+239 8.58917e+261 1.10841e+267 2.85594e+08 3.42789e+73 1.07236e-266 1.61551e-255 1.08901e-271 -3.16617e+289 -1.46181e-255 -6.06735e+06 -4.008e-189 4.30644e+125 -8.84181e-26 -1.39205e+237 8.54457e+248 1.8854e+304 6.5947e-214 -1.06443e-283 -1.5117e-146 5.352e+158 5.00585e-06 -8.92708e+280 2.94294e-228 -6.68551e-304 -4.203e+299 -3.92451e+170 -5.98741e+282 -1.64881e-261 -7.1353e-282 3.54888e-191 -1.37617e-60 -2.15997e-62 3.52001e+132 1.83875e+123 1.53667e-249 -1.68917e+109 0
+cids1 values: -inf -inf -3.19477e-245 nan -8.46748e-150 0
+cids2 values: inf nan inf nan
+input ends
+ERROR: Crashed: ClinicalTrialSummary_deepstate_test_ransamf_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ClinicalTrialSummary/inst/testfiles/ransamf/ransamf_output/0a49b28562525685938751e2d2363e5489d3b582.crash crashed

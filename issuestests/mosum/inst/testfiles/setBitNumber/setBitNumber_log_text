@@ -1,0 +1,44 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606689213
+WARNING: No test specified, defaulting to first test defined (mosum_deepstate_test_setBitNumber_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -289444389
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -2021987657
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -2084400731
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 802984748
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -2047039841
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -478558456
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -147840713
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -1360954793
+input ends
+INFO: Done fuzzing! Ran 8 tests (4 tests/second) with 0 failed/8 passed/0 abandoned tests

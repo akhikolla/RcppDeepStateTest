@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_KendallNeighbour_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/KendallNeighbour/KendallNeighbour_output/1f1518a018f659aa20f3788c874b14223375b15c.pass`
+TRACE: Running: rankdist_deepstate_test_KendallNeighbour_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/KendallNeighbour/KendallNeighbour_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rank values: -2.15694e-263 3.46743e-273 nan nan 1.42183e-14 inf -1.65901e-189 9.36431e+150 -3.65177e-98 -2.3036e-76 5.27099e-56 9.84422e+160 7.6871e+45 -1.61562e-305 3.50767e+260 -5.53843e-109 inf 7.36168e-292 3.94727e+285 -7.04647e-233 7.81522e-167 8.26257e-160 0
+input ends
+TRACE: Passed: rankdist_deepstate_test_KendallNeighbour_test

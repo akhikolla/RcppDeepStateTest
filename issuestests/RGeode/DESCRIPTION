@@ -1,0 +1,16 @@
+Package: RGeode
+Version: 0.1.0
+Date: 2017-08-24
+Author: Lorenzo Rimella
+Maintainer: Lorenzo Rimella <lorenzo.rimella@hotmail.it>
+Title: Geometric Density Estimation
+Description: Provides the hybrid Bayesian method Geometric Density Estimation. On the one hand, it scales the dimension of our data, on the other it performs inference. The method is fully described in the paper "Scalable Geometric Density Estimation" by Y. Wang, A. Canale, D. Dunson (2016) <http://proceedings.mlr.press/v51/wang16e.pdf>.                   
+License: GPL (>= 2)
+Depends: R (>= 3.0.0), Rcpp (>= 0.12.11), MASS (>= 7.3-47), stats (>=
+        3.4.1)
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Packaged: 2017-09-04 13:37:45 UTC; root
+Repository: CRAN
+Date/Publication: 2017-09-04 13:51:49 UTC

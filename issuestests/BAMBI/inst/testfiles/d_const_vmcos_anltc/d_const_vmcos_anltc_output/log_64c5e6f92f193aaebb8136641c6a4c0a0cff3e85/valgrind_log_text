@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_d_const_vmcos_anltc_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_output/64c5e6f92f193aaebb8136641c6a4c0a0cff3e85.crash`
+TRACE: Running: BAMBI_deepstate_test_d_const_vmcos_anltc_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_anltc/d_const_vmcos_anltc_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 2.19457e+82
+k2 values: 3.21067e+139
+k3 values: 2.46228e+36
+input ends
+TRACE: Passed: BAMBI_deepstate_test_d_const_vmcos_anltc_test

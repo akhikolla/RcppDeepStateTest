@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (TransPhylo_deepstate_test_probSubtree_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probSubtree/probSubtree_output/888261452acb8895d29b05eeb4020bb833b94fe7.crash`
+TRACE: Running: TransPhylo_deepstate_test_probSubtree_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probSubtree/probSubtree_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tab values: 2.23522e+204 5.37932e-186 4.25271e+164 3.15125e-202 1.38695e+267 1.54155e-150 8.04394e-226 3.43371e+95
+5.55868e+175 6.13866e+141 1.77330e-27 1.49479e-193 2.90297e-92 4.23762e-204 7.15657e+139 2.25097e-95
+
+rate values: -4.71161e+149
+input ends
+==1778198==  If you believe this happened as a result of a stack
+==1778198==  overflow in your program's main thread (unlikely but
+==1778198==  possible), you can try to increase the size of the
+==1778198==  main thread stack using the --main-stacksize= flag.
+==1778198==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: TransPhylo_deepstate_test_probSubtree_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probSubtree/probSubtree_output/888261452acb8895d29b05eeb4020bb833b94fe7.crash crashed

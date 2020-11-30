@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_sax_by_chunking_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/sax_by_chunking/sax_by_chunking_output/48878f813ba13fd96f5eb66f48ab25b6d3d53666.fail`
+TRACE: Running: jmotif_deepstate_test_sax_by_chunking_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/sax_by_chunking/sax_by_chunking_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: -3.02255e-233 -4.59908e-20 1.17578e-118 -inf -6.79866e+83 1.16672e+82 -1.55889e+35 4.65097e-52 -2.44763e-40 1.47371e-12 2.09215e-243 6.23035e-76 3.84267e+252 -1.22158e+190 3.94162e+111 -9.48296e+242 nan -inf -1.23724e-186 -6.33373e-139 -4.62976e+160 -5.70936e-277 -5.53515e+234 1.57591e+09 1.78159e+107 -7.75415e-195 -9.95686e-123 2.36325e+244 3.21085e+302 inf 4.74116e-82 1.99442e+262 -1.1749e+187 0
+paa_size values: -1070887042
+a_size values: -1621435398
+n_threshold values: -6.2708e-24
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: jmotif_deepstate_test_sax_by_chunking_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/sax_by_chunking/sax_by_chunking_output/48878f813ba13fd96f5eb66f48ab25b6d3d53666.fail failed

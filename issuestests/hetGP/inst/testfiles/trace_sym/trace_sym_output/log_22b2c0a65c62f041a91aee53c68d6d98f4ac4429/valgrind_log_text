@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_trace_sym_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/trace_sym/trace_sym_output/22b2c0a65c62f041a91aee53c68d6d98f4ac4429.pass`
+TRACE: Running: hetGP_deepstate_test_trace_sym_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/trace_sym/trace_sym_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+A values: 2.28314e-81 4.18478e+254 1.96503e+186 2.84979e+227 5.22006e-248
+
+B values: 4.34683e+173 4.82630e+13 6.94629e-194
+2.21846e-09 2.40243e+288 5.90122e-05
+1.66303e-62 5.92755e-10 6.43011e+21
+5.86107e-29 8.71423e+191 1.53805e+85
+3.88594e+258 3.38926e-109 6.66185e+255
+1.92489e+177 29.1741 5.07683e+83
+2.68224e-276 1.87543e+223 5.01510e+61
+1.59112e+283 1.87800e-171 8.83699e-299
+
+input ends
+TRACE: Passed: hetGP_deepstate_test_trace_sym_test

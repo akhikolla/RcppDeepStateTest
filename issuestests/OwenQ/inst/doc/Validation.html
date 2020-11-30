@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="Stéphane Laurent" />
+
+<meta name="date" content="2020-01-07" />
+
+<title>Is OwenQ reliable?</title>
+
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#header {
+text-align: center;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">Is OwenQ reliable?</h1>
+<h4 class="author">Stéphane Laurent</h4>
+<h4 class="date">2020-01-07</h4>
+
+
+<div id="TOC">
+<ul>
+<li><a href="#purpose"><span class="toc-section-number">1</span> Purpose</a></li>
+<li><a href="#owen-t-function-owent"><span class="toc-section-number">2</span> Owen <span class="math inline">\(T\)</span>-function (<code>OwenT</code>)</a></li>
+<li><a href="#owen-q-functions-comparing-a-couple-of-values"><span class="toc-section-number">3</span> Owen <span class="math inline">\(Q\)</span>-functions: comparing a couple of values</a></li>
+<li><a href="#fourth-owen-cumulative-function-o_4-powen4"><span class="toc-section-number">4</span> Fourth Owen cumulative function <span class="math inline">\(O_4\)</span> (<code>powen4</code>)</a><ul>
+<li><a href="#comparisons-with-sas"><span class="toc-section-number">4.1</span> Comparisons with SAS</a></li>
+<li><a href="#comparison-with-numerical-integration"><span class="toc-section-number">4.2</span> Comparison with numerical integration</a><ul>
+<li><a href="#failures-and-successes-of-powen4"><span class="toc-section-number">4.2.1</span> Failures and successes of <code>powen4</code></a></li>
+<li><a href="#comparisons-for-n_1n_2-leq-1200"><span class="toc-section-number">4.2.2</span> Comparisons for <span class="math inline">\(n_1+n_2 \leq 1200\)</span></a></li>
+</ul></li>
+<li><a href="#conclusion"><span class="toc-section-number">4.3</span> Conclusion</a></li>
+</ul></li>
+<li><a href="#other-owen-cumulative-functions"><span class="toc-section-number">5</span> Other Owen cumulative functions</a></li>
+<li><a href="#first-owen-q-function-q_1-owenq1"><span class="toc-section-number">6</span> First Owen <span class="math inline">\(Q\)</span>-function <span class="math inline">\(Q_1\)</span> (<code>OwenQ1</code>)</a></li>
+<li><a href="#second-owen-q-function-q_2-owenq2"><span class="toc-section-number">7</span> Second Owen <span class="math inline">\(Q\)</span>-function <span class="math inline">\(Q_2\)</span> (<code>OwenQ2</code>)</a></li>
+<li><a href="#student-cumulative-distribution-function-ptowen"><span class="toc-section-number">8</span> Student cumulative distribution function (<code>ptOwen</code>)</a></li>
+<li><a href="#references"><span class="toc-section-number">9</span> References</a></li>
+</ul>
+</div>
+
+<div id="purpose" class="section level1">
+<h1><span class="header-section-number">1</span> Purpose</h1>
+<p>The purpose of this vignette is to assess the correctness of the functions of the <code>OwenQ</code> package.</p>
+<p>As said in the main vignette, the fourth Owen cumulative function <span class="math inline">\(O_4\)</span>, implemented under the name <code>powen4</code> allows to evaluate the power of equivalence tests. This is perhaps the main application of the <code>OwenQ</code> package and we will particularly focus on this situation.</p>
+<p>Our strategy runs as follows:</p>
+<ul>
+<li><p>To test the <code>OwenT</code> function, we will compare some values it returns to those returned by other implementations. Note that the other functions of the <code>OwenQ</code> package rely on <code>OwenT</code> when the number of degrees of freedom is odd. Therefore, by testing these other functions for an odd number of degrees of freedom, we implicitely test the <code>OwenT</code> function.</p></li>
+<li><p>We will compare a couple of values returned by <code>OwenQ1</code> and <code>OwenQ2</code> to the values obtained by numerical integration in Wolfram|Alpha.</p></li>
+<li><p>We will test <code>powen4</code> by performing some power calculations relying on this function and comparing the results with the ones provided by SAS. We will also perform these power calculations with the help of the <code>ipowen4</code> function, which evaluates the <span class="math inline">\(O_4\)</span> function by a powerful numerical integration, and we will compare the results.</p></li>
+<li><p>These power calculations will be performed for <span class="math inline">\(100\)</span> different scenarios, and we will conclude that <code>powen4</code> is reliable for these scenarios. Then, to test the other functions of the <code>OwenQ</code> package, we will check that some mathematical relations hold for these <span class="math inline">\(100\)</span> scenarios.</p></li>
+</ul>
+<p>The folder <code>tests/testthat</code> of the <code>OwenQ</code> package contains many comparisons with Wolfram|Alpha. The results we obtain with <code>OwenQ</code> are always the same as the ones obtained with Wolfram|Alpha up to a tolerance of at least <span class="math inline">\(10\)</span> decimal digits.</p>
+</div>
+<div id="owen-t-function-owent" class="section level1">
+<h1><span class="header-section-number">2</span> Owen <span class="math inline">\(T\)</span>-function (<code>OwenT</code>)</h1>
+<p>The Owen <span class="math inline">\(T\)</span>-function is implemented under the name <code>OwenT</code>. This is a port of the function <code>owens_t</code> of the C++ <code>special_functions</code> library included in the <code>boost</code> set of libraries. Some details about the C++ implementation are <a href="http://www.boost.org/doc/libs/1_61_0/libs/math/doc/html/math_toolkit/owens_t.html">available here</a>.</p>
+<p>The libraries provided by <code>boost</code> are peer-reviewed, and this is enough to trust the reliability of <code>OwenT</code>. Nevertheless, below we compare the results of <code>OwenT</code> to the six values given in Patefield’s article, up to <span class="math inline">\(14\)</span> decimal digits. We have also checked that Wolfram|Alpha gives these values.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1">testData &lt;-<span class="st"> </span><span class="kw">data.frame</span>(</a>
+<a class="sourceLine" id="cb1-2" title="2">  <span class="dt">h =</span> <span class="kw">c</span>(<span class="fl">0.0625</span>, <span class="fl">6.5</span>, <span class="dv">7</span>, <span class="fl">4.78125</span>, <span class="dv">2</span>, <span class="dv">1</span>), </a>
+<a class="sourceLine" id="cb1-3" title="3">  <span class="dt">a =</span> <span class="kw">c</span>(<span class="fl">0.25</span>, <span class="fl">0.4375</span>, <span class="fl">0.96875</span>, <span class="fl">0.0625</span>, <span class="fl">0.5</span>, <span class="fl">0.9999975</span>),</a>
+<a class="sourceLine" id="cb1-4" title="4">  <span class="dt">Patefield =</span> <span class="kw">c</span>(<span class="fl">3.8911930234701e-02</span>, <span class="fl">2.0005773048508e-11</span>, <span class="fl">6.3990627193899e-13</span>, <span class="fl">1.0632974804687e-07</span>, <span class="fl">8.6250779855215e-03</span>, <span class="fl">6.6741808978229e-02</span>),</a>
+<a class="sourceLine" id="cb1-5" title="5">  <span class="dt">OwenT =</span> <span class="kw">numeric</span>(<span class="dv">6</span>)</a>
+<a class="sourceLine" id="cb1-6" title="6">)</a>
+<a class="sourceLine" id="cb1-7" title="7"><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(testData)){</a>
+<a class="sourceLine" id="cb1-8" title="8">  testData<span class="op">$</span>OwenT[i] &lt;-<span class="st"> </span><span class="kw">OwenT</span>(testData<span class="op">$</span>h[i], testData<span class="op">$</span>a[i])</a>
+<a class="sourceLine" id="cb1-9" title="9">}</a>
+<a class="sourceLine" id="cb1-10" title="10"><span class="kw">print</span>(testData, <span class="dt">digits=</span><span class="dv">14</span>)</a>
+<a class="sourceLine" id="cb1-11" title="11"><span class="co">##         h         a           Patefield               OwenT</span></a>
+<a class="sourceLine" id="cb1-12" title="12"><span class="co">## 1 0.06250 0.2500000 3.8911930234701e-02 3.8911930234701e-02</span></a>
+<a class="sourceLine" id="cb1-13" title="13"><span class="co">## 2 6.50000 0.4375000 2.0005773048508e-11 2.0005773048508e-11</span></a>
+<a class="sourceLine" id="cb1-14" title="14"><span class="co">## 3 7.00000 0.9687500 6.3990627193899e-13 6.3990627193899e-13</span></a>
+<a class="sourceLine" id="cb1-15" title="15"><span class="co">## 4 4.78125 0.0625000 1.0632974804687e-07 1.0632974804687e-07</span></a>
+<a class="sourceLine" id="cb1-16" title="16"><span class="co">## 5 2.00000 0.5000000 8.6250779855215e-03 8.6250779855215e-03</span></a>
+<a class="sourceLine" id="cb1-17" title="17"><span class="co">## 6 1.00000 0.9999975 6.6741808978229e-02 6.6741808978229e-02</span></a></code></pre></div>
+<p>We get the same results with <code>OwenT</code>.</p>
+</div>
+<div id="owen-q-functions-comparing-a-couple-of-values" class="section level1">
+<h1><span class="header-section-number">3</span> Owen <span class="math inline">\(Q\)</span>-functions: comparing a couple of values</h1>
+<p>The two Owen <span class="math inline">\(Q\)</span>-functions <span class="math inline">\(Q_1\)</span> and <span class="math inline">\(Q_2\)</span> are defined by: <span class="math display">\[
+Q_1(\nu, t, \delta, R) = 
+\frac{1}{\Gamma\left(\frac{\nu}{2}\right)2^{\frac12(\nu-2)}}
+\int_0^R \Phi\left(\frac{tx}{\sqrt{\nu}}-\delta\right)
+x^{\nu-1} e^{-\frac{x^2}{2}} \mathrm{d}x
+\]</span> and <span class="math display">\[
+Q_2(\nu, t, \delta, R) = 
+\frac{1}{\Gamma\left(\frac{\nu}{2}\right)2^{\frac12(\nu-2)}}
+\int_R^\infty \Phi\left(\frac{tx}{\sqrt{\nu}}-\delta\right)
+x^{\nu-1} e^{-\frac{x^2}{2}} \mathrm{d}x.
+\]</span></p>
+<p>They are implemented in the <code>OwenQ</code> package under the respective names <code>OwenQ1</code> and <code>OwenQ2</code>, for integer values of <span class="math inline">\(\nu\)</span>, following Owen’s algorithm (1965).</p>
+<p>In Wolfram|Alpha, these functions are not available, but we can evaluate them by numerical integration.</p>
+<p>Below we compare two values of <code>OwenQ1</code> to the ones returned by Wolfram|Alpha.</p>
+<ul>
+<li><span class="math inline">\(\nu=3\)</span>, <span class="math inline">\(t=3\)</span>, <span class="math inline">\(\delta=2\)</span>, <span class="math inline">\(R=5\)</span> (<a href="http://www.wolframalpha.com/input/?i=NIntegrate%5B(1%2BErf%5B(3*x%2FSqrt%5B3%5D-2)%2FSqrt%5B2%5D%5D)*x%5E(3-1)*Exp%5B-x%5E2%2F2%5D,%7Bx,0,5%7D%5D%2F2%2FGamma%5B3%2F2%5D%2F2%5E((3-2)%2F2)">link to Wolfram</a>)</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co"># wolfram: Integrate[(1+Erf[(3*x/Sqrt[3]-2)/Sqrt[2]])*x^(3-1)*Exp[-x^2/2],{x,0,5}]/2/Gamma[3/2]/2^((3-2)/2)</span></a>
+<a class="sourceLine" id="cb2-2" title="2"><span class="kw">OwenQ1</span>(<span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">5</span>)</a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="co">## [1] 0.6800117</span></a></code></pre></div>
+<p><img src="data:image/png;base64,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" /></p>
+<p>Our value rounded to <span class="math inline">\(6\)</span> digits is the same as the one given by Wolfram.</p>
+<ul>
+<li><span class="math inline">\(\nu=1000\)</span>, <span class="math inline">\(t=3\)</span>, <span class="math inline">\(\delta=2\)</span>, <span class="math inline">\(R=30\)</span> (<a href="http://www.wolframalpha.com/input/?i=NIntegrate%5B(1%2BErf%5B(3*x%2FSqrt%5B1000%5D-2)%2FSqrt%5B2%5D%5D)*x%5E(1000-1)*Exp%5B-x%5E2%2F2%5D,%7Bx,0,30%7D%5D%2F2%2FGamma%5B1000%2F2%5D%2F2%5E((1000-2)%2F2)">link to Wolfram</a>)</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="co"># wolfram: Integrate[(1+Erf[(3*x/Sqrt[1000]-2)/Sqrt[2]])*x^(1000-1)*Exp[-x^2/2],{x,0,30}]/2/Gamma[1000/2]/2^((1000-2)/2)</span></a>
+<a class="sourceLine" id="cb3-2" title="2"><span class="kw">print</span>(<span class="kw">OwenQ1</span>(<span class="dv">1000</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">30</span>), <span class="dt">digits=</span><span class="dv">16</span>)</a>
+<a class="sourceLine" id="cb3-3" title="3"><span class="co">## [1] 0.008518809463589428</span></a></code></pre></div>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnQAAAEGCAYAAADsawiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAC0ySURBVHhe7d0JlBXlnf9/TjKjR2MM+ItnjIP+k0lOMkaJif6UKG4Eo8GISZzJmGgcF4hRs6BRx8nPCQYwjElcMJFdZZFFCIuyyb7KbgOCgLLI2siO7Es3fP98nlvVVFfX3Xq5t4p+v86pc+t5qu6ture7uR+epaqBAQAAINEIdAAAAAlHoAMAAEg4Ah0AAEDCEegAAAASrtqB7t01m2zy0lVeCQAAAMVS7UA38t3l9uqU+V6pdu3af9BeHjfLPtq606sBAABAOrUS6Lbv3W8flG6zTTv32KwP19nqLTvsuNtirv7j3Xtt6YaPbf7qDbbnwCFXv+fgYXt/4xYrO3bMlfUaS9Z/7MLclPdXW4ehk9wxVF9Wfsz2HTri9gMAAEBltRLoFNR+P3i8dRk/20aVLHdhbOaKtW6b9lF52Lyl9sqJ9WeGT7bNu/bays3breuEOXbgyFG3n16j89iZtnbbLusz7V1rN2SCdTuxXeFQ3bt/HjmtIgwCAADgpFoLdApfakkTbVMoE+0zfflHbl2tdq/PWOi2pwt0Ku/Yd8D+/NY0tw8AAAAyq7VA569LcJsetd2ncKc6Ah0AAEDtKHigG7NwhWu9I9ABAADUjoIEurcWLHPdrZrYoNCm8XUaG/eXkdPdpAdtG7vog7SBjkkRAAAA6RUk0L009h374/DJbqJDz0nzXDhTSOs3vcTVadLEc6Om21/fnuUCnWa+atvTJ7YtWlvKpAgAAIAMqh3ocqVAp8B37PhxO3y0zKs96Wh5ecVkirAjZeXeGgAAANIpWKADAABA3ajzQKcLC2ucHAAAAOpGnQc6AAAA1C0CHQAAQMIR6AAAABKOQAcAAJBwBDoAAICEI9ABAAAkHIEOAAAg4Qh0AAAACUegAwAASDgCHQAAQMIR6BAbH3/8sd144402ffp0GzVqlLVq1crbAgAAMiHQIVZmzJhh999/vw0ZMsTKysq8WgAAkAmBDrFSXl5un//85+3QoUNeDQAAyIZAhyqOHTtmv/vd7+zRRx+15s2bW8+ePb0tdW/ChAl211132cKFC72auqP32b59e3viiSesZcuWNnLkSG8LAADJQqCLmePHj1u/fv1s7969Xk1hBI+7bds2u/POO139mjVrrFGjRm599+7dtnPnTrcues5HH33klWquTZs2buzcrFmz7LbbbrP169d7W+rGsmXLrGnTpm593rx5dsEFF7j1oFdffdUOHDjglaqWAQCIAwJdzDz33HO1GpJyFXVcBbaBAwe6MW2i7tApU6ZUhE0Fry1btrj1JFILXWlpqVtXiD3vvPPcepDC2+OPP+6VqpYBAIgDAl2MaJbnQw895JUKJ91xO3bsaNdcc40tXrzYqzE7evSoTZo0yWbPnm0bN270alPatm0bq6Vv377uvA4ePOjONbgowAU9++yz9vzzz3ulyl588UWbPHmyV6paBgCg2Ah0MaJWshEjRnilwsl03A8++MAuuugir5Si8W2jR4924S4JlixZYk899VSlpXv37t5Wc62QCq9qkYyybt06N67PFy4DAFBsBLoYufXWW23t2rVeqXDCx121alVF69aiRYvsi1/8oluXDz/80I0927dvn+t+VTdsUinAqVWuT58+rlxSUuIeo3z961/31lLCZQAAiolAFyP/8i//UpRWr/BxNUbunnvusQ4dOriWKF3oVzQhIjj7VJMkFixY4JWSR6G1YcOGdvnll7vlwgsv9LZUdckll9gnn3zilaqWAQAoJgJdjOj6a8VQrOMmSbNmzVzrpC9cRv64bAwA1B4CXYyotagY6vq49913X+Skhbpa6uK6ed/5zncqtU6Gy8hfLpeNAQDkhkAXI5/73Oe8tcKqy+NqhumpcJmPFi1aVOpeDpeRv1wuGwMAyA2BLkZOxUCn2bBjx471SslFoEsveFHq6sp02Rgu5gwA2RU10M2cOdPdXsq/E0F9olmll112mU2dOtXNGJVTMdA99thjp8R9WQl06dX0YtjZLhuTlIs5qwu5W7dudscdd3g1AFA4RQ106o7TP+INGtS/hkIFuvA//KdCoNMFh8vKyryS2S9/+Utv7aR0QX779u3u9l+aXavHHTt2VKu+LlQn0BXrfRbyP0o1uRh2PpeNScrFnKP+rgGgEGKRpAh0KUkPdEOHDrUrr7yy4hp277//vmuxCEsX5B944AEbNmyYW9dr+UEh3/q6UJ1AV6z3Wcj/KOV6MWwFvxtvvNFdAkf3623VqlVel41JysWcCXQAioVAVySnagudbgumi+4qUPzpT3+y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" /></p>
+<p>The two values are the same up to <span class="math inline">\(13\)</span> digits.</p>
+<p><br /></p>
+<p>Now we compare two values of <code>OwenQ2</code> to the ones returned by Wolfram|Alpha.</p>
+<ul>
+<li><span class="math inline">\(\nu=3\)</span>, <span class="math inline">\(t=3\)</span>, <span class="math inline">\(\delta=2\)</span>, <span class="math inline">\(R=5\)</span> (<a href="http://www.wolframalpha.com/input/?i=NIntegrate%5B(1%2BErf%5B(3*x%2FSqrt%5B3%5D-2)%2FSqrt%5B2%5D%5D)*x%5E(3-1)*Exp%5B-x%5E2%2F2%5D,%7Bx,5,Infinity%7D%5D%2F2%2FGamma%5B3%2F2%5D%2F2%5E((3-2)%2F2)">link to Wolfram</a>)</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="co"># wolfram: Integrate[(1+Erf[(3*x/Sqrt[3]-2)/Sqrt[2]])*x^(3-1)*Exp[-x^2/2],{x,5,Infinity}]/2/Gamma[3/2]/2^((3-2)/2)</span></a>
+<a class="sourceLine" id="cb4-2" title="2"><span class="kw">OwenQ2</span>(<span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">5</span>)</a>
+<a class="sourceLine" id="cb4-3" title="3"><span class="co">## [1] 1.54405e-05</span></a></code></pre></div>
+<p><img src="data:image/png;base64,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" /></p>
+<p>The two values are identical.</p>
+<ul>
+<li><span class="math inline">\(\nu=1000\)</span>, <span class="math inline">\(t=3\)</span>, <span class="math inline">\(\delta=2\)</span>, <span class="math inline">\(R=5\)</span> (<a href="http://www.wolframalpha.com/input/?i=NIntegrate%5B(1%2BErf%5B(3*x%2FSqrt%5B1000%5D-2)%2FSqrt%5B2%5D%5D)*x%5E(1000-1)*Exp%5B-x%5E2%2F2%5D,%7Bx,5,Infinity%7D%5D%2F2%2FGamma%5B1000%2F2%5D%2F2%5E((1000-2)%2F2)">link To Wolfram</a>)</li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1"><span class="co"># wolfram: Integrate[(1+Erf[(3*x/Sqrt[1000]-2)/Sqrt[2]])*x^(1000-1)*Exp[-x^2/2],{x,5,Infinity}]/2/Gamma[1000/2]/2^((1000-2)/2)</span></a>
+<a class="sourceLine" id="cb5-2" title="2"><span class="kw">print</span>(<span class="kw">OwenQ2</span>(<span class="dv">1000</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">5</span>), <span class="dt">digits=</span><span class="dv">16</span>)</a>
+<a class="sourceLine" id="cb5-3" title="3"><span class="co">## [1] 0.8406201459600969</span></a></code></pre></div>
+<p><img src="data:image/png;base64,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" /></p>
+<p>The two values are identical up to <span class="math inline">\(13\)</span> digits.</p>
+</div>
+<div id="fourth-owen-cumulative-function-o_4-powen4" class="section level1">
+<h1><span class="header-section-number">4</span> Fourth Owen cumulative function <span class="math inline">\(O_4\)</span> (<code>powen4</code>)</h1>
+<p>As seen in the other vignette, the fourth Owen cumulative function <span class="math inline">\(O_4\)</span>, implemented under the name <code>powen4</code>, can be used to evaluate the power of equivalence tests.</p>
+<p>The <code>powerTOST</code> function below returns the power of the equivalence test for a so-called parallel design with equal variances, when considering the alternative hypothesis <span class="math inline">\(H_1\colon\{-\Delta &lt; \delta_0 &lt; \Delta \}\)</span>, where <span class="math inline">\(\delta_0\)</span> denotes the difference between the two means. This function takes as arguments the significance level <span class="math inline">\(\alpha\)</span>, the difference <span class="math inline">\(\delta_0\)</span> between the two means, the threshold <span class="math inline">\(\Delta\)</span>, the common standard deviation <span class="math inline">\(\sigma\)</span> of the two samples, and the two sample sizes <span class="math inline">\(n_1\)</span> and <span class="math inline">\(n_2\)</span>.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1">powerTOST &lt;-<span class="st"> </span><span class="cf">function</span>(alpha, delta0, Delta, sigma, n1, n2, <span class="dt">algo=</span><span class="dv">2</span>) {</a>
+<a class="sourceLine" id="cb6-2" title="2">  se &lt;-<span class="st"> </span><span class="kw">sqrt</span>(<span class="dv">1</span><span class="op">/</span>n1 <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">/</span>n2) <span class="op">*</span><span class="st"> </span>sigma</a>
+<a class="sourceLine" id="cb6-3" title="3">  delta1 &lt;-<span class="st"> </span>(delta0 <span class="op">+</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb6-4" title="4">  delta2 &lt;-<span class="st"> </span>(delta0 <span class="op">-</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb6-5" title="5">  dof &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2 <span class="op">-</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb6-6" title="6">  q &lt;-<span class="st"> </span><span class="kw">qt</span>(<span class="dv">1</span> <span class="op">-</span><span class="st"> </span>alpha, dof)</a>
+<a class="sourceLine" id="cb6-7" title="7">  <span class="kw">powen4</span>(dof, q, <span class="op">-</span>q, delta1, delta2, <span class="dt">algo=</span>algo)</a>
+<a class="sourceLine" id="cb6-8" title="8">}</a></code></pre></div>
+<p>As you can see, the <code>powen4</code> function has an argument <code>algo</code>. This is also the case for the other Owen functions, except for <code>ptOwen</code>. The <code>algo</code> argument can take two values, <code>1</code> or <code>2</code>. Th default value is <code>algo=2</code>, and as we will see later, the evaluation is more reliable with this option. The value of <code>algo</code> corresponds to a small difference in the algorithm. With <code>algo=1</code>, the evaluation is a bit faster. And we will see that <code>powerTOST</code><br />
+is reliable for <code>algo=1</code> when the value of <code>n1+n2</code> is not too large.</p>
+<div id="comparisons-with-sas" class="section level2">
+<h2><span class="header-section-number">4.1</span> Comparisons with SAS</h2>
+<p>The table shown below contains <span class="math inline">\(100\)</span> results of power calculations with SAS version 9.4, for a total sample size <span class="math inline">\(n_1+n_2\)</span> going from <span class="math inline">\(20\)</span> to <span class="math inline">\(1200\)</span>. The results are rounded to <span class="math inline">\(5\)</span> decimal digits.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">alpha</th>
+<th align="right">delta0</th>
+<th align="right">Delta</th>
+<th align="right">sigma</th>
+<th align="right">n1</th>
+<th align="right">n2</th>
+<th align="right">powerSAS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="right">0.39094</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td align="right">0.69541</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">0.85580</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">0.93426</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.97092</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="right">0.38272</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td align="right">0.67836</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">0.83661</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">0.91781</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.95889</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="right">0.35908</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td align="right">0.62954</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">0.78069</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">0.86796</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.92017</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="right">0.32287</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td align="right">0.55540</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">0.69322</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">0.78471</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.84909</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="right">0.27820</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td align="right">0.46531</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">0.58306</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">0.67174</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.74260</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">10</td>
+<td align="right">0.22970</td>
+</tr>
+<tr class="odd">
+<td>27</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td align="right">0.36967</td>
+</tr>
+<tr class="even">
+<td>28</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">0.46208</td>
+</tr>
+<tr class="odd">
+<td>29</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">25</td>
+<td align="right">0.53883</td>
+</tr>
+<tr class="even">
+<td>30</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.60600</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">30</td>
+<td align="right">0.70373</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">30</td>
+<td align="right">0.85764</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">30</td>
+<td align="right">0.92324</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">0.95452</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.97092</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">30</td>
+<td align="right">0.68648</td>
+</tr>
+<tr class="odd">
+<td>37</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">30</td>
+<td align="right">0.83846</td>
+</tr>
+<tr class="even">
+<td>38</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">30</td>
+<td align="right">0.90604</td>
+</tr>
+<tr class="odd">
+<td>39</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">0.94003</td>
+</tr>
+<tr class="even">
+<td>40</td>
+<td align="right">0.05</td>
+<td align="right">0.1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.95889</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">30</td>
+<td align="right">0.63703</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">30</td>
+<td align="right">0.78255</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">30</td>
+<td align="right">0.85439</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">0.89501</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td align="right">0.05</td>
+<td align="right">0.2</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.92017</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">30</td>
+<td align="right">0.56192</td>
+</tr>
+<tr class="odd">
+<td>47</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">30</td>
+<td align="right">0.69503</td>
+</tr>
+<tr class="even">
+<td>48</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">30</td>
+<td align="right">0.76944</td>
+</tr>
+<tr class="odd">
+<td>49</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">0.81676</td>
+</tr>
+<tr class="even">
+<td>50</td>
+<td align="right">0.05</td>
+<td align="right">0.3</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.84909</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">30</td>
+<td align="right">0.47061</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">30</td>
+<td align="right">0.58470</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">30</td>
+<td align="right">0.65610</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">0.70594</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td align="right">0.05</td>
+<td align="right">0.4</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.74260</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">30</td>
+<td align="right">0.37365</td>
+</tr>
+<tr class="odd">
+<td>57</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">30</td>
+<td align="right">0.46343</td>
+</tr>
+<tr class="even">
+<td>58</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">30</td>
+<td align="right">0.52475</td>
+</tr>
+<tr class="odd">
+<td>59</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">30</td>
+<td align="right">0.57052</td>
+</tr>
+<tr class="even">
+<td>60</td>
+<td align="right">0.05</td>
+<td align="right">0.5</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">30</td>
+<td align="right">0.60600</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">50</td>
+<td align="right">50</td>
+<td align="right">0.96239</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td align="right">0.05</td>
+<td align="right">1.0</td>
+<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">50</td>
+<td align="right">50</td>
+<td align="right">0.79849</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td align="right">0.05</td>
+<td align="right">2.0</td>
+<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">50</td>
+<td align="right">50</td>
+<td align="right">0.34329</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td align="right">0.05</td>
+<td align="right">2.5</td>
+<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">50</td>
+<td align="right">50</td>
+<td align="right">0.15288</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">90</td>
+<td align="right">0.81791</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td align="right">0.05</td>
+<td align="right">1.0</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">90</td>
+<td align="right">0.70346</td>
+</tr>
+<tr class="odd">
+<td>67</td>
+<td align="right">0.05</td>
+<td align="right">2.0</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">90</td>
+<td align="right">0.43595</td>
+</tr>
+<tr class="even">
+<td>68</td>
+<td align="right">0.05</td>
+<td align="right">2.5</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">90</td>
+<td align="right">0.29819</td>
+</tr>
+<tr class="odd">
+<td>69</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.98278</td>
+</tr>
+<tr class="even">
+<td>70</td>
+<td align="right">0.05</td>
+<td align="right">1.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.91512</td>
+</tr>
+<tr class="odd">
+<td>71</td>
+<td align="right">0.05</td>
+<td align="right">2.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.64376</td>
+</tr>
+<tr class="even">
+<td>72</td>
+<td align="right">0.05</td>
+<td align="right">3.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.26169</td>
+</tr>
+<tr class="odd">
+<td>73</td>
+<td align="right">0.01</td>
+<td align="right">0.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.90831</td>
+</tr>
+<tr class="even">
+<td>74</td>
+<td align="right">0.01</td>
+<td align="right">1.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.74924</td>
+</tr>
+<tr class="odd">
+<td>75</td>
+<td align="right">0.01</td>
+<td align="right">2.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.37443</td>
+</tr>
+<tr class="even">
+<td>76</td>
+<td align="right">0.01</td>
+<td align="right">3.0</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">100</td>
+<td align="right">100</td>
+<td align="right">0.09290</td>
+</tr>
+<tr class="odd">
+<td>77</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">185</td>
+<td align="right">10</td>
+<td align="right">0.84568</td>
+</tr>
+<tr class="even">
+<td>78</td>
+<td align="right">0.05</td>
+<td align="right">1.0</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">185</td>
+<td align="right">10</td>
+<td align="right">0.73025</td>
+</tr>
+<tr class="odd">
+<td>79</td>
+<td align="right">0.05</td>
+<td align="right">2.0</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">185</td>
+<td align="right">10</td>
+<td align="right">0.45459</td>
+</tr>
+<tr class="even">
+<td>80</td>
+<td align="right">0.05</td>
+<td align="right">3.0</td>
+<td align="right">4</td>
+<td align="right">4</td>
+<td align="right">185</td>
+<td align="right">10</td>
+<td align="right">0.19001</td>
+</tr>
+<tr class="odd">
+<td>81</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">4</td>
+<td align="right">8</td>
+<td align="right">185</td>
+<td align="right">100</td>
+<td align="right">0.98240</td>
+</tr>
+<tr class="even">
+<td>82</td>
+<td align="right">0.05</td>
+<td align="right">1.0</td>
+<td align="right">4</td>
+<td align="right">8</td>
+<td align="right">185</td>
+<td align="right">100</td>
+<td align="right">0.91417</td>
+</tr>
+<tr class="odd">
+<td>83</td>
+<td align="right">0.05</td>
+<td align="right">2.0</td>
+<td align="right">4</td>
+<td align="right">8</td>
+<td align="right">185</td>
+<td align="right">100</td>
+<td align="right">0.64226</td>
+</tr>
+<tr class="even">
+<td>84</td>
+<td align="right">0.05</td>
+<td align="right">3.0</td>
+<td align="right">4</td>
+<td align="right">8</td>
+<td align="right">185</td>
+<td align="right">100</td>
+<td align="right">0.26103</td>
+</tr>
+<tr class="odd">
+<td>85</td>
+<td align="right">0.01</td>
+<td align="right">0.0</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">250</td>
+<td align="right">250</td>
+<td align="right">0.96713</td>
+</tr>
+<tr class="even">
+<td>86</td>
+<td align="right">0.01</td>
+<td align="right">1.0</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">250</td>
+<td align="right">250</td>
+<td align="right">0.84523</td>
+</tr>
+<tr class="odd">
+<td>87</td>
+<td align="right">0.01</td>
+<td align="right">2.0</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">250</td>
+<td align="right">250</td>
+<td align="right">0.46161</td>
+</tr>
+<tr class="even">
+<td>88</td>
+<td align="right">0.01</td>
+<td align="right">3.0</td>
+<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">250</td>
+<td align="right">250</td>
+<td align="right">0.11288</td>
+</tr>
+<tr class="odd">
+<td>89</td>
+<td align="right">0.01</td>
+<td align="right">0.0</td>
+<td align="right">4</td>
+<td align="right">14</td>
+<td align="right">500</td>
+<td align="right">500</td>
+<td align="right">0.97112</td>
+</tr>
+<tr class="even">
+<td>90</td>
+<td align="right">0.01</td>
+<td align="right">1.0</td>
+<td align="right">4</td>
+<td align="right">14</td>
+<td align="right">500</td>
+<td align="right">500</td>
+<td align="right">0.85433</td>
+</tr>
+<tr class="odd">
+<td>91</td>
+<td align="right">0.01</td>
+<td align="right">2.0</td>
+<td align="right">4</td>
+<td align="right">14</td>
+<td align="right">500</td>
+<td align="right">500</td>
+<td align="right">0.47184</td>
+</tr>
+<tr class="even">
+<td>92</td>
+<td align="right">0.01</td>
+<td align="right">3.0</td>
+<td align="right">4</td>
+<td align="right">14</td>
+<td align="right">500</td>
+<td align="right">500</td>
+<td align="right">0.11536</td>
+</tr>
+<tr class="odd">
+<td>93</td>
+<td align="right">0.01</td>
+<td align="right">0.0</td>
+<td align="right">5</td>
+<td align="right">35</td>
+<td align="right">600</td>
+<td align="right">600</td>
+<td align="right">0.11547</td>
+</tr>
+<tr class="even">
+<td>94</td>
+<td align="right">0.01</td>
+<td align="right">4.0</td>
+<td align="right">5</td>
+<td align="right">35</td>
+<td align="right">600</td>
+<td align="right">600</td>
+<td align="right">0.01658</td>
+</tr>
+<tr class="odd">
+<td>95</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">5</td>
+<td align="right">30</td>
+<td align="right">600</td>
+<td align="right">600</td>
+<td align="right">0.78512</td>
+</tr>
+<tr class="even">
+<td>96</td>
+<td align="right">0.05</td>
+<td align="right">4.0</td>
+<td align="right">5</td>
+<td align="right">50</td>
+<td align="right">600</td>
+<td align="right">600</td>
+<td align="right">0.02642</td>
+</tr>
+<tr class="odd">
+<td>97</td>
+<td align="right">0.01</td>
+<td align="right">0.0</td>
+<td align="right">5</td>
+<td align="right">6</td>
+<td align="right">1190</td>
+<td align="right">10</td>
+<td align="right">0.23194</td>
+</tr>
+<tr class="even">
+<td>98</td>
+<td align="right">0.01</td>
+<td align="right">4.0</td>
+<td align="right">5</td>
+<td align="right">6</td>
+<td align="right">1190</td>
+<td align="right">10</td>
+<td align="right">0.02739</td>
+</tr>
+<tr class="odd">
+<td>99</td>
+<td align="right">0.05</td>
+<td align="right">0.0</td>
+<td align="right">5</td>
+<td align="right">9</td>
+<td align="right">1190</td>
+<td align="right">10</td>
+<td align="right">0.08256</td>
+</tr>
+<tr class="even">
+<td>100</td>
+<td align="right">0.05</td>
+<td align="right">4.0</td>
+<td align="right">5</td>
+<td align="right">9</td>
+<td align="right">1190</td>
+<td align="right">10</td>
+<td align="right">0.03115</td>
+</tr>
+</tbody>
+</table>
+<p>This table is stored in a dataframe named <code>SAS</code>. We compare the SAS values to the ones obtained by our <code>powerTOST</code> function.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1">power &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb7-2" title="2"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb7-3" title="3">  power[i] &lt;-</a>
+<a class="sourceLine" id="cb7-4" title="4"><span class="st">    </span><span class="kw">powerTOST</span>(</a>
+<a class="sourceLine" id="cb7-5" title="5">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb7-6" title="6">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb7-7" title="7">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb7-8" title="8">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb7-9" title="9">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb7-10" title="10">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i]</a>
+<a class="sourceLine" id="cb7-11" title="11">    )</a>
+<a class="sourceLine" id="cb7-12" title="12">}</a></code></pre></div>
+<p>Rounding our values to <span class="math inline">\(5\)</span> decimal digits, we find that our results are identical to the SAS results:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1"><span class="kw">identical</span>(<span class="kw">round</span>(power,<span class="dv">5</span>), SAS<span class="op">$</span>powerSAS)</a>
+<a class="sourceLine" id="cb8-2" title="2"><span class="co">## [1] TRUE</span></a></code></pre></div>
+<p>With the option <code>algo=1</code>, the results are identical as well:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1">power &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb9-2" title="2"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb9-3" title="3">  power[i] &lt;-</a>
+<a class="sourceLine" id="cb9-4" title="4"><span class="st">    </span><span class="kw">powerTOST</span>(</a>
+<a class="sourceLine" id="cb9-5" title="5">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb9-6" title="6">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb9-7" title="7">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb9-8" title="8">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb9-9" title="9">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb9-10" title="10">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i],</a>
+<a class="sourceLine" id="cb9-11" title="11">      <span class="dt">algo =</span> <span class="dv">1</span></a>
+<a class="sourceLine" id="cb9-12" title="12">    )</a>
+<a class="sourceLine" id="cb9-13" title="13">}</a>
+<a class="sourceLine" id="cb9-14" title="14"><span class="kw">identical</span>(<span class="kw">round</span>(power,<span class="dv">5</span>), SAS<span class="op">$</span>powerSAS)</a>
+<a class="sourceLine" id="cb9-15" title="15"><span class="co">## [1] TRUE</span></a></code></pre></div>
+<!-- In the next section, we will see that we get the same results as the ones of `powen4` with another, totally different implementation of $O_4$. -->
+</div>
+<div id="comparison-with-numerical-integration" class="section level2">
+<h2><span class="header-section-number">4.2</span> Comparison with numerical integration</h2>
+<p>The <code>ipowen4</code> internal function of the <code>OwenQ</code> package evaluates the fourth Owen cumulative function <span class="math inline">\(O_4\)</span> by a powerful numerical integration implemented in C++ (with the package <code>RcppNumerical</code>). Thus we have two completely different implementations of <span class="math inline">\(O_4\)</span>. The <code>ipowerTOST</code> function below is obtained by replacing <code>powen4</code> with <code>ipowen4</code> in <code>powerTOST</code>. We will compare the results of <code>powerTOST</code> with the ones of <code>ipowerTOST</code>.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" title="1">ipowerTOST &lt;-<span class="st"> </span><span class="cf">function</span>(alpha, delta0, Delta, sigma, n1, n2) {</a>
+<a class="sourceLine" id="cb10-2" title="2">  se &lt;-<span class="st"> </span><span class="kw">sqrt</span>(<span class="dv">1</span><span class="op">/</span>n1 <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">/</span>n2) <span class="op">*</span><span class="st"> </span>sigma</a>
+<a class="sourceLine" id="cb10-3" title="3">  delta1 &lt;-<span class="st"> </span>(delta0 <span class="op">+</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb10-4" title="4">  delta2 &lt;-<span class="st"> </span>(delta0 <span class="op">-</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb10-5" title="5">  dof &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2 <span class="op">-</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb10-6" title="6">  q &lt;-<span class="st"> </span><span class="kw">qt</span>(<span class="dv">1</span> <span class="op">-</span><span class="st"> </span>alpha, dof)</a>
+<a class="sourceLine" id="cb10-7" title="7">  OwenQ<span class="op">:::</span><span class="kw">ipowen4</span>(dof, q, <span class="op">-</span>q, delta1, delta2)</a>
+<a class="sourceLine" id="cb10-8" title="8">}</a></code></pre></div>
+<div id="failures-and-successes-of-powen4" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Failures and successes of <code>powen4</code></h3>
+<ul>
+<li>For <span class="math inline">\(n_1=n_2=1000\)</span>, <span class="math inline">\(\alpha=0.05\)</span>, <span class="math inline">\(\delta=0\)</span>, <span class="math inline">\(\Delta=5\)</span>, the <code>powen4</code> function with the option <code>algo=1</code> abnormally takes some negative values:</li>
+</ul>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p>Note that the discrepancy between <code>powen4</code> and <code>ipowen4</code> occurs only for <span class="math inline">\(\sigma &gt; 65\)</span>.</p>
+<ul>
+<li>For <span class="math inline">\(n_1=n_2=720\)</span>, <span class="math inline">\(\alpha=0.05\)</span>, <span class="math inline">\(\delta=0\)</span>, <span class="math inline">\(\Delta=5\)</span>, we observe a discrepancy between <code>powen4</code> with the option <code>algo=1</code> and <code>ipowen4</code>:</li>
+</ul>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p>There is no discrepancy between <code>powen4</code> with the option <code>algo=2</code> and <code>ipowen4</code>. The irregularity of <code>powen4</code> with the option <code>algo=1</code> suggests that it returns wrong values.</p>
+<ul>
+<li>For <span class="math inline">\(n_1=n_2=700\)</span>, <span class="math inline">\(\alpha=0.01\)</span>, <span class="math inline">\(\delta=0\)</span>, <span class="math inline">\(\Delta=5\)</span>, we still observe a small discrepancy between <code>powen4</code> with the option <code>algo=1</code> and <code>ipowen4</code>, and we still observe an irregularity of <code>powen4</code> (on the second figure below):</li>
+</ul>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p>With the option <code>algo=2</code>, the results of <code>powen4</code> coincide with the ones of <code>ipowen4</code>.</p>
+<ul>
+<li>For <span class="math inline">\(n_1 = n_2 = 600\)</span>, <span class="math inline">\(\alpha=0.005\)</span>, <span class="math inline">\(\delta=0\)</span>, <span class="math inline">\(\Delta=5\)</span>, we do not observe any discrepancy between <code>powen4</code> and <code>ipowen4</code>:</li>
+</ul>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<p>We conclude that <code>powen4</code> with the option <code>algo=1</code> is not reliable when the number of degrees of freedom is too large. As said before, the interest of the option <code>algo=1</code> is that the evaluation is faster.</p>
+<p>For <span class="math inline">\(n_1=n_2=2500\)</span>, the results of <code>powerTOST</code> with <code>algo=2</code> still coincide with the result of <code>ipowerTOST</code>:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" title="1">alpha &lt;-<span class="st"> </span><span class="fl">0.05</span>; delta0 &lt;-<span class="st"> </span><span class="dv">0</span>; Delta &lt;-<span class="st"> </span><span class="dv">5</span></a>
+<a class="sourceLine" id="cb11-2" title="2">sigma &lt;-<span class="st"> </span><span class="dv">110</span></a>
+<a class="sourceLine" id="cb11-3" title="3">n1 &lt;-<span class="st"> </span>n2 &lt;-<span class="st"> </span><span class="dv">2500</span></a>
+<a class="sourceLine" id="cb11-4" title="4"><span class="kw">powerTOST</span>(alpha, delta0, Delta, sigma, n1, n2)</a>
+<a class="sourceLine" id="cb11-5" title="5"><span class="co">## [1] 4.523596e-05</span></a>
+<a class="sourceLine" id="cb11-6" title="6"><span class="kw">ipowerTOST</span>(alpha, delta0, Delta, sigma, n1, n2)</a>
+<a class="sourceLine" id="cb11-7" title="7"><span class="co">## [1] 4.523596e-05</span></a>
+<a class="sourceLine" id="cb11-8" title="8"><span class="co">## attr(,&quot;err_est&quot;)</span></a>
+<a class="sourceLine" id="cb11-9" title="9"><span class="co">## [1] 5.022201e-19</span></a>
+<a class="sourceLine" id="cb11-10" title="10"><span class="co">## attr(,&quot;err_code&quot;)</span></a>
+<a class="sourceLine" id="cb11-11" title="11"><span class="co">## [1] 0</span></a></code></pre></div>
+<p>And even for <span class="math inline">\(n_1=n_2=5000\)</span>:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" title="1">sigma &lt;-<span class="st"> </span><span class="dv">152</span></a>
+<a class="sourceLine" id="cb12-2" title="2">n1 &lt;-<span class="st"> </span>n2 &lt;-<span class="st"> </span><span class="dv">5000</span></a>
+<a class="sourceLine" id="cb12-3" title="3"><span class="kw">powerTOST</span>(alpha, delta0, Delta, sigma, n1, n2)</a>
+<a class="sourceLine" id="cb12-4" title="4"><span class="co">## [1] 0.003612374</span></a>
+<a class="sourceLine" id="cb12-5" title="5"><span class="kw">ipowerTOST</span>(alpha, delta0, Delta, sigma, n1, n2)</a>
+<a class="sourceLine" id="cb12-6" title="6"><span class="co">## [1] 0.003612374</span></a>
+<a class="sourceLine" id="cb12-7" title="7"><span class="co">## attr(,&quot;err_est&quot;)</span></a>
+<a class="sourceLine" id="cb12-8" title="8"><span class="co">## [1] 4.010541e-17</span></a>
+<a class="sourceLine" id="cb12-9" title="9"><span class="co">## attr(,&quot;err_code&quot;)</span></a>
+<a class="sourceLine" id="cb12-10" title="10"><span class="co">## [1] 0</span></a></code></pre></div>
+</div>
+<div id="comparisons-for-n_1n_2-leq-1200" class="section level3">
+<h3><span class="header-section-number">4.2.2</span> Comparisons for <span class="math inline">\(n_1+n_2 \leq 1200\)</span></h3>
+<p>Below we compare the results returned by <code>powerTOST</code> to the ones returned by <code>ipowerTOST</code> for the parameters given in the <code>SAS</code> dataset.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" title="1">power &lt;-<span class="st"> </span>ipower &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb13-2" title="2"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb13-3" title="3">  power[i] &lt;-</a>
+<a class="sourceLine" id="cb13-4" title="4"><span class="st">    </span><span class="kw">powerTOST</span>(</a>
+<a class="sourceLine" id="cb13-5" title="5">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb13-6" title="6">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb13-7" title="7">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb13-8" title="8">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb13-9" title="9">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb13-10" title="10">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i]</a>
+<a class="sourceLine" id="cb13-11" title="11">    )</a>
+<a class="sourceLine" id="cb13-12" title="12">  ipower[i] &lt;-</a>
+<a class="sourceLine" id="cb13-13" title="13"><span class="st">    </span><span class="kw">ipowerTOST</span>(</a>
+<a class="sourceLine" id="cb13-14" title="14">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb13-15" title="15">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb13-16" title="16">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb13-17" title="17">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb13-18" title="18">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb13-19" title="19">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i]</a>
+<a class="sourceLine" id="cb13-20" title="20">    )</a>
+<a class="sourceLine" id="cb13-21" title="21">}</a>
+<a class="sourceLine" id="cb13-22" title="22"><span class="kw">identical</span>(<span class="kw">round</span>(power, <span class="dv">10</span>), <span class="kw">round</span>(ipower, <span class="dv">10</span>))</a>
+<a class="sourceLine" id="cb13-23" title="23"><span class="co">## [1] TRUE</span></a></code></pre></div>
+<p>Results are the same up to <span class="math inline">\(10\)</span> digits. And also with the option <code>algo=1</code>:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" title="1">power &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb14-2" title="2"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb14-3" title="3">  power[i] &lt;-</a>
+<a class="sourceLine" id="cb14-4" title="4"><span class="st">    </span><span class="kw">powerTOST</span>(</a>
+<a class="sourceLine" id="cb14-5" title="5">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb14-6" title="6">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb14-7" title="7">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb14-8" title="8">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb14-9" title="9">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb14-10" title="10">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i], </a>
+<a class="sourceLine" id="cb14-11" title="11">      <span class="dt">algo =</span> <span class="dv">1</span></a>
+<a class="sourceLine" id="cb14-12" title="12">    )</a>
+<a class="sourceLine" id="cb14-13" title="13">}</a>
+<a class="sourceLine" id="cb14-14" title="14"><span class="kw">identical</span>(<span class="kw">round</span>(power, <span class="dv">10</span>), <span class="kw">round</span>(ipower, <span class="dv">10</span>))</a>
+<a class="sourceLine" id="cb14-15" title="15"><span class="co">## [1] TRUE</span></a></code></pre></div>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2><span class="header-section-number">4.3</span> Conclusion</h2>
+<ul>
+<li><p>The <code>powen4</code> function with option <code>algo=1</code> seems to return correct values for <span class="math inline">\(\nu \leq 1200\)</span>.</p></li>
+<li><p>The <code>powen4</code> function with option <code>algo=2</code> allows higher values of <span class="math inline">\(\nu\)</span>.</p></li>
+<li><p>In any case, we recommend to compare the result of <code>powen4</code> with the one of <code>ipowen4</code>.</p></li>
+</ul>
+</div>
+</div>
+<div id="other-owen-cumulative-functions" class="section level1">
+<h1><span class="header-section-number">5</span> Other Owen cumulative functions</h1>
+<p>We previously validated the <code>powen4</code> function for the <span class="math inline">\(100\)</span> scenarios of the dataset <code>SAS</code>.</p>
+<p>Now we test the functions <code>powen1</code>, <code>powen2</code> and <code>powen3</code> by checking the equality <span class="math display">\[
+O_1(\nu, t_1, t_2, \delta_1, \delta_2) + O_2(\nu, t_1, t_2, \delta_1, \delta_2) 
++ 
+O_3(\nu, t_1, t_2, \delta_1, \delta_2) + O_4(\nu, t_1, t_2, \delta_1, \delta_2) 
+= 1.
+\]</span></p>
+<p>We restrict our attention to default setting <code>algo=2</code>. We check the above equality for the <span class="math inline">\(100\)</span> scenarios of the dataset <code>SAS</code>.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" title="1">f &lt;-<span class="st"> </span><span class="cf">function</span>(alpha, delta0, Delta, sigma, n1, n2) {</a>
+<a class="sourceLine" id="cb15-2" title="2">  se &lt;-<span class="st"> </span><span class="kw">sqrt</span>(<span class="dv">1</span><span class="op">/</span>n1 <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">/</span>n2) <span class="op">*</span><span class="st"> </span>sigma</a>
+<a class="sourceLine" id="cb15-3" title="3">  delta1 &lt;-<span class="st"> </span>(delta0 <span class="op">+</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb15-4" title="4">  delta2 &lt;-<span class="st"> </span>(delta0 <span class="op">-</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb15-5" title="5">  dof &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2 <span class="op">-</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb15-6" title="6">  q &lt;-<span class="st"> </span><span class="kw">qt</span>(<span class="dv">1</span> <span class="op">-</span><span class="st"> </span>alpha, dof)</a>
+<a class="sourceLine" id="cb15-7" title="7">  <span class="kw">powen1</span>(dof, q,<span class="op">-</span>q, delta1, delta2) <span class="op">+</span><span class="st"> </span><span class="kw">powen2</span>(dof, q,<span class="op">-</span>q, delta1, delta2) <span class="op">+</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb15-8" title="8"><span class="st">    </span><span class="kw">powen3</span>(dof, q,<span class="op">-</span>q, delta1, delta2) <span class="op">+</span><span class="st"> </span><span class="kw">powen4</span>(dof, q,<span class="op">-</span>q, delta1, delta2)</a>
+<a class="sourceLine" id="cb15-9" title="9">}</a>
+<a class="sourceLine" id="cb15-10" title="10">test &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb15-11" title="11"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb15-12" title="12">  test[i] &lt;-</a>
+<a class="sourceLine" id="cb15-13" title="13"><span class="st">    </span><span class="kw">f</span>(</a>
+<a class="sourceLine" id="cb15-14" title="14">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb15-15" title="15">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb15-16" title="16">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb15-17" title="17">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb15-18" title="18">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb15-19" title="19">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i]</a>
+<a class="sourceLine" id="cb15-20" title="20">    )</a>
+<a class="sourceLine" id="cb15-21" title="21">}</a>
+<a class="sourceLine" id="cb15-22" title="22"><span class="kw">all</span>(<span class="kw">abs</span>(test<span class="dv">-1</span>) <span class="op">&lt;</span><span class="st"> </span><span class="fl">1e-14</span>)</a>
+<a class="sourceLine" id="cb15-23" title="23"><span class="co">## [1] TRUE</span></a></code></pre></div>
+<p>We find that each of the <span class="math inline">\(100\)</span> sums is equal to <span class="math inline">\(1\)</span> up to a tolerance of <span class="math inline">\(14\)</span> digits.</p>
+</div>
+<div id="first-owen-q-function-q_1-owenq1" class="section level1">
+<h1><span class="header-section-number">6</span> First Owen <span class="math inline">\(Q\)</span>-function <span class="math inline">\(Q_1\)</span> (<code>OwenQ1</code>)</h1>
+<p>We previously validated the <code>powen4</code> function (implementation of the fourth Owen cumulative function <span class="math inline">\(O_4\)</span>) for the <span class="math inline">\(100\)</span> scenarios of the dataset <code>SAS</code>.<br />
+Now, to test <code>OwenQ1</code>, we will use the following equality:</p>
+<p><span class="math display">\[
+O_4(\nu, t_1, t_2, \delta_1, \delta_2) = 
+Q_1\left(\nu, t_2, \delta_2, 
+         \frac{\sqrt{\nu}(\delta_1-\delta_2)}{t_1-t_2}\right)
+- Q_1\left(\nu, t_1, \delta_1, 
+           \frac{\sqrt{\nu}(\delta_1-\delta_2)}{t_1-t_2}\right).
+\]</span></p>
+<p>We use this formula to perform the power calculations with <code>OwenQ1</code> instead of <code>powen4</code>.</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" title="1">powerTOST2 &lt;-<span class="st"> </span><span class="cf">function</span>(alpha, delta0, Delta, sigma, n1, n2) {</a>
+<a class="sourceLine" id="cb16-2" title="2">  se &lt;-<span class="st"> </span><span class="kw">sqrt</span>(<span class="dv">1</span><span class="op">/</span>n1 <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">/</span>n2) <span class="op">*</span><span class="st"> </span>sigma</a>
+<a class="sourceLine" id="cb16-3" title="3">  delta1 &lt;-<span class="st"> </span>(delta0 <span class="op">+</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb16-4" title="4">  delta2 &lt;-<span class="st"> </span>(delta0 <span class="op">-</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb16-5" title="5">  dof &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2 <span class="op">-</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb16-6" title="6">  q &lt;-<span class="st"> </span><span class="kw">qt</span>(<span class="dv">1</span> <span class="op">-</span><span class="st"> </span>alpha, dof)</a>
+<a class="sourceLine" id="cb16-7" title="7">  R &lt;-<span class="st"> </span><span class="kw">sqrt</span>(dof)<span class="op">*</span>(delta1 <span class="op">-</span><span class="st"> </span>delta2)<span class="op">/</span>q<span class="op">/</span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb16-8" title="8">  <span class="kw">OwenQ1</span>(dof, <span class="op">-</span>q, delta2, R) <span class="op">-</span><span class="st"> </span><span class="kw">OwenQ1</span>(dof, q, delta1, R)</a>
+<a class="sourceLine" id="cb16-9" title="9">}</a>
+<a class="sourceLine" id="cb16-10" title="10">power2 &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb16-11" title="11"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb16-12" title="12">  power2[i] &lt;-</a>
+<a class="sourceLine" id="cb16-13" title="13"><span class="st">    </span><span class="kw">powerTOST2</span>(</a>
+<a class="sourceLine" id="cb16-14" title="14">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb16-15" title="15">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb16-16" title="16">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb16-17" title="17">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb16-18" title="18">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb16-19" title="19">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i]</a>
+<a class="sourceLine" id="cb16-20" title="20">    )</a>
+<a class="sourceLine" id="cb16-21" title="21">}</a>
+<a class="sourceLine" id="cb16-22" title="22"><span class="kw">identical</span>(<span class="kw">round</span>(power, <span class="dv">14</span>), <span class="kw">round</span>(power2, <span class="dv">14</span>))</a>
+<a class="sourceLine" id="cb16-23" title="23"><span class="co">## [1] FALSE</span></a></code></pre></div>
+<p>The values rounded to <span class="math inline">\(14\)</span> digits are the same as the ones we previously obtained with <code>powen4</code>.</p>
+</div>
+<div id="second-owen-q-function-q_2-owenq2" class="section level1">
+<h1><span class="header-section-number">7</span> Second Owen <span class="math inline">\(Q\)</span>-function <span class="math inline">\(Q_2\)</span> (<code>OwenQ2</code>)</h1>
+<p>We previously validated <code>powen2</code> for the <span class="math inline">\(100\)</span> scenarios of the dataset <code>SAS</code>. Now we test the <code>OwenQ2</code> function by checking the equality <span class="math display">\[
+O_2(\nu, t_1, t_2, \delta_1, \delta_2) = 
+Q_2\left(\nu, t_1, \delta_1, 
+         \frac{\sqrt{\nu}(\delta_1-\delta_2)}{t_1-t_2}\right)
+- Q_2\left(\nu, t_2, \delta_2, 
+           \frac{\sqrt{\nu}(\delta_1-\delta_2)}{t_1-t_2}\right).
+\]</span></p>
+<p>We check this equality for the <span class="math inline">\(100\)</span> scenarios of the dataset <code>SAS</code>.</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1">g &lt;-<span class="st"> </span><span class="cf">function</span>(alpha, delta0, Delta, sigma, n1, n2) {</a>
+<a class="sourceLine" id="cb17-2" title="2">  se &lt;-<span class="st"> </span><span class="kw">sqrt</span>(<span class="dv">1</span><span class="op">/</span>n1 <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">/</span>n2) <span class="op">*</span><span class="st"> </span>sigma</a>
+<a class="sourceLine" id="cb17-3" title="3">  delta1 &lt;-<span class="st"> </span>(delta0 <span class="op">+</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb17-4" title="4">  delta2 &lt;-<span class="st"> </span>(delta0 <span class="op">-</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb17-5" title="5">  dof &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2 <span class="op">-</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb17-6" title="6">  q &lt;-<span class="st"> </span><span class="kw">qt</span>(<span class="dv">1</span> <span class="op">-</span><span class="st"> </span>alpha, dof)</a>
+<a class="sourceLine" id="cb17-7" title="7">  R &lt;-<span class="st"> </span><span class="kw">sqrt</span>(dof)<span class="op">*</span>(delta1 <span class="op">-</span><span class="st"> </span>delta2)<span class="op">/</span>q<span class="op">/</span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb17-8" title="8">  x &lt;-<span class="st"> </span><span class="kw">OwenQ2</span>(dof, q, delta1, R) <span class="op">-</span><span class="st"> </span><span class="kw">OwenQ2</span>(dof, <span class="op">-</span>q, delta2, R)</a>
+<a class="sourceLine" id="cb17-9" title="9">  y &lt;-<span class="st"> </span><span class="kw">powen2</span>(dof, q, <span class="op">-</span>q, delta1, delta2)</a>
+<a class="sourceLine" id="cb17-10" title="10">  x <span class="op">-</span><span class="st"> </span>y</a>
+<a class="sourceLine" id="cb17-11" title="11">}</a>
+<a class="sourceLine" id="cb17-12" title="12">test &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb17-13" title="13"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb17-14" title="14">  test[i] &lt;-</a>
+<a class="sourceLine" id="cb17-15" title="15"><span class="st">    </span><span class="kw">g</span>(</a>
+<a class="sourceLine" id="cb17-16" title="16">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb17-17" title="17">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb17-18" title="18">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb17-19" title="19">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb17-20" title="20">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb17-21" title="21">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i]</a>
+<a class="sourceLine" id="cb17-22" title="22">    )</a>
+<a class="sourceLine" id="cb17-23" title="23">}</a>
+<a class="sourceLine" id="cb17-24" title="24"><span class="kw">all</span>(<span class="kw">abs</span>(test) <span class="op">&lt;</span><span class="st"> </span><span class="fl">1e-15</span>)</a>
+<a class="sourceLine" id="cb17-25" title="25"><span class="co">## [1] TRUE</span></a></code></pre></div>
+<p>We find that each of the <span class="math inline">\(100\)</span> equalities hold true up to a tolerance of <span class="math inline">\(15\)</span> digits.</p>
+</div>
+<div id="student-cumulative-distribution-function-ptowen" class="section level1">
+<h1><span class="header-section-number">8</span> Student cumulative distribution function (<code>ptOwen</code>)</h1>
+<p>We finally test <code>ptOwen</code>, the implementation of the cumulative distribution function of the noncentral Student distribution.<br />
+If <span class="math inline">\(T_1\)</span> follows the noncentral Student distribution with number of degrees of freedom <span class="math inline">\(\nu\)</span> and noncentrality parameter <span class="math inline">\(\delta_1\)</span>, then for any <span class="math inline">\(t_1\)</span> the equality <span class="math display">\[
+\Pr(T_1 \leq t_1) = O_1(\nu, t_1, t_2, \delta_1, \delta_2) + O_2(\nu, t_1, t_2, \delta_1, \delta_2)
+\]</span> holds for any <span class="math inline">\(t_2\)</span> and <span class="math inline">\(\delta_2\)</span>. We check this equality for the <span class="math inline">\(100\)</span> scenarios of the dataset <code>SAS</code>.</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb18-1" title="1">h &lt;-<span class="st"> </span><span class="cf">function</span>(alpha, delta0, Delta, sigma, n1, n2) {</a>
+<a class="sourceLine" id="cb18-2" title="2">  se &lt;-<span class="st"> </span><span class="kw">sqrt</span>(<span class="dv">1</span><span class="op">/</span>n1 <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">/</span>n2) <span class="op">*</span><span class="st"> </span>sigma</a>
+<a class="sourceLine" id="cb18-3" title="3">  delta1 &lt;-<span class="st"> </span>(delta0 <span class="op">+</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb18-4" title="4">  delta2 &lt;-<span class="st"> </span>(delta0 <span class="op">-</span><span class="st"> </span>Delta) <span class="op">/</span><span class="st"> </span>se</a>
+<a class="sourceLine" id="cb18-5" title="5">  dof &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2 <span class="op">-</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb18-6" title="6">  q &lt;-<span class="st"> </span><span class="kw">qt</span>(<span class="dv">1</span> <span class="op">-</span><span class="st"> </span>alpha, dof)</a>
+<a class="sourceLine" id="cb18-7" title="7">  x &lt;-<span class="st"> </span><span class="kw">ptOwen</span>(q, dof, delta1)</a>
+<a class="sourceLine" id="cb18-8" title="8">  y &lt;-<span class="st"> </span><span class="kw">powen1</span>(dof, q, <span class="op">-</span>q, delta1, delta2) <span class="op">+</span><span class="st"> </span><span class="kw">powen2</span>(dof, q, <span class="op">-</span>q, delta1, delta2)</a>
+<a class="sourceLine" id="cb18-9" title="9">  x <span class="op">-</span><span class="st"> </span>y</a>
+<a class="sourceLine" id="cb18-10" title="10">}</a>
+<a class="sourceLine" id="cb18-11" title="11">test &lt;-<span class="st"> </span><span class="kw">numeric</span>(<span class="kw">nrow</span>(SAS))</a>
+<a class="sourceLine" id="cb18-12" title="12"><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(SAS)) {</a>
+<a class="sourceLine" id="cb18-13" title="13">  test[i] &lt;-</a>
+<a class="sourceLine" id="cb18-14" title="14"><span class="st">    </span><span class="kw">h</span>(</a>
+<a class="sourceLine" id="cb18-15" title="15">      <span class="dt">alpha =</span> SAS<span class="op">$</span>alpha[i],</a>
+<a class="sourceLine" id="cb18-16" title="16">      <span class="dt">delta0 =</span> SAS<span class="op">$</span>delta0[i],</a>
+<a class="sourceLine" id="cb18-17" title="17">      <span class="dt">Delta =</span> SAS<span class="op">$</span>Delta[i],</a>
+<a class="sourceLine" id="cb18-18" title="18">      <span class="dt">sigma =</span> SAS<span class="op">$</span>sigma[i],</a>
+<a class="sourceLine" id="cb18-19" title="19">      <span class="dt">n1 =</span> SAS<span class="op">$</span>n1[i],</a>
+<a class="sourceLine" id="cb18-20" title="20">      <span class="dt">n2 =</span> SAS<span class="op">$</span>n2[i]</a>
+<a class="sourceLine" id="cb18-21" title="21">    )</a>
+<a class="sourceLine" id="cb18-22" title="22">}</a>
+<a class="sourceLine" id="cb18-23" title="23"><span class="kw">all</span>(<span class="kw">abs</span>(test) <span class="op">&lt;</span><span class="st"> </span><span class="fl">1e-15</span>)</a>
+<a class="sourceLine" id="cb18-24" title="24"><span class="co">## [1] TRUE</span></a></code></pre></div>
+<p>For each scenario, the equality holds up to a tolerance of <span class="math inline">\(15\)</span> digits.</p>
+</div>
+<div id="references" class="section level1">
+<h1><span class="header-section-number">9</span> References</h1>
+<ul>
+<li><p>Patefield, M. (2000). <em>Fast and Accurate Calculation of Owen’s T Function.</em> Journal of Statistical Software 5 (5), 1-25.</p></li>
+<li><p>Owen, D. B. (1965). <em>A special case of a bivariate noncentral t-distribution.</em> Biometrika 52, 437-446.</p></li>
+<li><p>Wolfram Alpha LLC. 2017. Wolfram|Alpha. (access July 17, 2017).</p></li>
+</ul>
+</div>
+
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

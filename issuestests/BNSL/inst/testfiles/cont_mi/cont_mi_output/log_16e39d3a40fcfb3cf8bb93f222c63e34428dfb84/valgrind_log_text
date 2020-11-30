@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_cont_mi_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/cont_mi/cont_mi_output/16e39d3a40fcfb3cf8bb93f222c63e34428dfb84.pass`
+TRACE: Running: BNSL_deepstate_test_cont_mi_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/cont_mi/cont_mi_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.36547e-170 -1.18268e-83 -9.40654e+152 -2.51376e-108 -8.16617e+08 9.60273e-285 1.82143e-159 -2.18752e+191 2.33246e-92 inf 1.34326e-30 3.69281e+199 -8.55176e-44 -1.82549e+186 5.16121e-108 -2.08649e+234 174.053 nan -1.602e-123 1.97756e-12 2.09826e-36 -1.81283e-109 4.06934e+188 inf 1.44514e+265 nan -6.14657e+86 2.6842e-126 -3.38605e-192 4.83391e+216 2.64614e-235 8.34881e+141 1.25118e+141 3.63643e+59 2.78099e-265 -1.67138e+171 2.06749e-07 5.11041e-152 -1.83039e-116 -2.67144e+125 7.03922e-54 2.50158e-179 6.38164e-145 -4.47609e+119 -4.36686e-255 -4.97202e-73 -1.82192e+102 2.22612e+08 -1.10563e+252 -2.74154e-101 -3.69798e+203 -1.08958e+97 6.03926e+207 0
+y values: 7.74017e-64 3.11325e-221 -9.27529e+280 1.07129e-46 -3.51694e-193 2.01876e-154 1.48794e+51 0.298788 8.91398e+255 2.68515e+194 3.34002e-233 -8.81306e-136 -99086.7 1.73278e+291 0.207274 2.90695e-149 3.10755e-114 -2.30103e-201 -1.64978e-192 -inf -1.08863e+178 -2.74837e-280 -1.42192e+156 -1.06524e+168 1.38447e-52 -1.3718e+172 1.20469e-179 -3.0662e-160 -5.04411e-271 -1.24636e+238 -2.62894e-173 -2.89496e+241 -2.68044e+194 -3.20849e+13 1.99045e-100 -4.2822e+241 -8.47866e-22 -1.50711e-09 1.95295e-183 -6.11195e+257 8.92149e-74 -1.63586e-99 -58.9952 -3.09053e+204 inf -4.12011e+164 1.02538e-26 5.91007e+167 4.56898e-228 -1.24636e+238 5.66281e-70 3.33791e+67 -2.38337e-183 1.08982e+148 -1.12572e-21 -4.0351e+260 -inf 1.15808e+29 0
+input ends
+TRACE: Passed: BNSL_deepstate_test_cont_mi_test

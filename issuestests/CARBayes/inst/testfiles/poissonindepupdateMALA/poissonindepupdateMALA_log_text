@@ -1,0 +1,16 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606697556
+WARNING: No test specified, defaulting to first test defined (CARBayes_deepstate_test_poissonindepupdateMALA_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+nsites values: 510140324
+theta values: 2.81517e-25 nan -3.80807e-259 -0.239309 -8.69945e+163 4.88254e-250 inf 1.00635e+74 1.07908e+285 4.11729e-138 9.51531e-183 -245353 3.36043e-102 2.86483e+126 2.92894e+279 3.29637e-164 -2.31187e-45 -inf inf -4.24055e-83 1.79387e+137 4.42049e-78 1.45521e-160 0
+sigma2 values: -5.46903e-289
+y values: 1.30175e+208 7.65491e+287 -3.83714e-107 3.68596e+78 8.41013e+256 -7.69629e-70 1.61207e+131 inf 8.49326e+118 6.56176e+245 1.69943e-14 3.2413e-267 2.81859e-285 -1.42686e+221 9.23156e-256 -2.55592e-302 6.30927e+109 -0.00300182 -2.42722e-162 -1.49964e-263 2.2926e+185 2.62474e-130 -5.24727e+32 -7.22801e-205 inf nan -4.54756e-119 4.9899e+175 4.11754e+171 9.83324e+70 -2.54812e-129 4.55887e-132 -1.06187e-84 7.45555e+265 -3.76721e-255 4.83752e+233 3.62318e-301 -1.23276e-250 3.44739e+23 3.52454e+13 2.08911e+40 5.41936e-190 -7.26416e+151 2.8155e+285 1.33199e-169 -4.53528e+151 -3.04283e+74 -0.000114225 3.46895e-56 -4.48149e-76 7.68674e+238 1.15109e+301 -7.38984e-110 1.45735e+292 nan 3.64537e+167 2.30747e+232 2.17982e+100 -4.72165e-45 5.14375e+08 6.92111e+242 1.19152e+131 2.48962e-203 0
+theta_tune values: 5.2836e+206
+offset values: nan nan
+input ends
+ERROR: Crashed: CARBayes_deepstate_test_poissonindepupdateMALA_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CARBayes/inst/testfiles/poissonindepupdateMALA/poissonindepupdateMALA_output/23a4c9e6643d186052d80cee9769a6ec98151fc7.crash`
+INFO: Done fuzzing! Ran 1 tests (0 tests/second) with 1 failed/0 passed/0 abandoned tests

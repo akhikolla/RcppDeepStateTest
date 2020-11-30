@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_mk_reg_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg/mk_reg_output/092e0f7b26af92731d02155fae32a74a06815fc8.crash`
+TRACE: Running: amt_deepstate_test_mk_reg_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg/mk_reg_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+t1 values: -5.90213e-182 -1.34222e-104 -7.17752e-217 -5.52664e+249 3.59845e+285 -2.28369e-174 6.58146e-15 13.6305 -1.27855e+74 -4.56132e-05 1.90658e-302 -2.38426e+180 -3.95428e-46 -4.33581e-174 -1.82416e-260 2.14535e-233 -inf 6.68388e+206 3.25505e-65 -1.41877e-215 3.92706e-102 4.06583e-303 -1.51546e-137 -7.89324e+248 -4.82976e-253 1.44861e+193 nan nan -1.17679e+269 3.39146e+196 6.00671e+231 9.27261e+111 9.75865e-126 1.50961e-191 0
+time_dist values: -2122811551
+time_tol values: -510323161
+start values: 1406127485
+input ends
+ERROR: Crashed: amt_deepstate_test_mk_reg_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg/mk_reg_output/092e0f7b26af92731d02155fae32a74a06815fc8.crash crashed

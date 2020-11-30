@@ -1,0 +1,382 @@
+\documentclass[a4paper,11pt]{article}
+
+% packages included
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[section]{placeins}  % Forces figures to be placed in current section
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames,svgnames]{xcolor}
+\usepackage[authoryear,round]{natbib} % Format for in-text citations
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{Sweave}
+
+% definition of newcommands
+\newcommand{\Rcode}[1]{{\texttt{#1}}}
+\newcommand{\Rpackage}[1]{{\texttt{#1}}}
+
+% settings
+\geometry{a4paper, margin=1in}
+\linespread{1.2}
+\hypersetup{
+  colorlinks,
+  breaklinks,
+  linkcolor=RoyalBlue,
+  urlcolor=RoyalBlue,
+  anchorcolor=RoyalBlue,
+  citecolor=RoyalBlue
+}
+
+%\VignetteIndexEntry{dslice user manual}
+
+\title{A tutorial on R package dslice}
+\author{Chao Ye, Bo Jiang, Xuegong Zhang and Jun S. Liu}
+\date{November 24, 2014}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\setlength{\parskip}{0.8\baselineskip}
+
+\maketitle
+
+\section{Introduction}
+\label{sec:intro}
+
+This \texttt{R} package implements dynamic slicing method for dependency detection between a categorical variable and a continuous variable, with applications in non-parametric hypothesis testing, quantitative traits loci (QTLs) study and gene set analysis. Functions to illustrate slicing result and load data for gene set analysis are also provided.
+
+Core functions for testing dependence in \Rpackage{dslice} are implemented in the Cpp language and are integrated in \texttt{R} through the \Rpackage{Rcpp} package \citep{eddelbuettel2011rcpp}. Slicing result is illustrated via a \Rcode{ggplot} object. \Rpackage{dslice} requires package \Rpackage{Rcpp} and \Rpackage{ggplot2}.
+
+\section{Running \Rpackage{dslice}}
+\label{sec:run}
+
+First, we need to install package \Rpackage{Rcpp} and \Rpackage{ggplot2} before we install \Rpackage{dslice}. To load \Rpackage{dslice}, type:
+
+<<load>>=
+library(dslice)
+@
+
+\begin{verbatim}
+Loading required package: Rcpp
+Loading required package: ggplot2
+Loading required package: scales
+\end{verbatim}
+
+\subsection{A running example of dynamic slicing}
+\label{subsec:runds}
+
+To see how dynamic slicing detect the dependency between categorical and continuous variables, let's generate 200 observations of them:
+
+<<generate_data>>=
+n <- 100
+mu <- 0.5
+y <- c(rnorm(n, -mu, 1), rnorm(n, mu, 1))
+x <- c(rep("G1", n), rep("G2", n))
+@
+
+Please note that the type of \Rcode{x} could be either integer or character. \Rpackage{dslice} provides a function named ``relabel'' to convert categorical \Rcode{x} to integers started from 0, which is the standard input of \Rcode{ds$\_$k} and \Rcode{ds$\_$eqp$\_$k}:
+
+<<convert>>=
+x <- relabel(x)
+@
+
+Following the relabeling step, we can see how many different values the categorical variable have (notice that \Rcode{x} started with 0, just like the value of array index in C language):
+
+<<get_dim>>=
+xdim <- max(x) + 1
+@
+
+As will be shown in Section \hyperref[sec:model]{3}, to preform dynamic slicing, categorical variables should be sorted according to values of continuous variable:
+
+<<order_x>>=
+x <- x[order(y)]
+@
+
+With these preparations, we can run dynamic slicing by \Rcode{ds$\_$k}:
+
+<<run_ds_k>>=
+lambda <- 1.0
+dsres <- ds_k(x, xdim, lambda, slice = TRUE)
+dsres
+@
+\noindent where \Rcode{lambda} is the penalty for adding one more slice.
+
+Dynamic slicing treats the investigated categorical and continuous variables to be independent if the value of dynamic slicing statistic (``DS-statistic'') is 0 (or a very small value, \textit{e.g.}, less than 1e-6), otherwise dynamic slicing treats there exists dependency between them. For this example, we can see that the value of DS-statistic is larger than 0, which means the \Rcode{x} and \Rcode{y} here are not independent.
+
+The value of \Rcode{lambda} is related to a Type-I error rate, which measures the possibility that dynamic slicing misinforms the two variable are not independence in the actual scenario that them are. Currently there are not close form relationship between the value of slicing penalty and Type-I error rate of dynamic slicing. For how to select a proper \Rcode{lambda} in slicing, please refer to Section 4 in \cite{jiang2014non} and this link: \url{http://people.fas.harvard.edu/~junliu/DS/lambda-table.html}. The indicator \Rcode{slice} indicates whether to report slice strategy with DS-statistic or not. If \Rcode{slice=TRUE}, then we could see the slicing result in a plot (Figure \ref{fig:dsres}):
+
+<<illustrate_slice, fig=TRUE, width=8, height=4.5, include=FALSE>>=
+colnames(dsres$slices) <- c("G1", "G2", "total")
+slice_show(dsres$slices)
+@
+\begin{figure}[htpb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{dslice-illustrate_slice}
+  \caption{\it Illustration of slicing result.}
+  \label{fig:dsres}
+\end{figure}
+
+\subsection{A faster version}
+\label{subsec:faster}
+
+\cite{jiang2014non} showed that the worst case computational complexity of the dynamic slicing algorithm is $O(n^2)$ based on the naive implementation. Though we speed up the computation with additional restriction on splitting clumps of the same \Rcode{x} values, the computational complexity is still proportional to $O(n^2)$. This order of computational complexity will be embarrassing for problem with large sample size, \textit{e.g.}, all genes of human.
+
+To handle with large number of sample size, we introduce a faster strategy, which is named to dynamic slicing with $O(n^{1/2})$-resolution. The basic idea is almost the same as \Rcode{ds$\_$k}. The only different is that \Rcode{ds$\_$eqp$\_$k} groups samples into approximate $O(n^{1/2})$ groups which contain approximate $O(n^{1/2})$ samples and performs dynamic slicing on their boundaries. The computational complexity is $O(n)$. This much faster version could reduce computation time substantially without too much power loss \citep{jiang2014non}. Based on the strategy of \Rcode{ds$\_$eqp$\_$k}, we recommend to apply it in large sample size problem and use \Rcode{ds$\_$k} for ordinary problem. Here is an example to use \Rcode{ds$\_$eqp$\_$k} (almost the same as \Rcode{ds$\_$k}):
+
+<<use_ds_eqp_k>>=
+n <- 100
+mu <- 0.5
+y <- c(rnorm(n, -mu, 1), rnorm(n, mu, 1))
+x <- c(rep("1", n), rep("2", n))
+x <- relabel(x)
+x <- x[order(y)]
+xdim <- max(x) + 1
+lambda <- 1.0
+dsres <- ds_eqp_k(x, xdim, lambda, slice = TRUE)  
+@
+
+\subsection{Dynamic slicing for \textit{K}-sample (\textit{K} $\geq$ 2) test}
+\label{subsec:dsk}
+
+One will be aware of the fact that a \textit{K}-sample ($K \geq 2$) test problem could be viewed as a dependence test of a continuous variable and a categorical variable. Consider the following hypotheses:
+\[ \begin{split}
+              &H_0: \text{the distributions of $Y$ given $X=j$ ($1 \leq j \leq K$) are the same}\\
+\text{ v.s. } &H_1: \text{the distributions of $Y$ given $X=j$ ($1 \leq j \leq K$) are not the same}.
+\end{split} \]
+Dynamic slicing can be used for testing these hypotheses based on independent observations. \Rpackage{dsclice} provides a function \Rcode{ds$\_$test} to perform \textit{K}-sample hypothesis testing:
+
+<<data_for_ds_test>>=
+n <- 100
+y <- c(rnorm(n, -mu, 1), rnorm(n, mu, 1))
+
+##  generate x in this way:
+x <- c(rep(0, n), rep(1, n))
+x <- as.integer(x)
+
+##  or in this way:
+x <- c(rep("G1", n), rep("G2", n))
+x <- relabel(x)
+@
+
+<<ds_test>>=
+lambda <- 1.0
+dsres <- ds_test(y, x, type = "eqp", lambda = 1, rounds = 100)
+@
+
+One may find \Rcode{ds$\_$test} does not require the sorting step of \Rcode{x} according to \Rcode{y}. If you do not want to do the rank, this fuction is a good choice. \Rpackage{dslice} still keep functions \Rcode{ds$\_$k} and \Rcode{ds$\_$eqp$\_$k} so that users can also use them if they have a large number of $X$ and do not want to repetitively rank individuals according to $Y$. For instance, in the eQTL (expression quantitative trait loci) study.
+
+The omnibus function provide \Rcode{ds$\_$k} (default, \Rcode{type="ds"}) and \Rcode{ds$\_$eqp$\_$k} (\Rcode{type="eqp"}) for \textit{K}-sample hypothesis testing. Sicne there is not theoretical relationship between \Rcode{lambda} (penalty of slicing) and Type-I error rate, \Rcode{ds$\_$test} requires an argument \Rcode{rounds} to specify the total number of permutations for obtaining an empirical \textit{p}-value.
+
+\subsection{Dynamic slicing for one-sample test}
+\label{subsec:ds1}
+
+\Rcode{ds$\_$test} can deal with an one-sample test as well. Assuming that $Y \in \mathbb{R}$ be a univariate continuous variable with unknown cumulative distribution function (CDF) $F(y)$ and probability density function (PDF) $f(y)$. Based on independent observations of $Y$, $\{y_i\}_{i=1}^n$, we want to test whether the random variable $Y$ follows a distribution with a given CDF $F_0(y)$ and PDF $f_0(y)$. Consider the following hypotheses:
+\[ H_0 : F(y) = F_0(y) \text{ v.s. } H_1: F(y) \neq F_0(y). \]
+As \textit{K}-sample test problem, \Rcode{ds$\_$test} also contains two versions of slicing methods for one-sample test. The usage of \Rcode{ds$\_$test} is \Rcode{ds$\_$test(y, x, ..., type = c("ds", "eqp"), lambda = 1, alpha = 1, rounds = 0)}. Examples are here:
+
+<<one_sample_test>>=
+##  One-sample test
+n <- 100
+mu <- 0.5
+y <- rnorm(n, mu, 1)
+lambda <- 1.0
+alpha <- 1.0
+dsres <- ds_test(y, "pnorm", 0, 1, lambda = 1, alpha = 1, rounds = 100)
+dsres <- ds_test(y, "pnorm", 0, 1, type = "ds", lambda = 1, alpha = 1)
+dsres <- ds_test(y, "pnorm", 0, 1, type = "eqp", lambda = 1, rounds = 100)
+dsres <- ds_test(y, "pnorm", 0, 1, type = "eqp", lambda = 1)
+@
+
+\Rcode{type="ds"} (default) corresponds to use \Rcode{ds$\_$1} in one-sample test and \Rcode{type="eqp"} corresponds to use \Rcode{ds$\_$eqp$\_$1} in one-sample test. Argument \Rcode{alpha} is required for \Rcode{type="ds"} (\Rcode{ds$\_$1}). To specify a null distribution, we need to give a valid cumulative disbribution function name and its corresponded valid number of parameters. Please refer to \Rcode{Distributions} in package \Rpackage{stats} for more information. Above examples used the cumulative distribution function of normal distribution. The criterion is the same as \textit{K}-sample test, \textit{i.e.}, we reject the null hypothesis if \Rcode{ds$\_$test} gives a DS-statistic larger than 0 (or a preassigned small positive value, 1e-6 for instance).
+
+Here are examples for using \Rcode{ds$\_$1} and \Rcode{ds$\_$eqp$\_$1}:
+
+<<ds_1>>=
+n <- 100
+mu <- 0.5
+x <- rnorm(n, mu, 1)
+y <- pnorm(sort(x), 0, 1) 
+lambda <- 1.0
+alpha <- 1.0
+dsres <- ds_1(y, lambda, alpha)
+dsres <- ds_eqp_1(y, lambda)
+@
+
+Both these two functions need to sort samples and map them according to a given null cumulative distribution function. The difference between them is that \Rcode{ds$\_$eqp$\_$1} considers an equal partition on [0, 1] but \Rcode{ds$\_$1} does not. Candidate slicing boundaries in \Rcode{ds$\_$eqp$\_$1} only depend on the total number of samples and are unrelated to sample quantiles. In \Rcode{ds$\_$1} they are immediately to the left or right of sample quantile so that the additional argument \Rcode{alpha} is needed to avoid two slicing events occur immediately to both sides of one samples at the same time.
+
+\subsection{Gene set analysis}
+
+\cite{subramanian2005gene} introduced gene set enrichment analysis (GSEA) to the aggregate effect of genes in unit of ``gene set''. Specifically, gene set enrichment analysis attempts to determine whether the distribution of biological phenotypes are different between genes in a gene set and the other genes, which can be formulated as a non-parametric two-sample testing problem.
+
+\Rpackage{dslice} provides functions for doing gene set analysis and loading standard format files for gene set analysis (.cls, .gct, .gmt and .gmt). We demonstrate the use of dynamic slicing method on a well studied data set P53 NCI-60, which is available on the GSEA website (\url{http://www.broadinstitute.org/gsea/}) after register. The data files we use are P53.cls, P53.gct and C2.gmt. We also include this data set in \Rpackage{dslice} package. To see data sets in \texttt{R} packge, one can use
+
+<<see_data>>=
+data()
+@
+
+There are three data sets in \Rcode{dslice}: \Rcode{gsa$\_$exp}, \Rcode{gsa$\_$label} and \Rcode{gsa$\_$set}. We can load data for gene set analysis by typing:
+
+<<load_gsa>>=
+data(gsa_exp)
+data(gsa_label)
+data(gsa_set)
+@
+
+This data set assays 10,100 gene expression levels and consists of 17 normal samples and 33 samples with mutated p53. The C2 gene set contains 308 predefined functional gene sets (with gene set size between 15 and 500).
+
+Function \Rcode{ds$\_$gsa} is designed for doing gene set analysis by dynamic slicing method. Its usage is:
+
+\noindent\Rcode{ds$\_$gsa(expdat, geneset, label, generank, ..., lambda = 1, bycol = FALSE, minsize = 15, maxsize = 500, randseed = 11235, rounds = 1000)}
+
+The first three arguments can be either file path or data loaded by api functions \Rcode{load$\_$gct}, \Rcode{load$\_$gmt} and \Rcode{load$\_$cls}. \Rcode{generank} could be ither an integer vector of rank of each gene according to some statistic, or a character string naming a function which takes gene expression matrix as input and returns a vector of gene rank. We can genrate our rank list from our own rank function. \Rcode{...} are parameters of the function specified (as a character string) by \Rcode{generank}. Here is an example to define function used as \Rcode{generank}:
+
+<<rank_function>>=
+fc <- function(mat, label)
+{
+  d0 <- apply(x[,which(label == 0)], 1, mean)
+  d1 <- apply(x[,which(label == 1)], 1, mean)
+  d <- d1 / d0
+  return(order(d))
+}
+@
+
+\Rcode{lambda} is the penalty in dynamic slicing. \Rcode{bycol} indicates whether we shuffling gene rank or sample labels to generate background distribution. \Rcode{rounds} specifies the total number of permutation, which is related to the resolution of empirical \textit{p}-values.
+
+Function \Rcode{export$\_$res} exports the object generated by \Rcode{ds$\_$gsa} to a file.
+
+\section{Dynamic slicing model}
+\label{sec:model}
+
+In this section, we briefly give the theoretical part of dynamic slicing methods. For more details, please refer to \cite{jiang2014non}.
+
+\subsection{Model and theory under \Rcode{ds$\_$k} and \Rcode{ds$\_$eqp$\_$k}}
+\label{subsec:modelk}
+
+Let's go back to the \textit{K}-sample hypothesis testing problem that \Rcode{ds$\_$k} and \Rcode{ds$\_$eqp$\_$k} deal with:
+\[ \begin{split}
+              &H_0: \text{the distributions of $Y$ given $X=j$ ($1 \leq j \leq K$) are the same}\\
+\text{ v.s. } &H_1: \text{the distributions of $Y$ given $X=j$ ($1 \leq j \leq K$) are not the same}.
+\end{split} \]
+
+In traditional ways, testing started with analyzing $Y$ grouped by values of $X$, which is $Y | X = j$. Instead of directly modeling the distribution of $Y$ given $X$, we model the conditional distribution of $X$ given Y. To group $X$ according to $Y$, all observations are sorted by their values of $Y$ at first. Then we attempt to group $X$ around the rank list. We call the procedure of grouping $X$ according to $Y$ ``slicing''.
+
+Under $H_0$, the conditional distribution of $X$ does not depend on slices of $Y$ and
+\[ X \sim \mathrm{Multinomial}\left(1,(p_1, \ldots, p_K)\right), \quad \sum_{j=1}^K p_j=1. \]
+Under $H_1$, the distribution of $X$ conditional on slices is given by
+\[ X | S(Y) = h \sim \mathrm{Multinomial}\left(1,(p_1^{(h)},\ldots,p_K^{(h)})\right), \quad \sum_{j=1}^K p_j^{(h)}=1. \]
+We have
+\[ p_j = \mathrm{Pr}(X=j) = \sum_{h=1}^{|S|} P(S(Y)=h)p_j^{(h)}, \text{ for } j = 1,\ldots,K. \]
+and without loss of generality, we assume that $0 < p_1 \leq \ldots \leq p_K < 1$.
+
+Given a fixed slicing scheme $S(Y)$, the log-likelihood ratio of $H_1$ versus $H_0$ can be written as 
+\begin{equation}\label{eq:mi}
+n\widehat{\mathrm{MI}}\left(X,S(Y)\right) = \sum_{h=1}^{|S|}\sum_{j=1}^{K}n_{j}^{(h)}\log\left(\frac{n_{j}^{(h)}}{n^{(h)}}\right) - \sum_{j=1}^{K}n_j\log\left(\frac{n_j}{n}\right),
+\end{equation}
+where $\widehat{\mathrm{MI}}\left(X,S(Y)\right)$ is the plug-in estimator of the mutual information between $X$ and $S(Y)$ based on observations $\{(x_i, y_i)\}_{i=1}^{n}$, $n_j$ is the number of observations with $x_i=j$ ($i=1,\ldots,n$ and $j=1,\ldots,K$), $n^{(h)}$ is the number of observations in slice $s_h$ ($h=1,\ldots,|S|$) and $n_{j}^{(h)}$ is the number of observations with $x_i=j$ and $S(y_i)=h$. In a word, our goal is to test whether $\mathbf{p}^{(h)} = (p_1^{(h)},\ldots,p_K^{(h)})$ is invariant with respect to $h$, \textit{i.e.}, slicing strategies. Figure \ref{fig:lr} shows the likelihood ratio test in a given slicing strategy.
+
+\begin{figure}[h]
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\filldraw[thick, top color=yellow!50, bottom color=yellow!50] (0, 0) rectangle node{1123\hspace{6mm}$\ldots$\hspace{6mm}111} + (4, 0.8);
+\filldraw[thick, top color=yellow!50, bottom color=yellow!50] (4, 0) rectangle node{332\hspace{6mm}$\ldots$\hspace{6mm}133} + (4, 0.8);
+\filldraw[thick, top color=white] (8, 0) rectangle node{\hspace{5mm}$\ldots$\hspace{5mm}} + (4, 0.8);
+\filldraw[thick, top color=yellow!50, bottom color=yellow!50] (12, 0) rectangle node{221\hspace{6mm}$\ldots$\hspace{6mm}222} + (4, 0.8);
+\draw (-1.5, 1.8) node[anchor=west] {$H_1$:};
+\draw (-1.5, -0.8) node[anchor=west] {$H_0$:};
+\draw (10, 1.8) node[anchor=west] {$\ldots$};
+\draw [decorate,decoration={brace,amplitude=10pt},yshift=2pt] (0.0,0.8) -- (4.0,0.8) node [black,midway,yshift=20pt] {$S_1$};
+\draw [decorate,decoration={brace,amplitude=10pt},yshift=2pt] (4.0,0.8) -- (8.0,0.8) node [black,midway,yshift=20pt] {$S_2$};
+\draw [decorate,decoration={brace,amplitude=10pt},yshift=2pt] (12.0,0.8) -- (16.0,0.8) node [black,midway,yshift=20pt] {$S_{|S|}$};
+\draw [decorate,decoration={brace,amplitude=10pt},yshift=-2pt] (16.0,0.0) -- (0.0,0.0) node [black,midway,yshift=-20pt] {$S_1$};
+\end{tikzpicture}
+\end{center}
+\caption{Illustration of likelihood ratio test in dynamic slicing.}\label{fig:lr}
+\end{figure}
+
+The choice of the slicing scheme $S(Y)$ is important in detecting the dependence between a pair of $X$ and $Y$ in the \textit{K}-sample testing problem. As shown by Figure \ref{fig:slice}, different slicing schemes gives distinct results. What's more, unless the number of slices grows with sample size $n$, it is possible that $\mathrm{MI}(X,T(Y))=0$ when $\mathrm{MI}(X,Y)>0$ under $H_1$. On the other hand, if we divide observations into too many slices (in the most extreme case each slice only contains one observation), there will not enough power to distinguish the alternative and the null hypothesis. To solve this dilemma, we assign a prior on slicing schemes and choose the ``optimal'' slicing scheme under this prior. The final result is that we use a regularized log-likelihood ratio:
+\begin{equation}\label{eq:ds}
+  n\widehat{\mathcal{D}}_K = \max_{S} \left[ n\widehat{\mathrm{MI}}\left(X,S(Y)\right) - \lambda(n)(|S|-1) \right],
+\end{equation}
+where the maximum is taken over all possible slicing schemes. Furthermore, we assume that the penalty term in (\ref{eq:ds}) takes the form of $\lambda(n)=\lambda_0\log(n)$, where $\lambda_0>0$ is to be specified.
+
+<<diffslices, echo=FALSE, fig=TRUE, width=8, height=6, include=FALSE>>=
+set.seed(1)
+n<-30
+x1<-rep(1,n)
+x2<-rep(2,n)
+y1<-c(rnorm(n/2,-2,0.5),rnorm(n/2,2,0.5))
+y2<-rnorm(n,0,1)
+
+xrange <- c(0.5,2.5)
+yrange <- c(-3.2,3.2)
+
+par(mfrow=c(1,2))
+
+plot(x1, y1, xlim=xrange, ylim=yrange, pch=paste(1), col=2, xlab="X", ylab="Y", xaxt="n", cex=1.5)
+axis(side=1, at=c(1,2), label=c(1,2))
+par(new=T)
+plot(x2, y2, xlim=xrange, ylim=yrange, pch=paste(2), col=4, xlab="", ylab="", xaxt="n", cex=1.5)
+axis(side=1, at=c(1,2), label=c(1,2))
+abline(h=0, lty=2, lwd=2)
+
+plot(x1, y1, xlim=xrange, ylim=yrange, pch=paste(1), col=2, xlab="X", ylab="Y", xaxt="n", cex=1.5)
+axis(side=1, at=c(1,2), label=c(1,2))
+par(new=T)
+plot(x2, y2, xlim=xrange, ylim=yrange, pch=paste(2), col=4, xlab="", ylab="", xaxt="n", cex=1.5)
+axis(side=1, at=c(1,2), label=c(1,2))
+abline(h=1, lty=2, lwd=2)
+abline(h=-1, lty=2, lwd=2)
+@
+\begin{figure}[htpb]
+  \centering
+  \includegraphics[width=0.64\textwidth]{dslice-diffslices}
+  \caption{Illustration of different slicing schemes. \textit{X} is a binary indicator for samples from two populations and \textit{Y} is a continuous variable. Left panel: by dividing the observations into two slices according to \textit{Y}, we are not able to reject the null hypothesis since the number of observations with \textit{X}$=$1 and \textit{X}$=$2 are almost equal in two slices. Right panel: by dividing the observations into three slices according to \textit{Y}, we can detect the dependence between \textit{Y} and \textit{X}.}
+  \label{fig:slice}
+\end{figure}
+
+The searching of optimal slicing strategy follows a dynamic programming procedure, which is a variant of the \emph{Viterbi algorithm}. Under the optimal slicing strategy, \cite{jiang2014non} have proofed that $\widehat{\mathcal{D}}_K = 0$ almost surely under the null hypothesis and is larger than a given positive number almost surely under the alternative hypothesis as sample size $n$ goes to infinite.
+
+When $n$ is extremely large, the above procedure may be time consuming, we can first divide ranked observations into $O(n^{1/2})$ bins such that each bin contains approximately $n^{1/2}$ observations. Then, we can define a test statistic to have the same form as (\ref{eq:ds}) except that the maximization is taken over slicing schemes restricted on the fixed $O(n^{1/2})$ bins (slicing is not allowed within a bin). The corresponding statistics $\widehat{\mathcal{D}}^*_K$ has similar theoretical properties with $\widehat{\mathcal{D}}_K$. For more details, please refer to \cite{jiang2014non}. Although lower resolution may decrease the power of the test, it can reduce the computational complexity of the dynamic slicing algorithm from $O(n^2)$ to $O(n)$. Figure \ref{fig:dseqp} shows the possible slicing positions ($t_i$, $i = \{1,2,3,4,5,6\}$) in $O(n^{1/2})$-resolution version:
+
+\begin{figure}[h]
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\filldraw[thick, top color=yellow!50, bottom color=yellow!50] (0, 0) rectangle node{0000110110011001001100010110111100001001000010101101111011101110} + (15.6, 0.8);
+\draw [dashed] (2.22, 1.0) -- (2.22, -0.2) node[anchor=north] {$t_1$};
+\draw [dashed] (4.45, 1.0) -- (4.45, -0.2) node[anchor=north] {$t_2$};
+\draw [dashed] (6.55, 1.0) -- (6.55, -0.2) node[anchor=north] {$t_3$};
+\draw [dashed] (8.8, 1.0) -- (8.8, -0.2) node[anchor=north] {$t_4$};
+\draw [dashed] (10.7, 1.0) -- (10.7, -0.2) node[anchor=north] {$t_5$};
+\draw [dashed] (13.3, 1.0) -- (13.3, -0.2) node[anchor=north] {$t_6$};
+\end{tikzpicture}
+\end{center}
+\caption{Illustration of possible slicing positions of \Rcode{ds$\_$eqp$\_$k}}\label{fig:dseqp}
+\end{figure}
+
+\subsection{Model and theory under \Rcode{ds$\_$1} and \Rcode{ds$\_$eqp$\_$1}}
+\label{subsec:ds1}
+
+One-sample testing problem differs from the \textit{K}-sample problem in our setup, as it can no longer be recast as a test of independence. But a similar slicing idea may apply. As we map the observations to the given cumulative distribution function, the hypothesis testing problem is converted into testing whether their corresponding quantiles are uniformly distributed on [0, 1].
+
+Given a fixed slicing scheme $S(Y)$, the log-likelihood ratio of alternative versus null can be written as
+\begin{equation}\label{eq:kl}
+n\mathrm{KL}\left(\widehat{P}_n(S(Y))||P_0(S(Y))\right) = \sum_{h=1}^{|S|}n_h\log\left(\frac{n_{h}}{nw_h}\right),
+\end{equation}
+where $w_h = |s_h|$ is the width of slice $s_h$ and $n_h$ is the number of observations in slice $s_h$. $\mathrm{KL}\left(\widehat{P}_n(S(Y))||P_0(S(Y))\right)$ is the Kullback-Leibler divergence between the empirical distribution of $S(Y)$, $\widehat{P}_n(S(Y))$, and the null distribution of $S(Y)$, $P_0(S(Y))$. 
+
+To avoid having too many slices or slices that are arbitrarily small, we introduce a prior on slicing schemes. It gives us the following statistic:
+\begin{equation}\label{eq:ds1}
+  n\widehat{\mathcal{D}}_1\left(\alpha_0\right) = \max_{S} \left[ n\mathrm{KL}\left(\widehat{P}_n(S(Y))||P_0(S(Y))\right) - \lambda(n)(|S|-1) + \alpha_0 \sum_{h=1}^{|S|}\log\left(w_h\right) \right],
+\end{equation}
+where the penalty term $\lambda(n) = -\log\left(\theta_n\right)$ and is assumed to take the form of $\lambda(n)=\lambda_0\log(n)$. The parameter $\lambda_0$ penalizes the number of slices, while the parameter $\alpha_0$ penalizes both the width and the number of slices. A larger value of $\alpha_0$ gives rise to a heavier penalization on small slices and $\alpha_0$ can be viewed as a prior on the ``smoothness'' of the estimated densities under the alternative hypothesis.
+
+An variant version of the above procedure is to divide interval [0, 1] into $n$ equal size slices, which avoid the arbitrarily small slices (slicing immediately to the both sides of sample at the same time). The candidate slicing positions are only depends on the sample size. Let's denote the statistic of this version as $\widehat{\mathcal{D}}^*_1(0)$.
+
+As \textit{K}-sample test, the optimal slicing strategy could be obtained via a dynamic programming procedure. Under the optimal slicing strategy, \cite{jiang2014non} have proofed that $\widehat{\mathcal{D}}_1\left(\alpha_0\right)$ and $\widehat{\mathcal{D}}^*_1(0)$ have similar theoretical properties with $\widehat{\mathcal{D}}_K$ when $n$ goes to infinite. For more details, please refer to \cite{jiang2014non}.
+
+\bibliographystyle{jss}
+\bibliography{dslice}
+
+\end{document}

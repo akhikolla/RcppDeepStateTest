@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_sumcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp/sumcpp_output/72b7ba4b97120ab48ee1dae778a4ea16ccd87130.fail`
+TRACE: Running: timma_deepstate_test_sumcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp/sumcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 2.98605e+267 3.30834e-271 -9.49336e+302 2.77691e-56 1.427e-235 -1.13018e+211 -3.9585e+279 -2.28915e-136 -1.00456e-116 4.56094e-109 7.61263e-190 -4.81356e+116 -2.87604e+169 2.43764e+281 1.35061e-217 4.37805e+217 -inf 1.74943e-21 3.81145e-252 4.64927e-150 nan 2.98605e+267 inf 0
+x values: 435998561
+y values: 1598100820
+j values: 856777286
+input ends
+
+error: Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+ERROR: Failed: timma_deepstate_test_sumcpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp/sumcpp_output/72b7ba4b97120ab48ee1dae778a4ea16ccd87130.fail failed

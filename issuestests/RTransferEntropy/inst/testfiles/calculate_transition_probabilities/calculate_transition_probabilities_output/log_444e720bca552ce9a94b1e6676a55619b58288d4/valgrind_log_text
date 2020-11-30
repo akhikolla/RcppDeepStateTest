@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (RTransferEntropy_deepstate_test_calculate_transition_probabilities_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/444e720bca552ce9a94b1e6676a55619b58288d4.crash`
+TRACE: Running: RTransferEntropy_deepstate_test_calculate_transition_probabilities_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -247776195 -767009655 -1487364449 -203911584 -39355592 -1983409805 739101276 -1329647455 -93462836 -1254468260 -1812726906 -863377719 811664057 680733781 -1577668271 -1243417936 1339063300 198336670 -983882607 -469017836 1818086805 -251991407 -258219354 2111067852 -1512910672 -1540338070 -1955398801 2102821866 -1286504540 1265186107 68739458 -331919727 169820590 1334778075 34884223 1791912222 535347818 1375184214 260561148 -1104769592 1171224469 1586458720 -1548034034 -2008470361 854462851 -440935947 1051849212 -662780643 1295823532 -886961041 -571703963 917048680 -1759581316 -708480749 1986138190 -506106834 287234780 1105677086 -741833975 1905291528 815986132 586586264 1504241466 2102618254 1900243634 716624125 2119436272 -461834093 -713221897 1957728461 1484195797 815986132 -1295126820 -2084644350 316797687 1508543023 1755457244 1387702698 766541815 534918098 -1339969997 -544721422 1764223427 309588602 370693736 -805366788 -1349323570 1965531173 1213159463 -678553279 -1258158905 1995850124 244839645 -1777870267 -1697770481 -172739523 59532507 444472528 -2145347594
+lx values: 358341656
+input ends
+==1883077==  If you believe this happened as a result of a stack
+==1883077==  overflow in your program's main thread (unlikely but
+==1883077==  possible), you can try to increase the size of the
+==1883077==  main thread stack using the --main-stacksize= flag.
+==1883077==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: RTransferEntropy_deepstate_test_calculate_transition_probabilities_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/444e720bca552ce9a94b1e6676a55619b58288d4.crash crashed

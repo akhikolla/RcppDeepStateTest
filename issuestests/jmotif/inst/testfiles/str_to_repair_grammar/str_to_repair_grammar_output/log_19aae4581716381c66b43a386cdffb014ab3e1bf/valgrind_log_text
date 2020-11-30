@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_str_to_repair_grammar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/str_to_repair_grammar/str_to_repair_grammar_output/19aae4581716381c66b43a386cdffb014ab3e1bf.fail`
+TRACE: Running: jmotif_deepstate_test_str_to_repair_grammar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/str_to_repair_grammar/str_to_repair_grammar_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+str values: "ulhq" "NA" "NA" "qmzwvnjkuogvxigwanj" "NA" "ljegthzzzarqygkmqxgq" "mputkvbtca" "NA" "crdpeufdamjvzrjrqp" "eitszq" "bxcmqaauxredlc" "ytqwuahdacfdzvufgezh" "NA" "dihiwhmnhfhtbiphnfbl" "amwooaygkoaybfciiqdh" "v" "NA" "eptpmxzvbjgmcal" "NA" "kootxrmpnvup" "NA" "fmmecbjhqgrtdooundjy" "NA" "ueqriadttfkmtmjgdytr" "cpfzajkqcmyogypxitmk" "tpzm" "ubzo" "ftxcbuid" "NA" "vscqcqsnywdrhzsldshj" "napqrivhtkhxarzvzxad" "hefrlpppwrpujhvf" "xewvrqozfozdiqx" "molllcedjcitinn" "NA" "kmmhoslytol" "yisvdjctrlxfcoedxtwo" "NA" "wsbloqsnsrkhadildetk" "vmlnwemvqzheaezmaa" "ya" "NA" "jkfwfaulcynyxyqnnwgj" "NA" "NA" "axjmoxrfzuektrmtvetl" "moywmf" "nhdghpvrceba"
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=48].
+ERROR: Failed: jmotif_deepstate_test_str_to_repair_grammar_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/str_to_repair_grammar/str_to_repair_grammar_output/19aae4581716381c66b43a386cdffb014ab3e1bf.fail failed

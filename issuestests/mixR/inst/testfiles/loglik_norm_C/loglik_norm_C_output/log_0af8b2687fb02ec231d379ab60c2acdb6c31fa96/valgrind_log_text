@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_loglik_norm_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/loglik_norm_C/loglik_norm_C_output/0af8b2687fb02ec231d379ab60c2acdb6c31fa96.fail`
+TRACE: Running: mixR_deepstate_test_loglik_norm_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/loglik_norm_C/loglik_norm_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -inf 1.28439e+38 -6.95022e+220 -inf 4.5688e-166 1.90248e-81 2.58372e-273 1.14252e-189 -3.97575e-216 2.13731e-224 -2.80622e+261 7.39766e-112 -2.07679e-122 -3.31336e+187 1.55351e-05 7.22492e+275 -9.55258e-175 -1.85523e+10 1.56352e+217 -1.6406e+241 7.43945e-60 -3.6903e+263 5.16374e+209 -6.25687e-07 3.47827e+99 -4.19656e+307 7.416e-175 inf -7.87793e-308 -1.62202e-247 -4.26628e-178 -inf -2.31688e+108 -5.43073e-170 -8558.67 -2.77994e-65 7.54077e+250 -6.61091e-18 1.47384e+88 1.71003e-41 2.62345e-305 1.03774e-267 1.58604e-269 3.83336e-281 -7.86857e-287 -7.87088e-269 2.13322e+266 -2.55055e-110 0
+pi values: 1.8055e+72 -2.24512e-257 -1.03142e+157 -1.82345e+292 -4.93186e+114 nan -3.77017e-269 -4.9295e+268 6.26468e+35 -3.72957e+87 nan -1.5831e-41 -1.70469e-29 -1.57989e+201 -1.6193e+24 -1.03142e+157 2.44301e-191 -3.44158e-239 -1.16819e+298 4.32958e+196 0
+mu values: -3.70333e-84 -1.12935e-69 -inf nan 2.76875e+36 -1.83315e-112 -2.79975e+152 0
+sd values: nan inf -1.28966e-153
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=3; extent=3].
+ERROR: Failed: mixR_deepstate_test_loglik_norm_C_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/loglik_norm_C/loglik_norm_C_output/0af8b2687fb02ec231d379ab60c2acdb6c31fa96.fail failed

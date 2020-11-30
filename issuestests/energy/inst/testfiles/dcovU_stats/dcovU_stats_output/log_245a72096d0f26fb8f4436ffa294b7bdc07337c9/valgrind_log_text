@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (energy_deepstate_test_dcovU_stats_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/dcovU_stats/dcovU_stats_output/245a72096d0f26fb8f4436ffa294b7bdc07337c9.pass`
+TRACE: Running: energy_deepstate_test_dcovU_stats_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/dcovU_stats/dcovU_stats_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Dx values: 7.87453e+31 9.12183e+74 6.93188e-09 4.64093e-227 1.15896e-186 1.89332e-238 1.59782e-37
+2.73629e-118 3.61239e+258 1.38610e+284 8.54425e-70 2.22253e+20 8.61766e-210 2.79911e-157
+2.93538e+61 5.25302e-147 2.53615e-299 1.47190e+210 1.03095e-135 1.18338e-237 1.40159e+282
+
+Dy values: 2.34004e-103
+1.20019e-81
+2.44958e+219
+7.44389e+127
+6.41117e-242
+
+input ends
+TRACE: Passed: energy_deepstate_test_dcovU_stats_test

@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (particles_deepstate_test_nbody_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/particles/inst/testfiles/nbody/nbody_output/4139727eb3604ee68f2b479280cdb11025997083.pass`
+TRACE: Running: particles_deepstate_test_nbody_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/particles/inst/testfiles/nbody/nbody_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pos values: 1.65709e+296 1.35005e+249 3.05350e+06 1.25098e+177 7.84153e+136 2.71907e+175 3.84693e+82 7.06483e+276 5.74661e+246 1.89392e-182
+1.51975e+300 7.68495e+230 2.86709e-167 3.95636e-125 7.46119e-78 3.19640e+220 6.74919e-52 2.17275e-18 4.09912e-305 5.50529e+143
+2.67914e+26 1.01589e-147 1.60311e+219 3.60625e-207 5.79650e+97 6.71675e+211 2.04859e-147 6.29924e+160 1.58460e-29 2.61765e+204
+8.55322e+237 4.28900e+277 3.34808e+102 1.99615e+188 7.46651e-95 2.81488e-90 9.11089e+252 4.05092e-17 8.63344e-128 6.58300e-113
+
+strength values: -9.87427e-164 -7.21505e+78 -7.72414e+269 -4.2031e+160 nan 2.92533e-50 6.21619e+164 -1.11956e-177 -2.16516e-63 -2.2378e+131 -inf -5.05681e-43 1.72711e-223 9.32626e-291 -5.25543e+113 -3.72454e+123 6.30303e-237 7.82751e+82 -1.23981e+237 1.7435e-291 -9.0096e-113 -9.00543e-197 -2.43188e-80 nan 0
+theta values: 6.16765e-30
+min_dist values: -5.81873e+181
+max_dist values: 5.11204e+189
+alpha values: -1.51646e+155
+input ends
+TRACE: Passed: particles_deepstate_test_nbody_test

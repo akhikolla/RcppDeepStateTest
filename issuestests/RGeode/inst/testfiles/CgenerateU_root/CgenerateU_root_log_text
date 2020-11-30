@@ -1,0 +1,122 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695468
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_CgenerateU_root_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: 1.40861e-230 -3.71101e+259 -6.0461e-216 1.95932e+09 -3.90553e+204 1.85651e+188 1.03731e-267 -6.03741e-137 6.52656e+10 1.92187e+161 -2.98991e-160 -inf -2.64038e-142 -1.35932e+221 8.5165e+58 nan -2.61511e+195 -2.21733e-198 6.67069e-243 nan 5.02063e+207 3.00531e-288 -1.03761e-221 -5.4244e-188 -4.68702e-270 -1.32716e-217 7.36205e+62 -inf
+N values: 1516974586
+SIGMAS values: -1.02273e+148
+Z values: 2.77080e+288 4.61823e+246 7.42089e+273 6.99300e-230 4.69124e+24 2.51537e-198 1.07338e-150 9.90879e-26
+2.73276e-53 9.09163e-89 2.57308e-275 3.23926e+210 2.89935e+299 3.52661e-173 1.82714e-295 6.02507e-202
+4.74544e+40 1.00135e+232 1.09931e-200 1.39586e+101 3.51632e-07 5.54721e+270 2.62897e-248 1.15311e-107
+2.72717e-308 8.13711e+229 4.55449e-260 1.40849e-302 3.09582e-251 1.91504e-153 5.41010e-64 8.52414e+204
+4.12656e+240 3.61932e+87 5.96152e-125 1.79271 2.36166e-09 1.61558e-100 1.97107e-237 4.92259e-190
+8.31902e+170 3.80903e+166 1.22978e+179 8.41349e+139 3.81552e+266 3.04296e+55 6.22655e+207 1.17618e-140
+3.59401e+268 9.09240e-255 3.96146e+121 3.79633e-175 2.13534e-194 2.26965e-125 1.10856e-287 6.43315e+38
+7.90771e-49 2.88275e-252 2.41837e-122 5.84111e+58 6.37162e-259 5.59024e+290 1.76489e-166 3.65989e+104
+5.02586e+268 6.97259e-22 3.50690e+67 7.68847e+28 6.59735e-211 2.42612e-77 2.56887e-143 3.06084e+305
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=8; column extent=8].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/1db9dbb6063387b16e8537feee0ccfbdd66a2202.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: 2.92608e+161 2.83412e+224 8.49933e+64 -1.40189e-202 2.01594e+173 nan -0.265027 inf nan -1.92564e-267 -7.51747e+289 -2.39004e-254 -1.04899e+91 -1.80673e+285 -1.7135e+195 inf 4.60993e+285 -1.7035e-73 0
+N values: 753053781
+SIGMAS values: -3.72891e-189
+Z values: 3.02964e+25 5.71989e+40 2.12954e+115 7.83359e+265 2.07487e+253 2.52531e-21
+1.04334e+102 2.40313e+79 1.00809e+13 8.41514e+101 5.73272e-108 9.88119e-111
+4.13869 1.30312e+242 1.38740e+54 1.54248e-120 1.17849e+37 1.08661e+278
+4.22966e+65 5.90795e+145 2.42745e+119 3.75144e+231 5.78840e+259 3.75920e-308
+2.09348e+254 4.58630e+56 7.68334e+130 1.17426e-07 2.27936e-233 5.35168e+271
+7.22313e-94 4.92830e-72 1.91550e-196 5.07756e-20 6.93471e+237 2.25679e+115
+7.47271e-306 8.79118e+37 7.16727e-184 1.68214e-103 2.66836e+112 1.45708e+12
+1.85544e-121 2.93490e-278 9.33945e+129 2.61375e+58 7.62712e+210 2.20256e-257
+1.30321e-214 2.87902e-249 2.50267e-272 1.14348e-41 7.17460e-99 1.82781e+39
+1.42582e-205 8.60015e-220 1.19004e-133 1.32183e-286 3.77795e-88 2.55789e-252
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=6; column extent=6].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/78deff3c49dda9e03c3ca158ddf4469be69d6c9a.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: 4.81084e+250 4.81084e+250 -2.65805e+209 -5.08315e+16 -5.41521e-281 inf 5.02212e+300 3.37447e+75 4.81084e+250 4.81084e+250 1.73185e-133 8.84304e+150 0
+N values: 1639570896
+SIGMAS values: 4.12499e+64
+Z values: 1.14403e+24 5.75313e-08 8.25519e+197 6.44909e-245 4.01690e+49 1.10936e+227 1.29614e-154 5.02873e+47 2.74447e+167
+1.93600e-151 5.69817e+06 1.72456e+61 1.59626e+10 1.82731e-244 4.21920e-77 5.02701e+165 4.48405e-181 1.80010e-36
+3.11300e+11 2.74377e+155 7.02991e-10 1.00713e+13 1.57571e-204 1.28249e+266 1.74360e+220 5.10037e+143 2.12651e-288
+7.67393e+117 5.29684e-206 1.40460e-95 9.83468e-79 3.57688e-143 3.60294e+74 4.98010e+234 8.04077e+12 5.00022e-293
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=9; column extent=9].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/a317354468ee09b697bef94e11a12eec2f35579b.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: -5.12303e+77 inf 3.17616e-231 -4.56681e-239 3.6342e-268 -1.95963e-60 -2.56694e-161 -6.9977e+171 -1.9381e-20 -1.79715e-241 -6.72177e+152 1.74841e-81 -1.655e-162 2.49861e+183 4.39805e-45 5.70211e+17 5.48493e+281 -8.68635e+186 -6.57807e-198 inf -9.69402e+135 2.07585e-212 1.60736e+87 nan -5.92706e+63 3.02939e+289 1.7519e-192 nan 2.03418e-225 -inf 1.2097e-20 -5.66536e-290 3.52316e+155 9.51594e+24 1.15838e+237 -1.46984e+46 2.98355e-21 0
+N values: 518090465
+SIGMAS values: 4.58884e+131
+Z values: 1.18135e+122 6.15256e-235
+2.41924e+144 6.26537e-19
+3.70179e+158 2.07853e-49
+7.37456e+154 1.09055e+145
+2.50026e+299 7.98442e+238
+5.79945e-61 1.53069e+266
+1.69533e+80 6.21072e-255
+7.17043e+21 5.32937e-143
+2.12247e+130 1.07231e+231
+5.67183e-268 1.10375e+166
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=2; column extent=2].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/1b98f1ebfcd2a4d2b20ebe59ba6f6be778f69d28.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: -0.000541311 6.17038e+259 -6.27371e+175 6.68504e+187 1.81883e-305 1.32194e+256 -1.40528e-230 -1.21448e+151 -1.85535e-22 3.60807e-72 -2.37357e+52 7.55509e+22 1.32218e+199 2.60307e-92 -1.36046e-242 3.62739e+189 -3.79031e+205 9.85939e+246 -1.40205e-141 2.10951e-37 1.85719e+149 3.2145e-164 -3.77913e+273 2.16135e+16 -7.05917e-288 -6.7074e-198 8.89497e-64 nan -7.27242e-132 4.04165e-47 4.54437e-38 -4.50633e-304 1.6399e+53 -1.77114e+102 -4.5071e+86 nan 2.84682e+105 8.26384e+227 -3.53089e-233 2.5705e-294 6.32761e-200 -1.08588e+293 1.4825e+118 -3.25746e+255 3.30687e-186 -1.55037e-270 -1.19148e+118 -2.33346e-162 -9.74309e+285 1.44066e-214 1.89599e+172 -1.89141e-147 1.53442e-168 9.28503e+211 nan -4.1562e-162 2.38256e+112 -4.09183e-130 -3.16545e+75 1.85828e+73 -2.88113e-308 -7.78711e-45 -5.36719e-233 -1.15158e-117 -4.2869e+213 1.13634e-05 nan -1.19244e-182 0
+N values: -215748090
+SIGMAS values: 2.89493e-116
+Z values: 2.04373e-116 1.07201e-29 58.9288 1.76738e-193 6.40206e-298 3.63574e+232
+1.64958e+240 1.31849e-191 7.38270e-44 3.18942e+252 3.48159e-53 2.47327e+303
+2.68642e+201 1.85610e-31 2.83962e+170 7.97383e+231 4.33978e-91 1.46916e-154
+1.49759e-153 6.98142e-290 1.42887e-114 7.34056e-141 2.21712e+198 5.82034e+227
+6.66381e+31 5.71361e+281 1.26799e+133 2.44900e-294 4.49843e+111 5.43819e+40
+1.23963e+20 3.13573e-41 3.03642e-249 3.89887e-109 1.83644e-33 3.08584e+281
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=6; column extent=6].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/bc15bad467a022779335fd4d7d0f8ff3b096a6b1.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: 1.94894e-277 -8.22915e-288 4.55155e-213 2.20415e+24 1.37995e-163 5.95892e-91 1.85426e+86 4.89624e-250 5.88138e+222 8.97073e+20 1.73526e-185 2.27929e+205 3.82297e-119 3.54118e+62 -2.63598e+246 -3.16239e+211 -6.09014e+264 -1.83551e-247 5.95407e-134 -8.72798e-237 -1.57354e-218 nan -3.92204e-234 4.67695e-58 -1.32509e+235 5.33841e+121 1.86182e+295 inf 4.75446e+283 2.86551e+173 nan nan 1.26339e+64 -2.10448e-277 -2.09025e+290 -1.35792e-208 -2.30858e+233 -2.24517e-184 2.99001e-169 -6.04547e-151 -7.84069e+118 -inf 0
+N values: 1919026067
+SIGMAS values: -2.90421e+205
+Z values: 4.53105e-197 8.37656e+271 7.63684e-18 3.71645e+199 1.20141e+142
+6.49486e+44 2.14556e+303 7.79169e+155 1.80052e-155 1.56090e+18
+1.16987e-247 8.02605e+129 2.89495e+302 7.83831e-255 2.56547e-241
+2.91245e+188 3.04231e-78 3.76971e-282 1.55158e+103 9.93011e-295
+5.83708e+304 4.86282e+200 4.94591e-89 6.15395e+236 4.66177e+40
+4.98757e-125 1.70175e+76 7.94480e-61 1.07084e-295 6.84511e+20
+2.97277e-15 6.15092e+16 7.54097e-20 3.50278e+24 2.77691e-267
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=5; column extent=5].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/edcbbf3c4b579ed8e6fbf4209ec6eb7d83833bf7.fail`
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 6 failed/0 passed/0 abandoned tests

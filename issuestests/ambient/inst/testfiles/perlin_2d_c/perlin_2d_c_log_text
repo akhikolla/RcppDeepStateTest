@@ -1,0 +1,99 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695523
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_perlin_2d_c_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 489619793
+width values: -602805511
+seed values: 456779898
+freq values: -9.8956e-124
+interp values: 270678778
+fractal values: 590243490
+octaves values: -508939010
+lacunarity values: 3.51182e+162
+gain values: 8.09062e-202
+pertube values: -1550598989
+pertube_amp values: 2.80559e-282
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: -667136705
+width values: -1416570187
+seed values: 1650394305
+freq values: 1.05143e+162
+interp values: 2139051061
+fractal values: 2062357638
+octaves values: 561467641
+lacunarity values: -3.23264e-231
+gain values: 4.13347e-105
+pertube values: -1479242970
+pertube_amp values: -4.50887e+218
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: -1749012933
+width values: 2977575
+seed values: 1608694646
+freq values: -2.51896e+95
+interp values: -959491248
+fractal values: 2019605548
+octaves values: 650338749
+lacunarity values: 1.41829e-170
+gain values: -1.53603e-108
+pertube values: 222985427
+pertube_amp values: 1.10632e+105
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: -1623279090
+width values: -1835737482
+seed values: -1430385320
+freq values: -3.6546e-65
+interp values: 879592344
+fractal values: 1619591623
+octaves values: 567524032
+lacunarity values: -2.47366e-67
+gain values: 1.70855e-66
+pertube values: -774511611
+pertube_amp values: 5.67118e-220
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 327033933
+width values: -455246059
+seed values: 32598479
+freq values: 1.69932e+275
+interp values: -25947794
+fractal values: -1228338907
+octaves values: 750047039
+lacunarity values: -4.57112e+92
+gain values: 1.94803e-167
+pertube values: 40211968
+pertube_amp values: -2.2219e-170
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

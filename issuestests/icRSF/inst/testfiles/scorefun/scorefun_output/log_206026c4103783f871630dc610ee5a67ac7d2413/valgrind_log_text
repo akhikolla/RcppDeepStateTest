@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (icRSF_deepstate_test_scorefun_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icRSF/inst/testfiles/scorefun/scorefun_output/206026c4103783f871630dc610ee5a67ac7d2413.pass`
+TRACE: Running: icRSF_deepstate_test_scorefun_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icRSF/inst/testfiles/scorefun/scorefun_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+beta values: 7.74606e+154
+x values: 1.75422e+179 -4.49592e+243 2.38843e-151 -4.66986e+96 2.51149e-118 1.66165e+30 -3.1353e+26 8.42346e+209 2.36952e-123 3.21467e+291 2.143e+190 nan -8.34474e-134 1.23577e+273 -4.88612e+81 nan -8.27548e+245 8.16084e+143 5.05554e-161 4.11738e-197 1.90221e+268 -2.45542e-146 2.03775e-278 -1.44834e+306 -1.26164e-156 -3.78797e-197 -1.24717e+128 1.43983e-282 1.74546e+278 -3.30175e-286 -2.53562e+122 4.34519e-218 -1.32226e-64 -inf nan -1.53427e+113 -4.28504e+222 1.2389e-83 7.33e-118 3.0164e+240 -1.49281e+279 8.57488e-162 1.49084e+284 -1.52953e+240 -6.86107e-35 4.55769e+261 8.41905e+281 -6.40418e-198 4.96817e-141 -2.39677e+99 -2.04e-128 nan 6.90333e-90 7.28432e+241 2.66316e+300 1.74714e+54 0
+parm values: 2.21724e+226 295613 -4.22509e-157 -4.66801e+290 2.82641e+88 2.83449e+136 1.83599e+09 nan -2.69647e-132 -3.35438e-95 3.4505e-239 2.11809e-105 2.64042e+211 -2.82862e+93 -8.67404e+26 9.79179e+73 -4.29975e+254 -5.28323e+43 6.65454e-150 1.38616e+198 -inf -2.62528e+108 -3.17359e-263 -8.79924e-275 2.34349e-65 1.52262e-111 4.57816e+149 -2.54651e-167 2.16938e-70 -6.38485e-175 -2.41752e-46 8.16746e+99 4.9193e+201 nan 4.60177e-107 2.4345e-148 4.86445e+108 -inf 7.07967e+296 -4.23011e-48 3.3972e-203 -3.42758e+79 -2.38926e+236 -2.64868e+48 -2.89898e+199 3.9921e+185 2.9185e-243 4.63713e+88 6.88604e+183 1.50826e-281 -1.86606e+124 6.98561e+262 3.98356e+119 nan 0
+Dmat values: 1.25499e+171
+2.20272e-156
+3.95210e-206
+2.60895e+119
+2.04325e-278
+
+input ends
+TRACE: Passed: icRSF_deepstate_test_scorefun_test

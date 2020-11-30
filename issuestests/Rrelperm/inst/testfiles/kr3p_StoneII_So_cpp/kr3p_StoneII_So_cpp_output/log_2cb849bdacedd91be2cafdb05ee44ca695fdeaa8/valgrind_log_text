@@ -1,0 +1,30 @@
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr3p_StoneII_So_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_So_cpp/kr3p_StoneII_So_cpp_output/2cb849bdacedd91be2cafdb05ee44ca695fdeaa8.fail`
+TRACE: Running: Rrelperm_deepstate_test_kr3p_StoneII_So_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_So_cpp/kr3p_StoneII_So_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -1.1322e+61
+SWCRIT values: 1.23255e+82
+SOIRW values: 2.37705e+60
+SORW values: -3.03666e+181
+SOIRG values: 3.47989e+233
+SORG values: -3.99064e+174
+SGCON values: -9.79904e+30
+SGCRIT values: -2.10112e-160
+KRWIRO values: 906521
+KROCW values: -4.00146e-243
+KRGCL values: 2.62036e-156
+NW values: 1.25759e+144
+NOW values: -6.01842e+252
+NG values: 8.84449e-147
+NOG values: -2.18447e-75
+NP values: 1131473802
+input ends
+==1887545==  If you believe this happened as a result of a stack
+==1887545==  overflow in your program's main thread (unlikely but
+==1887545==  possible), you can try to increase the size of the
+==1887545==  main thread stack using the --main-stacksize= flag.
+==1887545==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: Rrelperm_deepstate_test_kr3p_StoneII_So_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_So_cpp/kr3p_StoneII_So_cpp_output/2cb849bdacedd91be2cafdb05ee44ca695fdeaa8.fail crashed

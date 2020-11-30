@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_series_to_chars_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_chars/series_to_chars_output/4ed1946e2bbc3294623c892bb891e482253b99ab.pass`
+TRACE: Running: jmotif_deepstate_test_series_to_chars_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_chars/series_to_chars_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 1.04786e-08 -1.87894e+251 1.85708e-09 -8.21158e+98 -2.2688e-204 1.06488e-30 8.1835e+37 -1.34847e-184 nan 3.71579e-246 3.60714e+73 9.29317e+282 -2.07765e+206 -8.6189e-284 9.87753e+216 1.90446e+263 -inf -2.33269e-72 -2.73139e+163 -9.39755e+168 -9.15847e+285 7.06607e+157 2.35202e-298 -2.58659e-43 1.01143e-137 -6.77091e-62 -1.9857e+74 3.62208e+56 2.65088e+101 -1.63864e+215 -1.97011e+188 4.68262e+88 -1.97908e+19 1.76884e-283 -2.16174e+243 -4.46801e+159 -5.31051e-26 -3.18805e-250 7.84887e+148 -4.5811e-113 2.41554e-185 -1.77554e-121 3.30113e+167 -2.18599e-308 -2.16218e-229 -5.09898e-43 8.5205e+89 4.89344e+10 2.07609e-169 8.10765e-08 -8.13873e+177 nan -3.49931e+182 -3.08219e-103 -1.58039e+264 1.72094e-10 inf 3.31008e-149 2.52363e-167 -3.46484e+204 4.47047e+170 1.7073e-194 -1.05391e-97 1.1308e+36 -2.09982e+174 2.23029e-112 1.10666e+150 -1.13749e-43 2.3703e+165 -1.68732e+27 -1.02468e-65 5.89271e-140 -1.65395e-197 -1.11249e+266 -7.54711e+61 -932.333 4.10775e+131 -2.21017e+176 0
+a_size values: 2011615848
+input ends
+Exception Handled
+TRACE: Passed: jmotif_deepstate_test_series_to_chars_test

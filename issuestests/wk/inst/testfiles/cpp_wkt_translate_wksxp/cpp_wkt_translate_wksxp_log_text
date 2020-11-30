@@ -1,0 +1,52 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677512
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_wkt_translate_wksxp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "fpjrfaxgg" "csfapbeay" "o" "ycucfxiixkltoqamqtri" "ns" "keekwlgfyevhbjesurgi" "NA" "lytxxgiyjvlhqmqcxqhi" "zbjgzfgvgltzuqrqyadk" "mhiuatljnxmmsxbaaqmh" "rjsqxdqggysxfsocdspc" "hbmabrgqjohxiatmmqjr" "NA" "gmrxlhsawkyxmzuvkeai" "lplxwhgjlrhvngtvbztz" "NA" "jluogzhpdmiuivlfrphb" "pairwmp" "NA" "vcnfbzgdrjyxhbpbjtgf" "NA" "kicyzyhv" "NA" "NA" "p" "NA" "pzdmjrzwcccgxbulnxkc" "evwokcmkcxqwvvkclrms" "puseoa" "NA" "gptyaiirdweevxgcgxcm" "NA" "saleyvafcvjhaifekiei" "NA" "gyksqegxh" "zbogpgfddfhqdmvzgitc" "NA" "ksrtnofptkatrrikrwco" "trrjeartyctdqiapmweq" "" "wcxwlhhxckdhfsqpovil" "fdzyvztnvzqixngzmoqc" "tfuyekdbfhf" "rgbnxp" "kejurdsfpyywyyivnuh" "fhhpzwgcmnixihbavloq" "zgvurybfmxybsabshfvl" "NA" "NA" "NA" "NA" "NA" "zdvysyjklpnurfdgkycp" "wtzymkwtxcxlsrabalab" "" "NA" "owmvxnuksvziruyajgql" "qziztjsmjzjtwkckmmqm" "NA" "hhddieaihcctvfbuirje" "wrpankzfdo" "kqirvjw" "mbrgboixvb" "rxlsvrfphlxhsxdgupns" "NA" "" "NA" "eejfwisgblhscmitmbyo" "NA" "zzffprqkoif" "kiqdsnvkns" "NA" "md" "gvmtjnmptwgiduvwfyx" "iehehaukigvuwtcu" "lzfvzoychmrfaodtfwpt" "NA" "ay" "NA" "srzypetcgcxdafiaiy" "nbgvbupg" "rkmbqxrqhpxrofzzomeb" "NA" "nmlgfyjkhdjdqwztccqg" "NA" "NA" "qmoatcnzxzongagpugww" "NA"
+includeZ values: -914586076
+includeM values: -1271141707
+includeSRID values: -1683633090
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'fpjrfaxgg' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wksxp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/e1b16e0220cccbd90642c2ac44f84a62b131f332.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "hgtxtsfzjncw" "misvecbb" "efacchlypmsukbshvvkx" "NA" "NA" "xcnizjp" "vrnkxumqrc" "NA" "NA" "gkoyelnwvneflhwbscol" "NA" "jrwudenadtgxczchrkqo" "cazlkjjrnymyuhqxrapr" "NA" "aybgjfzfvulgycklfcap" "nolghwghrrpqnjjwqy" "NA" "swkzpdsi" "NA" "dhvnj" "szqoanmxnsihtegbrovh" "kerjsiasnhghefjd" "NA" "NA" "NA" "NA" "NA" "o" "vyuisudehkbfqzvcvvna" "NA" "trtttkyqihnsyreebydt" "NA" "NA" "q" "fuqlepdjzpedrm" "bfjhxzvxwllcllycbuka" "xlrujwdnabtfsjieqovy" "hteorpdycrh" "rmragbicxhcfcg" "NA" "NA" "NA" "pcdqdaxxltepeythtdfp" "miywrlkq" "jcsei" "wgpiojaovph" "NA" "NA" "vmnutlaroehfnczqbvbb" "ozfbbjcp" "snm" "mqquq" "NA" "oluptlyhcuppnzkymfkl" "qidoaqhjszart" "NA" "NA" "NA" "NA" "NA" "hchvcaahraoeaxhnkvtc" "zizzjd" "ckunswqmdmjkdfkvfoqz" "NA" "NA" "cmvyqvxbemjfezepigoi" "cpyxvdfhqnxakcnlmgav" "nrymweld" "jbjakievvnaqolzwgvgx" "NA" "redotsskzphzvbk" "bclnreixbpprkfyjxela" "NA" "gdsstottmolrqqfymlqn" "qdkckny" "NA" "xyonuzsxqlgsmkshmxbu" "tfozkhsvcxhfk" "qsrqhhtkizjikqgjteuk" "qalouqupyq" "NA" "dnxhsgkovvobihrvzpbx" "NA" "eazfjlvfmspdoairjett" "ljmudostlgwduutyfumg" "qmwzvhkilocyqcybmtzw" "NA" "NA" "NA" "rbiowbxcjomjhznhjfqk" "ijwdonbbzraunkanccnb" "rlerqevbzyokbsdeyzhb" "gjmewvbhaahegevzcqlx" "NA" "spyljdedbshcptqwghnq" "NA" "NA" "zztkicxltfftszbvwiuj" "pwjjoeyzdhoamaarexpq" "hczuclkqyqlrbcperpcn"
+includeZ values: -669509909
+includeM values: 603425271
+includeSRID values: 435854029
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'hgtxtsfzjncw' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wksxp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/7ba3fff8fdba925ce34c27f8a51085ff09309288.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "ncjpnhllsccngpzlpoex" "yxu" "dvhyqwlg" "beglqtnhrysdsdhluln" "ouablaqpofbyndujkgqn" "NA" "ndqcrthlehkxxunwbel" "NA" "sypeatkxqzxehpbqff" "ktputvfmrqshbdleqyfr" "NA" "yqfimudacfezapox" "pfjrlororbpt" "gjkmgmwsfbfctykhindt" "NA" "hzyvreynlvqfavyrohcn" "NA" "NA" "NA" "ajfqtwkqdqjpolwybvlg" "yrfaziyvwsbpqciadhdn" "jvyvkeehfhwpbcmdjcqw" "NA" "xedjutjazpiwbgkyqvwj" "NA" "nbiqrgvcxjgqwgsihwnc" "NA" "NA" "jhfbpzbpmxyzaarshojx" "cqnnhsajcuot" "NA" "ndvgpopvtljpbptilbqb" "NA" "NA" "" "ukiszbfigexpqhibbepi" "NA" "jehwruaofdxkpyockedb" "fcbkldzqyuavltocbehl" "NA" "olewhf" "NA" "anqkfqqwenibpzvaurty" "NA" "rmnuurixezydwohfbrll" "bmfeysgmkrwfepyie" "umxdupgmmcmgyirobaal" "qdzcozjerequraksxztp" "ldkwbiqqzhkqovlqwodg" "bgxeceotsypeicojzrst" "agpojbcyjjinvjdlzoyz" "jmxjozlazhz" "ipmmzuurjcnb" "kfcbtqpchljzxpgtrkmt" "hojboxurnqmovxizdfpi" "NA" "NA" "NA" "ingdaawgfrhbcnakwvfe" "mpshmvkwmxfvsnpagwcd" "NA" "drojj" "ibwctqym"
+includeZ values: -1617322373
+includeM values: -1327427303
+includeSRID values: -1370881418
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'ncjpnhllsccngpzlpoex' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wksxp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/2fb0fb8accd30a27a5a5e9fdcad5f4024b236be3.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "cskswwyfiqgqfuxupsdy" "tt" "yxgbhozjgphuzzsfbanm" "NA" "litkln" "NA" "NA" "NA" "NA" "NA" "dvfgfqxjgkovfqpqspbl" "NA" "NA" "hlfjvhtvddpbhnxnc" "ckpugrhmluwmqgzwcijv" "NA" "jio" "NA" "xlbpxksrsajgqkwktlog" "kxhcsqj" "bobxczxlestedazmcycl" "NA" "wwaynsznlkp" "rzlbpkfxck" "xxmsdlcprcgbvfjhoomq" "" "koivdgpeukysu" "NA" "xwoscxjinugavesw" "nw" "NA" "NA" "NA"
+includeZ values: 854927390
+includeM values: -146297202
+includeSRID values: -1443269339
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'cskswwyfiqgqfuxupsdy' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wksxp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/8a280a21ee509742d5a4679f6cf29011a49beccd.fail`
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 4 failed/0 passed/0 abandoned tests

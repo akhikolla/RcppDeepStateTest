@@ -1,0 +1,64 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677433
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_solve_interval_partition_no_k_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.69696e-289 6.09184e+78 3.44519e-93
+1.28738e+241 4.41013e+38 1.21436e+292
+3.56719e-175 1.30580e-299 1.26224e-182
+1.39625e-81 1.88243e+163 9.18809e+246
+4.37316e-104 1.60784e+71 1.58669e+148
+1.25336e-127 3.56813e+262 3.41667e+44
+103.221 1.00083e-199 2.32669e+236
+
+input ends
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_no_k_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_output/a58508c8aaa570aeaa894fc37b7289b2e37fb375.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.49985e-80 1.53333e+195 6.38823e+223 4.31390e-302
+6.39398e+60 1.68908e-22 6.15739e-194 2.05409e-25
+1.02379e+143 2.85306e-57 1.37743e-226 3.33500e-141
+9.85421e-72 3.66687e-202 1.13470e-232 8.26627e+194
+9.79243e-29 1.56726e+75 2.30855e+152 6.11929e+249
+1.95630e-166 3.20094e-273 2.62344e+232 2.44655e-135
+3.53766e+106 2.02490e-236 9.52146e+97 2.32271e+148
+7.52525e+35 1.16957e+153 1.75119e+298 2.84583e+295
+
+input ends
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_no_k_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_output/ee13a3d7c7add239e52bf6c42941d0dcfff92c1e.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 4.11015e-215 2.63260e-306 1.13214e+229 2.94416e-72 6.00057e+202 1.17606e-211 3.25936e-222 8.85656e-134 1.86803e-200 3.77698e+173
+6.65199e+286 7.64115e-276 5.09817e+88 4.96919e+114 6.91445e-230 7.11951e+204 1.07298e-262 4.20317e-222 6.45709e+252 7.96510e-223
+3.33614e-144 9.21257e+216 5.37918e+187 1.38844e-140 3.13212e+265 4.58473e-41 5.40028e+252 7.58478e+218 5.43907e+32 1.45775e-83
+
+input ends
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_no_k_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_output/bb3ebfd0f38f42196024948f320eefd9a075f45e.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.10675e+82
+2.57232e-251
+4.91488e-132
+1.33180e-102
+7.72210e-32
+
+input ends
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_no_k_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_output/56e245af11a95e63853297e89c095f6a55caa69c.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.81884e+149 1.94454e+200 3.04094e-246 1.05265e-267 3.81848e+172 1.53652e+101 3.03932e+175 2.02420e-231 6.87399e+307 1.66054e-59
+1.47566e-35 1.80640e+158 1.18623e-63 4.34808e+19 4.69306e-169 1.09504e-178 2.66322e+290 6.66140e-276 1.22120e+115 7.62550e+75
+
+input ends
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_no_k_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition_no_k/solve_interval_partition_no_k_output/481cc0dfece05f976e6ec518d1f81796fb2bb0b9.crash`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

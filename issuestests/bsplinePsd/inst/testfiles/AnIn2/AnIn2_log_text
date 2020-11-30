@@ -1,0 +1,24 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695141
+WARNING: No test specified, defaulting to first test defined (bsplinePsd_deepstate_test_AnIn2_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+knot values: -3.60909e+133 4.12931e-121 -1.5125e-135 3.90763e-102 -2.57516e+24 1.48626e+12 -1.66997e+19 -7.93093e+82 1.14167e+117 -2.46625e+196 -1.75442e-180 -3.97337e-292 1.66559e-240 -7.25955e-155 -7.42308e-298 -1.38917e+52 3.15406e-215 4.01114e-236 1.28134e+46 1.2595e-110 -9.56517e+303 4.688e-39 6.76486e+211 -3.66853e+08 -1.98114e+188 1.41514e-246 3.53398e-94 -4.4724e-46 -1.06777e-223 -1.77065e-37 -5.33874e-192 -1.17941e+306 5.61414e-26 3.17253e+47 -3.60834e-174 5.26039e+23 -3.84768e+54 4.55184e+64 -1.07523e-10 3.14741e-129 -0.237937 -9.00022e-169 nan -1.86358e+237 3.32679e-263 1.96683e+50 -6.31893e+249 5.05877e-152 -3.35884e-104 -1.48144e-254 -6.34403e-251 -4.36106e+20 -4.55541e+72 -inf -4.44773e-58 -inf -2.63735e+227 -2.36757e-307 7.97124e+21 7.02603e+95 6.85943e-234 -7.4814e-159 4.18492e-19 2.64048e+254 -5.13768e+238 -4.06304e-38 -5.51105e-188 inf -3.48936e-297 1.10325e+74 3.43802e-107 -6.75629e+139 -0.307554 0
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+knot values: 9.73703e+294 nan -7.42064e-204 -inf -9.84165e+224 1.06779e-164 -inf
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+knot values: 2.2768e-123 nan nan 1.12362e+39 2.59911e-117 -2.77109e+101 -5.11595e+73 2.82899e+249 1.18418e+200 inf 6.82011e-254 -3.02782e-94 5.47725e+143 1.12616e+307 -1.94758e+36 -1.72106e+114 nan -1.64114e-132 4.37928e-124 4.68447e+238 1.95696e+20 nan -5.91688e-93 0
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+knot values: nan 9.86456e-177 -7.21875e-120 -inf nan 3.62029e-58 -2.89301e+38 1.24968e-36 -1.72625e-156 -3.27252e+106 1.75239e+241 1.30537e+41 1.82557e+173 nan -3.99142e+130 2.43629e+227 -8.7848e+45 -3.79958e+184 0
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

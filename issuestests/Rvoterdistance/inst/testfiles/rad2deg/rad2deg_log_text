@@ -1,0 +1,19 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745696
+WARNING: No test specified, defaulting to first test defined (Rvoterdistance_deepstate_test_rad2deg_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rad values: -1.21322e+128
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rad values: 3.18689e+90
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+rad values: -2.32249e+12
+input ends
+INFO: Done fuzzing! Ran 3 tests (1 tests/second) with 0 failed/3 passed/0 abandoned tests

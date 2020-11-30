@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectCUSUMMeanSingle_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectCUSUMMeanSingle/cpp_detectCUSUMMeanSingle_output/13770c71bd681d28c97fd490938027e3a5ab11cc.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectCUSUMMeanSingle_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectCUSUMMeanSingle/cpp_detectCUSUMMeanSingle_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.61569e+251 -3.97036e-144 nan inf -9.75785e+13 3.51428e-232 -7.30867e+254 1.11345e-172 -3370.24 -4.20705e-156 -1.14797e+176 -2.30296e-73 -5.92747e+07 -2.80652e+242 2.2076e-74 -2.02557e+69 3.09035e+200 2.09141e+193 -2.73438e-239 1.60278e-07 -2.37987e+265 3.61205e-68 5.75657e-170 -2.67802e+219 -2.47578e-40 -3.16886e-100 -2.49125e-153 -1.63045e+174 -4.36933e+148 1.46388e+288 nan -inf nan 4.3003e-141 2.17084e-13 -1.46037e+96 2.12386e+74 -3.27972e+233 -6.53413e+242 -7.92882e-185 -2.27442e+83 1.01701e-203 -1.68235e-299 -4.90267e+110 3.21304e+45 1.52843e+242 4.55015e+211 2.08169e-102 5.6526e+269 -5.02734e+178 -3.33387e-195 1.77975e-164 1.40175e+169 -2.83549e-98 -4.37117e-276 -3.01234e-40 3.10794e-308 -1.96782e-298 -6.11117e+284 -5.81106e-298 -8.70045e+144 -1.83266e-34 -1.30664e+95 2.76438e+206 -6.0407e-117 -1.80106e+276 -7.04564e-239 2.94726e+239 -1.89838e+104 0
+k values: -1.35687e-266
+h values: 3.4892e+257
+BL values: -1340504492
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectCUSUMMeanSingle_test

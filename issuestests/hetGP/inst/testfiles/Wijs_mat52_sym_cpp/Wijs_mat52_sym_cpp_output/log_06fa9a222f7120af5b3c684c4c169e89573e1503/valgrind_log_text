@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_Wijs_mat52_sym_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_mat52_sym_cpp/Wijs_mat52_sym_cpp_output/06fa9a222f7120af5b3c684c4c169e89573e1503.pass`
+TRACE: Running: hetGP_deepstate_test_Wijs_mat52_sym_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/Wijs_mat52_sym_cpp/Wijs_mat52_sym_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Mu values: 8.05809e-250 2.63670e+118 8.40331e+208 1.09258e+37 1.27267e-216 8.71520e-274 2.74746e-288 3.21815e-109 0.000218939 5.94602e+152
+3.35686e-138 4.48308e-296 6.99308e+301 5.90826e-34 1.04819e-299 4.74647e+113 2.02191e-117 4.11042e+300 3.91285e+273 4.44160e+165
+5.38112e+131 1.08213e+18 3.99853e+176 3.66077e+102 7.87123e+144 2.73032e+240 4.89273e-275 9.82558e-26 5.11637e-212 6.98355e+282
+2.33569e-174 6.01409e-200 2.49045e+176 4.74093e+39 5.19538e+145 1.84194e-233 2.75589e+134 6.65856e+299 1.15693e+163 5.33830e+239
+1.91197e+147 4.87718e+229 8.78598e+206 2.43153e+36 2.48476e+91 9.42639e-130 6.28828e+175 2.63671e+180 6.51454e-217 1.98229e+18
+
+sigma values: 2.79332e-134 -4.41995e-116 1.12325e-102 3.1495e-179 1.20816e-63 -5.27017e+209 8.85434e-20 -1.55543e+249 -inf nan -7.24715e+92 2.24336e+233 1.87239e+202 inf
+input ends
+TRACE: Passed: hetGP_deepstate_test_Wijs_mat52_sym_cpp_test

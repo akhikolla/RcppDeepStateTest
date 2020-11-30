@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_SAMP_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/SAMP/SAMP_output/41215f18a4805fba51e6ab06c3e5d4915b2ab335.fail`
+TRACE: Running: NAM_deepstate_test_SAMP_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/SAMP/SAMP_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+C values: 4.73031e+173 1.30569e+77 2.42503e+249 8.66147e+74 2.84522e-220 3.76337e-58 3.52186e-200 1.13538e-214 4.48380e+247 1.32187e+99
+1.69175e+58 4.74439e+79 9.35176e+67 3.87002e+55 1.34645e-85 1.19254e+240 1.32188e-84 2.21824e-144 1.36412e+214 1.34660e+244
+
+g values: 1.0933e+14 -1.56778e+244 -3.32548e-68 nan 1.40893e-159 -4.95919e+110 -6.15639e+100 nan 8799.35 -8.33461e-237 -1.70371e+209 -4.02483e+91 7.0928e+84 -2.8074e+179 4.4943e-26 -6.75479e+198 -3.27827e-181 -3.9937e-148 -8.20863e+149 4.2097e-223 3.73857e+22 -3.52562e-148 2.96472e+83 1.43882e-127 -5.34703e+293 5.0338e+248 -6.4611e+61 -3.99347e+42 7.87393e+164 -2.05727e-255 -5.86275e-158 100.118 nan 4.68255e-30 1.86865e+35 -5.59882e-302 -5.71802e+169 0.00042764 -3.29213e-252 -2.15614e-16 -1.04993e+194 3.74283e+37 3.55151e+176 2.62389e-17 1.50511e-42 8.9458e+230 2.11666e-264 1.31445e-111 1.46265e+237 1.27606e+148 -1.78391e-233 3.9684e+83 9.56646e+261 -5.61628e+120 -2.54133e-114 8.71143e+122 1.41914e+303 -8.29958e-241 -5.51773e+291 110.334 2.89444e-217 -1.35868e-247 -7.00143e+305 5.96966e+254 5.59702e-96 -1.85591e+28 4.12286e+61 7.54001e-276 -9.83688e-95 -1.24155e-51 8.93357e+261 4.90868e-169 2.20611e-194 2.57681e+62 6.58412e+136 2.50408e-73 3.64826e+264 1.44218e-37 -inf -1389.09 2.70934e+175 7.52255e+186 -3.08095e+128 inf
+r values: 6.17004e-174 3.15631e-288 -3.55166e-138 3.08152e+236 -1.67035e+167 1.40367e+292 -1.98994e-202 -3.55166e-138 1.0138e+154 9.50221e+138 -1.12527e-178 -2.74601e+49 -5.72084e+71 -0.902869 3.63093e+58 7.17444e-136 5.84637e+63 -5.86345e+20 -2.29632e-138 -3.39394e+257 -8.84329e-174 5.57886e+292 inf -9.56039e-250 -3.63255e+98 nan 3.18385e+243 7.05622e-28 -5.61392e+223 1.23285e-176 -2.40818e-116 2.29316e-169 -3.55166e-138 1.74594e+236 1.43771e-233 -7.37661e+198 1.49458e-100 1.59806e+278 0
+N values: 2032913424
+Ve values: 1.73987e+86
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=2; row extent=2].
+ERROR: Failed: NAM_deepstate_test_SAMP_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/SAMP/SAMP_output/41215f18a4805fba51e6ab06c3e5d4915b2ab335.fail failed

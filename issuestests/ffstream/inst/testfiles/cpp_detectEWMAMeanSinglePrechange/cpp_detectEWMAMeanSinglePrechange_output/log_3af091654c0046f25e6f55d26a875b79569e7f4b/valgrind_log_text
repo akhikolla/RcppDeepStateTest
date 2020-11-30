@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectEWMAMeanSinglePrechange_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectEWMAMeanSinglePrechange/cpp_detectEWMAMeanSinglePrechange_output/3af091654c0046f25e6f55d26a875b79569e7f4b.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectEWMAMeanSinglePrechange_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectEWMAMeanSinglePrechange/cpp_detectEWMAMeanSinglePrechange_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 5.73448e+305 -1.01928e-71 -2.17199e-53 nan 1.12365e+242 2.01795e+06 -4.60578e+176 4.10362e+257 -4.82461e+219 2.99609e+23 6.63627e+190 7.81995e+173 2.02159e+259 -7.17242e+112 3.42821e+193 4.09728e+229 4.18518e+68 -3.62743e-19 -1.56247e-149 2.35822e+11 -3.57256e+202 9.0032e+260 -2.31998e-57 1.47049e-277 nan 5.26355e+56 8.78617e-218 -8.5942e-51 2.27049e-271 -4.08037e-200 1.55348e+211 -5.71868e+231 3.5758e+109 -7.94434e-31 2.46422e-148 2.48465e+178 -6.72272e-96 3.53994e+117 3.59141e-19 7.12633e+220 1.10617e-30 -6.04567e+117 -1.44267e+78 -1.16078e-226 -1.72161e+186 -1.53068e-233 -5.38895e+100 -1.041e+151 4.37982e-278 -5.12767e-239 -1.58494e-135 -2.44569e-263 -5.93531e+37 -3.37692e-59 inf -3.18543e+84 2.05424e+179 -inf 6.97237e-25 -1.23857e+153 -1.46844e-273 2.22808e-124 -1.13192e-267 2.77391e+218 1.07748e-45 -8.52336e+274 0
+r values: -1.01975e-48
+L values: -3.24063e-231
+prechangeMean values: 1.46226e+132
+prechangeSigma values: -7.20818e+214
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectEWMAMeanSinglePrechange_test

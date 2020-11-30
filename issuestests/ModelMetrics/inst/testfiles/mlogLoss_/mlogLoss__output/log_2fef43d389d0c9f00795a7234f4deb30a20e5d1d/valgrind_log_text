@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (ModelMetrics_deepstate_test_mlogLoss__test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/mlogLoss_/mlogLoss__output/2fef43d389d0c9f00795a7234f4deb30a20e5d1d.crash`
+TRACE: Running: ModelMetrics_deepstate_test_mlogLoss__test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/mlogLoss_/mlogLoss__DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+actual values: -4.1855e-33 nan -1.37165e-15 -4.49522e-13 -4.72935e+276 -1.66416e-70 3.37279e-123 -1.38187e-292 -7.61778e-41 1.09614e+285 -3.12283e-114 -8.50639e-182 -3.11718e+283 3.0403e+80 1.70803e-153 -6.56026e+128 -2.56793e-237 1.39236e+107 -7.64505e-222 1.00076e-243 -2.81779e-89 -7.35981e+139 -1.60158e-257 -7.46763e+125 -1.87274e-227 -1.16843e-240 2.50926e+200 1.02539e+212 -2.99035e+109 2.06668e-243 -4.46274e+145 -4.04834e-260 1.13441e-290 7.24509e-115 2.02249e-87 -9.88118e-264 4.40109e+220 -6.81618e+304 -3.13699e+203 -2.96259e-283 -2.28527e+167 1.76308e+34 5.29312e-268 3.02134e-116 -1.327e+258 -3.76599e+230 1.87063e-220 -4.59723e+170 8.81993e+13 3.01046e-255 2.70297e+305 -1.39721e+259 -1.07685e+111 3.78206e-215 4.00026e-195 6.35527e-40 -1.19567e+20 -4.17787e+39 -1.19053e-25 1.52227e+93 -4.58703e+125 -inf -2.30759e-65 2.72386e+187 -9.73114e+174 -5.81137e+166 -6.6668e+90 -1.30338e+121 1.35428e-16 3.72935e-179 -inf 3.60081e-10 1.34328e+256 -8.62785e+87 -6.18845e+200 -inf 1.48855e-123 1.55308e-123 2.24729e+39 9.34712e+145 1.42065e+292 1.95656e-226 nan -8.34882e+115 -7.80484e+58 -1.1187e+140 7.70134e-160 5.60033e-157 0
+predicted values: 6.24083e+136 1.47890e+16 1.86427e+155 1.95454e-126
+7.68285e-160 7.06520e+280 6.43544e-267 3.69837e-219
+
+input ends
+ERROR: Crashed: ModelMetrics_deepstate_test_mlogLoss__test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/mlogLoss_/mlogLoss__output/2fef43d389d0c9f00795a7234f4deb30a20e5d1d.crash crashed

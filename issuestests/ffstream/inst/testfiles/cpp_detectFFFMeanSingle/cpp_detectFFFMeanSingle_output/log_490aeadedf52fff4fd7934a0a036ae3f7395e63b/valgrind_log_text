@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectFFFMeanSingle_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectFFFMeanSingle/cpp_detectFFFMeanSingle_output/490aeadedf52fff4fd7934a0a036ae3f7395e63b.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectFFFMeanSingle_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectFFFMeanSingle/cpp_detectFFFMeanSingle_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 51871.5 -8.00822e+33 1.96778e+45 -3.25547e-123 -2.16705e+251 -8.7281e+166 1.334e-134 -5.20593e-199 -3.33381e+93 1.00815e+121 7.06285e-34 9.4817e+168 -4.2255e-215 -1.95511e+117 -1.01935e-194 1.01206e+68 7.99429e-106 -1.25861e-185 1.56122e+170 -3.43583e+82 -5.60494e-53 2.37983e+210 -2.29777e+307 -5.81319e+143 -8.88954e+249 nan 2.25243e-166 -1.16255e+237 -8.77354e+108 1.6697e+76 -3.0327e-298 1.85149e-213 -1.24574e+99 -1.55394e+285 3.18549e-226 -7.16638e-17 7.31596e-39 -1.51534e-278 -1.27164e+167 -5.43658e-122 -6.0104e+240 4.90965e+118 4.76195e-154 -4.83198e-78 -8.36485e-241 -6.13464e-276 1.7265e+53 3.97557e-181 4.75538e+256 -2.16767e+202 -9.96499e+129 -1.84374e+241 1973.65 -1.79221e-156 1.79261e-305 8.37553e+194 -3.39452e-284 -1.40013e-132 -1.86933e-172 1.02778e+146 -7.30571e-35 4.15357e-294 6.29135e-296 -7.18347e-134 -2.9193e+56 -2.72295e-223 3.08713e+136 3.28646e-117 8.57167e+171 -8.50962e-101 -7.11628e+220 -5.55605e-50 -1.15006e-200 7.58968e-89 9.0549e-203 1.79867e+81 2.02915e+295 -8.19937e+90 4.41748e-20 -1.32319e-178 1.16107e+205 -7.61892e-27 nan 1.20763e+125 -7.53924e-156 -4.97005e+205 1.23367e+32 1.49803e+242 inf 4.5892e+18 1.12949e-128 2.37006e-258 -2.2969e+229 -inf
+lambda values: -1.20775e+207
+alpha values: -1.12879e+282
+BL values: -1887505068
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectFFFMeanSingle_test

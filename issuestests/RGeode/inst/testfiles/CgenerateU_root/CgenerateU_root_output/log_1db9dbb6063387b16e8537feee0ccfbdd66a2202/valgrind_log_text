@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_CgenerateU_root_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/1db9dbb6063387b16e8537feee0ccfbdd66a2202.fail`
+TRACE: Running: RGeode_deepstate_test_CgenerateU_root_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: 1.40861e-230 -3.71101e+259 -6.0461e-216 1.95932e+09 -3.90553e+204 1.85651e+188 1.03731e-267 -6.03741e-137 6.52656e+10 1.92187e+161 -2.98991e-160 -inf -2.64038e-142 -1.35932e+221 8.5165e+58 nan -2.61511e+195 -2.21733e-198 6.67069e-243 nan 5.02063e+207 3.00531e-288 -1.03761e-221 -5.4244e-188 -4.68702e-270 -1.32716e-217 7.36205e+62 -inf
+N values: 1516974586
+SIGMAS values: -1.02273e+148
+Z values: 2.77080e+288 4.61823e+246 7.42089e+273 6.99300e-230 4.69124e+24 2.51537e-198 1.07338e-150 9.90879e-26
+2.73276e-53 9.09163e-89 2.57308e-275 3.23926e+210 2.89935e+299 3.52661e-173 1.82714e-295 6.02507e-202
+4.74544e+40 1.00135e+232 1.09931e-200 1.39586e+101 3.51632e-07 5.54721e+270 2.62897e-248 1.15311e-107
+2.72717e-308 8.13711e+229 4.55449e-260 1.40849e-302 3.09582e-251 1.91504e-153 5.41010e-64 8.52414e+204
+4.12656e+240 3.61932e+87 5.96152e-125 1.79271 2.36166e-09 1.61558e-100 1.97107e-237 4.92259e-190
+8.31902e+170 3.80903e+166 1.22978e+179 8.41349e+139 3.81552e+266 3.04296e+55 6.22655e+207 1.17618e-140
+3.59401e+268 9.09240e-255 3.96146e+121 3.79633e-175 2.13534e-194 2.26965e-125 1.10856e-287 6.43315e+38
+7.90771e-49 2.88275e-252 2.41837e-122 5.84111e+58 6.37162e-259 5.59024e+290 1.76489e-166 3.65989e+104
+5.02586e+268 6.97259e-22 3.50690e+67 7.68847e+28 6.59735e-211 2.42612e-77 2.56887e-143 3.06084e+305
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=8; column extent=8].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/1db9dbb6063387b16e8537feee0ccfbdd66a2202.fail failed

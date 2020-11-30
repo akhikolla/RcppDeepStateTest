@@ -1,0 +1,58 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745793
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_krow2p_BC_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SW values: -1.33999e-232
+SWCON values: -1.32868e-289
+SORW values: -4.25504e+97
+KROCW values: 2.54916e-62
+NOW values: -8.13918e-104
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SW values: 3.26844e+26
+SWCON values: -1.65046e+215
+SORW values: -1.81938e+158
+KROCW values: 2.37304e-172
+NOW values: -1.08811e-73
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SW values: -3.51932e-159
+SWCON values: 0.00672274
+SORW values: 9.64918e+257
+KROCW values: -1.24905e+169
+NOW values: 4.0839e+221
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SW values: 6.7352e+131
+SWCON values: 8.38799e-193
+SORW values: -7.70329e+296
+KROCW values: -4.67971e+268
+NOW values: -2.96609e+217
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SW values: -1.68132e+140
+SWCON values: -9.97593e-126
+SORW values: 5.73817e-246
+KROCW values: -5.49801e+179
+NOW values: 6.81242e+275
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SW values: 1.36992e-154
+SWCON values: 1.08396e+245
+SORW values: 1.31442e-198
+KROCW values: -5.20476e+240
+NOW values: -2.0844e-71
+input ends
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 0 failed/6 passed/0 abandoned tests

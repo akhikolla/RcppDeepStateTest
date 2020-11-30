@@ -1,0 +1,74 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606515476
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_series_to_wordbag_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: -2.0809e-267 6.62506e-287 1.07454e-230 1.03139e-216 -8.81857e+147 -2.47553e+187 0.00073242 -8.77491e-86 -2.87645e-183 -9.86069e-260 -5.05131e+119 -2.12038e-11 3.57889e-41 -9.17813e+32 -3.25095e-32 -6.26254e+104 -0.000177727 -1.72906e+112 3.92422e+17 -6.29884e+66 1.24805e-179 nan -1.52897e+300 -2.17593e+160 2.35374e+141 7.73975e-300 -7.4777e-184 -9.66247e-256 -7.4777e-184 -1.11719e+22 -5.07715e-301 3.01855e+149 -3.02458e-264 -1.19345e-84 inf 3.49667e-214 -1.24648e+169 -2.88907e-74 -8.88314e+164 1.78289e+60 -2.94058e+80 5.02889e+73 1.28149e+207 3.42975e+159 -1.09383e-155 9.65623e-262 -3.64935e-62 5.21381e-235 1.07297e-30 1.27807e+238 -4.84814e-217 4.23801e+176 -inf -3.59787e-218 -0.903368 1.16483e+163 -2.65641e-296 -4.46111e+134 2.05368e-213 1.1384e+256 -8.80521e+151 -8.69002e-182 6.74303e-65 0
+w_size values: 928364115
+paa_size values: -1548882619
+a_size values: -721101039
+nr_strategy values: "cnfqygoeqyvyamxcheiw" "junomxfrh" "NA" "NA" "qghbeyiayhlvwdoasyrs" "royrpntwkusopzblwizb" "i" "NA" "oybwhqciayoiyfjmzwue" "nnbjpmvvligapdpfuyej" "klygaebkive" "lxuaaloqljflozgimqgm" "NA" "NA" "NA" "mvlvewcgrsx" "d" "pubjzoaawepnnokwyfpd" "suyljvamewokvdfscjed" "obcubsxhxeezvqxmj" "" "NA" "pwstkqywirgjchhigmxu" "esfkwaykytdcpqm" "NA" "" "lpifhzwsmvwzqlwusbix" "yoyvhdpeqqamd" "NA" "NA" "ndcsoycysdgbnewxthsg" "kydsvjjniatdu" "cjhoeevjzzjrmexpgcvo" "mm" "NA" "prkome" "jhrytky" "ainxztrrqznflzxkixas" "NA" "NA" "NA" "apor" "jyjpgtcevfoykvuwporp" "vgiywobzggoirvzvewax" "zqzssccnpnzperufqcnq" "NA" "NA" "NA" "rnqopxrtddflmkztihlu" "qpsoxyurrhlnbpb" "wpzkvdprivrhljpijg" "NA" "NA" "esxbqyldooy" "ktvenxyisau" "yntkxdmmldidtiyhyfgl" "NA" "dbkdhtbrrlwdsfcyysvn"
+n_threshold values: 1.28127e-116
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=58].
+ERROR: Failed: jmotif_deepstate_test_series_to_wordbag_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_output/be7c6e48972401b092daf0727d17342f39b97f10.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: -5.75754e+94 -2.81881e-88 -3.71297e-219 3.88776e-129 -1.78062e+280 1.12323e-30 2.37192e+14 -3.30988e+108 2.02182e-242 7.94048e+114 4.36497e+132 1.91196e-115 -5.95574e+231 -3.58431e+252 1.34836e+77 1.08663e-145 -1.49426e+214 -3.34668e-134 2.39177e+175 -5.31451e-185 4.97941e+101 -1.08866e-47 1.0352e+167 37.2077 1.63513e-136 1.2421e+147 1.80952e+88 7.84884e-55 -2.3264e+219 4.97411e+73 -6.94444e+168 -7.42023e+41 9.85624e+79 -8.93382e-05 -inf -1.03869e-152 -1.47481e+133 7.88064e+212 4.08615e+106 -1.6328e+190 5.08876e+249 1.52041e-139 -6.92688e+172 inf 7.81646e+99 2.57295e-307 inf -2.40502e+289 nan 3.78911e-261 -2.02937e-73 1.45402e-18 -1.04471e-60 -1.27023e+87 -2.24151e-250 1.00842e+164 0
+w_size values: -1258561751
+paa_size values: -1870634058
+a_size values: -133734883
+nr_strategy values: "mrpcmkkfqxmsmeefpdaf" "NA" "ira" "qbdvsnkghwcefzpyctfl" "lfclusqztklyxyypfzmt" "NA" "ldchatnzuttvjvugpftp" "oketckqyupdpmelfmuym" "wsfwcrxyewunoumdhifp" "qbhuoxbsfyjpomldgpbb" "rtoxxqhaq" "vznvrgiitjixgbeegrzf" "NA" "NA" "xsil" "xoxtuqfxsegoyrbitdzi" "rarknymsuadwtzdhhywv" "tyhavyfvekmdsazpgxls" "kjfzoyfekjakkpoyrysn" "eaunlajsmsocdoe" "ho" "zcu" "ayehrvnhefuqoyylosgf" "duunrkjdaulrieysxxjy" "guevuisbqxptwbqxgbal" "kzycuwbnihhdlnwbkkfb" "NA" "w" "sngbntqx" "NA" "kilhrxaetddexaxdiiaa" "suvydoxqpjpyc" "" "NA" "bwqvvjspqhpjyhltgmiv" "mjvbhsrorptrtaws" "" "isnerzcsvkmlli" "NA" "saznxszmdvzr" "NA" "NA" "vsjpbunzbzg" "NA" "wxrbdtsqvgj" "pqbhfqnfetxwdq" "NA" "d" "NA" "nnqwghdzyqayztoxchcr" "NA" "NA" "ooipkmhsvoxnzeihjqki" "wbojkb" "v" "awvwqn" "" "NA" "ryakixfksvsnbrkzwojz" "llpzyouikz" "NA" "pxprjhbiumxaewbuf" "citfvdwenxnxtunrdbdw" "shaswxhhdzkwpod" "agutfnbcwiwemwmqxeig" "NA" "pombcafrqbtawyolfqhy" "aodslffpiharrxmg" "ctgivscfjpnt" "ggovemaifmnajvlmdlvb" "zyeuvqpfwfalnxhohgq" "rftdzsf" "NA" "NA" "wbzdfvbmmkr" "mgulgwboanmxrrnqi" "x" "jxihteuvnpg" "kdvowwtwjhiugcnfj" "NA" "jcagwqscfclfwwllzyxb" "zugotxfvvumdgfaedpkh" "NA" "suitzdwjl" "xikfaon" "NA"
+n_threshold values: -4.20724e-32
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=86].
+ERROR: Failed: jmotif_deepstate_test_series_to_wordbag_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_output/c62d321ea994c29aa08fdf18518e046ca8adabc4.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 2.85697e-131 -3.73315e-25 -9.23885e+161 -1.47691e+261 3.49495e-297 nan -4.20475e+165 -7.77513e-269 7.1513e-220 -4.24264e-251 -4.74506e-241 1.34729e+54 1.15716e-212 -2.79311e+119 -5.3651e+302 -2.35341e-146 -1.78468e+255 -6.7629e-71 nan nan 1.96835e+226 -6.22168e-288 8.30242e+52 2.01343e+293 2.64532e+94 1.58231e+274 -5.20117e-50 -7.80636e-38 5.21308e+257 2.89799e-173 -2.24026e-14 1.12769e+238 2.1231e+168 5.76259e-284 1.11989e-40 9.99324e-48 5.22753e-153 2.74786e+22 -4.18987e+125 1.19738e+265 1.71964e+103 -1.52301e-49 -6.84996e-59 -1.59002e-34 7.63738e-215 6.22341e+136 nan nan -5.12634e-22 -1.70585e+183 1.78777e-21 9.9469e+118 -1.65981e-140 1.38795e+298 -2.55912e+228 1.38804e+280 -2.09411e-195 -3.96203e-259 2.4878e+303 3.86985e-38 3.20364e-34 2.69127e-174 2.07662e-221 -8.64857e+198 3.29539e+93 -1.56311e-160 -2.24537e-107 5.99712e-47 -9.57018e-80 -7.09958e+213 -1.98004e-94 5.9773e+75 -2819.85 2.50877e-299 -5.36492e+303 0
+w_size values: 1984535248
+paa_size values: 2066376617
+a_size values: 839051014
+nr_strategy values: "wggsrtiiqbvsqz" "niuvqlprnpofux" "ckhldafgucqdxgjd" "hxi" "NA" "ubdwiprerxdqrvmgdqgk" "uvismahuohff" "micyirkquwumutnymkdp" "fjhdykjkcwkdbfqszozg" "yd" "patbeqyiwhumalbzsmii" "NA" "iuukrtaoms" "fgynx" "NA" "NA" "t" "glbopktjdnsuthebhikq" "NA" "NA" "avege" "NA" "uebiaaqtozigcoyhamvw" "ofxpyuduwbspulutdaqk" "NA" "NA" "jgmfdczwvifctubjoksl" "qxuwfsqwmc" "NA" "NA" "NA" "yiepmlbjfmyslpipmmfd" "hwowjsepqqcdpoly" "jkpgdlgzcidacrjgzrws" "thpbdascmfjolkjmixov" "NA" "snsxxwmlznosbdrxtz" "NA" "hevozwwbdcjnwhpbwerh" "vaqcfgevpdiwvqpcozrd" "NA" "NA" "" "jjixexf" "NA" "NA" "taowdggxva" "NA" "tczchxoqfxjajm" "NA" "NA" "NA" "dphbsosfviavq" "tonblwuqfdfylaetkdpm" "ikpkpddimtcv" "NA" "ntypkvbceftkftlqciss" "yhbtw" "kqogaomagzdlvvwx" "NA" "dimgncuadxgclhoovufu" "ocnriagnetijijrecakh" "NA" "cqwcjdsptgnxwoikicdf" "yctnpikogbgzjq" "dxmpupzwocf" "NA" "yrfu" "jfwvtywthwkfhweiufmp" "NA" "NA" "" "lcawitabcexormgcnffi" "nmxavwaoggojnohgnjxa" "ultfeznyvbthnssb" "vfcqpqgiprvmhmiganlf" "howchmdjgndceblsoibu" "mjmjaqaxglmgmxmgedtw" "zzvmaolqwxwtbmxcgytm" "NA" "NA" "huobuxmqpop" "NA" "eubjhiidsglque" "NA" "wvoadrllviqferyvquta" "hwktfvykfyyffzozcbsf" "NA" "djrlanzdwnqfwzirhiaf" "czqezenrvnfckcqgbolm" "NA" "NA" "svmavosvytzkpewcookq"
+n_threshold values: -8.93e-94
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=93].
+ERROR: Failed: jmotif_deepstate_test_series_to_wordbag_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_output/86ed54517d8dde3afb8761b6cae0a9e2fcf40567.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: nan 2.18662e-221 2.3854e-35 1.09784e+180 -3.82198e+144 nan 4.09474e-255 1.49366e+219 nan -inf 0
+w_size values: 1716019165
+paa_size values: 743942725
+a_size values: -1869731075
+nr_strategy values: "NA" "NA" "ycvivxfzgo" "oqegiimeksupgbxxtr" "lvdtakhgwtwpwnmjgynv" "NA" "xekpovwdrklhlkasuvwk" "uvpxkfdftknqrqdyssdg" "wxdpnskfmuohjvuaaytw" "rfcpzfwlltwspfqlha" "NA" "NA" "lfozmqggwyxpbupeursl" "NA" "cjszekouzbmspxvpzbxq" "NA" "NA" "s" "hsqetnlunerwedkirnrw" "mbrcogihsrlcoifjuko" "d" "NA" "fyqwwpgemvsfxejjruex" "NA" "kf" "chcujowepjbwjepabviz" "nqwxctnmucne" "eachgnxxjbsm" "zvyoaikxmukduvnpufax" "pgxgrpbdvc" "NA" "rujagxejwixqtr" "NA" "ascac" "pnnosxifuvgzx" "n" "NA" "ypwnmhshzapkkbfzkxil" "gbuhsqly" "ntkcoefqnenrhvyqduzr" "NA" "bcvobdtzywripnpukjyn" "NA" "khswwxuhlh" "NA" "ucm" "" "zpmlpahsabusqkptzdpa" "NA" "tzscbuep" "NA" "zcwvekesznncmiavjouu" "NA" "nhjigfryb" "nuodywshzxeqcf" "vgzozbxfy" "xizhgzjmqlkqq" "eygvmile" "ilcmfnqqq" "ionnxqrflqqdvpikakzn"
+n_threshold values: 5.1995e+233
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=60].
+ERROR: Failed: jmotif_deepstate_test_series_to_wordbag_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_output/2e0f9f9c58714b704de30a8a910b78c97d80c2c1.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 1.33356e-115 -1.13479e-282 -5.10367e-291 -4.70793e+35 9.89817 inf -1.86239e+27 -1.96621e-62 2.24806e-298 -2.61426e-105 8.11335e-210 -4.04108e-241 2.06285e+27 -2.46133e+162 -9.68942e-33 -4.23346e-113 -4.37047e+196 -2.1619e+92 1.96582e+180 1.912e-05 2.17033e+80 -1.19178e+250 2.43158e-21 8.04039e-29 -1.19744e-155 1.26023e+63 -6.45442e+278 -2.21306e+244 1.96296e-67 -2.66598e-146 -1.53526e+17 -1.67068e+78 6.51077e-40 1.05924e+82 -2.25527e-155 1.43536e+105 1.04358e+292 1.34714e-166 1.39478e+163 8.88149e+39 -9.36338e-68 -1.47933e-231 2.16666e-54 1.811e+131 1.97212e+169 2.54138e-251 nan -3.35351e+38 1.56071e+259 -1.0235e+56 -3.9744e-164 1.96847e-08 -8.1462e+212 -7.61842e+286 -2.03587e-275 2.06285e+27 3.74377e+171 nan -1.21303e-239 -1.30151e-30 -1.71728e-282 -7.497e-97 -1.17249e+101 -5.99064e-45 -4.13319e+254 2.85053e-41 -1.44792e+306 -2.63707e-115 -9.23775e+71 -1.88812e+45 7.13443e-102 -1.62209e-147 -4.23796e-17 5.12359e+306 -2.45309e+138 -6.37968e-132 -1.01581e+161 2.59921e+303 3.30498e-230 -6.55955e-229 -7.86504e+200 1.83626e-228 2.65361e-51 7.63716e+266 -6.22183e+112 -1.21486e-183 -7.17389e+220 1.92965e-49 7.04328e-133 2.60776e+213 -1.27629e-209 -1.32579e+176 -9.36077e+95 2.74741e+63 -8.76271e-212 -1.49315e-183 1.27959e-166 0
+w_size values: -1429910183
+paa_size values: 113560914
+a_size values: 458582994
+nr_strategy values: "ejxdaegszmkikmyxcnui" "yute" "NA" "NA" "NA" "rmyrvbujbqhobdbrwzwa" "agkjgxwhlxklleuyfkmm" "bedqkiwjmcsywzylzgjd" "wdjmckjchzkwt" "NA" "" "ggtuctrjwprhvlpooxtw" "fkpsqcjwsvsxkwgjneml" "jlawotztyzidlxodaf" "litgjbnlbqsdcjpgglby" "geatwrzgsjuyjcckwovn" "pyctapqqkdq" "wphvcbugjwfchlupvnbh" "NA" "NA" "qcssmyicxwxhdly" "ibmpiixczyjgjpnrnjvt" "NA" "uoqqjvb" "NA" "tgoeaxofghxovapgurzu" "ddaxklonqnfshjv" "NA" "NA" "ldjuicfqkncdysjrevhg" "NA" "at" "vhcekupuagxnzyaabgyv" "hienmcoxtusqwcbavege" "louqrkbtvwtvsxdo" "NA" "yljphsckirlhdpqofolh" "xrp" "uojiytm" "qewzujbgovobipqxpasz" "jcdmssdwxmqhbeztt" "fghrjgwlcejcdlbjghdn" "NA" "itygrizzpibixqybirjq" "NA" "NA" "rlncwalvtsahtbapmzji" "smzxvpwwrfftogbslnoo" "yjwdomxvsbhalkcbgoiz" "dznylhagfwatownmygqw" "dwnnf" "hdmj" "kbqdvldpcswjuftjtymw" "aygdpyt" "NA" "ezjdzsouvu" "geuiznbjhxr" "NA" "NA" "" "plgrqizhqbesrqxejiyl" "NA" "NA" "gwzzihfgvynvulsqkqrr" "j" "NA" "majcjbtyxgftwzpnjkuw" "vdgjmbnppwcyllqgmhbr" "uhalbzwyjjcraqskvtdv" "eujgsotakxrxoluzwmyk" "bqraeo" "NA" "gcbiyudpvovcgtdzjbzd" "NA"
+n_threshold values: -7.42361e-291
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=74].
+ERROR: Failed: jmotif_deepstate_test_series_to_wordbag_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_output/148294a1d91a1cdd04ec33c01ec6d9fed816cb79.fail`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

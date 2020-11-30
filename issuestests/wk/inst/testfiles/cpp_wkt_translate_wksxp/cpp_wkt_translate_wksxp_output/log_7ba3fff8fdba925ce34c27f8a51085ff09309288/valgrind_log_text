@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_wkt_translate_wksxp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/7ba3fff8fdba925ce34c27f8a51085ff09309288.fail`
+TRACE: Running: wk_deepstate_test_cpp_wkt_translate_wksxp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "hgtxtsfzjncw" "misvecbb" "efacchlypmsukbshvvkx" "NA" "NA" "xcnizjp" "vrnkxumqrc" "NA" "NA" "gkoyelnwvneflhwbscol" "NA" "jrwudenadtgxczchrkqo" "cazlkjjrnymyuhqxrapr" "NA" "aybgjfzfvulgycklfcap" "nolghwghrrpqnjjwqy" "NA" "swkzpdsi" "NA" "dhvnj" "szqoanmxnsihtegbrovh" "kerjsiasnhghefjd" "NA" "NA" "NA" "NA" "NA" "o" "vyuisudehkbfqzvcvvna" "NA" "trtttkyqihnsyreebydt" "NA" "NA" "q" "fuqlepdjzpedrm" "bfjhxzvxwllcllycbuka" "xlrujwdnabtfsjieqovy" "hteorpdycrh" "rmragbicxhcfcg" "NA" "NA" "NA" "pcdqdaxxltepeythtdfp" "miywrlkq" "jcsei" "wgpiojaovph" "NA" "NA" "vmnutlaroehfnczqbvbb" "ozfbbjcp" "snm" "mqquq" "NA" "oluptlyhcuppnzkymfkl" "qidoaqhjszart" "NA" "NA" "NA" "NA" "NA" "hchvcaahraoeaxhnkvtc" "zizzjd" "ckunswqmdmjkdfkvfoqz" "NA" "NA" "cmvyqvxbemjfezepigoi" "cpyxvdfhqnxakcnlmgav" "nrymweld" "jbjakievvnaqolzwgvgx" "NA" "redotsskzphzvbk" "bclnreixbpprkfyjxela" "NA" "gdsstottmolrqqfymlqn" "qdkckny" "NA" "xyonuzsxqlgsmkshmxbu" "tfozkhsvcxhfk" "qsrqhhtkizjikqgjteuk" "qalouqupyq" "NA" "dnxhsgkovvobihrvzpbx" "NA" "eazfjlvfmspdoairjett" "ljmudostlgwduutyfumg" "qmwzvhkilocyqcybmtzw" "NA" "NA" "NA" "rbiowbxcjomjhznhjfqk" "ijwdonbbzraunkanccnb" "rlerqevbzyokbsdeyzhb" "gjmewvbhaahegevzcqlx" "NA" "spyljdedbshcptqwghnq" "NA" "NA" "zztkicxltfftszbvwiuj" "pwjjoeyzdhoamaarexpq" "hczuclkqyqlrbcperpcn"
+includeZ values: -669509909
+includeM values: 603425271
+includeSRID values: 435854029
+input ends
+terminate called after throwing an instance of 'WKParseException'
+  what():  Expected geometry type or 'SRID=' but found 'hgtxtsfzjncw' (:0)
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wksxp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wksxp/cpp_wkt_translate_wksxp_output/7ba3fff8fdba925ce34c27f8a51085ff09309288.fail failed

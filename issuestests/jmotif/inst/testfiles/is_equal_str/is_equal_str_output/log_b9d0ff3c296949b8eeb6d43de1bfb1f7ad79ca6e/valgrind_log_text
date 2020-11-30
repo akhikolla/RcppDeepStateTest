@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_is_equal_str_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/is_equal_str/is_equal_str_output/b9d0ff3c296949b8eeb6d43de1bfb1f7ad79ca6e.fail`
+TRACE: Running: jmotif_deepstate_test_is_equal_str_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/is_equal_str/is_equal_str_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: "NA" "NA" "NA" "NA" "obvpkpu" "NA" "" "NA" "hdcedyfckbjruuqqnlny" "fxxd" "gymlvouociiorasr" "f" "dblydvttzikvykfudotn" "gwjuylmalpgbwsoyhbhb" "cmcnvvqonnhdpqjncexa" "phfbzrubyrvmtgu" "hoffkoowvuxkicnfxtng" "NA" "wanjumveldghxsmgyrdf" "NA" "idrzafvlbdzcqw"
+b values: "bkhhmwjdpxy" "ivtzbcw" "wkhrnzqppipinswobdjj" "NA" "NA" "NA" "onxjjxnezvumiezfmfib" "lnaiazrrlssdorscbyjs" "kxoojvcn" "vqhqlnjnlrzmtzggvk" "NA" "NA" "NA" "oliabrdhulhxlmrwqtiu" "usvqalgqdcs" "NA" "xibiicdglfcdialnfunt" "NA" "dinrywgpnwibbecpfwth" "jnghsjovfgw" "NA" "NA" "jdzn" "muerhuvwxvbxglhvldee" "xuznjebhgzmpqu" "mkoeh" "rwwofvzeodocwugglcju" "mdirbtoxmvwa" "ytaewwqdrgayfzvolbqw" "snseec" "gh" "ir" "ywtf" "NA" "iapwbuzvtouewcocyrzc" "lpjoadrqhlmopgqsbpor" "NA" "lmxucrarlhu" "tvcxbfkawbtez" "fbhjovbmtrezxmxtccu" "NA" "tptevuycpxztpfrrxrxy" "zizhhtdajs" "NA" "tmyaoqjutccaqcprwdou" "NA" "NA" "vfaupeuiijjcpnbnomkg" "chafepxjhscrknweeztj" "uhtqjnvdhpfwjyvhzonx" "NA" "NA" "NA" "gbpmdenxozdbznwlzvik" "kthggjbkckcmodaaepbe" "xgkjnjmyihfavsk" "wzhxojvi"
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=21].
+ERROR: Failed: jmotif_deepstate_test_is_equal_str_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/is_equal_str/is_equal_str_output/b9d0ff3c296949b8eeb6d43de1bfb1f7ad79ca6e.fail failed

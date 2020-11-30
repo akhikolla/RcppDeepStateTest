@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (humaniformat_deepstate_test_get__test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humaniformat/inst/testfiles/get_/get__output/bcb01d0d8a77b52cc73d6377616387033c359421.crash`
+TRACE: Running: humaniformat_deepstate_test_get__test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humaniformat/inst/testfiles/get_/get__DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+names values: "ousitdwd" "oizslhzuqjmkjrobpb" "NA" "NA" "bembntmqrvkfwsnvyrcg" "sdzxocfrgx" "NA"
+element values: -19762091
+input ends
+==1775152==  If you believe this happened as a result of a stack
+==1775152==  overflow in your program's main thread (unlikely but
+==1775152==  possible), you can try to increase the size of the
+==1775152==  main thread stack using the --main-stacksize= flag.
+==1775152==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: humaniformat_deepstate_test_get__test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humaniformat/inst/testfiles/get_/get__output/bcb01d0d8a77b52cc73d6377616387033c359421.crash crashed

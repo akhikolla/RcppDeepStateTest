@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (bsearchtools_deepstate_test_ubNumeric_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsearchtools/inst/testfiles/ubNumeric/ubNumeric_output/2590be38806afc5301d70ae5e0ce44f698646ade.pass`
+TRACE: Running: bsearchtools_deepstate_test_ubNumeric_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsearchtools/inst/testfiles/ubNumeric/ubNumeric_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+sortedValues values: 5.10218e+149 1.04207e+197 1.29177e+206 5.61665e+54 5.55514e-301 -4.5792e+39 3.24348e+86 3.64843e-241 1.51134e+82 1.50421e+79 1.24049e-172 -9.05042e-164 -1.44706e+56 7.01623e-174 1.63983e-131 5.50761e-173 7.55965e-224 3.44787e-262 -1.0226e-139 3.55236e-209 -1.56939e-103 -4.89501e-288 -1.31384e-240 -2.13054e+69 4.99755e-51 1.02593e-203 -7.53978e-286 1.23025e+176 -6.28563e+280 2.14734e-154 5.83683e+84 -2.43242e-73 3.80756e-106 -6.41421e-202 1.45548e+156 2.10074e-65 -1.10236e+47 -5.2475e-75 -1.53486e-85 -4.77414e-152 -7.31694e-72 7.73836e+208 -9.24168e-231 -5.85099e+165 1.81607e-265 -6.25489e+249 -1.00106e-35 1.66439e-150 -2.45144e+220 8.67282e+36 -8.52883e+225 6.47116e+152 2.30584e+136 -7.12474e+200 -inf -5.7066e-142 1.16618e+225 -6.68388e+237 3.21654e+256 2.72616e-284 -6.96611e+282 3.86332e+57 4.16831e-31 2.02979e+74 2.16085e+96 nan -2.0031e-86 3.80975e+09 7.18472e+19 3.21654e+256 -9.51995e+198 -5.51348e-37 1.1754e+09 1.20573e-57 3.48834e+42 -2.98167e-127 1.60726e+277 -2.64421e-174 -2.04389e+273 7.82565e+182 -7.2775e-69 5.98311e+21 -5.28913e-118 inf -7.84427e+157 3.97252e+49 -3.44703e-73 0
+valueToSearch values: -1.40426e+135
+input ends
+TRACE: Passed: bsearchtools_deepstate_test_ubNumeric_test

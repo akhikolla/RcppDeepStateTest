@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_xlogistic_fits_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/xlogistic_fits/xlogistic_fits_output/215eb313447e996a4efec9768b1a0042191cc2f1.fail`
+TRACE: Running: RcppDynProg_deepstate_test_xlogistic_fits_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/xlogistic_fits/xlogistic_fits_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -3.57126e-259 -1.52281e-15 nan 8.52215e-113 2.54399e-45 -6.63071e+10 1.33457e+265 1.51623e-96 inf 2.93731e-09 nan 0
+y values: 2.31158e+260 -5.84078e-278 1.27366e+93 1.91022e-300 3.01789e+177 -6.49846e-203 2.51613e+94 -2.87602e+104 -2.19541e+107 -7.18535e+27 2.54371e+274 3.92696e-58 -3.57014e-85 -inf 2.79342e+197 -3.71506e+210 1.81915e+160 -1.34437e-142 -1.34661e-295 inf 3.32771e-243 1.12471e-05 2.09254e-246 -1.3609e+20 -0.00336425 9.94181e-92 5.14413e+197 -3.39679e+186 -3.63869e+08 -2.78111e-224 1.98233e-258 inf -9.12834e-101 1.74633e+277 -4.18482e+06 1.86924e-263 1.60116e-218 -3.52729e+164 -3.53424e-16 2.91718e+306 -1.8741e+225 -1.68005e-62 1.07635e+229 nan -2.50727e-149 -2.02578e-298 -2.62754e-109 2.15861e+207 -3.63083e-272 -1.57076e-173 -2.14055e-271 -1.03732e+244 1.13144e-212 0
+w values: -1.64325e-65 -inf -1.11566e+266 1.92093e+290 2.55329e-62 -2.55099e-197 -2.02957e+11 1.31485e+214 nan -1.19217e-157 7.15872e-08 -6.38304e-143 inf -3.66692e-154 inf 0
+i values: 461951935
+j values: 1859420074
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=461951935; extent=16].
+ERROR: Failed: RcppDynProg_deepstate_test_xlogistic_fits_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/xlogistic_fits/xlogistic_fits_output/215eb313447e996a4efec9768b1a0042191cc2f1.fail failed

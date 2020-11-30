@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (icRSF_deepstate_test_loglikC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icRSF/inst/testfiles/loglikC/loglikC_output/29261d2fba4fefd38014797986b44e2674c81e8d.pass`
+TRACE: Running: icRSF_deepstate_test_loglikC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icRSF/inst/testfiles/loglikC/loglikC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+parm values: nan inf 1.13797e-302 nan nan
+Dmat values: 1.61367e+171 2.92181e-65 4.49801e-35 9.16091e-14 5.78380e+122 1.46420e-305 1.12753e+240
+2.37786e+66 1.82545e-280 9.81614e-17 2.66995e+249 9.66437e-82 6.43884e-90 2.29844e-17
+9.94880e-113 4.65265e+258 9.69830e-139 6.01013e+282 9.24451e-153 1.71910e-40 1.82811e+107
+
+x values: -3.39632e+60 2.15814e-65 9.15093e-218 inf -8.38987e+241 -3.35254e-46 1.84212e-86 -3.59914e-14 -inf -1.06245e-231 -4.35285e-256 -1.79956e+36 1.4079e+299 nan -2.91804e-209 1.76239e+45 5.44718e-113 6.93209e+39 6.90322e-50 2.81712e-202 1.11523e+51 nan -1.08343e-137 2.06217e-183 9.05039e+63 1.17372e+172 1.92143e+108 -9.107e-35 -2.14747e+139 -4.12027e+235 0
+input ends
+TRACE: Passed: icRSF_deepstate_test_loglikC_test

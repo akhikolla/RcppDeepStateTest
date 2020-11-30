@@ -1,0 +1,35 @@
+WARNING: No test specified, defaulting to first test defined (signalHsmm_deepstate_test_duration_viterbi_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signalHsmm/inst/testfiles/duration_viterbi/duration_viterbi_output/3a80c5d57411db069b7395924b5188fb27bed834.crash`
+TRACE: Running: signalHsmm_deepstate_test_duration_viterbi_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signalHsmm/inst/testfiles/duration_viterbi/duration_viterbi_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+aa_sample values: -8.29861e-254 nan 3.10105e-34 -9.52073e+107 1.10399e+96 -3.10406e+238 8.15315e+116 9.65466e+122 2.28505e-167 -1.82911e-73 -8.38766e+282 4.44566e-296 nan 3.32565e-295 3.58151e+250 2.3332e+100 2.69143e+96 4.85395e-28 8.52461e+74 2.82016e-98 1.33617e+174 4.15512e+234 -1.64086e-46 -5.22452e+264 5.39406e-217 3.87863e-205 1.25586e-141 1.13283e-200 3.26468e+12 6.20722e-159 1.05132e-270 -2.71352e+34 -1.03022e+276 2.416e-101 1.42305e+199 -1.36221e-49 -8.43717e-252 1.31737e-96 3.81787e+14 2.6871e-155 -inf 2.12735e-296 6.68665e-151 7.96993e-117 5.07393e-217 5.73912e+200 -2.74126e-247 -7.51864e-25 -1.05583e-243 -1.29768e+153 -2.02498e+285 3.66452e+159 1.1626e+147 8.07742e+115 -7.16755e+261 1.76638e+113 -inf 1.21714e+203 -172326 -4.07725e+198 3.1246e+302 -1.46111e+24 -8.15025e+83 -1.71226e+259 -4.39691e+211 -5.39593e+132 nan 2.3439e+103 1.47386e+165 9.05336e-92 1.23046e+36 1.3857e-215 7.99708e+134 -4.33687e-200 6.5044e-248 -2.31655e+199 0
+pipar values: 9.57107e-194 inf 3.61178e+19 -1.09958e-119 9.09331e+188 1.69796e-41 inf -3.85736e+26 -2.21681e+278 1.63634e-178 inf 2.00066e+241 1.51181e-84 inf 4.06311e+91 5.92497e-34 5.54148e-123 -1.09972e+229 0
+tpmpar values: 7.79521e+153 7.17043e+47 2.85604e+69 1.91888e-174 7.97056e+171 3.60525e+144 1.71315e-150 8.77369e+273
+2.98777e+211 6.86278e-73 1.85007e+109 1.14949e+33 1.00488e+202 2.92189e+165 1.76395e+249 5.11022e+275
+1.16211e-278 1.86500e-107 4.22805e+215 1.32212e-111 2.49145e-123 1.41526e-10 1.02423e+106 1.14417e-136
+6.11334e+10 1.63832e+276 6.93331e+269 1.72901e+78 2.54436e+56 2.90092e+182 9.60243e+08 7.84052e-101
+
+od values: 1.08332e+209 3.42811e-37 9.98926e-67
+4.06287e-69 8.23956e+71 1.83246e+28
+5.68924e-253 1.75134e+103 1.98401e-06
+
+params values: 6.60132e+131 6.31976e-111 1.93358e-22 6.94212e-294 9.20946e-131 4.05461e+53
+3.98312e+83 0.000109260 3.24750e+303 3.06283e-158 5.42957e-15 2.24684e+293
+3.32402e+203 2.39597e-64 2.75259e-228 5.66050e-88 7.03801e-217 6.24962e+79
+2.58059e+73 2.46562e-48 5.15188e-170 7.95677e+261 1.56078e+221 1.47517e+14
+1.22214e+256 5.08515e-285 4.15523e-196 4.26488e+146 5.80954e+45 2.16270e+179
+3.03866e-28 2.15272e+250 1.91388e-83 7.65011e-285 4.91324e+169 0.452947
+2.21454e+110 1.33468e-107 1.05226e+110 5.58704e+163 6.05908e-291 1.61081e+143
+1.15816e-304 1.64754e-205 8.03006e-278 7.14653e-172 5.07726e+261 19250.7
+2.31608e-172 2.13485e-146 1.73238e+06 1.98938e-216 7.45093e-134 1.00088e+179
+
+input ends
+==1773240==  If you believe this happened as a result of a stack
+==1773240==  overflow in your program's main thread (unlikely but
+==1773240==  possible), you can try to increase the size of the
+==1773240==  main thread stack using the --main-stacksize= flag.
+==1773240==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: signalHsmm_deepstate_test_duration_viterbi_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/signalHsmm/inst/testfiles/duration_viterbi/duration_viterbi_output/3a80c5d57411db069b7395924b5188fb27bed834.crash crashed

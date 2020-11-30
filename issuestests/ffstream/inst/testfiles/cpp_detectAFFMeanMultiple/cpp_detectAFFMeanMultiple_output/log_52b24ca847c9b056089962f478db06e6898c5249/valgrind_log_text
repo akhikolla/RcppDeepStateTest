@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectAFFMeanMultiple_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectAFFMeanMultiple/cpp_detectAFFMeanMultiple_output/52b24ca847c9b056089962f478db06e6898c5249.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectAFFMeanMultiple_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectAFFMeanMultiple/cpp_detectAFFMeanMultiple_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 3.95873e+101 5.32387e+138 5.19908e-106 4.54831e+222 1.42696e+302 -6.01987e+287 -3.0059e-164 -1.9431e-91 -1.05946e+280 4.8492e+68 -1.26311e+124 -2.06002e-177 -2.06002e-177 -1.09121e+226 2.97809e-180 8.5433e-154 4.61708e-250 -2.06002e-177 -3.90793e-209 0
+alpha values: -4.26999e-66
+eta values: 2.18273e+208
+BL values: 1241756231
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectAFFMeanMultiple_test

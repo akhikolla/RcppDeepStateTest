@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_const_costs_logistic_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_costs_logistic/const_costs_logistic_output/944ead950eefd26c20d4d4d195c2b1a56f30cc5c.fail`
+TRACE: Running: RcppDynProg_deepstate_test_const_costs_logistic_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_costs_logistic/const_costs_logistic_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -1.85757e+135 -4.96777e+237 -inf -2.01205e+100 -inf 1.82427e+124 2.1377e+256 -1.00142e-121 1.4466e+174 -1.71922e+215 nan 1.28221e+110 5.77184e+204 -4.33911e-228 nan 3.63365e+180 inf -1.59164e-281 -1.7709e-275 -inf -33449.8 8936.26 7.74362e-196 -2.86889e+119 4.46812e+220 6.54004e-84 -1.83873e-42 1.04169e-248 2.79233e-143 2.56507e+176 -2.60643e-95 -3.92316e+255 4.81127e-73 -3.99121e-193 0
+w values: nan nan nan nan
+min_seg values: -673287404
+indices values: 1594078306 152500009 888324016 392224185
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=152500008; extent=35].
+ERROR: Failed: RcppDynProg_deepstate_test_const_costs_logistic_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_costs_logistic/const_costs_logistic_output/944ead950eefd26c20d4d4d195c2b1a56f30cc5c.fail failed

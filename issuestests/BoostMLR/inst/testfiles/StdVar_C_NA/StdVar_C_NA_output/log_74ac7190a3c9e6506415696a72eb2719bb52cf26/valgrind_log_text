@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_StdVar_C_NA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/StdVar_C_NA/StdVar_C_NA_output/74ac7190a3c9e6506415696a72eb2719bb52cf26.pass`
+TRACE: Running: BoostMLR_deepstate_test_StdVar_C_NA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/StdVar_C_NA/StdVar_C_NA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+MyMat values: 2.87206e-306 4.08757e-166 1.17998e+236 3.06165e-276 4.74921e+190 2.65518e-152 7.95392e+08 4.42616e-297 4.88707e-32
+3.06745e+296 3.42772e+302 1.03126e-88 6.77787e-275 1.78228e-37 4.98193e+84 5.47402e-57 2.60365e+204 3.12578e+88
+1.02092e+215 3.04676e+274 4.51835e+60 2.33258e-67 8.83055e-206 2.27324e-89 1.37008e-205 3.40425e+134 2.52543e+198
+2.41337e-91 2.44390e+38 1.56935e+19 1.48465e-55 2.13119e-246 2.37485e+63 9.33829e+22 353.827 7.11915e-214
+1.72352e-192 8.29350e-08 2.32519e+167 8.48000e-255 9.60311e+91 2.95540e+189 2.49002e-294 1.32700e-135 8.43770e+79
+1.60971e-179 3.46339e-220 2.50187e+297 5.21829e+246 1.31953e+77 6.06730e+209 3.28727e+291 1.68157e+55 3.26502e-50
+2.89859e+218 7.33699e+208 9.42846e-298 1.61457e-247 1.22830e-292 1.21318e-71 7.66384e+26 3.09607e+296 1.67124e-161
+1.36434e+59 9.88664e-188 8.28047e-175 1.79637e-98 5.42785e+189 2.15889e+14 3.04614e-11 1.24553e+277 6.23011e-215
+
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_StdVar_C_NA_test

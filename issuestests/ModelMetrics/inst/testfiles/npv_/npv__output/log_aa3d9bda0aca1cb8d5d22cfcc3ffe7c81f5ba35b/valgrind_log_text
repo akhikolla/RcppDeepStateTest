@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (ModelMetrics_deepstate_test_npv__test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/npv_/npv__output/aa3d9bda0aca1cb8d5d22cfcc3ffe7c81f5ba35b.pass`
+TRACE: Running: ModelMetrics_deepstate_test_npv__test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/npv_/npv__DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+actual values: -4.06456e-168 -2.69721e-125 -1.23847e+259 -7.72514e+164 9.10929e-244 8.70513e-99 6.9734e-93 -9.4558e+220 4.7863e+16 -8.62486e-69 -7.06337e-09 -1.60449e+06 -4.98877e-214 9.32765e-155 1.98394e-28 2.16919e+99 1.93925e-291 -2.51333e+274 -3.76252e+42 -2.0506e+15 7.24534e+139 3.0147e-73 2.8628e+108 -2.79325e+282 -1.00052e+61 -2.07703e+211 -9.46266e+101 -1.19967e-278 2.16864e-48 9.33332e-45 2.402e+294 9.50985e+285 -2.19638e-287 9.05296e-222 1.97257e+219 3.987e+79 2.99975e+224 -2.01428e+22 -2.45085e+110 3.65579e-88 7.81496e+196 -1.76971e-75 7.01435e+205 3.3185e-59 7.13167e+142 -1.38852e-31 -1.42907e-139 -1.97749e-175 8.7555e-188 inf nan -3.78947e-119 -2.99955e+262 -6.45004e+215 -5.38233e+213 3.3432e+28 2.551e+210 -1.68005e+285 1.81384e+92 -3.46579e+179 6.77099e+08 -2.08162e-248 3.83733e-205 1.15883e-283 -1.95593e+73 -3.57286e-94 -5.51548e-207 4.92229e+196 1.16923e-262 -inf -inf 1.616e-91 -6.0532e+214 -5.78502e+140 -2.23104e-15 4.53955e+269 -8.82764e-89 1.04221e+135 0
+predicted values: 3.63687e-222 -2.36798e+198 nan -4.21589e-189 -8.2054e+158 1.13832e+55 3.20496e-276 -1.43988e-145 2.73613e+295 -1.08305e+243 -5.53367e+150 -1.56816e-299 -inf -1.99693e+99 nan 1.56425e+52 -3.91484e+153 3.20496e-276 -1.6168e+249 0
+cutoff values: -2.99556e+29
+input ends
+TRACE: Passed: ModelMetrics_deepstate_test_npv__test

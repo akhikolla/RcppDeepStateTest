@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_movingaves_n_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/movingaves_n/movingaves_n_output/4844b4b81208e6d4f1657211cf36760be4f98b1a.pass`
+TRACE: Running: accelerometry_deepstate_test_movingaves_n_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/movingaves_n/movingaves_n_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: nan 9.62782e-167 -8.23971e-06 3.29803e+190 -1.034e+285 -1.59382e+69 5.69546e-169 -2.86222e-138 -1.29092e+08 -6.73228e-289 -1.45433e-145 -6.46957e-93 5.63272e+208 9.70115e+40 6.37174e-50 -3.48199e-114 nan 1.1006e+243 7.61923e+248 -1.51188e-31 -4.36832e+58 inf 4.37438e+189 6.99901e-38 2.47201e+243 3.29526e+100 1.88588e+207 -1.6709e-211 -3.54351e+149 -5.3292e+183 -2.56035e-38 1.15483e-215 5.69546e-169 2.82646e+143 7.23286e+28 -5.81761e-263 2.72983e+113 4.95411e-58 -1.6055e-217 8.37749e-184 3.58684e+75 -2.87518e-47 -6.90385e+250 1.26058e-238 -2.34989e+57 0
+window values: -2.58342e-21
+input ends
+TRACE: Passed: accelerometry_deepstate_test_movingaves_n_test

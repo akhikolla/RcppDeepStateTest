@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_find_discords_hotsax_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/c5faddc56812ee0c2402c0d7c8f9162db178e3e5.crash`
+TRACE: Running: jmotif_deepstate_test_find_discords_hotsax_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: -1.6044e-161 7.89281e+242 -2.61546e+262 3.68417e+23 -9.13686e+153 7.40411e+251 3.92851e-78 -2.12948e+201 4.66917e-295 -1.41465e+62 6.57046e-138 -6.96503e-40 8.46376e-289 2.10032e+23 2.21595e-296 -2.28924e+79 8.56717e+167 2.81185e-62 3.89104e-185 -6.47028e+277 -1.90406e-230 9.91035e+112 5.69189e+284 4.59641e+98 1.16186e+297 7.81593e-285 -1.4122e+153 1.2887e+136 -5.69423e+82 -2.61782e+244 7.08118e+131 0.000326654 -4.47175e-61 nan -3.91967e-113 3.6041e-302 1.70753e-305 -2.76226e+178 -2.44994e-75 -6.58425e+297 2.51181e+46 -1.15081e-232 1.70515e-90 -6.31636e-225 nan 1.66359e-183 -5.00318e+120 -1.12532e-63 -1.71767e-142 6.46469e+254 -6.34489e-153 3.31939e-118 -4.6797e-72 -3.43987e-182 6.24872e-304 2.21324e+281 1.36704e+251 -3.63891e-202 -4.7877e-160 6.30273e-198 1.0299e+101 -1.16868e-17 9.59203e-177 -3.41078e+165 2.58796e+149 -1.09753e+168 -3.74562e+276 2.91354e-99 3.53445e+250 -2.34563e-33 1.68487e-185 -6.71907e-294 5.29399e-133 4.1615e-156 -inf 1.26106e-97 9.78056e-117 1.81427e-57 1.42241e-40 1.59888e-105 -4.25981e-66 -7.71515e-121 1.67447e-269 7.71592e-21 1.12365e+74 -1.75485e-110 2.38204e+182 nan 1.7354e-231 -3.61752e+15 -3.9687e+39 1.08575e+14 1.29226e-26 0
+w_size values: 242969347
+paa_size values: 390209752
+a_size values: 913603546
+n_threshold values: 2.04503e-160
+discords_num values: 1659378145
+input ends
+==1571701==  If you believe this happened as a result of a stack
+==1571701==  overflow in your program's main thread (unlikely but
+==1571701==  possible), you can try to increase the size of the
+==1571701==  main thread stack using the --main-stacksize= flag.
+==1571701==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: jmotif_deepstate_test_find_discords_hotsax_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/c5faddc56812ee0c2402c0d7c8f9162db178e3e5.crash crashed

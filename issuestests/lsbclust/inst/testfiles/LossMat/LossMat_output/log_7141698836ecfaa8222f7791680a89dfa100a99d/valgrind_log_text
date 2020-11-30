@@ -1,0 +1,21 @@
+WARNING: No test specified, defaulting to first test defined (lsbclust_deepstate_test_LossMat_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/lsbclust/inst/testfiles/LossMat/LossMat_output/7141698836ecfaa8222f7791680a89dfa100a99d.pass`
+TRACE: Running: lsbclust_deepstate_test_LossMat_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/lsbclust/inst/testfiles/LossMat/LossMat_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.83100e-166
+1.45474e+206
+
+y values: 2.59317e+268 2.89877e-66 4.66224e-49 7.17708e-149
+8.90036e+288 1.27201e+259 6.08872e-16 4.53074e-254
+1.13248e+21 9.39187e-164 1.05523e+107 1.00071e+240
+3.11291e+247 1.41305e-87 5.69989e-50 2.06731e+273
+2.67566e+24 9.02275e+48 1.66003e-171 1.13652e+11
+1.55377e-147 1.09280e+98 2.18357e-119 1.20731e-131
+2.35110e+281 2.33947e-207 6.01453e-230 2.56064e+275
+1.89978e+172 1.93890e-115 3.25092e-223 2.76262e+133
+4.11479e-40 5.28395e-45 6.78244e+96 3.16739e+144
+
+input ends
+TRACE: Passed: lsbclust_deepstate_test_LossMat_test

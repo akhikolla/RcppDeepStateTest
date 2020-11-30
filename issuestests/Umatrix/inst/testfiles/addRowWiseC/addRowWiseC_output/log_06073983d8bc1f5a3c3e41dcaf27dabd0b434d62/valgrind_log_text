@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (Umatrix_deepstate_test_addRowWiseC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/addRowWiseC/addRowWiseC_output/06073983d8bc1f5a3c3e41dcaf27dabd0b434d62.pass`
+TRACE: Running: Umatrix_deepstate_test_addRowWiseC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/addRowWiseC/addRowWiseC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+WeightVectors values: 4.05506e-179 4.55022e+198 3.65926e+56 2.56496e+144 6.83782e+67
+1.80603e+169 2.78562e-32 2.23374e+297 1.26673e+297 2.55483e-307
+2.19328e-120 1.57408e+303 1.00494e+255 1.81465e+295 2.75867e-235
+6.35821e-273 1.81791e-79 2.55917e-240 4.29906e+74 8.47080e+141
+1.26913e+148 2.50234e+50 2.68716e+19 9.62418e+73 3.26644e-33
+2.03708e-107 4.87385e-154 1.73300e+226 7.89553e+62 2.36501e+129
+5.85117e-86 5.11730e-297 2.95835e-277 2.36497e-31 4.00786e-169
+
+DataPoint values: -2.21159e+54 4.33906e-145 -2.76589e-123 0.000499002 -3.44732e-210 1.07837e-237 -4.24088e-177 2.11015e-72 9.92987e+296 4.41947e+105 -7.73609e-150 101.928 -3.63607e-53 -1.08862e+235 -8.77555e-158 1.1731e+36 7.07922e-104 1.90631e+151 nan -4.71571e+212 3.2706e-232 -2.12598e+10 -8.639e-53 -1.06301e-156 -3.74663e+73 -2.62999e+198 -4.49208e-246 -3.02276e+75 -5.43418e+35 7.5234e-67 6.49807e+160 9.22735e-07 -5.10791e-141 -1.78958e-305 8.12533e-30 5.11787e-171 -6.59455e-295 -6.45465e-267 -3.86299e-132 -1.55745e+229 nan 2.00016e+83 6.84347e+180 -1.44974e+186 -2.25501e-274 7.74407e+269 2.44287e-37 1.94905e+227 -1.26046e+41 -3.45606e+152 -1.69263e+214 -6.69499e+217 7.32083e+58 3.71886e-212 949.873 -1.72075e-74 -1.59389e+101 3.06964e+134 -8.02189e+24 -4.85255e-285 nan 2.29629e-177 2.83217e-278 3.03686e+240 -2.98924e-153 2.98371e+152 -1.49176e+09 1.53465e+98 2.04829e+230 1.18955e-188 -inf 6.39359e+271 0
+input ends
+TRACE: Passed: Umatrix_deepstate_test_addRowWiseC_test

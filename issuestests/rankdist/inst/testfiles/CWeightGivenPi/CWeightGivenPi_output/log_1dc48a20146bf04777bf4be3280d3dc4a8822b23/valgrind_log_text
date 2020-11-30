@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_CWeightGivenPi_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/CWeightGivenPi/CWeightGivenPi_output/1dc48a20146bf04777bf4be3280d3dc4a8822b23.pass`
+TRACE: Running: rankdist_deepstate_test_CWeightGivenPi_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/CWeightGivenPi/CWeightGivenPi_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+r1 values: nan inf 2.25296e+167 -2.68144e+130 94032.8 8.26636e-252 -2.2171e+116 3.60984e-285 1.26149e-304 -inf nan 0
+r2 values: 1.15032e-176 -4.97436e+117 -1.62208e-181 nan 2.27599e-122 9.03167e-200 1.89921e+112 6.71867e+64 1.7791e-92 -1.64148e-219 -1.36345e-169 2.60962e+297 3.1427e+93 nan 9.25278e+225 1.41242e+59 -6.23185e+79 2.45619e+248 1.16981e+35 -2.64699e-200 -7.67284e+168 -1.06735e+200 -2.78732e-208 -3.16099e-77 -3.33181e-198 -2.01184e+285 -3.73885e-51 -4.08781e+38 2.11694e+302 -4.72326e-229 -4.12123e-105 -3.98022e-80 -3.23602e-280 1.55905e+124 6.71099e-45 6.51907e+28 2.45925e-298 1.85386e+232 -6.24403e+54 2.09107e-155 1.06422e+96 -1.86597e+252 4.56953e-148 -2.76724e+261 -7.14345e+223 2.78091e-108 -7.03439e-192 2.18128e+220 -2.20341e+239 -7.94566e-273 nan -1.7529e+196 -1.52517e-223 2.15961e+71 4.24662e-158 2.58622e-136 7.31508e+28 -2.63528e-296 4.32482e-29 -1.22065e-25 -1.12132e+290 -4.20258e-302 -7.7617e+222 3.34322e+270 -6.45741e+289 inf 5.38655e+89 9.54755e+153 -8.56178e+188 -1.8864e+192 -3.98192e-38 -4.56912e-164 1.34831e-236 -3.93217e+24 -3.64598e+177 5.21048e+57 -3.92304e-187 1.1135e-292 1.21029e+154 inf -1.92434e+282 1.86864e+204 3.02258e-126 2.21604e+202 -9.5129e-158 9.43578e+277 1.38161e+54 -1.08884e+77 4.65483e+128 -8.38132e-186 -6.24844e-29 -2.30073e-159 -4.85035e+303 1.34482e-157 -8.38607e-05 -1.96504e+256 -1.46924e+259 4.37764e+106 0
+input ends
+TRACE: Passed: rankdist_deepstate_test_CWeightGivenPi_test

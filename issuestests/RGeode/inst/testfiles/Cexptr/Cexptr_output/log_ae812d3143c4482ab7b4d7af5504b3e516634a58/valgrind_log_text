@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_Cexptr_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/Cexptr/Cexptr_output/ae812d3143c4482ab7b4d7af5504b3e516634a58.pass`
+TRACE: Running: RGeode_deepstate_test_Cexptr_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/Cexptr/Cexptr_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1982683103
+lambda values: 2.88834e+247
+range values: 5.10583e-32 inf inf nan -9.09474e+95 nan nan 0
+input ends
+ERROR: Crashed: RGeode_deepstate_test_Cexptr_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/Cexptr/Cexptr_output/ae812d3143c4482ab7b4d7af5504b3e516634a58.pass crashed
