@@ -2,6 +2,7 @@ valgrind_afl_test <- function(){
 cA.dir <- file.path(system.file("extdata",package="RcppDeepState"),"compileAttributes")
 root.path <- system.file("extdata",package="RcppDeepState")
 packages <- Sys.glob(file.path(cA.dir,"*"))
+packages <- packages[10:163]
 for(pkg.i in seq_along(packages)){
   pkg.tar.gz <- packages[[pkg.i]]
   testfiles.vec <- Sys.glob(file.path(pkg.tar.gz,"inst/testfiles/*"))
@@ -15,7 +16,8 @@ for(pkg.i in seq_along(packages)){
     afl.inputs.path <- file.path(afl.fun.path,"afl_inputs") 
     times <- unique(gsub("_.*","",basename(afl.inputs)))
     for(utime in times){
-       run_line <- paste0("R -d valgrind --vanilla --args ",afl.inputs.path,"/",basename(utime)," < /home/akhila/RcppDeepStateTest/afl_valgrind_per_function.R")
+       run_line <- paste0("R -d valgrind --vanilla --args ",afl.inputs.path,"/",basename(utime),
+         " < /home/akhila/RcppDeepStateTest/afl_valgrind_per_function.R")
        system(run_line)
      }
    }
