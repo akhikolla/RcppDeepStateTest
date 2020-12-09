@@ -1,0 +1,32 @@
+DEBUG: INFO: Seed: 1204741609
+
+DEBUG: INFO: Loaded 1 modules   (1887 inline 8-bit counters): 
+DEBUG: 1887 [6426a0, 642dff), 
+DEBUG: 
+
+DEBUG: INFO: Loaded 1 PC tables (1887 PCs): 
+DEBUG: 1887 [5e8730,5efd20), 
+DEBUG: 
+
+DEBUG: ./get_VM_C_DeepState_TestHarness: Running 1 inputs 1 time(s) each.
+
+DEBUG: Running: crash-07a6985e15ee96fc35841aa1ba248984f55831e5
+
+input starts
+Missing value
+EXTERNAL: qs v0.23.4.
+
+x values: -1.98822e-301 -nan -nan 6.98351e-251 1.80107e-255 2.27773e-275 5.77662e-275 -nan -nan -nan -8.22265e+197 nan -nan nan -1.34766e+28 -1.34766e+28 nan -1.34766e+28 -nan -nan -nan -2.00194e-301 -nan -nan 4.77831e-299 -5.48612e+303 -nan 2.20727e-305 -nan -2.0422e-301 -nan -nan -nan -nan 1.39067e-309 0 -nan 2.16225e-110 -nan 1.15689e-279 3.65155e-107 -nan -nan -1.09007e-175 1.26707e-279 -nan -nan -5.48612e+303 -nan -1.46063e+308 -nan -1.20245e+111 -8.08635e-174 -nan 0
+Missing value
+y values: nan nan 3.28559e+180 1.08743e-109 -2.28624e+305 2.15335e+99 5.58709e-102 -2.19445e+305 -nan -nan 5.77662e-275 -5.48613e+303 -4.46124e+43 1.21349e-279 1.80107e-255 -nan 0
+Missing value
+z values: -nan -inf -1.17427e+110 -7.55149e+303 1.80107e-255 -nan 3.78577e-270 nan -nan -3.79952e+202 2.85549e-110 7.18525e-308 8.09428e-320 -nan 4.64746e+182 2.77448e+180 2.77448e+180 2.77448e+180 5.57883e+93 -3.0356e+26 -1.34766e+28 -1.34766e+28 -1.08902e-175 -1.09007e-175 nan -nan -7.55149e+303 -nan 9.3167e-109 5.77662e-275 -1.09007e-175 -1.09007e-175 -1.09007e-175 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 nan nan 0
+input ends
+input starts
+Missing value
+x values: -1.98822e-301 -nan -nan 6.98351e-251 1.80107e-255 2.27773e-275 5.77662e-275 -nan -nan -nan -8.22265e+197 nan -nan nan -1.34766e+28 -1.34766e+28 nan -1.34766e+28 -nan -nan -nan -2.00194e-301 -nan -nan 4.77831e-299 -5.48612e+303 -nan 2.20727e-305 -nan -2.0422e-301 -nan -nan -nan -nan 1.39067e-309 0 -nan 2.16225e-110 -nan 1.15689e-279 3.65155e-107 -nan -nan -1.09007e-175 1.26707e-279 -nan -nan -5.48612e+303 -nan -1.46063e+308 -nan -1.20245e+111 -8.08635e-174 -nan 0
+Missing value
+y values: nan nan 3.28559e+180 1.08743e-109 -2.28624e+305 2.15335e+99 5.58709e-102 -2.19445e+305 -nan -nan 5.77662e-275 -5.48613e+303 -4.46124e+43 1.21349e-279 1.80107e-255 -nan 0
+Missing value
+z values: -nan -inf -1.17427e+110 -7.55149e+303 1.80107e-255 -nan 3.78577e-270 nan -nan -3.79952e+202 2.85549e-110 7.18525e-308 8.09428e-320 -nan 4.64746e+182 2.77448e+180 2.77448e+180 2.77448e+180 5.57883e+93 -3.0356e+26 -1.34766e+28 -1.34766e+28 -1.08902e-175 -1.09007e-175 nan -nan -7.55149e+303 -nan 9.3167e-109 5.77662e-275 -1.09007e-175 -1.09007e-175 -1.09007e-175 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 -1.34766e+28 nan nan 0
+input ends
