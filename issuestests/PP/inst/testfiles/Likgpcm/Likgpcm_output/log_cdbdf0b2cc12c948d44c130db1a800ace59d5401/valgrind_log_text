@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (PP_deepstate_test_Likgpcm_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/Likgpcm/Likgpcm_output/cdbdf0b2cc12c948d44c130db1a800ace59d5401.fail`
+TRACE: Running: PP_deepstate_test_Likgpcm_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/Likgpcm/Likgpcm_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+awv values: -2147483648 -1961126537 16918809 1827146404
+DELTA values: 9.85992e+61 1.72655e+62 7.89358e+200 1.02169e+65 6.30552e+298 3.98386e+21
+4.31567e-209 1.94714e+175 1.44943e+271 3.61119e+99 1.91396e-158 3.97377e-200
+6.67145e+285 9.63684e-160 4.71499e-172 4.96837e-73 3.02788e-297 2.10007e-194
+
+ALPHA values: -1.38152e+168 1.19315e-141 -inf -2.07561e+237 -1.05582e+199 -4.88805e-297 nan 3453.29 -3.56975e-36 5.39109e-201 -1.38152e+168 1.00426e+235 -inf 8.63927e-86 -6.59108e+260 1.36824e+256 1.36166e-268 0
+nodes values: -3.78137e+98 -30.3095 -9.44728e+250 7.77369e+57 -4.75824e-112 -2.61185e-224 -2.93551e-242 3.09249e-51 2.5064e-76 -7.2069e-140 -1.0093e-64 1.5978e-62 -6.99467e+209 1.52665e-305 2.21655e-249 6.29527e-189 3.96281e-296 -1.85522e+223 1.40752e-230 -2.09304e-243 9.93139e-06 4.10818e+121 -4.74135e-196 -9.22489e+195 9.36849e+306 2.57335e-41 -1.51094e-174 5.23108e-272 -3.20482e-95 -6.24804e-99 1.02542e-295 -2.0604e+73 8.46559e-268 -1.91852e+302 7.37302e-280 -9.12493e-17 7.47513e-60 nan -8.85285e+235 3.53888e+30 3.55871e-92 -1.43944e-181 -5.45819e-155 -1.08157e-264 9.76232e-115 -1.05752e-86 2.1375e+289 -7.569e+128 -1.22136e-172 1.27374e-44 7.68098e-62 -3.60692e-240 -1.1521e+303 nan -1.27352e+143 6.6685e-212 9.41905e+163 3.03294e+299 5.99498e-162 -5053.14 1.29768e+65 6.02146e-302 3.99096e+275 nan -2.60347e+194 -2.5136e+152 -3.4774e+269 -4.81704e-191 6.12705e-194 2.74182e+111 -3.2181e+205 -6.91206e-10 6.60729e-18 -6.63752e-86 6.80669e+98 -1.86137e+29 3.73548e-38 -6.2542e-196 -1.15352e+296 4.16444e+157 -1.43579e-196 9.89051e-103 -6.98755e+72 2.79159e+304 -4.93154e+278 1.4443e+25 -inf -1.73464e+237
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=3; extent=3].
+ERROR: Failed: PP_deepstate_test_Likgpcm_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/Likgpcm/Likgpcm_output/cdbdf0b2cc12c948d44c130db1a800ace59d5401.fail failed

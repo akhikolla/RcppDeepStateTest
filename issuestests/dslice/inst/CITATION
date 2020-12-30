@@ -1,0 +1,30 @@
+citHeader("To cite dslice in publications, please use:")
+
+citEntry(entry = 'article',
+	title = "\\textit{dslice}: an {R} package for nonparametric testing of associations with application in QTL and gene set analysis.",
+	author = personList(as.person("Chao Ye"), as.person("Bo Jiang"), as.person("Xuegong Zhang"), as.person("Jun S. Liu")),
+	year = "2015",
+	volume = "31",
+	number = "11",
+	pages = "1842--1844",
+	key = "ye2015dslice",
+	doi = "10.1093/bioinformatics/btv021",
+	journal = "Bioinformatics",
+	publisher = "Oxford Univ Press",
+	textVersion = "Ye, C., Jiang, B., Zhang, X. and Liu, J.S. \\textit{dslice}: an {R} package for nonparametric testing of associations with application in QTL and gene set analysis. Bioinformatics, 31(11): 1842-1844, 2015."
+)
+
+citEntry(entry = 'article',
+	title = "Non-parametric \\textit{K}-sample tests via dynamic slicing",
+	author = personList(as.person("Bo Jiang"), as.person("Chao Ye"), as.person("Jun S. Liu")),
+	year = "2015",
+	volume = "110",
+	number = "510",
+	pages = "642--653",
+	key = "jiang2015non",
+	doi = "10.1080/01621459.2014.920257",
+	journal = "Journal of the American Statistical Association",
+	publisher = "Taylor & Francis",
+	textVersion = "Jiang, B., Ye, C. and Liu, J.S. Non-parametric \\textit{K}-sample tests via dynamic slicing. Journal of the American Statistical Association, 110(510): 642-653, 2015."
+)
+

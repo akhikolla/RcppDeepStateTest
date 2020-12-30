@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (CARBayes_deepstate_test_linpredcompute_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CARBayes/inst/testfiles/linpredcompute/linpredcompute_output/057f9d73c6fb9176839e7ef5357baafaf69830cf.crash`
+TRACE: Running: CARBayes_deepstate_test_linpredcompute_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CARBayes/inst/testfiles/linpredcompute/linpredcompute_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 1.50458e+201 2.13023e+167 2.96865e+132 6.42401e+87 7.09440e+59
+1.01517e-35 2.16101e-292 6.46815e-284 5.42662e-214 4.69342e-301
+4.40939e-20 1.46190e-28 3.45121e-211 1.57624e-208 1.05926e-50
+2.60080e-207 3.48698e-35 6.45401e+78 4.95628e+258 3.90361e+294
+3.04021e+144 1.32750e-61 3.68402e-203 2.68422e-194 9.34886e-216
+2.30456e-58 1.59228e+122 4.25932e+127 2.52014e-93 1.52806e+78
+
+nsites values: 1624512451
+p values: -1594338782
+beta values: -9.78844e+104 4.9634e+78 -7.26558e-150 -inf -2.15274e-166 -3.17265e-52 -7.48014e-241 3.94901e+202 1.5825e+55 -7.72471e+161 -2.35578e-187 1.11377e+14 4.1194e-124 2.82025e-93 -7.45607e-154 -293426 nan 4.00509e+143 1.10093e+261 nan inf 0
+offset values: 
+input ends
+ERROR: Crashed: CARBayes_deepstate_test_linpredcompute_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CARBayes/inst/testfiles/linpredcompute/linpredcompute_output/057f9d73c6fb9176839e7ef5357baafaf69830cf.crash crashed

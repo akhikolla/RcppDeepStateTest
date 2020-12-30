@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_enorm_trunc_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/enorm_trunc/enorm_trunc_output/64d3a8d48541d22dd705a5fea7d76fdc3bfe3c2b.pass`
+TRACE: Running: mixR_deepstate_test_enorm_trunc_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/enorm_trunc/enorm_trunc_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -1.15483e+91
+b values: -4.83702e+45
+mu values: -1.75162e-227
+sd values: -2.26566e-229
+input ends
+TRACE: Passed: mixR_deepstate_test_enorm_trunc_test

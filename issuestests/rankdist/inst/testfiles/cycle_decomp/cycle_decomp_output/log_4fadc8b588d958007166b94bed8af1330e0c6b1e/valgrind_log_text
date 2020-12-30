@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_cycle_decomp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/4fadc8b588d958007166b94bed8af1330e0c6b1e.crash`
+TRACE: Running: rankdist_deepstate_test_cycle_decomp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: nan -5.5048e-76 -9.27224e+106 9.55937e+75 -1.90858e+255 1.77003e+86 4.50034e-182 1.20834e-104 2.3151e-219 1.2587e+179 6.96463e+208 2.33738e+204 6.0635e+15 -1.54041e-295 1.1819e+16 -6.20747e+186 -8.66093e+59 -1.36974e-64 -3.68886e-119 1.401e-284 -1.90351e+267 -1.39147e+69 1.57396e-76 1.34307e-64 1.89459e+51 -1.35595e-72 1.17571e-121 -3.0162e-31 6.97908e+288 -5.02213e+230 3.82001e-208 1.839e+215 nan -inf 7.42751e-236 1.33838e-118 7.01492e-150 -4.4766e-145 1.38075e+232 8.56257e+10 -8.33161e+33 -2.28506e-159 -1.09435e+108 7.48879e-59 -5.23742e-266 3.55354e+190 -1.73346e+221 -1.74937e+72 6.57811e+114 8.17908e-127 6.36231e+71 -1.05976e+15 4.2826e+17 -1.74937e+72 3.32304e-94 -2.33661e+222 0
+input ends
+==1837987==  If you believe this happened as a result of a stack
+==1837987==  overflow in your program's main thread (unlikely but
+==1837987==  possible), you can try to increase the size of the
+==1837987==  main thread stack using the --main-stacksize= flag.
+==1837987==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: rankdist_deepstate_test_cycle_decomp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/4fadc8b588d958007166b94bed8af1330e0c6b1e.crash crashed

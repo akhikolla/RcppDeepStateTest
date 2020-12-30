@@ -1,0 +1,60 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606746003
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_c2_mat52_cpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 7.79061e-90
+t values: -2.90329e-178
+w values: -1.71327e-179
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.10908e+95
+t values: 8.59846e-197
+w values: -8.95548e+22
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -2.35741e+107
+t values: 9.28177e-108
+w values: -3.55009e-255
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 8.71734e-221
+t values: 9.05307e+289
+w values: -5.80711e+229
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 8.02747e+124
+t values: -3.55139e+92
+w values: 0.149253
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -2.19495e+105
+t values: 1.32674e+25
+w values: -1.50758e-288
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.18391e+234
+t values: -4.5935e+06
+w values: -7.39822e+239
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 4.23394e-207
+t values: -1.69265e+295
+w values: 5.70295e-248
+input ends
+INFO: Done fuzzing! Ran 8 tests (4 tests/second) with 0 failed/8 passed/0 abandoned tests

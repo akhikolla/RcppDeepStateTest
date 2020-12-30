@@ -1,0 +1,190 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606706812
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_mkr_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 4.94618e-48 6.88523e+230
+1.02060e+97 1.38072e+108
+2.73793e+115 1.73356e+252
+5.53450e+77 6.58452e-140
+7.85561e+73 1.77513e+239
+9.86552e+133 1.08199e-220
+1.24095e+303 4.93799e-139
+3.16521e+73 3.41525e+290
+4.67192e+163 4.85476e+75
+
+K values: 6.25837e+251
+0.118875
+1.89912e+264
+4.51780e+124
+5.11883e-279
+5.09040e-18
+1.79821e+161
+2.71948e+223
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/aedc9213557d426154422dd2e0cabf75d51772ac.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 1.03352e+62 1.03919e+12 2.97593e-06 1.18566e-35 4.63520e+222 1.13944e-37 4.20324e+190
+1.20364e-73 9.84395e-88 2.10205e-107 1.13469e+105 3.31328e-109 7.13247e-176 5.41914e+155
+4.16384e+167 2.45352e+64 4.15404e+289 2.52094e-120 1.24425e+154 1.50793e+190 9.18470e+211
+
+K values: 2.47801e-308 2.40446e-189 3.34413e+156 2.83034e-232 6.70895e-154 1.10099e+115
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/46202527687303b0d400fb9aa94f00c57e59470a.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 1.38368e+69 3.64062e-305 1.68245e+105
+1.13534e-168 2.28483e-120 3.35655e-160
+
+K values: 1.07733e-171 2.09514e+270 1.15176e-85 7.54775e-224 2.56401e+116
+8.10358e-153 1.04198e+292 9.66661e-307 4.26907e-246 5.02246e+272
+4.59666e-246 5.69442e-08 6.75175e+124 2.21529e+269 2.10856e+114
+1.73042e+261 4.79638e-146 3.20885e+53 1.36491e+85 1.02077e+76
+1.45232e+165 6.96240e+124 1.81030e-266 2.01831e+294 5.32611e-201
+1.71459e+198 5.82840e+47 1.73772e+213 2.59449e-115 0.00733319
+2.38843e-243 1.57986e+59 6.39152e-82 4.02387e-263 2.91899e-15
+4.47367e+283 9.01955e+145 5.96125e-164 4.47648e-83 1.57788e-76
+1.73874e+139 2.77151e+259 2.89136e+69 3653.66 1.83410e+262
+3.66028e+162 3.35240e-09 4.13687e-231 6.02093e-284 1.79855e+97
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/972a3d72f66ec6b1322115d0faf2bfe471eae5cd.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 3.90589e+18 1.58345e+239 9.35719e+239 2.28259e-101 1.15942e-77 4.03229e+15 1.74740e-118 1.12715e-80 6.31628e+139 1.52500e-86
+
+K values: 2.40174e+36 5.67552e-145 4.26364e+75 4.36986e+304 6.50373e+187 2.50001e+192
+3.03857e+291 2.32106e+205 6.05160e-12 3.50445e-270 1.15404e+128 2.87396e-288
+1.15396e+155 4.91174e+31 6.18296e-18 5.07793e-36 4.04756e-48 2.29152e+159
+7.26581e+212 2.32775e-306 2.66664e-157 7.62158e-257 1.55045e+153 8.69171e-93
+1.28994e-198 6.55296e+118 2.22896e-76 4.26807e+217 1.72114e+08 3.29315e-271
+1.37708e-306 5.91656e-176 3.88625e+244 3.88163e+130 5.83477e-104 2.92395e+184
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: Lapack routine dgesv: system is exactly singular: U[10,10] = 0.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/6953482034a18c852dedd73b7468a140ba4f26f6.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 1.02518e-70 1.94392e+246 1.66090e-189 2.45561e-122 4.66550e+80 5.10355e-14
+
+K values: 9.35868e+256 3.19127e-59 3.70797e-199 8.47924e+83 4.72719e+178 1.85895e+166 1.75552e+153
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/c090232df833f6f8ac8a89daa167ecdbc7beadba.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 4.15687e+192 5.12399e-23 1.31861e+274 3.32284e-150 8.65395e+72 1.09613e+30 5.89472e-239 1.51958e+209 2.91575e+177 2.42031e+299
+2.22860e-30 1.38208e+146 1.68061e+124 2.54302e+148 5.64912e+245 2.21989e-101 3.21461e+292 3.79377e-18 6.03658e+148 1.56178e+131
+8.67152e+37 2.34838e-21 0.117771 2.45141e+282 9.66341e+122 1.61305e-133 3.75414e+205 3.83729e+189 4.94216e+237 4.03303e+146
+9.60380e-225 7.52995e+198 2.07592e-250 2.77036e-201 3.08117e+153 2.10531e-287 1.11630e+32 1.38424e+28 1.04657e-202 9.05361e+159
+2.39877e+212 7.96419e+187 2.80587e+173 4.21803e-41 7.46267e+109 4.49763e+267 1.80253e+282 1.73315e+19 2.54427e-40 8.30633e+150
+2.74555e+299 3.54216e+286 5.07569e-92 6.24736e+219 2.16131e-108 1.06326e+94 6.85728e-16 1.31974e+195 2.84048e+191 4.50390e-24
+3.92865e+136 7.46559e-186 3.70827e-36 3.39477e-169 5.60337e+10 1.13162e-48 3.73779e-227 1.41805e+104 9.73295e-38 1.15780e+265
+4.16918e+58 3.62750e+12 2.31065e-215 6.62236e-20 6.80291e-112 4.80593e+268 8.28031e-154 1.59403e+198 7.16718e-167 1.18528e-101
+
+K values: 4.00788e+171 8.60429e-308
+1.05814e+290 2.82879e-96
+7.76501e-227 2.98942e+155
+9.18562e-121 3.63614e-170
+1.78904e-231 3.09997e+52
+3.50763e+256 4.42278e-40
+3.87163e+07 3.93862e+158
+3.46564e+33 7.50677e+276
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/a66961bd587a6c2b40d8b3f0d73e4e4e5a7bc281.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 4.08683e+209 1.59813e+117 9.49868e-137 4.85469e+281
+8.71946e+89 3.97490e+298 4.00294e+247 3.35430e+227
+4.74366e-210 1.04051e-238 3.21204e+170 4.70593e-29
+4.36440e-218 5.31914e-121 1.55479e-153 9.57203e-83
+4.28857e-177 1.02455e-171 1.87842e-122 4.36610e+291
+
+K values: 7.71383e+197 3.57844e+105 1.77328e+190 2.09692e+46 4.97334e+176 1.52953e+119
+1.96287e+42 3.45995e-35 4.52969e-30 3.27671e-102 5.20364e+60 1.36084e+188
+2.96245e+72 5.27246e+41 0.417104 3.91200e+257 1.21037e+136 1.71518e-244
+3.58863e+159 8.14227e+148 6.23522e+59 5.32290e-215 1.73872e-299 4.05474e-171
+3.09416e-62 1.79431e+161 5.60212e+289 1.75627e+259 2.34486e+80 7.90558e-240
+8.37536e+136 6.76284e-40 7.57479e-139 1.59644e+205 3.10215e+07 1.41648e-21
+1.58420e-119 5.14468e-186 5.39539e-143 2.31488e-15 1.72273e+128 1.40411e-212
+6.59591e-41 1.76412e-230 436.350 5.85250e-31 2.37275e-163 7.00970e+129
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/d78c25983121fdcf094770e0aac503bdb39d935c.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 6.27542e-10 7.38053e-15 6.96610e+69 1.56121e-218 2.06540e-225 4.71536e-163
+2.34275e-189 7.53983e-221 47.3719 2.18343e-206 1.01070e+80 1.03872e-25
+1.98664e-74 4.80168e+29 7.80467e-127 3.90624e-45 2.97142e+118 6.60947e+294
+3.69449e+288 9.57837e+240 8.55318e-79 2.80609e-132 5.14847e+42 1.66710e+281
+3.52460e+67 1.49226e-242 2.64290e+279 3.24522e-66 5.21344e+48 1.20663e+22
+1.30407e-46 1.50728e+13 1.07575e-50 2.82628e-303 3.99033e+208 8.76445e+162
+
+K values: 8.60529e-291 2.04242e+219 9.66555e-289 6.38494e+269 7.05439e+239
+6.91115e+117 8.15706e-72 1.72484e-122 2.07439e+169 9.13852e-271
+8.00129e+276 5.87803e+22 1.60009e+120 2.56055e+134 1.00745e+279
+1.60027e+230 2.28397e+291 2.61424e+227 3.31331e+121 5.85008e+137
+2.95478e+240 5.41822e-305 2.24779e+85 7.67342e+160 1.71521e-129
+1.60187e+38 1.00675e+252 1.32262e-287 4.33994e-176 8.39447e+17
+1.24189e+259 1.30915e+09 2.40909e+160 9.43529e-220 5.91114e+55
+5.43118e+79 4.72250e-266 8.95239e-203 1.44141e-240 1.45542e+231
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/d56303f58194599ac14a3fa25f2ee93cf9ffcf54.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 3.98509e+221 3.47758e-296 7.34207e-112 1.08304e+148 8.55601e+18 6.65017e-37 9.97251e-257 8.74619e-194 2.20886e-197
+
+K values: 8.24228e+112 2.86181e+107 4.27103e+136 1.94308e+195
+9.78696e-235 2.79273e-233 1.62531e+283 1.52854e+51
+4.38456e-49 2.30495e+276 1.52655e+134 6.54077e-219
+4.78582e-303 3.83628e-121 8.77437e-209 5.21485e+109
+2.30802e-284 8.46919e+11 2.97265e-38 1.00136e+180
+4.25681e+79 3.01209e-197 2.53102e+60 3.53875e+64
+1.58151e-86 7.09201e+239 3.72304e+304 2.97586e+17
+7.46629e-133 1.54350e+308 6.72439e-216 3.51300e-162
+3.06978e+21 3.62676e+267 5.61072e+252 3.23375e+291
+3.33970e-276 1.76615e+200 2.82030e+215 5.11157e+25
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/9ee90cb57d573316773fde5d177264cf2a83638d.fail`
+INFO: Done fuzzing! Ran 9 tests (4 tests/second) with 9 failed/0 passed/0 abandoned tests

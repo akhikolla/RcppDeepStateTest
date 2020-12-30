@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (rrecsys_deepstate_test_itemMFCount_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/itemMFCount/itemMFCount_output/187ec1dcbac1504f1d285a32ad5b12c2b3075e30.fail`
+TRACE: Running: rrecsys_deepstate_test_itemMFCount_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/itemMFCount/itemMFCount_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+sim_index values: 7.77032e+86 4.40105e+14 2.81461e+136 2.82613e-210 5.23242e-154
+8.27807e-28 7.76961e+21 6.88343e+259 1.08408e-207 1.44034e+159
+2.92562e-54 9.56597e-159 1.24033e-144 1.31110e+265 4.35349e-281
+4.16481e+154 5.71303e+51 1.08666e-75 3.53412e-92 1.84764e+123
+3.28511e+22 7.47385e+79 9.88749e-08 0.000160695 1.93886e+288
+2.52188e+108 1.30411e+175 6.81935e+98 4.12918e-268 6.77074e+75
+2.43666e-308 7.72533e+197 1.05421e+296 2.02033e-133 4.18318e-124
+1.37498e-77 4.77476e-42 5.59332e+294 8.23827e-29 2.17979e-08
+
+user_vector values: 1.59198e+67 -5.12795e+253 nan -5.32394e-173 5.59449e+27 -1.49055e+44 -3.48957e-252 -1.11833e-73 -nan -3.90485e-231 8.08033e-224 nan -2.58634e-284 4.91057e-288 -3.2626e-169 2.83155e-36 -1.1642e+293 -7.74097e-121 2.8761e-27 -2.58616e+116 1.12544e-06 -1.17731e+95 7.12695e+131 -2.17984e+144 7.92762e+152 inf -5.55372e-206 -7.8019e-150 1.33449e+293 -3.48502e-269 5.23058e+159 -1.72425e+67 2.681e+117 9.66182e-73 -4.54697e-121 -2.735e+205 3.55545e-295 5.40175e+11 1.25694e+144 8.44505e+91 -0.00156136 1.30809e-101 -inf -4.55352e+288 -5.71476e-33 -6.43419e+105 8.00736e+248 9.18688e-228 2.50994e+31 -9.16338e-192 2.47225e+63 8.71531e+245 2.81267e+87 4.01543e-104 1.72479e+263 -1.15688e-152 -2.03986e-50 -2.46958e-30 nan
+pt values: -1.96603e-15
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1; extent=59].
+ERROR: Failed: rrecsys_deepstate_test_itemMFCount_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/itemMFCount/itemMFCount_output/187ec1dcbac1504f1d285a32ad5b12c2b3075e30.fail failed

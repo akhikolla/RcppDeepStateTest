@@ -1,0 +1,3000 @@
+                                                                                              13:58 Wednesday, February 27, 2019   1
+
+--------------------------------------------------------------- I=1 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 64
+    Number of Successes     = 29
+
+    Maximum Likelihood Estimate of PI  =      0.4531
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3282 ,      0.5825)
+Mid-P corrected (Clopper-Pearson) = (      0.3346 ,      0.5758)
+           (Blyth-Still-Casella)  = (      0.3307 ,      0.5825)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  29 } =       0.2662
+                Pr { T .EQ.  29 } =       0.0753
+    Two-sided : 2 * One-sided            =       0.5323
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   2
+
+--------------------------------------------------------------- I=2 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 34
+    Number of Successes     = 26
+
+    Maximum Likelihood Estimate of PI  =      0.7647
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5883 ,      0.8925)
+Mid-P corrected (Clopper-Pearson) = (      0.6016 ,      0.8843)
+           (Blyth-Still-Casella)  = (      0.5930 ,      0.8865)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  26 } =       0.0015
+                Pr { T .EQ.  26 } =       0.0011
+    Two-sided : 2 * One-sided            =       0.0029
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   3
+
+--------------------------------------------------------------- I=3 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 91
+    Number of Successes     = 67
+
+    Maximum Likelihood Estimate of PI  =      0.7363
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6335 ,      0.8231)
+Mid-P corrected (Clopper-Pearson) = (      0.6387 ,      0.8190)
+           (Blyth-Still-Casella)  = (      0.6368 ,      0.8231)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  67 } =       0.0000
+                Pr { T .EQ.  67 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   4
+
+--------------------------------------------------------------- I=4 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 98
+    Number of Successes     = 35
+
+    Maximum Likelihood Estimate of PI  =      0.3571
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.2629 ,      0.4603)
+Mid-P corrected (Clopper-Pearson) = (      0.2670 ,      0.4556)
+           (Blyth-Still-Casella)  = (      0.2629 ,      0.4573)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  35 } =       0.0030
+                Pr { T .EQ.  35 } =       0.0015
+    Two-sided : 2 * One-sided            =       0.0061
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   5
+
+--------------------------------------------------------------- I=5 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 22
+    Number of Successes     = 16
+
+    Maximum Likelihood Estimate of PI  =      0.7273
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4978 ,      0.8927)
+Mid-P corrected (Clopper-Pearson) = (      0.5167 ,      0.8813)
+           (Blyth-Still-Casella)  = (      0.5000 ,      0.8740)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  16 } =       0.0262
+                Pr { T .EQ.  16 } =       0.0178
+    Two-sided : 2 * One-sided            =       0.0525
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   6
+
+--------------------------------------------------------------- I=6 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 93
+    Number of Successes     = 15
+
+    Maximum Likelihood Estimate of PI  =      0.1613
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0932 ,      0.2520)
+Mid-P corrected (Clopper-Pearson) = (      0.0968 ,      0.2466)
+           (Blyth-Still-Casella)  = (      0.0964 ,      0.2486)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  15 } =       0.0000
+                Pr { T .EQ.  15 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   7
+
+--------------------------------------------------------------- I=7 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 26
+    Number of Successes     = 11
+
+    Maximum Likelihood Estimate of PI  =      0.4231
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.2335 ,      0.6308)
+Mid-P corrected (Clopper-Pearson) = (      0.2463 ,      0.6161)
+           (Blyth-Still-Casella)  = (      0.2335 ,      0.6264)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  11 } =       0.2786
+                Pr { T .EQ.  11 } =       0.1151
+    Two-sided : 2 * One-sided            =       0.5572
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   8
+
+--------------------------------------------------------------- I=8 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 31
+    Number of Successes     = 2
+
+    Maximum Likelihood Estimate of PI  =      0.0645
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0079 ,      0.2142)
+Mid-P corrected (Clopper-Pearson) = (      0.0110 ,      0.1972)
+           (Blyth-Still-Casella)  = (      0.0116 ,      0.2003)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  2 } =       0.0000
+                Pr { T .EQ.  2 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019   9
+
+--------------------------------------------------------------- I=9 ----------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 99
+    Number of Successes     = 6
+
+    Maximum Likelihood Estimate of PI  =      0.0606
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0226 ,      0.1273)
+Mid-P corrected (Clopper-Pearson) = (      0.0249 ,      0.1218)
+           (Blyth-Still-Casella)  = (      0.0267 ,      0.1226)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  6 } =       0.0000
+                Pr { T .EQ.  6 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  10
+
+--------------------------------------------------------------- I=10 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 75
+    Number of Successes     = 41
+
+    Maximum Likelihood Estimate of PI  =      0.5467
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4275 ,      0.6621)
+Mid-P corrected (Clopper-Pearson) = (      0.4333 ,      0.6565)
+           (Blyth-Still-Casella)  = (      0.4298 ,      0.6617)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  41 } =       0.2443
+                Pr { T .EQ.  41 } =       0.0665
+    Two-sided : 2 * One-sided            =       0.4887
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  11
+
+--------------------------------------------------------------- I=11 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 25
+    Number of Successes     = 16
+
+    Maximum Likelihood Estimate of PI  =      0.6400
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4252 ,      0.8203)
+Mid-P corrected (Clopper-Pearson) = (      0.4411 ,      0.8081)
+           (Blyth-Still-Casella)  = (      0.4308 ,      0.8146)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  16 } =       0.1148
+                Pr { T .EQ.  16 } =       0.0609
+    Two-sided : 2 * One-sided            =       0.2295
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  12
+
+--------------------------------------------------------------- I=12 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 15
+    Number of Successes     = 7
+
+    Maximum Likelihood Estimate of PI  =      0.4667
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.2127 ,      0.7341)
+Mid-P corrected (Clopper-Pearson) = (      0.2320 ,      0.7132)
+           (Blyth-Still-Casella)  = (      0.2127 ,      0.7061)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  7 } =       0.5000
+                Pr { T .EQ.  7 } =       0.1964
+    Two-sided : 2 * One-sided            =       1.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  13
+
+--------------------------------------------------------------- I=13 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 38
+    Number of Successes     = 16
+
+    Maximum Likelihood Estimate of PI  =      0.4211
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.2631 ,      0.5918)
+Mid-P corrected (Clopper-Pearson) = (      0.2727 ,      0.5810)
+           (Blyth-Still-Casella)  = (      0.2674 ,      0.5799)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  16 } =       0.2088
+                Pr { T .EQ.  16 } =       0.0809
+    Two-sided : 2 * One-sided            =       0.4177
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  14
+
+--------------------------------------------------------------- I=14 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 48
+    Number of Successes     = 42
+
+    Maximum Likelihood Estimate of PI  =      0.8750
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.7475 ,      0.9527)
+Mid-P corrected (Clopper-Pearson) = (      0.7581 ,      0.9477)
+           (Blyth-Still-Casella)  = (      0.7597 ,      0.9441)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  42 } =       0.0000
+                Pr { T .EQ.  42 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  15
+
+--------------------------------------------------------------- I=15 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 89
+    Number of Successes     = 56
+
+    Maximum Likelihood Estimate of PI  =      0.6292
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5203 ,      0.7293)
+Mid-P corrected (Clopper-Pearson) = (      0.5254 ,      0.7247)
+           (Blyth-Still-Casella)  = (      0.5251 ,      0.7293)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  56 } =       0.0096
+                Pr { T .EQ.  56 } =       0.0043
+    Two-sided : 2 * One-sided            =       0.0192
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  16
+
+--------------------------------------------------------------- I=16 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 74
+    Number of Successes     = 52
+
+    Maximum Likelihood Estimate of PI  =      0.7027
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5852 ,      0.8034)
+Mid-P corrected (Clopper-Pearson) = (      0.5915 ,      0.7984)
+           (Blyth-Still-Casella)  = (      0.5925 ,      0.8034)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  52 } =       0.0003
+                Pr { T .EQ.  52 } =       0.0002
+    Two-sided : 2 * One-sided            =       0.0006
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  17
+
+--------------------------------------------------------------- I=17 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 86
+    Number of Successes     = 15
+
+    Maximum Likelihood Estimate of PI  =      0.1744
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1010 ,      0.2713)
+Mid-P corrected (Clopper-Pearson) = (      0.1049 ,      0.2655)
+           (Blyth-Still-Casella)  = (      0.1050 ,      0.2702)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  15 } =       0.0000
+                Pr { T .EQ.  15 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  18
+
+--------------------------------------------------------------- I=18 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 90
+    Number of Successes     = 20
+
+    Maximum Likelihood Estimate of PI  =      0.2222
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1413 ,      0.3221)
+Mid-P corrected (Clopper-Pearson) = (      0.1453 ,      0.3167)
+           (Blyth-Still-Casella)  = (      0.1452 ,      0.3188)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  20 } =       0.0000
+                Pr { T .EQ.  20 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  19
+
+--------------------------------------------------------------- I=19 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 70
+    Number of Successes     = 51
+
+    Maximum Likelihood Estimate of PI  =      0.7286
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6090 ,      0.8280)
+Mid-P corrected (Clopper-Pearson) = (      0.6157 ,      0.8228)
+           (Blyth-Still-Casella)  = (      0.6139 ,      0.8280)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  51 } =       0.0001
+                Pr { T .EQ.  51 } =       0.0001
+    Two-sided : 2 * One-sided            =       0.0002
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  20
+
+--------------------------------------------------------------- I=20 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 92
+    Number of Successes     = 18
+
+    Maximum Likelihood Estimate of PI  =      0.1957
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1203 ,      0.2915)
+Mid-P corrected (Clopper-Pearson) = (      0.1241 ,      0.2861)
+           (Blyth-Still-Casella)  = (      0.1203 ,      0.2912)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  18 } =       0.0000
+                Pr { T .EQ.  18 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  21
+
+--------------------------------------------------------------- I=21 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 78
+    Number of Successes     = 68
+
+    Maximum Likelihood Estimate of PI  =      0.8718
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.7768 ,      0.9368)
+Mid-P corrected (Clopper-Pearson) = (      0.7834 ,      0.9330)
+           (Blyth-Still-Casella)  = (      0.7807 ,      0.9368)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  68 } =       0.0000
+                Pr { T .EQ.  68 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  22
+
+--------------------------------------------------------------- I=22 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 8
+    Number of Successes     = 3
+
+    Maximum Likelihood Estimate of PI  =      0.3750
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0852 ,      0.7551)
+Mid-P corrected (Clopper-Pearson) = (      0.1056 ,      0.7220)
+           (Blyth-Still-Casella)  = (      0.1111 ,      0.7108)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  3 } =       0.3633
+                Pr { T .EQ.  3 } =       0.2187
+    Two-sided : 2 * One-sided            =       0.7266
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  23
+
+--------------------------------------------------------------- I=23 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 94
+    Number of Successes     = 5
+
+    Maximum Likelihood Estimate of PI  =      0.0532
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0175 ,      0.1198)
+Mid-P corrected (Clopper-Pearson) = (      0.0197 ,      0.1139)
+           (Blyth-Still-Casella)  = (      0.0212 ,      0.1176)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  5 } =       0.0000
+                Pr { T .EQ.  5 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  24
+
+--------------------------------------------------------------- I=24 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 87
+    Number of Successes     = 9
+
+    Maximum Likelihood Estimate of PI  =      0.1034
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0484 ,      0.1873)
+Mid-P corrected (Clopper-Pearson) = (      0.0516 ,      0.1813)
+           (Blyth-Still-Casella)  = (      0.0531 ,      0.1854)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  9 } =       0.0000
+                Pr { T .EQ.  9 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  25
+
+--------------------------------------------------------------- I=25 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 21
+    Number of Successes     = 16
+
+    Maximum Likelihood Estimate of PI  =      0.7619
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5283 ,      0.9178)
+Mid-P corrected (Clopper-Pearson) = (      0.5485 ,      0.9071)
+           (Blyth-Still-Casella)  = (      0.5448 ,      0.9012)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  16 } =       0.0133
+                Pr { T .EQ.  16 } =       0.0097
+    Two-sided : 2 * One-sided            =       0.0266
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  26
+
+--------------------------------------------------------------- I=26 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 74
+    Number of Successes     = 65
+
+    Maximum Likelihood Estimate of PI  =      0.8784
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.7816 ,      0.9429)
+Mid-P corrected (Clopper-Pearson) = (      0.7886 ,      0.9390)
+           (Blyth-Still-Casella)  = (      0.7886 ,      0.9373)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  65 } =       0.0000
+                Pr { T .EQ.  65 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  27
+
+--------------------------------------------------------------- I=27 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 69
+    Number of Successes     = 1
+
+    Maximum Likelihood Estimate of PI  =      0.0145
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0004 ,      0.0781)
+Mid-P corrected (Clopper-Pearson) = (      0.0007 ,      0.0694)
+           (Blyth-Still-Casella)  = (      0.0007 ,      0.0717)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  1 } =       0.0000
+                Pr { T .EQ.  1 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  28
+
+--------------------------------------------------------------- I=28 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 13
+    Number of Successes     = 1
+
+    Maximum Likelihood Estimate of PI  =      0.0769
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0019 ,      0.3603)
+Mid-P corrected (Clopper-Pearson) = (      0.0038 ,      0.3248)
+           (Blyth-Still-Casella)  = (      0.0039 ,      0.3274)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  1 } =       0.0017
+                Pr { T .EQ.  1 } =       0.0016
+    Two-sided : 2 * One-sided            =       0.0034
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  29
+
+--------------------------------------------------------------- I=29 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 39
+    Number of Successes     = 14
+
+    Maximum Likelihood Estimate of PI  =      0.3590
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.2120 ,      0.5282)
+Mid-P corrected (Clopper-Pearson) = (      0.2209 ,      0.5173)
+           (Blyth-Still-Casella)  = (      0.2189 ,      0.5282)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  14 } =       0.0541
+                Pr { T .EQ.  14 } =       0.0274
+    Two-sided : 2 * One-sided            =       0.1081
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  30
+
+--------------------------------------------------------------- I=30 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 29
+    Number of Successes     = 10
+
+    Maximum Likelihood Estimate of PI  =      0.3448
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1794 ,      0.5433)
+Mid-P corrected (Clopper-Pearson) = (      0.1902 ,      0.5291)
+           (Blyth-Still-Casella)  = (      0.1836 ,      0.5433)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  10 } =       0.0680
+                Pr { T .EQ.  10 } =       0.0373
+    Two-sided : 2 * One-sided            =       0.1360
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  31
+
+--------------------------------------------------------------- I=31 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 41
+    Number of Successes     = 41
+
+    Maximum Likelihood Estimate of PI  =      1.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.9140 ,      1.0000)
+Mid-P corrected (Clopper-Pearson) = (      0.9295 ,      1.0000)
+           (Blyth-Still-Casella)  = (      0.9239 ,      1.0000)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  41 } =       0.0000
+                Pr { T .EQ.  41 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  32
+
+--------------------------------------------------------------- I=32 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 59
+    Number of Successes     = 58
+
+    Maximum Likelihood Estimate of PI  =      0.9831
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.9091 ,      0.9996)
+Mid-P corrected (Clopper-Pearson) = (      0.9193 ,      0.9992)
+           (Blyth-Still-Casella)  = (      0.9156 ,      0.9991)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  58 } =       0.0000
+                Pr { T .EQ.  58 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  33
+
+--------------------------------------------------------------- I=33 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 62
+    Number of Successes     = 33
+
+    Maximum Likelihood Estimate of PI  =      0.5323
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4012 ,      0.6602)
+Mid-P corrected (Clopper-Pearson) = (      0.4080 ,      0.6536)
+           (Blyth-Still-Casella)  = (      0.4012 ,      0.6602)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  33 } =       0.3518
+                Pr { T .EQ.  33 } =       0.0889
+    Two-sided : 2 * One-sided            =       0.7035
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  34
+
+--------------------------------------------------------------- I=34 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 41
+    Number of Successes     = 2
+
+    Maximum Likelihood Estimate of PI  =      0.0488
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0060 ,      0.1653)
+Mid-P corrected (Clopper-Pearson) = (      0.0083 ,      0.1519)
+           (Blyth-Still-Casella)  = (      0.0087 ,      0.1613)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  2 } =       0.0000
+                Pr { T .EQ.  2 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  35
+
+--------------------------------------------------------------- I=35 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 41
+    Number of Successes     = 9
+
+    Maximum Likelihood Estimate of PI  =      0.2195
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1056 ,      0.3761)
+Mid-P corrected (Clopper-Pearson) = (      0.1127 ,      0.3648)
+           (Blyth-Still-Casella)  = (      0.1167 ,      0.3742)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  9 } =       0.0002
+                Pr { T .EQ.  9 } =       0.0002
+    Two-sided : 2 * One-sided            =       0.0004
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  36
+
+--------------------------------------------------------------- I=36 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 38
+    Number of Successes     = 20
+
+    Maximum Likelihood Estimate of PI  =      0.5263
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3582 ,      0.6902)
+Mid-P corrected (Clopper-Pearson) = (      0.3686 ,      0.6802)
+           (Blyth-Still-Casella)  = (      0.3582 ,      0.6902)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  20 } =       0.4357
+                Pr { T .EQ.  20 } =       0.1222
+    Two-sided : 2 * One-sided            =       0.8714
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  37
+
+--------------------------------------------------------------- I=37 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 85
+    Number of Successes     = 47
+
+    Maximum Likelihood Estimate of PI  =      0.5529
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4411 ,      0.6609)
+Mid-P corrected (Clopper-Pearson) = (      0.4463 ,      0.6560)
+           (Blyth-Still-Casella)  = (      0.4463 ,      0.6609)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  47 } =       0.1928
+                Pr { T .EQ.  47 } =       0.0538
+    Two-sided : 2 * One-sided            =       0.3857
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  38
+
+--------------------------------------------------------------- I=38 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 23
+    Number of Successes     = 3
+
+    Maximum Likelihood Estimate of PI  =      0.1304
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0278 ,      0.3359)
+Mid-P corrected (Clopper-Pearson) = (      0.0343 ,      0.3153)
+           (Blyth-Still-Casella)  = (      0.0365 ,      0.3165)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  3 } =       0.0002
+                Pr { T .EQ.  3 } =       0.0002
+    Two-sided : 2 * One-sided            =       0.0005
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  39
+
+--------------------------------------------------------------- I=39 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 44
+    Number of Successes     = 38
+
+    Maximum Likelihood Estimate of PI  =      0.8636
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.7265 ,      0.9483)
+Mid-P corrected (Clopper-Pearson) = (      0.7378 ,      0.9428)
+           (Blyth-Still-Casella)  = (      0.7366 ,      0.9389)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  38 } =       0.0000
+                Pr { T .EQ.  38 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  40
+
+--------------------------------------------------------------- I=40 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 95
+    Number of Successes     = 12
+
+    Maximum Likelihood Estimate of PI  =      0.1263
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0670 ,      0.2103)
+Mid-P corrected (Clopper-Pearson) = (      0.0703 ,      0.2049)
+           (Blyth-Still-Casella)  = (      0.0691 ,      0.2056)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  12 } =       0.0000
+                Pr { T .EQ.  12 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  41
+
+--------------------------------------------------------------- I=41 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 55
+    Number of Successes     = 38
+
+    Maximum Likelihood Estimate of PI  =      0.6909
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5519 ,      0.8086)
+Mid-P corrected (Clopper-Pearson) = (      0.5601 ,      0.8021)
+           (Blyth-Still-Casella)  = (      0.5589 ,      0.8086)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  38 } =       0.0032
+                Pr { T .EQ.  38 } =       0.0019
+    Two-sided : 2 * One-sided            =       0.0065
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  42
+
+--------------------------------------------------------------- I=42 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 9
+    Number of Successes     = 0
+
+    Maximum Likelihood Estimate of PI  =      0.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0000 ,      0.3363)
+Mid-P corrected (Clopper-Pearson) = (      0.0000 ,      0.2831)
+           (Blyth-Still-Casella)  = (      0.0000 ,      0.2993)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  0 } =       0.0020
+                Pr { T .EQ.  0 } =       0.0020
+    Two-sided : 2 * One-sided            =       0.0039
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  43
+
+--------------------------------------------------------------- I=43 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 61
+    Number of Successes     = 29
+
+    Maximum Likelihood Estimate of PI  =      0.4754
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3460 ,      0.6073)
+Mid-P corrected (Clopper-Pearson) = (      0.3527 ,      0.6004)
+           (Blyth-Still-Casella)  = (      0.3460 ,      0.6009)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  29 } =       0.3991
+                Pr { T .EQ.  29 } =       0.0946
+    Two-sided : 2 * One-sided            =       0.7982
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  44
+
+--------------------------------------------------------------- I=44 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 66
+    Number of Successes     = 4
+
+    Maximum Likelihood Estimate of PI  =      0.0606
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0168 ,      0.1480)
+Mid-P corrected (Clopper-Pearson) = (      0.0196 ,      0.1397)
+           (Blyth-Still-Casella)  = (      0.0210 ,      0.1454)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  4 } =       0.0000
+                Pr { T .EQ.  4 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  45
+
+--------------------------------------------------------------- I=45 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 49
+    Number of Successes     = 31
+
+    Maximum Likelihood Estimate of PI  =      0.6327
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4829 ,      0.7658)
+Mid-P corrected (Clopper-Pearson) = (      0.4918 ,      0.7583)
+           (Blyth-Still-Casella)  = (      0.4836 ,      0.7636)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  31 } =       0.0427
+                Pr { T .EQ.  31 } =       0.0205
+    Two-sided : 2 * One-sided            =       0.0854
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  46
+
+--------------------------------------------------------------- I=46 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 35
+    Number of Successes     = 32
+
+    Maximum Likelihood Estimate of PI  =      0.9143
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.7694 ,      0.9820)
+Mid-P corrected (Clopper-Pearson) = (      0.7842 ,      0.9777)
+           (Blyth-Still-Casella)  = (      0.7852 ,      0.9762)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  32 } =       0.0000
+                Pr { T .EQ.  32 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  47
+
+--------------------------------------------------------------- I=47 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 64
+    Number of Successes     = 17
+
+    Maximum Likelihood Estimate of PI  =      0.2656
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1630 ,      0.3909)
+Mid-P corrected (Clopper-Pearson) = (      0.1685 ,      0.3835)
+           (Blyth-Still-Casella)  = (      0.1642 ,      0.3873)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  17 } =       0.0001
+                Pr { T .EQ.  17 } =       0.0001
+    Two-sided : 2 * One-sided            =       0.0002
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  48
+
+--------------------------------------------------------------- I=48 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 46
+    Number of Successes     = 36
+
+    Maximum Likelihood Estimate of PI  =      0.7826
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6364 ,      0.8905)
+Mid-P corrected (Clopper-Pearson) = (      0.6466 ,      0.8840)
+           (Blyth-Still-Casella)  = (      0.6491 ,      0.8905)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  36 } =       0.0001
+                Pr { T .EQ.  36 } =       0.0001
+    Two-sided : 2 * One-sided            =       0.0002
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  49
+
+--------------------------------------------------------------- I=49 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 15
+    Number of Successes     = 0
+
+    Maximum Likelihood Estimate of PI  =      0.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0000 ,      0.2180)
+Mid-P corrected (Clopper-Pearson) = (      0.0000 ,      0.1810)
+           (Blyth-Still-Casella)  = (      0.0000 ,      0.2127)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  0 } =       0.0000
+                Pr { T .EQ.  0 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0001
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  50
+
+--------------------------------------------------------------- I=50 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 7
+    Number of Successes     = 1
+
+    Maximum Likelihood Estimate of PI  =      0.1429
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0036 ,      0.5787)
+Mid-P corrected (Clopper-Pearson) = (      0.0071 ,      0.5302)
+           (Blyth-Still-Casella)  = (      0.0073 ,      0.5542)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  1 } =       0.0625
+                Pr { T .EQ.  1 } =       0.0547
+    Two-sided : 2 * One-sided            =       0.1250
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  51
+
+--------------------------------------------------------------- I=51 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 95
+    Number of Successes     = 69
+
+    Maximum Likelihood Estimate of PI  =      0.7263
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6252 ,      0.8128)
+Mid-P corrected (Clopper-Pearson) = (      0.6303 ,      0.8088)
+           (Blyth-Still-Casella)  = (      0.6297 ,      0.8082)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  69 } =       0.0000
+                Pr { T .EQ.  69 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  52
+
+--------------------------------------------------------------- I=52 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 46
+    Number of Successes     = 34
+
+    Maximum Likelihood Estimate of PI  =      0.7391
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5887 ,      0.8573)
+Mid-P corrected (Clopper-Pearson) = (      0.5987 ,      0.8503)
+           (Blyth-Still-Casella)  = (      0.5889 ,      0.8573)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  34 } =       0.0008
+                Pr { T .EQ.  34 } =       0.0006
+    Two-sided : 2 * One-sided            =       0.0016
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  53
+
+--------------------------------------------------------------- I=53 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 79
+    Number of Successes     = 3
+
+    Maximum Likelihood Estimate of PI  =      0.0380
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0079 ,      0.1070)
+Mid-P corrected (Clopper-Pearson) = (      0.0097 ,      0.0999)
+           (Blyth-Still-Casella)  = (      0.0104 ,      0.1004)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  3 } =       0.0000
+                Pr { T .EQ.  3 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  54
+
+--------------------------------------------------------------- I=54 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 35
+    Number of Successes     = 14
+
+    Maximum Likelihood Estimate of PI  =      0.4000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.2387 ,      0.5789)
+Mid-P corrected (Clopper-Pearson) = (      0.2488 ,      0.5672)
+           (Blyth-Still-Casella)  = (      0.2501 ,      0.5789)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  14 } =       0.1553
+                Pr { T .EQ.  14 } =       0.0675
+    Two-sided : 2 * One-sided            =       0.3105
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  55
+
+--------------------------------------------------------------- I=55 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 2
+    Number of Successes     = 2
+
+    Maximum Likelihood Estimate of PI  =      1.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1581 ,      1.0000)
+Mid-P corrected (Clopper-Pearson) = (      0.2236 ,      1.0000)
+           (Blyth-Still-Casella)  = (      0.2236 ,      1.0000)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  2 } =       0.2500
+                Pr { T .EQ.  2 } =       0.2500
+    Two-sided : 2 * One-sided            =       0.5000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  56
+
+--------------------------------------------------------------- I=56 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 99
+    Number of Successes     = 56
+
+    Maximum Likelihood Estimate of PI  =      0.5657
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4623 ,      0.6650)
+Mid-P corrected (Clopper-Pearson) = (      0.4668 ,      0.6607)
+           (Blyth-Still-Casella)  = (      0.4623 ,      0.6650)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  56 } =       0.1138
+                Pr { T .EQ.  56 } =       0.0343
+    Two-sided : 2 * One-sided            =       0.2276
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  57
+
+--------------------------------------------------------------- I=57 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 82
+    Number of Successes     = 48
+
+    Maximum Likelihood Estimate of PI  =      0.5854
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4712 ,      0.6932)
+Mid-P corrected (Clopper-Pearson) = (      0.4766 ,      0.6882)
+           (Blyth-Still-Casella)  = (      0.4712 ,      0.6932)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  48 } =       0.0753
+                Pr { T .EQ.  48 } =       0.0268
+    Two-sided : 2 * One-sided            =       0.1507
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  58
+
+--------------------------------------------------------------- I=58 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 63
+    Number of Successes     = 4
+
+    Maximum Likelihood Estimate of PI  =      0.0635
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0176 ,      0.1547)
+Mid-P corrected (Clopper-Pearson) = (      0.0205 ,      0.1461)
+           (Blyth-Still-Casella)  = (      0.0220 ,      0.1527)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  4 } =       0.0000
+                Pr { T .EQ.  4 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  59
+
+--------------------------------------------------------------- I=59 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 56
+    Number of Successes     = 37
+
+    Maximum Likelihood Estimate of PI  =      0.6607
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5219 ,      0.7819)
+Mid-P corrected (Clopper-Pearson) = (      0.5299 ,      0.7753)
+           (Blyth-Still-Casella)  = (      0.5325 ,      0.7819)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  37 } =       0.0111
+                Pr { T .EQ.  37 } =       0.0059
+    Two-sided : 2 * One-sided            =       0.0222
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  60
+
+--------------------------------------------------------------- I=60 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 16
+    Number of Successes     = 12
+
+    Maximum Likelihood Estimate of PI  =      0.7500
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4762 ,      0.9273)
+Mid-P corrected (Clopper-Pearson) = (      0.5011 ,      0.9151)
+           (Blyth-Still-Casella)  = (      0.5000 ,      0.9097)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  12 } =       0.0384
+                Pr { T .EQ.  12 } =       0.0278
+    Two-sided : 2 * One-sided            =       0.0768
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  61
+
+--------------------------------------------------------------- I=61 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 13
+    Number of Successes     = 6
+
+    Maximum Likelihood Estimate of PI  =      0.4615
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1922 ,      0.7487)
+Mid-P corrected (Clopper-Pearson) = (      0.2130 ,      0.7257)
+           (Blyth-Still-Casella)  = (      0.2240 ,      0.7396)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  6 } =       0.5000
+                Pr { T .EQ.  6 } =       0.2095
+    Two-sided : 2 * One-sided            =       1.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  62
+
+--------------------------------------------------------------- I=62 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 43
+    Number of Successes     = 28
+
+    Maximum Likelihood Estimate of PI  =      0.6512
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4907 ,      0.7899)
+Mid-P corrected (Clopper-Pearson) = (      0.5008 ,      0.7817)
+           (Blyth-Still-Casella)  = (      0.5000 ,      0.7899)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  28 } =       0.0330
+                Pr { T .EQ.  28 } =       0.0172
+    Two-sided : 2 * One-sided            =       0.0660
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  63
+
+--------------------------------------------------------------- I=63 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 54
+    Number of Successes     = 43
+
+    Maximum Likelihood Estimate of PI  =      0.7963
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6647 ,      0.8937)
+Mid-P corrected (Clopper-Pearson) = (      0.6736 ,      0.8879)
+           (Blyth-Still-Casella)  = (      0.6738 ,      0.8864)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  43 } =       0.0000
+                Pr { T .EQ.  43 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  64
+
+--------------------------------------------------------------- I=64 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 56
+    Number of Successes     = 52
+
+    Maximum Likelihood Estimate of PI  =      0.9286
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.8271 ,      0.9802)
+Mid-P corrected (Clopper-Pearson) = (      0.8367 ,      0.9769)
+           (Blyth-Still-Casella)  = (      0.8313 ,      0.9752)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  52 } =       0.0000
+                Pr { T .EQ.  52 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  65
+
+--------------------------------------------------------------- I=65 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 57
+    Number of Successes     = 35
+
+    Maximum Likelihood Estimate of PI  =      0.6140
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4757 ,      0.7400)
+Mid-P corrected (Clopper-Pearson) = (      0.4834 ,      0.7333)
+           (Blyth-Still-Casella)  = (      0.4782 ,      0.7345)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  35 } =       0.0556
+                Pr { T .EQ.  35 } =       0.0242
+    Two-sided : 2 * One-sided            =       0.1112
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  66
+
+--------------------------------------------------------------- I=66 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 33
+    Number of Successes     = 1
+
+    Maximum Likelihood Estimate of PI  =      0.0303
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0008 ,      0.1576)
+Mid-P corrected (Clopper-Pearson) = (      0.0015 ,      0.1405)
+           (Blyth-Still-Casella)  = (      0.0016 ,      0.1559)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  1 } =       0.0000
+                Pr { T .EQ.  1 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  67
+
+--------------------------------------------------------------- I=67 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 23
+    Number of Successes     = 14
+
+    Maximum Likelihood Estimate of PI  =      0.6087
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3854 ,      0.8029)
+Mid-P corrected (Clopper-Pearson) = (      0.4020 ,      0.7895)
+           (Blyth-Still-Casella)  = (      0.3854 ,      0.8019)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  14 } =       0.2024
+                Pr { T .EQ.  14 } =       0.0974
+    Two-sided : 2 * One-sided            =       0.4049
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  68
+
+--------------------------------------------------------------- I=68 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 89
+    Number of Successes     = 49
+
+    Maximum Likelihood Estimate of PI  =      0.5506
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4414 ,      0.6562)
+Mid-P corrected (Clopper-Pearson) = (      0.4464 ,      0.6515)
+           (Blyth-Still-Casella)  = (      0.4414 ,      0.6562)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  49 } =       0.1983
+                Pr { T .EQ.  49 } =       0.0537
+    Two-sided : 2 * One-sided            =       0.3966
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  69
+
+--------------------------------------------------------------- I=69 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 20
+    Number of Successes     = 15
+
+    Maximum Likelihood Estimate of PI  =      0.7500
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5090 ,      0.9134)
+Mid-P corrected (Clopper-Pearson) = (      0.5298 ,      0.9021)
+           (Blyth-Still-Casella)  = (      0.5327 ,      0.8959)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  15 } =       0.0207
+                Pr { T .EQ.  15 } =       0.0148
+    Two-sided : 2 * One-sided            =       0.0414
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  70
+
+--------------------------------------------------------------- I=70 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 32
+    Number of Successes     = 13
+
+    Maximum Likelihood Estimate of PI  =      0.4062
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.2370 ,      0.5936)
+Mid-P corrected (Clopper-Pearson) = (      0.2478 ,      0.5810)
+           (Blyth-Still-Casella)  = (      0.2370 ,      0.5804)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  13 } =       0.1885
+                Pr { T .EQ.  13 } =       0.0809
+    Two-sided : 2 * One-sided            =       0.3771
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  71
+
+--------------------------------------------------------------- I=71 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 48
+    Number of Successes     = 33
+
+    Maximum Likelihood Estimate of PI  =      0.6875
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5375 ,      0.8134)
+Mid-P corrected (Clopper-Pearson) = (      0.5468 ,      0.8062)
+           (Blyth-Still-Casella)  = (      0.5473 ,      0.8113)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  33 } =       0.0066
+                Pr { T .EQ.  33 } =       0.0039
+    Two-sided : 2 * One-sided            =       0.0133
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  72
+
+--------------------------------------------------------------- I=72 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 11
+    Number of Successes     = 3
+
+    Maximum Likelihood Estimate of PI  =      0.2727
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0602 ,      0.6097)
+Mid-P corrected (Clopper-Pearson) = (      0.0745 ,      0.5781)
+           (Blyth-Still-Casella)  = (      0.0788 ,      0.6097)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  3 } =       0.1133
+                Pr { T .EQ.  3 } =       0.0806
+    Two-sided : 2 * One-sided            =       0.2266
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  73
+
+--------------------------------------------------------------- I=73 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 50
+    Number of Successes     = 25
+
+    Maximum Likelihood Estimate of PI  =      0.5000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3553 ,      0.6447)
+Mid-P corrected (Clopper-Pearson) = (      0.3634 ,      0.6366)
+           (Blyth-Still-Casella)  = (      0.3553 ,      0.6447)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  25 } =       0.5561
+                Pr { T .EQ.  25 } =       0.1123
+    Two-sided : 2 * One-sided            =       1.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  74
+
+--------------------------------------------------------------- I=74 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 25
+    Number of Successes     = 16
+
+    Maximum Likelihood Estimate of PI  =      0.6400
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4252 ,      0.8203)
+Mid-P corrected (Clopper-Pearson) = (      0.4411 ,      0.8081)
+           (Blyth-Still-Casella)  = (      0.4308 ,      0.8146)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  16 } =       0.1148
+                Pr { T .EQ.  16 } =       0.0609
+    Two-sided : 2 * One-sided            =       0.2295
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  75
+
+--------------------------------------------------------------- I=75 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 95
+    Number of Successes     = 70
+
+    Maximum Likelihood Estimate of PI  =      0.7368
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6365 ,      0.8219)
+Mid-P corrected (Clopper-Pearson) = (      0.6415 ,      0.8179)
+           (Blyth-Still-Casella)  = (      0.6398 ,      0.8216)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  70 } =       0.0000
+                Pr { T .EQ.  70 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  76
+
+--------------------------------------------------------------- I=76 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 75
+    Number of Successes     = 42
+
+    Maximum Likelihood Estimate of PI  =      0.5600
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4406 ,      0.6745)
+Mid-P corrected (Clopper-Pearson) = (      0.4464 ,      0.6690)
+           (Blyth-Still-Casella)  = (      0.4446 ,      0.6684)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  42 } =       0.1778
+                Pr { T .EQ.  42 } =       0.0538
+    Two-sided : 2 * One-sided            =       0.3557
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  77
+
+--------------------------------------------------------------- I=77 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 18
+    Number of Successes     = 18
+
+    Maximum Likelihood Estimate of PI  =      1.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.8147 ,      1.0000)
+Mid-P corrected (Clopper-Pearson) = (      0.8467 ,      1.0000)
+           (Blyth-Still-Casella)  = (      0.8270 ,      1.0000)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  18 } =       0.0000
+                Pr { T .EQ.  18 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  78
+
+--------------------------------------------------------------- I=78 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 29
+    Number of Successes     = 18
+
+    Maximum Likelihood Estimate of PI  =      0.6207
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4226 ,      0.7931)
+Mid-P corrected (Clopper-Pearson) = (      0.4365 ,      0.7818)
+           (Blyth-Still-Casella)  = (      0.4226 ,      0.7892)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  18 } =       0.1325
+                Pr { T .EQ.  18 } =       0.0644
+    Two-sided : 2 * One-sided            =       0.2649
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  79
+
+--------------------------------------------------------------- I=79 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 78
+    Number of Successes     = 3
+
+    Maximum Likelihood Estimate of PI  =      0.0385
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0080 ,      0.1083)
+Mid-P corrected (Clopper-Pearson) = (      0.0099 ,      0.1011)
+           (Blyth-Still-Casella)  = (      0.0106 ,      0.1017)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  3 } =       0.0000
+                Pr { T .EQ.  3 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  80
+
+--------------------------------------------------------------- I=80 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 1
+    Number of Successes     = 0
+
+    Maximum Likelihood Estimate of PI  =      0.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0000 ,      0.9750)
+Mid-P corrected (Clopper-Pearson) = (      0.0000 ,      0.9500)
+           (Blyth-Still-Casella)  = (      0.0000 ,      0.9500)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  0 } =       0.5000
+                Pr { T .EQ.  0 } =       0.5000
+    Two-sided : 2 * One-sided            =       1.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  81
+
+--------------------------------------------------------------- I=81 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 10
+    Number of Successes     = 9
+
+    Maximum Likelihood Estimate of PI  =      0.9000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5550 ,      0.9975)
+Mid-P corrected (Clopper-Pearson) = (      0.5965 ,      0.9950)
+           (Blyth-Still-Casella)  = (      0.5561 ,      0.9949)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  9 } =       0.0107
+                Pr { T .EQ.  9 } =       0.0098
+    Two-sided : 2 * One-sided            =       0.0215
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  82
+
+--------------------------------------------------------------- I=82 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 1
+    Number of Successes     = 1
+
+    Maximum Likelihood Estimate of PI  =      1.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0250 ,      1.0000)
+Mid-P corrected (Clopper-Pearson) = (      0.0500 ,      1.0000)
+           (Blyth-Still-Casella)  = (      0.0500 ,      1.0000)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  1 } =       0.5000
+                Pr { T .EQ.  1 } =       0.5000
+    Two-sided : 2 * One-sided            =       1.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  83
+
+--------------------------------------------------------------- I=83 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 41
+    Number of Successes     = 32
+
+    Maximum Likelihood Estimate of PI  =      0.7805
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6239 ,      0.8944)
+Mid-P corrected (Clopper-Pearson) = (      0.6352 ,      0.8873)
+           (Blyth-Still-Casella)  = (      0.6258 ,      0.8833)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  32 } =       0.0002
+                Pr { T .EQ.  32 } =       0.0002
+    Two-sided : 2 * One-sided            =       0.0004
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  84
+
+--------------------------------------------------------------- I=84 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 8
+    Number of Successes     = 7
+
+    Maximum Likelihood Estimate of PI  =      0.8750
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4735 ,      0.9968)
+Mid-P corrected (Clopper-Pearson) = (      0.5197 ,      0.9937)
+           (Blyth-Still-Casella)  = (      0.5000 ,      0.9936)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  7 } =       0.0352
+                Pr { T .EQ.  7 } =       0.0312
+    Two-sided : 2 * One-sided            =       0.0703
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  85
+
+--------------------------------------------------------------- I=85 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 58
+    Number of Successes     = 3
+
+    Maximum Likelihood Estimate of PI  =      0.0517
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0108 ,      0.1438)
+Mid-P corrected (Clopper-Pearson) = (      0.0133 ,      0.1343)
+           (Blyth-Still-Casella)  = (      0.0142 ,      0.1387)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  3 } =       0.0000
+                Pr { T .EQ.  3 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  86
+
+--------------------------------------------------------------- I=86 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 32
+    Number of Successes     = 6
+
+    Maximum Likelihood Estimate of PI  =      0.1875
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0721 ,      0.3644)
+Mid-P corrected (Clopper-Pearson) = (      0.0797 ,      0.3498)
+           (Blyth-Still-Casella)  = (      0.0850 ,      0.3474)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  6 } =       0.0003
+                Pr { T .EQ.  6 } =       0.0002
+    Two-sided : 2 * One-sided            =       0.0005
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  87
+
+--------------------------------------------------------------- I=87 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 74
+    Number of Successes     = 38
+
+    Maximum Likelihood Estimate of PI  =      0.5135
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3944 ,      0.6315)
+Mid-P corrected (Clopper-Pearson) = (      0.4002 ,      0.6258)
+           (Blyth-Still-Casella)  = (      0.3944 ,      0.6315)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  38 } =       0.4538
+                Pr { T .EQ.  38 } =       0.0900
+    Two-sided : 2 * One-sided            =       0.9076
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  88
+
+--------------------------------------------------------------- I=88 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 61
+    Number of Successes     = 52
+
+    Maximum Likelihood Estimate of PI  =      0.8525
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.7383 ,      0.9302)
+Mid-P corrected (Clopper-Pearson) = (      0.7465 ,      0.9256)
+           (Blyth-Still-Casella)  = (      0.7439 ,      0.9233)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  52 } =       0.0000
+                Pr { T .EQ.  52 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  89
+
+--------------------------------------------------------------- I=89 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 88
+    Number of Successes     = 2
+
+    Maximum Likelihood Estimate of PI  =      0.0227
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0028 ,      0.0797)
+Mid-P corrected (Clopper-Pearson) = (      0.0038 ,      0.0731)
+           (Blyth-Still-Casella)  = (      0.0041 ,      0.0741)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  2 } =       0.0000
+                Pr { T .EQ.  2 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  90
+
+--------------------------------------------------------------- I=90 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 95
+    Number of Successes     = 52
+
+    Maximum Likelihood Estimate of PI  =      0.5474
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4419 ,      0.6498)
+Mid-P corrected (Clopper-Pearson) = (      0.4466 ,      0.6453)
+           (Blyth-Still-Casella)  = (      0.4459 ,      0.6498)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  52 } =       0.2060
+                Pr { T .EQ.  52 } =       0.0535
+    Two-sided : 2 * One-sided            =       0.4119
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  91
+
+--------------------------------------------------------------- I=91 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 89
+    Number of Successes     = 50
+
+    Maximum Likelihood Estimate of PI  =      0.5618
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.4525 ,      0.6668)
+Mid-P corrected (Clopper-Pearson) = (      0.4575 ,      0.6621)
+           (Blyth-Still-Casella)  = (      0.4525 ,      0.6668)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  50 } =       0.1445
+                Pr { T .EQ.  50 } =       0.0430
+    Two-sided : 2 * One-sided            =       0.2891
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  92
+
+--------------------------------------------------------------- I=92 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 34
+    Number of Successes     = 29
+
+    Maximum Likelihood Estimate of PI  =      0.8529
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.6894 ,      0.9505)
+Mid-P corrected (Clopper-Pearson) = (      0.7037 ,      0.9441)
+           (Blyth-Still-Casella)  = (      0.7022 ,      0.9402)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  29 } =       0.0000
+                Pr { T .EQ.  29 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  93
+
+--------------------------------------------------------------- I=93 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 71
+    Number of Successes     = 4
+
+    Maximum Likelihood Estimate of PI  =      0.0563
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0156 ,      0.1380)
+Mid-P corrected (Clopper-Pearson) = (      0.0182 ,      0.1303)
+           (Blyth-Still-Casella)  = (      0.0195 ,      0.1346)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  4 } =       0.0000
+                Pr { T .EQ.  4 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  94
+
+--------------------------------------------------------------- I=94 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 9
+    Number of Successes     = 7
+
+    Maximum Likelihood Estimate of PI  =      0.7778
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3999 ,      0.9719)
+Mid-P corrected (Clopper-Pearson) = (      0.4379 ,      0.9609)
+           (Blyth-Still-Casella)  = (      0.4417 ,      0.9590)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  7 } =       0.0898
+                Pr { T .EQ.  7 } =       0.0703
+    Two-sided : 2 * One-sided            =       0.1797
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  95
+
+--------------------------------------------------------------- I=95 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 60
+    Number of Successes     = 2
+
+    Maximum Likelihood Estimate of PI  =      0.0333
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0041 ,      0.1153)
+Mid-P corrected (Clopper-Pearson) = (      0.0056 ,      0.1058)
+           (Blyth-Still-Casella)  = (      0.0060 ,      0.1078)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  2 } =       0.0000
+                Pr { T .EQ.  2 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  96
+
+--------------------------------------------------------------- I=96 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 2
+    Number of Successes     = 0
+
+    Maximum Likelihood Estimate of PI  =      0.0000
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.0000 ,      0.8419)
+Mid-P corrected (Clopper-Pearson) = (      0.0000 ,      0.7764)
+           (Blyth-Still-Casella)  = (      0.0000 ,      0.7764)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  0 } =       0.2500
+                Pr { T .EQ.  0 } =       0.2500
+    Two-sided : 2 * One-sided            =       0.5000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  97
+
+--------------------------------------------------------------- I=97 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 98
+    Number of Successes     = 88
+
+    Maximum Likelihood Estimate of PI  =      0.8980
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.8203 ,      0.9500)
+Mid-P corrected (Clopper-Pearson) = (      0.8257 ,      0.9470)
+           (Blyth-Still-Casella)  = (      0.8262 ,      0.9498)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  88 } =       0.0000
+                Pr { T .EQ.  88 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  98
+
+--------------------------------------------------------------- I=98 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 54
+    Number of Successes     = 36
+
+    Maximum Likelihood Estimate of PI  =      0.6667
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.5253 ,      0.7891)
+Mid-P corrected (Clopper-Pearson) = (      0.5335 ,      0.7823)
+           (Blyth-Still-Casella)  = (      0.5312 ,      0.7793)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .GE.  36 } =       0.0099
+                Pr { T .EQ.  36 } =       0.0054
+    Two-sided : 2 * One-sided            =       0.0198
+
+
+                                                                                              13:58 Wednesday, February 27, 2019  99
+
+--------------------------------------------------------------- I=99 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 99
+    Number of Successes     = 22
+
+    Maximum Likelihood Estimate of PI  =      0.2222
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.1448 ,      0.3169)
+Mid-P corrected (Clopper-Pearson) = (      0.1485 ,      0.3120)
+           (Blyth-Still-Casella)  = (      0.1494 ,      0.3160)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  22 } =       0.0000
+                Pr { T .EQ.  22 } =       0.0000
+    Two-sided : 2 * One-sided            =       0.0000
+
+
+                                                                                              13:58 Wednesday, February 27, 2019 100
+
+-------------------------------------------------------------- I=100 ---------------------------------------------------------------
+
+Output from StatXact (r) (v11.1) PROCs _SAS9_3
+Copyright (c) 1997-2015 Cytel Inc., Cambridge, MA, USA.
+
+ESTIMATION OF BINOMIAL PARAMETER (PI)
+
+Data file name : < X_DATA >
+Outcome Variable Name : OUTCOME
+Weight Variable Name : COUNT
+
+
+    Number of Trials        = 45
+    Number of Successes     = 21
+
+    Maximum Likelihood Estimate of PI  =      0.4667
+
+     95.00% Confidence Interval for PI:
+            (Clopper-Pearson)     = (      0.3166 ,      0.6213)
+Mid-P corrected (Clopper-Pearson) = (      0.3253 ,      0.6122)
+           (Blyth-Still-Casella)  = (      0.3166 ,      0.6163)
+
+    Exact P-values for testing PI        =       0.5000
+    One-sided : Pr { T .LE.  21 } =       0.3830
+                Pr { T .EQ.  21 } =       0.1073
+    Two-sided : 2 * One-sided            =       0.7660
+
+

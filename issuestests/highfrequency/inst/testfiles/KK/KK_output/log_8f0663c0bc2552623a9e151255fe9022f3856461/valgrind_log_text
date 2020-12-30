@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (highfrequency_deepstate_test_KK_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/highfrequency/inst/testfiles/KK/KK_output/8f0663c0bc2552623a9e151255fe9022f3856461.pass`
+TRACE: Running: highfrequency_deepstate_test_KK_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/highfrequency/inst/testfiles/KK/KK_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.2236e+141
+type values: 431344575
+input ends
+TRACE: Passed: highfrequency_deepstate_test_KK_test

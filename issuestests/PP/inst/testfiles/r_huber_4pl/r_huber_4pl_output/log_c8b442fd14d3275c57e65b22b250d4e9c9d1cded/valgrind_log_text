@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (PP_deepstate_test_r_huber_4pl_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/r_huber_4pl/r_huber_4pl_output/c8b442fd14d3275c57e65b22b250d4e9c9d1cded.pass`
+TRACE: Running: PP_deepstate_test_r_huber_4pl_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/r_huber_4pl/r_huber_4pl_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+delta values: -6.82509e+160 1.08597e+205 2.73163 -2.65821e+130 -3.79202e-120 -2.16401e-124 -7.73464e-175 6.57227e-221 9.08959e-95 -7.17597e-79 1.84075e+150 -5.43064e+185 9.09719e+179 -9.94517e-244 2.06409e+74 9.7343e+60 -1.29036e-211 2.94343e-192 -1.42571e-291 1.45786e+149 1.7712e-217 -1.86909e-35 -3.83689e+77 inf -1.64448e+206 1.12829e+138 -1.60143e+126 -2.89188e-302 -3.00291e+152 2.20551e+236 -inf 5.98342e+201 1.37448e+79 1.22988e+114 -1.18684e-11 -9.25943e-09 -5.6192e+87 -2.79094e+219 -9.76197e+250 -9.15499e+155 -4.40608e+131 -6.98946e+192 -1.65455e+285 3.55079e+232 inf 20.781 2.00388e-293 5.54427e-299 3.56162e+236 -3.98791e+287 3.99526e-29 3.9356e+234 inf 5.91235e-33 -7.68995e+22 -8.80048e+279 1.89748e-86 -1.47134e-92 6.16664e-224 8.28049e+07 -1.36319e+223 1.1626e+297 -3.66984e+154 -3.12443e+275 -5.25014e+16 -6.79439e+288 -1.23097e+282 2.16635e+116 6.52001e+266 2.8817e+181 2.58783e-125 -4.97613e+23 5.26006e-196 6.54386e-273 3.66737e+243 -2.48859e-213 2.95178e+267 1.13922e+141 -6.95791e-151 1.18709e-300 8.35731e-69 -3.74361e-232 -1.32294e+68 -1.44859e-39 2.95578e-169 -8.15138e+129 -1.81058e-06 -3.93892e+173 6.42678e-285 1.34201e-64 1.02955e+242 5.05847e-301 -2.52457e-55 4.3595e+17 1.16001e-154 8.21083e-232 -3.71981e+140 2.57053e-281 0
+alpha values: -8.84435e-87
+theta values: -5.34891e-116
+la values: 6.58168e-299
+ua values: -4.03156e-181
+H values: -3.45608e+196
+input ends
+TRACE: Passed: PP_deepstate_test_r_huber_4pl_test

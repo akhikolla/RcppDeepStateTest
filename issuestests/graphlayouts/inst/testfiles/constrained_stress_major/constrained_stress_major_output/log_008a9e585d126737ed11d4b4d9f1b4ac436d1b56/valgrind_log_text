@@ -1,0 +1,33 @@
+WARNING: No test specified, defaulting to first test defined (graphlayouts_deepstate_test_constrained_stress_major_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/graphlayouts/inst/testfiles/constrained_stress_major/constrained_stress_major_output/008a9e585d126737ed11d4b4d9f1b4ac436d1b56.pass`
+TRACE: Running: graphlayouts_deepstate_test_constrained_stress_major_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/graphlayouts/inst/testfiles/constrained_stress_major/constrained_stress_major_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 6.68461e-251 1.66913e-47 1.33982e+239 8.05769e-296
+2.42667e+185 5.24595e+232 1.35198e-239 4.37465e+182
+3.98251e+128 3.24319e+40 2.12738e-230 2.22209e-233
+1.00899e+186 1.69555e-59 2.35778e+53 3.18026e+286
+2.58363e-151 4.37448e-141 1.37422e-08 7.26697e-235
+
+dim values: 1153501779
+W values: 6.11133e+125 9.84115e-198
+5.40913e-31 3.47053e-235
+1.14126e+111 8.46830e+188
+3.85832e-26 2.87082e+20
+1.56101e-236 8.47368e+236
+3.78199e+88 2.37207e-245
+
+D values: 6.30645e+106 1.72939e-56 1.83571e-248 5.76155e-87 1.71921e+65 1.70059e+231 1.22494e-304 5.98063e-204 1.40244e-154
+1.67651e+55 7.71307e-208 2.52585e+240 2.15519e-272 3.00606e+81 3.15212e+135 1.42837e+251 4.94846e-279 3.56566e-65
+1.88127e+295 1.53229e-68 3.67086e-11 1.51076e-55 6.66225e+187 1.19585e+298 2.72572e+71 2.76249e-154 4.05460e+205
+5.03024e-59 1.83109e+304 1.15513e-174 3.34553e+133 3.31983e-295 1.44753e+52 3.57017e+149 4.41678e-275 4.69920e-238
+6.65367e-141 7.60852e+64 1.82815e-113 4.24500e-152 8.47259e+70 3.48583e+82 9.01701e-44 1.78080e-146 4.07998e-220
+3.28519e-125 1.62854e-293 3.08130e-290 9.46336e-233 7.22871e+239 3.00753e+15 4.53836e-152 5.38336e-127 1.34224e-307
+6.11683e+246 1.20451e+287 4.41175e-225 8.35877e-96 1.79978e+14 1.30282e+10 4.93469e-09 3.80932e+202 6.52296e+293
+3.33726e+135 2.29949e-121 2.05438e-32 1.19245e-46 2.03863e-193 1.97431e-280 1.12234e-92 2.47179e+08 1.85620e-72
+
+iter values: -1674282732
+tol values: 5.21031e+234
+input ends
+TRACE: Passed: graphlayouts_deepstate_test_constrained_stress_major_test

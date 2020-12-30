@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (TransPhylo_deepstate_test_wbar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/wbar/wbar_output/2f6380ecbd154001d044729acbb06b69acc3daf8.pass`
+TRACE: Running: TransPhylo_deepstate_test_wbar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/wbar/wbar_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tinf values: 1.23584e-258
+dateT values: -3.11586e-199
+rOff values: 6.3916e-240
+pOff values: 7.46403e+183
+pi values: -2.09302e-123
+shGen values: -60.9669
+scGen values: 4.19051e-200
+shSam values: -8.12983e-12
+scSam values: -9.00135e-251
+delta_t values: 4.93901e+284
+input ends
+TRACE: Passed: TransPhylo_deepstate_test_wbar_test

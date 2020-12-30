@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_MSX_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/MSX/MSX_output/88ce65c69283b738bb372a994e91e307bc52128b.pass`
+TRACE: Running: NAM_deepstate_test_MSX_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/MSX/MSX_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 1.11295e-292 8.76135e-201 2.45060e+33
+4.85246e+198 7.54706e-144 1.08132e+86
+8.48652e-06 4.40060e+124 2.17252e-38
+1.45023e-154 6.72736e+165 1.93813e+191
+1.22862e-171 7.06499e-208 2.38599e+134
+6.21159e+60 8.73969e-118 1.08270e+136
+5.34306e-11 2.52140e-262 3.17543e-132
+1.54906e+94 1.27212e-306 4.11106e+35
+6.19848e+147 4.10770e-183 6.40453e+07
+
+input ends
+TRACE: Passed: NAM_deepstate_test_MSX_test

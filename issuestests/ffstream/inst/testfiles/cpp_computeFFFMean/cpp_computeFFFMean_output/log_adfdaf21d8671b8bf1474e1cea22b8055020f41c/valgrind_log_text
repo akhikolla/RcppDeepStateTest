@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_computeFFFMean_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_computeFFFMean/cpp_computeFFFMean_output/adfdaf21d8671b8bf1474e1cea22b8055020f41c.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_computeFFFMean_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_computeFFFMean/cpp_computeFFFMean_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 5.16571e-284 3.24465e+41 -6.26609e+95 -3.17154e-295 1.7904e+220 -7.20034e-305 -8.22117e-265 -1.26497e+253 8.14953e-244 1763.09 7.15555e+196 1.05627e-72 nan 9.50659e+247 3.33306e+244 -5.21036e-277 2.50318e+60 nan 2.21145e-203 -4.88753e+131 inf -3.85441e+54 -7.35643e+108 nan 1.00499e+77 -6.72568e+301 3.01305e+06 1.25248e-246 -1.53976e-93 5.60861e-287 -1.66885e+212 0
+lambda values: -5.32897e+282
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_computeFFFMean_test

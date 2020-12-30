@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_runivm_onepar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_output/7033d1777955bbe9560a9db73ad16a1db51868fd.fail`
+TRACE: Running: BAMBI_deepstate_test_runivm_onepar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -1152655652
+k values: -1.02675e-300
+mu values: 3.29675e-208
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_runivm_onepar_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/runivm_onepar/runivm_onepar_output/7033d1777955bbe9560a9db73ad16a1db51868fd.fail failed

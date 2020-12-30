@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_CgenerateTau_root_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateTau_root/CgenerateTau_root_output/956c9e1ed03f757a62fcfb9a75587a70fec9cd79.pass`
+TRACE: Running: RGeode_deepstate_test_CgenerateTau_root_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateTau_root/CgenerateTau_root_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+U values: 1.79346e-283 5.6864e-111 -2.87042e-176 2.60035e+224 2.14369e-279 3.89515e+43 1.03258e+253 3.01732e-108 7.81352e+97 -1.0339e+86 -7.6598e-248 0.0169365 1.11659e+86 2.32188e+169 -1.14765e+238 5.6864e-111 -5.8185e+236 -4.81211e+268 7.99091e-155 -4.30073e+184 -6.18745e-293 -4.63475e+169 4.75732e+74 -9.38535e-120 3.10736e+88 -3.08034e-239 nan -7.41337e+39 2.75701e-127 4.28924e+242 nan -2.67124e+34 -4.23769e-201 4.2531e+256 -3.83331e-221 -2.82408e+168 -2.69688e-64 -2.16953e-193 -8.98289e-140 3.20225e+292 -2.11734e-269 8.3376e+61 -1.99254e-303 4.99694e-67 -1.08314e-157 8.73914e-150 nan -7.78485e-197 1.96163e-227 -3.99328e-152 4.66181e-12 2.05309e-265 9.80919e-63 1.70335e-242 -2.42294e-274 3.65735e-51 -3.15397e-60 3.32376e+162 7.28935e-161 -1.23171e+14 5.62748e+213 0
+t values: 7.9036e-131 -3.34397e-276 -7.32767e+36 -2.95261e+181 1.06769e-228 -4.17541e+294 -1.52685e-145 -1.29094e-10 -7.7659e+118 1.37464e-08 6.85458e+186 -6.22807e-31 2.59862e+172 4.54589e+247 -1.32645e-27 3.33378e-157 -inf 1.14545e-125 -7.51142e+237 2.81676e+247 -8.35388e+221 3.30042e+161 1.24535e-49 1.45407e+188 nan -3.91458e+282 7.06258e-127 -2.9669e+154 1.80942e+43 -4.522e+146 -7.57844e+104 2.73903e-212 2.8388e+146 inf 9.16111e-73 7.53964e-109 9.39578e-99 -1.0451e+135 nan -3.78938e+45 nan 2.42072e-95 -4.31365e-138 0
+a values: -3.29375e+157
+d values: -1380647420
+input ends
+TRACE: Passed: RGeode_deepstate_test_CgenerateTau_root_test

@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_expZ_lnorm_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/expZ_lnorm_C/expZ_lnorm_C_output/4e8272a0b0704a7fc7f5e7054c1e4bb993b05610.fail`
+TRACE: Running: mixR_deepstate_test_expZ_lnorm_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/expZ_lnorm_C/expZ_lnorm_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -4.81018e-191 5.45385 -5.41424e+144 -4.2122e+136 4.93179e-222 9.26573e-143 -5.84795e-40 3.8222e+103 -7.49851e-291 -3.13054e+10 -2.87993e+07 -4.02478e+237 -2.22954e-145 -1.3824e+123 -8.39364e+135 -5.36219e-195 -inf 7.33373e-265 8.14846e-129 3.19572e-39 1.73133e+31 2.39935e-260 1.27184e-143 1.55946e-263 -inf -3.91729e+136 -3.52566e-137 -1.59961e+134 6.00843e+125 2.49396e+95 8.15997e+09 1.76301e+245 -1.02764e-210 -2.12238e-285 2.1165e+304 -6.80279e-164 -1.2724e+111 -7.67028e-226 -3.01645e-201 1.50221e+64 -6.71065e-121 -inf 5.9165e-207 2.36061e+263 1.67562e-13 -3.22771e-21 3.75158e+124 1.8028e+124 -1.61918e+96 -6.59689e+56 1.60302e-235 -7.9158e-31 -2.04057e+44 -2.08565e+229 3.47302e-68 -6.91498e-60 -2.90536e-161 3.19258e+191 2.40982e-12 3.63001e-104 2.43939e-184 4.23551e-235 5.21294e-79 -1.8386e-287 -3.64635e+224 2.58546 7.26053e-181 -1.52793e-33 3.13878e-241 9.55796e+284 -7.75101e-226 2.58546 -2.02193e-296 3.91486e-243 -1.95026e-152 0
+pi values: -2.07329e+97 1.8804e-87 4.53633e-130 -1.75142e+96 -2.44079e-194 1.55552e-294 -7.05856e-302 -3.26874e-06 -inf -2.34394e+26 -1.06705e-157 1.23802e+92 3.12694e-271 8.30603e+42 2.42694e-223 9.74293e-06 3.3239e-76 -7.33626e+182 -3.49825e+40 6.76468e+57 -1.57408e+271 -1.50088e-217 -3.97493e-170 -4.69843e+223 6.64724e-81 -1.286e+149 -1.31551e+141 1.61061e+241 -1.6021e+227 1.952e+232 5.19335e+133 5.18164e-82 -4.35058e+70 -5.21043e+170 -3.22705e-235 -6.433e-197 6.62952e-257 3.19007e+152 -2.1712e+39 -3.28483e-222 -1.33042e+14 7.34056e-282 -1.43974e-222 -2.96193e+284 nan inf -1.42311e+185 2.34849e-19 4.71108e-215 -8.84579e-233 -5.78044e+37 1.23223e+12 -1.80703e-152 -3.30519e-27 -4.0021e-202 nan inf -1.59309e-114 -2.85953e-13 2.01286e+177 8.24211e-207 0
+mulog values: nan 3.03129e+156 -3.69176e-107 5.82573e-155 1.15705e+123 6.18547e-217 -1.30975e+255 1.20376e+287 -1.26368e-181 -1.5436e+91 1.48834e+72 -inf 6.58502e+183 -6.38855e+276 9.66139e+300 nan 1.09293e+200 0
+sdlog values: -inf 4.86257e-169 -8.69477e-17 3.61147e-121 2.80105e+83 -inf -1.16315e-129 -1.38642e+27 -1.16315e-129 inf -8.49974e+248 1.34806e-111 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=13; extent=13].
+ERROR: Failed: mixR_deepstate_test_expZ_lnorm_C_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/expZ_lnorm_C/expZ_lnorm_C_output/4e8272a0b0704a7fc7f5e7054c1e4bb993b05610.fail failed

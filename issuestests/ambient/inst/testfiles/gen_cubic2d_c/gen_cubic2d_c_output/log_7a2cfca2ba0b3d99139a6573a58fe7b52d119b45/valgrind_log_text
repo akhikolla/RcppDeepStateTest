@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_cubic2d_c_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_output/7a2cfca2ba0b3d99139a6573a58fe7b52d119b45.pass`
+TRACE: Running: ambient_deepstate_test_gen_cubic2d_c_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_cubic2d_c/gen_cubic2d_c_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: nan -3.86819e-107 nan inf
+y values: inf -1.07034e+69 -1.09777e+221 2.27698e-56 3.66532e+109 3.99399e-60 3.31035e-235 3.36921e-190 3.93255e+24 inf 8.14221e+112 2.33504e-238 1.13144e+214 3.38808e+245 2.72552e+51 -6.33104e+44 -1.07034e+69 nan 3.73462e-75 -3.28967e+288 9.76025e+91 0
+freq values: -5.05937e-132
+seed values: 1692418216
+input ends
+TRACE: Passed: ambient_deepstate_test_gen_cubic2d_c_test

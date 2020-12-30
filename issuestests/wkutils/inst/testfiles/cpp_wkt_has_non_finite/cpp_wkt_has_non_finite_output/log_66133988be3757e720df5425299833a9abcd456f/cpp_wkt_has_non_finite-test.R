@@ -1,0 +1,3 @@
+testlist <- list(wkt = c("zibwdaqsibvhnxreescw", "dmdhytenv", NA, "njjvpxrouvpyidhyavzk",  "sapaweofodqummhrdk", NA, "adgialupbfgnplptwg", "wclwoorrkyjkhzabxv",  "gaxbfewmewnewqvntdmm", "elxnjzst", "wjtvkljukfoozwbmrygh", "ngbzxwnbxtebwa",  NA, NA, "amjhshbjzssawxrbvldv", "nqolpkmfisbopmlsduyz", "opyfsoyntcwodgqpeitk",  "kaxlayyslmshy", "dutycmz", "ylabvddbomcqkjihzsph", "ofyuhwctcjbrjpvakeah",  "xeiknhnapjejtmdspisu", NA, "vsfiuyxutmkdlbmqoawu", NA, NA, NA,  NA, "wpnglbdgylkvrommbnbw", NA, NA, "cjpwsykbmwmiectyxblu"))
+result <- do.call(wkutils:::cpp_wkt_has_non_finite,testlist)
+str(result)

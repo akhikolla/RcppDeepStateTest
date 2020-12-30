@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (rrecsys_deepstate_test_weightedSlopeOneRM_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/weightedSlopeOneRM/weightedSlopeOneRM_output/17e44fabedbc9428957a7fe874363f056f9ae36c.pass`
+TRACE: Running: rrecsys_deepstate_test_weightedSlopeOneRM_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/weightedSlopeOneRM/weightedSlopeOneRM_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.74183e+256 3.41649e+73 2.14732e-89 2.44401e-95 1.03397e+09 2.03993e-51 3.11156e-150 1.38827e-36 4.73759e+213
+2.87699e-11 1.40617e+81 1.83120e+95 3.57964e-264 8.30017e-272 4.86161e+168 1.48353e-161 1.67160e-10 5.34933e+166
+
+input ends
+TRACE: Passed: rrecsys_deepstate_test_weightedSlopeOneRM_test

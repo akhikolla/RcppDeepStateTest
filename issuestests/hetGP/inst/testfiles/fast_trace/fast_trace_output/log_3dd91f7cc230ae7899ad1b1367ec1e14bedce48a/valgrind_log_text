@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_fast_trace_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/fast_trace/fast_trace_output/3dd91f7cc230ae7899ad1b1367ec1e14bedce48a.pass`
+TRACE: Running: hetGP_deepstate_test_fast_trace_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/fast_trace/fast_trace_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+A values: 1.88124e+92 7.31787e-252 5.71080e+183
+5.66977e+100 9.42118e-296 4.34370e+252
+3.07657e-51 3.43799e-270 2.30949e+80
+
+B values: 2.48315e-133 8.23394e+27
+5.09073e-112 3.40734e+140
+3.24734e-121 6.25952e+301
+1.13767e+211 2.36731e+250
+3.43810e-305 5.86448e-220
+3.58894e-103 1.12582e-283
+
+input ends
+TRACE: Passed: hetGP_deepstate_test_fast_trace_test

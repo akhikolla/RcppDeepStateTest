@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectCUSUMMeanSinglePrechange_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectCUSUMMeanSinglePrechange/cpp_detectCUSUMMeanSinglePrechange_output/035084f06f35fdb8812ed1139c8de4ae7fef4d0a.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectCUSUMMeanSinglePrechange_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectCUSUMMeanSinglePrechange/cpp_detectCUSUMMeanSinglePrechange_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 0.0174862 -2.26073e+258 -4.07983e-179 nan -2.26073e+258 7.1398e+173 3.9098e+95 5.65225e+94 1.91027e+72 inf inf 0
+k values: -7.55092e-59
+h values: -7.40278e-150
+prechangeMean values: -2.31839e-185
+prechangeSigma values: -4.00936e+75
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectCUSUMMeanSinglePrechange_test

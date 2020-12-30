@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (oce_deepstate_test_do_matrix_smooth_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/oce/inst/testfiles/do_matrix_smooth/do_matrix_smooth_output/9bfdc90521473feea6eaaad8990bcc767633f382.pass`
+TRACE: Running: oce_deepstate_test_do_matrix_smooth_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/oce/inst/testfiles/do_matrix_smooth/do_matrix_smooth_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 1.15179e+92
+4.87191e+148
+8.19577e-248
+2.80840e-181
+1.03463e-129
+9.93410e-150
+1.31170e-263
+4.59430e-134
+
+input ends
+TRACE: Passed: oce_deepstate_test_do_matrix_smooth_test

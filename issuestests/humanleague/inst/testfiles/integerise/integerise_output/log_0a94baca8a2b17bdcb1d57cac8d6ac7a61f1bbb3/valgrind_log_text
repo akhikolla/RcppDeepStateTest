@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (humanleague_deepstate_test_integerise_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/0a94baca8a2b17bdcb1d57cac8d6ac7a61f1bbb3.fail`
+TRACE: Running: humanleague_deepstate_test_integerise_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+population values: -6.45123e+160 2.14983e-299 -3.40664e-09 2.77537e-291 -1.40561e+206 -inf 5.75257e+58 1.22773e+70 -1.3046e+146 -151.77 nan -4.97749e+141 3.34644e-114 -inf nan -5.47278e-231 -4.41848e+53 3.69324e-279 3.86752e+128 -2.90324e+23 2.02635e-223 1.36585e-159 1.90039e-249 -7.50755e+284 -3.31515e+161 5.0483e-55 -4.79269e-119 7.45003e-280 1.9211e-158 -2.94653e+69 -2.26793e+50 2.85341e-67 -2.75671e+102 2.15093e+83 -2.31133e+75 -7.07311e+35 7.06192e+13 5.38795e-08 -5.01977e-55 1.84571e-116 -6.87195e-15 -6.04613e+58 -2.01467e+21 -8.62894e-94 1.68202e+227 -1.9903e+248 1.53033e+54 2.52958e+233 1.44983e+35 -5.29112e-111 -5.60587e+54 -1.4613e-276 1.78657e+25 1.07521e-97 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: humanleague_deepstate_test_integerise_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/integerise/integerise_output/0a94baca8a2b17bdcb1d57cac8d6ac7a61f1bbb3.fail failed

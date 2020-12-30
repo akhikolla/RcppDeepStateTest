@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_mkr_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/6953482034a18c852dedd73b7468a140ba4f26f6.fail`
+TRACE: Running: NAM_deepstate_test_mkr_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 3.90589e+18 1.58345e+239 9.35719e+239 2.28259e-101 1.15942e-77 4.03229e+15 1.74740e-118 1.12715e-80 6.31628e+139 1.52500e-86
+
+K values: 2.40174e+36 5.67552e-145 4.26364e+75 4.36986e+304 6.50373e+187 2.50001e+192
+3.03857e+291 2.32106e+205 6.05160e-12 3.50445e-270 1.15404e+128 2.87396e-288
+1.15396e+155 4.91174e+31 6.18296e-18 5.07793e-36 4.04756e-48 2.29152e+159
+7.26581e+212 2.32775e-306 2.66664e-157 7.62158e-257 1.55045e+153 8.69171e-93
+1.28994e-198 6.55296e+118 2.22896e-76 4.26807e+217 1.72114e+08 3.29315e-271
+1.37708e-306 5.91656e-176 3.88625e+244 3.88163e+130 5.83477e-104 2.92395e+184
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: Lapack routine dgesv: system is exactly singular: U[10,10] = 0.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/6953482034a18c852dedd73b7468a140ba4f26f6.fail failed

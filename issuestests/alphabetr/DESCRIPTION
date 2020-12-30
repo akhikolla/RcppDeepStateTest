@@ -1,0 +1,24 @@
+Package: alphabetr
+Type: Package
+Title: Algorithms for High-Throughput Sequencing of Antigen-Specific T
+        Cells
+Version: 0.2.2
+Authors@R: person("Edward", "Lee", email = "email.edwardlee@gmail.com", role = c("aut", "cre"))
+Description: Provides algorithms for frequency-based pairing of alpha-beta T
+  cell receptors.
+License: AGPL (>= 3)
+LazyData: TRUE
+Imports: Rcpp (>= 0.12.3), clue (>= 0.3-50), dplyr (>= 0.4.3),
+        multicool (>= 0.1-9)
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+URL: http://github.com/edwardslee/alphabetr
+BugReports: http://github.com/edwardslee/alphabetr
+NeedsCompilation: yes
+Packaged: 2017-01-28 02:16:30 UTC; Edward
+Author: Edward Lee [aut, cre]
+Maintainer: Edward Lee <email.edwardlee@gmail.com>
+Repository: CRAN
+Date/Publication: 2017-01-28 17:31:24

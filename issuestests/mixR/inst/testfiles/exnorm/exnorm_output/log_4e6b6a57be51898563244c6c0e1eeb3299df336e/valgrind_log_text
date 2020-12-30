@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_exnorm_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/exnorm/exnorm_output/4e6b6a57be51898563244c6c0e1eeb3299df336e.fail`
+TRACE: Running: mixR_deepstate_test_exnorm_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/exnorm/exnorm_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: 2.54174e+113 1.69379e+289 2.29739e+43 9.97665e+29 5.69774e-161 8.12224e+302 3.19324e+279
+1.11239e+70 1.16380e-156 9.37992e+131 7.45973e+33 1.29181e-154 2.46798e-298 2.96691e+224
+1.71062e+116 8.58703e+144 7.22735e-307 3.96700e+30 9.73909e-53 3.62005e+278 2.23606e-184
+7.31966e+127 2.95257e-164 7.46543e-160 2.54459e+250 2.12791e-67 2.32669e-282 4.01372e-294
+3.45541e+240 7.97781e-150 6.36401e-172 3.10834e-143 4.51204e-16 4.22729e+175 1.09529e-134
+2.73025e-181 3.70308e-59 4.28041e-136 1.50146e+113 9.89004e+29 4.45031e+52 1.11570e+61
+
+mu values: 3.70616e-78 2.40066e+97 1.25181e-166 -2.52019e+68 9.12489e+131 -8.3285e+226 -3.9582e+148 -6.19312e-293 -4.87499e-115 4.03604e-150 nan 1.92156e-144 3.63417e+216 1.64935e+66 -1.58738e+47 1.15413e+108 -3.30715e-189 9.15818e-262 inf -2.36021e+36 2.82905e+22 -1.7369e+177 1.68859e-136 -1.0501e+124 -6.96584e+277 9.12489e+131 3.7321e+20 1.84101e-202 -2.40876e-306 2.55156e-98 1.41701e+190 4.26558e-129 8.89698e-100 5.16042e+120 -3.52479e-174 -1.32822e-38 1.33616e-131 6.64478e-109 6.62987e+103 2.90572e-106 2.63548e-101 2.5845e-59 3.44842e-97 -1.93424e-263 3.16638e-25 -7.16735e-156 3.15904e-23 2.27184e+88 nan
+sd values: -1.56037e+100 6.29496e+300 1.30863e-178 1.16903e-184 -1.51471e-144 1.96408e+105 6.36476e-45 -4.07306e-293 nan nan 3.4243e-191 2.51122e-96 2.04641e-245 -7.06217e-252 6.88607e-07 9.38159e-70 -inf inf inf 6.59186e-237 -5.14039e-110 2.42091e-84 8.60529e+21 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=24; extent=24].
+ERROR: Failed: mixR_deepstate_test_exnorm_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/exnorm/exnorm_output/4e6b6a57be51898563244c6c0e1eeb3299df336e.fail failed

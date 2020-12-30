@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_find_corres_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/find_corres/find_corres_output/618cc8d6265cb1fdba84c37b044a7c1dd99a1704.pass`
+TRACE: Running: hetGP_deepstate_test_find_corres_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/find_corres/find_corres_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X0 values: 2.74411e-130 2.18636e+121 1.46375e-99 3.80650e+166 1.35228e-14
+1.28706e+104 4.44264e-41 3.20042e+220 7.99042e-35 1.02004e-53
+6.84424e+68 1.27339e-227 2.31292e-50 1.08314e-256 1.68559e-244
+
+X values: 2.73605e-303 5.67340e-269
+1.47630e+302 1.83311e+164
+1.56788e+118 1.63995e+27
+9.96256e+08 8.77057e+305
+6.15591e-189 1.24382e-195
+
+input ends
+TRACE: Passed: hetGP_deepstate_test_find_corres_test

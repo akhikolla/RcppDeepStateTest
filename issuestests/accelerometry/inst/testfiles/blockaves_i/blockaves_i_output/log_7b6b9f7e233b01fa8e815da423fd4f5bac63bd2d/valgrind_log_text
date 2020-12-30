@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blockaves_i_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_i/blockaves_i_output/7b6b9f7e233b01fa8e815da423fd4f5bac63bd2d.pass`
+TRACE: Running: accelerometry_deepstate_test_blockaves_i_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_i/blockaves_i_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 465245176 1604179329 -833647365 643561818 -1049545397 755034814 164641061 -1957945916 -840668115 -2109559216 -1858450249 -1790635434 -1236819229 1200398673 1574598376 647212276 2014913018 1540311788 160867230 -608832110 -40405692 588748160 -250910440 -1626010601 774705545 -61115131 -233200691 -828874805 802492499 -324676643 -1321405104 1375823744 779618858 -746639419 -1730964633 1811034779 -951914829 -389967463 -24712880 -2007969610 -925179493 1511023090 465245176 -426972498 -824680010 -1712173161 2033772289
+window values: -993667693
+input ends
+TRACE: Passed: accelerometry_deepstate_test_blockaves_i_test

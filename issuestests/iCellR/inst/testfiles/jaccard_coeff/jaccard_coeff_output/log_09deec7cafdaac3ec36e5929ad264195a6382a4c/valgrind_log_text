@@ -1,0 +1,21 @@
+WARNING: No test specified, defaulting to first test defined (iCellR_deepstate_test_jaccard_coeff_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/iCellR/inst/testfiles/jaccard_coeff/jaccard_coeff_output/09deec7cafdaac3ec36e5929ad264195a6382a4c.fail`
+TRACE: Running: iCellR_deepstate_test_jaccard_coeff_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/iCellR/inst/testfiles/jaccard_coeff/jaccard_coeff_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+idx values: 2.53278e+178 4.18623e-67 3.64817e+210 4.40525e+88
+1.38093e+43 7.74450e+242 1.76840e+188 2.67668e-30
+1.18314e+260 1.07088e-251 1.36923e+129 6.34411e-199
+1.91178e+11 4.09898e+18 7.08080e-09 4.55867e+208
+3.18706e-159 3.83060e-302 1.77642e+182 3.45843e-68
+2.99106e-125 1.94351e+137 1.70825e-15 2.71921e-42
+4.17418e-212 1.05773e-46 8.05000e+130 3.57993e-194
+1.60338e-80 6.83549e-180 1.07763e-49 2.26368e-42
+3.55861e+149 8.09748e-202 3.82524e+209 2.28062e-247
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=-2147483648; row extent=9].
+ERROR: Failed: iCellR_deepstate_test_jaccard_coeff_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/iCellR/inst/testfiles/jaccard_coeff/jaccard_coeff_output/09deec7cafdaac3ec36e5929ad264195a6382a4c.fail failed

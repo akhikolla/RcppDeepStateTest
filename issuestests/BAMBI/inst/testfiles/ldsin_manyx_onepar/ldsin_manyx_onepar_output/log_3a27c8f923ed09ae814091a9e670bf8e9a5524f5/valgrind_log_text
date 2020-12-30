@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_ldsin_manyx_onepar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_output/3a27c8f923ed09ae814091a9e670bf8e9a5524f5.crash`
+TRACE: Running: BAMBI_deepstate_test_ldsin_manyx_onepar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_DeepState_TestHarness.cpp(10)
+input starts
+x values:    1.0234e+26  -7.7422e-38  4.5366e-125  8.9825e-278  -9.2617e+13 -1.4424e-275
+  -5.8172e+63  -4.1928e-72 -1.2634e-138  1.8516e+171  3.7949e-289  8.5339e+195
+  -2.8570e+75  1.1218e-112  -8.6941e-59   1.6379e+34 -4.7362e-237 -2.7241e+108
+
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 7.88893e-246
+k2 values: 1.52405e-303
+k3 values: 6.1675e+161
+mu1 values: -1.7637e-191
+mu2 values: 2.82062e-90
+input ends
+==1799259==  If you believe this happened as a result of a stack
+==1799259==  overflow in your program's main thread (unlikely but
+==1799259==  possible), you can try to increase the size of the
+==1799259==  main thread stack using the --main-stacksize= flag.
+==1799259==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: BAMBI_deepstate_test_ldsin_manyx_onepar_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_output/3a27c8f923ed09ae814091a9e670bf8e9a5524f5.crash crashed

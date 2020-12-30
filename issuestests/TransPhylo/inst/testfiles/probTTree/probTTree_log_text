@@ -1,0 +1,136 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606679202
+WARNING: No test specified, defaulting to first test defined (TransPhylo_deepstate_test_probTTree_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ttree values: 3.20110e+125 1.58525e-172 8.73585e-150 6.58437e+114
+1.01671e-224 7.13546e-163 2.14528e+210 2.96677e+159
+1.54591e+296 3.92767e-270 1.11347e+236 1.70946e-37
+1.42461e-154 1.38689e+169 1.47795e-272 1.13938e-202
+4.32737e-14 5.86616e-87 5.77388e+236 2.68010e-182
+6.00036e-112 2.21551e-05 5.00100e+298 6.83183e+257
+
+rOff values: -7.24133e-166
+pOff values: -4.46548e+15
+pi values: -7.46832e-70
+shGen values: 2.45925e-292
+scGen values: 1.61251e+81
+shSam values: -1.4597e-205
+scSam values: 7.48771e+28
+dateT values: -11.5181
+delta_t values: -4.88874e+168
+input ends
+Exception Handled
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ttree values: 8.95530e+153
+3.78974e-137
+3.84066e-174
+1.08423e-134
+1.02056e+249
+1.68706e-190
+2.29107e-52
+
+rOff values: 1.23468e+157
+pOff values: 7.26481e-53
+pi values: -1.28424e-222
+shGen values: -2.35154e+156
+scGen values: 3.72254e+124
+shSam values: 7.63817e-191
+scSam values: 1.21306e-76
+dateT values: 2.17366e+266
+delta_t values: -4.86819e+228
+input ends
+Exception Handled
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ttree values: 2.27995e-17 5.95118e+283 2.00330e+137 6.17096e+290 1.82615e-73 1.66103e+31 3.58085e+109
+4.16764e-46 2.53907e-196 8.91198e+37 3.97590e+231 1.75800e+162 4.55969e+36 2.37501e+135
+8.95463e-120 4.30336e+69 2.54254e-229 3.06543e+269 2.72821e-163 9.68697e-17 6.46624e-121
+3.05412e+30 5.91460e+22 9.29864e+231 1.72125e+43 3.54142e-13 1.22704e+29 1.33972e+49
+6.13218e-26 9.30547e+84 2.66013e-248 8.79218e-109 3.68637e-197 1.15643e-153 8.56764e-137
+
+rOff values: -6.30771e-295
+pOff values: -1.14995e+260
+pi values: -3.72768e+127
+shGen values: 7.04781e-266
+scGen values: 2.21867e+247
+shSam values: 1.64027e-262
+scSam values: -3.1461e-99
+dateT values: 2.37421e-106
+delta_t values: -8.2601e+151
+input ends
+Exception Handled
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ttree values: 4.12980e+238 4.41404e+255 8.82802e-35 7.21091e+167 1.48499e+147 3.44358e-35
+2.71967e-179 3.39259e+226 4.11097e+256 1.21928e-30 4.70028e-41 1.09377e+151
+6.30108e+122 1.12393e+180 3.68716e+59 5.03053e-24 2.50736e-158 4.97604e+305
+1.60507e-301 5.43441e+95 4.80142e+289 7.83254e+209 2.76982e+63 2.60774e+241
+4.39557e-282 3.28306e-205 1.55532e+124 9.01519e+201 8.38500e+86 2.29755e-39
+
+rOff values: -2.73889e+40
+pOff values: -8.35505e+160
+pi values: 1.61281e+47
+shGen values: -8.15795e-190
+scGen values: -1.79756e+270
+shSam values: 1.08998e+157
+scSam values: 4.85541e-90
+dateT values: 1.33573e+131
+delta_t values: 9.711e+302
+input ends
+ERROR: Crashed: TransPhylo_deepstate_test_probTTree_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probTTree/probTTree_output/47680a3404f4e6ac45164a6a687474bcb24bc70c.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ttree values: 3.12099e-146 7.69032e-115 1.60716e-57 1.91728e-187 2.40281e-131
+4.77351e+79 1.84116e-283 8.86592e-228 7.65279e-179 3.77615e-151
+1.03274e+281 3.67145e-106 1.87387e-219 1.29193e+288 8.09433e+92
+1.47945e+150 4.13469e+159 2.86240e-82 8.65617e+153 1.73003e-282
+3.20572e+69 9.29561e+08 1.03404e-108 4.16116e+143 2.40054e-179
+3.30332e-25 1.47612e-177 1.03501e+252 2.34847e+21 2.88845e+137
+2.23442e-111 1.15519e+222 1.65571e-258 1.44713e+19 3.23193e+227
+
+rOff values: -3.56034e-305
+pOff values: -1.28953e-123
+pi values: -6.23952e-174
+shGen values: 3.98471e-32
+scGen values: 2.22637e+136
+shSam values: -2.03536e+131
+scSam values: 5.69813e+232
+dateT values: -2.43285e+207
+delta_t values: -1.73358e+42
+input ends
+ERROR: Crashed: TransPhylo_deepstate_test_probTTree_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/probTTree/probTTree_output/2c399451855d09beb0058e17590481fbd246697e.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ttree values: 2.98143e+120 9.46231e+285 9.33006e-37 1.95865e-160
+1.06062e-306 2.14471e+76 3.99916e-252 1.17305e+80
+9.09675e+200 1.68485e-31 4.81731e-165 5.81932e-148
+1.53145e+223 5.23859e-266 3.06146e-98 2.76641e+155
+2.00873e+195 1.09697e-198 1.13297e-174 7.30099e-133
+7.64348e-14 5.65983e+54 2.16926e-103 7.09710e-284
+1.77977e+269 9.58063e+16 9.58044e-99 1.01710e-107
+96.5344 5.11314e+188 2.51658e+54 4.47839e+17
+1.07011e+63 8.24359e-30 0.000152569 5.98311e-115
+7.32715e+240 7.33815e-40 2.60522e-215 3.59887e+275
+
+rOff values: 2.95146e+32
+pOff values: -7.92072e-143
+pi values: -2.18105e+201
+shGen values: -5.01217e-83
+scGen values: -6.15866e-281
+shSam values: -6.37462e+172
+scSam values: 9.81752e+191
+dateT values: -2.0623e+216
+delta_t values: -1.0879e-128
+input ends
+Exception Handled
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 2 failed/4 passed/0 abandoned tests

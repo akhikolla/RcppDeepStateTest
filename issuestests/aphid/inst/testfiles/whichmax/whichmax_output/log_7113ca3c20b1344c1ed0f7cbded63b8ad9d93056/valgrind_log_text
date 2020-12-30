@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (aphid_deepstate_test_whichmax_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/whichmax/whichmax_output/7113ca3c20b1344c1ed0f7cbded63b8ad9d93056.pass`
+TRACE: Running: aphid_deepstate_test_whichmax_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/whichmax/whichmax_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 7.30794e+08 2.67651e+176 -2.00037e-140 -inf nan -5.2159e-250 inf -1.69501e-246 -inf 4.9348e+125 1.14386e+294
+start values: -494138283
+input ends
+TRACE: Passed: aphid_deepstate_test_whichmax_test

@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (cgAUC_deepstate_test_c_dscrt_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/cgAUC/inst/testfiles/c_dscrt/c_dscrt_output/798e46c38731b5fff073ea72584f0be75769d2c5.pass`
+TRACE: Running: cgAUC_deepstate_test_c_dscrt_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/cgAUC/inst/testfiles/c_dscrt/c_dscrt_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 9.22291e+173 3.46288e-56
+2.89129e-279 3.40752e+203
+3.89436e-109 1.38733e+205
+9.11392e+163 3.49371e-133
+1.53258e+133 2.57766e-112
+3.11926e-57 133246.
+118641. 1.26361e-284
+1.25985e+276 1.50656e+221
+5.73120e+260 4.01975e+85
+
+z values: nan -9.88426e-261 1.76034e+233 -4.56251e-183 -0.110599 1.53565e+284 -1.24471e+131 -2.43314e+184 -2.23746e-64 -4.29746e+55 -1.40726e-106 1.76849e+200 -inf 3.96491e+43 nan nan 4.78137e-220 -1.46911e+85 3.23245e+255 3.2113e+230 -7.69846e-64 5.55616e-216 7.59534e-90 1.03118e-24 -5.6518e-46 -7.26649e+131 -2.38512e+117 -5.4092e-307 3.47817e-251 -3.10562e+219 -6.31268e-232 -5.72293e-21 3.24747e+171 0
+l values: nan 3.98906e-137 -1.11573e-40 3.79964e+108 1.36574e+168 5.06937e-17 -1.63562e+210 3.39793e-102 4.38142e+62 9.82681e+51 -4.3047e-165 -7.41945e-105 -1.17754e+290 1.25776e+293 -8.17106e-108 8.46575e-35 -2.24252e+261 7.07073e-209 3.53754e+07 3.177e-189 2.59997e-55 2.05908e+280 nan -1.85368e+220 -2.33218e-128 3.66999e+19 6.34945e+10 2.62264e-283 9.5022e-46 6.37222e-06 -inf 1.2698e-37 -3.3185e+51 nan -2.58682e+299 4.00493e+274 -2.50058e+135 -1.15341e-269 2.89622e-198 -4.84592e-55 -1.17238e+239 3.57594e-31 5.3661e-195 8.84204e-253 -2.69022e+296 -2.25105e+58 3.58371e+303 -4.2208e-147 -1.41241e-298 nan -4.05233e+11 7.64152e+12 1.06866e+247 -4.71558e-293 9.30395e+42 0
+input ends
+TRACE: Passed: cgAUC_deepstate_test_c_dscrt_test

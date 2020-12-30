@@ -1,0 +1,28 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606705201
+WARNING: No test specified, defaulting to first test defined (fbroc_deepstate_test_fpr_at_tpr_uncached_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pred values: 8.96502e-70 2.53659e+284 -1.76575e-63 -4.00581e-237 5.94118e+203 2.17857e+255 -4.01961e-209 1.8072e-245 -1.21323e-204 -6.87992e-134 7.92293e-203 -2.2316e+61 -1.12338e-234 -4.18446e+92 -6.02139e+138 -6.4661e+62 2.42629e+51 1.74596e-156 -1.76575e-63 -1.46993e+178 -8.52612e+61 -1.19309e+151 -1.41025e-203 nan 1.25822e+108 9.92478e-231 -2.76667e-38 -2.59991e-157 -3.65701e-111 4647.34 3.68938e-31 3.46821e-49 nan 1.06283e+164 5.12497e+303 1.5038e-302 6.88081e+219 5.20702e-101 0
+true_class values: 1514204028 1909565450 -510684392 -1807269636 -368006278 123060197 129845767 1944943310 761612958 938649624 -2109984490 -2089741714 -2118260600 312962330 1689723352 -1533303087 -2147483648 -484945819 1417771991 -225622669 -2147483648 -714574023 546836932 884446773 -1476039285 498987121 1063995697 -124869310 -1130324079 152488489 -1344475677 -1820125125 -1987721562
+n_boot values: 302459585
+n_steps values: -484924298
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pred values: nan 4.66948e-138 2.193e-68 -1.74758e+298 inf -7.02748e-127 inf -inf -4.11684e-188 -3.1712e-21 0
+true_class values: 323236051 262842086 -2147483648 272727887 -1280359865 1602233055 1595218032
+n_boot values: 1454211337
+n_steps values: 1556304060
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests

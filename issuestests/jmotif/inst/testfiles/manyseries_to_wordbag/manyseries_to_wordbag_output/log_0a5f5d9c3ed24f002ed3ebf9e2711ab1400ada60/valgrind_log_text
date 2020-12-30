@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_manyseries_to_wordbag_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/manyseries_to_wordbag/manyseries_to_wordbag_output/0a5f5d9c3ed24f002ed3ebf9e2711ab1400ada60.fail`
+TRACE: Running: jmotif_deepstate_test_manyseries_to_wordbag_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/manyseries_to_wordbag/manyseries_to_wordbag_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: 9.65250e+39 1.15694e-279
+2.88467e-108 2.02041e+168
+3.94069e-59 8.78933e+295
+
+w_size values: 1187728100
+paa_size values: 430358559
+a_size values: -1413392440
+nr_strategy values: "NA" "NA" "iwbjccokgugagdmnyslt" "mesowisunkuqrynfeuso" "gnfypbpuf" "NA" "evptgvaohaqjqn" "ozhkaqremqrosxhyqyub" "oki" "NA" "NA" "vbikztbllerxyiyhefqi" "wtnvoatjnykyuzipsqdx" "axfcyoswdcnrkaruixqj" "untdrqrllktcuofnpxfo" "hyuqobtmxdfvtpqkilym" "qzdfixzhqiccwqfvfhgz" "ansgqhdpzlgtlulfezcm" "njfakhypjtqprhsntrql" "jwctxshmhujzwpjjdenn" "NA" "uzneeujvifusvuh" "zyjpcpqne" "rnflzceanghomgsk" "bbuawsg" "pga" "pnxajwvnqroywkwddrmp" "NA" "f" "kaeylfjixpdxfnlxlrnw" "NA" "ugdukobefxjagfguom" "mrudjsnbbotizratgcuz" "onwxfbydzqywquqnguos" "cofyyopvsggrqjhpuqdx" "NA" "NA" "NA" "hhipnewuuucnm" "NA" "adglbmkmiomtqcrxrsyd" "ipoy" "cpbyzahukkvefzqdhloh" "gsfdmpwfg" "lbsuuchiorvksqbxnqfa" "wonqbdxetuipzqoikmjb" "NA" "NA" "NA" "hivasrwvqvecfzhklyex" "sdpqcrrktrgrpmhvzd" "xncmv" "kelezfwzlcssquyepepx" "nzmjwxcvqcfhhjtppyhe" "NA" "uoxfpn" "NA" "NA" "wxjok" "pcnhkqzyoydlxbnwq" "NA" "mrsrppzsspdfforzsfji" "hsesxjssvfpwejrkfpyk" "NA"
+n_threshold values: -4.95012e-187
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=64].
+ERROR: Failed: jmotif_deepstate_test_manyseries_to_wordbag_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/manyseries_to_wordbag/manyseries_to_wordbag_output/0a5f5d9c3ed24f002ed3ebf9e2711ab1400ada60.fail failed

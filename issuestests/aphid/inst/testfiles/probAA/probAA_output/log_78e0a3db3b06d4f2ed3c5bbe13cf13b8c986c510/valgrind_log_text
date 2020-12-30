@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (aphid_deepstate_test_probAA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/probAA/probAA_output/78e0a3db3b06d4f2ed3c5bbe13cf13b8c986c510.pass`
+TRACE: Running: aphid_deepstate_test_probAA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/aphid/inst/testfiles/probAA/probAA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -919755938
+probs values: 7.03698e+107 1.17738e+146 2.22566e-97 1.12386e+41 1.34454e-183 8.02589e+119 1.43775e-169 8.60681e-265 4.38401e+130 2.20913e+148 5.0339e-259 1.05393e-161 -5.60925e+151 1.15637e-179 -1.4434e-44 2.32314e+08 -8.28046e-51 -3.15428e+289 2.3076e-148 1.36866e-283 1.97697e+143 6.60093e+244 1.5337e+230 -4.25623e+139 -2.31576e+81 1.03264e-166 -2.73651e-282 -2.53533e-205 5.42049e-118 8.25476e+214 -6.68616e-273 7.36753e-117 -7.67449e-35 -6.11408e+70 -2.33123e+78 -2.97742e+40 5.66268e+222 1.26935e-251 -1.95342e-105 -7.35022e+134 1.24417e-175 -7.9118e+163 -1.32756e+120 5.18564e+104 2.5671e+131 -4.83205e+148 6.83e-47 -4.56115e-126 inf -1.48392e+258 1.80801e-12 inf 1.77651e-141 1.67667e-195 -1.59895e+206 1.92812e+229 -2.19036e+54 4.08514e+57 -2.93343e-258 -8.88715e-276 2.62823e+22 3.37891e+161 -2.65809e+231 5.2074e-92 1.12401e-27 -6.69721e+67 -3.70159e-256 -1.47615e-287 -9.37501e-308 -1.51226e-175 3.85216e+303 nan inf -5.29605e-153 1.18784e-249 6.70291e+93 -1.20503e+39 -8.81641e-242 -1.98643e+198 -1.47222e-10 2.42594e-287 5.26942e+222 -3.46614e-198 8.43297e-191 4.15684e-18 -2.94267e+107 1.63891e-158 1.4245e+167 -8.40667e-140 2.93161e+285 5.06172e+211 2.57255e+146 -5.08432e-120 0
+input ends
+Exception Handled
+TRACE: Passed: aphid_deepstate_test_probAA_test

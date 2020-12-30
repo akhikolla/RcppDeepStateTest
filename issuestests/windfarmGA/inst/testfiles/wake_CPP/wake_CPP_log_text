@@ -1,0 +1,46 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677317
+WARNING: No test specified, defaulting to first test defined (windfarmGA_deepstate_test_wake_CPP_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rotorf values: 3.26124e+106
+wakr values: 1.62947e-264
+leA values: -2.08111e-107
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rotorf values: 6.27799e+250
+wakr values: -1.10954e-249
+leA values: 3.20911e+113
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rotorf values: -1.78927e+207
+wakr values: 6.57894e+197
+leA values: -5.93962e+227
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rotorf values: -4.96572e-150
+wakr values: -10966.8
+leA values: 4.32434e-299
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rotorf values: -0.236558
+wakr values: -8.64228e+56
+leA values: -2.54894e-267
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Rotorf values: -3.96285e-260
+wakr values: 2.60108e+297
+leA values: -2.17043e+278
+input ends
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 0 failed/6 passed/0 abandoned tests

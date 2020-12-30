@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (CatReg_deepstate_test_DoBlock_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_output/616069abf2c10905a3176fa7492562fc46caf65e.fail`
+TRACE: Running: CatReg_deepstate_test_DoBlock_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+weight values: -6.45693e-172 2.7229e-256 -1.26957e-92 inf -3.65803e+248 -5.95564e-46 1.14838e+157 1.62871e+222 -7.20123e+223 1.30151e+77 4.08812e+163 -7.5325e+230 1.22558e-280 -2.40758e-06 1.63463e-43 -9.15778e+276 2.11587e-116 9.38134e+206 -1.13089e-124 4.25653e-110 -1.63877e-76 inf 5.14315e+81 1.04197e-240 5.79744e+30 -1.77022e+105 -1.95535e-293 3.32647e+167 2.22866e-62 3.99809e+78 7.05373e+91 -60808.2 -5.18201e+42 2.48998e-214 1.84234e-205 -1.59548e-179 -3.02548e+94 1.25635e-294 2.07128e-190 5.41738e-31 nan -5.95517e-205 3.18257e-171 4.58395e-228 -2.69359e-204 -8.82724e+227 -1.13459e-79 7.18719e-129 3.95095e+296 -1.04843e-296 2.11573e+122 1.53904e-179 -1.61058e+50 -4.74295e-73 -2.52741e-295 4.34464e-69 3.46145e+289 -9.21486e+137 inf 2.81608e-145 8.03984e+104 0
+response values: -3.10998e+174 2.68366e+173 5.15196e-297 -9.98956e-306 -1.58131e+07 2.62422e+164 7.72212e+230 6.94358e-131 3.62467e+162 -2.70279e+149 5.14123e-241 4.84286e+234 -1.11424e-160 0.000107392 1.33843e-283 2.72234e+68 -4.64206e-166 2.81839e-90 5.28581e-204 3.72523e-306 inf 2.85329e-224 -6.2525e-263 nan 2.30305e-45 -1.96823e+170 3.36869e+100 1.69643e-05 nan -1.47137e-208 -5.19203e+270 5.71163e+285 -6.49341e-95 -2.25816e-57 -4.50789e+160 -5.92988e-235 -1.02502e+148 5.15196e-297 -4.95747e-192 -8.69218e+204 5.11349e+87 -3.91573e+175 -7.03153e-298 -4.88838e-45 -5.21118e+300 1.22095e+14 1.75256e-244 3.35758e+86 -1.33323e-17 9.43105e-261 -1.20417e+59 -1.07864e+207 -8.6054e+127 1.6193e+184 3.63072e-120 -0.00313329 0
+gamma values: 4.33898e-234
+lambda values: 4.50664e+263
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  upper value must be greater than lower value
+ERROR: Failed: CatReg_deepstate_test_DoBlock_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_output/616069abf2c10905a3176fa7492562fc46caf65e.fail failed

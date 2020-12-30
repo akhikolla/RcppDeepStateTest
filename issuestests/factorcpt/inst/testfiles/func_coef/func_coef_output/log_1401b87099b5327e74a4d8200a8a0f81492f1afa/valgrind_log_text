@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (factorcpt_deepstate_test_func_coef_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/factorcpt/inst/testfiles/func_coef/func_coef_output/1401b87099b5327e74a4d8200a8a0f81492f1afa.pass`
+TRACE: Running: factorcpt_deepstate_test_func_coef_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/factorcpt/inst/testfiles/func_coef/func_coef_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+z values: 1.55067e-62 6.58079e-90 6.77665e-05 6.98062e-74 8.16491e+212 1.90674e-154
+2.79890e+159 4.17527e-156 8.86330e-129 2.09461e-194 1.94012e+163 5.59737e-296
+7.71503e-44 6.42310e+245 9.24493e+234 9.54434e+113 9.81217e-163 3.69181e-41
+
+scale values: 588079063
+input ends
+TRACE: Passed: factorcpt_deepstate_test_func_coef_test

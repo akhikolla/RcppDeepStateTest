@@ -1,0 +1,32 @@
+WARNING: No test specified, defaulting to first test defined (energy_deepstate_test_mvnEstat_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/mvnEstat/mvnEstat_output/d18b1c733e01ae32cb4a12f2c1a1348050b6d2a0.pass`
+TRACE: Running: energy_deepstate_test_mvnEstat_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/energy/inst/testfiles/mvnEstat/mvnEstat_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 1.48263e+234 1.86916e-96 9.73610e-296 2.33272e-126
+1.29373e+304 1.86424e+08 2.64074e+271 5.33029e+98
+7.12636e-259 5.24895e-162 1.63389e+17 7.01023e-198
+3.32977e-60 7.37896e+306 3.64024e+40 1.41846e+256
+3.43202e+109 4.35357e+15 1.75205e-192 9.43844e-83
+2.25875e+274 1.04110e-296 5.60471e+113 3.08906e-214
+2.20379e-271 8.94255e+269 1.37759e+160 2.68869e+289
+
+input ends
+EXTERNAL: Warning messages:
+
+EXTERNAL: 1: E|y-Z| did not converge, replaced by inf 
+
+EXTERNAL: 2: E|y-Z| did not converge, replaced by inf 
+
+EXTERNAL: 3: E|y-Z| did not converge, replaced by 163388884022854688.000000 
+
+EXTERNAL: 4: E|y-Z| did not converge, replaced by inf 
+
+EXTERNAL: 5: E|y-Z| did not converge, replaced by 34320199175035908565260165141535019030717052644343290671390567735542404150501643362792794679189592293085544448.000000 
+
+EXTERNAL: 6: E|y-Z| did not converge, replaced by inf 
+
+EXTERNAL: 7: E|y-Z| did not converge, replaced by inf 
+
+TRACE: Passed: energy_deepstate_test_mvnEstat_test

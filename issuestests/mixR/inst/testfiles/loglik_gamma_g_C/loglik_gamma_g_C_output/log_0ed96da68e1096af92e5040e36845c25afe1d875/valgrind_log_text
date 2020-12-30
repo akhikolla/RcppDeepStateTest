@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_loglik_gamma_g_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/loglik_gamma_g_C/loglik_gamma_g_C_output/0ed96da68e1096af92e5040e36845c25afe1d875.fail`
+TRACE: Running: mixR_deepstate_test_loglik_gamma_g_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/loglik_gamma_g_C/loglik_gamma_g_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: 1.61667e+246 7.39752e+66 3.28707e-160 8.56957e-163
+
+pi values: -1.15187e-116 -7.68916e-134 -4.81413e+54 5.13881e+09 nan -1.35339e-104 4.7034e-29 2.90894e+63 -2.89081e+108 -1.48495e+279 3.5032e+103 nan -3.16961e-49 -2.07523e+164 -2.59987e-107 -1.78675e-211 -3.72977e+142 -1.01565e-259 2.01402e-224 1.42944e+172 -1.73935e-121 1.9368e-255 -1.22473e-76 5.97505e-139 7.30736e+188 6.63982e+277 4.73686e+200 -1.94354e-204 -1.91986e-243 3.24195e+245 -2.88009e-229 7.00846e-74 6.84022e+90 -2.23358e+155 -7.45283e+81 1.22205e-98 2.08653e-169 nan 1.17892e-87 2.8518e-132 2.48219e+106 2.37847e+299 nan 8.2004e+173 -9.8847e-29 0.0258253 -1.34189e+200 1.14966e+269 -1.9006e-160 -4.688e+225 -inf 2.27131e+54 3.83276e+235 2.6825e+172 0
+alpha values: -3.96722e-143 -2.09508e+260 1.41717e+289 1.83095e-159 -1.64986e-202 -8.85105e+58 248.69 1.32705e+150 8.16155e-218 -1.23383e+74 -5.4536e-94 -1.01013e-158 -2.24852e+09 -7.85013e+158 1.07875e+300 -8.138e+276 -5.93707e+191 -1.5068e-138 -3.3058e-188 -3.41876e+216 1.21575e-134 -3.28749e-39 -7.62754e+102 -8.36417e-87 2.78142e+124 -1.27687e-101 -8.50387e+260 -9.55235e+55 -1.52844e-81 nan -4.48839e+94 1.72801e-305 -1.86593e+96 -3.28525e+271 -9.36759e-173 -6.94655e+210 6.9698e+08 -1.02187e+235 4.68697e+107 2.77093e-190 -1.99221e-05 3.40143e+307 inf 1.9495e+184 1.31459e+297 -1.65406e+159 -2.09131e+106 5.86018e-43 -1.82282e+63 -6.21456e-05 -1.0002e+77 -5.54701e+196 1.37075e+242 0.000407445 nan -5.92138e+303 3.96642e-298 4.84949e-96 -1.03562e+87 -2.60247e+187 -1.87631e+248 7.33663e+06 -1.31961e+188 2.68322e+07 -8.07417e-171 -2.02951e+198 -1.9362e-205 -1.13074e-192 3.35033e-95 -7.46664e+27 -1.07873e+154 1.41935e+252 -5.93869e+61 9.91729e+272 inf -2.96343e+250 0
+lambda values: nan 2.12686e-116 inf -1.27333e-94 2.3044e+232 -4.90819e+266 -7.02589e+133 -6.67235e-308 3.50504e+221 9.72778e-09 -2.18956e-18 -2.20288e-51 1.29734e-246 -6.84389e+85 -3.78907e-13 6.37704e-88 -1.56943e+43 -9.95329e-77 6.42929e-84 8.59227e+192 -3.78907e-13 -4.80125e-15 -inf -2.94751e-126 -1.22371e-68 -6.01585e+215 -1.30941e+144 5.29583e+06 -7.81976e+261 -7.79661e-261 -1.36995e+24 -5.56873e+76 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=33; extent=33].
+ERROR: Failed: mixR_deepstate_test_loglik_gamma_g_C_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/loglik_gamma_g_C/loglik_gamma_g_C_output/0ed96da68e1096af92e5040e36845c25afe1d875.fail failed

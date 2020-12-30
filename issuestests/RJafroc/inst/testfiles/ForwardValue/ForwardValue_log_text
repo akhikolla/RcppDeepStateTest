@@ -1,0 +1,74 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606706715
+WARNING: No test specified, defaulting to first test defined (RJafroc_deepstate_test_ForwardValue_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: -1.12362e+146
+valueLower values: 7.71754e+256
+valueUpper values: 1.5173e+56
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: 3.14171e-201
+valueLower values: -2.35551e+164
+valueUpper values: -2.0075e+197
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: -1.4431e-80
+valueLower values: 6.42022e-63
+valueUpper values: 2.85431e-58
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: 2.63588e+103
+valueLower values: 5.16719e-244
+valueUpper values: -6.17806e+191
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: -1.1917e+254
+valueLower values: 9.4923
+valueUpper values: -4.54226e-116
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: 1.7019e-95
+valueLower values: -1.66663e+158
+valueUpper values: 1.22626e-224
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: -2.1898e-116
+valueLower values: 3.74297e+115
+valueUpper values: -1.57889e-153
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: -5.90074e+08
+valueLower values: 2.06446e+212
+valueUpper values: 4.07161e+59
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: -1.27649e+115
+valueLower values: -7.34497e+136
+valueUpper values: -1.56019e-26
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+value values: 5.30009e+149
+valueLower values: -1.04202e+08
+valueUpper values: 1.27708e+52
+input ends
+INFO: Done fuzzing! Ran 10 tests (5 tests/second) with 0 failed/10 passed/0 abandoned tests

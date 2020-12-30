@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_newton_weib_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/newton_weib_C/newton_weib_C_output/20bcc232e49efc23fef84ff424055198154e7705.pass`
+TRACE: Running: mixR_deepstate_test_newton_weib_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/newton_weib_C/newton_weib_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 9.06725e+222 -3.73764e-124 -3.69585e+262 nan -2.01038e-275 -1.1681e-191 -5.75336e-53 7.1182e-17 8.54143e+23 -2.34108e-290 3.86988e+57 2.69731e+281 7.25458e+26 -2.55209e+204 -8.09922e-225 -3.5566e-178 -1.48516e-91 -3.55092e-307 -2.44182e+213 1.64829e-152 4.27875e+192 3.28092e+86 7.88115e-223 -4.27643e-259 -1.03356e+61 3.17925e-280 nan -2.36306e+210 3.27345e+101 -7.12271e+147 9.29028e+159 3.38426e+108 1.54775e+178 7.84605e+182 1.16588e-39 nan -1.63955e-248 4.97556e+78 -7.19372e+195 -6.85524e+169 1.4395e-238 -1.35698e+284 nan -5.10419e+266 8.22923e+48 -1.15067e+223 -5.97432e+140 -9.57624e-253 -121490 0
+ex values: 2.9531e+47 nan 8.96709e-189 -1.61546e-34 3.86154e+302 3.69439e+134 8.63543e-210 8.33908e-297 -4.52568e-264 -3.32669e-90 2640.95 2.433e-48 -7.16479e+218 3.91106e-231 0.0295595 7.39321e-71 -3.3112e+41 3.37361e-06 3.3765e+306 1.92326e-250 -4.42919e-252 -0.11359 5.47534e+210 -inf 9.0247e+166 7.61608e+252 -1.25941e-77 1.27094e-44 2.9365e+287 1.22441e-211 -4.48112e+67 3.21268e-218 -7.60884e-151 nan -1.35437e-52 -3.7611e+240 -5.17305e-272 inf 5.18167e+127 -1.08121e+139 -8.46383e+230 -4.67827e-278 -3.65837e-159 2.01809e+299 -4.7276e-28 -2.209e+105 3.73071e-28 2.7875e+89 -0.0106947 -1.87636e+263 4.795e+216 5.77892e+76 -7.21803e+289 -2.18127e+156 2.44965e+94 1.82145e-72 3.11311e+162 3.11712e-74 -1.92718e-225 1.45389e-116 -inf -1.35116e+38 0
+tx values: nan -6.21867e-231 -inf
+r values: 1.26516e-105
+max_iter values: -500338296
+input ends
+TRACE: Passed: mixR_deepstate_test_newton_weib_C_test

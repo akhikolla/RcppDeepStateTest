@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (Umatrix_deepstate_test_esomTrainedWeightVectorsConeC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsConeC/esomTrainedWeightVectorsConeC_output/4e2d9698d986a223afb36f217f0101b4fd293b11.crash`
+TRACE: Running: Umatrix_deepstate_test_esomTrainedWeightVectorsConeC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsConeC/esomTrainedWeightVectorsConeC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+WeightVectors values: 7.95817e+223 2.91090e+24 1.92529e-306 2.53075e+240
+1.12764e-234 6.59943e-52 2.69973e-304 9.62056e+205
+
+DataPoint values: 6.09422e-288 1.51767e-25 6.65511e+26 -1.45631e+200 -1.08151e+266 -1.46892e-185 -46.7196 1.96362e+296 7.08102e-247 -4.86653e+283 -5.13848e-21 nan -8.48829e-205 -2.25525e-05 3.28662e+87 -1.47967e+67 5.05547e-121 -8.97914e-08 4.42704e+306 -4.1628e+214 -3.29305e-259 -1.46111e-235 4.38748e-188 -3.09116e+272 1.06232e-210 20165.3 -7.58057e+89 -7.88155e+13 4.79325e-290 7.53667e-241 -3.66633e-233 -8.90391e-25 -6.45394e+170 nan 1.03551e-188 -9.99042e-112 -3.71912e-270 -inf -1.67169e-275 -2.15059e-246 -2.64881e-295 nan -1.67549e+17 8.31551e-17 2.12994e+33 -6.11952e-122 -1.89086e+133 -6.98991e-259 5.57084e+240 0
+indices values: -1.18101e-20 -5.89236e-83 3.13919e+142 6.71104e+103 inf -8.64216e-271 3.83509e-153 -3.062e-290 -1.9808e+141 -4.50157e-182 6.42985e-275 -1.235e+214 1.05152e+216 -8.69846e+98 -5.66388e-101 4.8502e-68 inf 5.10109e-288 3.74386e-278 -3.18646e+159 -4.43729e+29 1.61487e-81 2.2127e+160 5.23815e+162 1.0103e-191 -4.57878e-294 5.7129e-176 -2.70774e-280 9.23529e+199 4.65711e-298 8.13214e-52 1.42116e-15 -7.7438e+292 4.79306e+248 6.81446e-42 3.12556e-133 -5.39264e+45 -6.37661e-227 -3.67208e+182 1.28806e-250 -7.64582e+295 -6.10055e+53 8.74119e-89 -4.28281e+26 1.1813e-253 -7.80782e-277 -9.15741e+200 -9.01828e-243 6.62206e+205 4.65711e-298 0
+DistancesToBm values: 1.0296e+279 -1.64922e-92 8.10338e+86 nan -5.60193e-105 -1.75051e+214 nan 1.65444e+45 7.103e+185 2.64112e-209 1.40758e-76 -4.75594e-74 2.22253e-141 0
+Radius values: 8.8849e-118
+LearningRate values: 8.25638e+89
+input ends
+==1778961==  If you believe this happened as a result of a stack
+==1778961==  overflow in your program's main thread (unlikely but
+==1778961==  possible), you can try to increase the size of the
+==1778961==  main thread stack using the --main-stacksize= flag.
+==1778961==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: Umatrix_deepstate_test_esomTrainedWeightVectorsConeC_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsConeC/esomTrainedWeightVectorsConeC_output/4e2d9698d986a223afb36f217f0101b4fd293b11.crash crashed

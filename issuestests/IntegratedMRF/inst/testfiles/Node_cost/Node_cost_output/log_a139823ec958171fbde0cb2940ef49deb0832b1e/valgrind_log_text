@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (IntegratedMRF_deepstate_test_Node_cost_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/Node_cost/Node_cost_output/a139823ec958171fbde0cb2940ef49deb0832b1e.pass`
+TRACE: Running: IntegratedMRF_deepstate_test_Node_cost_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/Node_cost/Node_cost_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 3.87496e+221 6.57554e+230 1.37240e+92 4.10494e+198 15641.2
+3.91693e+208 5.41621e+148 1.91144e-274 9.18575e+70 8.63472e+127
+1.12249e+239 2.08827e+188 1.46818e+52 3.90615e-191 2.06350e+73
+1.73749 1.16846e+199 9.20185e+111 1.98646e+249 1.37427e+132
+
+Inv_Cov_Y values: 2.45762e+107 1.60617e-43 8.47870e+195
+4.67993e-06 1.50227e-73 7.45571e-246
+4.53314e+167 3.45072e-109 8.56024e-230
+1.43662e+284 8.31445e+206 8.28268e-140
+2.64767e+13 3.50042e-77 4.29326e-34
+
+Command values: 647027960
+input ends
+TRACE: Passed: IntegratedMRF_deepstate_test_Node_cost_test

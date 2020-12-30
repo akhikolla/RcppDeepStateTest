@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (nmixgof_deepstate_test_pbinsum_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/nmixgof/inst/testfiles/pbinsum/pbinsum_output/489a59d20cec86613000adae22e65dd9564a01d0.pass`
+TRACE: Running: nmixgof_deepstate_test_pbinsum_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/nmixgof/inst/testfiles/pbinsum/pbinsum_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 5.78094e-09 6.39230e-75 4.57507e+48 4.21777e-96 1.98127e-65
+2.92609e-173 1.11904e-274 3.11420e-185 3.56567e+238 5.05087e+108
+7.04629e-203 2.31468e-157 1.14646e-200 2.44146e+79 2.61841e-200
+3.11725e+21 2.58929e+73 2.33753e+87 1.20054e+86 8.73307e+86
+1.50249e-147 7.35251e+68 5.91824e+35 1.96852e-28 1.16974e-307
+
+N values: 1.40006e+50 7.31475e+87 -2.86273e+146 1.13938e+271 -inf 3.65633e-171 -1.36744e-38 -4.29288e+279 -4.42979e+117 -4.20663e+221 1.16637e-86 -1.41259e+239 5.42786e+121 1.31077e+227 -9.39816e-259 -8.07009e+170 -1.00551e-235 -8.74876e+72 -2.30542e+101 -3.65151e-236 -8.21835e-297 3.23004e-308 -5.5002e+109 -1.87288e+148 -inf 1.36497e-173 4.66964e+247 -130294 1.41631e+157 -3.40366e-215 -5.76895e+107 3.61712e-198 -2.077e-181 496404 -inf -8.23015e+277 9.18946e+49 nan -1.0105e+252 0
+p values: 3.11767e-138 1.63835e-209 1.22994e+283 2.50768e+225 293306. 5.61489e-78 1.42716e+231
+
+input ends
+Exception Handled
+TRACE: Passed: nmixgof_deepstate_test_pbinsum_test

@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (QuantTools_deepstate_test_roll_sd_filter_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/roll_sd_filter/roll_sd_filter_output/ab1a9ed3d87e00b090bb6f3c88f5f21ad346129e.fail`
+TRACE: Running: QuantTools_deepstate_test_roll_sd_filter_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/roll_sd_filter/roll_sd_filter_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 5.31858e-246 -1.11607e-215 1.63886e+161 -5.58748e-128 -1.70092e-91 1.49264e-84 4.48281e+101 -4.40603e+210 3.75124e+238 -9.73231e+142 -2.43977e+269 -3.61535e+254 -2.82395e-145 2.14884e+77 2.69966e-193 2.93719e-218 7.98138e+47 4.38223e-95 -6.14657e-05 1.60448e-35 -1.53939e-280 -1.76714e-245 1.99728e+225 6.62788e+219 -1.84081e-66 -5.19144e+49 -3.20662e+264 -1.03015e-25 -3.37121e-188 7.77343e+236 1.14902e-247 -2.78453e+29 -2.09478e+207 3.26389e-84 -1.56558e+56 -1.1661e+208 2.44406e-222 -1268.63 -1.66359e-307 3.31403e-49 -1.75524e+292 -3.32877e+229 -1.22771e-111 -4.35982e+292 4.17744e+130 -4.18235e+65 -1.28261e-269 -6.4046e+94 3.99595e-05 -4.39416e-142 -2.43175e+07 -6.16444e-232 3.28689e-127 1.42084e+122 7.99773e+264 4.64289e+280 -7.10545e+87 -1.98001e+190 -inf 2.18707e+256 -64837.1 -6.16444e-232 -2.71751e-33 -3.44888e-243 5.07408e+303 2.47422e-142 nan 9.73282e-125 2.98844e+254 7.13863e+21 -5.63737e+213 4.04628e-56 6.42042e+209 7.71571e-184 -3.32729e-255 -8.31946e+303 -1.76592e-141 4.06048e-308 -5.84662e+224 -3.90371e+35 -inf 3.58128e+221 5.77644e+63 2.16689e-265 0
+n values: -274972418
+k values: 6.93831e+202
+m values: 1237966382
+input ends
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  n must be greater than 1
+ERROR: Failed: QuantTools_deepstate_test_roll_sd_filter_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/roll_sd_filter/roll_sd_filter_output/ab1a9ed3d87e00b090bb6f3c88f5f21ad346129e.fail failed

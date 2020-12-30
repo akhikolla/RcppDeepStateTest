@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (stocks_deepstate_test_ratios_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/stocks/inst/testfiles/ratios/ratios_output/bf18fefce75f5230b317adb822697dd2cebcca8b.pass`
+TRACE: Running: stocks_deepstate_test_ratios_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/stocks/inst/testfiles/ratios/ratios_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.88203e+222 -2.11344e-97 6.00618e-66 5.60096e+307 8.12938e-144 -5.66924e-164 -1.45626e-30 nan -1.63401e+14 3.33443e-99 -7.55904e+213 -4.6611e-48 -1.56181e+81 1.67328e+149 -3.17314e+139 -3.18293e+223 -2.27444e-143 -2.07587e+280 2.29606e+139 2.01536e+12 inf -1.04918e-302 4.7719e-156 2.1823e-158 2.5388e-146 -inf -2.49292e-58 9.32867e+249 1.45918e-207 -3.26355e+84 -9.66265e-216 -4.30578e-195 6.125e-102 9.23831e-224 0.00176667 1.06875e-196 5.49261e+35 1.00361e+256 -5.40813e-237 4.28002e-284 5.49261e+35 1.31065e-241 2.9904e-275 -9.89919e+14 1.65759e-140 2.73626e+268 -3.67781e-22 -7.78639e+78 -6.65532e+153 0
+input ends
+TRACE: Passed: stocks_deepstate_test_ratios_test

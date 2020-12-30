@@ -1,0 +1,95 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606698072
+WARNING: No test specified, defaulting to first test defined (offlineChange_deepstate_test_OrderKmeansCpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 3.24821e+286 1.49142e+268 1.55487e+204 4.81320e+197 1.66562e-66
+
+K values: 824245409
+num_init values: -2024985316
+input ends
+Exception Handled
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 8.33551e+167 4.40158e+290 3.31835e-175
+1.51456e+282 9.48185e-214 3.98358e+17
+1.24683e-67 1.01917e-29 3.35689e+220
+
+K values: 393607591
+num_init values: -2033554783
+input ends
+Exception Handled
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.91897e+264 1.87533e+37 1.71375e-77 2.98943e-104 5.57906e-229 2.11857e-304 5.16591e-67 1.13270e-76 1.41284e+250 2.90118e-244
+3.60335e+221 2.37405e+156 2.72837e+208 9.26718e-168 7.62256e-118 4.92484e+248 1.03479e+186 1.14811e-128 5.83132e-229 1.79938e-242
+9.54604e-233 9.89357e-167 1.49879e-52 7.63636e+305 1.20056e+08 1.83588e+253 0.00319369 5.46003e-126 2.50548e-05 9.94220e+140
+1.41826e-274 1.70089e-219 2.84180e+84 4.70070e-213 1.10079e-195 3.20132e+101 7.06333e-264 1.31465e-264 6.06722e+98 9.52909e+105
+1.13413e-44 4.84155e-39 4.11947e+164 7.69359e-276 2.27170e+118 7.45354e+296 1.59670e+217 2.08689e+109 5.45515e-65 1.77281e-157
+1.69352e-191 54.0845 1.69096e+103 3.22005e-123 1.20675e+26 1.20830e-204 2.21512e+43 1.26621e-79 2.66487e+126 1.10901e-286
+1.88180e+156 2.12543e-44 5.14330e+305 3.36199e-249 2.06928e-57 1.13624e-17 4.57189e-60 4.51873e-260 1.70325e+217 8.85674e-65
+
+K values: 1008001197
+num_init values: -1829433167
+input ends
+Exception Handled
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 5.21760e+255 5.28759e-207 3.23632e-139 2.20178e-244 6.39582e+243
+1.76683e-160 9.21615e-140 1.19928e+231 2.64178e-57 1.93485e+79
+8.84081e-176 1.02079e+127 3.84482e+49 1.31995e+41 2.61260e+135
+4.29747e+62 1.35675e-11 6.70249e+101 2.57524e+232 1.39809e-27
+
+K values: -1559011488
+num_init values: -1855630784
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Iterator index is out of bounds: [iterator index=1559011488; iterator extent=0]
+ERROR: Failed: offlineChange_deepstate_test_OrderKmeansCpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/offlineChange/inst/testfiles/OrderKmeansCpp/OrderKmeansCpp_output/afd47f33b5403e5a12f09b4d7971201cff17e4a9.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 884.495
+1.11939e+44
+4.25372e-19
+3.49790e+260
+1.74654e-200
+3.31264e+27
+3.42433e+299
+3.83662e-119
+1.17154e-44
+
+K values: -1504896692
+num_init values: -325208726
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Iterator index is out of bounds: [iterator index=1504896692; iterator extent=0]
+ERROR: Failed: offlineChange_deepstate_test_OrderKmeansCpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/offlineChange/inst/testfiles/OrderKmeansCpp/OrderKmeansCpp_output/4f1bfdea4dca07d862ef98ce8f5f8decdf8cd661.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 9.42387e-73 3.16203e+166 1.24685e-247 2.17871e-29 9.11191e-211
+1.21942e+279 6.59227e+132 5.49351e-50 2.24422e-218 1.86153e+14
+2.06926e+37 8.36534e+103 2.73876e+170 8.67620e+223 3.26593e+87
+9.54211e+137 4.08174e-198 1.14211e-254 6.86319e-187 1.13865e-17
+2.18805e+306 7.45224e-137 1.26078e+125 6.06273e-307 5.53167e-110
+8.32234e+152 1.12731e-274 2.64467e+36 9.53713e+117 2.93472e+203
+2.97465e+187 0.0763740 4.70286e-11 4.07073e+303 1.66066e+230
+3.58156e+170 7.30134e-160 9.66652e-162 1.49057e-60 9.51049e-222
+2.19017e+67 3.95649e+46 9.41058e+73 3.62926e-230 1.35960e-105
+1.65487e-101 2.78327e-90 1.03985e-211 3.91429e-308 1.31332e+269
+
+K values: -1612714301
+num_init values: 925149989
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 3 failed/3 passed/0 abandoned tests

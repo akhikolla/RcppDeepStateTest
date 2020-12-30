@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (SpatialEpi_deepstate_test_ldnbinom_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ldnbinom/ldnbinom_output/9740a2d6052816154fcc26f95f6762cf91043da3.pass`
+TRACE: Running: SpatialEpi_deepstate_test_ldnbinom_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ldnbinom/ldnbinom_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -1.03222e+24
+E values: 6.10669e+105
+a values: 5.65884e+118
+b values: -5.87398e+95
+input ends
+TRACE: Passed: SpatialEpi_deepstate_test_ldnbinom_test

@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_letters_to_idx_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/letters_to_idx/letters_to_idx_output/1f946e5547865ed2ba316ceb79e157a674bd2027.pass`
+TRACE: Running: jmotif_deepstate_test_letters_to_idx_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/letters_to_idx/letters_to_idx_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+str values: "jxwjhbpxsitmihzddqan" "kse" "iyppcrvqjmr" "cqqhyrdlaqembnhpkkby" "NA" "NA" "lxxlprfxocciccpwzirb" "NA" "fkgihodpyhtxlbsmpskf" "NA" "cpejreoxiwyohsqacczw" "NA" "msjllywugnarpsmmfdhb" "yxaeghmoyketzeibckrf" "kbcknrlefnnxk" "mlbnvjgpyxdbq" "NA" "NA" "yq" "NA" "NA" "NA" "kbivyzybquhtzzkjqmda" "NA" "ayaeiuelyvkzmdscsdyl" "NA" "cehrilnua" "NA" "NA" "dqzfobewmjdfyshqeqjd" "snyoyraifclrjixrnmvo" "vxruredsapmvuqhqiipn" "NA" "cdyoexlohasjxssr" "nzhcnluuabtkxl" "awiybqeblssetdwqyyfk" "utjomoabynbgytpjyyoe" "kbrfqrrydmrsxoxcawu" "icxwoyqxdjjswwcxqmkd" "NA" "zuugyhrlczaybmja" "NA" "NA" "seszbggw" "NA" "qlkmrhdcjkaaewtnvoiw" "jpfcgapbb" "" "cwyvlgcixmoevknhnp" "spgduwgjgngpectcqhzp" "fykisihfwzzodjhfbswt" "NA" "gxgzhmdrbreemnuyjshp" "aassxzjrsgqz" "pbfsxnztrkxosqwxdbfy" "fzcotyjsbijldvwqt" "NA" "ctwchsw" "mnwvhajowmlshazrpdjq" "kgpgagqigiahsxmktdsr" "esvzubyigzmnyr" "bnvbwektzvazgibtmnpm" "clgpbsxmsxieqxzbbwvk" "NA" "NA" "ajsqqwcvmbmbzsexhule" "ytdmqarvahineerobcd" "fpajfvmmjigdtmmhxvjd"
+input ends
+TRACE: Passed: jmotif_deepstate_test_letters_to_idx_test

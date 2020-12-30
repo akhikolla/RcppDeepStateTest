@@ -1,0 +1,28 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_simulate_udf_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/simulate_udf/simulate_udf_output/6cf7be3b760da53b151e2bfae753eeb5aac69f10.fail`
+TRACE: Running: amt_deepstate_test_simulate_udf_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/simulate_udf/simulate_udf_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_steps values: 1067188029
+start values: -1384416564
+nc values: -522052498
+nr values: -866938188
+mk values: 2.62569e+112 8.67793e+293 3.21911e-154
+1.27182e+211 9.77796e+186 6.49938e+224
+1.28403e-288 1.76755e+158 2.07512e+162
+7.45203e-35 1.85317e-297 4.60342e+215
+4.99153e+196 1.86672e+296 2.91446e+162
+1.39202e-174 4.21772e-250 4.66394e+177
+0.00434659 4.09516e-206 3.27920e-285
+7.39371e+273 2.29758e-98 1.15282e+198
+1.44302e-250 3.96759e+41 8.94325e+229
+
+hk values: 4.08438e+252 5.14637e+95 2.50228e+299 5.24071e+216 5.11558e+151 1.48908e-156 1.23346e-71
+8.55322e-209 3.69125e-292 5.75139e+195 1.33767e-200 4.22307e+49 7.94053e-193 2.40831e-281
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1384416564; extent=2].
+ERROR: Failed: amt_deepstate_test_simulate_udf_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/simulate_udf/simulate_udf_output/6cf7be3b760da53b151e2bfae753eeb5aac69f10.fail failed

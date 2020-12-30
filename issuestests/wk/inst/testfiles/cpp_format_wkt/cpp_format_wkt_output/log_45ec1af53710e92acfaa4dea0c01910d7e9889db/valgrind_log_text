@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_format_wkt_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_format_wkt/cpp_format_wkt_output/45ec1af53710e92acfaa4dea0c01910d7e9889db.pass`
+TRACE: Running: wk_deepstate_test_cpp_format_wkt_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_format_wkt/cpp_format_wkt_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "oaerpknbvokajrqejpds" "jjtwatxcqoujdk" "mjrwumpjhsi" "NA" "buhjjn" "dawqocr" "mezfaxjsztdyfefzqnau" "yzsgxtsgmqnmwkbfozac" "NA" "rusdtkgrqsvzusydhedh" "fisrihsqzrxtqnnzvvjp" "NA" "NA" "rchjpctlitufgmmuxxeg" "NA" "txlblo" "vlmfoodhlwvtytzrhmn" "qklpjhbedyeknyguwgye" "NA" "NA" "NA" "NA" "gxgebtqccuxhqgqfgoks" "hsannlibzhcjdpvetlsn" "NA" "eyojezisodklkcpgjapa" "NA" "mwhwyze" "NA" "nkeassps" "ujpghpjdrh" "pbnvbphadzbjzzfnniji" "NA" "qwrrv" "NA" "NA" "bvcpdyrj" "NA" "kpnkrxcpaf" "gzlsujednaeudvsmxxue" "iit" "NA" "xrxbwggshdudmayguwf" "NA" "kxhuewfnayhmyciptvvr" "fqsuvivjezchdjvkerla" "lhzwonuktdwoxmdsyfsx" "dqkfzvocelfpobnggwef" "NA" "ctxsdvqkudqloakeyyt" "ftysdjwvtwyytzajepyi" "lsazlabibkckciqjaqlm" "zprgtqvustasvbxrrhhl" "whufe" "NA" "hnyrysskqqhfuvllreve" "bekaemnaievvwseeg" "xitbukvt" "NA" "saigenlclyzxfuzvfziv" "ukmyzlcmfmsgrppbt" "hwwcuy" "wrdvdiiehufhelapzdlq" "v" "fgrmeheseblndiw" "NA" "NA" "lgfnhufdgjmwnarrnh" "dnwcsmyxaarrkrxekqfe" "beuzwpangez" "halbemhxwxzvgrswr" "NA" "NA" "NA" "NA" "vgoiiqbbj" "NA"
+maxCoords values: -149778253
+input ends
+TRACE: Passed: wk_deepstate_test_cpp_format_wkt_test

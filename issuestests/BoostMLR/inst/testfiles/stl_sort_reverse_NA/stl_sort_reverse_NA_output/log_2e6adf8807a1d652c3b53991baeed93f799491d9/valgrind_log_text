@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_stl_sort_reverse_NA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/stl_sort_reverse_NA/stl_sort_reverse_NA_output/2e6adf8807a1d652c3b53991baeed93f799491d9.pass`
+TRACE: Running: BoostMLR_deepstate_test_stl_sort_reverse_NA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/stl_sort_reverse_NA/stl_sort_reverse_NA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -5.25112e+206 nan inf nan nan nan
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_stl_sort_reverse_NA_test

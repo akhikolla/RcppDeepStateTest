@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_dot_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_dot/rcpp_dot_output/c7ca74ddb4fd32f4c35c85541a423c3040ab488f.fail`
+TRACE: Running: NHMM_deepstate_test_rcpp_dot_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_dot/rcpp_dot_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+c values: 2.83614e+301 -0.00175964 2.40439e+110 -4.31625e+121 1.56393e-97 -2.13482e-111 5.9526e+196 -4.18203e+126 1.40495e-77 -3.59091e+252 -4.58124e+58 2.38178e-275 -1.52381e-192 5.07841e-219 -1.577e+289 -2.13985e+303 -1.52474e-285 3.66261e+286 -6.33245e-145 6.75408e-211 -28.0908 -1.12092e+306 -5.16193e-263 -1.07735e-211 -5.89239e-47 -4.38656e-19 9.80156e-70 inf -7.36247e+67 1.01264e-43 -1.32021e-55 -4.84623e+259 1.74267e+295 2.10533e+227 -2.50956e-117 -1.67293e-100 -1.32471e+41 1.86557e+155 2.45349e+131 -2.27103e+288 -5.60617e-30 -1.1461e-144 -1.2774e-206 inf 1.48382e+209 8.46275e-297 2.54909e-11 2.57429e+156 -523.914 2.67406e+80 1.61676e+106 -1.85696e+236 -2.5988e-228 -4.98534e+299 1.66383e+256 -2.8265e+09 -4.48757e-246 4.05451e+62 -5.44344e-08 -5.12188e-164 -4.10959e-22 -6.63094e-205 9.03513e-302 1.54817e-16 -1.81018e+298 -inf -7.81172e-216 -5.78118e+176 8.39754e-238 1.05424e-154 3.00002e+50 2.2241e-05 2.65645e+08 4.86042e-215 -2.78394e-64 -1.11056e+173 6.57581e-194 1.51975e-56 1.04824e-212 3.87449e-210 2.52241e-189 -6.05616e-55 -2.75075e-263 -7.76766e-281 -4.0701e+307 -7.29052e+76 -1.8458e+71 -inf -3.59087e+152 -1.91912e-71 4.2722e-299 3.64141e+278 3.12047e+187 -1.76976e-199 0
+d values: -1.08136e+199 -1.01076e-56 2.33588e+132 -2.7359e+176 3.79829e+288 2.16309e-303 -2.08753e-250 -1.81075e+08 -1.94173e-277 -1.05901e-122 inf -2.65267e+221 nan 3.91069e-166 inf 8.00761e-190 2.85821e-235 -4.62313e+203 8.39438e+171 5.66591e+103 -5.54825e-162 -4.42562e-177 2.08414e+47 -6.53585e-217 1.14671e+195 -3.52506e+166 4.36441e-267 nan 7.30797e+186 9.98571e-44 -1.49997e+209 4.31302e+287 -8.57705e+287 -5.87661e+33 -2.82025e+200 1.02158e+294 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=37; extent=37].
+ERROR: Failed: NHMM_deepstate_test_rcpp_dot_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_dot/rcpp_dot_output/c7ca74ddb4fd32f4c35c85541a423c3040ab488f.fail failed

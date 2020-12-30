@@ -1,0 +1,82 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606706307
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: -inf
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: 4.82026e-259
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: 
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=0].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/bca95913200705603363f3b026290eaba44fd63f.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: 1.08481e-120 3.44291e+161 -6.76414e-08 -2.07095e-271 2.069e-288 2.03751e+44 inf 7.82527e+305 1.30904e+125 5.95876e+107 -6.76414e-08 -1.0041e+88 -1.1349e-116 1.0626e+249 -4.6256e+250 -2.80129e-86 nan -inf 1.41982e+39 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=20].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/a48513ceac3f81db118a434edb04b875cfad27bc.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: -8.35991e-249 1.39835e+220 -2.82109e+303 inf 2.38407e-51 -4.22281e-278 1.29363e+129 -3.76378e+55 -3.60715e-226 -2.29909e-153 4.01751e+135 -5.03123e+51 -8.50555e+217 5.49209e-259 1.00436e+118 2.56557e-14 nan 1.47407e-124 1.15301e-102 5.13337e-205 4.1819e-188 4.37183e-16 5.60564e-128 1.18769e-287 -1.35536e+163 inf -inf -4.49951e-147 -6.66947e-236 9.58685e-295 8.70423e-79 -0.000162241 -1.14599e+117 -3.37663e-99 -inf 2.98121e-88 5.80806e+293 -2.91667e+278 1.89197e-153 5.30841e+307 1.78487e-217 4.78958e-144 -9.69129e+303 -8.26265e-35 1.13924e-284 -1.30111e+253 1.77324e-172 -2.04016e-299 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=49].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/f259653f8531f9303bcf610cfbb872964efb42ac.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: -2.20887e-24 nan 9.80118e-231 -7.09512e+286 -3.68459e-61 1.16417e-234 -4.24862e+302 -1.08971e-50 nan nan -2.4749e-99 -2.77074e-181 nan 2.97343e+63 4.55067e+265 5.5352e-66 4.03285e-168 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=18].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/fe8e3451ecde508ec64c3590b7fe248121f55473.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: 8.31697e+254 1.38192e-166 3.71764e-194 -7.94173e-27 1.27109e+101 -1.25727e+160 3.22836e-57 5.39577e+203 3.14551e+51 -4.74236e-279 -3.62017e-12 -3.96879e+134 -1.27541e+278 1.27597e-152 1.23644e-64 8.4886e+36 1.70976e-251 -1.87544e-284 9.77965e-95 -1.31949e+225 3.01083e-261 9.32574e+196 2.51537e+179 -1.95091e+167 3.47542e-306 -1.1076e+158 -6.84789e-279 9.21479e-07 1.90018e-103 2.84558e+255 nan 2.0905e-120 -6.00954e-39 1.97419e+182 -1.25612e+124 3.59581e-122 5.17924e-177 -5.6194e-214 -9.80512e+209 -2.64126e-237 3.92481e+46 1.57625e+285 -2.03015e-143 -1.61909e-123 -3.19563e-05 3.6595e-253 1.45022e+27 -8.19324e-71 -2.87437e+135 nan -9.48423e-79 -1.16322e-58 8.25401e+142 3.06811e-280 -2.37115e-248 -1.65698e+16 -3.6783e+113 -2.12879e+22 5.34325e+171 -1.83805e-276 -1.44678e+245 8.88685e+278 1.6501e+211 inf 4.76092e-128 1.27982e-82 -4.69036e+07 nan -2.622e-284 -2.45763e+185 -7.8082e-296 -0.00405501 -1.75682e-295 1.68996e-302 1.7137e-43 -3.50671e-258 -7.54791e+158 1.15237e-275 4.57123e-213 3.15473e+194 -3.76283e+15 -1.26421e+16 -8.9129e+142 2.42988e-143 5.3147e+35 -1.05814e-160 -1.03249e+241 -1.94197e-178 1.37118e-248 7.39667e+238 -2.8581e-120 1.50576e+281 -3.34175e-250 -2.89227e-85 -1.33634e-208 -1.54305e+263 -2.16499e-276 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=98].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/fcdabea39703da3a158355909f3c96182e3ddd06.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: -3.58916e+210 -0.0252802 -4.51871e+125 -4.27894e-306 -6.71942e+182 -6.62792e+116 -4.07282e-157 1.57787e-71 6.25053e+253 -8.5048e+74 2.24656e-109 2.91193e+288 2.54345e+243 2.87415e-86 6.49976e-40 -437108 -2.99892e+121 6.01965e+15 5.08147e+287 -1.2621e+130 -2.28427e-272 3.73798e-183 2.0161e-256 -1.42904e-78 6.43015e-307 nan 1.87759e+147 -1.0713e+85 6.36635e+305 -6.84632e+169 -1.04302e-74 4.47238e+64 -4.42087e+238 1.85808e+257 1.4308e-84 7.98047e+208 -8.9507e-222 2.23819e-29 -4.31918e+283 -1.81673e-75 9.03567e+101 -3.60361e-222 1.83962e+74 -2.45305e+269 -2.99329e+80 -7.90136e+08 -3.29921e-205 4.33441e-268 4.48194e-36 3.87219e+54 -3.72694e-59 1.44932e+247 -5.64848e-192 4.38801e-222 1.49868e-186 -1.57661e-196 5.73503e-87 1.03156e+36 9.95621e+210 -7.86699e-32 1.23174e+137 1.10464e+126 1.22399e-178 -5.897e+10 -5.44122e+90 3.48671e+159 -1.10779e-177 1.11649e-107 nan 2.17616e-266 -5.0948e+163 -2.77284e-18 4.62938e-294 7.59131e+175 1.28028e+147 2.33523e-89 2.10414e-150 5.24577e+126 3.58687e-83 -1.02698e-15 nan 7.25185e-292 -6.53253e-190 -3.48498e+233 1.11592e-158 -2.99329e+80 -2.25841e+133 3.0187e+89 -2.50536e+171 -2.53448e-72 1.46446e+294 7.46719e+281 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=93].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/9b6c11fcb36dd89ad8431f6f9ce967503bc4cc18.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: nan 4.71055e+76 1.08723e+100 -3.92842e-73 1.19218e-171 -6.53333e-18 -1.87196e-69 nan 9.34494e-50 1.75208e+234 1.39522e+305 -1.59289e+24 3.12713e-171 2.17027e-184 -1.16573e-302 -2.51315e+11 1.02511e-198 inf 6.44763e-23 1.80161e-25 1.80161e-25 5.37438e+39 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=23].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/a0c78d9d787651ab9c17403919bed6b767ee47cb.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: -inf
+input ends
+INFO: Done fuzzing! Ran 10 tests (5 tests/second) with 7 failed/3 passed/0 abandoned tests

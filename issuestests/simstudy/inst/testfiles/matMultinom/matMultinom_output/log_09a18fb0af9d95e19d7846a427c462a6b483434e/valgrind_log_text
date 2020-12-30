@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (simstudy_deepstate_test_matMultinom_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/simstudy/inst/testfiles/matMultinom/matMultinom_output/09a18fb0af9d95e19d7846a427c462a6b483434e.pass`
+TRACE: Running: simstudy_deepstate_test_matMultinom_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/simstudy/inst/testfiles/matMultinom/matMultinom_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+probmatrix values: 5.09896e-276 6.93829e+221 1.00011e-144 1.39376e-141 4.57867e-285 3.18812e+54 8.75985e-291 1.25770e+93 2.13574e+178 6.31726e-20
+4.92988e+237 1.77889e+251 5.43535e+221 8.59502e+293 7.63568e-102 3.91553e+286 1.16930e-303 1.16435e+111 2.30783e+256 6.85979e+71
+6.51932e+228 2.55837e+160 3.05336e-194 1.43573e+276 3.92489e-117 0.0549422 1.60442e-147 6.16957e-113 1.88175e-97 7.70073e+116
+1.82296e+273 1.28443e+241 8.23220e+285 2.08674e+227 3.85635e+116 5.33483e+209 7.58373e-138 1.43142e+272 8.97689e+245 2.77259e-139
+1.00533e+254 6.60141e-18 1.10170e-54 8.31616e+90 7.70218e+185 1.75741e-168 2.20684e-270 3.45974e-287 3.86403e+246 3.30810e-214
+2.88614e-158 6.35818e+93 1.02860e+294 1.59820e+221 5.88816e+230 2.35367e+73 2.34831e+06 1.43276e+189 2.02262e+60 5.28449e-142
+1.08319e-205 2.98268e+22 2.46026e-147 1.71398e-228 2.35254e+306 1.54504e+226 2.19947e+130 9.62865e+178 1.44276e-137 8.57731e-29
+
+input ends
+TRACE: Passed: simstudy_deepstate_test_matMultinom_test

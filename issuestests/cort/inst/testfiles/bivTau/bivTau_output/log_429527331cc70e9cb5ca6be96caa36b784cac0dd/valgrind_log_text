@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (cort_deepstate_test_bivTau_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/cort/inst/testfiles/bivTau/bivTau_output/429527331cc70e9cb5ca6be96caa36b784cac0dd.fail`
+TRACE: Running: cort_deepstate_test_bivTau_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/cort/inst/testfiles/bivTau/bivTau_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: 1.59367e-239 7.54583e+144 8.23501e+89 7.47337e-11
+7.91249e-259 1.06039e+220 5.24472e-107 4.15680e-252
+6.35845e+282 8.39666e-199 3.51316e+147 1.81127e+109
+5.23611e+244 1.06197e+225 1.44303e-124 7.20948e+267
+5.81304e-135 4.94519e-95 6.83515e-48 2.99487e+21
+4.81748e+172 1.09926e-16 3.32125e-274 7.92121e-67
+1.46814e-118 0.000480807 1.93485e+129 9.18395e-219
+1.28797e-52 6.10841e+287 1.44434e-120 9.46321e-144
+
+b values: 1.78552e+262 6.69320e+93
+
+p values: inf inf -5.83802e+48 -1.72968e+172 2.45602e+229 2.46402e+190 -1.82147e+73 5.09209e-176 -2.20638e-110 1.13664e+145 -1.17483e-79 2.52131e-115 1.6263e+34 2.50656e+43 -6.42299e-287 8.5161e-16 -2.51308e-305 8.17471e-61 2.14088e-11 -1.67133e-32 -inf 1.78567e+194 2.9279e-42 1.64326e+35 -3.2823e-96 -6.01908e+105 1.37595e+180 -8.53756e+166 -1.06419e+65 1.10212e+246 -2.62497e-227 -6.95408e-286 1.93384e+122 6.90783e+262 -1.00334e-283 -2.34421e+304 6.57564e-279 -9.16214e-31 5.01342e-149 3.15253e+270 -4.27356e+180 -13.9143 -4.77252e-207 -5.54617e+289 9.15246e-238 4.9913e-115 4.18476e-170 -1.33732e-213 -inf 2.5917e+259 2.31007e-88 2.32829e+292 1.29756e-192 4.94795e+154 -9.05193e+263 8.44801e-150 -5.88198e-285 -3.80335e-183 1.12041e-265 9.14941e+38 -7.72526e+08 -1.94974e+190 6.59324e-220 -4.43216e-296 4.6062e+195 1.77652e-210 -4.18389e+28 -2.67724e-25 -1.29962e-209 -1.60303e+66 -3.50656e+190 -2.71931e-20 -2.75843e-191 -1.37595e-233 -4.7633e+303 -1.50488e+190 1.61609e-243 -1.59633e-164 5.54434e+155 -1.45773e+140 2.92951e+51 1.02432e+276 3.17865e+280 -1.56817e-295 -9.34151e+146 5.21701e+291 -4.12275e-69 3.35916e+115 -1.3198e+123 4.78279e+150 -1.79371e-132 4.97251e-58 -6.01889e-287 1.08096e+166 2.53096e-166 -1.89259e-262 7.13936e-230 1.2559e-278 5.51853e+187
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=2; column extent=2].
+ERROR: Failed: cort_deepstate_test_bivTau_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/cort/inst/testfiles/bivTau/bivTau_output/429527331cc70e9cb5ca6be96caa36b784cac0dd.fail failed

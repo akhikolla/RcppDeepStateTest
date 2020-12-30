@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_znorm_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/znorm/znorm_output/239d43558545e1e6069bd81cafa71883b20f554e.pass`
+TRACE: Running: jmotif_deepstate_test_znorm_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/znorm/znorm_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 5.73181e-61 -8.13925e-224 -4.90994e-133 1.86684e+222 nan 2.11656e-250 nan 6.73328e+84 8.26102e-141 4.57625e+78 -5.93754e-192 -7.60492e+98 2.04644e+230 5.66011e-13 -1.28652e+290 3.80086e-51 -2.60724e-55 5.07907e+252 3.99371e+298 -6.85426e+101 1.65087e+256 -3.28624e-287 -3.30838e+06 3.67643e-235 -9.95718e-80 2.06698e+304 nan -7.87166e-116 -9.55078e-123 -7.31104e-34 -4.48351e+200 nan -3.02277e+155 -8.39968e-150 -9.71404e+176 -1.57097e+216 3.19196e-136 0
+threshold values: -1.23305e-90
+input ends
+TRACE: Passed: jmotif_deepstate_test_znorm_test

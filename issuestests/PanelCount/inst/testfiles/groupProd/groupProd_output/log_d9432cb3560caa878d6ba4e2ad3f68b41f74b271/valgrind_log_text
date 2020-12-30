@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (PanelCount_deepstate_test_groupProd_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/groupProd/groupProd_output/d9432cb3560caa878d6ba4e2ad3f68b41f74b271.crash`
+TRACE: Running: PanelCount_deepstate_test_groupProd_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/groupProd/groupProd_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+v values: 1.23299e+141 -1.78191e+19 -7.45093e-208 3.03477e-290 -4.77807e+132 -5.19528e-209 -1.02889e+235 7.23254e-241 2.76278e+161 8.88411e-14 -6.08277e-189 1.01805e-168 4.45459e-219 -1.4559e-223 -6.75583e-16 -9.41327e-71 3.36107e-299 inf 7.02226e+173 -1.85672e-231 -1.00678e+142 2.75409e-205 nan 2.76241e+295 0.541034 -1.17373e-100 3.03755e-163 -2.008e+287 -4.85701e+256 9.98685e+244 -1.04635e+231 -8.13083e-127 -2.90089e-208 -3.50158e+270 2.70469e+194 5.8967e-271 -inf inf -3.09959e-265 -4.02794e+83 -2.44806e-161 1.69002e-67 1.05432e-219 -2.15267e-58 -0.00275331 -9.28201e+81 nan -1.3653e+216 1.46007e+244 2.05217e-261 0
+group values: -3.65613e-143 -3.84948e+26 -1.51171e-273 1.90979e-34 6.1731e+124 -1.7423e-174 7.26517e-127 -1.6897e-220 nan -1.41035e+144 7.22652e-10 -1.34033e-112 2.34533e-195 -4.27666e+73 4.86822e-10 -2.55794e+155 2.54222e-218 -4.83786e-242 inf nan 2.15744e+154 -1.2791e+307 -2.31379e+263 1.1017e+83 -0.000184593 -9.60927e-301 4.6197e-78 1.34651e+209 2.12294e+135 4.06026e-168 -1.5878e-69 6.302e+20 -9.56357e-21 -4.82561e+34 nan 1.99616e-35 0
+input ends
+==1771070==  If you believe this happened as a result of a stack
+==1771070==  overflow in your program's main thread (unlikely but
+==1771070==  possible), you can try to increase the size of the
+==1771070==  main thread stack using the --main-stacksize= flag.
+==1771070==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: PanelCount_deepstate_test_groupProd_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/groupProd/groupProd_output/d9432cb3560caa878d6ba4e2ad3f68b41f74b271.crash crashed

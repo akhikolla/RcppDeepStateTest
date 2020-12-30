@@ -1,0 +1,29 @@
+WARNING: No test specified, defaulting to first test defined (particles_deepstate_test_collision_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/particles/inst/testfiles/collision/collision_output/89c9a6c86f46c7d28c96aee6eb0d95c1f8a9f615.pass`
+TRACE: Running: particles_deepstate_test_collision_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/particles/inst/testfiles/collision/collision_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pos values: 2.56297e+44 1.68849e+155
+1.30826e-226 1.39294e+293
+4.48513e-43 4.34988e+41
+4.27655e+299 1.34154e-217
+8.40306e+11 5.21963e-132
+9.91472e-16 1.55802e+52
+5.96664e+307 4.11119e-273
+1.32268e+244 4.37075e-216
+1.84187e-61 1.78275e+29
+
+vel values: 1.54834e-112 2.16712e-193 2.33696e+89 2.35502e-51 9.61319e-235 1.03501e-242
+1.86387e-230 2.68621e+207 1.73989e+254 1.91162e-42 1.49604e+137 3.41071e+224
+4.38495e+238 1.04700e+175 1.55263e+25 8.10088e+183 3.84321e-263 3.14739e+137
+7.29026e+209 8.43355e-177 4.33063e+14 1.31562e+206 8.04060e-111 1.43654e-144
+4.00515e-185 7.40263e+08 1.37733e+68 7.93017e+135 5.48243e+267 3.96237e+67
+2.48336e-62 6.18066e+155 8.15046e-249 1.50280e+259 2.14271e-55 9.42134e+144
+5.63101e+164 6.30884e-124 3.33149e+255 1.14171e-199 7.32716e+227 4.27131e-07
+9.86899e-294 1.15822e-15 2.32180e+281 5.52402e+241 1.47233e-49 7.73083e-295
+
+radii values: 1.44794e+166 3.55406e-179 -6.71995e+72 -9.01063e+119 nan 2.78545e+190 2.92308e-15 2.72634e-10 7.97096e-98 inf -6.15325e+87 5.2136e+265 1.85635e+74 -2.77849e-112 nan 5.74864e+284 -7.20621e+283 1.24126e+41 -5.95016e-209 -1.06274e+67 7.49788e+219 -3.94624e+62 -1.82198e-274 1.34637e+34 -2.74369e+155 -6.28925e+155 -1.48121e+60 4.14212e+89 -9.34218e+259 nan 1.36681e+209 -1.74962e+69 8.93361e+257 2.54732e-114 4.39723e-230 -4.8111e+152 9.09006e+187 -9.01498e-147 nan -4.9073e+09 1.2269e-234 3.22612e-306 -2.43807e-21 1.44196e+103 0
+strength values: -8.04083e-197
+input ends
+TRACE: Passed: particles_deepstate_test_collision_test

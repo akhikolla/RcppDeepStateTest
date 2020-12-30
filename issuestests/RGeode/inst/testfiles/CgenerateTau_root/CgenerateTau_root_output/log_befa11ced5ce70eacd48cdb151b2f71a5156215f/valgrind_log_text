@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_CgenerateTau_root_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateTau_root/CgenerateTau_root_output/befa11ced5ce70eacd48cdb151b2f71a5156215f.pass`
+TRACE: Running: RGeode_deepstate_test_CgenerateTau_root_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateTau_root/CgenerateTau_root_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+U values: -7.78271e-295 nan -1.31644e-239 4.99586e-306 8.35042e+182 -inf nan nan -5.71486e-67 0
+t values: -2.59906e+73 nan -1.13428e-117 2.4718e-123 -1.76322e+211 2.06994e+307 nan -2.2731e-34 -1.21645e+21 inf 1.56145e+131 0
+a values: -2.0964e-173
+d values: -1417294293
+input ends
+TRACE: Passed: RGeode_deepstate_test_CgenerateTau_root_test

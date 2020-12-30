@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_mk_reg_old_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg_old/mk_reg_old_output/2ef3268015bd798b32f762378de4b1bd0b021822.crash`
+TRACE: Running: amt_deepstate_test_mk_reg_old_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg_old/mk_reg_old_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+relocs_time values: -5.29007e-164 -1.31424e-140 7.81541e-146 -5.18559e+206 1.90216e-17 -5.96371e+258 2.29706e+184 2.98259e-99 -1.07728e+238 -8.26791e-274 5.78363e+256 -2.95599e-291 nan -4.12662e+110 -7.03658e-284 -1.30719e-267 9.15923e+186 1.31353e+253 -2.08789e-289 -inf 1.23575e-160 3.12395e+97 4.00237e-265 -1.92977e+63 7.67564e-66 -4.52213e+129 5.22768e-05 4.92876e-249 -1.11887e-10 2.21414e+54 nan 7.44892e+262 -4.94545e-253 -2.40206e-58 7.1048e-137 -inf -1.6406e-192 -3.56039e+122 1.08187e+16 -2.02933e+227 1.25044e-56 2.26223e+109 -4.20063e+99 4.54673e-128 3.16462e+32 8.16957e+216 -1.769e-09 3.50211e-237 -3.8932e-45 3.92423e+130 -1.28682e-69 -2.40018e-244 -3.03344e+200 -9.49608e+232 nan -1.6781e+119 -4.61121e+142 9.83377e-216 -7.84441e+268 3.47321e-51 -1.37127e-242 -2.06675e-47 -2.70135e-126 3.21898e-33 -1.60422e+240 1.38039e-11 -3.0496e-20 -7.65555e-49 2.53354e-143 3.16103e-209 -1.758e-09 -4.77849e-102 3.11329e-167 3.76288e-50 -6.8785e-268 -62706.6 9.42938e-120 -9.14952e+97 0
+time_dist values: -294815643
+time_tol values: -1115990266
+start values: 2036574672
+input ends
+Inconsistency detected by ld.so: dl-close.c: 181: _dl_close_worker: Assertion `idx == nloaded' failed!
+ERROR: Crashed: amt_deepstate_test_mk_reg_old_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg_old/mk_reg_old_output/2ef3268015bd798b32f762378de4b1bd0b021822.crash crashed

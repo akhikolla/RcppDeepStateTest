@@ -1,0 +1,3 @@
+testlist <- list(data = character(0), ID = c("tj", "ajmbdawhzwugdonhfsct",  "f", "eaupxfaspytt", NA, "xmvbjqvcffxmhtri", "kaqfxjwisbowgiiabzka",  "rcmxqfvvmdlqargziwfx", NA, NA, "tquvmrprnuwhqroixixo", NA, "hvmqxubtjufjlybormwp",  "bhdkucrergjeaoleqeoo", "zmtbcltwjtebkxmundlf", NA, NA, "av",  "ljuizxvdrhghovfnfpwh", "bhrndwh", "oueoavpnjjuovkhr", "y", NA,  "maueglanevalzqbhifza", "dismy", NA, "vmccmupwggejytdbhxxs",  NA, NA, "nckxbw", "yctkzfwwrpixjyytbwtd", NA, "qxrjnjcnegafvrinyyuc",  "ldprsulvnosgnbjty", NA, "rabwytg", "tdvgtqveqrrs", NA, "oumnkzf",  NA, "wpe", NA, NA), lenBloom = -1069438421L, t = 130110169L)
+result <- do.call(PPRL:::WolframRule90,testlist)
+str(result)

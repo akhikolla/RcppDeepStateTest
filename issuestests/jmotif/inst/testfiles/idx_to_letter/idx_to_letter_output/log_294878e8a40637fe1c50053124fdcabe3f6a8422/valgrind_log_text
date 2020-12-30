@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_idx_to_letter_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/idx_to_letter/idx_to_letter_output/294878e8a40637fe1c50053124fdcabe3f6a8422.crash`
+TRACE: Running: jmotif_deepstate_test_idx_to_letter_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/idx_to_letter/idx_to_letter_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+idx values: 843567291
+input ends
+==1571946==  If you believe this happened as a result of a stack
+==1571946==  overflow in your program's main thread (unlikely but
+==1571946==  possible), you can try to increase the size of the
+==1571946==  main thread stack using the --main-stacksize= flag.
+==1571946==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: jmotif_deepstate_test_idx_to_letter_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/idx_to_letter/idx_to_letter_output/294878e8a40637fe1c50053124fdcabe3f6a8422.crash crashed

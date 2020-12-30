@@ -1,0 +1,31 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_ldcos_manyx_onepar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldcos_manyx_onepar/ldcos_manyx_onepar_output/0e8d2acef2c4224b07e21f609857f8af62d8d96c.crash`
+TRACE: Running: BAMBI_deepstate_test_ldcos_manyx_onepar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldcos_manyx_onepar/ldcos_manyx_onepar_DeepState_TestHarness.cpp(10)
+input starts
+x values:   4.3054e-153  7.1324e+239  -4.3410e-17
+          nan  1.1059e-100   1.0329e-16
+  1.0164e+265  4.2541e+282  2.0574e+228
+  1.0340e-168  4.0930e-240   2.2887e-82
+  -3.0200e+66  4.9901e-259  6.1664e-288
+   9.5698e+99  -1.4155e+10  -3.1723e-18
+  -3.6351e+52 -1.5551e+156  7.7522e-239
+ -1.3360e-164 -1.1470e+254  2.6740e-292
+  1.1136e+288  1.4007e+193  2.0540e+210
+   6.5326e+09  -2.3621e-82 -6.3963e-117
+
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 1.57484e-208
+k2 values: -2.72052e+186
+k3 values: -1.51182e+291
+mu1 values: 1.67191e-39
+mu2 values: -6.49733e-263
+l_const values: 1.21517e+39
+input ends
+==1799160==  If you believe this happened as a result of a stack
+==1799160==  overflow in your program's main thread (unlikely but
+==1799160==  possible), you can try to increase the size of the
+==1799160==  main thread stack using the --main-stacksize= flag.
+==1799160==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: BAMBI_deepstate_test_ldcos_manyx_onepar_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldcos_manyx_onepar/ldcos_manyx_onepar_output/0e8d2acef2c4224b07e21f609857f8af62d8d96c.crash crashed

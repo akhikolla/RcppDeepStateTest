@@ -1,0 +1,33 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695058
+WARNING: No test specified, defaulting to first test defined (multicool_deepstate_test_BellC_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1509521089
+input ends
+ERROR: Crashed: multicool_deepstate_test_BellC_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_output/8995b7db7b1cfed28f7b5d621de08980216e839f.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1041926974
+input ends
+ERROR: Crashed: multicool_deepstate_test_BellC_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/multicool/inst/testfiles/BellC/BellC_output/6b281da415278afabd6724d19844f345e6e04845.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -305742827
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -955660492
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -83981167
+input ends
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 2 failed/3 passed/0 abandoned tests

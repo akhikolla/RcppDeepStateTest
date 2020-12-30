@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (mobsim_deepstate_test_rThomas_rcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/rThomas_rcpp/rThomas_rcpp_output/9535bfc068e5ad47745ce2836a9eb45498a4765e.crash`
+TRACE: Running: mobsim_deepstate_test_rThomas_rcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/rThomas_rcpp/rThomas_rcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_points values: 1347488374
+n_mother_points values: 1181070262
+sigma values: 1.66923e-29
+mu values: -3.37056e+199
+xmin values: 4.94587e+202
+xmax values: -7.33675e-239
+ymin values: -1.77859e+274
+ymax values: -6.24155e-284
+input ends
+ERROR: Crashed: mobsim_deepstate_test_rThomas_rcpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/rThomas_rcpp/rThomas_rcpp_output/9535bfc068e5ad47745ce2836a9eb45498a4765e.crash crashed

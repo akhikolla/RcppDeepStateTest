@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (bsearchtools_deepstate_test_ubCharacter_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsearchtools/inst/testfiles/ubCharacter/ubCharacter_output/5a596795ec1bf154e79d9d7a41b6d002a5b0d55b.pass`
+TRACE: Running: bsearchtools_deepstate_test_ubCharacter_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsearchtools/inst/testfiles/ubCharacter/ubCharacter_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+sortedValues values: "rsjmvkh" "vbbjcaobdplcrcxhegdm" "wuwvnprcfvokdhowyx"
+valueToSearch values: "mxbr" "thgdzalkl" "NA" "msqpdiqiagxvrgyaxyql" "brydmxswtdwgjhjapulj" "smwgllfzxhymqhkattsz" "jfj" "affawnahyokomcgnpjob" "eozgibauthvfsfivefym" "NA" "NA" "uzrplm" "NA" "NA" "twpqpdqcioztjz" "NA" "wisaivw" "NA" "vxgzrahtsxyxesvkkzhy" "qzycluwnzrtwpbep" "NA"
+input ends
+Exception Handled
+TRACE: Passed: bsearchtools_deepstate_test_ubCharacter_test

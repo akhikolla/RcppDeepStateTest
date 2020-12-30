@@ -1,0 +1,105 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606690569
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_vmsin_var_corr_anltc_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -3.8541e-167
+k2 values: 5.12152e+167
+lambda values: 2.60476e-273
+input ends
+EXTERNAL: Warning message:
+
+EXTERNAL: bessel_i(3.8541e-167,nu=2): precision lost in result 
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -2.63145e-237
+k2 values: 2.19679e-296
+lambda values: 1.17922e+60
+input ends
+EXTERNAL: Warning messages:
+
+EXTERNAL: 1: bessel_i(2.63145e-237,nu=2): precision lost in result 
+
+EXTERNAL: 2: bessel_i(2.19679e-296,nu=2): precision lost in result 
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -4.63793e+292
+k2 values: 5.49918e+233
+lambda values: -1.87249e-207
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -5.21926e+60
+k2 values: 1.83411e+79
+lambda values: -1.15991e-97
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 8.15305e+255
+k2 values: 1.15177e-92
+lambda values: 3.66955e+160
+input ends
+EXTERNAL: Warning messages:
+
+EXTERNAL: 1: bessel_i(1.15177e-92,nu=3): precision lost in result 
+
+EXTERNAL: 2: bessel_i(1.15177e-92,nu=4): precision lost in result 
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -8.08926e+96
+k2 values: 3.86646e-286
+lambda values: -1.18554e-42
+input ends
+EXTERNAL: Warning message:
+
+EXTERNAL: bessel_i(3.86646e-286,nu=2): precision lost in result 
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -4.70186e-198
+k2 values: -1.34166e-216
+lambda values: 1.69544e-270
+input ends
+EXTERNAL: Warning messages:
+
+EXTERNAL: 1: bessel_i(4.70186e-198,nu=2): precision lost in result 
+
+EXTERNAL: 2: bessel_i(1.34166e-216,nu=2): precision lost in result 
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 4.76982e-282
+k2 values: -1.89991e-189
+lambda values: 2.39513e+128
+input ends
+EXTERNAL: Warning messages:
+
+EXTERNAL: 1: bessel_i(4.76982e-282,nu=2): precision lost in result 
+
+EXTERNAL: 2: bessel_i(1.89991e-189,nu=2): precision lost in result 
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 8.85658e-241
+k2 values: -6.94275e-131
+lambda values: 4.65407e-144
+input ends
+EXTERNAL: Warning messages:
+
+EXTERNAL: 1: bessel_i(8.85658e-241,nu=2): precision lost in result 
+
+EXTERNAL: 2: bessel_i(6.94275e-131,nu=2): precision lost in result 
+
+INFO: Done fuzzing! Ran 9 tests (4 tests/second) with 0 failed/9 passed/0 abandoned tests

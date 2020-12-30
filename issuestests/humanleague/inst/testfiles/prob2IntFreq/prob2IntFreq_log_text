@@ -1,0 +1,30 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677848
+WARNING: No test specified, defaulting to first test defined (humanleague_deepstate_test_prob2IntFreq_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pIn values: 2.07938e-199 2.01912e+285 9.45632e+238 -1.68635e+194 -2.91274e-103 nan 3.37703e-10 -6.87194e+18 -1.70044e-42 inf 1.42997e-173 -1.10968e+32 1.53924e+258 8.70353e-281 -7.04719e+199 -4.13487e-223 3.54969e-66 -5.97199e+97 6.35196e+251 -2.66526e+203 -7.54005e-240 -inf 1.5202e-41 2.96015e+225 9.3857e-282 nan 2.64837e+58 7.41821e+208 -1.98281e+174 5.01617e-279 7.85569e-46 3.94689e-308 -3.14208e+273 -5.30126e+287 3.11065e+58 -3.40165e-19 -7.45706e-144 1.08481e-69 6.09568e-57 2.40091e-296 -2.12807e+273 2.69277e+175 -3.42068e+96 6.5131e+44 1.12534e+124 -1.04633e-191 8.33709e-142 -9.51888e+84 -5.55674e+199 2.14838e-233 -1.57043e+227 1.82689e-115 9.38637e+185 5.6825e-148 -6.3712e-235 8.12779e-266 2.24417e-15 4.48554e+241 4.2087e-210 -5.0054e+178 6.71801e+268 4.47953e+127 1.25457e-225 -1.42353e-230 5.16418e+275 -1.80471e+196 -1.91276e-74 -1.25078e-194 -1.27786e-52 -1.0673e-76 -1.14744e+164 1.8351e-265 -8.55546e+104 5.89678e-156 9.0094e+201 -2.53936e+244 -9.92586e+07 3.09657e+154 8.0571e+46 0
+pop values: -595928826
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  population cannot be negative
+ERROR: Failed: humanleague_deepstate_test_prob2IntFreq_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/prob2IntFreq/prob2IntFreq_output/8c29cf026d425c6913ecac1c17a7e3f6f1fb00d6.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pIn values: -4.17927e+120 4.71248e+180 -3.99537e-224 2.0499e-132 -9.79239e+196 -1.77014e-270 1.63847e+165 9.14084e+48 -1.90548e+152 -1.25836e-14 -2.04465e-203 1.24266e-88 -2.62012e+56 -2.2356e+299 1.30491e-297 4.05766e-53 -4.91746e-126 -1.71528e+193 1.60112e+201 nan -6.73708e-24 -187206 2.95751e+75 3.51382e+273 -7.7907e+193 1.43778e-57 5.518e-306 1.63382e+292 -1.1236e+85 2.22798e+126 1.23922e+249 -6.45559e-170 3.68961e-298 -1.62253e-166 -7.98107e-291 8.83093e-49 -2.90873e-148 6.77051e-191 -6.6025e-120 nan 7.15614e+269 9.83286e+276 -1.53924e-249 -9.21716e+159 3.48072e-143 -4.05872e+156 8.49556e+104 -inf 1.83998e+50 3.29642e+286 -6.69685e-277 -2.06426e-220 2.81432e-248 -5.79187e+78 8.28334e+298 8.34674e-103 -1.17868e+21 2.50008e+58 6.71196e+239 -9.26258e-218 -6.13381e+276 7.77938e-298 1.04317e-64 -1.80306e-303 2.65721e-177 4.92803e-95 -2.68338e+117 0
+pop values: -1873622879
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  population cannot be negative
+ERROR: Failed: humanleague_deepstate_test_prob2IntFreq_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/humanleague/inst/testfiles/prob2IntFreq/prob2IntFreq_output/7ce2ed96544492c569e68016e0e552acf8ed673b.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pIn values: -2.14622e-100 nan 5.35985e-67 -inf 2.83888e-27 -3.92558e-107 4.0496e-246 7.83659e-246 2.12297e+291 3.50733e+43 9.55275e+285 4.09565e-30 -2.39843e+25 4.66409e+250 2.28483e+193 6.38002e+08 -1.48374e+265 -6.65599e-194 -3.38304e-111 -2.94995e+115 -1.93781e-10 3.46094e+48 -2.22441e-247 6.6968e-289 3.26824e-194 -inf 4.28862e+167 4.99115e-285 -1.8028e-157 5.7204e-141 1.78314e+51 7.56096e-87 -5.38091e-203 2.04419e-143 -8.68147e-60 3.55089e-206 7.52691e+165 5.05008e+272 -5.33498e+187 5.12897e+117 3.55306e+24 -6.46671e+278 -1.48374e+265 1.40556e-214 3.80626e-114 1.00512e+216 -2.62189e+42 -7.13094e+91 -6.41991e+79 0
+pop values: 1977688576
+input ends
+INFO: Done fuzzing! Ran 3 tests (0 tests/second) with 2 failed/1 passed/0 abandoned tests

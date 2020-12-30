@@ -1,0 +1,76 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606700244
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_rhoRcpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 2.81265e-197 1.10464e+227 8.22621e+138 2.89873e-25 4.98825e+251 5.95321e+84 1.71703e-267 1.12854e-57 9.53949e+100 2.26587e+188
+2.67686e-207 8.46139e-204 4360.02 3.99272e+39 1.56823e-38 1.15828e+137 1.51615e+218 2.66608e-225 1.49949e-143 3.69688e+257
+1.39856e+235 8.64572e-218 1.01528e+70 2.86801e+22 5.36733e-230 1.23944e+286 4.99331e-120 4.32992e+278 1.21652e+240 1.80091e+290
+
+lr values: 3.84074e-184 4.84091e-87
+4.49242e+292 1.68690e-290
+1.67558e-65 1.47788e-280
+4.09201e-140 2.28708e+45
+6.50355e+240 2.63193e+228
+4.37386e-73 6.51761e-137
+
+ivar values: 1238313616
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=2; column extent=2].
+ERROR: Failed: propr_deepstate_test_rhoRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/rhoRcpp/rhoRcpp_output/f8341ce4c10a885ab826c0efee724ca35e86a6a7.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 4.37569e-228 3.56239e+118 5.36827e+31 3.21314e-202 1.28338e+69 8.21212e-275 2.82679e+141
+1.86900e+120 1.08787e-166 7.16974e+60 2.44801e+189 1.18105e-88 6.44478e+129 5.15697e-182
+7.15348e+39 2.68569e+60 1.37044e+122 3.87107e+190 2.35178e+185 1.20037e-276 3.35483e+08
+5.59245e+39 5.11606e-242 1.66246e+68 5.92581e-204 3.54763e+12 2.52089e+78 1.21115e-159
+3.52487e+73 1.05600e+65 1.70694e+252 1.07454e+194 3.16333e+127 4.06672e-197 1.41069e-67
+3.76299e-138 2.59497e-255 8.35113e+40 1.20533e-14 7.72195e+241 1.20780e+37 1.14141e+292
+2.68336e-251 1.50241e-225 7.88882e+173 1.90527e-103 5.60912e-84 7.64710e+158 2.69827e+276
+
+lr values: 1.42671e+298
+1.24637e+230
+
+ivar values: -860301243
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=1; column extent=1].
+ERROR: Failed: propr_deepstate_test_rhoRcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/rhoRcpp/rhoRcpp_output/aae6cf2bf95120459883e0e3b90552bfca689848.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 3.77257e-77 3.57189e-246 1.60027e+32 5.35825e+131 5.66421e-127
+2.81054e+105 5.12587e-110 3.11485e-26 5.64818e+155 1.03627e-214
+6.05143e-203 4.61598e-86 6.38006e+58 6.59559e+82 6.13613e-123
+
+lr values: 3.50625e+34 108074. 3.97854e-91 2.06224e-48 2.91482e+288 8.82702e+287 3.84886e+273
+7.99765e-120 1.97753e+133 1.27079e-100 3.30933e-244 6.32546 1.03137e-276 1.10338e+146
+1.66847e-113 8.20268e-234 5.66121e+283 2.23776e+231 9.24519e-303 7.94718e+217 7.64934e-292
+3.32135e-295 1.36187e+32 4.06604e+20 9.84392e+140 2.95465e-128 9.48150e-102 445588.
+2.75316e-96 1.57120e+262 6.09629e-129 6.18205e+169 4.24431e-53 4.05039e+307 1.40677e+168
+
+ivar values: -738140165
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 8.00805e+91 4.35905e+203 2.90088e+70
+9.77805e+266 1.18494e+68 6.36476e+290
+3.06120e-165 2.03564e+116 4.65854e+244
+8.22294e-279 8.45160e-13 7.39574e-187
+4.87234e+96 2.90271e-08 6.35684e+271
+1.21817e+91 8.76064e+218 1.14595e+252
+1.42926e-20 1.58846e-142 1.17468e+34
+1.67036e+103 1.74528e-67 1.49900e+199
+2.03650e-114 9.19483e+89 1.54219e+280
+
+lr values: 2.78883e+154 4.02217e+93 9.60422e-292 5.29112e+160 1.50036e-47 1.31171e+23 4.77980e-299 8.74295e+285
+
+ivar values: -1647748150
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 2 failed/2 passed/0 abandoned tests

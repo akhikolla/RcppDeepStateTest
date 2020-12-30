@@ -1,0 +1,106 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606687852
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rowVars_test)
+input starts
+mat_in values:   -2.2274e+35  4.3890e+230 -2.2361e-113
+   1.5926e-06 -1.4281e-214  2.7884e+172
+ -6.4335e+292  6.9456e+171  8.5429e-164
+ -2.3579e-163 -1.9562e-280 -7.2071e-245
+   5.6129e+05 -1.5162e+245   2.1084e-61
+  2.6393e-112   1.5777e-72 -4.1119e+161
+ -2.7743e-227 -6.1555e+265  2.9589e+219
+ -8.0865e+216 -2.9662e+223  4.7312e-286
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/caad4df72309f14e9ff6d3b04b4c56210ce49ebb.crash`
+input starts
+mat_in values:    4.8430e-49   6.1755e+00  3.0005e+102  2.0086e+285   1.7293e+74 -2.8993e-172
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/781c1b6d7fc74583ccc04d6886a153edbf9ca0a2.crash`
+input starts
+mat_in values:   -1.1671e+48 -1.9606e-141  6.6283e+235  3.5295e+290  -7.3021e-10
+  -2.0294e+97  8.2418e-108   2.4196e+87   2.4315e-64 -2.0251e-286
+   1.2448e-36  1.8247e-203   2.4144e+08  3.3658e+141  4.6182e-297
+   1.4530e-14  -1.1310e-67  3.8198e+300  4.4471e-287  1.2551e-146
+ -2.0796e-290  1.3722e-302   6.9305e+96   1.6927e+36   6.3461e+91
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/cab910782ce734242306696d229cfe0c8b5abc2d.crash`
+input starts
+mat_in values:  -2.2895e+288   8.4657e-87  3.6564e-109  2.8345e-218  -3.8355e-42  -1.7822e-43  -2.6988e+60   1.1595e+17  1.2990e-179
+  1.9858e-218  2.0459e+230  2.3441e+127 -7.7673e-290  -1.7362e-86  1.7082e+154  4.0836e+274  1.1861e+103 -1.2211e-194
+  -6.3325e+66  3.1103e-263 -7.0336e+253 -1.0902e-179  -6.0053e+69 -4.2299e+141  4.4916e+220   7.7201e-15  3.9678e-294
+ -1.0800e+179 -2.2017e+215 -4.1236e+186 -8.9692e+174  8.9793e-228  1.2391e-243 -5.0374e-286 -3.3872e+127   6.2524e+23
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/54e1b37060d5cb6d6a89e4a5d31393fe7d030736.crash`
+input starts
+mat_in values:   -7.8316e-28 -1.1469e+208   4.7458e+80  -5.9226e-26
+  -2.1958e-83 -2.2209e-192  3.0423e+116   5.3075e+22
+  -2.5291e+17   9.7331e-51   2.8890e-79 -1.6235e-251
+  2.1665e+102 -3.3483e+307  5.2812e-167  -4.5750e-69
+  -1.7030e-08  4.2413e-252   1.5375e+19 -1.0793e+237
+ -1.0990e+300 -5.1982e-278  9.2274e+287  -2.5810e+24
+  1.8785e-227 -1.4943e-182 -4.6052e-173  4.1187e+299
+ -5.3864e+182  5.8323e+161   8.9759e+89 -5.3660e-203
+  4.2406e+120 -1.6429e-270  1.2095e+246  -1.6146e+00
+   2.7692e-82  9.9489e+159   4.1371e-04  1.4583e-192
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/943f7f4e2a41ee715982ebac5a963b1df4c73155.crash`
+input starts
+mat_in values:   4.0165e-217  9.3740e-130
+  2.0865e-241 -5.0768e+164
+ -1.6052e-240 -1.0411e+273
+ -2.8404e+274   1.3949e+38
+   7.8633e-98   1.4363e+73
+ -6.2722e+107 -1.7328e-278
+ -4.1612e-252   3.1174e+79
+  6.2437e+215  3.8442e-166
+  -4.2183e+09  -3.8601e-64
+  -7.2130e+72  2.1135e+208
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/967136fbc5bb8852c0e41d218038650fb70eef9a.crash`
+input starts
+mat_in values:   8.5251e-221  -2.2864e+94  1.3035e-269  1.3460e+112
+   6.0778e+94 -1.5612e-117 -3.5293e+134 -4.0135e+120
+ -7.5992e+176 -4.2951e-285   1.0291e-54  1.1954e+232
+   6.7280e-99  3.8759e-151  9.3794e+126 -9.4687e-204
+  4.9612e-256  -2.1864e+48  -7.2686e+17   2.9161e+23
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/896473f3425a4d490efdd72cfd548ac0424b64ea.crash`
+input starts
+mat_in values:    4.7282e+46 -2.2295e+175  5.2031e-126  -1.7180e+73 -9.0609e+150 -1.5129e-263  1.3087e-179   9.1002e+77
+   1.5587e+08  -1.1753e-26 -9.9709e+107 -5.8705e+185  1.3881e+207 -3.0868e+135  2.4319e-219 -2.1675e+145
+  4.4827e-143 -4.1833e-218 -1.1581e-300   1.6840e+21 -2.8840e-242  -6.2232e+13  4.5257e+188   6.3951e-30
+  1.9689e-125  1.5497e-253  -9.6037e-51  -1.8660e-22 -2.4760e+126 -3.3664e+292 -1.8337e-172  1.1895e-195
+  -9.7443e-28 -5.9484e-147  1.6120e+289 -8.4693e-261   2.6536e-53  -1.4893e-64  4.5740e+192  1.3598e-104
+ -2.9569e+206  4.2717e-256 -2.6975e+112 -4.4887e+248   1.8245e+87   1.3340e-53  2.3620e+271  6.8508e+214
+  3.2714e+160 -2.3851e-118  -4.5395e+77  -7.9843e+80 -2.4150e-261  1.7676e-223  4.8758e+239  1.0624e-251
+  6.9134e+169  2.9226e+110 -3.7254e+185  8.8249e+231  4.8249e+107  -2.7395e-48   1.9731e-40 -2.2739e-118
+   1.0692e-23 -4.5465e+135  3.0774e+196   2.1889e+19 -1.2166e+206  2.5576e-300  -2.5696e-74  -1.3964e-44
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/bfd4ddeb4febd13ea6c6247eddca5b50a248f234.crash`
+input starts
+mat_in values:   -1.0115e-26  1.5652e+131 -9.3087e-212 -1.1435e+125  5.4731e+275  -1.3718e+45  2.6696e+299
+  5.9602e-285 -7.2067e-158  -2.6422e+37  5.7945e-171  1.3804e+303   1.2461e-80 -5.5098e-174
+ -2.1484e+263 -9.1612e+304  -8.1773e+15  9.3991e-259  -2.3829e-59   6.2438e+95 -1.1268e-244
+   3.6867e+39  -5.6847e+13   4.8466e-05 -1.4433e+304  -5.6582e+51  1.4401e-243  3.1467e+246
+   1.7585e-71 -2.6686e-278  -1.5703e+18  1.6831e+298  7.3796e+133 -1.6563e-147  1.4201e+212
+
+input ends
+ERROR: Crashed: BAMBI_deepstate_test_rowVars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rowVars/rowVars_output/7b30b0cc6951ec7e5dbf9723183a782e35ee5abc.crash`
+INFO: Done fuzzing! Ran 9 tests (4 tests/second) with 9 failed/0 passed/0 abandoned tests

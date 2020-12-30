@@ -1,0 +1,15 @@
+19f5e6ec803e280acc9b29b905a66f31 *DESCRIPTION
+d5dfc7b1be103dbfd634827f9d32e094 *NAMESPACE
+c48645869cfac8ba79decd286d6a3a14 *R/RcppExports.R
+76889052d95da441f38d4d0c688d3195 *R/gpfuncs.R
+3a2c57701f24057f53e132a565bb83ef *R/rcpp_mvn.R
+4f84dfafec238a2b01387be02a7c09f4 *demo/00Index
+c765b521567e78e79b0a9d18052f4bb0 *demo/FastGPdemo.R
+c5b1200dd794fb2a43910998b8cedb1a *inst/doc/package_article.pdf
+c48dd95f7e0ee758d49af09b44a9ea66 *man/ess.Rd
+0fff57049c5c4e9c5d4db8e69f96ebb3 *man/rcpp_matrix_ops.Rd
+7dded3a0bcda6da16b614575b13e3ec3 *man/rcpp_rmvnorm.Rd
+d9e75cadf0afe23675db688e96b7026f *src/RcppExports.cpp
+59f7ca99cc25d29d9fae7a8e64514926 *src/distance.cpp
+a61ed8abff5b7d414581de415515575d *src/invert_toeplitz.cpp
+98e1ddf0d51dffad4167ac1463c97308 *src/rcppeigen.cpp

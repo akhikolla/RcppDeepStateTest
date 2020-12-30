@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_alphabet_to_cuts_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/alphabet_to_cuts/alphabet_to_cuts_output/1465ce61683d589db831b6bb63ddc44d8a34895e.pass`
+TRACE: Running: jmotif_deepstate_test_alphabet_to_cuts_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/alphabet_to_cuts/alphabet_to_cuts_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a_size values: -641414797
+input ends
+Exception Handled
+TRACE: Passed: jmotif_deepstate_test_alphabet_to_cuts_test

@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_norm_uv_g_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/norm_uv_g/norm_uv_g_output/22070c521b91924b07417049e04fd61f9179dcbe.fail`
+TRACE: Running: mixR_deepstate_test_norm_uv_g_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/norm_uv_g/norm_uv_g_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: 7.94749e+158 6.37275e+300 4.64072e+148
+8.92917e-67 1.14261e-36 4.51922e-281
+1.06166e+290 1.41080e-301 4.06228e+167
+5.75405e+299 1.50601e-12 2.28711e+229
+1.68508e-179 6.04536e+307 4.67828e+198
+2.70183e-94 2.88171e-273 2.79112e+105
+
+pi values: -3.90837e+230 -6.07971e-275 1.92135e-67 -5.81379e-169 -1.19432e-227 -8.709e-203 3.48068e-250 -1.46476e-220 inf 9.45604e-56 1.0286e+243 1.21993e-44 -7.4689e+275 -3.34625e-171 -2.97202e+255 1.96774e+307 -2.63488e-25 1.8065e+41 nan -1.43411e-39 2.33744e+54 nan 2.30875e+168 3.91024e-72 -6.35889e-90 3.57563e+203 3.77939e-155 -5.64032e+252 -8.709e-203 -1.03337e-179 -1.67239e+199 -6.1789e-35 3.1054e+259 -1.49013e-290 6.83285e+211 3.2603e-68 -2.07627e-44 -2.19558e+249 8.0518e-132 8.20787e-113 -3.96665e+68 0
+mu values: -4.27605e+157 1.5774e-303 2.69664e-238 nan 7.73818e-152 -1.09341e+59 1.64351e-231 -1.12601e+95 -1.24535e+132 -4.66388e-178 -4.42139e+286 1.24462e+163 1.86045e+208 6.55013e-37 -1.64997e+251 -3.45714e-126 4.71293e-112 -inf -1.31388e+255 nan 9.41552e+122 2.30906e-58 inf 2.02891e-212 5.69292e-205 -8.12271e-81 9.12697e+158 nan 3.47578e+118 4.10665e+71 9.12459e-164 1.96362e+149 -1.3664e+50 -1.19718e-08 -1.23379e+07 -1.93599e+214 1.42751e+169 6.004e+136 0
+sd values: 7.08806e+215 8.76389e+151 -1.10808e+94 1.53966e-231 inf nan -3.20124e+247 4.71162e-138 -9.35763e-97 -6.26823e-78 inf nan 1.4968e-172 4.94992e-204 -2.71114e-103 8.30066e+96 2.82212e+26 -9.2954e+26 -9.5681e+139 -2.90954e-173 -1.55757e+201 0
+max_iter values: 891527258
+tol values: 4.14872e+65
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=22; extent=22].
+ERROR: Failed: mixR_deepstate_test_norm_uv_g_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/norm_uv_g/norm_uv_g_output/22070c521b91924b07417049e04fd61f9179dcbe.fail failed

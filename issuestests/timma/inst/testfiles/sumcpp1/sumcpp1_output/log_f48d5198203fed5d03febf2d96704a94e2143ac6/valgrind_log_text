@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_sumcpp1_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp1/sumcpp1_output/f48d5198203fed5d03febf2d96704a94e2143ac6.fail`
+TRACE: Running: timma_deepstate_test_sumcpp1_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp1/sumcpp1_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 2.64448e-70 -inf -6.46476e-214 -4.15916e-99 6.76533e-287 -2.00162e+181 -1.60246e-26 2.42509e-36 -1.53954e-253 1.04431e-134 243460 2.23704e-158 -1.67213e-298 nan 7.39754e-80 -3.49165e-202 -2.78051e+262 7.14975e-152 1.42492e+252 -6.96077e+218 -3.46432e+206 -3.95662e+89 1.42489e+48 nan -3.09945e+186 inf -1.36653e-20 3.32937e+41 -5.15964e+92 1.30429e-211 -3.2961e+292 2.77228e-15 7.68832e-60 2.85958e+234 -1.36992e+239 5.57214e+272 -1.02047e+295 -5.85514e-36 -5.32648e+216 8.01943e+160 5.15289e-79 -8.23341e-84 -7.49305e+81 -3.4026e+185 -2.00291e-22 -8.08289e+21 -6.58552e+106 7.40227e+273 8.04048e-163 -0.00800774 -3.04938e+169 -1.40745e-201 3.73871e-252 -7.18935e-186 -9.92279e-119 -1.48453e+10 -1.69054e+283 1.29214e+137 1.28399e+126 -4.63471e+34 2.6229e+128 1.81616e+67 -6.43881e-27 7.8002e-71 -1.60088e+66 3.69162e-12 -2.02584e-140 -1.31383e+287 3.18404e+276 -1.55923e+248 -7.86482e+204 -3.37694e+40 0
+x values: 1286779831
+y values: -639384615
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: timma_deepstate_test_sumcpp1_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp1/sumcpp1_output/f48d5198203fed5d03febf2d96704a94e2143ac6.fail failed

@@ -1,0 +1,55 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606767643
+WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_rnorm_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -859708431
+b values: -1.18107e+303
+c values: 6.32858e+185
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -652241727
+b values: -4.12574e-94
+c values: -7.01628e+41
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -140287891
+b values: 7.72559e-153
+c values: 1.73377e+84
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -1652530484
+b values: -3.25046e+168
+c values: -1.98591e+141
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: 376281978
+b values: 6.31207e-115
+c values: -1.65463e+75
+input ends
+INFO: Done fuzzing! Ran 5 tests (1 tests/second) with 4 failed/1 passed/0 abandoned tests

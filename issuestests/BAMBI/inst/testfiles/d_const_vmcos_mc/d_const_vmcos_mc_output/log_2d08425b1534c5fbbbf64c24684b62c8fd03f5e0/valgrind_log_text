@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_d_const_vmcos_mc_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_output/2d08425b1534c5fbbbf64c24684b62c8fd03f5e0.fail`
+TRACE: Running: BAMBI_deepstate_test_d_const_vmcos_mc_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 2.15906e-172
+k2 values: 7.75581e+264
+k3 values: -1.51832e+212
+uni_rand values:    5.5854e+75 -4.4294e-150  -1.9158e+90  3.3062e+164 -2.3190e+229  7.2367e-273  6.0564e+209 -2.3673e+252
+
+ncores values: 675427161
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_d_const_vmcos_mc_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/d_const_vmcos_mc/d_const_vmcos_mc_output/2d08425b1534c5fbbbf64c24684b62c8fd03f5e0.fail failed

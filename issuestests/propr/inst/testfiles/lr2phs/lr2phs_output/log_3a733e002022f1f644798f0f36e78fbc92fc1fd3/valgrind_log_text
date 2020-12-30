@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_lr2phs_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/lr2phs/lr2phs_output/3a733e002022f1f644798f0f36e78fbc92fc1fd3.pass`
+TRACE: Running: propr_deepstate_test_lr2phs_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/lr2phs/lr2phs_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+lr values: 1.12883e+250 2.58431e-71 2.95554e+189 5.49295e-33
+2.95414e-210 9.10357e-232 1.85630e-22 7.25730e-32
+5.33082e-197 1.11315e+247 2.08343e+177 8.88027e+197
+1.33983e+247 2.39824e+130 3.39243e-280 1.39030e+158
+2.86645e-228 2.02325e+150 1.05340e+62 1.89828e+38
+1.19841e-250 7.18455e+142 3.25553e-236 1.73439e+39
+
+input ends
+TRACE: Passed: propr_deepstate_test_lr2phs_test

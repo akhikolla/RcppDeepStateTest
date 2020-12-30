@@ -1,0 +1,54 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606515405
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_find_discords_hotsax_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: -1.6044e-161 7.89281e+242 -2.61546e+262 3.68417e+23 -9.13686e+153 7.40411e+251 3.92851e-78 -2.12948e+201 4.66917e-295 -1.41465e+62 6.57046e-138 -6.96503e-40 8.46376e-289 2.10032e+23 2.21595e-296 -2.28924e+79 8.56717e+167 2.81185e-62 3.89104e-185 -6.47028e+277 -1.90406e-230 9.91035e+112 5.69189e+284 4.59641e+98 1.16186e+297 7.81593e-285 -1.4122e+153 1.2887e+136 -5.69423e+82 -2.61782e+244 7.08118e+131 0.000326654 -4.47175e-61 nan -3.91967e-113 3.6041e-302 1.70753e-305 -2.76226e+178 -2.44994e-75 -6.58425e+297 2.51181e+46 -1.15081e-232 1.70515e-90 -6.31636e-225 nan 1.66359e-183 -5.00318e+120 -1.12532e-63 -1.71767e-142 6.46469e+254 -6.34489e-153 3.31939e-118 -4.6797e-72 -3.43987e-182 6.24872e-304 2.21324e+281 1.36704e+251 -3.63891e-202 -4.7877e-160 6.30273e-198 1.0299e+101 -1.16868e-17 9.59203e-177 -3.41078e+165 2.58796e+149 -1.09753e+168 -3.74562e+276 2.91354e-99 3.53445e+250 -2.34563e-33 1.68487e-185 -6.71907e-294 5.29399e-133 4.1615e-156 -inf 1.26106e-97 9.78056e-117 1.81427e-57 1.42241e-40 1.59888e-105 -4.25981e-66 -7.71515e-121 1.67447e-269 7.71592e-21 1.12365e+74 -1.75485e-110 2.38204e+182 nan 1.7354e-231 -3.61752e+15 -3.9687e+39 1.08575e+14 1.29226e-26 0
+w_size values: 242969347
+paa_size values: 390209752
+a_size values: 913603546
+n_threshold values: 2.04503e-160
+discords_num values: 1659378145
+input ends
+ERROR: Crashed: jmotif_deepstate_test_find_discords_hotsax_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/c5faddc56812ee0c2402c0d7c8f9162db178e3e5.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: -5.40133e+111 -3.00792e+230 -2.43249e-220 2.8283e-261 -5.40133e+111 1.61116e+171 -8.94719e-169 1.67849e-295 9.31757e+130 -5.30869e+51 1.93814e-11 1.40062e+48 7.75322e+292 -3.0036e+22 -4.98878e-114 -2.73035e+250 4.62144e-237 -5.40133e+111 -7.35323e+111 -1.98889e+47 -5.05643e+213 nan
+w_size values: 1600437637
+paa_size values: 52459614
+a_size values: 3733323
+n_threshold values: -3.05096e-303
+discords_num values: -472332234
+input ends
+ERROR: Crashed: jmotif_deepstate_test_find_discords_hotsax_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/fb7fff45cdf4330a762c7dffc84ccc8b7fa6eeca.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 2.6568e-206 4.96288e-266 -1.2114 4.27838e-301 1.42189e+270 3.9629e-114 7.35699e-271 4.40381e+209 -5.34447e+260 2.12636e+276 2.02469e-57 -7.35081e+235 4.84903e-183 6.14358e+101 -2.13019e+116 -2.24374e-48 -2.86363e-288 -5.66792e+85 9.43339e+287 -7.13937e+24 2.01531e-145 -1.49168e+301 2.74773e+259 6.90447e-55 5.08491e+95 -1.00543e-15 -1.70071 -2.23271e-184 3.88235e+96 inf 2.11301e+130 -3.42565e+263 1.45925e+204 1.08e-236 3.57153e-28 1.43308e-188 -8.10755e-09 1.27444e+201 1.65495e-18 3.50861e+42 -4.26645e+282 1.17252e-232 7.46642e+90 -6.83316e+113 1.12322e-116 8.29045e-243 -1.11374e+204 -2.24686e-104 1.25909e-194 -1.01506e+153 8.4869e-106 -9.00334e-260 -1.03785e+298 -1.00543e-15 -1.40174e-26 -1.09258e-32 1.02641e-259 -1.76733e+66 -9.07128e+240 -4.45266e-187 -9.14224e-56 -8.73017e-60 -1.09111e-47 4.30271e-09 -7.56148e-146 7.83374e-60 -6.87929e-249 7.98833e+41 -0.315524 -1.37745e-232 1.7387e+159 -1.10756e+47 -4.61201e-135 1.79345e-206 4.9899e+214 1.93173e+202 -3.47145e+171 2.32033e-199 -1.00543e-15 0
+w_size values: 1962307325
+paa_size values: 880608315
+a_size values: 396825459
+n_threshold values: 3.4259e-261
+discords_num values: -1382552321
+input ends
+ERROR: Crashed: jmotif_deepstate_test_find_discords_hotsax_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/9673b48be78fef05c19e239ce6243a2c0a0be87c.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 2.79718e+285 2.83562e-168 1.14454e-26 -inf 1.2586e-125 -9.2244e-231 2.03945e+225 8.86857e-122 -3.55921e-232 1.37278e-127 nan -4.71078e-271 nan -1.50879e-117 3.36442e-111 1.71512e+189 -inf -inf -2.0643e-94 5.35211e-232 -4.32211e-242 -1.39659e-300 3.45379e+179 2.24767e-26 -3.68621e+37 -7.97993e-46 4.62622e+75 -3.37306e-56 4.70786e+41 0
+w_size values: -1077402371
+paa_size values: 2037793718
+a_size values: -1548070072
+n_threshold values: -3.60801e-101
+discords_num values: -1532936137
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: jmotif_deepstate_test_find_discords_hotsax_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/find_discords_hotsax/find_discords_hotsax_output/4dedd58c25a195fe27347e6cd87f06854621cade.fail`
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 4 failed/0 passed/0 abandoned tests

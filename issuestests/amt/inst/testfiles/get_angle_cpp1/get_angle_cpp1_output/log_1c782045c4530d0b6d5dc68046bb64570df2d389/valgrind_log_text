@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_get_angle_cpp1_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/get_angle_cpp1/get_angle_cpp1_output/1c782045c4530d0b6d5dc68046bb64570df2d389.pass`
+TRACE: Running: amt_deepstate_test_get_angle_cpp1_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/get_angle_cpp1/get_angle_cpp1_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+xy values: 8.32529e+307 1.54412e-169 2.56930e-71 6.45234e-11 4.09302e+57 6.43718e+57 8.61023e+262 6.59684e+163
+6.99985e+115 5.26606e+259 3.10802e-270 9.28264e+70 5.74763e-131 5.12236e+44 1.72303e-46 2.93172e-72
+4.18408e+229 4.63302e-181 5.19718e-67 4.01420e-168 3.89485e+205 4.56940e-308 3.02934e-05 1.41380e+81
+3.88674e+87 2.98743e+22 6.15934e+190 1.58621e+254 1.31634e+69 2.38077e-188 2.35358e-63 9.06325e-237
+1.33297e-253 3.98815e+122 3.14154e+189 8.88743e+252 6.32075e-185 3.07524e-265 3.54605e-306 1.53543e-198
+
+dir values: 1.09972e+231
+input ends
+TRACE: Passed: amt_deepstate_test_get_angle_cpp1_test

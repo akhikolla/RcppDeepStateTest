@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (segmenTier_deepstate_test_clusterCor_c_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/clusterCor_c/clusterCor_c_output/02f7af4c7a08a024ffd779bf7e02db2ed1571a38.pass`
+TRACE: Running: segmenTier_deepstate_test_clusterCor_c_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/clusterCor_c/clusterCor_c_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: 5.22172e-211
+6.82552e-159
+
+clusters values: 5.54358e+221 6.49803e+61 2.85978e-134 5.52495e+265 8.46455e-110
+1.18702e-114 8.99285e-17 2.86651e+148 4.03570e+139 1.89825e+91
+
+input ends
+TRACE: Passed: segmenTier_deepstate_test_clusterCor_c_test

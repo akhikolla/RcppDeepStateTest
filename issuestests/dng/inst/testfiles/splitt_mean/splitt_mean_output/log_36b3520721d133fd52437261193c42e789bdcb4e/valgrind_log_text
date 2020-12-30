@@ -1,0 +1,46 @@
+WARNING: No test specified, defaulting to first test defined (dng_deepstate_test_splitt_mean_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/splitt_mean/splitt_mean_output/36b3520721d133fd52437261193c42e789bdcb4e.crash`
+TRACE: Running: dng_deepstate_test_splitt_mean_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/splitt_mean/splitt_mean_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mu values: -2.37465e-145 -2.94071e-263 8.39604e+247 -1.59666e+207 nan 6.57596e+17 7.35937e-37 3.87808e-137 nan -7.10598e-179 2.95985e+62 1.30968e-50 -7.47114e+277 -9.12068e+172 -1.74718e-15 2.78769e-216 -3.77048e-217 -7.72365e-69 4.81257e-158 2.06727e+229 56.9312 1.89797e+10 2.25504e+295 8.9406e-79 -2.85944e+36 -7.05963e+187 2.23874e-219 5.693e-244 -inf -1.69602e-106 -3.07079e+213 4.59393e-300 2.72798e+151 3.78943e+242 -2.35703e+292 9.52184e+145 7.4079e+177 5.04187e-134 1.22155e+80 1.0127e+150 -1.43969e+35 -2.13507e+197 -1.79399e-280 1.67962e-65 0
+df values: -1.66747e-265 3.13814e-146 2.51795e+65 -2.07422e+286 7.27282e+158 2.45806e+156 -2.26463e+51 2.3792e-87 2.25272e-291 1.0982e+130 6.45596e-99 -6.80241e+120 5.63102e-258 3.68411e-128 -2.16834e-81 -1.68292e+243 -2.84761e-235 -1.11478e-253 2.1846e+93 -9.28736e-278 -9.08855e-157 -1.66521e-141 9.03802e-185 -3.78271e+64 -3.01205e+64 1.32141e-137 -1.32929e+39 nan 3.27627e-06 4.88505e+141 1.52233e-291 3.62445e-231 4.28401e+216 -8.64204e-155 3.7801e-164 -inf 2.22325e-23 inf 1.25497e+297 2.20784e+06 1.35799e-301 -inf -1.12339e-129 -0.089205 4.71913e-67 -1.57552e-51 -8.47146e+163 0
+phi values: 2.95463e-46 -7.77337e-225 5.81895e+295 -1.84249e-100 6.83525e-108 1.22495e+252 -3.32925e-85 -2.41871e+232 -2.58403e+50 -1.77266e-206 1.59179e-254 3.35863e-269 -7.30477e-159 -1.34794e-152 1.47047e+224 7.09983e+33 -4.49911e+254 -7.88292e+271 2.05663e+242 1.90471e+43 8.83301e+247 9.51031e+188 5.61951e-05 7.2968e+74 -1.68162e-111 5.46247e-207 4.97569e-86 1.45561e-18 -1.27857e-276 3.30225e-72 -2.14329e-74 -1.87846e-122 -1.25066e-31 -2036.52 -5.6064e-88 9.89208e-206 inf 6.16162e-226 1.09785e-198 -1.59013e+105 -4.28984e+51 1.02896e+179 -3.16965e-19 5.52709e+47 2.70986e+141 -7.56036e-85 -2.68561e-25 -3.79462e-289 -1.12311e+244 7.48248e+40 -1.58352e-228 1.74782e+190 -1.99841e-176 4.87178e+255 9.6018e-240 1.75275e-06 -1.39118e+141 2.64729e-43 -1.22471e+119 -1.90381e+184 -4.46789e+95 9.15279e-290 9.35061e-187 -3.00369e-25 -4.27367e-303 6.53079e-112 nan -4.03958e+17 nan -2.4038e+73 1.16206e-91 -8.2244e+139 1.47666e-91 3.97132e+84 2.64956e+241 -3.29778e-196 6.52978e+68 -8.90675e+195 -3.50916e-235 3.71493e+54 1.03981e+40 -0.0304746 1.42657e-42 4.7304e-36 2.49654e+243 -2.26277e+68 3.25475e-21 7.46122e+28 1.03378e-149 1.09597e-120 1.20382e+39 -1.00801e+43 9.18257e-65 inf 2.26141e+195 2.19641e+217 0
+lmd values: -4.72722e+56 6.68538e+231 3.46038e-81 -4.37898e-62 1.0257e-201 -2.11569e+113 -3.53416e-231 nan -2.11569e+113 -2.61196e-299 4.34153e-107 9.95563e-177 3.68943e+170 -1.2228e+194 0.000427849 2.83945e-136 -4.93474e-54 -2.11569e+113
+input ends
+--1654668-- VALGRIND INTERNAL ERROR: Valgrind received a signal 11 (SIGSEGV) - exiting
+--1654668-- si_code=128;  Faulting address: 0x0;  sp: 0x1002f7de10
+
+valgrind: the 'impossible' happened:
+   Killed by fatal signal
+
+host stacktrace:
+==1654668==    at 0x5804FB09: ??? (in /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux)
+==1654668==    by 0x580508A6: ??? (in /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux)
+==1654668==    by 0x58004EBB: ??? (in /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux)
+==1654668==    by 0x58005C44: ??? (in /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux)
+==1654668==    by 0x580A7204: ??? (in /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux)
+==1654668==    by 0x580F5FD4: ??? (in /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux)
+
+sched status:
+  running_tid=1
+
+Thread 1: status = VgTs_Runnable (lwpid 1654668)
+client stack range: [0x1FFEF5B000 0x1FFF000FFF] client SP: 0x1FFEFFF6A0
+valgrind stack range: [0x1002E7E000 0x1002F7DFFF] top usage: 14592 of 1048576
+
+
+Note: see also the FAQ in the source distribution.
+It contains workarounds to several common problems.
+In particular, if Valgrind aborted or crashed after
+identifying problems in your program, there's a good chance
+that fixing those problems will prevent Valgrind aborting or
+crashing, especially if it happened in m_mallocfree.c.
+
+If that doesn't help, please report this bug to: www.valgrind.org
+
+In the bug report, send all the above text, the valgrind
+version, and what OS and version you are using.  Thanks.
+
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/splitt_mean/splitt_mean_output/36b3520721d133fd52437261193c42e789bdcb4e.crash failed

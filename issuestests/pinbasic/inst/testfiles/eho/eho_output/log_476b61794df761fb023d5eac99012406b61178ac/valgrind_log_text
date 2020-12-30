@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (pinbasic_deepstate_test_eho_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pinbasic/inst/testfiles/eho/eho_output/476b61794df761fb023d5eac99012406b61178ac.pass`
+TRACE: Running: pinbasic_deepstate_test_eho_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/pinbasic/inst/testfiles/eho/eho_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+param values: 5.33203e-138 4.58263e-251 1.0864e+87 -7.87787e+95 -inf -4.69678e+241 -5.78346e+59 -3.52345e-299 -inf -1.15133e-149 -inf -3.37643e+87 -2.07505e-17 -5.46403e+11 0
+numbuys values: -1.32134e+259 1.86216e+27 -5.60654e-182 -1.21875e+255 -7.61817e+28 3.84822e+171 1.81757e-242 1.01369e+96 -2.3153e-204 -1.06139e-128 -8.07568e-241 -3.08926e+77 1.55591e-166 5.18436e-127 1.92161e+30 5.97767e+36 -3.66564e+173 1.35429e-226 1.10437e+46 -2.14527e+19 -5.17079e+247 6.82269e-115 -5.59358e-242 1.57966e+128 4.95189e+164 -3.22679e+239 1.04861e-18 -1.18019e+198 -1.90933e-174 -1.56554e+212 2.12881e-246 1.28396e+18 1.97228e-51 5.55457e-231 -1.08483e-122 -5.76217e+175 -1.37358e+73 5.10721e+139 6.20666e-280 1.39979e+212 4.11072e+146 1.97862e+187 1.69835e-90 -6.33661e+144 -1.07359e-144 9.41977e+135 -1.34251e-163 -4.61905e-278 -2.67641e+72 -4.14064e-119 2.85932e+71 -4.6431e-57 7.60478e-76 5.19521e-21 7.61702e-156 -1.59286e-183 3.0174e-167 -1.47496e-201 -3.71281e+146 -3.34337e+36 3.36105e+295 1.90374e+269 -5.28611e-304 4.27729e+156 inf -2.14796e+11 -inf 3.99574e-41 1.99212e+17 -8.40436e-256 -6.57878e-196 -3.07567e+169 -2.07573e+263 1.88733e-111 3.10112e-158 -2.72322e-84 1.65882e-85 -1.27496e-134 7.10395e+32 1.90374e+269 1.24827e+53 -2.27031e+138 -inf
+numsells values: nan nan -5.63231e+98 -9.89101e-281 -1.72632e+51 -3.27059e+164 nan
+input ends
+TRACE: Passed: pinbasic_deepstate_test_eho_test

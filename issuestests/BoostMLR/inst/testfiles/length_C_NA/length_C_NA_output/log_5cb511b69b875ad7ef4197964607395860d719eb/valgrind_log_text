@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_length_C_NA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/length_C_NA/length_C_NA_output/5cb511b69b875ad7ef4197964607395860d719eb.pass`
+TRACE: Running: BoostMLR_deepstate_test_length_C_NA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/length_C_NA/length_C_NA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -7.36527e-96 5.55603e-68 1.70103e+110 nan 6.94094e-127 4.50528e-135 -7.48605e-124 -5.31031e+233 -1.25894e+111 -7.1681e+292 -3.07284e-09 1.23956e-63 -1.67256e+96 -5.47957e+186 3.93751e+114 -4.34085e-241 4.24658e+214 -1.14325e+55 -2.58132e+159 2.34719e+306 -1.86647e+103 -2.13203e+214 -2.67324e+61 -8.5798e+259 2.93649e+77 2.67433e+217 nan -3.51288e-56 nan -6.82475e-142 1.99305e-169 -inf
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_length_C_NA_test

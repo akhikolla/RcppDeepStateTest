@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_mkr_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/46202527687303b0d400fb9aa94f00c57e59470a.fail`
+TRACE: Running: NAM_deepstate_test_mkr_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 1.03352e+62 1.03919e+12 2.97593e-06 1.18566e-35 4.63520e+222 1.13944e-37 4.20324e+190
+1.20364e-73 9.84395e-88 2.10205e-107 1.13469e+105 3.31328e-109 7.13247e-176 5.41914e+155
+4.16384e+167 2.45352e+64 4.15404e+289 2.52094e-120 1.24425e+154 1.50793e+190 9.18470e+211
+
+K values: 2.47801e-308 2.40446e-189 3.34413e+156 2.83034e-232 6.70895e-154 1.10099e+115
+
+input ends
+terminate called after throwing an instance of 'Rcpp::eval_error'
+  what():  Evaluation error: non-square matrix in 'eigen'.
+ERROR: Failed: NAM_deepstate_test_mkr_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mkr/mkr_output/46202527687303b0d400fb9aa94f00c57e59470a.fail failed

@@ -1,0 +1,52 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606694589
+WARNING: No test specified, defaulting to first test defined (SpatialEpi_deepstate_test_binomialLogLkhd_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cz values: -1.24877e+246
+nz values: 4.94951e+94
+N values: 6.99979e+84
+C values: 1.62529e-304
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cz values: 5.42132e-165
+nz values: -8.13472e-144
+N values: -3.65445e-180
+C values: 1.24198e-122
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cz values: -2.93563e-239
+nz values: -1.70434e+149
+N values: 6.01978e-12
+C values: 7.26787e-22
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cz values: -2.66844e-178
+nz values: 1.17262e+300
+N values: 4.57164e+116
+C values: -2.26699e-167
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cz values: -2.93719e-288
+nz values: -2.33556e-105
+N values: 1.65945e-183
+C values: -3.64047e-148
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cz values: -2.63297e-296
+nz values: 1.44424e-185
+N values: -2.04216e+160
+C values: 1.79763e+37
+input ends
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 0 failed/6 passed/0 abandoned tests

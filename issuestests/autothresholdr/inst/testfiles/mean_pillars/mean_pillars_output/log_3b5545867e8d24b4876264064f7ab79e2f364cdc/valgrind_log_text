@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_mean_pillars_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/mean_pillars/mean_pillars_output/3b5545867e8d24b4876264064f7ab79e2f364cdc.fail`
+TRACE: Running: autothresholdr_deepstate_test_mean_pillars_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/mean_pillars/mean_pillars_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: -4.33359e+250 -2.27611e+269 1.46776e-271 2.37198e-45 1.90232e+31 1.49925e-177 -1.56219e+286 -3.68731e+238 -5.13795e+142 -3.15347e+220 2.28314e+277 2.15299e-292 1.03376e-192 -2.12407e-274 -2.19064e+249 nan 2.25725e+40 3.12675e-160 -2.50155e-256 -1.24615e-205 29.1113 8.15291e-07 -3.47736e-264 -4.53744e-106 -2.45156e+215 -7.29338e+38 6.11998e+297 1.33081e+69 8.35867e-294 -1.50137e+144 -4.53744e-106 1.97018e+279 -1.06321e-288 nan -9.27673e+306 -4.47191e-268 2.61769e-233 -1.99038e-255 8.32754e-176 -2.51667e+148 -inf
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_mean_pillars_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/mean_pillars/mean_pillars_output/3b5545867e8d24b4876264064f7ab79e2f364cdc.fail failed

@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (SpecsVerification_deepstate_test_enscrps_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpecsVerification/inst/testfiles/enscrps_cpp/enscrps_cpp_output/42fa10cb8302c56b463a3efe0060ce4013b237db.fail`
+TRACE: Running: SpecsVerification_deepstate_test_enscrps_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpecsVerification/inst/testfiles/enscrps_cpp/enscrps_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ens values: 5.38817e-161 8.53227e-192 1.08735e+193 5.45271e+118 1.15108e-219 1.94930e-232 1.31684e-184 3.23989e+302
+7.10696e+151 1.09272e+184 9.26458e+184 4.62129e+115 8.49964e+130 2.73282e+243 7.76022e-93 8.97839e-63
+3.38561 1.08355e-243 2.09670e-125 7.16769e-73 640012. 2.43718e-84 430668. 9.33361e-120
+6.68228e-66 59.6348 8.28194e+90 5.23753e+283 6.43487e+187 5.65685e-222 5.90623e+291 3.61789e-73
+1.66949e-88 7.81450e-302 4.69085e+35 1.10788e+223 1.16527e-125 6.72386e+133 4.68690e-260 3.26444e-145
+
+obs values: 7.22464e+78 3.40893e-197 2.06019e+190 nan 1.13492e-108 1.74262e-285 5.4962e-296 -1.72381e+302 -5.36637e+245 1.01318e+70 -2.6045e-92 2.71819e+231 -3.77519e-171 -6.89478e-112 3.76024e-197 6.58843e-142 -1.84387e-190 nan -1.0803e-43 4.65385e+117 -9.07297e+192 -1.00066e-307 inf -4.68062e+154 -1.15644e-239 -3.78395e+130 1.20571e+234 3.98118e-243 -3.40874e-216 1.28276e-55 7.22464e+78 -2.73352e+63 -9.60087e-149 4.7131e-175 8.94525e-170 -6.9653e+119 -7.318e+124 -6.24505e-200 -4.17033e-263 -6.34944e-34 7.4178e-95 1.66158e-108 -1.91714e-237 1.00957e+112 -6.3391e+205 -4.24208e+241 7.17967e-109 5.73167e+88 -1.75831e-232 2.71498e+107 -2.13536e-34 5.70679e+107 0
+R_new values: 2.20306e+217
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=5; row extent=5].
+ERROR: Failed: SpecsVerification_deepstate_test_enscrps_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpecsVerification/inst/testfiles/enscrps_cpp/enscrps_cpp_output/42fa10cb8302c56b463a3efe0060ce4013b237db.fail failed

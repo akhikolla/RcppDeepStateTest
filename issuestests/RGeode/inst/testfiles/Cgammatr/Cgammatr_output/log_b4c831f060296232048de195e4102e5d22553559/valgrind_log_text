@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_Cgammatr_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/Cgammatr/Cgammatr_output/b4c831f060296232048de195e4102e5d22553559.pass`
+TRACE: Running: RGeode_deepstate_test_Cgammatr_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/Cgammatr/Cgammatr_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 712954596
+A values: -4.5821e+141
+B values: -5.99497e+100
+range values: 1.5888e-133 4.6447e-307 9.23675e-215 2.74297e-166 8.11063e-14 -inf -6.59923e+119 3.83736e-125 -4.50564e+226 -9.46313e-26 5.8801e-75 1.06165e+101 1.30885e-52 7.0326e+138 1.38071e+220 -1.69059e+201 2.64939e+231 -2.98399e-270 4.27662e-249 -3.53937e+127 -1.29256e-95 1.88962e+146 5.35512e+105 2.14982e+172 -1.18146e-80 3.02968e-109 -3.19381e-177 nan -2.58189e-09 1.47828e+221 -7.68274e+230 7.68466e-259 7.01836e-115 2.68917e-231 -1.75406e+189 3.98721e+58 -6.93067e-289 6.76025e-57 7.8506e+99 -1.45582e-13 6.68595e-189 -2.65271e+181 1.12537e+98 4.32119e+14 9.93582e-74 -2.31111e+80 -8.63148e-42 -1.13857e+160 -2.56687e-28 31827.9 6.18279e+239 1.24126e-127 inf 1.21351e-128 -2.39109e+157 -1.68929e-18 -7.14724e+205 -4.94558e+188 -2.21276e-128 -inf -2.24713e+10 -1.65237e-116 3.29826e+28 -3.47356e+295 0
+input ends
+TRACE: Passed: RGeode_deepstate_test_Cgammatr_test

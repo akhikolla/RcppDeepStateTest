@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_Jeffreys_mi_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/Jeffreys_mi/Jeffreys_mi_output/322aa1d8a17afc8326507e2a57bde40173b1489e.pass`
+TRACE: Running: BNSL_deepstate_test_Jeffreys_mi_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/Jeffreys_mi/Jeffreys_mi_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -6.8667e-208 -8.39534e+193 -inf -1.65084e+34 nan 4.84566e-246 inf -2.84146e+35 7.90693e-240 nan 7.27604e+90 -6.40588e+300 2.9619e-71 -5.23932e+246 nan -7.06368e-47 -3.83456e-204 -1.43736e+112 0
+y values: -1.68193e-157 -1.4038e-56 5.41723e+84 5.4158e+157 3.1071e+88 1.97466e+186 nan -3.19767e-14 -4.91981e-194 -3.06469e-105 -2.0611e+144 -7.2191e-44 inf 1.97943e+302 1.21219e+259 -4.36076e+117 2.54143e-291 7.71e+284 4.44322e-221 -1.2324e-157 -2.89249e+227 9.14203e-169 -1.52235e+124 6.46323e-159 -6.67155e-206 7.01338e+258 5.92384e+259 -2.64382e+86 2.63848e-78 -3.56107e-18 3.19259e+303 -1.09016e+61 -1.54891e+34 9.84428e-132 -1.83107e+251 -3.51188e+10 -5.99759e+136 2.66506e+42 1.61994e+179 3.79828e+200 nan 1.72617e+219 -1.20539e-114 -inf -1.04843e+40 -3.40862e-249 8.85497e+104 1.24566e+272 -2.83807e-53 1.77609e-159 -6.80797e+86 1.49382e+110 -8.51164e+139 -1.42433e-303 0.0196158 -5.04492e+174 nan -3.19362e+81 1.41934e+80 4.04376e+13 -1.49065e+118 1.32373e+258 9.28307e+141 1.84708e-138 -5.6559e-242 3.4166e-187 -5.22972e+161 -2.19096e-119 -5.8516e-197 2.57311e-146 -4.67928e-88 -7.05383e-78 -2.24458e-184 5.3811e+35 -2.42596e+231 6.50676e-239 4.29138e+64 4.95574e+20 1.9046e-73 -3.31993e+93 -1.69768e+226 -2.91431e+25 -2.03728e-110 -6.71531e+156 5.79832e+296 6.70315e-218 -4.11821e-268 -2.75028e-184 7.7959e+256 -2.65676e+76 1.7563e+161 2.91123e-209 -5.13067e+89 4.36632e+96 -3.83953e+205 -1.23067e-281 1.97995e+197 -1.13869e+304 0
+m_x values: 204643901
+m_y values: 1912857129
+input ends
+TRACE: Passed: BNSL_deepstate_test_Jeffreys_mi_test

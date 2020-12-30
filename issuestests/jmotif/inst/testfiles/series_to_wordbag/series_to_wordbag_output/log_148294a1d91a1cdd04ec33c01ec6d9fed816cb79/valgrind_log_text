@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_series_to_wordbag_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_output/148294a1d91a1cdd04ec33c01ec6d9fed816cb79.fail`
+TRACE: Running: jmotif_deepstate_test_series_to_wordbag_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ts values: 1.33356e-115 -1.13479e-282 -5.10367e-291 -4.70793e+35 9.89817 inf -1.86239e+27 -1.96621e-62 2.24806e-298 -2.61426e-105 8.11335e-210 -4.04108e-241 2.06285e+27 -2.46133e+162 -9.68942e-33 -4.23346e-113 -4.37047e+196 -2.1619e+92 1.96582e+180 1.912e-05 2.17033e+80 -1.19178e+250 2.43158e-21 8.04039e-29 -1.19744e-155 1.26023e+63 -6.45442e+278 -2.21306e+244 1.96296e-67 -2.66598e-146 -1.53526e+17 -1.67068e+78 6.51077e-40 1.05924e+82 -2.25527e-155 1.43536e+105 1.04358e+292 1.34714e-166 1.39478e+163 8.88149e+39 -9.36338e-68 -1.47933e-231 2.16666e-54 1.811e+131 1.97212e+169 2.54138e-251 nan -3.35351e+38 1.56071e+259 -1.0235e+56 -3.9744e-164 1.96847e-08 -8.1462e+212 -7.61842e+286 -2.03587e-275 2.06285e+27 3.74377e+171 nan -1.21303e-239 -1.30151e-30 -1.71728e-282 -7.497e-97 -1.17249e+101 -5.99064e-45 -4.13319e+254 2.85053e-41 -1.44792e+306 -2.63707e-115 -9.23775e+71 -1.88812e+45 7.13443e-102 -1.62209e-147 -4.23796e-17 5.12359e+306 -2.45309e+138 -6.37968e-132 -1.01581e+161 2.59921e+303 3.30498e-230 -6.55955e-229 -7.86504e+200 1.83626e-228 2.65361e-51 7.63716e+266 -6.22183e+112 -1.21486e-183 -7.17389e+220 1.92965e-49 7.04328e-133 2.60776e+213 -1.27629e-209 -1.32579e+176 -9.36077e+95 2.74741e+63 -8.76271e-212 -1.49315e-183 1.27959e-166 0
+w_size values: -1429910183
+paa_size values: 113560914
+a_size values: 458582994
+nr_strategy values: "ejxdaegszmkikmyxcnui" "yute" "NA" "NA" "NA" "rmyrvbujbqhobdbrwzwa" "agkjgxwhlxklleuyfkmm" "bedqkiwjmcsywzylzgjd" "wdjmckjchzkwt" "NA" "" "ggtuctrjwprhvlpooxtw" "fkpsqcjwsvsxkwgjneml" "jlawotztyzidlxodaf" "litgjbnlbqsdcjpgglby" "geatwrzgsjuyjcckwovn" "pyctapqqkdq" "wphvcbugjwfchlupvnbh" "NA" "NA" "qcssmyicxwxhdly" "ibmpiixczyjgjpnrnjvt" "NA" "uoqqjvb" "NA" "tgoeaxofghxovapgurzu" "ddaxklonqnfshjv" "NA" "NA" "ldjuicfqkncdysjrevhg" "NA" "at" "vhcekupuagxnzyaabgyv" "hienmcoxtusqwcbavege" "louqrkbtvwtvsxdo" "NA" "yljphsckirlhdpqofolh" "xrp" "uojiytm" "qewzujbgovobipqxpasz" "jcdmssdwxmqhbeztt" "fghrjgwlcejcdlbjghdn" "NA" "itygrizzpibixqybirjq" "NA" "NA" "rlncwalvtsahtbapmzji" "smzxvpwwrfftogbslnoo" "yjwdomxvsbhalkcbgoiz" "dznylhagfwatownmygqw" "dwnnf" "hdmj" "kbqdvldpcswjuftjtymw" "aygdpyt" "NA" "ezjdzsouvu" "geuiznbjhxr" "NA" "NA" "" "plgrqizhqbesrqxejiyl" "NA" "NA" "gwzzihfgvynvulsqkqrr" "j" "NA" "majcjbtyxgftwzpnjkuw" "vdgjmbnppwcyllqgmhbr" "uhalbzwyjjcraqskvtdv" "eujgsotakxrxoluzwmyk" "bqraeo" "NA" "gcbiyudpvovcgtdzjbzd" "NA"
+n_threshold values: -7.42361e-291
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=74].
+ERROR: Failed: jmotif_deepstate_test_series_to_wordbag_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/series_to_wordbag/series_to_wordbag_output/148294a1d91a1cdd04ec33c01ec6d9fed816cb79.fail failed

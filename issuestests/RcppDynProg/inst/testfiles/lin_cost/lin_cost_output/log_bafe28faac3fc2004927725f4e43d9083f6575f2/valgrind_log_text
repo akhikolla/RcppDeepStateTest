@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_lin_cost_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/lin_cost/lin_cost_output/bafe28faac3fc2004927725f4e43d9083f6575f2.fail`
+TRACE: Running: RcppDynProg_deepstate_test_lin_cost_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/lin_cost/lin_cost_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -4.48592e-83 5.33877e+141 9.79435e-236 5.70576e+304 -8.10852e-66 inf 7.09681e+180 -1.6267e+44 1.70499e+163 -1.21626e-123 -4.77338e-122 -6.62322e-119 -2.09627e+117 -1.71579e+266 1.31777e-286 1.9463e-61 -1.55502e+37 inf -6.32182e-214 530.539 inf -8.71776e+138 -1.99836e+17 4.11913e-265 2.64529e-247 1.77033e+106 4.74787e-93 -6.06848e-227 3.71403e-222 1.68055e-06 -2.26229e-151 -1.41563e-155 1.30617e-30 -4.34378e+85 -2.31756e+51 -3.36424e+185 1.93327e-296 -8.07333e+188 6.89832e+235 1.1511e-290 -1.3822e+54 -2.07282e+296 -8.11319e+145 -1.79743e+186 -7.88471e+77 1.09934e-107 -7.17968e-56 0
+y values: 6.94087e-62 -1.256e+145 nan nan 1.23952e+206 -282.225 -4.51478e+68 0
+w values: 5.92115e-212 -4.96018e-294 nan inf -4.83013e-179 nan
+min_seg values: -1172579327
+i values: -964263231
+j values: 1730110856
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-964263231; extent=6].
+ERROR: Failed: RcppDynProg_deepstate_test_lin_cost_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/lin_cost/lin_cost_output/bafe28faac3fc2004927725f4e43d9083f6575f2.fail failed

@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_rhoRcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/rhoRcpp/rhoRcpp_output/d0296b5ff66f1a1e8cf6c0327c75193ea5701d00.pass`
+TRACE: Running: propr_deepstate_test_rhoRcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/rhoRcpp/rhoRcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 3.77257e-77 3.57189e-246 1.60027e+32 5.35825e+131 5.66421e-127
+2.81054e+105 5.12587e-110 3.11485e-26 5.64818e+155 1.03627e-214
+6.05143e-203 4.61598e-86 6.38006e+58 6.59559e+82 6.13613e-123
+
+lr values: 3.50625e+34 108074. 3.97854e-91 2.06224e-48 2.91482e+288 8.82702e+287 3.84886e+273
+7.99765e-120 1.97753e+133 1.27079e-100 3.30933e-244 6.32546 1.03137e-276 1.10338e+146
+1.66847e-113 8.20268e-234 5.66121e+283 2.23776e+231 9.24519e-303 7.94718e+217 7.64934e-292
+3.32135e-295 1.36187e+32 4.06604e+20 9.84392e+140 2.95465e-128 9.48150e-102 445588.
+2.75316e-96 1.57120e+262 6.09629e-129 6.18205e+169 4.24431e-53 4.05039e+307 1.40677e+168
+
+ivar values: -738140165
+input ends
+TRACE: Passed: propr_deepstate_test_rhoRcpp_test

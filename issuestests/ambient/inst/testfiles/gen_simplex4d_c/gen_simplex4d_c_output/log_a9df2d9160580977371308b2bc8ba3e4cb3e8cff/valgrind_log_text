@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_simplex4d_c_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_simplex4d_c/gen_simplex4d_c_output/a9df2d9160580977371308b2bc8ba3e4cb3e8cff.pass`
+TRACE: Running: ambient_deepstate_test_gen_simplex4d_c_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_simplex4d_c/gen_simplex4d_c_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 7.21425e-299 1.06346e-232 1.31721e-123 -1.35514e+166 -1.91703e+232 5.07747e-120 -6.76991e-235 4.4487e+301 -7.43935e+171 2.18678e+23 1.53261e-204 -3.56092e+273 -2.06836e+74 7.08836e-83 -9.53762e+123 2.35355e+82 5.75305e+34 -1.53967e-206 -3.6178e+255 1.10291e-234 -2.87665e+96 -1.32592e-60 -7.31625e+56 -2.1807e-256 -2.4868e+219 -6.78955e+136 -3.09174e+223 -5.10759e-51 nan -1.70508e+31 -1.70002e-202 4.24796e-102 1.32524e+51 7.56518e-192 inf -1.47008e-113 1.86855e+153 7.06601e-87 2.68228e+303 -7.31283e-180 -2.31408e+85 nan -1.05857e+145 -1.62136e+150 5.45897e+228 6.69029e-221 -1.3704e+78 -1.00367e-247 -1.106e+203 -2.92815e-208 -1.21802e-68 1.31143e+17 -3.80696e+286 -6.28597e+88 2.79143e+168 2.89829e+196 1.90927e+244 nan nan 0
+y values: -8.00764e+243 6.40038e-111 -3.82653e-287 nan 1.86925e+173 -1.41124e-57 4.98501e-185 7.09509e-37 2.14374e+98 5.38583e+130 1.503e+101 4.15154e+155 1.80717e+128 3.28554e+18 -1.01915e-165 3.97336e-84 2.98856e+97 1.9651e-132 7.29178e-189 -1.41312e-73 1.33531e-246 -1.64697e+248 -3.29188e-21 -6.26073e+181 2.51386e+215 2.14738e+217 -7.84535e+270 6.89534e-171 inf 7.96388e-174 1.98202e+227 -3.82301e-231 4.73551e+137 1.26479e+30 -1.9146e-14 -77055.4 -1.11941e-52 -2.24903e+232 -1.52769e+72 1.64367e-233 6.03643e+171 1.48617e-231 6.71324e-116 -6.45535e-105 8.23058e-56 3.07989e+67 3.37297e-124 1.28222e-237 -3.59294e+280 -5.26695e-169 -1.97771e+65 -inf -2.05566e-162 1.66748e-287 nan 1.27737e-131 -3.66e+74 -2.45346e+150 1.79686e-174 6.22045e+218 -1.05006e+183 -5.55435e-134 3.15643e+280 1.49784e-112 -2.48353e+210 -1.33598e-270 0
+z values: -2.15434e+93 -9.29275e+303 4.81472e+154 -inf 2.28313e-102 -1.46497e+51 inf 0
+t values: nan nan nan
+freq values: 4.72487e+93
+seed values: 703155466
+input ends
+TRACE: Passed: ambient_deepstate_test_gen_simplex4d_c_test

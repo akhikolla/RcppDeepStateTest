@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (robustSingleCell_deepstate_test_jaccard_coeff_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robustSingleCell/inst/testfiles/jaccard_coeff/jaccard_coeff_output/01ac237bfb33e1b56213535bda49c62c8c8aff6f.fail`
+TRACE: Running: robustSingleCell_deepstate_test_jaccard_coeff_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robustSingleCell/inst/testfiles/jaccard_coeff/jaccard_coeff_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+idx values: 4.62896e+76 7.92643e+108 1.49468e-308 1.20377e-296 3.71851e-255 1.31219e-239 2.33114e+127 3.39147e-247
+5.88696e-308 2.88922e+22 3.63667e-151 1.12399e+78 1.98292e+34 1.21248e+138 4.75027 1.50484e+304
+3.98728e+166 1.96544e-255 3.35839e+17 1.08379e-13 6.01555e+204 3.58197e+88 4.43770e+204 7.58580e-288
+6.90404e-148 8.48480e-92 6.58473e-52 3.84165e+122 3.42989e+197 5.29075e+229 2.32110e-248 5.78613e+91
+1.08207e+99 2.55640e+215 9.69068e-149 9.95855e-09 1.28580e-227 7.74659e-274 1.79412e-304 1.78059e-22
+2.75542e+111 9.06992e+217 4.39837e-174 2.78098e+221 2.95827e-294 3.17013e+167 8.07683e-58 6.89333e-268
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=-2147483648; row extent=6].
+ERROR: Failed: robustSingleCell_deepstate_test_jaccard_coeff_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robustSingleCell/inst/testfiles/jaccard_coeff/jaccard_coeff_output/01ac237bfb33e1b56213535bda49c62c8c8aff6f.fail failed

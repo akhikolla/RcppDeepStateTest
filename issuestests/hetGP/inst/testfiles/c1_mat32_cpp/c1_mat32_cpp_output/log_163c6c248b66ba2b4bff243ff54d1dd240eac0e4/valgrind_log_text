@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_c1_mat32_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat32_cpp/c1_mat32_cpp_output/163c6c248b66ba2b4bff243ff54d1dd240eac0e4.fail`
+TRACE: Running: hetGP_deepstate_test_c1_mat32_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat32_cpp/c1_mat32_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: nan -1.14908e+19 -7.51551e+234 -7.51551e+234 nan -1.33144e-138 -2.95192e-222 -6.56582e-301 1.02436e+277 -6.71857e+63 -5.65536e+111 4.75814e-257 -1.49548e+32 -2.83575e+224 0
+x values: -8.822e+72
+sigma values: -1.30015e-75
+W values: 1.04182e+246 -9.971e-183 2.50968e+259 nan nan -2.06282e-63 -inf -2.24217e-206 -84504.3 inf
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=10; extent=10].
+ERROR: Failed: hetGP_deepstate_test_c1_mat32_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/c1_mat32_cpp/c1_mat32_cpp_output/163c6c248b66ba2b4bff243ff54d1dd240eac0e4.fail failed

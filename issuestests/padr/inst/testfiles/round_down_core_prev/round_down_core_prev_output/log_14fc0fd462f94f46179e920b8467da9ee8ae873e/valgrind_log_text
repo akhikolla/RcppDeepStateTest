@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (padr_deepstate_test_round_down_core_prev_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/padr/inst/testfiles/round_down_core_prev/round_down_core_prev_output/14fc0fd462f94f46179e920b8467da9ee8ae873e.pass`
+TRACE: Running: padr_deepstate_test_round_down_core_prev_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/padr/inst/testfiles/round_down_core_prev/round_down_core_prev_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: -121318321 1870437724 -1442739174 -117369390 -2083277174 -1563421492 -1985226701 -1402647132 690156441 -1442739174 1647152987 782511537
+b values: 135105590 -1313151191 -1641856174 1915326573 -402517236 -1050781022 -1673518742 480221988 -1406641315 -498956672 1707725528 -211597861 1700325414 -1237137326 -2098610786 -824476367 -2145480094 1612243654 -491413803 417575037 999859186 -630504355 1409416157 1522405850 -593281731 -1138818146 -727616532 -824476367 -1140018794
+input ends
+TRACE: Passed: padr_deepstate_test_round_down_core_prev_test

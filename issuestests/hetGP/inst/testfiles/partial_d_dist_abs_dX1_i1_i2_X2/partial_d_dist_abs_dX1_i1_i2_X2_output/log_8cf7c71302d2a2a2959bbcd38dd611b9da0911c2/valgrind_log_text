@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_partial_d_dist_abs_dX1_i1_i2_X2_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_abs_dX1_i1_i2_X2/partial_d_dist_abs_dX1_i1_i2_X2_output/8cf7c71302d2a2a2959bbcd38dd611b9da0911c2.crash`
+TRACE: Running: hetGP_deepstate_test_partial_d_dist_abs_dX1_i1_i2_X2_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_abs_dX1_i1_i2_X2/partial_d_dist_abs_dX1_i1_i2_X2_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.66866e-189 6.64385e-300 7.56760e-180 7.86538e-60 1.00926e-299 3.69323e+128 1.76050e-277 3.43053e+187 4.91579e-92 9.02373e+91
+7.75406e-154 3.16251e-249 1.12473e-145 3.84741e+184 1.69310e-249 1.01312e+151 5.43824e-36 2.45763e+245 4.30165e-47 3.56557e-24
+7.87627e+288 1.47005e+303 3.00828e-118 4.19493e-283 1.59679e-186 2.49649e+51 1.24664e+305 1.05582e-13 9.74420e-71 4.19025e-97
+8.38662e-274 1.19279e-18 5.96256e-173 2.41139e-103 5.33404e-282 2.57279e-257 1.55585e-71 5.85159e-199 3.14682e+280 7.09683e-195
+
+X2 values: 5.14741e-135 9.22136e+66 1.96171e+157 3.28615e+201 3.58357e+106 3.20558e+27 1.59457e+274
+
+i1 values: -1935778892
+i2 values: 1446689023
+input ends
+==1891511==  If you believe this happened as a result of a stack
+==1891511==  overflow in your program's main thread (unlikely but
+==1891511==  possible), you can try to increase the size of the
+==1891511==  main thread stack using the --main-stacksize= flag.
+==1891511==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: hetGP_deepstate_test_partial_d_dist_abs_dX1_i1_i2_X2_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/partial_d_dist_abs_dX1_i1_i2_X2/partial_d_dist_abs_dX1_i1_i2_X2_output/8cf7c71302d2a2a2959bbcd38dd611b9da0911c2.crash crashed

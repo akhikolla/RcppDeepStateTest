@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_emBC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emBC/emBC_output/516c8a7de90ae48115d69407484c982e98a121e1.pass`
+TRACE: Running: NAM_deepstate_test_emBC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emBC/emBC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 1.71284e-263 -3.72977e-140 -1.79492e+303 nan 5.22241e+36 -3.72977e-140 -1.1224e+256 -4.41002e+52 -inf 4.44112e+250 7.42349e+77 -1.25806e-236 -4.28563e-308 -3.32333e-140 -2.17171e-84 2.16046e-251 -5.46347e+292 inf 0
+gen values: 8.27566e-41
+2.81582e+259
+5.25141e+239
+3.06801e-11
+1.51192e-160
+
+df values: -2.22699e+208
+R2 values: 3.91888e-137
+Pi values: -1.9568e+132
+input ends
+TRACE: Passed: NAM_deepstate_test_emBC_test

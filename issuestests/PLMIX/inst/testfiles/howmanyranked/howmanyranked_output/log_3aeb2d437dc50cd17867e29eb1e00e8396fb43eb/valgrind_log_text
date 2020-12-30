@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (PLMIX_deepstate_test_howmanyranked_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PLMIX/inst/testfiles/howmanyranked/howmanyranked_output/3aeb2d437dc50cd17867e29eb1e00e8396fb43eb.pass`
+TRACE: Running: PLMIX_deepstate_test_howmanyranked_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PLMIX/inst/testfiles/howmanyranked/howmanyranked_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pi_inv values: 7.21368e-255 4.54147e+241 1.76702e-201 1.53999e+255 2.15377e+236 3.25690e-153
+2.76001e-76 2.13059e+85 4.23863e+240 2.29620e+232 1.26226e+284 3.90993e+30
+3.81834e-134 9.33526e+92 1.93421e+155 5.58071e+214 3.81622e-59 1.87221e+231
+4.84509e+157 3.09219e+84 2.20704e+95 3.19110e+279 2.39619e+27 1.71607e+137
+6.81480e+104 1.79924e-45 1.04201e-155 3.68155e+94 1.09425e+173 2.85609e-71
+
+input ends
+TRACE: Passed: PLMIX_deepstate_test_howmanyranked_test

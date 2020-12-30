@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (segmenTier_deepstate_test_myPearson_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/myPearson/myPearson_output/018abd572354483b3477e6a8ee9a1ed1f6ca3116.pass`
+TRACE: Running: segmenTier_deepstate_test_myPearson_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/segmenTier/inst/testfiles/myPearson/myPearson_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -4.83464e-08 3.25258e-13 -5.12828e+111 nan -3.26977e-33 -2.11837e-261 -3.21953e-189 -3.7811e-291 1.05814e+213 -1.21136e+222 3.62052e-28 5.95089e-14 -4.61982e-94 -3.89111e-239 -7.90758e+237 9.46828e-131 -8.03061e+52 -7.26119e-270 nan 2.59545e+170 -2.39664e+58 6.99757e-111 -3.62494e+71 nan -2.04802e-274 -6.56583e+62 8.90376e+146 -1.85989e-163 -3.03735e-269 1.49541e-289 -4.7754e-66 nan -2.30078e-271 -1.19464e+241 4.03427e-09 8.22336e+111 -6.01921e+291 -2.76648e-247 7.87339e+214 -5.07141e-258 -2.27019e+23 4.5357e+27 0
+y values: nan nan
+input ends
+TRACE: Passed: segmenTier_deepstate_test_myPearson_test

@@ -1,0 +1,30 @@
+WARNING: No test specified, defaulting to first test defined (robmixglm_deepstate_test_llrandbinomcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandbinomcpp/llrandbinomcpp_output/4655106f299a8c8fefee5fb4a3cc7c7b2d04d63f.pass`
+TRACE: Running: robmixglm_deepstate_test_llrandbinomcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandbinomcpp/llrandbinomcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 6.78600e-164 2.34893e+233
+7.59235e-238 7.51502e+38
+1.08286e-222 2.62904e-65
+1.52844e-92 5.50396e-132
+3.96485e-257 7.79686e-214
+1.68615e+81 9.39855e+148
+8.12703e-122 1.77811e+201
+2.84057e-284 3.98703e-260
+
+lp values: -5.55728e-10 7.86482e+119 1.445e+235 -5.55016e-12 2.82648e+62 -5.00006e-190 -1.20034e+254 -3.92338e+29 1.26748e-57 5.85969e+240 2.92545e+89 -3.17785e+55 2.10758e-260 -3.65919e+155 1.89008e-149 1.35779e-24 2.55702e-68 3.78212e+159 -inf 9.27237e+55 2.62748e-32 -1.08655e-37 6.87783e+209 nan -1.48648e-208 -1.06938e-110 9.13434e-169 1.60929e-307 -7.25611e-280 1.99803e-15 -1.71128e+156 1.10644e+86 2.14013e-24 4.64866e-99 -4.43927e+292 1.71026e-84 2.28808e-203 -1.47529e+225 -5.21514e+243 -3.16534e+96 -3.36e+231 -3.15307e-293 -1.73046e+15 -3.03245e+234 nan 1.55923e+29 -3.59023e-243 -3.10511e+85 -8.57973e-143 -2.22944e-116 -3.85394e-143 nan 7.82738e+147 2.83447e-269 -3.40501e+254 -3.06687e+93 6.16357e+176 nan 2.24598e-152 0
+tau2 values: 8.90128e+299 2.90246e-109 -5.61972e+12 2.40475e-126 9.5327e-181 9.40308e-199 inf 9.27531e-241 2.90246e-109 nan
+gh values: 6.53952e-183 5.55921e+81
+2.68676e-101 2.04040e+17
+2.67418e-38 9.54509e-109
+6.04632e+292 2.51922e-169
+6.59892e-267 2.30871e+242
+9.87495e+26 2.75903e-250
+5.40243e+193 1.00861e-184
+7.04510e+226 8.12639e+150
+1.65150e+103 2.03100e-78
+1.10608e+303 2.36466e-54
+
+input ends
+TRACE: Passed: robmixglm_deepstate_test_llrandbinomcpp_test

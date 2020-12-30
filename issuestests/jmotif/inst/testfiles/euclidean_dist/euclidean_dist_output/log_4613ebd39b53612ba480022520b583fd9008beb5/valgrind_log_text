@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_euclidean_dist_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/euclidean_dist/euclidean_dist_output/4613ebd39b53612ba480022520b583fd9008beb5.pass`
+TRACE: Running: jmotif_deepstate_test_euclidean_dist_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/euclidean_dist/euclidean_dist_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+seq1 values: nan 1.67808e+153 -9.88098e+126 8.34141e+78 nan -1.16854e+25 1.06733e+75 -4.09346e+284 7.51352e+254 -1.45358e+40 1.07411e-294 -inf nan -1.36015e-51 1.78803e+245 2.4025e+29 -9.78923e+96 -3.15487e+230 -4.30631e-189 0
+seq2 values: nan 5.1835e-264 -5.1538e-160 2.08222e+14 2.34619e+222 2.21338e-162 -1.58816e-14 9.97794e-51 2.01499e-296 -9.64702e+40 -5.84302e-195 2.18715e-135 1.35455e+288 4.63075e-151 -3.33083e-78 -1.26186e-213 -1.66607e-65 513699 nan -8.827e+67 -1.52367e-175 -1.19343e+214 2.22152e-104 1.35858e-10 -1.88019e-226 2.75874e-26 4.53567e+17 -2.5799e+228 -3.33083e-78 3.31617e-300 -5898.7 3.85202e-72 7.69923e-181 1.5476e+77 -7.51949e-47 3.18558e-58 8.29986e+137 inf 1.20173e-280 4.26227e-71 -1.2651e+284 3.56447e-99 -1.73739e-35 1.35711e+42 -1.64546e+295 0
+input ends
+Exception Handled
+TRACE: Passed: jmotif_deepstate_test_euclidean_dist_test

@@ -1,0 +1,74 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606685895
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_const_vmsin_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 3.1607e-15
+k2 values: 7.27271e+142
+lambda values: -5.68657e-107
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 1.32382e-48
+k2 values: 1.70354e+133
+lambda values: -7.28012e-154
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 4.70617e+277
+k2 values: -7.96728e-166
+lambda values: 1.31168e-213
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 2.66605e-163
+k2 values: 9.00245e+89
+lambda values: 7.04204e-94
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -1.78674e-296
+k2 values: 3.92564e+109
+lambda values: -2.36825e+138
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 2.08994e-176
+k2 values: 3.68224e+304
+lambda values: 1.46385e-33
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 2.35885e-236
+k2 values: 2.3875e+70
+lambda values: -4.56731e+11
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -4.8989e+65
+k2 values: 9.87577e+38
+lambda values: -2.15593e-111
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -9.62045e-106
+k2 values: 1.01472e+236
+lambda values: 1.4213e+177
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 9.32332e-299
+k2 values: 1.09194e-106
+lambda values: -1.52656e-177
+input ends
+INFO: Done fuzzing! Ran 10 tests (5 tests/second) with 0 failed/10 passed/0 abandoned tests

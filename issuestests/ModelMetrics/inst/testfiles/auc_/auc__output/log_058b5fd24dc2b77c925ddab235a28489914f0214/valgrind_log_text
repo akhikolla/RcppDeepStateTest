@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (ModelMetrics_deepstate_test_auc__test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/auc_/auc__output/058b5fd24dc2b77c925ddab235a28489914f0214.pass`
+TRACE: Running: ModelMetrics_deepstate_test_auc__test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/auc_/auc__DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+actual values: -3.89854e-28 -1.50787e+280 2.19262e+243 nan 1.1917e-278 3.05223e-282 -3.92477e+303 -7.78552e+285 -5.43009e-113 -5.47361e-265 -2.70203e-240 -2.63173e+23 6.17966e-204 5.546e-55 -2.93812e+186 1.87348e-256 2.3816e-203 -4.77042e+166 1.98502e+59 1.51281 -1.71844e-11 nan -inf -inf 3.1288e+270 1.80816e+81 -5.43159e-278 2.88929e+144 2.02661e-56 -4.79651e+101 -3.57565e+106 -5.28538e+227 -2.72104e-77 5.01737e-278 7.57549e-39 -3.58661e+227 1.8087e+109 2.0308e+200 1.97833e+101 -1.10867e-300 -3.94229e-95 -2.22097e+77 2.32566e-54 -7.40134e+189 -3.8323e+216 -2.02276e-281 1.29649e+17 -1.79907e+290 -2.01383 1.65312e-200 6.669e+175 0.000425339 -1.85197e-19 3.58566e+115 7.28934e+193 -5.91548e-45 0.0303246 -inf -7.33126e+177 -5.08658e-28 3.83226e-285 4.41741e+57 5.80258e+203 5.08477e-293 -2.02661e-150 -2.45374e+206 2.60372e+15 -2.4238e+120 -2.40818e-156 -0.435891 -1.38271e+09 -9.18756e-242 6.61399e-208 2.04125e+124 0
+predicted values: -1.18244e-203 3.72045e+188 nan 4.33219e+108 3.20154e-49 3.2684e+139 -1.34362e+183 -5.77543e-82 158.661 3.48104e-79 -inf -3.46885e-190 -3.05814e+16 2.11967e-261 5.03658e-145 3.30359e+69 -3.26397e-37 3.61235e+104 3.75807e-126 -7.67099e+17 -1.87581e-70 -2.02969e-166 1.46287e-20 nan nan -4.6611e-05 -7.43423e+172 -3.43157e+185 -3.68694e-08 -inf 1.16851e+30 3.07082e-186 0
+input ends
+TRACE: Passed: ModelMetrics_deepstate_test_auc__test

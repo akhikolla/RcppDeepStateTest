@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (exceedProb_deepstate_test_pnct_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/exceedProb/inst/testfiles/pnct/pnct_output/274a82ca7faf8b959751a959b8b9ab3d277aa351.fail`
+TRACE: Running: exceedProb_deepstate_test_pnct_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/exceedProb/inst/testfiles/pnct/pnct_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.10036e+94
+df values: -2.60624e-78
+ncp values: -4.78951e+215
+input ends
+terminate called after throwing an instance of 'boost::wrapexcept<std::domain_error>'
+  what():  Error in function boost::math::non_central_t_distribution<double>::non_central_t_distribution(double,double): Degrees of freedom argument is -2.6062391153739566e-78, but must be > 0 !
+ERROR: Failed: exceedProb_deepstate_test_pnct_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/exceedProb/inst/testfiles/pnct/pnct_output/274a82ca7faf8b959751a959b8b9ab3d277aa351.fail failed

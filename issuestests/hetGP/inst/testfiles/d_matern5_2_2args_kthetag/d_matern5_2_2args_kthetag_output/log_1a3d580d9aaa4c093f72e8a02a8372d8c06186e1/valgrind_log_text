@@ -1,0 +1,29 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_d_matern5_2_2args_kthetag_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/d_matern5_2_2args_kthetag/d_matern5_2_2args_kthetag_output/1a3d580d9aaa4c093f72e8a02a8372d8c06186e1.pass`
+TRACE: Running: hetGP_deepstate_test_d_matern5_2_2args_kthetag_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/d_matern5_2_2args_kthetag/d_matern5_2_2args_kthetag_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 1.96050e+249 2.53253e-231 1.63157e-09 1.07686e-235 1.29239e+82 6.38260e-251 2.18486e-198 4.55314e-163
+2.96123e+286 5.16156e-288 7.54070e-212 5.38592e+76 2.01080e-194 1.08845e-27 5.44652e+261 9.38811e+278
+8.61193e+147 3.65872e-171 0.00417167 4.51937e+94 3.51232e+126 3.78426e-246 2.02438e+218 1.47761e-268
+4.35712e-145 2.02013e-91 9.75496e+52 5.27532e-73 6.00542e-145 1.69634e+292 9.44570e-79 1.39809e-260
+1.85426e+191 7.30141e-269 5.44955e+134 3.36493e-167 1.25502e+49 3.80012e+129 6.14365e-130 3.01399e+43
+1.39619e-254 1.10558e-209 6.82478e+36 1.15164e+281 6.08610e-15 7.50388e+103 9.54979e-249 7.63747e-87
+8.25363e-107 2.38473e-57 3.29453e+194 3.45849e+13 2.67213e+251 8.28075e+156 4.25044e-150 3.05792e-194
+2.34373e+270 5.57949e+281 2.08116e-76 7.73008e+198 1.07754e+306 8.62569e+136 3.25342e-271 5.28072e-177
+
+X2 values: 1.28123e+116
+3.61688e-286
+1.98340e+70
+1.91547e-100
+2.06282e-168
+3.86442e-232
+27.5451
+3.50866e+46
+6.56901e+94
+1.45497e+25
+
+kt values: -1.85879e+95
+input ends
+TRACE: Passed: hetGP_deepstate_test_d_matern5_2_2args_kthetag_test

@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blockaves_n_max_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_output/ac252a4df93b97dcb49e10f81758644007621a00.crash`
+TRACE: Running: accelerometry_deepstate_test_blockaves_n_max_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -1.28399e-29 2.53931e+222 -4.74142e+92 -2.33089e-25 -3.73909e-116 inf 5.62738e+156 1.75711e+104 -3.99897e-207 2.44006e-117 6.57342e-253 -1.12969e+132 -3.8481e-82 inf 1.32906e+271 2.59227e-08 1.42471e+19 5.1729e-99 -7.38265e+50 -2.1375e-224 -5.96067e-282 5.6051e-32 5.69959e-254 -1.92255e-221 -2.40276e+156 -1.62355e-250 -2.12972e+52 -8.074e+163 -2.53503e-266 -9.69438e+221 -5.12985e-60 nan -1.11856e-305 2.84316e-25 -1.17135e-200 1.20965e+235 5.47219e-124 3.47908e+235 4.5967e-10 1.01281e-240 inf -1.44013e-114 2.62007e-120 -3.23781e+32 2.02587e+141 3.84839e+248 -6.75665e+63 3.79176e+303 -1.99917e+62 -8.20246e-181 7.56286e-211 -1.27336e-249 4.30785e-178 -5.37109e+126 -7.54935e-256 -1.52135e-179 -2.53847e+96 2.26596e+297 2.34542e-179 9.86195e+142 8.64737e+123 1.88382e+249 -2.35594e+244 5.14854e-06 -2.91717e-289 -1.61479e+184 8.71958e+61 1.12795e+297 1.99224e+74 nan 8.74741e-227 8.63342e-308 -3.25946e+214 -6.90949e+181 1.04124e+166 -6.57162e-180 7.21111e-241 1.2861e+291 -7.41605e+247 7.59954e+132 7.73526e+13 2.90135e-195 -3.38996e-161 -2.83803e-72 2.09175e-91 3.83415e-255 -3.16483e-66 1.20773e+10 0
+window values: -996600006
+input ends
+==1782466==  If you believe this happened as a result of a stack
+==1782466==  overflow in your program's main thread (unlikely but
+==1782466==  possible), you can try to increase the size of the
+==1782466==  main thread stack using the --main-stacksize= flag.
+==1782466==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: accelerometry_deepstate_test_blockaves_n_max_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blockaves_n_max/blockaves_n_max_output/ac252a4df93b97dcb49e10f81758644007621a00.crash crashed

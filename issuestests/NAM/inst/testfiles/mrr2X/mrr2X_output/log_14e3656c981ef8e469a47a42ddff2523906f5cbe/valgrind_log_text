@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_mrr2X_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_output/14e3656c981ef8e469a47a42ddff2523906f5cbe.pass`
+TRACE: Running: NAM_deepstate_test_mrr2X_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/mrr2X/mrr2X_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Y values: 1.42386e+94
+
+X1 values: 9.28936e+145 1.94766e-250 1.38191e+133 1.59154e+260 5.16649e-12 4.91000e+282 2.57278e-123 6.38401e-205 7.60867e-52 2.87795e+111
+3.53718e-40 2.77130e-260 7.11019e+162 3.67354e-221 8.03844e+111 2.05571e-286 3.72280e-66 1.08991e-291 6.20706e+19 2.07533e+68
+1.63776e-99 5.40861e-164 7.49035e+105 6.34102e+138 1.25998e-154 2.52474e+156 1.08693e-217 5.08961e+229 8.47854e+281 3.60560e-222
+1.21484e-67 8.40505e+12 1.19648e-197 8.98803e+47 3.44536e+142 1.06120e-197 7.53031e-137 4.19955e+287 9.25151e+87 7.23725e+81
+
+X2 values: 3.56542e-29 1.58264e+175
+3.29377e+105 3.00010e-25
+3.72337e+40 5.98695e+37
+1.88218e+287 6.00413e+279
+2.42770e+160 3.60335e+233
+1.02390e-190 5.35533e+267
+
+input ends
+TRACE: Passed: NAM_deepstate_test_mrr2X_test

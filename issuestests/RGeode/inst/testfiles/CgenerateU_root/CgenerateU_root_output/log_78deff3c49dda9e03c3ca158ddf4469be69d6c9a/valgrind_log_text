@@ -1,0 +1,25 @@
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_CgenerateU_root_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/78deff3c49dda9e03c3ca158ddf4469be69d6c9a.fail`
+TRACE: Running: RGeode_deepstate_test_CgenerateU_root_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+prodTau values: 2.92608e+161 2.83412e+224 8.49933e+64 -1.40189e-202 2.01594e+173 nan -0.265027 inf nan -1.92564e-267 -7.51747e+289 -2.39004e-254 -1.04899e+91 -1.80673e+285 -1.7135e+195 inf 4.60993e+285 -1.7035e-73 0
+N values: 753053781
+SIGMAS values: -3.72891e-189
+Z values: 3.02964e+25 5.71989e+40 2.12954e+115 7.83359e+265 2.07487e+253 2.52531e-21
+1.04334e+102 2.40313e+79 1.00809e+13 8.41514e+101 5.73272e-108 9.88119e-111
+4.13869 1.30312e+242 1.38740e+54 1.54248e-120 1.17849e+37 1.08661e+278
+4.22966e+65 5.90795e+145 2.42745e+119 3.75144e+231 5.78840e+259 3.75920e-308
+2.09348e+254 4.58630e+56 7.68334e+130 1.17426e-07 2.27936e-233 5.35168e+271
+7.22313e-94 4.92830e-72 1.91550e-196 5.07756e-20 6.93471e+237 2.25679e+115
+7.47271e-306 8.79118e+37 7.16727e-184 1.68214e-103 2.66836e+112 1.45708e+12
+1.85544e-121 2.93490e-278 9.33945e+129 2.61375e+58 7.62712e+210 2.20256e-257
+1.30321e-214 2.87902e-249 2.50267e-272 1.14348e-41 7.17460e-99 1.82781e+39
+1.42582e-205 8.60015e-220 1.19004e-133 1.32183e-286 3.77795e-88 2.55789e-252
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=6; column extent=6].
+ERROR: Failed: RGeode_deepstate_test_CgenerateU_root_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateU_root/CgenerateU_root_output/78deff3c49dda9e03c3ca158ddf4469be69d6c9a.fail failed

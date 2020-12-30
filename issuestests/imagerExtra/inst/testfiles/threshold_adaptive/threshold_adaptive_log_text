@@ -1,0 +1,117 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606688230
+WARNING: No test specified, defaulting to first test defined (imagerExtra_deepstate_test_threshold_adaptive_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 9.73962e-293
+4.68629e-54
+3.33639e+230
+1.15552e+290
+1.95946e-289
+9.56537e+65
+1.92496e-45
+4.70307e+86
+
+k values: 3.84605e+120
+windowsize values: 835513558
+maxsd values: -2.05849e+116
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: imagerExtra_deepstate_test_threshold_adaptive_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 1.00204e+228
+
+k values: 3.8156e-119
+windowsize values: 936702139
+maxsd values: 6.18324e+233
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: imagerExtra_deepstate_test_threshold_adaptive_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 1.17080e-138 1.28472e+20 4.98970e-30 8.33114e-173 1.65375e-122 1.20364e-05 3.62556e-252 2.10395e+267 8.20333e+147
+1.17411e+257 3.57961e+223 1.52107e+262 9.41259e-113 2.19614e-230 1.42704e-146 4.79160e+306 7.92751e+307 3.03297e+64
+5.77833e-261 4.29336e-59 2.94418e-60 8.58254e-241 7.58073e-223 1.21214e+24 3.94956e+245 3.94946e-87 5.66439e-130
+7.96262e+189 2.59363e+145 5.48609e+56 1.95775e-106 6.39895e-229 2.88128e+36 2.53368e+210 2.66917e+255 3.51173e+55
+1.19534e-293 4.34995e-155 2.90003e-204 6.53046e-236 1.88755e+81 1.91309e+231 9.14171e+278 1.66154e+113 2.82759e-276
+
+k values: -2.64993e+44
+windowsize values: -1459105624
+maxsd values: -1.26234e+286
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: imagerExtra_deepstate_test_threshold_adaptive_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 3.42927e-14 1.24335e+187 2.98104e+272 1.97719e+243 2.61911e+225 1.49944e+186 7.82127e+127 2.89603e-54 2.69033e-222 5.96497e-179
+1.20222e-114 8.47688e-259 5.59417e+33 4.52785e-237 1.73933e-80 4.65949e-12 2.56220e+207 2.99096e+240 9.25768e-05 1.17097e+22
+9.49318e+36 1.26080e+166 1.38388e-230 7.58112e+273 2.09218e-111 2.03689e+159 3.86548e-207 1.67520e-196 1.59233e-23 4.60825e+307
+8.87371e+136 1.54675e+293 5.14767e-64 1.09948e+123 1.22727e+264 2.59386e-116 3.69699e-114 1284.64 3.04340e-143 2.21459e-53
+2.01982e-278 2.16438e-141 3.63417e-75 9.05624e+276 9.04524e+232 4.04027e+89 1.72357e+95 8.46249e+143 6.69850e-101 3.92601e-175
+
+k values: 6.1601e+53
+windowsize values: -1988086924
+maxsd values: 4.90383e-06
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: imagerExtra_deepstate_test_threshold_adaptive_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 2.82362e+167 1.54122e-96 1.55635e-279
+7.64040e-146 1.49338e-139 3.94307e+90
+4.63312e-282 1.94259e+216 2.08834e-07
+1.03069e+298 8.44930e+181 8.48523e-50
+4.08402e+130 2.88244e-165 1.30331e+10
+2.89712e-214 2.84277e-137 1.42026e+237
+2.14433e-156 3.03578e+285 1.66614e+299
+3.09888e-123 2.68393e-227 4.29737e-08
+3.14912e+230 5.95245e+274 4.97147e+14
+7.17698e+149 1.14367e-141 3.51605e-246
+
+k values: -8.87275e+218
+windowsize values: -2106117710
+maxsd values: 1.89818e-17
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: imagerExtra_deepstate_test_threshold_adaptive_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 3.67547e-300 5.35526e-120 1.44294e-296 1.76059e+181 1.17247e+17 9.17492e+148 6.82880e-103 5.54078e+256
+3.97202e-137 2.76339e+74 4.69635e-35 1.69038e+268 7.21388e+165 1.15522e+171 1.24181e-149 0.00299955
+4.36824e+126 2.96895e+88 2.37982e-07 2.67177e-260 9.36354e-288 8.44703 5.91238e-97 8.04636e+199
+1.30385e+296 4.81866e+154 1.57590e-236 8.70036e-181 1.30431e+77 2.83644e+75 2.21772e-49 2.62907e-09
+5.14403e-211 4.04313e-24 3.89443e-306 1.02806e-06 5.38627e-224 3.92384e-191 1.76498e-43 4.46399e-266
+4.89783e-150 4.67790e-202 2.99002e+202 1.95712e-100 3.01267e+191 5.61385e-228 1.55775e-192 2.44527e-99
+5.54813e-242 1.28132e+247 1.28923e-165 1.24880e-170 3.19994e+93 4.08346e-268 2.13612e-102 2.87271e-65
+3.80543e+302 1.22442e-20 8.97837e+72 4.77109e-108 1.30862e+25 8.75707e+109 1.52644e+129 3.25712e-304
+3.36295e-191 2.46059e+31 7.50151e+306 4.24580e-300 1.23196e-21 3.89664 3.58438e+15 6.86931e-09
+3.50375e+302 9.19163e+70 1.99040e-52 6.21203e-191 5.57648e+100 2.35182e-82 9.33095e-290 7.55535e-117
+
+k values: 6.14059e+76
+windowsize values: 206056532
+maxsd values: -1.03471e-84
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: imagerExtra_deepstate_test_threshold_adaptive_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+mat values: 2.60140e+41
+8.15786e-104
+7.62815e+20
+2.40631e-287
+
+k values: 2.27495e-06
+windowsize values: -1923151394
+maxsd values: -3.108e-31
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: imagerExtra_deepstate_test_threshold_adaptive_test
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 0 failed/0 passed/7 abandoned tests

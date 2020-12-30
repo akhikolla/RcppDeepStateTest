@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (fbroc_deepstate_test_add_roc_points_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/add_roc_points/add_roc_points_output/53b7950b483102a6cdac5cf4e29ccf71328c897c.pass`
+TRACE: Running: fbroc_deepstate_test_add_roc_points_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/add_roc_points/add_roc_points_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tpr values: -1.60005e+230 1.10654e+26 -6.5977e-118 1.6545e-171 3.85628e-72 -3.58161e-25 -5.55545e-153 1.22335e-55 -1.86544e+182 -1.73189e+22 8.89076e+36 -2.55511e-34 -3.02149e-282 1.18553e-116 -6.66745e-285 6.06856e-132 1.06073e+72 -8.24592e-195 3.38572e+116 1.50464e-73 nan -4.04006e-167 -1.03961e-141 4.22976e-301 4.3313e-13 -4.45128e-97 1.67953e+17 -2.79899e-216 nan -1.09453e-107 -5.24067e+282 -2.21796e+108 1.13833e-180 -6.37003e+189 -1.80565e+43 -1.70795e-113 4.59102e-22 2.65823e-156 1.08068e-304 -8.27028e+254 -4.74628e-107 3.15188e-139 -1.14678e-78 nan -2.52863e-236 1.10002e+152 2.11467e-193 -3.27721e+236 -4.40357e-70 -3.42378e+301 -1.96898e+106 -5.1993e-104 -5.87652e+94 3.46958e+266 -1.51101e-108 -1.21109e-54 -1.70317e+161 3.28712e-190 -7.44069e-57 -4.00419e-99 78.6305 -6.551e+125 -1.27775e+164 3.28163e-72 2.07159e-246 3.67485e-57 -8.63142e-92 0
+fpr values: 8.50678e-241 3.84023e-182 -2.45527e-119 -4.19494e-92 2.84883e-242 -2.30433e-13 -1.25719e+304 8.52676e+35 -9.85866e-265 4.77554e+141 5.2729e-55 2.71844e-42 -3.75422e-191 -3.01978e-38 -4.5786e+47 -2.31421e+295 1.13497e+232 -5.8156e+54 2.75855e-285 3.69586e-53 -3.66132e-288 1.10008e-174 1.83285e+298 8.30393e-190 1.12436e+184 -2.15396e+22 9.83705e+252 inf 6.32842e+229 -1.28472e+51 9.45937e-302 nan -1.33129e-153 -1.29492e+34 7.00242e-50 -1.73194e-118 2.02407e+254 1.81763e-72 -7.21861e-243 inf 1.54873e-254 inf 1.15288e-271 -1.23135e-237 1.03861e+136 -2.92229e+256 -inf 9.00802e-148 0
+input ends
+TRACE: Passed: fbroc_deepstate_test_add_roc_points_test

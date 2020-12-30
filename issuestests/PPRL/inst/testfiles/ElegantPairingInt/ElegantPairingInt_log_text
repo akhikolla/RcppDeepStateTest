@@ -1,0 +1,52 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606697060
+WARNING: No test specified, defaulting to first test defined (PPRL_deepstate_test_ElegantPairingInt_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+int1 values: -158916423
+int2 values: 759203356
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: PPRL_deepstate_test_ElegantPairingInt_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+int1 values: 1245639569
+int2 values: -406392040
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: PPRL_deepstate_test_ElegantPairingInt_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+int1 values: -77557569
+int2 values: 85051067
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: PPRL_deepstate_test_ElegantPairingInt_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+int1 values: -1699510477
+int2 values: 198249634
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: PPRL_deepstate_test_ElegantPairingInt_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+int1 values: 924707598
+int2 values: -1566867218
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: PPRL_deepstate_test_ElegantPairingInt_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+int1 values: -1446428367
+int2 values: -518147800
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: PPRL_deepstate_test_ElegantPairingInt_test
+INFO: Done fuzzing! Ran 6 tests (3 tests/second) with 0 failed/0 passed/6 abandoned tests

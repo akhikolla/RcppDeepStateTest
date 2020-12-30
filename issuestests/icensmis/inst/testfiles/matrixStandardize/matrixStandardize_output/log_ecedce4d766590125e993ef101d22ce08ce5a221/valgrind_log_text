@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (icensmis_deepstate_test_matrixStandardize_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/matrixStandardize/matrixStandardize_output/ecedce4d766590125e993ef101d22ce08ce5a221.pass`
+TRACE: Running: icensmis_deepstate_test_matrixStandardize_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/icensmis/inst/testfiles/matrixStandardize/matrixStandardize_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 7.47600e-241 2.86177e+234 1.86500e+268 2.73830e+33 5.19703e+161 8.93214e-299 5.48750e-05 9.29784e-194
+2.52057e+162 5.88600e+51 5.04598e-208 2.98629e+261 6.20778e+168 3.07863e-141 7.59898e+110 2.18163e-38
+2.80388e-223 2.35008e-177 8.21479e-73 1.79670e-121 1.81429e+111 9.93943e-260 5.04928e+42 7.41624e-154
+6.84417e-220 6.88008e+219 2.00992e-36 3.31314e-304 4.92758e+45 1.79436e-294 9.35985e+127 1.34613e+36
+1.12030e+120 3.10356e-40 2.52667e+151 1.83359e+123 9.56200e+191 2.55279e-280 7.00495e-120 6.12959e+88
+5.20147e-219 4.77168e-60 7.72460e+127 1.26134e+290 2.44259e-300 8.67406e+87 2.54321e+07 8.21013e-55
+8.18892e+147 5.89488e-161 7.79297e+202 5.25928e+252 5.66501e-91 1.15902e+203 1.87230e+228 4.20338e-233
+2.45622e-42 5.14811e+275 4.54397e+185 3.66277e+34 1.62747e+305 6.00822e+292 4.35437e-147 1.82105e-82
+9.31363e-101 2.67599e-206 1.38564e-219 1.00188e+48 5.85221e+21 1.94028e+195 1.16313e+264 9.93487e-305
+3.58396e+17 3.42165e-168 8.28591e+195 1.56777e+105 3.52762e+81 1.47267e-63 1.03703e+147 1.24848e+36
+
+input ends
+TRACE: Passed: icensmis_deepstate_test_matrixStandardize_test

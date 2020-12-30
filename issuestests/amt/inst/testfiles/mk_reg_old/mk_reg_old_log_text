@@ -1,0 +1,44 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606696495
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_mk_reg_old_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+relocs_time values: 1.66502e+39 -2.76614e+118 -3.62099e+174 3.58635e-227 -4.43446e+57 -1.78879e+280 -6.75447e+214 1.10429e+207 1.11913e-201 -1.01456e-214 -2.71579e-294 6.9177e+31 1.14696e+19 8.63893e+146 1.25437e+18 1.28033e-210 inf 4.88896e-231 -1.14869e+230 -1.77969e-258 1.79084e-210 -1.31503e-80 -3.67562e-273 2.20142e-123 -2.16653e+42 -1.01851e+287 4.26864e+130 -1.51007e+39 -5.11063e-191 nan nan 3.88964e-37 -1.00754e-134 4.73673e-200 -2.6634e+94 -1.56966e-116 -1.7534e+78 -5.30611e-167 9.77315e+68 1.0167e-234 nan nan 2.08746e+40 -33433.2 0
+time_dist values: 428271805
+time_tol values: -844280807
+start values: -589657673
+input ends
+ERROR: Crashed: amt_deepstate_test_mk_reg_old_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg_old/mk_reg_old_output/a15835b048df236ce5ec9322cba1344e5968e282.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+relocs_time values: 5.63364e+258 -3.05109e-218 nan -1.28258e+208 -8.81701e+194 -4.49124e-222 8.4374e+14 6.07922e-125 -835815 2.11294e+72 -6.7052e+217 3.67574e+136 -4.83981e-234 -1.44534e-102 7.19626e-163 -8.37697e-141 1.08481e+161 1.47044e+106 -inf -5.0797e+210 1.72315e+236 1.76441e-58 -5.44578e+183 4.27038e+187 1.36392e-173 -1.77101e+17 3.50237e+37 -3.5486e+298 -5.77054e-17 1.18739e-35 -1.98898e+48 9.49754e-209 7.69347e+167 -6.84274e+31 -5.61316e+72 -3.17322e-53 6.33744e-275 0.0184452 1.85777e-228 3.38251e-91 -8.73316e+126 1.7243e-305 -5.43722e-228 2.48127e+209 3.38794e-167 1.20333e+285 9.04603e-123 -1.07191e+268 7.54784e-106 4.18042e-109 1.74744e-53 2.66416e-145 -2.57446e-116 2.5262e-285 3.66016e-90 -inf -7.48717e-116 -1.07191e+268 6.79116e+92 7.75534e-138 -1.03276e-240 -3.42231e+121 5.28622e+160 -2.46919e-80 -4.78099e-136 0
+time_dist values: -1110600228
+time_tol values: 1237093816
+start values: -662556576
+input ends
+ERROR: Crashed: amt_deepstate_test_mk_reg_old_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg_old/mk_reg_old_output/e3a70a9b2efff47cd2f14b85f99fd64b9e3a8c5a.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+relocs_time values: -7.97995e+180 2.24468e+46 7.69108e-297 2.36801e+73 -2.21734e-113 -3414.88 -7.89119e-171 6.05557e+06 9.5972e+249 -5.52946e-216 -0.35631 -8.78416e-157 -9.07498e+113 -8.14955e+61 4.01598e+198 2.4626e+92 6.16195e-149 4.0888e+31 nan -1.84435e+131 -9.51121e-120 -1.81878e+47 1.10617e-179 2.08766e+260 -3.52067e+31 4.38964e-218 1.26869e+115 3.38574e+107 -3.89095e+195 5.3316e-57 -6.62282e-203 -5.88646e-59 9.58376e-131 -9.60032e+56 1.04955e-289 6.03703e+218 -5.53948e-173 -6.39319e-31 2.91664e-43 1.22302e+129 -2.17557e+142 3.82381e-30 inf 7.9444e+06 2.88551e+96 -1.00542e-269 -4.6969e+112 -2.41189e-58 -1.97539e+287 2.60428e+188 -3.5534e-299 2.3236e-291 -1.30665e-207 3.53518e-229 6.51311e+265 -2.46129e+82 1.31193e-303 -4.32896e+204 -0.322923 2.16285e+257 -7.97017e-216 -6.65047e-206 -2.19731e-253 4.1123e-94 -3.83329e-221 2.34591e+191 2.71744e+112 7.7517e+231 4.2975e+79 -3.4729e+275 -7.52759e-42 1.30732e-21 2.07523e-165 -9.07498e+113 -5.75647e+100 5.85394e+140 -1.91473e+203 3.63783e+13 8.12958e-153 5.07251e-163 2.92023e+06 -9.6017e-186 -7.98212e+152 1.58099e+221 -1.42199e-251 6.47287e+227 -inf
+time_dist values: 449719835
+time_tol values: 250814798
+start values: -2101226207
+input ends
+ERROR: Crashed: amt_deepstate_test_mk_reg_old_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg_old/mk_reg_old_output/ab1bb1844e3031e63b39260b813c5cdf7ea3f274.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+relocs_time values: -5.29007e-164 -1.31424e-140 7.81541e-146 -5.18559e+206 1.90216e-17 -5.96371e+258 2.29706e+184 2.98259e-99 -1.07728e+238 -8.26791e-274 5.78363e+256 -2.95599e-291 nan -4.12662e+110 -7.03658e-284 -1.30719e-267 9.15923e+186 1.31353e+253 -2.08789e-289 -inf 1.23575e-160 3.12395e+97 4.00237e-265 -1.92977e+63 7.67564e-66 -4.52213e+129 5.22768e-05 4.92876e-249 -1.11887e-10 2.21414e+54 nan 7.44892e+262 -4.94545e-253 -2.40206e-58 7.1048e-137 -inf -1.6406e-192 -3.56039e+122 1.08187e+16 -2.02933e+227 1.25044e-56 2.26223e+109 -4.20063e+99 4.54673e-128 3.16462e+32 8.16957e+216 -1.769e-09 3.50211e-237 -3.8932e-45 3.92423e+130 -1.28682e-69 -2.40018e-244 -3.03344e+200 -9.49608e+232 nan -1.6781e+119 -4.61121e+142 9.83377e-216 -7.84441e+268 3.47321e-51 -1.37127e-242 -2.06675e-47 -2.70135e-126 3.21898e-33 -1.60422e+240 1.38039e-11 -3.0496e-20 -7.65555e-49 2.53354e-143 3.16103e-209 -1.758e-09 -4.77849e-102 3.11329e-167 3.76288e-50 -6.8785e-268 -62706.6 9.42938e-120 -9.14952e+97 0
+time_dist values: -294815643
+time_tol values: -1115990266
+start values: 2036574672
+input ends
+ERROR: Crashed: amt_deepstate_test_mk_reg_old_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/mk_reg_old/mk_reg_old_output/2ef3268015bd798b32f762378de4b1bd0b021822.crash`
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 4 failed/0 passed/0 abandoned tests

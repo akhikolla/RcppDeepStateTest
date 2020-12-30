@@ -1,0 +1,108 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745746
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr3p_StoneI_So_cpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 3.15852e-261
+SWCRIT values: -6.29247e+110
+SOIRW values: -7.96072e+213
+SORW values: 9.28643e-86
+SOIRG values: -1.12513e+193
+SORG values: 3.41493e-64
+SGCON values: -3.05601e-257
+SGCRIT values: -1.18722e-159
+KRWIRO values: -1.4206e-213
+KROCW values: -2.89662e+191
+KRGCL values: 2.90637e+111
+NW values: -2.32808e-295
+NOW values: 1.47047e-130
+NG values: 1.3248e+51
+NOG values: -1.89923e-17
+NP values: 1653531023
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneI_So_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneI_So_cpp/kr3p_StoneI_So_cpp_output/e3dbab72fcf76fe79ed2e79651322990d6b71290.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -7.95941e+264
+SWCRIT values: -3.74406e+98
+SOIRW values: -5.91173e-270
+SORW values: -2.69616e+255
+SOIRG values: 5.72226e-233
+SORG values: -2.14001e-281
+SGCON values: 5.15495e+221
+SGCRIT values: 1.14695e+42
+KRWIRO values: -1.82095e+227
+KROCW values: -1.81185e-66
+KRGCL values: -1.28059e-123
+NW values: 2.14637e-276
+NOW values: -8.80053e+41
+NG values: -2.2763e-246
+NOG values: 1.16658e+195
+NP values: -1043606559
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneI_So_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneI_So_cpp/kr3p_StoneI_So_cpp_output/223b51b3c13f69c5d254b46da11fe0b02fc707bc.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 5.69153e+61
+SWCRIT values: -1.71847e-241
+SOIRW values: 4.09002e+175
+SORW values: -1.65874e-154
+SOIRG values: 1.6803e+292
+SORG values: -8.89238e-112
+SGCON values: 2.83599e+19
+SGCRIT values: -1.29703e+156
+KRWIRO values: 5.94573e+51
+KROCW values: -5.52381e+60
+KRGCL values: 2.71834e+79
+NW values: 4.27273e-151
+NOW values: -2.00169e+114
+NG values: -1.33198e+32
+NOG values: 2.52765e-281
+NP values: -139076671
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneI_So_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneI_So_cpp/kr3p_StoneI_So_cpp_output/bf9963e907f01c2a48e4a485dbd5d189022651f5.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 8.81792e-119
+SWCRIT values: 1.8084e+136
+SOIRW values: 1.51971e+226
+SORW values: -2.68858e+233
+SOIRG values: 6.68422e-137
+SORG values: -5.3049e+158
+SGCON values: 3.56494e+200
+SGCRIT values: -1.19339e+29
+KRWIRO values: 5.02937e+258
+KROCW values: -4.6077e+223
+KRGCL values: 2.19243e-116
+NW values: 1.25361e+49
+NOW values: 1.84833e-167
+NG values: -3.17606e-192
+NOG values: -4.67237e-222
+NP values: -1523913123
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneI_So_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneI_So_cpp/kr3p_StoneI_So_cpp_output/427f6db3cbcaf544d60057eef6e90f751e48c0b8.fail`
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 4 failed/0 passed/0 abandoned tests

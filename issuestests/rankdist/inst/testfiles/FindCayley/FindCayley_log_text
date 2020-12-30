@@ -1,0 +1,145 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606703744
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_FindCayley_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 8.79039e-263 4.21145e-305 2.57796e-255 3.91817e+277 5.79888e-267 4.80360e-257
+5.05101e-24 9.20568e-60 1.14728e+110 1.30790e-144 2.17273e+43 7.69330e-91
+5.55709e-130 3.22028e+258 6.94152e-249 3.98386e+49 2.97894e+80 4.92734e+239
+1.18950e-228 5.60946e+262 5.15542e+41 4.68578e-32 3.92687e+186 2.04993e+109
+2.35654e-158 9.06787e+39 5.63973e+60 2.94967e-46 6.22167e-125 8.76268e-296
+2.41651e-150 5.11904e-20 3.54654e-234 2.95077e+108 9.74600e+11 7.59166e+121
+1.35064e+63 7.49418e-115 0.0517327 3.05219e-152 4.67105e+207 1.34375e-176
+1.63707e-287 4.82060e-89 8.12679e+84 1.49476e-180 1.21520e+201 2.40620e+237
+6.46994e+88 1.50447e+287 9.26590e+275 5.31835e+268 5.59855e+283 8.12812e-33
+5.73551e+222 7.61560e-235 2.23640e-172 3.92104e+124 1.15125e-224 1.60351e+66
+
+pi0 values: 4.4962e-101 6.84734e+09 -6.05483e+54 6.22969e+63 -1.51503e-254 2.32882e-180 1.82928e-44 -8.39157e-138 6.01893e+304 2.49634e+149 -1.53045e-262 -6.22514e-194 -2.73904e-170 -7.89914e+20 -1.42564e-238 2.58422e+212 -1.65513e+25 1.36322e-63 -1.32947e+54 -2.14592e-227 -1.19291e+174 6.8797e+111 5.66902e-143 1.25041e+251 2.22663e+182 -7.16258e-194 -8.70298e-29 9.98396e-128 inf 3.54783e-232 -4.98093e+123 -1.27456e-134 -2.37591e-141 -3.42725e-222 -4.9074e+247 -2.1906e-64 -5.91868e+288 -3.3965e-279 -3.99006e-208 4.40985e-158 -2.97599e-217 5.72232e+285 6.68305e+202 -1.11781e+20 -6.89913e+87 5.1796e+114 -3.57931e-264 -4.184e-114 1.4242e+297 1.80611e-132 -2.84433e+56 -2.87574e+118 -4.61391e+194 3.31514e+51 1.04727e-52 7.20996e+95 1.02559e-07 nan 7.43406e-20 2.43109e-293 -7.16258e-194 -7.20245e-186 -4.21635e-17 4.80692e+120 3.33798e+123 -2.55978e+302 -8.49454e-48 -6.11919e-74 7.46858e-245 -1.03372e-46 inf -1.79785e-119 2.54583e-288 9.26425e-31 2.05789e-96 2.99935e+122 2.29158e-80 1.27238e-228 1.7883e-236 -9.45616e+109 1.38705e-130 -2.70996e-72 -2.97171e+169 1.29965e-222 1.68083e-166 -1.25213e-276 -1.71055e+190 1.66591e-117 3.50391e+85 2.569e+105 -8.01411e-36 1.43744e+29 -6.41409e-139 -2.90499e-276 -1.96584e+236 -6.27875e+217 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1; extent=6].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/b554c318ffeac94b14fd2eb93f04a21586a4abc9.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 1.64459e-157 8.57305e+86
+3.11616e+185 6.09742e-306
+1.46818e-236 4.57803e+201
+1.73769e+305 2.65626e+129
+1.83159e-295 2.31403e+57
+2.17214e-75 1.16179e+297
+4.85498e-269 1.59793e+10
+
+pi0 values: nan 8.30074e-232 7.43965e-180 2.98212e-143 3.58628e-296 -1.0187e+196 -1.31431e-305 nan 6.94238e-253 1.77401e-203 -1.29656e+182 2.18704e+295 inf 2.98212e-143
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-9223372036854775808; extent=2].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/962004240edcea569f93c9be1093ff786a86ebae.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 4.14726e+275 2.46639e+106 6.96411e+28 4.04559e+22
+2.41752e+148 1.09014e+219 1.43336e-98 3.60924e+201
+1.18378e+178 2.48629e+29 1.59890e-194 2.05341e+52
+1.86857e+289 2.77684e+159 2.45301e-281 1.10274e-146
+1.92751e-148 3.12888e+63 3.41121e+243 1.70241e+72
+1.64231e+11 1.04011e-218 1.66540e-308 4.16768e-182
+
+pi0 values: 1.5654e-207 -1.39309e-280 3.17893e-304 4.8338e+55 5.01405e+273 -1.80057e+225 1.13465e+38 -7.7496e-107 1.05902e+131 -6.82999e-248 1.10889e-13 4.77963e+214 1.38197e+229 -0.0222127 -2.97559e+233 2.95912e-91 5.47218e+132 5.63135e-131 3.14543e-284 2.65595e+15 -1.26306e-294 0.923132 -6.92173e+186 nan 1.06385e+16 -1.7941e-189 -1.8734e+164 6.84664e+97 6.11459e+111 2.81866e+141 9.42354e-178 -8.20741e-219 1.37438e+96 -inf -3.1279e+56 nan -2.55536e+221 4.45822e-74 -4.89537e-231 -1.47822e-294 -8.19449e-141 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1; extent=4].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/4a55ad3ab46dece5346c7c1bda9fdb726d70aaa5.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 3.22879e-130
+2.69570e-191
+4.05055e-248
+
+pi0 values: -2.60203e-230 -3.72234e-174 -4.34897e-66 1.34543e-73 1.53976e-236 -5.48855e-48 7.9497e+225 -1.48344e-266 1.52421e-80 nan -4.64592e+145 -inf 7.97385e-239 -2.07074e-104 4.94694e+138 1.19605e-269 1.90535e-238 -2.87584e+225 5.52157e+76 -9.03393e-145 5.14807e+33 1.3788e-199 nan 21.6341 -8.47692e+233 1.31425e-17 4.44308e+136 -9.56513e-237 -7.75003e+55 1.39185e-27 -3.66053e-292 7.19874e-298 8.96255e+260 1.76479e+193 3.62602e+102 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1; extent=1].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/16273e3e7f71ae5dcb4015028d591402a29d0cc7.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 3.79679e+239 3.00612e-56 1.19407e+103 1.24783e+45 1.07143e+122 5.02330e+78 6.00457e+180
+8.69539e-29 2.35935e-308 2.62323e-51 4.03833e+200 1.17156e+272 1.72894e-14 1.36443e-164
+6.83754e-143 4.67689e+198 1.61360e+32 9.00682e+13 2.30550e-104 2.04791e+52 2.26982e-206
+4.80424e-67 1.65870e-156 1.92348e+134 5.68745e-231 1.90573e-99 2.41877e+56 2.71554e-13
+1.11375e+156 6.11619e+35 8.54851e+86 1.03078e-224 4.28037e+161 1.11622e-100 5.03466e+199
+5.56018e+206 6.83967e+261 1.14198e+181 4.81808e-12 3.80863e-243 4.26869e-215 1.33200e-248
+
+pi0 values: 5.2629e+266 -2.46556e+106 -6.78362e+251 -4.60391e+269 inf -1.17343e-287 -6.42033e-279 -1.26853e-186 8.11659e-299 -1.16155e-156 -2.13512e+227 -1.90979e-26 -8.0137e+43 8.75092e+164 2.56099e-157 -7.30267e+79 4.2211e+92 5.78395e+06 -2.43727e+165 2.42158e-255 2.53778e+61 -2.85155e-28 1.61462e-302 -3.45814e-286 0.00192658 1.02175e-137 4.00626e-258 1.94057e+103 -2.60964e+252 7.61618e+109 -1.06046e+78 -3.64936e-258 inf -1.46667e-179 4.17742e+48 -1.07695e-138 4.01857e+160 1.29991e-191 2.03214e+242 -1.20507e-189 1.81415e-281 1.51736e+229 -2.09483e-172 2.26286e+125 -9.13457e+145 -9.28238e+290 1.7284e-40 -3.13773e-150 -1.43618e-284 2.29891e+77 -2.76308e-280 1.20279e+86 -6.67693e+32 -6.2296e-43 7.16542e-270 -4.67792e-260 -6.12452e+10 2.87063e+122 -1.67267e+53 4.17742e+48 -5.9835e-97 -1.23174e-60 1.6487e+165 -4.10107e-126 1.66363e-273 -1.50985e-70 -1.16726e-261 2.53653e-124 1.11851e+45 3.78869e-79 1.33026e+110 5.86292e+256 -2.06954e+46 -9.72586e-204 7.85953e+22 2.66895e-18 9.4651e+262 nan -1.39136e-33 -2.84058e-21 -4.77135e+107 5.66933e+148 2.14782e+271 1.06737e+273 6.95307e+167 -1.52045e+94 -4.09609e+94 -1.26394e+27 1.15198e+154 -1.62562e-180 7.63742e-234 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-9223372036854775808; extent=7].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/c7121306e05a6f78259c4106b1a4d12a93ca6c15.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 5.36163e+15
+3.79001e+12
+1.79854e-146
+2.28311e-79
+4.17895e-102
+4.39774e-128
+2.29819e-249
+6.48681e+127
+2.30072e-134
+3.65927e-118
+
+pi0 values: -3.17477e+255 6.24287e+299 nan -3.64245e-66 1.46328e+271 1.6098e+52 -2.87213e-145 4.83201e+275 1.9599e+57 -4.05905e+251 inf 1.36716e+59 1.59064e+258 2.39904e-254 3.52118e+168 -3.86945e+287 3.6129e+215 -3.92869e+122 -1.24295e-279 -7.38932e+11 2.67132e+24 3.7021e-178 8.98945e+170 -1.59432e-187 -2.81806e-282 -inf 1.04525e-08 3.14147e-197 5.83105e+232 8.52986e+284 4.22461e+53 1.64175e+198 7.33829e-274 -6.12564e+66 -9.27533e-275 nan 1.0742e+30 3.09223e+229 1.61808e+43 6.18209e-309 nan -1.78909e-240 -9.2378e-144 -9.46089e-33 1.85633e-53 4.1383e-89 -9.61863e-176 7.9227e-105 3.11182e+12 -6.82073e+222 9.15186e+237 -6.7477e+286 -1.59333e-74 9.1255e-132 -1.42431e-27 -3.99328e+177 7.81909e-48 1.6896e-305 -inf 3.00913e+223 1.46081e-91 1.45431e-117 -2.55192e-242 -5.9505e-303 1.45302e-272 2.52246e+166 -1.32327e+137 -1.17677e-175 -1.33433e+246 5.17254e-205 -3.41187e+41 -2.40871e+135 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-9223372036854775808; extent=1].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/0b49264c6ce74d17d28d28958f20bf6baa5c0986.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 3.71726e-14 1.55507e-270 8.01254e+165 1.19055e-175 1.45756e-245 5.29765e-84 1.36774e+199
+5.66731e-11 2.19255e+163 4.04894e-218 2.00436e-78 7.59093e+38 1.06638e+68 8.33622e-122
+4.01714e+59 3.35453e+156 4.55353e+44 1.07898e-119 6.43921e+21 6.90385e-142 3.25374e-168
+1.58998e+205 2.65984e+08 7.14533e+192 4.73383e-66 7.30755e-292 5.89563e+30 1.10491e+148
+
+pi0 values: 2.91988e-07 -12334.6 -8.46431e-91 2.11789e+42 -1.43008e+299 1.50017e-308 -4.16594e+250 -2.95531e+177 -6.55639e+122 7.91966e-122 -1.53307e-77 2.28154e-261 4.30087e+256 6.35072e+109 4.31344e-209 2.83409e+67 -3.93359e-82 inf -2.52187e+52 -3.04003e+259 -1.46788e-197 3.58935e+300 1.00974e-238 -3.12366e+185 1.09222e+139 2.52317e+301 -3.23907e-141 -8.28088e-238 2.07144e-240 1.72159e-155 -1.59971e-11 -1.1471e+213 2.29638e-26 1.26945e+276 -1.69576e-198 -3.3796e+223 1.65773e-149 3.58364e+26 1.06527e-10 -0.0010377 -6.42828e-09 -5.70053e-148 -3.74225e+17 -5.09225e-217 5.09189e+149 2.67579e-284 -1.67825e-205 7.60532e+115 -1.28829e+299 -1.73664e+218 -2.36641e-30 -4.22086e+298 -2.3404e-292 -255.915 -inf -2.19945e+245 nan inf -2.54049e-169 -8.69911e+138 3.9593e+137 1.13694e-198 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-12335; extent=7].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/eba7eb055d435f59bebc9ed500c14b036ba56bab.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 2.85646e+110 2.36521e-217
+1.85632e-78 2.87301e-223
+
+pi0 values: -inf
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-9223372036854775808; extent=2].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/8e35e960de31d47919f6faed2a497dafcd5a7ba4.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 6.99975e+149 1.30990e-194 1.60603e+156 2.82073e-231 2.48244e+301 5.64617e-238
+2.90966e-229 4.04577e+22 6.03530e-283 1.12550e-285 1.82552e-32 3.08147e-95
+2.75659e+233 3.26828e-69 3.10516e+96 1.76426e-130 2.71090e-185 6.00308e+156
+
+pi0 values: 5.40813e-210 -27.3599 3.49654e-30 -1.68488e+215 1.64548e-131 -2.6396e+91 4.29974e-173 nan inf nan 4.92144e-104 -1.66895e-124 -1.01653e-151 -inf -1.06982e+62 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1; extent=6].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/1915f325219781c4c68a1e4533cf73b8ccdbff11.fail`
+INFO: Done fuzzing! Ran 9 tests (4 tests/second) with 9 failed/0 passed/0 abandoned tests

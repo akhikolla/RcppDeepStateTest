@@ -1,0 +1,30 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_ldsin_manyx_onepar_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_output/30e195eac3c7ecffc8ee8798a7820264245ba366.crash`
+TRACE: Running: BAMBI_deepstate_test_ldsin_manyx_onepar_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_DeepState_TestHarness.cpp(10)
+input starts
+x values:   9.3221e-107  1.1154e+225   8.2841e+76 -1.2427e+177  2.3505e-234 -1.9615e+234
+ -1.8013e-263  3.4170e-118  4.7506e-111  5.1144e-169  2.6641e+229  5.0806e-185
+  5.6585e+109  2.3897e+203 -4.8463e-133  1.3808e+104 -5.2673e+198 -8.1440e-179
+ -1.1965e+140 -4.0190e+198   9.2517e+77 -1.2398e-110  3.4854e+296   6.6668e-48
+  8.3453e+185  1.6789e+224  -2.9389e+63  1.3639e+257 -6.4651e+213  2.2958e-259
+   3.5343e+39  1.2724e+186  2.0221e-252  9.9770e+217  -3.2237e+94  7.6356e-146
+ -2.2549e-100 -9.9790e-217 -1.0306e+103 -7.7491e-284 -2.8469e-185  2.4858e+105
+  6.8207e+220   2.7203e-16  1.1548e+250 -6.9576e-140  8.6029e+229  9.5925e+152
+ -1.7360e+234 -1.3809e+249  3.6939e-294 -6.5870e-106  -2.4622e+08 -9.2111e-235
+  2.8417e+194  6.2806e-307  9.4532e-165  -2.6495e+11  1.2242e+112  1.6045e+304
+
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: -7.82401e+294
+k2 values: -4.64379e+173
+k3 values: -6.11429e-249
+mu1 values: 9.71122e+150
+mu2 values: -3.58192e-242
+input ends
+==1799246==  If you believe this happened as a result of a stack
+==1799246==  overflow in your program's main thread (unlikely but
+==1799246==  possible), you can try to increase the size of the
+==1799246==  main thread stack using the --main-stacksize= flag.
+==1799246==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: BAMBI_deepstate_test_ldsin_manyx_onepar_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/ldsin_manyx_onepar/ldsin_manyx_onepar_output/30e195eac3c7ecffc8ee8798a7820264245ba366.crash crashed

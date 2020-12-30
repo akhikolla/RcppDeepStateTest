@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (ModelMetrics_deepstate_test_confusionMatrix__test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/confusionMatrix_/confusionMatrix__output/37f8d9f3eadb3a4c79c92a74a2dd51288105af99.pass`
+TRACE: Running: ModelMetrics_deepstate_test_confusionMatrix__test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/confusionMatrix_/confusionMatrix__DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+actual values: 2.89846e+234 -2.55625e+79 -2.11332e-200 2.94423e-285 -2.4022e+280 -4.94333e+65 -8.88539e-268 1.43272e+189 3.87011e+55 -8.32042e-132 -1.12584e+296 -3.467e-119 -1.76181e+286 1.67499e+119 -2.92928e-19 -2.72679e+34 5.08893e+58 -4.42542e+72 -7.61164e-216 8.26077e+176 4.37647e+132 1.26099e-163 3.17326e+08 2.91872e-163 7.34816e-225 -1.97338e-07 -1.87955e+259 6.37816e-279 -7.88363e+53 4.11267e+294 -7.13051e+38 5.74763e+146 -3.58888e+84 8.25184e+185 -1.04096e+263 nan 1.59645e+77 -1.8397e-127 nan -1.88095e+263 -1.71507e+285 -2.23788e+59 -7.2271e+212 2.46836e-15 1.72032e+27 -8.70137e-290 -2.18504e+40 -4.50392e-209 -7.71726e-20 -8.86731e+22 6.58476e+272 -5.65918e-274 -5.73546e-29 -inf -3.6852e+93 8.58828e-44 2.58102e+197 -1.33251e-91 -3.77218e-124 3.38516e+213 -1.13522e+285 -1.3264e+41 1.31468e-135 1.59539e+285 -7.37042e-108 4.988e+266 1.24105e+275 -5.98847e+271 -1.4085e-67 1.1987e+222 8.22879e-79 1.4681e+122 -5.06732e-123 5.50532e+174 -7.59465e-214 8.42228e-112 -8.96673e-19 -8.05273e-44 nan 2.99273e-188 0
+predicted values: -6.56514e-119 -2.03069e-17 -7.83997e-157 4.52258e+100 7.08032e+178 -1.14755e-10 3.62128e-215 -1.0331e-29 2.01452e-220 -2.08001e-203 -1.8276e-261 1.69453e+88 -inf -3.22003e+296 -7.41322e+248 -1.44615e+50 3.10871e-153 inf 1.71467e+106 2.21875e+102 -2.42314e+205 -6.76487e-258 -2.53473e-05 7.42259e+89 2.26396e-53 2.961e-74 -2.23288e+163 1.79024e-195 -1.57747e-214 2.2252e-58 -4.49599e+06 -1.71632e-243 2.42715e+274 -inf -7.5254e+112 1.18238e+253 -5.26311e-131 2.82014e+119 -2.34945e-19 -5.75112e-112 -1.99932e-246 3.84849e-194 0
+cutoff values: -2.57386e+189
+input ends
+TRACE: Passed: ModelMetrics_deepstate_test_confusionMatrix__test

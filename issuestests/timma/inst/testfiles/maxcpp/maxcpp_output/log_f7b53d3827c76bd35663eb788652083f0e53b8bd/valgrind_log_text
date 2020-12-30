@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_maxcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/maxcpp/maxcpp_output/f7b53d3827c76bd35663eb788652083f0e53b8bd.fail`
+TRACE: Running: timma_deepstate_test_maxcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/maxcpp/maxcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: -7.94469e-192 -2.74501e+119 inf -1.33706e+52 -8760.06 -2.5252e-121 -1.06838e-238 -3.0949e+160 -1.08034e-215 9.63507e+109 4.56681e-133 5.67923e+233 -4.92855e-122 -inf -2.6608e-254 -2.4847e-50 -1.02668e-144 -inf 9.23868e+40 0.000949521 -3.08732e+112 nan -1.619e+157 -1.06472e+197 -2.37144e-151 -1.43224e+223 -6.47298e+297 8.79207e-290 5.05429e-185 1.4262e+255 4.06521e+88 1.74953e-35 -1.47209e+208 -1.46488e+129 -2.80434e-268 -1.62826e-53 7.73951e-61 2.48284e+182 -1.62807e+230 8.86841e+198 -3.67489e+25 -5.49742e-104 2.63316e+149 7.06067e-83 -1.54828e-285 -4.62449e-237 0
+x values: -578018774
+y values: -1010328626
+j values: -1508699650
+input ends
+
+error: Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Cube::init(): requested size is too large; suggest to enable ARMA_64BIT_WORD
+ERROR: Failed: timma_deepstate_test_maxcpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/maxcpp/maxcpp_output/f7b53d3827c76bd35663eb788652083f0e53b8bd.fail failed

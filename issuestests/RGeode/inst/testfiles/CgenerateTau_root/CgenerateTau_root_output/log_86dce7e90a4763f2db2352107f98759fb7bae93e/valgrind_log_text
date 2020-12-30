@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (RGeode_deepstate_test_CgenerateTau_root_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateTau_root/CgenerateTau_root_output/86dce7e90a4763f2db2352107f98759fb7bae93e.crash`
+TRACE: Running: RGeode_deepstate_test_CgenerateTau_root_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateTau_root/CgenerateTau_root_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+U values: -inf -3.69913e+222 5.56858e+230 inf 5.43688e-105 -1.25771e-74 nan 1.74059e-115 4.52995e+45 3.27556e+131 4.32691e+80 5.90896e+95 nan 2.34029e-192 -1.79409e-71 2.29628e+272 3.56384e-246 -7.00598e+34 -1.53606e-196 -1.19291e+168 -5.15871e-278 -1.94823e+152 1.73858e-258 -2.16312e-101 -1.29507e+219 -3.35968e-31 5.34712e-117 1.60763e-288 9.12771e-231 -1.83989e-121 -inf -6.93525e-40 4.77441e+221 0
+t values: -5.12542e-110 -3.6669e-279 -2.93752e-256 -9.95163e-08 -6.73644e+154 nan 4.02528e-246 -1.31465e+244 5.89783e+272 2.95761e+97 -1.94912e-19 5.85836e-282 1.92635e+254 -1.26219e+17 3.79443e+119 3.29744e+45 1.42274e-206 -3.24068e-266 -4.1061e-225 2.6501e-113 -2.30806e-73 nan 1.55949e+92 -1.93866e-32 2.34247e+305 -217012 inf -4.29972e+69 -3.37722e-106 4.49221e-240 9.61929e-77 -1.32834e+135 nan 0
+a values: -1.0256e-34
+d values: 1056420784
+input ends
+==1818100==  If you believe this happened as a result of a stack
+==1818100==  overflow in your program's main thread (unlikely but
+==1818100==  possible), you can try to increase the size of the
+==1818100==  main thread stack using the --main-stacksize= flag.
+==1818100==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: RGeode_deepstate_test_CgenerateTau_root_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RGeode/inst/testfiles/CgenerateTau_root/CgenerateTau_root_output/86dce7e90a4763f2db2352107f98759fb7bae93e.crash crashed

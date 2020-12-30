@@ -1,0 +1,164 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606690408
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rsin_unimodal_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1790988497
+k1 values: -7.76055e-308
+k2 values: -4.25791e-132
+k3 values: -2.40222e-227
+mu1 values: 4.48818e+272
+mu2 values: -5.74154e+35
+kappa_opt values: -6.23829e-37
+log_I0_kappa_opt values: 1.79841e-58
+logK values: -3.6873e-146
+log_const_vmsin values: -2.17724e+305
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/98b8b73a8ad2be492fe938e1d4c12c9b444fc794.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1181825174
+k1 values: 3.83588e+09
+k2 values: -8.44026e-112
+k3 values: 6.98422e+243
+mu1 values: 2.57864e+120
+mu2 values: -1.26569e-164
+kappa_opt values: -1.22834e-259
+log_I0_kappa_opt values: 2.46949e-220
+logK values: 2.42252e+88
+log_const_vmsin values: 1.56265e+299
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/65f44a91ca17b1a714ee075301e2b5d2ac6f6f03.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 2075401244
+k1 values: 6.30803e+292
+k2 values: -6.55848e-15
+k3 values: -5.29579e-217
+mu1 values: 73307.3
+mu2 values: 5.18703e-205
+kappa_opt values: -2.96209e+153
+log_I0_kappa_opt values: 10543.8
+logK values: -1.19644e-185
+log_const_vmsin values: 1.00052e-198
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/ff688b3447b875a31f9d9cddb91409ff85711b55.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -1198205241
+k1 values: 1.06669e+296
+k2 values: 7.30123e-176
+k3 values: 4.63001e-168
+mu1 values: 1.99243e-122
+mu2 values: -1.58228e-297
+kappa_opt values: -7.87302e-145
+log_I0_kappa_opt values: -1.23709e+249
+logK values: -1.41564e-15
+log_const_vmsin values: -1.08102e-143
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/0d7f86d3c8b28739ce3721272377b56b2daa37ef.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -2073062212
+k1 values: -4.41493e-97
+k2 values: -1.22054e+291
+k3 values: 1.89211e-271
+mu1 values: -3.52799e-95
+mu2 values: -1.98754e-125
+kappa_opt values: 1.00518e-23
+log_I0_kappa_opt values: -2.94982e+296
+logK values: -2.66215e-49
+log_const_vmsin values: 3.40568e+88
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/5f9569db639c02017112b277e039e7036a8d368a.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 2051512213
+k1 values: 3.28668e-192
+k2 values: -1.86477e+166
+k3 values: 9.72414e-40
+mu1 values: 8.94368e+244
+mu2 values: -5.12638e-137
+kappa_opt values: 6.07146e+306
+log_I0_kappa_opt values: -1.6086e+214
+logK values: 5.76449e-107
+log_const_vmsin values: 3.87162e+227
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/453a5a08134bd879125a1ddd45e491ce6f8ca84b.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -1072576098
+k1 values: 4.23506e-101
+k2 values: 1.97523e-243
+k3 values: -9.43785e-73
+mu1 values: 4.9128e+07
+mu2 values: 1.39798e-86
+kappa_opt values: 2.39335e+148
+log_I0_kappa_opt values: -9.40289e-64
+logK values: 1.34132e-115
+log_const_vmsin values: -1.60659e+276
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/b93422289d235d9d9b24aec10984f08a9cebe037.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1042742919
+k1 values: 5.4329e-236
+k2 values: 2.15478e-34
+k3 values: 5.18608e+198
+mu1 values: 4.49514e-300
+mu2 values: -1.33142e+23
+kappa_opt values: 8.8034e+292
+log_I0_kappa_opt values: -1.25002e+182
+logK values: 4.65424e-85
+log_const_vmsin values: -2.76332e-256
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rsin_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rsin_unimodal/rsin_unimodal_output/5438cc0457b7b2f1855f7db530a6ad6f298e582a.fail`
+INFO: Done fuzzing! Ran 8 tests (4 tests/second) with 8 failed/0 passed/0 abandoned tests

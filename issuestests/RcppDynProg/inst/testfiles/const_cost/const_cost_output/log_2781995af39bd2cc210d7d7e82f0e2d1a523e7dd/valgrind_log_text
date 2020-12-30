@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_const_cost_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_cost/const_cost_output/2781995af39bd2cc210d7d7e82f0e2d1a523e7dd.pass`
+TRACE: Running: RcppDynProg_deepstate_test_const_cost_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/const_cost/const_cost_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -inf 4.40326e-185 -3.5506e-10 -4.23877e-29 nan nan nan -4.27984e+55 4.30236e-284 -inf 3.5811e-56 0
+w values: -1.35174e+120 -6.5346e-178 -6.66818e+258 3.83279e+50 2.45025e-167 -2.13757e-78 -7.83251e+240 nan -3.82237e-14 -1.55736e-09 -1.35217e+292 -9.71785e+100 3.83029e+265 3.0281e-189 -6.67779e+251 5.71365e-185 1.77926e-23 5.73383e+40 2.56355e+95 1.21667e-128 -4.01526e+121 3.56432e-171 -1.47115e-94 -4.98366e+186 -7.51852e+155 -3.90536e-96 4.59158e-38 -1.36899e-196 -1.14742e-122 inf 2.7817e+167 -2.23719e+294 2.08835e-34 2.80816e-40 9.43476e+36 -8.53438e-281 -3.84721e+272 -7.35352e-44 -1.023e+218 -5.39438e-194 -1.30004e-15 1.55979e-16 8.2714e-260 3.02961e+152 -5.38755e+129 -1.23113e+305 inf 4.43959e+221 -3.63118e-20 1.59166e-122 2.38698e+223 2.4056e-115 -5.07696e+222 4.49369e+260 -2.92355e+196 -3.42838e+123 -4.75046e-128 9.89428e+172 -2.06514e+307 -7.02648e-267 -1.1792e+98 5.66986e+194 -3.7316e-187 1.05771e+212 7.83898e+107 3.71222 -5.71934e-194 1.68097e+214 4.55737e-270 -8.77092e+46 5.48643e-54 -4.31503e+153 -3.21431e+91 7.07734e+133 -5.74562e-202 4.67932e-308 9.712e-148 -7.78212e-101 -3.41822e-55 4.90938e-294 2.20456e-38 1.78373e+279 4.04235e+168 inf 3.41969e+281 5.14652e+286 -5.96518e+148 3.46923e-206 nan -3.21819e+159 -8.54146e+304 -5.80874e-96 3.29305e-229 -2.19978e+191 0
+min_seg values: 910107764
+i values: -146964458
+j values: -382648439
+input ends
+TRACE: Passed: RcppDynProg_deepstate_test_const_cost_test

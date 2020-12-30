@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_log_const_wnorm2_all_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/log_const_wnorm2_all/log_const_wnorm2_all_output/0d02b636f19a06a8b06f220396225235f37b9b19.pass`
+TRACE: Running: BAMBI_deepstate_test_log_const_wnorm2_all_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/log_const_wnorm2_all/log_const_wnorm2_all_DeepState_TestHarness.cpp(10)
+input starts
+par_mat values:   3.4589e+303  2.5911e-292  -7.4908e-51 -4.6035e+120   6.8115e-80  5.8097e-275  8.8349e+141   8.7290e-16
+ -1.5715e-261  1.1781e+236 -1.5496e-116   9.8470e-08 -2.8099e+251 -4.4247e-308 -3.9337e+211  1.0710e+127
+ -1.0839e+163 -6.6029e+175 -9.4184e-142  -3.0573e+90 -1.2005e-280  6.8406e-297 -9.1538e+266   1.0079e-07
+ -3.6112e-135  -6.6666e-32  -7.0834e+46  -9.8269e+34  -2.2668e+06   1.2605e+14  1.4800e-307 -3.7463e-109
+  -1.4038e+13  2.6810e+170  6.2521e+275 -7.7681e+115  -4.2384e+43  -5.0425e-38  -1.8192e+76  -9.7912e-95
+
+input ends
+TRACE: Passed: BAMBI_deepstate_test_log_const_wnorm2_all_test

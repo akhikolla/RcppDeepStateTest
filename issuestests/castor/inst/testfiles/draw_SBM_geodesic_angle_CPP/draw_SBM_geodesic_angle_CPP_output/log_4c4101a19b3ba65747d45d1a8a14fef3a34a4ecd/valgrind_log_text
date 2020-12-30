@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (castor_deepstate_test_draw_SBM_geodesic_angle_CPP_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/castor/inst/testfiles/draw_SBM_geodesic_angle_CPP/draw_SBM_geodesic_angle_CPP_output/4c4101a19b3ba65747d45d1a8a14fef3a34a4ecd.pass`
+TRACE: Running: castor_deepstate_test_draw_SBM_geodesic_angle_CPP_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/castor/inst/testfiles/draw_SBM_geodesic_angle_CPP/draw_SBM_geodesic_angle_CPP_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tD values: -2.93701e-202
+input ends
+TRACE: Passed: castor_deepstate_test_draw_SBM_geodesic_angle_CPP_test

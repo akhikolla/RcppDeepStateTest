@@ -1,0 +1,20 @@
+Package: rbscCI
+Type: Package
+Title: Blyth-Still-Casella Confidence Interval
+Version: 0.1.0
+Date: 2020-07-05
+Authors@R: c(person("Shimeng", "Huang", role = c("aut", "cre"), email = "dora.huang.sunshine@gmail.com"),
+             person("Keith", "Winstein", role = "aut", email = "keithw@cs.stanford.edu"))
+Description: Provides a fast calculation of the Blyth-Still-Casella confidence interval. The implementation follows the 'StatXact' 9 manual (Cytel 2010) and "Refining Binomial Confidence Intervals" by George Casella (1986) <doi:10.2307/3314658>.
+License: GPL (>= 3)
+Imports: Rcpp
+LinkingTo: Rcpp, BH
+RoxygenNote: 6.0.1
+Suggests: testthat
+NeedsCompilation: yes
+Packaged: 2020-07-08 11:43:44 UTC; shimenghuang
+Author: Shimeng Huang [aut, cre],
+  Keith Winstein [aut]
+Maintainer: Shimeng Huang <dora.huang.sunshine@gmail.com>
+Repository: CRAN
+Date/Publication: 2020-07-08 13:00:02 UTC

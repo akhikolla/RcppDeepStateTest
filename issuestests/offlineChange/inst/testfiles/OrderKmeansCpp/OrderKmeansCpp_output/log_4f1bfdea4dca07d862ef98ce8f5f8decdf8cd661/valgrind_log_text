@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (offlineChange_deepstate_test_OrderKmeansCpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/offlineChange/inst/testfiles/OrderKmeansCpp/OrderKmeansCpp_output/4f1bfdea4dca07d862ef98ce8f5f8decdf8cd661.fail`
+TRACE: Running: offlineChange_deepstate_test_OrderKmeansCpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/offlineChange/inst/testfiles/OrderKmeansCpp/OrderKmeansCpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 884.495
+1.11939e+44
+4.25372e-19
+3.49790e+260
+1.74654e-200
+3.31264e+27
+3.42433e+299
+3.83662e-119
+1.17154e-44
+
+K values: -1504896692
+num_init values: -325208726
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Iterator index is out of bounds: [iterator index=1504896692; iterator extent=0]
+ERROR: Failed: offlineChange_deepstate_test_OrderKmeansCpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/offlineChange/inst/testfiles/OrderKmeansCpp/OrderKmeansCpp_output/4f1bfdea4dca07d862ef98ce8f5f8decdf8cd661.fail failed

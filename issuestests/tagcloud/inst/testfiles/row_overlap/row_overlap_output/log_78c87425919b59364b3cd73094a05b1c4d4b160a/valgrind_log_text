@@ -1,0 +1,18 @@
+WARNING: No test specified, defaulting to first test defined (tagcloud_deepstate_test_row_overlap_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/row_overlap/row_overlap_output/78c87425919b59364b3cd73094a05b1c4d4b160a.fail`
+TRACE: Running: tagcloud_deepstate_test_row_overlap_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/row_overlap/row_overlap_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+row_in values: 9.4548e+225 -5.67171e+79 4.60462e-188 3.06367e-260 -6.69579e-291 -4.84855e+268 2.3071e+134 -1.35033e+142 -2.89124e+84 -6.08768e-195 -3.75227e+179 5.77242e-115 5.67632e-213 3.6907e+123 -3.56098e-18 3.75705e+183 -3.25768e+28 3.48439e-153 6.71449e-58 1.06149e-225 -6.12588e+172 2.23275e-66 nan 1.00294e-13 nan 3.82451e+18 -1.99789e-148 4.16171e+175 1.36879e+207 2.09564e-185 -1.50878e+297 -3.19566e-214 -2.52516e-215 3.83307e+45 nan -inf -1.78958e+130 7.08931e-84 55999.1 -5.45425e+225 9.14277e+16 4.93207e+32 -5.41331e+175 3.7458e+51 6.24932e+248 -2.70922e+98 2.28165e+197 4.00044e+198 1.21836e+118 6.31779e+110 0
+boxes values: 3.02882e+120 2.84043e-241
+1.38526e+215 7.01203e-307
+3.60444e+195 2.49955e-209
+4.72865e-53 1.31770e-264
+2.03313e-50 3.57672e+264
+
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=51].
+ERROR: Failed: tagcloud_deepstate_test_row_overlap_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/row_overlap/row_overlap_output/78c87425919b59364b3cd73094a05b1c4d4b160a.fail failed

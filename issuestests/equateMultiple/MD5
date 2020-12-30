@@ -1,0 +1,17 @@
+755df56f9c8d8a01b2fd27e7266d6c12 *DESCRIPTION
+68d6215ce4a30ee3e4db78185eb5136e *NAMESPACE
+aeb23fd257c16751ab62d4d549bc51e3 *R/EqMult.r
+f9befa77957e3d8fd24ae80886f4f0ba *R/RcppExports.R
+a8852633e926c8c7a6bfdf52b97f77f4 *build/vignette.rds
+a1c4c5f3d11d46f8ffa3dd9bac698045 *inst/doc/equateMultiple_tutorial.R
+bd2711467cd20d50a210902f26fe85ff *inst/doc/equateMultiple_tutorial.Rmd
+4b25c44f222848c4b5acb75ea499bc25 *inst/doc/equateMultiple_tutorial.html
+a298278544598cd99931772ab1a11d42 *man/eqc.Rd
+1960844b5f1e6d962d00f4d75c9192d9 *man/equateMultiple-package.Rd
+3150b416fb19c4ba58d14603e0c374cf *man/itm.Rd
+e6c6e88f6b49dd76cc962b9b716f888a *man/multiec.Rd
+3195e00da602b9b18d1c9f39abd93671 *man/score.Rd
+8148fadbf4eae606cecee7853b555c7a *man/summary.mlteqc.Rd
+7549b7a3c72de953884492a22b1da991 *src/EqMult.cpp
+c8c64c31093522dfbe34120f0a96000f *src/RcppExports.cpp
+bd2711467cd20d50a210902f26fe85ff *vignettes/equateMultiple_tutorial.Rmd

@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (mosum_deepstate_test_mean_help_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/mean_help/mean_help_output/8cf94500defd2d53e57984dfd5607ce08d9c39c0.crash`
+TRACE: Running: mosum_deepstate_test_mean_help_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/mean_help/mean_help_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -4.25673e-217 2.89242e-241 -2.48789e-77 -2.72592e-20 -6.27924e-26 7.5685e-165 -2.78046e-303 3.832e-302 3.54128e-101 9.04819e+258 1.12776e-292 6.45945e+214 3.83233e+10 -6.10916e-19 1.3564e+07 -3.70944e+48 1.53122e+254 -2.97835e+56 -6.52155e-89 nan 1.92602e-187 -6.79372e+227 -3.53034e-79 2.90312e+37 2.57563e-307 -1.51578e+135 -9.27875e-223 1.72547e-174 3.30836e+254 7.42624e-291 7.59051e+147 -5.16329e-71 -inf -4.58978e+276 -9.72267e-37 -9.55284e+135 1.16249e+102 -6.87865e-100 -4.29514e+288 1.47556e-300 1.42568e-277 -4.64504e+103 2.63392e-269 2.14459e+307 2.61879e+17 -5.67534e+78 nan 1.27234e+51 7.85865e+266 -7.53469e-170 -2.2475e+59 -3.13649e+254 1.25106e+40 -2.2991e+88 -4.55725e+114 -1.14926e-283 7.84476e+158 1.1833e+24 4.43872e-48 3.40029e-82 -5.53544e-136 -1.52055e-238 1.68015e-14 8.21386e-275 -1.72036e-233 6.09426e-299 inf -3.70203e-79 -2.80323e-10 3.06146e+162 -6.16471e+235 -1.84578e-243 4.05317e-219 4.60016e-235 2.23193e-85 2.5235e+269 8.39667e+179 4.04263e+143 -3.48561e+208 -3.51266e-185 -3.11696e-265 1.79038e-299 -1.72731e+168 nan 1.9974e-284 0
+l values: -1864686112
+r values: 2097332025
+input ends
+==1794976==  If you believe this happened as a result of a stack
+==1794976==  overflow in your program's main thread (unlikely but
+==1794976==  possible), you can try to increase the size of the
+==1794976==  main thread stack using the --main-stacksize= flag.
+==1794976==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: mosum_deepstate_test_mean_help_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/mean_help/mean_help_output/8cf94500defd2d53e57984dfd5607ce08d9c39c0.crash crashed

@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_sort_unique_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/sort_unique_C/sort_unique_C_output/3fa131a555f6f806ab31dfd8b14ae5c157288cdd.pass`
+TRACE: Running: BoostMLR_deepstate_test_sort_unique_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/sort_unique_C/sort_unique_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.5123e+210 806511 -4.18721e-259 5.56657e+59 -8.18681e+260 nan 1.93063e-166 5.03089e-41 1.20853e+236 1.17004e-57 2.27657e-219 -1.2371e-23 2.6093e+39 -3.57311e-283 3.93656e+253 1.41095e+83 -2.17674e+241 2.23339e-47 -6.97599e+151 5.00567e-143 9.4636e-20 8.71295e-137 -2.18193e+255 1.87016e+10 8.62491e+79 3.82541e-170 -3.79504e+277 -1.20663e+70 9.46257e+106 nan -inf -1.12425e+202 -2.48806e-12 -5.95056e+84 0
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_sort_unique_C_test

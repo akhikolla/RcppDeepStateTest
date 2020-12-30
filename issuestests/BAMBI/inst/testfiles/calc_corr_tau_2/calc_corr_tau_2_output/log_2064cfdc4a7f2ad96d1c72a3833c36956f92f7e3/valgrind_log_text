@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_calc_corr_tau_2_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_tau_2/calc_corr_tau_2_output/2064cfdc4a7f2ad96d1c72a3833c36956f92f7e3.fail`
+TRACE: Running: BAMBI_deepstate_test_calc_corr_tau_2_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_tau_2/calc_corr_tau_2_DeepState_TestHarness.cpp(10)
+input starts
+samp_mat values:    3.4032e-92
+  -1.3813e-35
+  5.7259e-164
+   4.8617e-33
+ -9.9454e+220
+ -2.5018e+133
+ -9.0860e-208
+  3.5105e-130
+ -3.9719e+120
+  3.0031e+208
+
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_calc_corr_tau_2_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/calc_corr_tau_2/calc_corr_tau_2_output/2064cfdc4a7f2ad96d1c72a3833c36956f92f7e3.fail failed

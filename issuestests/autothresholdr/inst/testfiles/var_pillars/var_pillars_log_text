@@ -1,0 +1,60 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745950
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_var_pillars_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: 4.54599e-248 -1.51302e-283 3.1999e-215 -6.87108e+153 -inf 3.76964e+88 1.04106e+275 1.83663e+98 -8.37719e+235 -1.29717e-51 1.09412e+192 4.56658e+215 4.44204e+78 1.37189e-28 -1.36845e+117 -5.94279e+58 inf -1.35355e-300 3.41461e+174 7.4009e+42 -2.03666e-21 inf 1.59595e-91 inf -4.15633e+159 1.01382e-66 -4.62997e+148 7.68544e-248 0.000125582 2.24091e+289 3.65821e-295 -6.24341e+303 -8.17683e-226 6.85722e-284 1.16754e-235 9.05587e-235 1.68526e+62 -3.36082e+199 nan 5.56683e-256 -0.0137599 -5.31158e+245 1.81509e-121 25.9647 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/8a73cccf69ceebb3d8120ba80c2d8d807f43b022.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: 4.03515e+165 -inf -5.24919e-291 7.57719e+256 -2.53679e-177 1.55181e-290 nan -9.47922e-17 -1.19721e+279 -3.2426e-75 7.24446e-83 5.56574e+152 1.19047e+290 -inf 2.19413e-249 nan 6.18687e+240 -7.0286e+128 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/fca92945d32c26c690e2b7f327592d419eac7e14.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: -5.18471e-260 4.14975e+145 -1.19063e-217 1.2547e-226 -4.92387e+54 -4.48407e+278 -5.09876e-195 -1.54013e+258 2.56995e-301 -inf -1.11359e-123 -2.2026e+260 -3.55167e+28 -5.87439e-233 -4.78192e-139 -2.48093e+26 -4.81666e-170 -1.02895e-08 8.47153e-36 6.34133e+65 3.27042e-260 -inf -1.07854e-239 -2.98039e+306 2.23701e+194 -9.67339e-16 4.24727e+211 2.21788e-52 2.32516e-147 2.02445e-214 -7.45806e-77 4.43078e-92 -5.37658e+207 -8.74085e-28 -2.01338e-294 nan 6.7238e+186 1.31469e+305 -9.5425e-101 4.56534e+78 1.56214e-233 -2.60398e+152 -7.56374e-152 -1.74865e+251 inf 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/9ee74803a87e32a26d770d5f3e5e210b0e246281.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: -2.35634e+97 3.17271e-36 1.2107e+223 5.22429e+76 2.97085e+256 -1.40026e-39 -1.24044e-236 -1.208e-211 3.53215e+290 4.02799e-244 46140.3 1.38686e-14 2.72039e-204 -1.42928e-177 1.95106e+170 4.66225e+275 -1.2885e+285 -5.63847e-229 -1.20532e-222 -4.21785e-201 6.33807e+242 -3.05705e+295 9.16107e-288 9.20519e+126 2.91429e+120 -1.08253e-75 6.67508e-68 2.09829e-17 -3.85891e+39 -6.31824e+09 -5.40994e+237 -3.607e+211 8.21998e+41 -2.10554e-56 3.1731e+154 1.3746e-302 -4.51458e+226 8.17873e-288 -inf nan 1.32725e-75 -3.84016e+182 6.89411e+140 -4.27239e+08 -7.01313e+192 -1.25257e-191 nan 9.78983e+213 -6.83936e-58 -7.02817e+257 -8.41136e-181 5.37309e-304 1.82316e+58 -3.82714e+276 1.40119e-257 -3.69633e-242 2.59869e-08 1.55307e-291 -4.52452e-62 -inf 3.12623e-64 -4.2532e-303 4.219e-54 -3.79283e+284 -8.57154e-227 3.00271e+171 -1.30055e-72 6.33607e-196 -1.08438e+29 -9.76807e-231 -2.45005e+112 8.76885e+211 1.18475e+200 1.29927e-161 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/5fa917dee58452590777226bb82fa88072989778.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: 0.0158109 -2.92873e+299 -8.45515e+271 8.62054e+252 nan 4.67919e-222 2.05452e-266 140.191 3.52082e-09 -4.19842e-283 8.66645e-178 1.36214e+182 8.67907e+142 6.59038e-23 1.60712e-147 -1.10458e+188 7.01694e+109 5.42506e+184 -1.4011e-24 146.281 0.0277043 2.29049e+88 -2.6455e-178 3.67831e-58 -1.2693e-34 inf 5.42506e+184 1.33556e-48 1.05828e+191 5.42506e+184 -1.27763e-238 -5.89556e+137 -1.56045e+81 6.66171e+255 1.14276e-303 -9.8828e-243 6.64399e+121 3.60759e-176 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/9d33a8d7f7cdb9a2f7be0f279e1e7ba08e3361a5.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: -5.21436e-189 -1.3254e-55 1.64877e+120 -9.24317e+260 3.09983e+192 -2.00723e+224 1.33211e+300 8.45792e+105 -8.86005e-182 -1.49337e+73 -6.56478e+211 inf 4.46625e+201 1.10533e-247 -4.20462e+70 -5.34957e+218 -3.54839e-81 8.18726e+126 -3.37046e+32 6.90722e-235 -6.29515e-305 3.84192e-237 -1.01161e-194 -inf -1.82659e+239 3.7097e-150 -1.18726e-119 808130 -4.22774e+113 6.91506e+196 -5.4386e+301 1.28513e+228 -2.25839e+245 -1.33303e-158 3.35643e-257 3.47145e+104 nan -1.05334e+167 -1.6856e-162 -1.58274e+87 3.55677e+279 -2.73313e+28 -5.99189e-178 -1.57597e-277 1.32092e+96 -1.09813e-106 6.73274e+42 8.66458e-14 3.88024e-286 -4.49218e-169 -8.54838e+18 -3.68053e-306 -1.40333e-185 2.26266e-293 2.6618e+247 3.29749e-121 -2.19867e+42 -2.84504e-179 8.15551e-118 1.49664e-285 -1.39339e-56 -4.57153e-55 1.9361e+255 1.53301e-25 -1.5535e+293 -8.8083e-108 -1.01298e+242 -3.77292e-226 -1.12477e+159 2.21393e-119 1.2817e-283 -4.64261e+265 1.16188e-188 -6.04427e-262 -9.43797e+288 -2.82112e+106 -1.56336e-35 9.30227e-08 -1.2423e+107 -6.54703e-142 -3.51437e+108 5.81124 5.14018e-12 5.15716e+92 -0.000466011 -1.14609e+11 -6.98135e-239 5.84865e+59 2.96609e-25 nan 6.8721e-102 1.42241e-237 1.58483e+150 -2.01077e+128 -1.36271e+240 5.35749e+224 3.93673e-138 -1.68029e-186 -2.90375e+244 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/773793aa81b6f58d8701ea7e068f680d04497e3f.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: 2.47096e-06 -9.54531e-253 2.80614e-165 4.46235e-159 5.85856e-22 3.44774e-130 inf -1.76305e+116 -3.64555e+219 9.6516e-97 -7.2992e+61 -1.94537e-24 -inf 1.98339e-249 -1.82824e-125 -6.51177e+118 1.62042e-90 1.49553e-85 3.54876e+194 -4.41767e+210 3.38543e+100 -1.2047e+284 2.2061e-305 3.86224e+72 9.14976e+18 -8.34249e-157 1.20532e+34 3.54976e-156 7.43261e-78 3.10249e-236 1.35733e-275 -2.82324e-143 -7.15263e-231 -2.2129e-236 8.42708e-244 -2.36792e-306 9.05374e-185 -1.44783e-129 -1.18086e-186 -1.89236e+76 1.61915e+129 -1.90804e+307 -1.55354e+12 -5.20652e-298 inf -6.05191e+171 -4.07404e-87 -2.68501e+108 2.27957e+46 -3.88592e+74 4.50691e+296 3.39912e+143 -5.93276e-259 2.01111e-227 1.56952e-243 1.04863e+74 3.97447e+130 4.79026e+22 2.75211e-288 -3.3443e+269 -7.15124e+42 -3.64328e-17 6.04682e+190 -2.18608e+304 -6.22265e+13 -1.06974e-44 8.15908e-95 9.93267e+144 1.54332e+125 -4.96156e+97 -7.22223e-280 -4.52255e+73 1.84816e-148 -1.21172e+131 -3.7883e+53 5.55502e+84 3.19477e-221 5.6086e-73 1.86809e-69 -4.59835e-97 -1.43369e+80 -2.34902e-282 3.98908e+158 1.26726e-148 -3.38596e+171 -3.15898e-65 nan 2.04267e-114 2.23893e-305 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/d1ab7e59c8ecf4a7d16e0f5feaeafeddf7876d02.fail`
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 7 failed/0 passed/0 abandoned tests

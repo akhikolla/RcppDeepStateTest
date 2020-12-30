@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (PanelCount_deepstate_test_matVecProdSum_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProdSum/matVecProdSum_output/188073d3fb2fc263e8c4ec45c1dc5686e0654383.fail`
+TRACE: Running: PanelCount_deepstate_test_matVecProdSum_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProdSum/matVecProdSum_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+m values: 4.16986e+304 1.68659e+303 5.42819e+162 4.58916e+224 3.17452e+144 4.22291e+82 8.31149e-159 1.49559e-35 1.33596e+169 2.33683e-21
+5.25929e-249 1.25018e-237 2.02260e+260 8.69742e-103 3.20424e-213 4.18841e+29 4.90017e-48 1.09825e-64 9.13456e-278 1.73748e-276
+5.90923e-207 2.33133e+65 2.82159e-269 6.14649e-18 2.19739e-101 2.01011e+220 1.00412e+183 1.10353e-60 3.70503e+146 1.88628e+63
+2.15556e+26 4.20701e+277 3.28535e+90 7.15763e-200 0.457508 3.18611e-96 1.92716e-81 2.56044e+298 3.14990e+69 4.85596e-267
+
+ext values: -1.40018e+46 4.69761e+148 -2.3672e-135 -4.9245e-260 2.59749e-295 -1.51426e+289 -7.3382e+41 -4.87486e-40 8.10603e+89 nan 3.38076e+145 6.65043e-167 -9.63134e-13 3.49169e-200 1.18423e+46 5.4132e+108 1.04603e+291 inf nan 0
+v values: 4.78764e+60 5.13413e+203 2.63044e-39 1.81095e+106 1.53994e-266 255549 -2.70894e-308 -3.0282e+203 -2.90821e-275 nan 2.02642e+147 -4.19184e+96 7.09857e+60 1.02214e+10 1.20921e+188 7.7126e+218 2.92802e+128 2.19374e+24 2.47736e+20 -1.89118e-202 1.19008e+118 -2.41848e+07 7.45093e+17 -7.47697e+276 1.83797e-200 -2.25186e+213 -7.52423e+07 7.65215e-299 -4.72158e-198 2.44428e-180 1.14106e+35 1.65947e+125 -7.12749e+22 1.83985e-243 7.71647e+145 3.74785e+219 2.4636e+143 1.46392e+164 2.29712e+152 2.49387e+166 6.31707e-130 -1.60434e-270 -5.93123e+179 -2.94119e-79 7.40073e-69 -2.79536e-105 1.27878e+186 3.37324e+174 -1.23474e-205 -1.6232e-128 8.34421e+154 -inf 1.38991e+103 -1.16277e-210 -7.57702e+267 3.10899e-220 -3.56005e-237 -8.69663e+50 2.31549e+23 4.30946e-186 1.1543e+23 -2.15949e+94 -1.80795e+226 -3.6405e-184 nan 9.71039e-117 4.93989e+240 -1.80135e+297 7.37595e+118 inf -2.26259e-284 -1.11897e-09 7.76266e-295 0
+group values: -inf 6.89446e-68 8.93058e+186 7.28882e-289 -8.34254e+148 1.76153e+295 0.54008 2.53862e-174 9.50912e-94 -1.86087e+15 3.62871e-145 -7.80503e+57 8.27053e+149 1.19506e-212 -1.38193e-208 nan inf -3.13694e+236 7.076e-103 -5.80167e-35 -1.38625e+241 1.96007e-10 -1.00831e+301 -8.93973e+74 2.89212e+154 -4.246e-190 2.51333e+157 9.44413e+177 1.85114e+162 6.48799e-300 -5.20955e-290 -inf 7.69141e+141 nan -2.47039e+229 1.38382e-08 7.27472e-65 -4.21668e-81 0
+input ends
+==1771389==  If you believe this happened as a result of a stack
+==1771389==  overflow in your program's main thread (unlikely but
+==1771389==  possible), you can try to increase the size of the
+==1771389==  main thread stack using the --main-stacksize= flag.
+==1771389==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: PanelCount_deepstate_test_matVecProdSum_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProdSum/matVecProdSum_output/188073d3fb2fc263e8c4ec45c1dc5686e0654383.fail crashed

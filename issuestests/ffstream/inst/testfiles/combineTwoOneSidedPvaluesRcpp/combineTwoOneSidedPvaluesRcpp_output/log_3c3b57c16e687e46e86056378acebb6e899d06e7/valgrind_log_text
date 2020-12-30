@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_combineTwoOneSidedPvaluesRcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/combineTwoOneSidedPvaluesRcpp/combineTwoOneSidedPvaluesRcpp_output/3c3b57c16e687e46e86056378acebb6e899d06e7.fail`
+TRACE: Running: ffstream_deepstate_test_combineTwoOneSidedPvaluesRcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/combineTwoOneSidedPvaluesRcpp/combineTwoOneSidedPvaluesRcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p1_ values: 4.19088e-12 -8.928e+266 9.18273e+69 -1.56916e+11 nan -1.68723e-238 -1.74559e-116 1.9608e+230 1.49061e-299 1.49061e-299 -4.17898e+87 nan 2.12631e+158 -2.80482e+277 2.3839e+95 0
+p2_ values: 2.03057e-188 6.6794e+202 1.02144e-108 -4.20934e+116 inf 6.5204e-149 1.91006e+175 6.4212e+30 nan inf -4.0931e-294 7.13682e+148 3.59248e+229 -1.061e+274 -6.19112e+160 -1.55827e-243 2.40416e-206 nan 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=16].
+ERROR: Failed: ffstream_deepstate_test_combineTwoOneSidedPvaluesRcpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/combineTwoOneSidedPvaluesRcpp/combineTwoOneSidedPvaluesRcpp_output/3c3b57c16e687e46e86056378acebb6e899d06e7.fail failed

@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (robmixglm_deepstate_test_llrandgammacpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandgammacpp/llrandgammacpp_output/1235586dc59c651b8f41b3c24b9c6f1714c6d239.fail`
+TRACE: Running: robmixglm_deepstate_test_llrandgammacpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandgammacpp/llrandgammacpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: -1.3992e+41 nan -3.96152e-91 -2.52068e-138 -6.16526e-36 1.03634e-28 1.53897e+185 1.71028e+16 1.15417e+232 -9.02214e-187 -1.29424e-265 inf -6.58304e+114 5.9284e-295 -1.72122e+262 -5.05326e+75 -inf 1.19154e+219 -6.17362e+192 5.03773e-178 5.24891e-133 -108259 1.04204e-215 -1.61344e-240 -1.02612e-187 -1.57368e-233 4.28952e+87 -1.91546e+92 inf -1.61615e-83 3.79371e-86 -1.04837e+40 -5.95089e-305 -6.14598e-27 1.4401e+276 -5.96888e+68 -1.83154e+292 -8.92989e+142 1.03393e+150 0
+lp values: -2.12316e+76 -2.12316e+76 7.02983e+124 nan
+tau2 values: -1.18058e+37 -1.8333e+113 3.6038e-21 -1.14977e-180 -1.63432e-34 -3.09901e+272 1.4764e-34 1.1612e-167 -2.92227e+39 3.30646e+47 3.26444e+125 3.84607e-286 1.85905e-208 inf 2.10861e-73 nan -8.43264e+291 1.37705e+292 1.0775e+248 -1.008e+275 -9.03285e-181 -4.42531 -1.65996e-251 1.78622e-105 5.55125e-253 -1.2902e-284 nan -1.25445e-242 4.85236e+263 -5.11715e+22 -3.22549e+188 -0.00736304 -2.59439e+95 -1.34991e+06 8.07718e-114 -1.633e-122 -7.12838e-239 5.36308e-39 -1.37833e+169 3.81209e+100 -2.21288e-163 3.34227e-139 1.45814e+35 nan -6.73641e-48 1.36035e+286 0
+phi values: nan inf
+gh values: 1022.16 8.17651e+251 1.18558e-164 1.32137e-306
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=4; extent=4].
+ERROR: Failed: robmixglm_deepstate_test_llrandgammacpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robmixglm/inst/testfiles/llrandgammacpp/llrandgammacpp_output/1235586dc59c651b8f41b3c24b9c6f1714c6d239.fail failed

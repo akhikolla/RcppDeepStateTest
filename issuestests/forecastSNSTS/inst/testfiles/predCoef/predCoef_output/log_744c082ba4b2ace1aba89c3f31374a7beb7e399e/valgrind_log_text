@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (forecastSNSTS_deepstate_test_predCoef_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/predCoef/predCoef_output/744c082ba4b2ace1aba89c3f31374a7beb7e399e.pass`
+TRACE: Running: forecastSNSTS_deepstate_test_predCoef_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/predCoef/predCoef_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: -8.33193e+278 -4.78119e-12 3.87676e-112 -7.76881e-211 1.44822e+194 -3.85176e-227 -4.59034e-281 -4.84198e-275 -1.49729e-112 -7.06942e-307 -6.00806e-28 -4.2308e+212 -4.74406e+102 -2.60252e-42 9.97548e-88 2.14499e-202 -6.85424e-297 4.89343e+123 1.66701e+151 -6.50948e-229 4.76278e-60 -4.78556e-279 6.43135e+100 -7.81077e+286 -4.40753e+284 nan 3.99196e+250 -2.23275e+173 9.633e+143 1.68074e-186 -1.28732e+41 8.29478e+60 nan 4.02196e-86 -2.33951e+286 1.89703e+205 1.23274e-07 -1.64168e+51 0
+P values: 998918425
+H values: 1280934850
+t values: -125867203 -1292111192 -258077522 996298871 -2147483648 -216794327 -1763850344 514080279 598299861 -1522041451 -443923680 -325806119 757600800 990726609 -368023031 -1264049961 1366600950 -2147483648 -1261452896 1666742673 -2138328644 -1728344701 200772800 -1616078863 541386716 1853062178 1128120998 -1774438634 -940977568 -463412241 1466937335 457697339 -1949362183 1133779846
+N values: -1241408519 -1783201946 -1817391443 273452637 401074594 -206678650 2119447701 991770609 517139379 401074594 384354598
+input ends
+Exception Handled
+TRACE: Passed: forecastSNSTS_deepstate_test_predCoef_test

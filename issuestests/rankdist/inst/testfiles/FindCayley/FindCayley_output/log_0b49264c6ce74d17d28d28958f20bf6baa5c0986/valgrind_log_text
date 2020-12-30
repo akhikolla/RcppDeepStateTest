@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_FindCayley_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/0b49264c6ce74d17d28d28958f20bf6baa5c0986.fail`
+TRACE: Running: rankdist_deepstate_test_FindCayley_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 5.36163e+15
+3.79001e+12
+1.79854e-146
+2.28311e-79
+4.17895e-102
+4.39774e-128
+2.29819e-249
+6.48681e+127
+2.30072e-134
+3.65927e-118
+
+pi0 values: -3.17477e+255 6.24287e+299 nan -3.64245e-66 1.46328e+271 1.6098e+52 -2.87213e-145 4.83201e+275 1.9599e+57 -4.05905e+251 inf 1.36716e+59 1.59064e+258 2.39904e-254 3.52118e+168 -3.86945e+287 3.6129e+215 -3.92869e+122 -1.24295e-279 -7.38932e+11 2.67132e+24 3.7021e-178 8.98945e+170 -1.59432e-187 -2.81806e-282 -inf 1.04525e-08 3.14147e-197 5.83105e+232 8.52986e+284 4.22461e+53 1.64175e+198 7.33829e-274 -6.12564e+66 -9.27533e-275 nan 1.0742e+30 3.09223e+229 1.61808e+43 6.18209e-309 nan -1.78909e-240 -9.2378e-144 -9.46089e-33 1.85633e-53 4.1383e-89 -9.61863e-176 7.9227e-105 3.11182e+12 -6.82073e+222 9.15186e+237 -6.7477e+286 -1.59333e-74 9.1255e-132 -1.42431e-27 -3.99328e+177 7.81909e-48 1.6896e-305 -inf 3.00913e+223 1.46081e-91 1.45431e-117 -2.55192e-242 -5.9505e-303 1.45302e-272 2.52246e+166 -1.32327e+137 -1.17677e-175 -1.33433e+246 5.17254e-205 -3.41187e+41 -2.40871e+135 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-9223372036854775808; extent=1].
+ERROR: Failed: rankdist_deepstate_test_FindCayley_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindCayley/FindCayley_output/0b49264c6ce74d17d28d28958f20bf6baa5c0986.fail failed

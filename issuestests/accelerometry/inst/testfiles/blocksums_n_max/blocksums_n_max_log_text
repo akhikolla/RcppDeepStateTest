@@ -1,0 +1,60 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606680387
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blocksums_n_max_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 3.06653e+174 1.03774e+57 -5.80882e+51 -3.3346e-251 -1.25377e-229 -8.83918e+278 -1.05835e+217 -inf 1.24093e+118 -9.32257e-142 5.35824e-224 -4.15091e+111 6.74632e-103 -9.03055e-285 1.25713e-74 -5.41133e-188 -0.130431 -inf -7.88665e-272 3.84162e+105 -3.74419e+83 4.39581e-41 -1.4071e-156 -5.58255e-72 inf -7.46762e+257 9.99143e+247 -8.99988e-214 2.90211e+68 1.24447e+298 2.02772e+63 2.02385e-103 -4.39274e-103 7.90796e+239 nan 1.95725e-109 2.14886e-168 6.75165e-43 -4.41345e+157 -2.49546e-25 0
+window values: 649286670
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/898cd3a36cfe8a0f8d2c6abd44f20418da4adfd3.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -6.3118e+130 -0.0154889 1.40255e+233 5.83178e-235 -1.83747e+55 2.05676e-27 -6.51846e-290 -3.02175e+153 -9.75018e-89 -4.04078e-302 3.21356e+190 -8.37324e+120 -1.55173e+183 8.36037e-255 1.53477e-102 8.60408e+304 inf 3.54883e-154 2.25831e-167 -4.58738e+123 2.06767e-76 nan -1.30247e-245 1.09764e-215 3.39654e-111 -4.67698e+196 4.56266e+187 8.45665e+298 -7.93048e+138 5.2026e+115 6.71839e+157 8.86867e-143 -2.61236e-194 -3.86823e-234 -7.70676e+118 -1.42232e-130 1.31368e-252 nan -5.69833e-71 1.55073e+154 7.38094e-186 1.46202e-190 1.65273e+97 2.30188e+163 -1.37503e-116 2.45465e+26 2.55787e-236 4.84697e+43 2.09478e-74 1.0902e+88 inf -1.61197e-259 -1.16144e-14 3.96504e+182 -3.83434e-228 2.7145e-269 3.39151e+298 1.05677e+26 inf 5.14354e+21 -5.96106e-32 3.94e-286 5.33982e-284 -1.30842e+212 -1.86696e-81 2.27484e+251 0
+window values: -1609156054
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/b66698937146ffbb19804ad7c847ef8a5e0e691e.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -7.5613e-103 -1.32055e+113 -1.81877e-114 2.30021e+133 7.11742e+177 inf 1.26105e-09 -6.08226e+147 5.91766e+174 5.47811e+304 1.73226e+263 1.46597e+224 2.60166e-131 0.000161947 1.59341e+36 -2.11089e+139 -9.23113e-56 -5.65581e-263 -3.3213e+115 5.17962e-229 1.21925e-161 -5.8845e+220 4.52693e+202 -3.71122e-123 1.32177e+123 -1.09889e-182 9.98206e+285 1.13153e+285 6.56036e+224 3.63592e-99 nan -2.68294e+247 -4.10652e-23 4.69011e+32 nan 3.83688e-184 -1.28516e+176 -3.81099e-139 nan 3.69409e-103 2.77133e-278 -2.81005e+108 -7.51598e+175 8.95712e-213 -7.7674e+118 4.08254e-259 1.17152e-247 -4.13143e+293 -1.8871e-16 2.49553e-224 -2.71049e+19 -8.27796e+307 1.86684e+182 2.35417e-143 1.68653e+67 -3.80672e+49 4.79127e+137 1.45399e+179 -1.76702e+275 -4.05779e+46 -2.00203e-186 6.90186e-256 -2.84253e+34 1.0836e-66 1.04732e+151 -1.89245e-291 7.61152e+226 -2.63487e-304 3.97107e+73 1.41359e+171 -1.54706e+46 -9.11049e+70 -2.63723e-89 -4.57663e-191 3.43221e-247 3.61999e-92 1.97564e+254 -8.41653e-132 2.69533e-64 -6.06705e-239 5.02417e-117 2.48851e-160 1.40115e+237 nan -1.18147e-298 -1.57605e-32 8.41125e-106 1.26931e-97 -2.43129e-139 1.10662e-127 -6.37985e-308 -5.84749e+72 -2.71318e+65 -4.19864e+129 9.55344e+183 -1.58107e-258 -1.24151e+181 0
+window values: -161007493
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/f72e82c7a4fdb5af0c6a61fac16b193005f97b01.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -inf -1.85988e-115 -4.43749e+85 -3.84663e-292 -4.21013e-223 1.60541e+150 -1.30199e+151 -6.20539e+65 1.18703e-180 1.48327e-161 nan -5.99813e-301 1.73717e-289 1.60126e-273 -1.01282e+96 -0.538171 4.06883e+202 inf -1.57792e-176 4.82012e-273 -2.34359e+44 5.40622e+194 2.54361e+173 4.85789e-271 9.62027e-247 1.8603e+273 -8.39346e-122 -3.35043e-75 -1.31746e+29 7.08815e-102 -8.88065e+294 -4.3737e+224 -2.41778e-207 2.5704e-134 -5.411e-118 8.41829e-250 -9.52473e+158 -1.32298e+45 7.13732e-22 -3.10269e-169 1.02946e-305 -1.59017e-173 2.67694e+161 -3.47418e-280 -7.44839e-241 6.34882e-158 -2.13305e+251 3.58396e-193 1.44663e-258 2.44892e+247 2.21763e-79 1.06259e-229 4.22429e+43 -1.53095e-245 6.61711e+14 5.71926e-151 1.56387e+292 2.15704e-43 -4.12841e-13 1.67935e+174 2.3822e-259 3.63422e-138 2.71569e-64 3.70131e-165 1.01086e-102 -3.98776e+155 -2.9503e-179 -2.32394e+49 -1.56996e-119 -4.8454e-268 -8.24161e-101 1.24218e+11 -8.72724e-175 3.65795e-279 -4.55245e-287 2.74894e-173 5.97327e+113 2.79836e-33 1.90536e+146 7.78986e+192 -2.36502e+160 -4.29467e-168 3.56767e+283 1.78175e-150 -4.40213e+08 -2.60113e+213 nan -1.01069e-194 6.59556e+75 8.80552e+220 -1.12942e-267 -3.14712e-63 4.94022e+277 -5.81517e-273 -1.25739e-71 5.54965e+130 -4.70142e-85 1.62097e+53 0
+window values: -1785152647
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/e7ec9bd1ebd54267b109a917df3e2dd14bdd6ae5.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 8.01433e+101 -1.09459e+100 1.74318e-251 -1.01284e-93 -5.29019e+133 -1.55308e-176 -8.64975e-74 5.69482e-269 1.97264e+124 9.86506e+85 -1.3714e+38 1.53357e-93 -2.45774e+33 nan -1.92157e-101 nan 1.64785e-282 2.86861e+97 6.53499e-99 1.02602e-76 inf -6.83534e-236 4.25902e-38 6.4531e-300 nan -3.47358e+143 -2.624e+292 0
+window values: 1440066310
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/d732ce6a91f07fc6b5a58e599cafbbb83ebfc195.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -9.28544e+96 -2.03744e-270 5.95749e-109 -1.59209e-34 -1.98654e+264 3.38537e+307 1.28863e+303 -1.43854e-300 -3.2614e+61 1.01189e-265 -4.26368e-256 1.05438e-11 -2.08384e+33 3.09739e-56 -5.00103e+192 -1.62216e+271 6.54291e-217 -4.47785e-240 -2.08876e+08 65558.6 nan -2.42415e-278 2.66996e+301 -2.14355e-302 inf -1.30415e-262 nan nan -3.88821e+146 -4.23909e-176 -1.88465e-65 4.37814e+78 -4.49753e+229 3.12473e+61 1.01687e+215 -4.57542e+211 1.44937e-306 3.99289e-231 0
+window values: -469987416
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/ea41e4645bdbc7f2be0fe6b632788d277785be90.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: inf -inf nan nan nan
+window values: -100991017
+input ends
+ERROR: Crashed: accelerometry_deepstate_test_blocksums_n_max_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n_max/blocksums_n_max_output/820b9363e50a8d5e1a414cfac293db16d1164892.crash`
+INFO: Done fuzzing! Ran 7 tests (3 tests/second) with 7 failed/0 passed/0 abandoned tests

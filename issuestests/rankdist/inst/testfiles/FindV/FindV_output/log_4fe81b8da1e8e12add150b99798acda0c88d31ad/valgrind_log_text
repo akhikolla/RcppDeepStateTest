@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_FindV_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindV/FindV_output/4fe81b8da1e8e12add150b99798acda0c88d31ad.fail`
+TRACE: Running: rankdist_deepstate_test_FindV_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindV/FindV_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 3.08154e+268 9.01415e+249 2.90622e+62 1.41997e-87 1.22797e+58 2.53307e+161 2.52594e-54 1.27876e+224 1.08209e+233
+1.32332e-190 6.54071e+292 1.95408e-149 5.78654e+183 2.33653e+267 2.45557e-293 1.50770e-192 3.91287e-156 4.71308e+168
+6.23082e+203 7.63831e+257 6.19416e+214 3.39234e-20 4.62932e+87 1.64832e-151 3.18662e+231 1.38277e-193 8.20755e+116
+
+pi0 values: nan -8.9231e-173 -4.41585e-96 -inf 6.00648e+175 7.50702e+08 nan -3.58475e+84 2.22335e-45 -5.50216e+194 nan -4.83956e-88 -8.60866e+136 1.11577e-132 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-2147483648; extent=15].
+ERROR: Failed: rankdist_deepstate_test_FindV_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/FindV/FindV_output/4fe81b8da1e8e12add150b99798acda0c88d31ad.fail failed

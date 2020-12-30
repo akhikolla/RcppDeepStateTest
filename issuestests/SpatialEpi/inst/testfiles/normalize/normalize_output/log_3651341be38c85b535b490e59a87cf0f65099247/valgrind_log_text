@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (SpatialEpi_deepstate_test_normalize_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/normalize/normalize_output/3651341be38c85b535b490e59a87cf0f65099247.pass`
+TRACE: Running: SpatialEpi_deepstate_test_normalize_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/normalize/normalize_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -54165.9 1.72642e-136 -9.38866e+221 -5.00337e-83 1.12135e+107 -1.15451e+114 1.37709e+193 -8.31229e-244 3.42556e-183 6.7743e-198 nan -1.15392e+170 1.45269e+203 -1.65638e+103 -3.49552e-201 -2.11077e-221 2.59703e+108 1.49961e+73 1.09023e+125 8.67284e+195 5.15973e+34 nan -4.30164e+14 -4.28281e-98 -2.46865e+206 7.288e-129 -2.47273e+259 -1.49051e-153 -3.52689e-154 -9.67047e+305 8.45984e-14 -2.0796e-178 1.39892e+128 1.03044e-72 1.19794e-26 -3.16954e+208 6.2289e-158 1.69914e+246 5.61799e+63 8.93085e+119 -1.74609e-149 2.03413e+169 -1.05231e+51 -9.73353e-77 -4.40192e-237 -6.96567e+286 -1.41939e-144 -2.42915e-287 -1.2806e-257 9.78021e-88 -6.17751e+264 -9.57351e+260 -inf 1.62844e-127 -7.75451e+149 1.04424e-233 -2.41869e-263 1.45965e+28 8.04501e-82 -1.71644e-139 -1.63073e+162 -7.78778e+62 nan 2.70147e-17 -1.16101e+104 -2.37395e+84 2.12949e+32 4.86949e-282 2075.38 -2.79108e-133 inf
+input ends
+TRACE: Passed: SpatialEpi_deepstate_test_normalize_test

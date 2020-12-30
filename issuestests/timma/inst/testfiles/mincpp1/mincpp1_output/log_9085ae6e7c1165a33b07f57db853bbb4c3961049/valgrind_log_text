@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_mincpp1_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp1/mincpp1_output/9085ae6e7c1165a33b07f57db853bbb4c3961049.fail`
+TRACE: Running: timma_deepstate_test_mincpp1_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp1/mincpp1_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 1.01323e-218 9.17929e+178 -1.15313e+50 -1.80811e+236 -1.70913e+280 -2.03783e+121 -3.36425e+131 -2.76307e-177 -2.0844e-172 inf -6.16582e+147 -inf 5.57952e-238 -inf -3.98241e+216 -3.50431e+48 -3.07029e-86 -1.46168e-266 nan 2.98979e-299 -9.9063e+184 1.50046e+228 -2.12776e+220 -4.51985e-292 -4.53561e-48 -1.32726e-195 nan -4.07762e+228 -2.29141e+37 -1.55848e-108 3.27736e-262 1.44458e+95 7.28055e+109 -6.38534e+201 -9.99458e+101 2.49222e-25 0
+x values: 1365484028
+y values: -1277108600
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: timma_deepstate_test_mincpp1_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp1/mincpp1_output/9085ae6e7c1165a33b07f57db853bbb4c3961049.fail failed

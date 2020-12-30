@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_mi_gauss_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/mi_gauss_cpp/mi_gauss_cpp_output/076efa94cadb7031e094f54995b0c31ca7aa13ed.pass`
+TRACE: Running: hetGP_deepstate_test_mi_gauss_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/mi_gauss_cpp/mi_gauss_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Mu values: 1.10893e+282 4.37698e+60 7.38548e-12 2.26657e-76 2.37745e+167 3.88193e-177
+5.45892e-163 5.49091e+225 4.41760e-32 3.71746e-265 4.72005e+52 2.37285e+259
+9.17725e-52 4.17482e-109 4.37696e+74 9.56547e-300 4.99098e+48 5.95637e+83
+1.06955e+158 4.04181e+299 6.00317e+299 1.74044e-62 3.55162e+194 5.14855e+136
+1.64288e-135 4.38823e+229 108319. 2.34202e+196 2.07637e+27 1.39618e+157
+3.25422e+236 9.77289e-24 2.46055e-25 7.99229e+248 1.81860e+270 1.10346e-143
+8.44354e-273 2.42912e-96 4.35490e-62 3.81325e-198 3.87858e-153 4.30294e+108
+
+sigma values: -7.70645e+259 2.81077e+169 -1.21863e-104 -2.57601e-96 1.90511e+237 8.42043e-07 nan -3.72118e+70 -4.29789e+172 -inf nan -3.38569e-300 -4.41135e-195 -2.96161e+301 -1.21984e+59 4.80422e+243 5.42099e+298 -7.63159e-34 -5.2074e+98 2.80946e-296 -1.8409e+184 -1.30196e+75 -4.98669e-298 1.46548e-107 -1.64049e+271 7.3968e-28 -4.86908e-102 -7.78472e-114 -1.4416e+47 -3.09866e+197 1.14683e-45 1.69914e+280 -2.05164e+108 -1.1525e-182 1.02986e+138 2.00786e+81 1.69267e+247 5.86115e+86 -4.79864e+30 -inf 5.89156e-167 7.96604e+39 -3.41793e-230 2.80101e+52 -6.99294e+07 1.21672e+92 3.74152e+272 nan -1.96568e+141 -3.08224e-239 -6.67991e+203 -4.94163e+69 -1.35646e+11 -2.70065e-261 -1.04386e+245 -3.47093e+54 -7.47925e-114 1.94773e-234 4.2165e+79 0
+input ends
+TRACE: Passed: hetGP_deepstate_test_mi_gauss_cpp_test

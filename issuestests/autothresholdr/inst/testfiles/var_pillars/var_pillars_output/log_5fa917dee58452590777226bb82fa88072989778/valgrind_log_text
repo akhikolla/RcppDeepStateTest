@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_var_pillars_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/5fa917dee58452590777226bb82fa88072989778.fail`
+TRACE: Running: autothresholdr_deepstate_test_var_pillars_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+arr3d values: -2.35634e+97 3.17271e-36 1.2107e+223 5.22429e+76 2.97085e+256 -1.40026e-39 -1.24044e-236 -1.208e-211 3.53215e+290 4.02799e-244 46140.3 1.38686e-14 2.72039e-204 -1.42928e-177 1.95106e+170 4.66225e+275 -1.2885e+285 -5.63847e-229 -1.20532e-222 -4.21785e-201 6.33807e+242 -3.05705e+295 9.16107e-288 9.20519e+126 2.91429e+120 -1.08253e-75 6.67508e-68 2.09829e-17 -3.85891e+39 -6.31824e+09 -5.40994e+237 -3.607e+211 8.21998e+41 -2.10554e-56 3.1731e+154 1.3746e-302 -4.51458e+226 8.17873e-288 -inf nan 1.32725e-75 -3.84016e+182 6.89411e+140 -4.27239e+08 -7.01313e+192 -1.25257e-191 nan 9.78983e+213 -6.83936e-58 -7.02817e+257 -8.41136e-181 5.37309e-304 1.82316e+58 -3.82714e+276 1.40119e-257 -3.69633e-242 2.59869e-08 1.55307e-291 -4.52452e-62 -inf 3.12623e-64 -4.2532e-303 4.219e-54 -3.79283e+284 -8.57154e-227 3.00271e+171 -1.30055e-72 6.33607e-196 -1.08438e+29 -9.76807e-231 -2.45005e+112 8.76885e+211 1.18475e+200 1.29927e-161 0
+input ends
+EXTERNAL: Not compatible with requested type: [type=NULL; target=integer].
+ERROR: Failed: autothresholdr_deepstate_test_var_pillars_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/var_pillars/var_pillars_output/5fa917dee58452590777226bb82fa88072989778.fail failed

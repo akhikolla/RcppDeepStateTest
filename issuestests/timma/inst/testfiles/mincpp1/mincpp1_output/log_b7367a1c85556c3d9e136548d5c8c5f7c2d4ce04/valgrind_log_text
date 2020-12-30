@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_mincpp1_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp1/mincpp1_output/b7367a1c85556c3d9e136548d5c8c5f7c2d4ce04.fail`
+TRACE: Running: timma_deepstate_test_mincpp1_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp1/mincpp1_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: -6.47498e+216 -9.89759e-59 1.9707e+25 -5.27266e+180 -1.78174e+65 nan 5.07811e+302 1.02228e-82 -3.62946e+258 9.58003e-36 1.12066e-38 2.75549e-80 -5.17675e-192 3.43464e+197 2.1397e+162 2.01612e-92 3.08728e+198 -8.3006e+46 4.74984e-153 1.36051e-140 1.57138e-55 -3.64204e-281 3.09439e+258 -4.22662e+66 -4.89464e+248 -1.84694e+301 1.44371e+148 8.46644e+98 2.44988e-181 nan -inf -1.45667e-277 -1.7229e-38 nan 3.55776e-134 2.22881e-129 2.19026e+236 -2.09764e-153 -3.38596e+81 -7.11408e-43 -1.57051e+198 1.57084e-232 inf 1.26757e-56 -8.47273e-219 -2.57399e-152 -6.13729e-135 -5.61873e+148 -1.43864e-73 -7.95712e+112 2.67439e+194 3.61452e-267 1.74976e+182 2.95472e-79 2.59594e+20 -1.20141e-275 -5.46598e+138 3.07255e-160 -8.92228e-306 1.20311e-203 5.49441e-278 7.03025e+243 -1.12569e+12 3.34448e-18 -7.4213e+231 3.37178e+110 0
+x values: 418582179
+y values: -2085392179
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: timma_deepstate_test_mincpp1_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/mincpp1/mincpp1_output/b7367a1c85556c3d9e136548d5c8c5f7c2d4ce04.fail failed

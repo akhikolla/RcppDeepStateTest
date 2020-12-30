@@ -1,0 +1,60 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606703804
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_cycle_decomp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: 
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: -7.50627e+108 4.1946e+134 6.6353e+162 1.40121e+214 -5.40436e-284 -1.15523e-23 3.5997e-09 8.20255e+286 3.31536e+79 -1.204e+189 -2.07362e-16 1.95217e-244 -7.51935e+52 -8.3432e+92 -1.67772e+29 nan -2.30721e-236 -6.51183e+292 1.07814e+167 7.69627e+27 2.37424e-90 1.34785e+105 9.02414e+101 -1.11109e-84 -2.44505e+239 2.2581e+80 -4.5024e-183 -5.64052e+130 3.21407e+35 -2.73557e+272 4.97828e+299 -2.62449e-298 8.23901e-217 -6.49712e+46 -6.76945e-244 -4.26481e+59 -1.43697e-241 1.04363e-05 2.68055e-63 2.27745e-43 -9.77784e-148 nan 2.04815e-54 -5.16665e-184 5.04313e-115 2.81352e+235 -3.72989e+297 -1.6205e+305 3.86521e-137 -9.95659e+181 1.02275e-115 nan 6.62522e-161 -5.79124e+97 3.18125e-219 -2.22357e-305 1.26544e+190 -9.55455e+15 -6.84624e+69 -6.60852e-86 -8.72172e-201 -2.16623e-49 -7.51935e+52 -2.8593e+99 4.28021e-218 0
+input ends
+ERROR: Crashed: rankdist_deepstate_test_cycle_decomp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/766be35af2971213b17258dd512f787fedac006f.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: nan -5.5048e-76 -9.27224e+106 9.55937e+75 -1.90858e+255 1.77003e+86 4.50034e-182 1.20834e-104 2.3151e-219 1.2587e+179 6.96463e+208 2.33738e+204 6.0635e+15 -1.54041e-295 1.1819e+16 -6.20747e+186 -8.66093e+59 -1.36974e-64 -3.68886e-119 1.401e-284 -1.90351e+267 -1.39147e+69 1.57396e-76 1.34307e-64 1.89459e+51 -1.35595e-72 1.17571e-121 -3.0162e-31 6.97908e+288 -5.02213e+230 3.82001e-208 1.839e+215 nan -inf 7.42751e-236 1.33838e-118 7.01492e-150 -4.4766e-145 1.38075e+232 8.56257e+10 -8.33161e+33 -2.28506e-159 -1.09435e+108 7.48879e-59 -5.23742e-266 3.55354e+190 -1.73346e+221 -1.74937e+72 6.57811e+114 8.17908e-127 6.36231e+71 -1.05976e+15 4.2826e+17 -1.74937e+72 3.32304e-94 -2.33661e+222 0
+input ends
+ERROR: Crashed: rankdist_deepstate_test_cycle_decomp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/4fadc8b588d958007166b94bed8af1330e0c6b1e.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: -2.02006e+180 -2.19056e-117 6.00982e+144 3.45131e+284 2.75584e-292 1.89801e-252 9.68347e+164 -1.01902e-39 -1.10506e+205 -1.06126e+149 -2.50826e-266 3.12887e+219 -3.40557e-272 -4.04135e-66 2.40585e+284 -1.02225e+41 -2.73592e+98 -2.70787e+194 1.19183e-134 -7.22598e-99 -2.39404e-291 2.55649e+65 6.58064e+150 -1.94287e+305 2.70064e+131 nan -1.66093e-116 2.49552e+257 -1.9661e-07 7.38482e+72 8.36746e-248 2.52545e-294 13.8682 5.52564e+31 -7.52859e+102 8.41075e-58 inf 1.59939e+75 -5.34518e-282 -1.39926e-108 5.12305e+61 1.93368e+226 nan 4.75943e-61 -2.27886e+37 1.06576e+72 4.92251e-20 1.0543e-16 -1.97154e+73 -3.98307e-182 8.25721e+101 -2.83747e+183 nan -4.12847e+228 1.66048e-161 2.22972e-249 0
+input ends
+ERROR: Crashed: rankdist_deepstate_test_cycle_decomp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/ed5fe443888b0e5c76cbd29a6581b319078fbc23.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: 6.91811e+257 1.22144e-253 -1.6355e+16 -8.09976e-248 1.10456e+196 9.39097e-23 3.09645e-192 -6.37699e+87 -1.69919e+106 6.27689e+96 7.82573e+298 2.60012e-05 -8.68187e-303 -4.82048e-244 1.06646e-250 2.27308e+16 -1.0734e-32 2.67135e-21 -1.86248e+277 4.84952e-219 1.03047e+117 -1.91253e-116 1.0974e+235 -2.3665e-42 1.45599e-245 -1.22702e-42 9.37955e+251 5.99177e-241 1.12438e-36 nan 2.16063e-65 3.62424e+08 -5.35365e+177 4.18204e-153 -1.22702e-42 -2.80737e+242 -1.22702e-42 -1.22671e-132 1.8986e+35 2.49243e-35 -3.44343e+202 -1.32857e-281 1.16346e-297 -3.7764e-136 9.39424e-85 1.97896e+37 1.81633e-231 1.77557e+43 4.70685e-213 0
+input ends
+ERROR: Crashed: rankdist_deepstate_test_cycle_decomp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/52460ee88a6d219c8b902948673fe1f3349328ba.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: 1.0505e+185 1.04643e+140 1.69144e-64 2.39512e+306 -7.97627e-135 -1.15184e-78 3.17468e-260 1.5123e+156 -2.43883e-13 5.95034e-58 1.20237e+269 -5.34604e-31 -3.14951e+130 6.58137e+244 -2.34985e-293 1.94771e-203 2.07069e-227 2.67304 -1.78789e-40 1.22809e-265 nan 4.86252e-108 1.5873e+217 2.48103e+262 1.48119e+195 4.68925e-92 -6.89667e+73 1.79894e+26 -2.51413e+163 6.25211e-80 -7.47053e+154 -4.16316e+235 6.96193e+302 8.61094e-173 1.1337e+119 -3.97417e-248 4.10605e-179 2.12002e+34 -3.13175e-80 5.73556e+06 -4.23194e+193 3.2126e-118 8.37427e+245 1.26768e-282 -3.46814e+151 -4.04232e-245 inf 1.33662e-104 3.00678e-240 207168 nan -4.62497e-275 -1.1072e+283 -2.63545e+56 6.1107e+19 -7.93431e+245 3.17461e+64 -4.09162e-92 -3.81086e-47 6.30627e-198 -7.37662e+251 5.96942e-263 1.71303e+55 -1.08829e+11 -3.56956e+249 -2.98331e-226 2.5818 -1.87302e-165 1.2218e-122 2.65329e-12 -8.9744e-110 -3.90993e-238 1.04973e-37 inf 0
+input ends
+ERROR: Crashed: rankdist_deepstate_test_cycle_decomp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/f4299a7f62cc39c001381789a585dbacfc586c7c.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: -3.78461e-149 3.14459e-99 1.89343e+100 3.95289e-192 -9.57505e+70 2.83329e-174 -7.941e+251 -2.66989e-94 -2.27809e-265 1.31423e-259 3.28141e+171 3.98163e-302 -1.47851e+221 -1.81988e-301 2.84219e-286 2.78601e-83 1.65302e+17 1.7577e-201 -7.30521e+49 7.82125e-100 -3.33954e-88 6.61127e+142 nan 2.71681e-173 -7.09799e+171 -3.51344e+14 7.36752e+164 5.34822e+47 -1.34237e-37 nan -2.13714e-64 -7.99657e-275 -9.52675e+256 -1.72044e-76 3.40491e-22 -2.24088e+173 3.16648e+242 -2.53625e+86 8.37956e+159 2.58068e+106 nan -1.40339e-80 -4.44036e+296 5.54478e-134 -6.52965e-143 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-1; extent=46].
+ERROR: Failed: rankdist_deepstate_test_cycle_decomp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/f46b4ff3774a71e75b67707396a20eef24b73aaa.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+comp values: nan -3.20972e-208 1.42888e+123 -5.8108e+215 -1.53375e+248 -2.2137e+138 nan -8.54267e+262 -2.88948e-216 3.43142e-87 8.88912e+161 -5.36751e-27 -1.64332e-226 -6.2702e+271 -3.16596e-119 4.17215e+290 -4.16895e-137 -2.59192e+196 1.33077e+244 nan -2.39144e-94 2.74386e+39 -4.34438e-62 -6.96329e+224 5.36266e-219 -3.66924e+151 -3.04151e+242 -1.43581e-263 5.21018e-252 -2.51277e+150 -1.71396e-223 -3.26779e+49 nan -1.36698e+220 -1.95344e+247 2.5464e-149 9.38375e-197 -1.38328e+221 5.17646e-47 1.27235e+77 3.30334e+24 -4.27501e+231 -1.20104e+08 -1.8149e+90 3.49829e+264 -3.40796e-169 2.55882e+282 0
+input ends
+ERROR: Crashed: rankdist_deepstate_test_cycle_decomp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/cycle_decomp/cycle_decomp_output/efd3ccc8edddce67d2785da56136c5ca49e15a93.crash`
+INFO: Done fuzzing! Ran 8 tests (4 tests/second) with 7 failed/1 passed/0 abandoned tests

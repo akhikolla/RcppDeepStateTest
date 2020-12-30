@@ -1,0 +1,184 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606687825
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_rcos_unimodal_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 996420235
+k1 values: 7.85313e+228
+k2 values: 3.77554e+107
+k3 values: 2.60514e+192
+mu1 values: -8.0601e-42
+mu2 values: 6.26133e-277
+kappa_opt values: 1.54779e-159
+log_I0_kappa_opt values: -6.18986e+273
+logK values: -1.03711e-101
+log_const_vmcos values: -4.12674e-43
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/776c7ea1e7576140b4ae72a584f2ac0136da48c2.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 849389520
+k1 values: -1.63964e-70
+k2 values: -7.36344e+113
+k3 values: -2.53776e-37
+mu1 values: 5.44544e-213
+mu2 values: 2.68783e-225
+kappa_opt values: 5.08315e-281
+log_I0_kappa_opt values: 1.26087e-211
+logK values: -1.60314e-225
+log_const_vmcos values: 9.33207e+242
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/a77c6bb150cdb8d439dcd139f07d2ddd449af5b5.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1568107224
+k1 values: -1.59292e-242
+k2 values: -1.02489e-25
+k3 values: -3.34797e+182
+mu1 values: 1.55006e+233
+mu2 values: -1.9765e-44
+kappa_opt values: 4.8367e-261
+log_I0_kappa_opt values: -1735.9
+logK values: 2.24985e+240
+log_const_vmcos values: -1.49436e-123
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/19843d4e8f332557bf49c604606fc06d9e1db6b4.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 309423186
+k1 values: 4.81177e-87
+k2 values: 4.99416e+116
+k3 values: 9.63525e-240
+mu1 values: 1.27242e-287
+mu2 values: 1.01902e+17
+kappa_opt values: -7.00861e+65
+log_I0_kappa_opt values: 2.02811e-65
+logK values: 1.15847e+308
+log_const_vmcos values: -1.27291e+119
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/124ade6b6fc502e533cc73bc96523c65ebfb966f.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1626741922
+k1 values: -1.17091e-88
+k2 values: -1.78541e-173
+k3 values: 1.28163e-61
+mu1 values: 3.15919e+38
+mu2 values: 1.47111e+244
+kappa_opt values: 1.58582e+297
+log_I0_kappa_opt values: 4.14834e-88
+logK values: 1.11435e+254
+log_const_vmcos values: -1.69915e-87
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/5810dd702b16a5bf99e0ded027e0a62fe3fc06c2.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -1279885780
+k1 values: 2.1023e-59
+k2 values: -3.19066e+151
+k3 values: 7.96242e+174
+mu1 values: -1.0895e-291
+mu2 values: -3.83194e+125
+kappa_opt values: -4.11532e-129
+log_I0_kappa_opt values: -1.75038e+188
+logK values: -1.18474e-153
+log_const_vmcos values: 9.66322e+276
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/dd4247649ea1a33d2941209a089629cf601a77f1.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -1121030746
+k1 values: -1.11538e+279
+k2 values: -2.33653e+155
+k3 values: 6.2096e+16
+mu1 values: -8.22431e+290
+mu2 values: -4.32621e-234
+kappa_opt values: 7.26443e-156
+log_I0_kappa_opt values: 1.88168e-289
+logK values: 6.87236e+141
+log_const_vmcos values: 1.19246e-112
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/e3a8b580f2a3e9305fb4b81c6edea5f88a04f84e.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1937087145
+k1 values: -1.3085e+125
+k2 values: 4.62714e+39
+k3 values: -4.16226e-255
+mu1 values: -1.28055e-224
+mu2 values: -3.26268e-72
+kappa_opt values: -4.65872e-252
+log_I0_kappa_opt values: 3.96189e+163
+logK values: 2.17487e+152
+log_const_vmcos values: 4.86011e-195
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/a19cb4d36ecc27c7fe3e102126234f3e1cac08f7.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: -334163263
+k1 values: -2.62004e-243
+k2 values: -1.78766e+68
+k3 values: 2.80727e+283
+mu1 values: -3.02079e+283
+mu2 values: -1.19481e+175
+kappa_opt values: -3.50327e+231
+log_I0_kappa_opt values: -2.21621e-285
+logK values: -5.07344e-33
+log_const_vmcos values: 1.96634e-47
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: BAMBI_deepstate_test_rcos_unimodal_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/rcos_unimodal/rcos_unimodal_output/6a464eb39733d675d2bdfd5c807293dfd152f159.fail`
+INFO: Done fuzzing! Ran 9 tests (4 tests/second) with 9 failed/0 passed/0 abandoned tests

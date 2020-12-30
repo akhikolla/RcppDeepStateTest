@@ -1,0 +1,3 @@
+testlist <- list(k1 = 5.43289578625809e-236, k2 = 2.15478204288032e-34, k3 = 5.18608265363194e+198,      kappa_opt = 8.80340302367038e+292, log_const_vmsin = -2.76332369871508e-256,      log_I0_kappa_opt = -1.25002341584222e+182, logK = 4.65423890542505e-85,      mu1 = 4.49513977947164e-300, mu2 = -1.33142090207326e+23,      n = 1042742919L)
+result <- do.call(BAMBI:::rsin_unimodal,testlist)
+str(result)

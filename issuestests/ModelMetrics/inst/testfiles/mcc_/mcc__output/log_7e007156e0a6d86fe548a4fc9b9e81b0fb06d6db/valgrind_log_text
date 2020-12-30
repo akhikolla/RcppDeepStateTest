@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (ModelMetrics_deepstate_test_mcc__test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/mcc_/mcc__output/7e007156e0a6d86fe548a4fc9b9e81b0fb06d6db.pass`
+TRACE: Running: ModelMetrics_deepstate_test_mcc__test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/mcc_/mcc__DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+actual values: 9.18604e+17 -4.70977e+295 -8.17732e+172 4.9093e-23 nan -0.00220558 -1.12563e-76 2.55073e+18 2.05529e-122 -1.78775e+103 1.22867e+218 -4.7958e-208 -4.54408e+98 1.42554e-268 3.78258e+89 6.54074e-163 -1.00584e+33 2.33691e+297 1.05847e+145 1.66031e-140 -1.71887e+111 -7.64853e+176 -2.80627e+278 -2.10489e-209 -2.28712e-92 -2.65481e+221 -1.28434e+97 -4.93064e-282 6.73989e+124 -1.50696e+233 -inf -9.99186e-164 7.53061e-261 inf inf -6.97144e-194 -8.72723e-197 -7.00876e+232 -7.46573e+151 5.12997e-165 7.83211e+271 9.75325e-118 -5.0746e-247 4.79548e+83 4.87984e+140 4.69775e+280 -1.23391e-161 2.31414e+285 -5.58863e+20 3.4987e+248 5.28847e-28 -4.74277e+229 -3.66338e+193 1.97687e-179 7.61456e+249 -4.83592e+20 5.03114e+274 -2.03596e+165 -1.12779e-190 4.83937e+169 -4.64889e-28 -2.37693e-45 -2.58349e-148 1.24802e-258 -1.63208e-189 -2.76686e+191 -3.21724e-235 0
+predicted values: nan -3.30849e-93 nan -8.78461e-56 1.86494e+28 -inf
+cutoff values: 1.2786e-39
+input ends
+TRACE: Passed: ModelMetrics_deepstate_test_mcc__test

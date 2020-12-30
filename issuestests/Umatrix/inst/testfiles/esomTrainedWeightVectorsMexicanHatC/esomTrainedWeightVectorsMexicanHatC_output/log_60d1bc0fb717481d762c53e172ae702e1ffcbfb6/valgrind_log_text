@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (Umatrix_deepstate_test_esomTrainedWeightVectorsMexicanHatC_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsMexicanHatC/esomTrainedWeightVectorsMexicanHatC_output/60d1bc0fb717481d762c53e172ae702e1ffcbfb6.crash`
+TRACE: Running: Umatrix_deepstate_test_esomTrainedWeightVectorsMexicanHatC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsMexicanHatC/esomTrainedWeightVectorsMexicanHatC_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+WeightVectors values: 1.02704e-184 2.89463e+196 2.72125e+149 2.56795e+20
+1.46130e-171 6.02488e+137 4.95582e-240 0.416229
+0.168476 2.99537e-30 1.23581e+118 2.42276e-203
+8.80706e-109 6.88667e-35 7.51884e+151 6.08598e+212
+
+DataPoint values: 7.44247e+167 1.96966e+161 -1.24515e-302 9.82336e+173 2.26859e-144 -1.76337e-146 6.89199e-16 -3.12834e-141 -1.08944e+168 4.17241e-94 4.40031e-104 1.29494e+82 -2.71809e-303 -8.28136e-129 3.20572e+203 -2.97088e-146 -2.19597e+238 -7.53095e+149 4.41797e-132 2.54409e+07 -2.93775e-205 312001 -4.44533e+151 2.24217e-53 3.35239e-109 2.88709e+212 2.15192e+45 -4.41159e+07 8.08979e-53 1.42184e+117 8.30467e-99 -5.93982e+121 9.44222e-83 inf -7.61995e+180 5.10985e+40 -1.08368e-157 -2.62432e+150 6.50101e+109 6.6381e-271 0.0161421 9.64252e+112 nan -3.56644e+109 1.76604e+43 -1.11612e+137 1.83948e+260 -5.47569e+296 -3.97796e-278 1.71414e-173 -6.95434e+69 2.58503e-306 5.44092e-229 -5.50335e-198 -1.32743e+167 -1.56408e-246 -1.12953e+163 1.80707e-304 4.69866e-299 1.10244e+26 2.11205e-29 6.03381e+68 1.73209e-172 -2.14434e-37 nan 2.17774e-201 5.10985e+40 1.53981e+41 -4.3761e-166 3.54226e+236 -7.92818e+84 1.7884e+191 -1.43074e-221 5.54992e-232 -1.53395e+57 -5.01922e+96 4.38704e-71 0
+indices values: -2.93441e-168 1.51982e+138 inf nan 8.31297e-27 1.40128e-129 -1.30219e+121 5.10131e+96 5.2209e-85 1.50153e+285 nan 3.56934e+79 3.13904e+99 0
+DistancesToBm values: -9.09201e-63 -3.08572e+79 8.69584e+294 -6.36419e-186 -2.67945e+109 -1.83432e+225 -2.38441e-65 -inf -2.5231e+168 -1.17517e+269 nan -1.56613e+122 -2.93755e-05 -inf 6.79622e+93 1.59535e-115 -3.0931e+175 -3.91213e-292 2.55026e+98 -2.67745e-268 -2.42625e+233 2.53295e-210 7.29427e-220 5.6533e+166 -2.60713e+20 -5.08438e+161 -1.77971e+42 inf 1.89934e+198 -1.68605e+42 -inf 3.4256e-165 3.79936e-40 0
+Radius values: -5.40641e-46
+LearningRate values: 0.00219301
+input ends
+==1779113==  If you believe this happened as a result of a stack
+==1779113==  overflow in your program's main thread (unlikely but
+==1779113==  possible), you can try to increase the size of the
+==1779113==  main thread stack using the --main-stacksize= flag.
+==1779113==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: Umatrix_deepstate_test_esomTrainedWeightVectorsMexicanHatC_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Umatrix/inst/testfiles/esomTrainedWeightVectorsMexicanHatC/esomTrainedWeightVectorsMexicanHatC_output/60d1bc0fb717481d762c53e172ae702e1ffcbfb6.crash crashed

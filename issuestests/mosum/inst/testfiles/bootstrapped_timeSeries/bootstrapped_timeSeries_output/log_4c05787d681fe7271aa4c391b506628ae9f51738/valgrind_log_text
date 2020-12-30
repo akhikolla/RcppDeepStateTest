@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (mosum_deepstate_test_bootstrapped_timeSeries_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/bootstrapped_timeSeries/bootstrapped_timeSeries_output/4c05787d681fe7271aa4c391b506628ae9f51738.fail`
+TRACE: Running: mosum_deepstate_test_bootstrapped_timeSeries_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/bootstrapped_timeSeries/bootstrapped_timeSeries_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+cpts values: -1768309917 -166238145 -714141374 314259671 -1359784703 -1630600584 1572045821 -577392781 795531045 -2109774761 -1368024384 835885279 -974266013 -1125917926 -1772218508 -205068510 834553779 -39056724 564423762 -2147483648 -250372434 -159790964 -673251125 -1494684201 -1506440540 -510373886 -2147483648 -1048056910 -1702272880 52960474 136160686 93554091 -938520663 -1549816868 1543539741 -2022191327 3191043 1489952352 -343732496 378772446 -1561622714 -1976360218
+x values: 4.47565e-14 -3.70488e+228 2.8624e+42 -1.03019e-297 -4.01477e-100 -2.68072e+80 -8.70325e-278 3.0749e-40 1.4993e+40 -1.42885e-244 -1.36994e+144 3.16698e+184 1.67878e+126 4.35422e-299 nan -2.73624e-221 nan 8.31978e-118 -4.13937e+08 4.732e+123 2.43069e-228 -2.71878e-58 1.05216e-201 1.79185e+170 -3.40962e-214 -1.367e+163 6.98273e-58 1.08362e-183 -1.44566e+176 4.95396e-135 9.6865e-145 3.33681e-292 -2.59774e+184 -1.91264e-261 -4.16514e-306 5.07889e-120 -4.18332e+219 1.6853e-65 -3.28333e+91 5.63687e+35 nan 3.37144e-251 -2.95776e+288 5.074e-85 -5.22048e+64 1.4192e+216 -2.82674e+181 -1.95071e-57 -1.68242e+214 3.10117e+187 -2.62645e-210 -4.611e+50 -2.31187e+85 -1.65637e-108 -3.06607e-147 -1.73832e-126 -1.60856e+23 -8.32888e-266 -3.35318e+09 -1.84875e+301 1.35339e+32 1.35007e-210 -4.20741e+139 8.68314e-142 -1.13981e+271 -3.32731e-163 1.50686e+143 -1.3254e-222 -1.81313e-277 1.25576e+213 3.0689e-190 2.16156e+305 -2.32269e+272 8.44787e+142 -1.51532e+219 -1.10287e-291 -4.11512e+11 0.00311927 -inf 0
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  upper value must be greater than lower value
+ERROR: Failed: mosum_deepstate_test_bootstrapped_timeSeries_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/bootstrapped_timeSeries/bootstrapped_timeSeries_output/4c05787d681fe7271aa4c391b506628ae9f51738.fail failed

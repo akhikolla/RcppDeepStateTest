@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (RTransferEntropy_deepstate_test_calculate_transition_probabilities_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/67bef3fc90cfaaabf662c57c310d569bd49c8881.crash`
+TRACE: Running: RTransferEntropy_deepstate_test_calculate_transition_probabilities_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -915852880 986572046 1244369955 -1037981667 -1638542028 969202733 1432509442 -1407836828 -493293283 1708534704 29348803 -528752513 -776621302 2056272079 -225128086 221817839 -795014091 1933043061 -155698985 874075653 -838267064 -1723393909 -605424152 564254961 1055139761 470558226 -983569927 2017459782 1225625570 1437036080 -1872553550 82944834 -708119311 -686160740 2045613553 764622966 -1597548299 1858479870 708816942 810840325 509999093 2147193337 -400102891 -1188918438 -370913449 -1435150636 -1274674204 1517611641 -639537576 -603958844 641522400 -2147483648 1233756148 -669517 -53766058 1065537304 1665036607 1052902244 -19053475 1132373388 138706951 977910326 340954196 -732140489 -1696762152 -1602601826 1468136346 -6281465 -442036705 -255240955
+lx values: 1843202668
+input ends
+==1883722==  If you believe this happened as a result of a stack
+==1883722==  overflow in your program's main thread (unlikely but
+==1883722==  possible), you can try to increase the size of the
+==1883722==  main thread stack using the --main-stacksize= flag.
+==1883722==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: RTransferEntropy_deepstate_test_calculate_transition_probabilities_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RTransferEntropy/inst/testfiles/calculate_transition_probabilities/calculate_transition_probabilities_output/67bef3fc90cfaaabf662c57c310d569bd49c8881.crash crashed

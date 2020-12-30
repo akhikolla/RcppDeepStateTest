@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (phylobase_deepstate_test_tabulateTips_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/tabulateTips/tabulateTips_output/b7ef4dc0561989c1199f923e2edeb4a7c960620c.fail`
+TRACE: Running: phylobase_deepstate_test_tabulateTips_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/tabulateTips/tabulateTips_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+ances values: -1749896567 -2028534343 1939402017 422011494 86970765 1442846770 824409778 -2147483648 -1318054344 -2011434245 -1277223475 125776652 -1354458875 1169241974 -726325046 -1259972763 -2133688052 -2003838405 1878460534 2000454182 -2145702971 -865977184 392456907 1270952098 785220022 1566307020 1408910026 918876343 -551846741 2109229972 498491240 2005863078 1552637113 -431061703 1237779327 -1946995094 246617483 1801527176 394195086 234501226 -2054085780 -542530264 1890167036 -1663146325 -1854130435 -581532172
+input ends
+terminate called after throwing an instance of 'std::length_error'
+  what():  cannot create std::vector larger than max_size()
+ERROR: Failed: phylobase_deepstate_test_tabulateTips_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/tabulateTips/tabulateTips_output/b7ef4dc0561989c1199f923e2edeb4a7c960620c.fail failed

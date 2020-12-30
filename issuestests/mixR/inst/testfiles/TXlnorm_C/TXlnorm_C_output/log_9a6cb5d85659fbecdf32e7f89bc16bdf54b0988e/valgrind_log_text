@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_TXlnorm_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/TXlnorm_C/TXlnorm_C_output/9a6cb5d85659fbecdf32e7f89bc16bdf54b0988e.fail`
+TRACE: Running: mixR_deepstate_test_TXlnorm_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/TXlnorm_C/TXlnorm_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pi values: 2.67333e+108 5.39502e+193 7.60542e-165 1.79089e+38 -5.63963e-163 -5.64679e+163 4.75493e+290 -6.70604e-215 -2.60297e-70 8.36853e+143 -3.59162e-142 -1.77356e+89 -4.23516e-45 -1.58798e+74 inf 2.85183e-236 -inf 7.60542e-165 4.2561e+46 -8.87748e-12 nan 1.14257e+206 -7.97765e+301 -1.54055e+142 0
+mulog values: -1.18839e+134 6.35902e-91 nan -1.55087e-217 6.96374e-124 -inf -5.05667e-88 5.96466e+199 1.06825e+66 5.65466e+217 7.40247e+97 -3.15346e-207 6.48737e+31 7.32249e-69 5.98213e-220 -inf 0
+sdlog values: 2.27779e+30 1.68795e-88 2.64175e+42 1.79786e-91 2.74908e+51 nan 2.93743e+62 inf -1.79255e-241 -8.39463e+293 -1.06751e-19 6.20762e+244 3.72491e+183 inf -6.96152e-08 6.31728e-139 2.962e+251 inf -2.15181e-192 -2.71328e+205 1.95439e+110 -1.21958e-116 -3.2446e-136 -2.24675e+68 1.32575e+73 4.37217e-227 -4.09012e+91 nan 6.46417e-35 0
+ex values: 9.93673e+259 4.13050e-93 6.67404e-123 5.31773e+36 1.02348e-68
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=5; column extent=5].
+ERROR: Failed: mixR_deepstate_test_TXlnorm_C_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/TXlnorm_C/TXlnorm_C_output/9a6cb5d85659fbecdf32e7f89bc16bdf54b0988e.fail failed

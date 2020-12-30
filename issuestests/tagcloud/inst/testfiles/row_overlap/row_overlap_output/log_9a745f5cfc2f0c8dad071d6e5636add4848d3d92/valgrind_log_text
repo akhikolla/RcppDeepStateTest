@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (tagcloud_deepstate_test_row_overlap_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/row_overlap/row_overlap_output/9a745f5cfc2f0c8dad071d6e5636add4848d3d92.fail`
+TRACE: Running: tagcloud_deepstate_test_row_overlap_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/row_overlap/row_overlap_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+row_in values: -6.51232e+286 -3.53278e-23 3.32469e+275 1.39438e+33 -2.68348e+272 1.20241e-300 2.70407e-71 -6.06765e+116 1.45271e+216 -inf 1.02324e+120 1.18747e+24 nan 1.3026e-180 -1.79357e-112 1.84483e+45 -1.3448e-181 -3.80405e+292 5.13435e+283 2.84578e-06 -1.20385e-61 -4.51181e+120 -1.58914e-270 4.8402e-274 3.53618e-108 0.00135132 -1.15848e-89 inf -1.34262e+24 -1.39552e-25 1.84047e-174 7.30855e+53 -6.65156e-65 7.70335e+207 nan 5.8038e+306 0
+boxes values: 2.24099e-163 5.05076e-23 6.62373e-116 1.47640e+114 2.36728e+307 9.99002e-214 2.70030e-154
+5.36674e+298 1.12235e-168 4.65396e-134 1.80764e-85 4.24615e+268 2.26574e+144 1.56520e+100
+1.68462e-135 1.15124e-60 2.05562e-111 3.56814e+189 1.36721e-93 9.70122e-36 2.27559e+276
+5.02287e-279 2.44098e-260 1.39562e+246 1.81553e+228 8.19822e-85 4.92485e+10 5.31301e-78
+1.32154e-56 7.69920e-252 7.72104e-289 3.00935e-177 9.19032e+126 2.23607e+57 8.12596e+159
+1.76326e+125 6.51411e-124 2.07456e+226 3.63887e+172 2.44028e+42 2.96793e+296 2.90271e-264
+
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=37].
+ERROR: Failed: tagcloud_deepstate_test_row_overlap_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/row_overlap/row_overlap_output/9a745f5cfc2f0c8dad071d6e5636add4848d3d92.fail failed

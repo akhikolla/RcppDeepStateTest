@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_emGWA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emGWA/emGWA_output/a45d43ae1ca6d53fb2d23e55897b10fc44988479.pass`
+TRACE: Running: NAM_deepstate_test_emGWA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/emGWA/emGWA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+y values: 9.24638e+72 -inf 2.44065e-222 inf -inf -7.11917e+99 nan 1.09156e+69 0
+gen values: 5.02061e+23 3.80650e+301 6.34778e-129 9.98000e-137
+1.33290e+197 1.11273e+95 9.76684e+206 6.61434e-50
+
+input ends
+TRACE: Passed: NAM_deepstate_test_emGWA_test

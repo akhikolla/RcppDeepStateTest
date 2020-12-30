@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (mosum_deepstate_test_get_k_star_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/get_k_star/get_k_star_output/2054db483a26ba11bb3cad21ff9859979fb7affe.pass`
+TRACE: Running: mosum_deepstate_test_get_k_star_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mosum/inst/testfiles/get_k_star/get_k_star_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x_star values: -1.04326e-35 -8.91404e-74 -1.5203e-257 -2.23139e+301 -5.11185e+15 -1.27133e-146 nan 7.88082e+114 -1.8508e-284 1.2917e+132 5.66881e-244 1.08076e-79 1.413e-92 1.30554e+45 8.36307e+199 -3.41048e+88 5.12114e+48 3.0087e+246 -3.46082e-124 -2.03205e-249 -5.36209e+146 -4.31585e+188 -1.09534e+40 nan -3.3689e+204 -1.06175e+112 1.87735e-209 6.9586e+254 -4.25655e-250 -8.47e+270 nan nan -6.11957e+229 -3.90401e-264 inf -5.89358e-20 2.12401e-251 -1.12249e-19 0
+k_hat values: -674112729
+G_l values: 2106979360
+G_r values: 582412327
+input ends
+TRACE: Passed: mosum_deepstate_test_get_k_star_test

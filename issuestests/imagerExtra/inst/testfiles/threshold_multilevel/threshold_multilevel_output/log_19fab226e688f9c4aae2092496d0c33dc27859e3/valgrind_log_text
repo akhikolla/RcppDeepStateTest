@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (imagerExtra_deepstate_test_threshold_multilevel_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/threshold_multilevel/threshold_multilevel_output/19fab226e688f9c4aae2092496d0c33dc27859e3.pass`
+TRACE: Running: imagerExtra_deepstate_test_threshold_multilevel_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/threshold_multilevel/threshold_multilevel_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+im values: 2.64280e-223 2.94154e-263 1.34976e+50 1.06315e+155 2.39178e+53
+
+thresvals values: -8.82023e-165 -3.1949e-45 7.17871e-46 2.64373e-204 inf -1.09241e+250 2.5779e+256 4.4943e+34 -5.19471e+197 1.6133e+167 -9.33438e+118 -6.99479e-262 2.61243e+148 -1.13785e-291 1.0293e-211 -1.28575e+23 1.10551e+281 nan inf -2.21169e+152 -9.49971e-83 -1.3313e-102 -5.03347e+121 4.37289e-17 -6.20395e+65 -1.76512e+108 -inf nan 9.34357e+207 -1.38863e+135 -3.84326e+276 -6.70244e+248 1.45339e+200 3.16018e-24 -2.17435e+255 -3.76818e-304 1.42389e+117 3.98576e-274 -3.86727e+121 1.55201e+58 4.39253e+163 2.44081e-204 1.4536e+133 4.62678e-94 2.35088e+118 6.75957e-115 -2.40125e-177 3.06216e+290 -2.4809e-31 2.26828e+291 -1.14843e-119 -2.95156e-124 0
+input ends
+TRACE: Passed: imagerExtra_deepstate_test_threshold_multilevel_test

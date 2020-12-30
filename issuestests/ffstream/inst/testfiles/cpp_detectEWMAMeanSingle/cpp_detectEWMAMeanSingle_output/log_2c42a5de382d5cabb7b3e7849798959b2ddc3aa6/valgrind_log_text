@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_cpp_detectEWMAMeanSingle_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectEWMAMeanSingle/cpp_detectEWMAMeanSingle_output/2c42a5de382d5cabb7b3e7849798959b2ddc3aa6.pass`
+TRACE: Running: ffstream_deepstate_test_cpp_detectEWMAMeanSingle_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/cpp_detectEWMAMeanSingle/cpp_detectEWMAMeanSingle_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 6.39399e-193 -8.40192e-76 -8.47367e-228 -6.05508e+120 -3.17409e+269 nan 2.53444e-255 3.85218e-137 inf 4.68042e-131 -4.75141e-198 -1.00056e-290 3.18454e+28 -4.72211e+136 2.05492e+275 6.03352e-96 3.88472e+68 -inf -9.09725e+105 7.80151e-74 -3.15459e-76 8.50818e+51 8.28386e+08 2.06548e+109 nan -1.28085e-269 2.23347e+182 9.62676e+292 -4.61299e+172 -1.56214e-155 3.82401e-239 0
+r values: 1.56289e+220
+L values: -2.35333e+91
+BL values: 1612001413
+input ends
+TRACE: Passed: ffstream_deepstate_test_cpp_detectEWMAMeanSingle_test

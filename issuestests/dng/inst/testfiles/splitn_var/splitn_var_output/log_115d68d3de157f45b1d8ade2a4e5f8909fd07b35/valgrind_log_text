@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (dng_deepstate_test_splitn_var_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/splitn_var/splitn_var_output/115d68d3de157f45b1d8ade2a4e5f8909fd07b35.pass`
+TRACE: Running: dng_deepstate_test_splitn_var_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/splitn_var/splitn_var_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+sigma values: 
+lmd values: -5.30406e+129 -3.03107e+180 3.36432e-224 -3.7607e+158 3.97214e-69 4.59832e+143 -5.71494e+252 -1.25622e+151 6.18259e-89 2.42412e+91 -6.14411e-255 -3.66531e+263 -5.4571e-41 -1.43828e+257 nan -8.75765e-126 2.97784e+249 -6.67037e-171 1.68589e+145 -7.93855e+274 -7.38105e+185 -2.9782e-287 9.29354e-28 -5.0016e-13 -2.81976e+25 -3.93102e+41 -4.61819e+127 inf -2.21316e+269 4.0024e+102 -9.14344e+41 -2.22454e-246 -2.10805e+193 1.26132e-102 7.98188e+112 -7.8073e-306 -4.33083e-151 7.01276e-12 -2.93145e-107 6.48954e-50 -8.16749e+37 -7.1567e+157 -9.32022e+198 -6.59607e-49 1.09319e+265 2.31129e+256 -5.01465e-112 -4.72865e+275 7.20614e+88 1.33806e-179 2.21736e+157 -4.02275e-248 2.85975e-144 -1.26272e+06 -2.15022e+133 -1.09686e-293 -2.00814e-194 -2.50761e-234 -6.81358e-63 5.81192e-06 -1.25901e+82 -5.65533e-98 nan -4.16553e+29 4.66845e-84 2.83702e-183 8.05405e-215 -5.60259e+172 -5.64605e+190 -1.43106e-98 3.49133e-87 -3.65439e+48 -7.55242e-256 -3.90012e-52 -1.53166e+34 1.24908e-76 -6.96455e-216 -3.3096e+162 5.4394e+159 -2.27534e-210 -2.95921e+263 2.39733e+177 4.07658e-22 1.0463e+233 -inf 3.05853e-254 -9.03932e-166 1.42126e+258 4.47632e-46 7.64977e+116 -1.18879e+197 3.61175e-140 -3.15847e-233 0
+input ends
+TRACE: Passed: dng_deepstate_test_splitn_var_test

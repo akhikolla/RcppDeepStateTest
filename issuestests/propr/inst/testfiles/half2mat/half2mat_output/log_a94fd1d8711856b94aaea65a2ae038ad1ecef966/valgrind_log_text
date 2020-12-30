@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (propr_deepstate_test_half2mat_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/half2mat/half2mat_output/a94fd1d8711856b94aaea65a2ae038ad1ecef966.pass`
+TRACE: Running: propr_deepstate_test_half2mat_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/propr/inst/testfiles/half2mat/half2mat_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: -2.71429e-52 1.22083e-231 -1.6481e+52 4.5229e+195 8.20048e-63 3.66294e+80 -2.69098e-68 1.36099e-91 1.28656e-266 -3.62313e+183 -3.84523e-66 -8.96307e+200 -1.21484e-86 1.72119e+273 -8.61069e+54 1.37535e+136 1.78985e+195 5.03601e+32 1.21852e+96 5.44315e-114 -4.12136e-185 4.35295e-126 2.61544e-284 -4.24097e+214 1.25962e-114 3.84734e-162 2.21643e-262 -4.4611e-299 -8.08695e-182 7.63971e+93 -2.87756e+42 1.71477e+91 1.57034e-132 -5.15618e-77 -4.29543e-43 -1.45526e+85 -3.62703e+191 9.18469e-67 3.59098e-217 2.69965e-225 5.53541e-20 2.13066e-141 -1.20004e-142 1.50276e-233 1.28007e-230 -2.74784e-241 2.68713e+73 5.98933e+33 4.21632e-18 -2.24879e+91 -6.66159e-301 -5.15034e-184 -4.4842e+276 5.33733e-279 -3.64598e+235 1.56282e+43 8.92195e-241 -5.11613e-59 1.41039e+280 -1.02457e-171 -8.5247e+199 7.87814e+267 -3.6994e-52 1.57327e-125 -8.97299e+51 -5.7923e-108 8.94708e+134 2.80857e+22 -1.61278e+226 -2.06523e-256 -1.63111e-41 -5.98749e-232 nan -1.22753e+267 1.12149e+246 nan -2.20081e-102 nan -1.91407e+267 -5.19909e-171 -3.66938e+141 -1.85371e+90 -1.33027e+159 -inf -6.88223e+190 -8.59355e+285 1.71859e-216 -1.76114e-157 -6.48134e-216 -6.43736e-183 -4.92888e-30 2.64932e+79 -5.43933e-251 -2.62939e+98 1.38406e-305 -4.42761e+306 0
+input ends
+TRACE: Passed: propr_deepstate_test_half2mat_test

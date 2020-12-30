@@ -1,0 +1,34 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606688996
+WARNING: No test specified, defaulting to first test defined (mobsim_deepstate_test_rThomas_rcpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_points values: -1220106792
+n_mother_points values: -1945944304
+sigma values: 1.302e-157
+mu values: 2.59135e-254
+xmin values: 1.80872e-123
+xmax values: 4.10142e+178
+ymin values: 3.25121e+266
+ymax values: 8.16631e-67
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_points values: 1347488374
+n_mother_points values: 1181070262
+sigma values: 1.66923e-29
+mu values: -3.37056e+199
+xmin values: 4.94587e+202
+xmax values: -7.33675e-239
+ymin values: -1.77859e+274
+ymax values: -6.24155e-284
+input ends
+ERROR: Crashed: mobsim_deepstate_test_rThomas_rcpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mobsim/inst/testfiles/rThomas_rcpp/rThomas_rcpp_output/9535bfc068e5ad47745ce2836a9eb45498a4765e.crash`
+INFO: Done fuzzing! Ran 2 tests (0 tests/second) with 2 failed/0 passed/0 abandoned tests

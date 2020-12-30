@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_Li_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/Li/Li_output/3ac3dc13374ac1468d2dedd7c6366a9a45d21e54.crash`
+TRACE: Running: autothresholdr_deepstate_test_Li_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/Li/Li_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: 23295197 2082322149 617738315 1739718296 525873277 -2147483648 -413736046 303581971 2076176887 -592978944 2026720480 2118809757 -1566041272 -1453648239 -1309072444 292476812 784892938 1868565480 760727724 -1589622460 -379286382 -1063115919 -1689897556 -1257424669 -709038779 502803786 1341519601 893400350 -1530810012 1674893054 453749456 417510382 -1616890948 -1721760024 1442699658 1024371169 -816167374 773599305 668604736 -1110692260 1835079686 -1054937578 466133080 -699843930 -1551836974 -1677124669 -483064928 20053102 -1844153261 862153038 722118401 1407297527 1635830269 -1981497236 432278811 -2147483648 520018769 1631952780 1330023842 657824136 -1251834562 1195813472 179796991 -1056602145 56832100 -1462767369 377329981 -1305229721 -1790204452 -1857012325 129539016 -1121802304 -2049498067 -1491852099 -1832977852 -239031162 206660509 -1583334999 1490317590 -166078852 -251942505 265180321
+input ends
+==1887567==  If you believe this happened as a result of a stack
+==1887567==  overflow in your program's main thread (unlikely but
+==1887567==  possible), you can try to increase the size of the
+==1887567==  main thread stack using the --main-stacksize= flag.
+==1887567==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: autothresholdr_deepstate_test_Li_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/Li/Li_output/3ac3dc13374ac1468d2dedd7c6366a9a45d21e54.crash crashed

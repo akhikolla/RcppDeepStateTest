@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./ipfRcpp_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_output/63f7bccf2a81e0c1e1403d985242061690d5ca4f.crash</line>
+</preamble>
+
+<pid>1838246</pid>
+<ppid>1838245</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_output/log_63f7bccf2a81e0c1e1403d985242061690d5ca4f/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./ipfRcpp_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_output/63f7bccf2a81e0c1e1403d985242061690d5ca4f.crash</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.057 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4343B8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>_ZN4RcppdvILi14ELb1ENS_6VectorILi14ENS_15PreserveStorageEEEdEENS_6traits9enable_ifIXsr6traits14is_convertibleINS4_26remove_const_and_referenceIT2_E4typeENS4_12storage_typeIXT_EE4typeEEE5valueENS_5sugar24Divides_Vector_PrimitiveIXT_EXT0_ET1_EEE4typeERKNS_10VectorBaseIXT_EXT0_ESF_EERKS7_</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/sugar/operators/divides.h</file>
+      <line>417</line>
+    </frame>
+    <frame>
+      <ip>0x430CF7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>ipfRcpp(Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, int, double)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple</dir>
+      <file>src/EqMult.cpp</file>
+      <line>680</line>
+    </frame>
+    <frame>
+      <ip>0x409FEF</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_equateMultiple_deepstate_test_ipfRcpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp</dir>
+      <file>ipfRcpp_DeepState_TestHarness.cpp</file>
+      <line>29</line>
+    </frame>
+    <frame>
+      <ip>0x409998</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_equateMultiple_deepstate_test_ipfRcpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp</dir>
+      <file>ipfRcpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41A7C8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41AA69</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41AB44</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407815</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0xffffffff69889b90 is not stack'd, malloc'd or (recently) free'd</auxwhat>
+</error>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>11</signo>
+  <signame>SIGSEGV</signame>
+  <sicode>1</sicode>
+  <event>Access not within mapped region</event>
+  <siaddr>0xFFFFFFFF69889B90</siaddr>
+  <stack>
+    <frame>
+      <ip>0x4343B8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>_ZN4RcppdvILi14ELb1ENS_6VectorILi14ENS_15PreserveStorageEEEdEENS_6traits9enable_ifIXsr6traits14is_convertibleINS4_26remove_const_and_referenceIT2_E4typeENS4_12storage_typeIXT_EE4typeEEE5valueENS_5sugar24Divides_Vector_PrimitiveIXT_EXT0_ET1_EEE4typeERKNS_10VectorBaseIXT_EXT0_ESF_EERKS7_</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>Rcpp/include/Rcpp/sugar/operators/divides.h</file>
+      <line>417</line>
+    </frame>
+    <frame>
+      <ip>0x430CF7</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>ipfRcpp(Rcpp::Matrix&lt;14, Rcpp::PreserveStorage&gt;, int, double)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple</dir>
+      <file>src/EqMult.cpp</file>
+      <line>680</line>
+    </frame>
+    <frame>
+      <ip>0x409FEF</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_equateMultiple_deepstate_test_ipfRcpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp</dir>
+      <file>ipfRcpp_DeepState_TestHarness.cpp</file>
+      <line>29</line>
+    </frame>
+    <frame>
+      <ip>0x409998</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_equateMultiple_deepstate_test_ipfRcpp_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp</dir>
+      <file>ipfRcpp_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x41A7C8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x41AA69</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x41AB44</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407815</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/equateMultiple/inst/testfiles/ipfRcpp/ipfRcpp_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:08.602 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>1</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:09.143 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

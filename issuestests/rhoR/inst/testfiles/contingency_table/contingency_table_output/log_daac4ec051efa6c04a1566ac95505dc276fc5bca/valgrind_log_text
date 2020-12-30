@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (rhoR_deepstate_test_contingency_table_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/contingency_table/contingency_table_output/daac4ec051efa6c04a1566ac95505dc276fc5bca.pass`
+TRACE: Running: rhoR_deepstate_test_contingency_table_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/contingency_table/contingency_table_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+precision values: -2.33943e+202
+rec values: -4.20639e+188
+length values: -1584304245
+baserate values: -1.40957e-183
+input ends
+TRACE: Passed: rhoR_deepstate_test_contingency_table_test

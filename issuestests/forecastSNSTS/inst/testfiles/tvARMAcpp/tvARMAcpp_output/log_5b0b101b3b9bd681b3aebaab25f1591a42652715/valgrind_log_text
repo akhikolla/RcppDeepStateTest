@@ -1,0 +1,21 @@
+WARNING: No test specified, defaulting to first test defined (forecastSNSTS_deepstate_test_tvARMAcpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/tvARMAcpp/tvARMAcpp_output/5b0b101b3b9bd681b3aebaab25f1591a42652715.fail`
+TRACE: Running: forecastSNSTS_deepstate_test_tvARMAcpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/tvARMAcpp/tvARMAcpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+z values: -3.32213e-62 -4.54304e-302 1.39065e-53 -3.11841 -7.52493e+189 -2.24394e+94 2.01673e-159 -6.71534e+272 -2.47223e+173 -inf 4.46543e-145 -4.83833e+228 -1.11313e-32 5.06575e-64 -6.14336e-115 -2.28936e-108 7.02951e+208 -1.09023e-258 -1.73392e+85 -7.49838e+35 2.17849e+166 4.88472e+202 -2.82172e-293 inf -3.84148e+266 9.22749e+124 nan 0
+x_init values: 1.84993e+211 -2.60549e-123 1.64079e-109 1.31471e+207 8.55259e+231 1.17328e+156 -5.23692e+195 -1.70028e+155 6.54794e+37 -3.49747e+257 nan 2.60663e+29 -7.07049e+16 -3.28073e-113 2.74708e-12 -4.80281e-29 -1.27879e-125 3.43886e-77 -2.90443e+274 -6.37553e+49 6.76015e-91 5.15336e-140 -2.50663e-54 -2.76369e+128 2.64727e+300 2.74496e-84 2.33916e-89 -2.09299e+263 -2.83167e-08 -1.41845e-101 1.12936e-36 1.48018e+10 -2.05654e+101 6.87783e-189 6.37931e-103 -1.16567e+114 nan -5.24332e-09 -7.3357e+40 2.5859e+172 3.7834e-293 4.82197e+21 15.9661 -6.14386e-179 2.13424e-224 -8.6081e+183 6.03008e-98 1.10709e+205 -2.7095e+243 2.78739e+86 nan -1.94925e-127 -1.7833e+237 -1.04239e-291 2.58119e+121 3.97273e-90 -5.34282e-41 1.33709e+39 -2.38512 1.28407e+266 -8.14243e+110 9.26107e-209 1.83845e+138 2.66204e+17 5.09757e+280 nan -1.80624e-224 -1.49914e-245 5.0518e+205 inf -8.44906e-58 -3.22411e+48 -5.74915e+85 -7.91459e+173 4.09273e-264 -7.60458e-73 -3.88616e-95 3.21927e-24 4.95713e-73 4.51056e+115 2.14498e+26 -3.87421e-261 6.90611e+289 2.35099e-309 4.33306e-137 -6.23758e-276 2.01028e+84 -1.52296e-285 1.8324e+29 -1.95567e-45 0
+A values: 8.72061e+239 3.76200e-08 2.71595e-133 3.74506e-69 2.79110e-105 1.22026e-160 3.19422e+17 2.09909e+68 1.39085e+79 3.27350e+56
+3.90273e+68 6.57922e-125 6.93106e+198 4.84311e+163 2.69106e-162 3.73601e-163 4.00340e+71 1.01627e+138 5.56856e-302 1.68602e+137
+
+B values: 7.32639e-68 3.82924e+53 4.95813e-201 8.75481
+1.53110e-158 1.88424e-176 4.13857e+161 1.67252e+71
+1.09181e-193 5.92713e-160 9.23358e-140 4.20922e-25
+
+Sigma values: 2.01932e+197 1.14733e-173 inf inf 1.28647e+180 8.78103e+33 1.984e+262 nan -inf 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=1; extent=1].
+ERROR: Failed: forecastSNSTS_deepstate_test_tvARMAcpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/tvARMAcpp/tvARMAcpp_output/5b0b101b3b9bd681b3aebaab25f1591a42652715.fail failed

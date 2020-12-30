@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (wk_deepstate_test_cpp_wkt_translate_wkb_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/2f09ed87c6105fac722f9bd83c8b139329d17583.fail`
+TRACE: Running: wk_deepstate_test_cpp_wkt_translate_wkb_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wkt values: "hckunuozxkyb" "NA" "bkmpyvzvgphohp" "dpsttqlwpfyegiwaxupx" "mglvkf" "lsoymxtfli" "NA" "bxuspdcfv" "yfjmzdsiijuzqeowttrz" "NA" "NA" "NA" "fvlikdkrgdwafmwjhhno" "NA" "wznyhrwepuotlkkcbmwb"
+includeZ values: -5168524
+includeM values: 439104111
+includeSRID values: -930991262
+endian values: -423929257
+bufferSize values: -2028780275
+input ends
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Attempt to set zero or negative buffer size
+ERROR: Failed: wk_deepstate_test_cpp_wkt_translate_wkb_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/wk/inst/testfiles/cpp_wkt_translate_wkb/cpp_wkt_translate_wkb_output/2f09ed87c6105fac722f9bd83c8b139329d17583.fail failed

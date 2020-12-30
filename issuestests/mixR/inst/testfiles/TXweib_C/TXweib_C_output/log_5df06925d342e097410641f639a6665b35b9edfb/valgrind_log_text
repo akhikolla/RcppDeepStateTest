@@ -1,0 +1,16 @@
+WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_TXweib_C_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/TXweib_C/TXweib_C_output/5df06925d342e097410641f639a6665b35b9edfb.fail`
+TRACE: Running: mixR_deepstate_test_TXweib_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/TXweib_C/TXweib_C_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+pi values: 1.57879e+39 -8.37826e-75 4.25822e-163 -1.69461e+15 -6.15697e+197 4.53854e+304 -2.69492e+293 7.63378e-86 -5.8286e-243 9.37346e+218 -9.67712e-13 nan 3.85988e-184 8.34283e-08 3.5335e-229 2.13803e+191 3.656e+139 -1.70186e+168 1.43981e-100 4.50621e-200 4.42237e+32 2.03673e+250 -2.28361e-187 -3.35957e-221 -1.26244e-228 -5.22507e-202 9.73749e+261 -8.1853e+169 inf 3.37087e-65 3.37087e-65 -1.03708e+297 3.10179e-252 4.73505e-44 -1.83372e-227 -9.16827e+166 3.86936e+180 -2.9182e-43 4.14191e-257 -2.5863e-240 -2.26706e+148 -2.32866e+49 1.92878e-253 -2.65122e+24 -1.38272e+43 4.30849e+06 1.08953e+274 -4.00377e-196 -1.49209e+289 4.01262e+86 -9.69375e+271 2.90675e-157 -3.59916e-74 1.11799e-219 -4.12998e-147 5.45084e+212 3.09889e-86 -3.15412e-149 9.99251e-27 -2.50597e+141 3.33917e+17 3.82417e-181 25.5368 1.74478e+228 4.85903e+35 -1.98273e-298 1.03521e-53 4.26398e+59 -1.0422e+107 5.06838e-131 3.20076e+19 4.45483e+41 1.72954e-265 -1.91374e+210 -9.49113e+303 2.22164e-23 2.10075e+17 -2.72684e+163 -1.96281e-222 nan -3.674e-207 -7.74315e+76 7.44578e-122 8.9133e-113 -7.25712e-70 1.37105e+283 -3.6447e+94 2.03315e-05 -6.39372e+28 3.34839e+168 -4.45351e+133 -2.07803e+282 -2.14311e-254 5.41638e-124 3.06608e-152 6.27403e+46 -4.96128e-73 4.43268e+132 0
+k values: 2.55967e+101 6.78509e+96 5.05298e+232 6.43712e-212 6.43712e-212 6.86018e+199 -2.82437e+131 nan 2.78964e+267 -1.15031e-253 0
+lambda values: nan nan 2.27679e+276 -5.64829e-268 -8.52734e+104 1.31729e-108 -1.29758e-82 1.31276e-65 1.56338e-66 -inf -8.33231e-178 inf -3.46941e-80 -1.2585e+140 nan 2.09506e-279 9.86374e+21 5.58902e-182 -3.33217e-255 1.12239e+302 4.08748e-62 1.91401e+95 4.34933e+59 5.61744e+125 8.29198e+73 7.26992e+246 0
+ex values: 2.89357e+306 5.39761e+236 1.51934e-66 5.66773e+247 7.95716e-283 8.03791e+06
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Column index is out of bounds: [index=6; column extent=6].
+ERROR: Failed: mixR_deepstate_test_TXweib_C_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/TXweib_C/TXweib_C_output/5df06925d342e097410641f639a6665b35b9edfb.fail failed

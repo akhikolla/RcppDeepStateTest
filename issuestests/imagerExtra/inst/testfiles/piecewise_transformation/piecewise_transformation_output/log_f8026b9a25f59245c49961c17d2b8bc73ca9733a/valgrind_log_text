@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (imagerExtra_deepstate_test_piecewise_transformation_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/piecewise_transformation/piecewise_transformation_output/f8026b9a25f59245c49961c17d2b8bc73ca9733a.pass`
+TRACE: Running: imagerExtra_deepstate_test_piecewise_transformation_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/piecewise_transformation/piecewise_transformation_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: -3.23068e-244 -9.08354e+102 6.98345e+307 -6.1951e+294 4.45658e+105 3.17662e-114 9.14262e-204 -7.5387e+43 5.41357e+240 -9.43327e+72 -0.0426949 2.27672e-204 6.8978e-213 0.00441572 9.91849e-241 2.42918e+114 7.76223e+159 4.46169e+279 8.07703e+16 1.36139e-05 -2.82479e+179 -2.52131e-100 -7.59055e+139 1.32175e+34 3.33777e+64 6.32812e-218 2.11453e-13 1.68837e-95 1.24942e-152 1.43636e-21 -6.5497e-07 1.19768e-255 6.9268e+260 -9.96737e-275 5.14989e+211 -6.15776e+221 -7.29837e-136 3.53858e+281 1.1288e-133 -9.99971e-65 -3.54729e+132 inf 6.91662e-215 -3.92173e+38 nan -2.77938e-222 -8.80432e-51 -1.76991e-13 -4.24876e+139 -1.0012e+21 3.45307e+229 2.48414e+210 -6.28585e+259 -5.62053e+60 -2.44502e-115 6.4636e+181 -2.8949e+300 1.12947e-128 2.73582e-148 -4.62044e+273 -1.44161e+90 -8.84633e+85 -2.82153e-100 -4.19792e+219 2.36527e-129 2.04136e-52 9.62118e+83 4.21279e-44 1.85178e+181 2.003e-226 nan -5.72051e-269 6.80397e-83 inf -8.11577e-11 3.62989e-217 1.53604e+105 2.92205e+255 4.0132e+213 -1.00751e+243 1.2477e+249 1.6114e-36 1.76379e+79 2.37003e-303 4.53276e-223 2.23633e+258 0
+F values: 5.96766e+118 nan 1.595e-72 -inf -6.22415e+187 -8.91094e+83 -3.38455e-127 -1.07102e+159 0
+N values: -1179031228
+smax values: 1.79098e-88
+smin values: 2.97506e-158
+max values: -1.43771e-257
+min values: -2.33147e-259
+max_range values: 1.43145e+86
+min_range values: 1.40871e-59
+input ends
+TRACE: Passed: imagerExtra_deepstate_test_piecewise_transformation_test

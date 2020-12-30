@@ -1,0 +1,15 @@
+WARNING: No test specified, defaulting to first test defined (CatReg_deepstate_test_DoBlock_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_output/1c909aaf3bbcfc7a8a7bdf5be4258bc975a1f402.fail`
+TRACE: Running: CatReg_deepstate_test_DoBlock_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+weight values: 1.6235e-54 -3.34153e+167 -8.17712e-279 4.592e-39 8.42793e-38 3.20543e-308 -5.2636e+120 1.55968e+307 -9.92843e+120 2.28516e-176 -inf -2.99122e-202 -6.10919e+255 1.16222e+241 -3.50533e-138 2.41773e-188 7.28423e+233 2.06153e+15 -2.16612e+268 -5.58783e+256 1.75149e+25 -1.07375e-130 3.23705e+282 -4.58036e+166 -4.47035e+161 -1.23578e+177 -4.96579e-183 -9.79166e+233 2.61702e-55 -1.07912e-07 -1.76545e-214 1.62034e-98 -4.92536e-222 -8.82338e-270 -6.25201e+290 3.03514e-191 1.10808e+184 -9.52087e-194 inf 2.19772e-118 2.95256e+121 -9.35047e+181 -2.84766e+127 6.47814e+298 -3.66274e-16 -6.50591e+71 -2.70917e-168 2.59718e+73 1.33443e-205 1.30971e+210 4.26314e+10 2.93124e-223 -6.54922e-114 1.90254e-286 1.67902e+226 -1.17479e-297 -7.84164e-292 9.32119e+260 -1.42896e-201 -5.16875e-100 3.40956e+13 1.4703e+170 2.68792e-48 1.43769e-251 1.07155e+45 1.27289e+08 -3.64198e+06 6.15698e-60 3.06119e+206 -3.11372e+248 -6.03684e-82 -6.15918e+238 1.83419e+184 1.27538e-80 5.43294e+116 2.6946e-66 1.3848e-55 -6.19814e+131 inf 7.09075e-210 -1.52515e-117 -1.60157e-254 8.23975e-255 -4.57383e-192 1.42351e-93 1.35288e+110 2.35869e-12 8.18266e-198 -2.43389e+151 -2.99122e-202 0
+response values: inf 2.68763e-17 -1.58468e-112 -1.05244e-60 2.78484e+72 nan -6.91521e-07 0
+gamma values: 1.55311e+237
+lambda values: -3.17948e+21
+input ends
+terminate called after throwing an instance of 'std::range_error'
+  what():  upper value must be greater than lower value
+ERROR: Failed: CatReg_deepstate_test_DoBlock_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_output/1c909aaf3bbcfc7a8a7bdf5be4258bc975a1f402.fail failed

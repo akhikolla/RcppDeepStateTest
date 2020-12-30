@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (imagerExtra_deepstate_test_screened_poisson_dct_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/screened_poisson_dct/screened_poisson_dct_output/070b34524c7785e98f288663deda9329a25d6a0b.pass`
+TRACE: Running: imagerExtra_deepstate_test_screened_poisson_dct_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/imagerExtra/inst/testfiles/screened_poisson_dct/screened_poisson_dct_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+data values: 1.06107e+162 9.59154e-218 4.31686e+198 5.70561e+256 2.52182e-225 1.26631e+143 1.63792e+96 6.27984e-126 2.09907e-136
+5.23619e-28 1.69178e-180 1.30814e-191 1.87948e-145 7.23632e-240 4.91204e-280 6.40626e-36 7.35515e+230 4.88514e-19
+4.16788e+61 9.55350e-17 5.12406e+74 4.25002e+209 1.65609e-102 0.0202005 8.75950e-68 6.17517e-269 2.81923e+149
+2.38474e+165 1.27966e+177 5.14517e+209 1.04414e+279 3.61160e-289 6.13437e+102 7.45365e+299 4.74450e-108 6.76996e+264
+
+L values: 3.25243e+236
+input ends
+TRACE: Passed: imagerExtra_deepstate_test_screened_poisson_dct_test

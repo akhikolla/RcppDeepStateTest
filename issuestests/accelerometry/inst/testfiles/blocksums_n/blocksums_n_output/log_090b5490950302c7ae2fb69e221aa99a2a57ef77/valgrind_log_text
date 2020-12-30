@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (accelerometry_deepstate_test_blocksums_n_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n/blocksums_n_output/090b5490950302c7ae2fb69e221aa99a2a57ef77.pass`
+TRACE: Running: accelerometry_deepstate_test_blocksums_n_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/accelerometry/inst/testfiles/blocksums_n/blocksums_n_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.06177e-174 inf 2.69715e+111 1.75904e+228 1.87003e-153 5.13628e+230 6.45254e-246 nan 7.75212e+194 5.82344e+254 2.98859e-272 4.69149e-144 3.15913e+202 -3.64381e-231 7.22042e+95 -8.81492e+251 nan 5.2198e-271 1.00001e-119 inf 2.1546e-163 1.20417e-116 0
+window values: -2016079513
+input ends
+TRACE: Passed: accelerometry_deepstate_test_blocksums_n_test

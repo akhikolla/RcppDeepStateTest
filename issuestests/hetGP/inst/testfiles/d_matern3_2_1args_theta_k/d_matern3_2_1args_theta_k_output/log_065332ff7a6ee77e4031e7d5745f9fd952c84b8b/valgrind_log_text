@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (hetGP_deepstate_test_d_matern3_2_1args_theta_k_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/d_matern3_2_1args_theta_k/d_matern3_2_1args_theta_k_output/065332ff7a6ee77e4031e7d5745f9fd952c84b8b.pass`
+TRACE: Running: hetGP_deepstate_test_d_matern3_2_1args_theta_k_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/hetGP/inst/testfiles/d_matern3_2_1args_theta_k/d_matern3_2_1args_theta_k_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X1 values: 8.00600e+176 1.76591e+180
+7.38608e+250 3.66232e+286
+1.12211e-220 5.16988e+104
+2.65658e+93 1.23483e+92
+
+theta values: 1.65079e-98
+input ends
+TRACE: Passed: hetGP_deepstate_test_d_matern3_2_1args_theta_k_test

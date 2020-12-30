@@ -1,0 +1,47 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606677317
+WARNING: No test specified, defaulting to first test defined (RcppDynProg_deepstate_test_solve_interval_partition_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.23979e-269 1.20841e+147 8.24694e-81 5.17678e+120 4.23734e-219
+
+kmax values: -1283946289
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 3.57669e+165 2.99985e-243 1.91663e-17 3.91135e-134 1.37534e-106 2.34006e+251 4.76287e-275
+5.70831e-245 7.03374e-247 4.56847e+76 2.95505e-239 2.85670e-156 1.52024e-09 5.46650e-46
+8.40389e-94 3.30800e-42 1.39233e-242 3.29565e+302 3.98447e-146 9.62483e-148 1.14340e-298
+5.09093e+36 2.24970e+288 1.39903e+282 5.05065e-25 6.68438e+102 2.77775e+44 2.17736e-249
+
+kmax values: -512769150
+input ends
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition/solve_interval_partition_output/29a62a6a8416ea1967baf29f716b9f9b941be756.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.30473e-281
+
+kmax values: -67447916
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.39262e+268 1.67593e-68 4.74425e-104 4.25808e+116 2.13876e-301 9.55972e+57 3.85887e-11 1.35284e-194 6.68503e+179
+
+kmax values: -997470845
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 2.28364e+172 1.09117e-16 3.13834e-26 2.01524e+52 3.95075e+28 1.56717e+200 5406.46 5.93365e+282 1.26178e+84 5.28676e+174
+1.11963e-82 6.47864e+85 1.70560e-308 9.44136e-245 1.28657e-54 5.52795e+197 1.70466e-169 7.82283e-254 9.39572e-280 1.71135e-77
+
+kmax values: 1666114722
+input ends
+ERROR: Crashed: RcppDynProg_deepstate_test_solve_interval_partition_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/RcppDynProg/inst/testfiles/solve_interval_partition/solve_interval_partition_output/5f010fe8dccd84641b068fe7c017545a35c34ab1.crash`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 2 failed/3 passed/0 abandoned tests

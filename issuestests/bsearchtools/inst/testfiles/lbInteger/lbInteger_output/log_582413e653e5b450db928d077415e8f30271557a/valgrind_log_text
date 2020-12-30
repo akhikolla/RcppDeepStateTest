@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (bsearchtools_deepstate_test_lbInteger_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsearchtools/inst/testfiles/lbInteger/lbInteger_output/582413e653e5b450db928d077415e8f30271557a.pass`
+TRACE: Running: bsearchtools_deepstate_test_lbInteger_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsearchtools/inst/testfiles/lbInteger/lbInteger_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+sortedValues values: -502656477 -811914532 -944235875 -1585273379 -363111312 -2115956876 -1468746798 1271604781 -717729628 -746880870 865744852 484225287 -2147483648 -276419433 -69178810 -1416596608 -926669669 1067726194 1047348826 1241014657 114899445 1600556122 1190568177 -2045480626 -661264105 958368119 -1932537387 -952936755 210813547 -162544068 1164324300 2057181778 855927148 603120559 -1028356983 -405055501 1796824929 1747295662 -1949664762 1754552475 -1732114501 -1259705738 -1628503930 -900237003 1893242585 -46954615 -50229403 -1780023250 -1459099298 -246098801 1137972493 730808988 1742239077 201125384 -42111598 1684914190 1957325925 -29297599 352996928 -1718559744 -2147483648 1297316682 -790045387 1436369865
+valueToSearch values: 1932214208
+input ends
+TRACE: Passed: bsearchtools_deepstate_test_lbInteger_test

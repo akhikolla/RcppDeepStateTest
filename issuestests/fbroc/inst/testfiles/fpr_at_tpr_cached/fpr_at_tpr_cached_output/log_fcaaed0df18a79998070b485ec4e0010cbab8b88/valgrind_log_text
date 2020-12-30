@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (fbroc_deepstate_test_fpr_at_tpr_cached_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/fpr_at_tpr_cached/fpr_at_tpr_cached_output/fcaaed0df18a79998070b485ec4e0010cbab8b88.fail`
+TRACE: Running: fbroc_deepstate_test_fpr_at_tpr_cached_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/fpr_at_tpr_cached/fpr_at_tpr_cached_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tpr values: 1.29237e-211 2.83690e-252 1.45669e+231 2.20566e+269
+4.37706e+136 9.13870e+66 8.16003e+270 9.64474e-34
+1.17406e+181 3.60230e+250 1.10139e+123 5.29546e-249
+2.31087e-38 3.38507e+124 1.99141e+78 8.04413e-266
+
+fpr values: 1.64237e+249
+6.68205e+275
+4.34073e+48
+1.47141e+246
+2.02406e+250
+
+n_steps values: 256456812
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Row index is out of bounds: [index=4; row extent=4].
+ERROR: Failed: fbroc_deepstate_test_fpr_at_tpr_cached_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/fbroc/inst/testfiles/fpr_at_tpr_cached/fpr_at_tpr_cached_output/fcaaed0df18a79998070b485ec4e0010cbab8b88.fail failed

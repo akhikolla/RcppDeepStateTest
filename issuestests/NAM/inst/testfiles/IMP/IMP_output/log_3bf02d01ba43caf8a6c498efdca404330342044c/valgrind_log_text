@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (NAM_deepstate_test_IMP_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/IMP/IMP_output/3bf02d01ba43caf8a6c498efdca404330342044c.pass`
+TRACE: Running: NAM_deepstate_test_IMP_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NAM/inst/testfiles/IMP/IMP_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+X values: 8.94032e+281 5.49676e+278 4.94538e+256 3.22518e-88 2.66152e-166 2.98218e+100
+5.20306e-186 1.84487e+48 2.40185e+100 4.66284e+196 3.90485e-93 2.62976e+243
+1.47069e-195 5.17067 1.17053e+225 3.03448e+293 6.06504e+269 2.64820e+165
+
+input ends
+TRACE: Passed: NAM_deepstate_test_IMP_test

@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_getz_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_getz/rcpp_getz_output/18ea1b8a39ec38587e36138feb811512dfdea58d.fail`
+TRACE: Running: NHMM_deepstate_test_rcpp_getz_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_getz/rcpp_getz_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+zf values: 8.43315e+201 2.35297e+114 -6.24305e+175 inf -1.33971e+190 2.04611e+251 nan
+QQf values: -inf nan nan
+denzity values: 5.26616e-216 1.00794e+211 1.43197e-291 2.79724e+276 6.38869e+195 4.44328e-22 6.97174e-143
+1.12130e+243 2.08819e+207 3.86954e-279 2.95447e-149 2.70473e-175 1.88322e-233 3.74583e+230
+2.74820e-211 2.15332e-293 1.39236e+41 7.60233e+105 8.13907e+170 2.20677e-16 7.39242e-148
+9.76862e+175 7.16538e+10 6.28269e-131 2.23597e-97 1.13536e-32 2.17275e-181 1.75704e-307
+1.57835e-39 1.62003e+168 1.68351e+19 6.70707e+177 9.56440e+142 1.41904e-92 5.16439e+144
+1.36395e+20 2.00705e+152 3.83742e+276 5.94713e-142 5.74655e+228 2.08857e+70 3.03006e-52
+1.75587e+13 1.06622 9.90590e+14 2.19528e+71 1.66105e+128 8.48986e+288 3.34723e-249
+3.59873e+169 5.31913e-300 9.81967e-258 2.51859e-145 2.83820e-220 18.7428 4.24199e+22
+5.45842e+19 1.96035e+238 1.70915e+234 9.31622e+131 1.62672e-28 3.08787e-64 1.17343e-66
+
+subseqy values: nan 3.70251e-172 -1.41114e-214 nan 0
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=-2147483567; extent=3].
+ERROR: Failed: NHMM_deepstate_test_rcpp_getz_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_getz/rcpp_getz_output/18ea1b8a39ec38587e36138feb811512dfdea58d.fail failed

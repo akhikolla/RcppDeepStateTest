@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_binary_search_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/binary_search/binary_search_output/6d5d7149a11640c159ffd95ebf2f541b16887c12.pass`
+TRACE: Running: BNSL_deepstate_test_binary_search_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/binary_search/binary_search_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+array values: inf -3.91425e-132 4.87874e-38 4.6842e-303 2.61649e+239 -1.88992e+298 -7.76992e+13 -8.64199e+30 -1.60571e-173 -1.73943e+93 -inf 3.09763e-293 -6.76241e-279 2.12813e+265 1.75724e-104 -6.87739e-29 1.45051e+182 -2.05484e-204 1.15996e-58 5.44057e+204 -4.63221e-54 4.2153e-158 -3.08444e-212 -1.54865e-53 -2.50191e+286 -1.44501e+172 -4.94679e-231 -2.65807e-167 2.98674e-257 3.59722e+80 nan -1.35613e-240 8.0534e-173 -4.56029e+148 2.31613e-308 4.66797e+288 3.10882e+40 -1.45863e-132 -5.09148e-136 9.8589e-170 -9.07196e+251 -4.63907e+54 9.67716e-229 3.24295e+43 -8.77836e+144 -1.92374e-121 nan -9.07537e+30 -1.29516e-179 -4.46748e+29 -1.79354e-174 2.06729e-164 5.17056e-42 -1.8899e-106 0
+pattern values: -4.95837e-304
+input ends
+TRACE: Passed: BNSL_deepstate_test_binary_search_test

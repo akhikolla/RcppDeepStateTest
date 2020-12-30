@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_value3d_c_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_value3d_c/gen_value3d_c_output/3d6db7f800597faa16507ace319d794a7a8217a1.pass`
+TRACE: Running: ambient_deepstate_test_gen_value3d_c_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_value3d_c/gen_value3d_c_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: nan -inf -8.62114e+30 1.67615e+52 -7.67251e-176 nan inf
+y values: nan nan 8.03831e+15 6.41661e+268 nan 8.62726e-243 nan nan
+z values: 2.38966e-135 -5.51519e+126 7.16852e-249 1.85454e-36 3.35538e+70 2.59942e+189 3.43465e+165 -1.44384e+113 0.000212471 -3.76529e+263 -1.34363e-253 -5.05852e-308 5.6495e-108 -3.63258e+170 -4.59406e-147 -2.98251e-218 -3.66012e+57 9.48751e+284 -4.21909e-35 4.42653e-08 3.4484e-273 1.48414e-130 -1.33099e+123 1.45748e-121 -6.24466e+60 -7.56692e-300 1.57565e-221 3.46679e+109 5.2638e-170 9.80368e-194 1.24105e-62 -1.31036e-181 -2.51325e+180 -5.6242e-208 -8.01821e+112 3.54828e+59 nan -1.15757e-79 4.29664e-38 -2.15907e+97 -4.07102e+111 -2.43349e+41 -2.64531e+272 -inf -5.54569e+304 -7.36613e+109 -1.09222e-287 -6.48062e+64 -1.60445e-208 -2.87487e-07 nan -1.42763e+210 1.19382e+290 1.86373e-121 2.76013e-173 7.28677e+86 1.72345e+76 7.6691e+23 -1.33548e+303 7.80619e+144 -6.14642e-43 2.53574e-75 -1.3097e+185 1.82084e-192 -2.50966e-211 -3.07726e-30 2.30066e-124 -3.95813e+305 1.57687e-79 1.54922e-09 -8.33313e-265 -2.0193e+131 -3.82295e-09 -7.86521e+291 -1.07702e-16 3.21048e-63 -1.5234e+284 -2.76818e-58 4.12504e-286 -2.06156e-223 -1.09105e-86 1.66406e-189 -5.27273e+36 -1.14723e-141 -4.61772e+182 -2.67671e+26 -1.16563e-241 3.5618e-251 -5.77204e-93 -1.87683e-185 4.2146e+75 3.26526e+130 -1.79306e+238 -inf -1.90935e+223 -6.41982e-84 -1.11987e-89 0
+freq values: 1.42764e+59
+seed values: -1105416785
+interp values: -1413689056
+input ends
+TRACE: Passed: ambient_deepstate_test_gen_value3d_c_test

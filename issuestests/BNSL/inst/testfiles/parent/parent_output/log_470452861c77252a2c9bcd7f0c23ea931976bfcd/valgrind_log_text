@@ -1,0 +1,19 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_parent_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/parent/parent_output/470452861c77252a2c9bcd7f0c23ea931976bfcd.pass`
+TRACE: Running: BNSL_deepstate_test_parent_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/parent/parent_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+df0 values: 8.93922e+236 0.00261565 1.51339e-179 3.31204e+77
+2.70963e+90 1.62882e-65 4.88707e-282 5.48439e-67
+4.35161e+300 2.76105e+256 0.0150921 1.26991e-12
+7.55508e+169 4.02297e+39 1.52988e+292 5.51262e+18
+7.18945e+195 3.59745e-150 3.01959e+237 1.66780e+123
+5.19767e+30 3.73564e-46 5.75306e+39 4.52748e-138
+1.00835e+172 5.06027e-285 3.46640e-209 1.14256e-234
+
+h values: 1610613227
+tw values: -1600403642
+proc values: 379146395
+input ends
+TRACE: Passed: BNSL_deepstate_test_parent_test

@@ -1,0 +1,84 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606695574
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_value_3d_c_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 1193684929
+width values: 1901132153
+depth values: 2140112657
+seed values: 125174534
+freq values: 8.29341e+152
+interp values: 776044832
+fractal values: 2045791936
+octaves values: 377323912
+lacunarity values: 5.15525e-225
+gain values: -4.65942e+229
+pertube values: 1733119637
+pertube_amp values: -1.08102e+110
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 1813488894
+width values: -1672384296
+depth values: -1627132361
+seed values: -1814633357
+freq values: -4.31618e-42
+interp values: -1629248891
+fractal values: 79732081
+octaves values: -683577484
+lacunarity values: 2.4827e+262
+gain values: 1.43729e+47
+pertube values: 1024590043
+pertube_amp values: 2.82664e-27
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 821341994
+width values: -2022417057
+depth values: 319636425
+seed values: 704536068
+freq values: 2.69415e-28
+interp values: 65170598
+fractal values: -2033802569
+octaves values: -1169039038
+lacunarity values: 6.92531e+253
+gain values: -4.45094e+215
+pertube values: 15279620
+pertube_amp values: 5.73328e-217
+input ends
+EXTERNAL: Error: negative length vectors are not allowed
+
+EXTERNAL: Execution halted
+
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+height values: 1149874359
+width values: 1644816554
+depth values: 665206794
+seed values: 1958056554
+freq values: -9.13475e+199
+interp values: -1712655072
+fractal values: 513381475
+octaves values: 591665797
+lacunarity values: 1.33293e-166
+gain values: -7.24865e-229
+pertube values: -1392215737
+pertube_amp values: 1.82767e-99
+input ends
+EXTERNAL: Error: vector is too large
+
+EXTERNAL: Execution halted
+
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 4 failed/0 passed/0 abandoned tests

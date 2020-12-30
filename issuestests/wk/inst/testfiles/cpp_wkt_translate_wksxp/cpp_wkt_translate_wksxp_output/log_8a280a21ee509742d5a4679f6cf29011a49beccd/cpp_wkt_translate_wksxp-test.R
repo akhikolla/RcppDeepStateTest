@@ -1,0 +1,3 @@
+testlist <- list(includeM = -146297202L, includeSRID = -1443269339L, includeZ = 854927390L,      wkt = c("cskswwyfiqgqfuxupsdy", "tt", "yxgbhozjgphuzzsfbanm",      NA, "litkln", NA, NA, NA, NA, NA, "dvfgfqxjgkovfqpqspbl",      NA, NA, "hlfjvhtvddpbhnxnc", "ckpugrhmluwmqgzwcijv", NA,      "jio", NA, "xlbpxksrsajgqkwktlog", "kxhcsqj", "bobxczxlestedazmcycl",      NA, "wwaynsznlkp", "rzlbpkfxck", "xxmsdlcprcgbvfjhoomq",      "", "koivdgpeukysu", NA, "xwoscxjinugavesw", "nw", NA, NA,      NA))
+result <- do.call(wk:::cpp_wkt_translate_wksxp,testlist)
+str(result)

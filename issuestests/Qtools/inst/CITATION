@@ -1,0 +1,36 @@
+if (!exists("meta") || is.null(meta)) meta <- packageDescription("Qtools")
+
+citHeader("To cite package", sQuote(meta$Package), "in publications use:")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+
+citEntry(
+  entry = "Manual",
+  title ="Qtools: {U}tilities for quantiles",
+  author = personList(as.person("M. Geraci")),
+  year = year,
+  note = vers,
+  url = "https://cran.r-project.org/package=Qtools",
+  textVersion  = paste0("Geraci M (",
+                     year,
+                     "). Qtools: Utilities for quantiles. ",
+                     vers, ". Available at https://cran.r-project.org/package=Qtools", ".")
+	)
+
+	
+citEntry(
+	entry = "Article",
+ 	author = personList(as.person("Marco Geraci")),
+	title = "Qtools: A collection of models and tools for quantile inference",
+ 	journal = "The R Journal",
+	volume = "8",
+	number = "2",
+	pages = "117--138",
+	year = "2016",
+	textVersion = paste("Geraci M (2016).",
+	"Qtools: A collection of models and tools for quantile inference.",
+	"The R Journal 8(2), 117-138.")
+)
+
+citFooter("A BibTeX entry for LaTeX users is toBibtex(citation('Qtools'))")

@@ -1,0 +1,67 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606694423
+WARNING: No test specified, defaulting to first test defined (HDLSSkST_deepstate_test_gMADD_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+s_fn values: -238964487
+n_clust values: 621831392
+lb values: -107144951
+M values: 2.79196e+10 1.19373e+94 1.36473e+292 2.53630e-289 2.83095e-230 1.62876e-211 3.66254e+277 1.43183e+71 8.43664e+189
+1.88627e+301 1.07381e-173 5.54111e-99 8.30749e+158 5.81147e+231 1.12087e-215 7.84532e+33 3.27151e-63 2.95022e+20
+3.10713e+203 7.68487e+279 9.84224e-197 1.24182 3.32626e-15 3.88046e+226 1.08480e-41 2.41800e-297 7.76640e+162
+1.86755e+281 4.73324e+220 5.27495e-08 3.79147e-09 4.13266e+245 4.48838e-10 7.22333e+189 5.93855e-134 8.10411e+17
+5.04739e-172 1.26064e+79 2.34789e-92 1.82603e-93 1.33894e+172 5.68651e-239 3.93377e+291 6.54725e+49 5.04377e-223
+4.27305e+218 3.08375e+190 5.53254e+08 4.28575e-44 5.63330e-193 6.74893e+215 59.7593 3.96086e+242 165.038
+1.85090e-147 2.67685e-279 5.04599e+129 3.72560e-230 1.96931e+259 1.58245e+212 5.75430e-136 1.48778e-80 4.99785e-34
+6.13520e+187 2.31739e-264 3.67494e-274 6.37215e+251 5.24158e+58 5.24037e-264 3.11551e+283 1.02514e-240 1.54095e-299
+8.11785e-248 3.55990e-135 8.47825e+167 6.91731e+168 2.92858e+109 1.79823e+130 1.49669e+118 3.88024e+142 1.70136e+295
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_gMADD_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/gMADD/gMADD_output/7f429aa9daf98603b716f1ce060def46e8882310.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+s_fn values: -855533130
+n_clust values: 1200249266
+lb values: -775284415
+M values: 1.49726e-232
+4.75698e-173
+6.37199e+96
+3.07285e+151
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_gMADD_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/gMADD/gMADD_output/0d7cb346149ab7a8126ac2e0a0eab0dcd4897cf8.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+s_fn values: 6869948
+n_clust values: 265155824
+lb values: 534444971
+M values: 2.35195e+28 4.27556e-277 3.68748e-59 2.41741e-274 4.61330e-286 6.25587e+298 4.09812e+248
+4.70587e-103 2.09300e-141 1.86331e-49 2.68603e+99 6.57458e+134 1.13681e+261 1.54458e+211
+1.49372e-12 3.93614e+160 7.40717e+292 3.05273e+268 4.32032e+57 5.36578e+249 1.13988e+136
+2.29093e-213 7.59563e-269 0.000180809 0.00132270 6.24564e-295 4.01871e+209 3.20785e+76
+4.28925e-228 1.00947e+304 2.83860e-111 1.03446e-27 1.75468e+277 3.16736e-257 9.70919e+175
+6.97929e-95 3.07009e-153 5.66665e-21 2.80841e+102 1.01266e-272 2.47294e-110 8.43756e+264
+9.38291e+250 7.25609e+304 8.37612e-131 1.72079e-237 1.19401e-242 3.95202e+157 9.21834e+166
+
+input ends
+ERROR: Crashed: HDLSSkST_deepstate_test_gMADD_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/HDLSSkST/inst/testfiles/gMADD/gMADD_output/5bf5daf0772752fc503f98a937d15a0b6f039f30.crash`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+s_fn values: 1176913755
+n_clust values: -394848050
+lb values: -2017731232
+M values: 2.18732e-300
+2.06395e+301
+1.87976e+235
+6.49449e-229
+3.41559e-214
+
+input ends
+INFO: Done fuzzing! Ran 4 tests (0 tests/second) with 3 failed/1 passed/0 abandoned tests

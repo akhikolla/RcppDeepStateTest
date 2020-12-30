@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (surveysd_deepstate_test_ipf_step_f_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/ipf_step_f/ipf_step_f_output/bff9e690b88fd08d8d086a0264ad76025fc45541.fail`
+TRACE: Running: surveysd_deepstate_test_ipf_step_f_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/ipf_step_f/ipf_step_f_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+w values: 1.98735e-274 -1.13575e-302 1.34755e-308 2.54369e-28 1.63665e-236 2.93259e-245 -inf nan 1.39276e+212 2.59902e+208 3.14971e+243 3.81657e+191 4.27887e+220 2.19868e-96 -2.33495e+89 -inf -5.17827e-299 -6.73976e-148 6.47626e-84 6.84587e-32 nan 1.61945e+55 3.67025e-67 3.02212e-164 -1.49336e+298 8.28153e-184 2.04799e+32 -1.13659e+33 1.85979e+262 -inf -3.9078e+174 3.47504e-259 0
+classes values: 1746272440 236169022 -1206473795 -886922027 180886724 -1625459647 258256962 385815678 353711651 685662688 -2147483648 792892729 179436970 -814617634 -711253525 -1707775568 1252053874 2117423986 1106260592 851945789 2024204103 399648492 1833424648 2084681927 -510969505 -1064513278 2097377967 -904074173 -1026323750 -1515141613 -140633228 -539804736 1584668447 32514430 -191681090 -1357250190 -309572461 1007855156 -1329485681 -1797042190 1466831192 1597167187 -972811915 504620811
+targets values: 1.18104e+215 -2.1301e+264 nan -2.58483e-11 1.16162e-106 -2.33747e+289 4.70524e+242 3.16966e+287 nan -7.92113e+233 1.11706e+161 -5.81089e-135 2.38688e+43 -4.46844e-291 1.79888e+146 -inf -inf 1.84852e-07 -9.05832e+164 4.51055e-20 1.02243e+35 3.19233e-195 1.90989e-70 -1.59188e-127 6.78882e+261 1.00095e-42 6.14529e+223 -6.35047e-52 inf -3.66947e-264 -7.45267e+213 -2.83228e+176 -2.72801e+198 0
+input ends
+EXTERNAL: Not compatible with STRSXP: [type=NULL].
+ERROR: Failed: surveysd_deepstate_test_ipf_step_f_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/surveysd/inst/testfiles/ipf_step_f/ipf_step_f_output/bff9e690b88fd08d8d086a0264ad76025fc45541.fail failed

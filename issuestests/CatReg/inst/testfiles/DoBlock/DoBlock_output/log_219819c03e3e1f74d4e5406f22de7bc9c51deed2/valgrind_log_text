@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (CatReg_deepstate_test_DoBlock_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_output/219819c03e3e1f74d4e5406f22de7bc9c51deed2.pass`
+TRACE: Running: CatReg_deepstate_test_DoBlock_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/CatReg/inst/testfiles/DoBlock/DoBlock_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+weight values: -2.95681e+292 inf -1.50244e+102 -1.82098e-134 -3.0981e+120 -7.18573e+258 -2.02772e-259 3.52157e+106 3.29226e+93 3.66578e-09 -8.30831e-31 nan 4.46609e+269 7.20399e+70 6.40902e-263 -2.0797e-142 2.14615e-103 -5.2115e-167 1.36008e+164 1.00784e-96 9.05862e+15 inf 5.93376e-87 1.84569e+169 2.1265e-258 2.14615e-103 4835.14 -8.5715e-179 -6.14879e+237 8.45746e-199 8.9948e-82 -1.22616e-77 -1.84399e+280 0
+response values: -6.13425e-206 9.88532e-188 9.96526e+147 -1.08077e-125 1.33868e-64 -4.74853e+167 9.59072e+161 4.84075e-279 -9.12467e+80 -inf 1.36595e+301 -6.54219e+74 -2.31251e-187 9.27572e-240 2.03608e+89 -1.99884e+30 -1.47014e-290 -3.44508e+221 -4.95058e-104 1.52168e+35 4.32489e+180 3.48986e+179 8.33493e+129 7.05269e-87 3.60345e+269 -8.98224e-168 9.11718e-107 9.58649e-14 -7.56283e+171 1.65823e+166 -3.95566e+76 9.80628e-41 1.27711e-107 5.55947e+48 1.38266e+268 -1.57715e-190 5.37626e-05 1.06697e-65 -8.02275e+25 2.01672e-81 3.63933e+287 -2.73728e-290 3.3655e+238 -5.31971e-132 2.40761e-274 1.15756e+69 4.34949e-125 1.16896e-78 -2.30239e-82 7.89814e+148 9.44673e+08 -5.58672e+124 7.68519e+96 inf 3.99411e+135 9.2037e+303 5.72907e-268 -1.66891e-216 -1.72459e-30 2.58354e-183 7.26191e-61 -2.82649e-31 3.84942e+213 -1.42641e+233 4.32489e+180 -7.11409e+105 -3.72887e-281 6.00595e+293 -inf -1.8946e+222 -1.47849e+267 -1.25897e+177 -2.25283e-298 3.82927e-134 -2.61553e+257 0
+gamma values: 8.68606e-188
+lambda values: 2.07381e+186
+input ends
+Exception Handled
+TRACE: Passed: CatReg_deepstate_test_DoBlock_test

@@ -1,0 +1,26 @@
+WARNING: No test specified, defaulting to first test defined (BNSL_deepstate_test_parent_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/parent/parent_output/999e599ac02ade40927355de9f0cb8c51536ed0b.crash`
+TRACE: Running: BNSL_deepstate_test_parent_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/parent/parent_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+df0 values: 1.00813e-99 1.79218e+205 1.76549e+60 5.76347e+110 3.32573e+237 2.46972e+266 2.51071e+95
+9.42336e+187 6.01253e-224 2.87017e-148 5.54644e+159 7.63314e-277 3.35944e+93 1.47375e-38
+1.54896e+47 6.93821e-158 1.39530e-27 1.56597e+239 2.92711e-09 7.42480e-139 8.13227e-33
+8.39482e+176 6.81624e-105 85859.1 8.45959e-113 1.83951e+34 7.88471e+176 1.11260e+143
+1.64021e-15 1.21035e-204 7.49098e-47 1.67841e-74 4.75756e+281 3.14482e+153 5.05656e-39
+5.12573e-181 6.17961e+283 4.88110e+225 6.38174e-52 4.09393e+243 2.08040e+294 1.04703e+226
+1.79809e+159 2.71106e-110 4.41109e-256 1.39403e+14 8.00480e-106 1.13465e-59 3.45581e-230
+3.29642e-89 2.01075e-146 3.50636e+286 1.51125e+299 9.75367e-113 3.64215e+283 1.04844e-57
+
+h values: 852794110
+tw values: 1468437190
+proc values: 1658531371
+input ends
+==1592849==  If you believe this happened as a result of a stack
+==1592849==  overflow in your program's main thread (unlikely but
+==1592849==  possible), you can try to increase the size of the
+==1592849==  main thread stack using the --main-stacksize= flag.
+==1592849==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: BNSL_deepstate_test_parent_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BNSL/inst/testfiles/parent/parent_output/999e599ac02ade40927355de9f0cb8c51536ed0b.crash crashed

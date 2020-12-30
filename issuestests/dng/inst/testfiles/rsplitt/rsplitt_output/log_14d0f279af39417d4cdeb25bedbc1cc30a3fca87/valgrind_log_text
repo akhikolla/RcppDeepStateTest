@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (dng_deepstate_test_rsplitt_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/rsplitt/rsplitt_output/14d0f279af39417d4cdeb25bedbc1cc30a3fca87.crash`
+TRACE: Running: dng_deepstate_test_rsplitt_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/rsplitt/rsplitt_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n values: 1833689957
+mu values: 9.60081e-186 -9.61764e-296 7.84373e-57 nan -7.28298e+67 -inf nan 6.58519e+116 -inf -6.44676e+181 0
+df values: 1.16743e-239 1.68141e-261 2.34643e-245 1.19931e+48 -1.55723e+291 3.78242e+285 -1.50092e+172 9.7118e-160 -5.40478e-70 1.98092e+83 nan -1.22545e-216 4.36217e+259 -3.75645e-290 -2.4232e-172 9.54293e-232 -2.78582e-67 7.72202e+101 5.30705e+199 2.8125e+257 8.52008e+160 3.81541e+287 2.48387e-192 1.09893e+298 -8.88059e-18 -5.88959e+87 5.30705e+199 9.94834e+191 4.20774e+249 -1.53879e+262 9.20734e+156 7.86993e+154 2.13023e+271 -2.34175e+132 5.30705e+199 1.10891e-271 1.12356e-61 3.76293e-241 -1.28005e-217 2.05194e+50 -5.49091e+101 -3.47948e+233 -1.90927e+164 2.24472e-210 -2.08896e-236 -9.00898e-90 -6.2692e+216 -1.09142e-146 3.53298e+45 -3.76771e-205 nan 1.12059e+06 -1.03293e-185 -1.08904e+145 7.68042e-240 -3.31131e-289 2.45142e+155 1.20754e-226 -7.0626e+158 1.43363e-121 2.66603e+283 2.85749e-221 -8.92586e+27 -3.25613e+187 9.80732e-165 -2.4363e-153 2.75784e+178 -2.14114e-262 -8.54171e-115 -2.0201e-86 3.1857e+268 0
+phi values: 2.10332e-125 -9.42857e+15 7.80346e-308 -3.37043e+115 6.97212e-282 1.31738e+62 2.51788e+70 7.70228e+46 nan -8.61589e-307 -2.51113e+306 1.20602e-97 1.05524e-203 1.17748e+252 -3.32388e+65 1.17781e-122 2.78523e+12 inf -2.45762e-273 nan -1.5978e+237 inf 1.59518e-108 2.9627e-97 1.34771e+37 1.69357e-144 5.25766e+82 8.99624e+108 1.26633e+202 2.74805e-234 -2.86601e-240 1.56477e-288 8.62925e+204 -5.6538e-257 -8.36583e-65 1.05094e-47 5.20603e+126 -1.72177e+176 1.50302e-149 2.57734e-22 3.18821e-140 1.82153e-13 nan
+lmd values: nan
+input ends
+ERROR: Crashed: dng_deepstate_test_rsplitt_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/rsplitt/rsplitt_output/14d0f279af39417d4cdeb25bedbc1cc30a3fca87.crash crashed

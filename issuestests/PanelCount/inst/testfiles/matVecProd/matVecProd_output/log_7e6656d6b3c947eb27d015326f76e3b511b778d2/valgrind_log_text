@@ -1,0 +1,22 @@
+WARNING: No test specified, defaulting to first test defined (PanelCount_deepstate_test_matVecProd_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProd/matVecProd_output/7e6656d6b3c947eb27d015326f76e3b511b778d2.fail`
+TRACE: Running: PanelCount_deepstate_test_matVecProd_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProd/matVecProd_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+m values: 1.27725e-219 1.55563e+83 1.26681e+294 4.34337e+302 5.32511e-60 2.30623e-31
+4.65589e-10 2.22023e+68 3.31833e-53 3.70184e+197 3.42136e+92 3.84141e+286
+3.98966e+37 4.89102e+224 1.80494e-280 2.18572e+48 1.54264e+57 3.51226e+203
+1.34846e+44 7.58528e-253 4.74674e-207 8.53151e+161 1.25506e-228 5.58657e+293
+4.95966e+222 1.10546e-108 2.22735e-140 1.15462e+303 8.44398e-243 5.52487e+184
+9.16244e-133 1.09688e+265 1.84283e-85 5.57466e-151 2.74281e+281 8.06530e+62
+1.70845e+31 8.11850e+07 3.55123e-118 4.74350e-40 7.53157e+125 6.57633e-16
+
+v values: -6.32496e-119 -2.47303e-272 -7.7388e-233 4.52281e-196 3.87312e-56 2.81004e+208 2.88831e+282 2.45893e+217 7.41143e+155 -2.2525e-161 2.88327e-176 5.62778e-261 9.64786e+14 -1.15595e-153 4.87992e+204 -4.10151e+163 1.93623e+303 3.1468e-257 -9.63294e-268 5.62413e-213 -3.21495e-76 -3.25992e-177 -1.43783e+47 -1.57906e-20 6.13072e-204 -3.66361e-134 -5.84183e-99 1.37872e+175 4.67233e-140 22515.9 -3.88008e+186 1.06146e-174 -2.49805e+276 -7.77658e+272 nan -5.11796e-67 -5.61539e-178 -3.70574e+271 1.37872e+175 1.37872e+175 2.62623e-222 -4.08885e-251 -7.49458e+171 9.53046e+104 1.35473e-279 nan 1.05192e+49 -3.01288e+37 8.48257e+221 -3.78973e-31 0
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: PanelCount_deepstate_test_matVecProd_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PanelCount/inst/testfiles/matVecProd/matVecProd_output/7e6656d6b3c947eb27d015326f76e3b511b778d2.fail failed

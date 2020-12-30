@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_Matrix_Sum_C_NA_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Matrix_Sum_C_NA/Matrix_Sum_C_NA_output/4ea023c648bd77b237356fd81a6680bce5c0986d.pass`
+TRACE: Running: BoostMLR_deepstate_test_Matrix_Sum_C_NA_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Matrix_Sum_C_NA/Matrix_Sum_C_NA_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 7.96478e+208 8.42860e-61 5.03408e-84 1.05562e+294 4.21849e+79 2.84376e+69 1.43647e-261 1.49926e+19 6.36970e-292
+5.08713e-36 1.18404e-154 5.40435e-148 1.43707e+262 5.30562e-110 6.20322e+149 2.43925e+50 1.28764e+73 3.99535e+42
+5.85225e+280 1.66089e-221 2.03235e-307 6.48791e+09 8.28196e+201 1.84131e-178 4.11512e-55 1.23883e-119 2.36925e+37
+3.68267e+254 7.82615e-57 3.37757e+165 1.41407e+77 1.78345e-231 4.01330e-80 4.56902e-35 4.57014e-226 1.31945e-265
+3.32844e-150 4.10835e+190 4.97332e+250 4.89359e-139 1.10176e-285 6.37307e+136 1.95178e+114 3.61685e+82 3.38169e-203
+
+y values: 2.55774e-186 1.34939e-218 1.18973e-123 7.42585e+307 4.00941e+218 1.54039e-121 1.13695e+175
+2.01580e-50 7.12104e+22 4.01131e+226 4.99211e-116 1.36086e+266 1.77497e+193 2.42745e+274
+5.21854e-66 1.70513e-270 3.42293e+215 5.34648e-130 3.05836e+70 4.82012e+19 2.43750e-218
+1.61363e+28 6.69067e-73 1.71825e+115 8.54483e-290 2.85435e-291 1.04438e-114 9.03540e-277
+1.38527e+66 1.55022e-57 9.63193e+162 1.20349e-11 7.03124e+109 4.00876e-46 5.26639e-156
+3.73076e-207 8.73515e+108 3.73938e+165 3.60610e+53 9.07399e-61 5.45162e-14 9.03603e-267
+2.10771e+35 1.79830e+165 1.12831e+145 1.13549e-37 1.62971e-146 3.30839e-28 2.06301e+146
+3.00369e+15 1.29213e-36 5.85443e+41 1.77336e+25 6.47892e+174 4.53317e-243 6.62215e-90
+
+input ends
+Exception Handled
+TRACE: Passed: BoostMLR_deepstate_test_Matrix_Sum_C_NA_test

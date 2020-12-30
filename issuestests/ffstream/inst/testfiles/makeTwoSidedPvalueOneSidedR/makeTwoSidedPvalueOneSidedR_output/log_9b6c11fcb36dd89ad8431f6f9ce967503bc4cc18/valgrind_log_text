@@ -1,0 +1,12 @@
+WARNING: No test specified, defaulting to first test defined (ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/9b6c11fcb36dd89ad8431f6f9ce967503bc4cc18.fail`
+TRACE: Running: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+p2_ values: -3.58916e+210 -0.0252802 -4.51871e+125 -4.27894e-306 -6.71942e+182 -6.62792e+116 -4.07282e-157 1.57787e-71 6.25053e+253 -8.5048e+74 2.24656e-109 2.91193e+288 2.54345e+243 2.87415e-86 6.49976e-40 -437108 -2.99892e+121 6.01965e+15 5.08147e+287 -1.2621e+130 -2.28427e-272 3.73798e-183 2.0161e-256 -1.42904e-78 6.43015e-307 nan 1.87759e+147 -1.0713e+85 6.36635e+305 -6.84632e+169 -1.04302e-74 4.47238e+64 -4.42087e+238 1.85808e+257 1.4308e-84 7.98047e+208 -8.9507e-222 2.23819e-29 -4.31918e+283 -1.81673e-75 9.03567e+101 -3.60361e-222 1.83962e+74 -2.45305e+269 -2.99329e+80 -7.90136e+08 -3.29921e-205 4.33441e-268 4.48194e-36 3.87219e+54 -3.72694e-59 1.44932e+247 -5.64848e-192 4.38801e-222 1.49868e-186 -1.57661e-196 5.73503e-87 1.03156e+36 9.95621e+210 -7.86699e-32 1.23174e+137 1.10464e+126 1.22399e-178 -5.897e+10 -5.44122e+90 3.48671e+159 -1.10779e-177 1.11649e-107 nan 2.17616e-266 -5.0948e+163 -2.77284e-18 4.62938e-294 7.59131e+175 1.28028e+147 2.33523e-89 2.10414e-150 5.24577e+126 3.58687e-83 -1.02698e-15 nan 7.25185e-292 -6.53253e-190 -3.48498e+233 1.11592e-158 -2.99329e+80 -2.25841e+133 3.0187e+89 -2.50536e+171 -2.53448e-72 1.46446e+294 7.46719e+281 0
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single value: [extent=93].
+ERROR: Failed: ffstream_deepstate_test_makeTwoSidedPvalueOneSidedR_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ffstream/inst/testfiles/makeTwoSidedPvalueOneSidedR/makeTwoSidedPvalueOneSidedR_output/9b6c11fcb36dd89ad8431f6f9ce967503bc4cc18.fail failed

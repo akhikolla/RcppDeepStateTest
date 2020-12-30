@@ -1,0 +1,28 @@
+WARNING: No test specified, defaulting to first test defined (amt_deepstate_test_simulate_udf_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/simulate_udf/simulate_udf_output/1e6f71818875df421f31e3574a0d9ccaa291323b.fail`
+TRACE: Running: amt_deepstate_test_simulate_udf_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/simulate_udf/simulate_udf_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+n_steps values: -290696465
+start values: 1443121772
+nc values: -666901366
+nr values: 72178866
+mk values: 2.54658e+291 2.07790e-140 3.81590e-271 2.96206e-284 0.00327894 5.70928e-129 1.72487e+277 3.50636e-203 1.55777e+95
+8.56459e-89 7.09711e-258 91.9728 3.72092e-61 8.49880e+173 4.10228e-184 2.75306e-278 6.86765e+131 2.26954e+170
+1.31300e+22 2.66833e-136 2.58914e-272 1.16885e-191 6.36238e-145 8.27309e+154 1.85201e+186 1.71001e+109 2.48064e-287
+1.61180e+38 2.96071e-131 2.36741e+60 1.00467e+64 2.69742e+239 8.97340e+21 8.10926e+240 3.56875e+171 3.04497e+46
+2.21718e+262 4.65062e+166 2.46271e+280 4.00572e-45 2.61707e-303 0.00220720 2.12797e-64 1.13368e+77 1.31415e-38
+3.60924e-127 1.25078e-157 1.91340e-300 9.00404e-238 1.65688e-232 1.12635e+133 3.60828e+130 0.0428776 3.15635e-47
+1.07649e-44 7.95690e+183 9.19311e+140 1.22690e-73 2.98224e-184 7.35057e+182 7.30509e-226 4879.75 4.70727e+238
+2.93647e-116 7.92555e-227 1.65904e+54 3.05243e+140 2.63138e-70 2.45734e-144 2.32499e+245 3.53786e-76 5.38181e+11
+8.63341e-286 7.82530e+55 4.68502e-72 6.46424e+232 1.15610e-274 6.06757e-172 2.79704e+200 1.50349e+190 1.59333e+288
+
+hk values: 3.01681e-181 2.19353e+25 2.24564e+167 2.17100e-260
+7.68098e+233 1.99767e-281 2.24382e-72 5.07959e-72
+
+input ends
+terminate called after throwing an instance of 'Rcpp::index_out_of_bounds'
+  what():  Index out of bounds: [index=1443121772; extent=2].
+ERROR: Failed: amt_deepstate_test_simulate_udf_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/amt/inst/testfiles/simulate_udf/simulate_udf_output/1e6f71818875df421f31e3574a0d9ccaa291323b.fail failed

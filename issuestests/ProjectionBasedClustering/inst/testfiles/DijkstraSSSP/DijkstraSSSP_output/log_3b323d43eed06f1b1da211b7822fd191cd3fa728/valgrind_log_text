@@ -1,0 +1,29 @@
+WARNING: No test specified, defaulting to first test defined (ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/3b323d43eed06f1b1da211b7822fd191cd3fa728.crash`
+TRACE: Running: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+Adj values: 1.89804e-107
+7.78488e+148
+7.69769e-148
+7.07709e+97
+5.07831e-212
+4.91916e+304
+
+Costs values: 1.00918e-230 1.84490e-267
+3.77497e+291 1.11642e-66
+7.42008e+267 7.09389e-182
+2.27802e-148 2.92611e+96
+9.75829e+143 4.91214e+221
+1.27253e-267 1.17450e+266
+
+source values: -2090750363
+input ends
+==1807295==  If you believe this happened as a result of a stack
+==1807295==  overflow in your program's main thread (unlikely but
+==1807295==  possible), you can try to increase the size of the
+==1807295==  main thread stack using the --main-stacksize= flag.
+==1807295==  The main thread stack size used in this run was 8388608.
+ERROR: Crashed: ProjectionBasedClustering_deepstate_test_DijkstraSSSP_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ProjectionBasedClustering/inst/testfiles/DijkstraSSSP/DijkstraSSSP_output/3b323d43eed06f1b1da211b7822fd191cd3fa728.crash crashed

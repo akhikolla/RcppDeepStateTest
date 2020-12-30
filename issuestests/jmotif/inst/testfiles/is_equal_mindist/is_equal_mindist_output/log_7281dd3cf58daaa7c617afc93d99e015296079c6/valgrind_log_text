@@ -1,0 +1,13 @@
+WARNING: No test specified, defaulting to first test defined (jmotif_deepstate_test_is_equal_mindist_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/is_equal_mindist/is_equal_mindist_output/7281dd3cf58daaa7c617afc93d99e015296079c6.fail`
+TRACE: Running: jmotif_deepstate_test_is_equal_mindist_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/is_equal_mindist/is_equal_mindist_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+a values: "qwfhupwctcfvbmlviteb" "nmivwgjhhemzrechjozm" "NA"
+b values: "lma" "NA" "seywccgsts" "vwjnwy" "ebre" "NA" "qxwcinivgaj" "vjccwowzqkzjjzmdqvzq" "pbltshalyprlomjnswhg" "NA" "hhzyqhhkqcnnqbbbuhrd" "brbojmzwlrousfpafwxk" "kdvteccizonux" "NA" "zmbimrnojqtrkqrwsaol" "ffu" "nrftziqilyfkmtnsbgpz" "NA" "ywf" "vjpbhkhpxumllioeto" "dvjpqcynlerzhgwjhnw" "NA" "NA" "hnxigcsuekliatxcqzir" "ombeejkkrs" "avieoj" "NA" "samyxwxxwjzzezsryttd" "NA" "NA" "ckcbs" "NA" "sfbkfhqfalfgadabrcfo" "dknfliyxicqkxlkgbdyl" "NA" "nryhfapwtbaucjhmnopz" "ijopbahhqluwdbimgzzb" "acublcwzwuetqdmzvyjx" "NA" "NA" "gvcdnzcgjtvgsdz" "i" "pvnvdpksqpdsdisnlpqe" "zwvyxxqcikvqrovrzpon" "nnhyyccitmvmqdlxtavw" "NA" "eejajlljxjzrqdm" "qnuevzgvnwcclqbvwvqk" "omzetwubatiefwy" "qpdlrseq" "tjkgdslurumjutzidant" "rutkvc" "qfvukwxesakypwucchog" "kzowkgcboenkduykcjxb" "wezljlnfvdwlrwkmrbxx" "nqjfkhckiimzkiuywzep" "NA" "ly" "rrsowzncgcpreigonerv" "acdwffpehixlumsxruvs" "dglw" "gjipzuliyarpoduzjjki" "dovcchtjbxfqyjmrcbva" "mykbvc" "odavmbbuhquxnxqcmqsm" "htzlxfnhewwadivzvvuz" "dpvdb" "ecwdvcwucxnyhexockru" "NA" "NA" "afgcaursqqnpslxqizlx" "ewkpetgnxfomupxdorey" "iacrxvlnnuxdncuqgnds"
+input ends
+terminate called after throwing an instance of 'Rcpp::not_compatible'
+  what():  Expecting a single string value: [type=character; extent=3].
+ERROR: Failed: jmotif_deepstate_test_is_equal_mindist_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/jmotif/inst/testfiles/is_equal_mindist/is_equal_mindist_output/7281dd3cf58daaa7c617afc93d99e015296079c6.fail failed

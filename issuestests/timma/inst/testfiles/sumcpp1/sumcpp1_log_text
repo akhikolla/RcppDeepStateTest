@@ -1,0 +1,43 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606676982
+WARNING: No test specified, defaulting to first test defined (timma_deepstate_test_sumcpp1_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 1.00246e-240 1.37337e-159 8.84911e+291 3.79503e-271 -5.84326e-80 3.05678e-279 -2.26868e+291 -1.38119e+221 nan -5.50858e+299 2.59262e-299 1.81356e+300 1.38723e+46 -9.60963e-307 -4.34989e-43 -3.9414e-12 -1.29926e-88 8.33618e-276 -1.83879e-76 -4.1497e-243 1.40967e+245 1.55085e-89 1.63448e-71 -9.36496e+126 -1.05037e-106 1.35191e-114 -8.01597e+276 1.45516e+256 -4.94823e-59 -1.51911e+164 -2.84735e-179 -2.55451e+133 8.21032e-281 -49.8179 -2.10419e+250 -4.9292e+166 nan 8.72059e-45 9.21903e-284 -inf -1.28607e+166 9.68593e-47 1.94658e+299 -1.08018e+98 -inf 7.1535e-12 -6.22361e-255 0
+x values: -567335591
+y values: 1351373534
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: timma_deepstate_test_sumcpp1_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp1/sumcpp1_output/7849e18a878babcf8472e4244c2f51fc93574e2d.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 2.64448e-70 -inf -6.46476e-214 -4.15916e-99 6.76533e-287 -2.00162e+181 -1.60246e-26 2.42509e-36 -1.53954e-253 1.04431e-134 243460 2.23704e-158 -1.67213e-298 nan 7.39754e-80 -3.49165e-202 -2.78051e+262 7.14975e-152 1.42492e+252 -6.96077e+218 -3.46432e+206 -3.95662e+89 1.42489e+48 nan -3.09945e+186 inf -1.36653e-20 3.32937e+41 -5.15964e+92 1.30429e-211 -3.2961e+292 2.77228e-15 7.68832e-60 2.85958e+234 -1.36992e+239 5.57214e+272 -1.02047e+295 -5.85514e-36 -5.32648e+216 8.01943e+160 5.15289e-79 -8.23341e-84 -7.49305e+81 -3.4026e+185 -2.00291e-22 -8.08289e+21 -6.58552e+106 7.40227e+273 8.04048e-163 -0.00800774 -3.04938e+169 -1.40745e-201 3.73871e-252 -7.18935e-186 -9.92279e-119 -1.48453e+10 -1.69054e+283 1.29214e+137 1.28399e+126 -4.63471e+34 2.6229e+128 1.81616e+67 -6.43881e-27 7.8002e-71 -1.60088e+66 3.69162e-12 -2.02584e-140 -1.31383e+287 3.18404e+276 -1.55923e+248 -7.86482e+204 -3.37694e+40 0
+x values: 1286779831
+y values: -639384615
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: timma_deepstate_test_sumcpp1_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp1/sumcpp1_output/f48d5198203fed5d03febf2d96704a94e2143ac6.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+tau values: 2.94851e+63 -1.56388e-147 -4.38795e-39 1.46128e-136 -1.33425e-44 -1.20185e+272 -1.26918e-306 inf -1.16157e-22 -1.77745e-296 3.45537 3.83762e+124 3.53159e+187 -1.16157e-22 5.26169e+281 1.59375e+220 1.03032e+99 -6.30986e-303 -9.05338e-129 7.71068e-181 -3.07629e+64 3.99311e+253 1.12427e+254 2.29286e+181 -5.93588e-161 -3.23222e+261 1.7334e-292 -1.93114e+226 -2.10624e-188 1.05072e+288 -1.4817e-51 -1.65269e+109 -7.71294e-193 4.83842e-110 4.39503e-280 -6.40736e+12 -5.55315e-14 5.13938e+259 4.00004e-199 1.48424e+274 1.21276e-299 1.31512e+279 -3.37456e+271 -1.65069e+56 -3.23565e-66 -3.54755e-300 5.28206e+32 -5.16768e-41 4.16636e+290 -3.55163e+267 nan -1.40014e-11 -3.00141e-308 -5.05803e+165 -6.42101e-06 8.89068e-122 nan 2.35959e+72 0
+x values: 1236653322
+y values: -1166219556
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: timma_deepstate_test_sumcpp1_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/timma/inst/testfiles/sumcpp1/sumcpp1_output/14d8c623923184c05c9603b0db60a5fbac36359c.fail`
+INFO: Done fuzzing! Ran 3 tests (1 tests/second) with 3 failed/0 passed/0 abandoned tests

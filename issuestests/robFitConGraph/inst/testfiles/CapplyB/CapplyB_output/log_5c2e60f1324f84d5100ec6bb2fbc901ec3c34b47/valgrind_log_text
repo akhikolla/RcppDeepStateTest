@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (robFitConGraph_deepstate_test_CapplyB_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robFitConGraph/inst/testfiles/CapplyB/CapplyB_output/5c2e60f1324f84d5100ec6bb2fbc901ec3c34b47.pass`
+TRACE: Running: robFitConGraph_deepstate_test_CapplyB_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/robFitConGraph/inst/testfiles/CapplyB/CapplyB_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+us values: -1.79919e+137 nan inf 7.58235e-180 3.63671e+138 -3.65271e-270 -3.68327e+57 -1.03023e-107 5.62854e+31 -7.00979e+143 3.50635e-189 1.18425e-148 1.01447e-160 3.2435e+61 3.05826e+221 -inf -1.5848e+130 -7.65284e+13 1.86659e+282 -1.86217e-118 -1.14751e+87 2.67507e+116 -4.7418e-20 1.34289e+149 -1.67174e-106 -5.02692e-26 inf -1.94378e-295 8.97128e-243 -1.59734e+73 -4.07667e-193 -5.84984e+91 4.16324e-54 -2.25394e-261 0
+X values: 3.26554e+164 6.45965e-251 9.17234e+06
+8.59565e+61 5.09997e-177 2.05158e+166
+8.12753e+296 1.90714e+287 8.83440e+55
+5.24667e-145 1.39593e+288 1.72968e-277
+1.94075e+263 6.42218e+127 1.03808e+104
+1.36736e-157 2.02725e-91 2.55022e-213
+6.32672e-159 1.40803e-38 9.45126e+206
+1.32238e+164 1.68113e+78 1.71616e+37
+2.96124e-137 5.20395e+151 2.92854e+156
+
+mu values: 1.31742e-172 -1.10521e+159 1.08058e-07 9.27516e-224 -2.33375e-279 -4.10199e-287 1.22536e-48 -2.26753e-169 -2.76104e-56 1.14379e+285 nan 1.87012e+132 1.29876e-40 -9.51086e+134 -2.32189e+60 inf -15985.4 -2.54176e+42 inf 6.00323e-254 3.05483e+85 3.59412e+233 -1.37272e+78 -3.54128e+173 2.98164e-148 -2.32921e-299 -1.0802e-129 inf -6.41951e-52 0
+input ends
+TRACE: Passed: robFitConGraph_deepstate_test_CapplyB_test

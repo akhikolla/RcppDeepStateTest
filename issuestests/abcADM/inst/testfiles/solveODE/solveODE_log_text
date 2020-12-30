@@ -1,0 +1,65 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606679844
+WARNING: No test specified, defaulting to first test defined (abcADM_deepstate_test_solveODE_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+inputTheta values: 1.96382e+87 1.37064e+35 1.85511e-282 1.04842e-36 6.76203e+163
+1.58270e+17 5.20023e+281 2.48776e-274 4.33166e-44 2.30604e-190
+
+phi values: -6.46413e+155
+verbose values: 744453683
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: abcADM_deepstate_test_solveODE_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+inputTheta values: 7.11207e-82
+4.39437e+120
+1.70073e-168
+9.13619e+108
+7.06214e+190
+
+phi values: -2.87482e-272
+verbose values: 14941990
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: abcADM_deepstate_test_solveODE_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+inputTheta values: 1.70796e-78
+7.46099e-24
+3.13503e+163
+2.58526e+240
+1.23976e+266
+
+phi values: -2.81554e-80
+verbose values: -738204197
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: abcADM_deepstate_test_solveODE_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+inputTheta values: 1.08055e+36 2.65469e-24 1.71669e+38 4.97560e-253 3.75032e+169 3.83172e-110 1.05973e-89
+
+phi values: -1.3809e+148
+verbose values: 1787873892
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: abcADM_deepstate_test_solveODE_test
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+inputTheta values: 2.08722e+223 1.53049e-45 2.74257e-262 2.72177e+177 4.49126e-156 8.82168e+145 0.946429 1.26090e+14
+1.99165e+281 1.01782e-12 160191. 5.51502e+72 6.10647e-193 1.70475e+41 3.56907e+213 1.34561e+153
+8.96770e-251 4.48604e-176 5.43405e-64 1.58561e+203 3.00477e+301 0.0251297 2.34644e+157 7.84165e+307
+
+phi values: -4.88715e+181
+verbose values: -1308917094
+input ends
+ERROR: Variable precision printing not supported.
+ERROR: Abandoned: abcADM_deepstate_test_solveODE_test
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 0 failed/0 passed/5 abandoned tests

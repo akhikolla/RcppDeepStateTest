@@ -1,0 +1,28 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606679830
+WARNING: No test specified, defaulting to first test defined (abcADM_deepstate_test_modifyTimeStep_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+newdt values: -2.30603e-25
+verbose values: 67911965
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+newdt values: -2.32896e+134
+verbose values: -316070286
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+newdt values: -2.80619e-78
+verbose values: -1925251531
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+newdt values: 7.48811e+63
+verbose values: -612051706
+input ends
+INFO: Done fuzzing! Ran 4 tests (2 tests/second) with 0 failed/4 passed/0 abandoned tests

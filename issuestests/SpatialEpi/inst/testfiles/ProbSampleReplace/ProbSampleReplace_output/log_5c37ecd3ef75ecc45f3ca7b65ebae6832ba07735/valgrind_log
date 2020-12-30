@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./ProbSampleReplace_DeepState_TestHarness --input_test_file /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_output/5c37ecd3ef75ecc45f3ca7b65ebae6832ba07735.crash</line>
+</preamble>
+
+<pid>1806744</pid>
+<ppid>1806741</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_output/log_5c37ecd3ef75ecc45f3ca7b65ebae6832ba07735/valgrind_log</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=yes</arg>
+  </vargv>
+  <argv>
+    <exe>./ProbSampleReplace_DeepState_TestHarness</exe>
+    <arg>--input_test_file</arg>
+    <arg>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_output/5c37ecd3ef75ecc45f3ca7b65ebae6832ba07735.crash</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.115 </time>
+</status>
+
+<error>
+  <unique>0x0</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x415227</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Mat&lt;double&gt;::init_cold()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Mat_meat.hpp</file>
+      <line>214</line>
+    </frame>
+    <frame>
+      <ip>0x438DBA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Mat&lt;double&gt;::Mat(arma::arma_vec_indicator const&amp;, unsigned int, unsigned int, unsigned short)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Mat_meat.hpp</file>
+      <line>168</line>
+    </frame>
+    <frame>
+      <ip>0x4396A6</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Col&lt;double&gt;::Col(arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Col_meat.hpp</file>
+      <line>35</line>
+    </frame>
+    <frame>
+      <ip>0x439229</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample_main&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>97</line>
+    </frame>
+    <frame>
+      <ip>0x43031A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>57</line>
+    </frame>
+    <frame>
+      <ip>0x429D69</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>ProbSampleReplace(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi</dir>
+      <file>src/bayes_cluster.cpp</file>
+      <line>135</line>
+    </frame>
+    <frame>
+      <ip>0x409CCA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x409AA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4195F8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x419899</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x419974</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407805</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x415236</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Mat&lt;double&gt;::init_cold()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Mat_meat.hpp</file>
+      <line>216</line>
+    </frame>
+    <frame>
+      <ip>0x438DBA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Mat&lt;double&gt;::Mat(arma::arma_vec_indicator const&amp;, unsigned int, unsigned int, unsigned short)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Mat_meat.hpp</file>
+      <line>168</line>
+    </frame>
+    <frame>
+      <ip>0x4396A6</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Col&lt;double&gt;::Col(arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Col_meat.hpp</file>
+      <line>35</line>
+    </frame>
+    <frame>
+      <ip>0x439229</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample_main&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>97</line>
+    </frame>
+    <frame>
+      <ip>0x43031A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>57</line>
+    </frame>
+    <frame>
+      <ip>0x429D69</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>ProbSampleReplace(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi</dir>
+      <file>src/bayes_cluster.cpp</file>
+      <line>135</line>
+    </frame>
+    <frame>
+      <ip>0x409CCA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x409AA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4195F8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x419899</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x419974</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407805</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x41524A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Mat&lt;double&gt;::init_cold()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Mat_meat.hpp</file>
+      <line>218</line>
+    </frame>
+    <frame>
+      <ip>0x438DBA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Mat&lt;double&gt;::Mat(arma::arma_vec_indicator const&amp;, unsigned int, unsigned int, unsigned short)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Mat_meat.hpp</file>
+      <line>168</line>
+    </frame>
+    <frame>
+      <ip>0x4396A6</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Col&lt;double&gt;::Col(arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Col_meat.hpp</file>
+      <line>35</line>
+    </frame>
+    <frame>
+      <ip>0x439229</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample_main&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>97</line>
+    </frame>
+    <frame>
+      <ip>0x43031A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>57</line>
+    </frame>
+    <frame>
+      <ip>0x429D69</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>ProbSampleReplace(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi</dir>
+      <file>src/bayes_cluster.cpp</file>
+      <line>135</line>
+    </frame>
+    <frame>
+      <ip>0x409CCA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x409AA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4195F8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x419899</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x419974</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407805</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x3</unique>
+  <tid>1</tid>
+  <kind>InvalidWrite</kind>
+  <what>Invalid write of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4842A83</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>memmove</fn>
+    </frame>
+    <frame>
+      <ip>0x43972B</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>copy&lt;double&gt;</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/arrayops_meat.hpp</file>
+      <line>36</line>
+    </frame>
+    <frame>
+      <ip>0x43972B</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Col&lt;double&gt;::Col(arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Col_meat.hpp</file>
+      <line>39</line>
+    </frame>
+    <frame>
+      <ip>0x439229</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample_main&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>97</line>
+    </frame>
+    <frame>
+      <ip>0x43031A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>57</line>
+    </frame>
+    <frame>
+      <ip>0x429D69</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>ProbSampleReplace(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi</dir>
+      <file>src/bayes_cluster.cpp</file>
+      <line>135</line>
+    </frame>
+    <frame>
+      <ip>0x409CCA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x409AA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4195F8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x419899</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x419974</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407805</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x0 is not stack'd, malloc'd or (recently) free'd</auxwhat>
+</error>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>11</signo>
+  <signame>SIGSEGV</signame>
+  <sicode>1</sicode>
+  <event>Access not within mapped region</event>
+  <siaddr>0x0</siaddr>
+  <stack>
+    <frame>
+      <ip>0x4842A83</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>memmove</fn>
+    </frame>
+    <frame>
+      <ip>0x43972B</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>copy&lt;double&gt;</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/arrayops_meat.hpp</file>
+      <line>36</line>
+    </frame>
+    <frame>
+      <ip>0x43972B</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>arma::Col&lt;double&gt;::Col(arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/armadillo_bits/Col_meat.hpp</file>
+      <line>39</line>
+    </frame>
+    <frame>
+      <ip>0x439229</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample_main&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, arma::Col&lt;double&gt; const&amp;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>97</line>
+    </frame>
+    <frame>
+      <ip>0x43031A</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; Rcpp::RcppArmadillo::sample&lt;Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; &gt;(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt; const&amp;, int, bool, Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6</dir>
+      <file>RcppArmadillo/include/RcppArmadilloExtensions/sample.h</file>
+      <line>57</line>
+    </frame>
+    <frame>
+      <ip>0x429D69</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>ProbSampleReplace(Rcpp::Vector&lt;14, Rcpp::PreserveStorage&gt;)</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi</dir>
+      <file>src/bayes_cluster.cpp</file>
+      <line>135</line>
+    </frame>
+    <frame>
+      <ip>0x409CCA</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Test_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x409AA8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_Run_SpatialEpi_deepstate_test_ProbSampleReplace_test()</fn>
+      <dir>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace</dir>
+      <file>ProbSampleReplace_DeepState_TestHarness.cpp</file>
+      <line>10</line>
+    </frame>
+    <frame>
+      <ip>0x4195F8</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunTest.isra.0</fn>
+    </frame>
+    <frame>
+      <ip>0x419899</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_ForkAndRunTest</fn>
+    </frame>
+    <frame>
+      <ip>0x419974</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>DeepState_RunSavedTestCase</fn>
+    </frame>
+    <frame>
+      <ip>0x407805</ip>
+      <obj>/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/ProbSampleReplace/ProbSampleReplace_DeepState_TestHarness</obj>
+      <fn>main</fn>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:11.450 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>1</count>
+    <unique>0x3</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x2</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x1</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x0</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:12.322 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

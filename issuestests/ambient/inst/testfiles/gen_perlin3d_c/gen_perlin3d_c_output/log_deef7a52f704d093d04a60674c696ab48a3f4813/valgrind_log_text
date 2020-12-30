@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (ambient_deepstate_test_gen_perlin3d_c_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_perlin3d_c/gen_perlin3d_c_output/deef7a52f704d093d04a60674c696ab48a3f4813.pass`
+TRACE: Running: ambient_deepstate_test_gen_perlin3d_c_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ambient/inst/testfiles/gen_perlin3d_c/gen_perlin3d_c_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: -2.22185e+202 -3.27112e-198 -2.33855e+146 1.27972e+183 -2.2815e-47 4.92564e-96 -7.07181e+264 -8.46274e-208 2.00628e+299 -1.89446e+244 -7.27294e-190 -5.57938e+49 2.93461e-267 -1.03222e+215 -1.58072e-98 -8.6883e-166 1.59277e+237 7.77444e+210 4.03067e-297 1.4331e-109 3.70922e+76 -4.80136e+26 -4.45786e+148 -5.26028e-226 1.80913e-98 -2.49988e-29 3.15287e-282 -5.1868e+273 -inf 2.585e+72 -3.85627e+06 5.21995e-133 4.39865e+164 -1.48661e+104 1.04337e+191 -inf 0.000377458 7.90832e+303 4.62861e+52 3.67213e+21 3.48823e-275 -inf -1.46212e+88 -3.0783e-113 1.64464e-107 -5.05534e-148 1.66557e+248 -1.20847e+226 2.07002e+73 4.90175e-235 inf
+y values: 1.71819e+171 -2.30735e-186 -6.25489e-89 -inf 5.45802e+185 4.50889e+52 1.16021e+299 inf nan -1.47933e+144 nan 3.8828e-294 -1.26436e-225 4.72094e+167 -7.06637e+194 nan
+z values: inf -2.45714e-150 6.54409e-220 3.98201e+151 -2.31804e+74 -1.17728e-197 1.98871e-145 -8.02517e+07 nan -1.6519e+207 1.97713e-189 inf -2.31804e+74
+freq values: -1.30161e-32
+seed values: 1529700720
+interp values: -887030556
+input ends
+TRACE: Passed: ambient_deepstate_test_gen_perlin3d_c_test

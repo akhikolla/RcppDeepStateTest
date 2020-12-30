@@ -1,0 +1,14 @@
+WARNING: No test specified, defaulting to first test defined (PP_deepstate_test_r_huber_4pl_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/r_huber_4pl/r_huber_4pl_output/08cae0b353d82adfe3d50b587daa7497c61a6cec.pass`
+TRACE: Running: PP_deepstate_test_r_huber_4pl_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/PP/inst/testfiles/r_huber_4pl/r_huber_4pl_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+delta values: 3.98749e+152 1.30851e-237 -1.59864e-177 4.89437e+91 -1.98712e+46 2.98194e-41 1.80958e+104 -3.63569e+243 3.33125e+266 1.31852e+259 1.08962e-60 nan 2.59408e-98 nan -2.55716e-235 3.48747e-141 nan 3.10568e-53 9.25008e-123 1.55019e+307 -2.37333e-96 -1.20218e+194 -1.10058e+302 2.13567e-16 nan -4.28663e-124 0
+alpha values: 2.70167e+62
+theta values: -3.37915e-92
+la values: 1.32692e-214
+ua values: 2.5767e+175
+H values: -2.75229e-242
+input ends
+TRACE: Passed: PP_deepstate_test_r_huber_4pl_test

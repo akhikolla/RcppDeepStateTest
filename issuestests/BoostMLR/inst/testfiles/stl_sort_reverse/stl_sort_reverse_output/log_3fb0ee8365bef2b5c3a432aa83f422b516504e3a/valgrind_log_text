@@ -1,0 +1,9 @@
+WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_stl_sort_reverse_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/stl_sort_reverse/stl_sort_reverse_output/3fb0ee8365bef2b5c3a432aa83f422b516504e3a.pass`
+TRACE: Running: BoostMLR_deepstate_test_stl_sort_reverse_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/stl_sort_reverse/stl_sort_reverse_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: nan 3.77177e-240 -5.06303e-09 -9.46322e-296 3.11302e-11 1.92547e-91 -6.02708e+246 -2.19518e+206 -1.05896e+41 2.49806e-304 8.51856e+68 8.17837e+120 -7.42095e-66 -8.30836e+191 nan 3.15973e-219 7.66377e+281 -3.98922e+21 -7.54018e+263 -1.03136e+241 4.354e+230 4.33954e-299 1.44049e+177 -2.03026e-291 9.00311e+302 2.97105e-41 -4.15936e-215 -1.07028e+182 -1.17377e+299 3.05606e+109 -6.80547e+151 -1.47902e-263 1.46076e+69 1.22175e+191 7.24552e+15 2.93988e-109 5.52891e+167 -2.81853e+283 1.57464e-42 2.95938e-144 -5.7592e+182 7.25182e-281 -1.14251e-288 -3.26384e-128 1.37584e+12 4.354e+230 -2.35896e+169 7.65326e+219 9.76432e+59 1.85473e-68 -inf 0
+input ends
+TRACE: Passed: BoostMLR_deepstate_test_stl_sort_reverse_test

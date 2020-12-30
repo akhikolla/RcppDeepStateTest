@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (windfarmGA_deepstate_test_energy_calc_CPP_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/windfarmGA/inst/testfiles/energy_calc_CPP/energy_calc_CPP_output/29e4013deb6368bd0f60e2d5c5cf2b2541952c21.pass`
+TRACE: Running: windfarmGA_deepstate_test_energy_calc_CPP_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/windfarmGA/inst/testfiles/energy_calc_CPP/energy_calc_CPP_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+wind_speed values: 4.86382e-58 -inf 3.29636e+235 -2.34788e+147 5.26636e+115 3.64623e+265 3.08843e+93 -4.4325e+157 -1.68907e+72 -1.92068e+147 3.59596e-280 8.51893e-265 -3.6814e-180 2.34669e-181 -9.92359e-17 5.51318e+158 -6.36582e-204 nan 1.32544e-251 -2.86682e-58 -1.24603e+236 nan 1.49321e+109 -1.04152e-198 3.0025e+06 1.74926e-211 -1.22641e-238 -4.75242e+17 nan -2.70217e-206 -1.89669e+124 -1.20634e-30 -1.67907e-159 0
+rotor_radius values: -2.00716e-95 2.32699e-297 nan -1.53675e+39 1.1855e+110 4.72615e-50 -1.267e-160 nan 2.29501e+263 -3.71909e-176 -3.85594e+177 1.92241e+281 3.04749e+192 nan 9.58965e+221 nan
+air_rh values: -2.55619e+73 -1.25736e+197 -6.59017e-253 -1.07288e-52 -5.07421e+60 2.72647e-208 5.20074e-136 -3.92742e+304 -1.21846e-46 6.83723e-209 -2.84535e-198 -4.22452e-68 -7.78994e+210 2.28942e+63 2.42127e-305 3.13572e+251 nan -inf 7.80683e-116 7.77074e+244 -1.73818e+227 2.32836e-167 3.17935e-55 4.04874e-75 2.44314e-203 -4.18852e+127 -2.60369e+213 -1.4627e-186 1.78092e-242 3.52295e+277 -8.72461e+279 8.32756e+140 -2.03328e-63 6.90403e+259 -3.94419e-84 -2.1907e-195 inf 1.08506e-47 1.02812e-183 -3.26965e+159 -2.37172e-284 -2.44683e-52 -1.36534e+23 2.85005e-228 -2.00275e-28 4.6166e-203 -4.07279e+218 -2.89875e-153 nan -2.57746e+110 8.71045e+279 -2.40764e-247 1.12517e+173 5.91679e-137 6.7528e-289 -8.90876e-189 -inf
+input ends
+TRACE: Passed: windfarmGA_deepstate_test_energy_calc_CPP_test

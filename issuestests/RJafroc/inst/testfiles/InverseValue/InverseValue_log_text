@@ -1,0 +1,67 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606706779
+WARNING: No test specified, defaulting to first test defined (RJafroc_deepstate_test_InverseValue_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: 2.88228e+226
+valueLower values: -1.44053e+65
+valueUpper values: 2.7817e-277
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: -8.60662e+164
+valueLower values: 2.09875e+52
+valueUpper values: 3.08782e+181
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: -4.30758e+294
+valueLower values: 3.54227e-198
+valueUpper values: 1.56551e-35
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: -4.15563e+71
+valueLower values: -2.91194e-227
+valueUpper values: -6.3685e-180
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: 7.23872e-253
+valueLower values: 7.5101e+157
+valueUpper values: 8.7454e-249
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: 6.63772e-73
+valueLower values: -3.30849e-15
+valueUpper values: 1.19737e-57
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: 3.99316e+63
+valueLower values: 2.19606e-256
+valueUpper values: 1.78062e-249
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: 1.09346e-231
+valueLower values: -2.56816e+157
+valueUpper values: 6.52769e+62
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+valueFwd values: -3.73096e+169
+valueLower values: 1.23257e+297
+valueUpper values: -1.05175e-47
+input ends
+INFO: Done fuzzing! Ran 9 tests (4 tests/second) with 0 failed/9 passed/0 abandoned tests

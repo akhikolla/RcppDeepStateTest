@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (factorcpt_deepstate_test_func_input_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/factorcpt/inst/testfiles/func_input/func_input_output/babeb3ffb2d9d686557fa32c28af5ab046ef9ef5.pass`
+TRACE: Running: factorcpt_deepstate_test_func_input_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/factorcpt/inst/testfiles/func_input/func_input_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+coef values: 3.85911e-106 1.39136e+308 1.67013e+56 1.34033e-297 1.30173e-120 1.06319e+212 1.40235e-143 1.78557e+173
+4.90207e+98 3.14020e-81 2.22723e+299 7.20678e-252 7.87497e+191 9.55919e+112 9.59858e-55 4.12327e+202
+1.54219e-257 4.75742e+172 3.45624e+298 3.25783e+149 5.29614e+41 5.26804e-113 4.47596e-261 1.72118e+51
+9.41843e-07 6.68112e+99 7.39683e+114 3.03483e+121 3.63986e+120 1.13980e+126 8.70399e-134 1.39878e-211
+
+sgn values: 7.52230e-27 2.74149e-06 3.65873e-264 2.01215e-230 1.33951e+212
+7.28463e+167 7.68054e+241 1.71784e+42 1.59374e+18 3.41599e+181
+4.76668e+160 1.64507e-264 1.82259e+09 0.00270861 2.50687e-113
+3.62260e+29 2.19739e+299 3.38084e-123 3.94819e+273 7.42813e+86
+3.31109e+279 3.93062e+177 3.46304e+18 1.26369e+179 1.98888e+147
+3.04540e+280 1.74909e+140 2.56008e+127 1.70391e+275 5.27611e+114
+2.36208e-49 1.16699e+197 1.83600e-73 1.30352e-186 5.03310e+177
+5.77913e+287 4.05752e-193 1.80694e-133 1.11882e-78 2.28037e-63
+2.96264e+93 5.12339e-303 1.06552e+132 1.16308e+201 2.24273e+251
+
+input ends
+TRACE: Passed: factorcpt_deepstate_test_func_input_test

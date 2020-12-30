@@ -1,0 +1,20 @@
+WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_output/143835a1a4c3e1805eccafa7e0ff6fc73ff64a7e.fail`
+TRACE: Running: BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+k1 values: 1.5669
+k2 values: -6.03296e-52
+k3 values: -3.53116e+190
+uni_rand values:  -3.0051e+229  4.4649e-104 -6.3215e-170  2.9240e-200 -4.2248e-232  1.2918e-164  -1.8611e-01
+  6.0235e-308  6.5735e+268 -1.2255e-289  3.3421e-206  5.3003e-199 -3.1490e-155   3.0004e-46
+
+ncores values: 1596570920
+input ends
+
+error: Mat::operator(): index out of bounds
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::operator(): index out of bounds
+ERROR: Failed: BAMBI_deepstate_test_vmcos_var_cor_singlepar_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/vmcos_var_cor_singlepar_cpp/vmcos_var_cor_singlepar_cpp_output/143835a1a4c3e1805eccafa7e0ff6fc73ff64a7e.fail failed

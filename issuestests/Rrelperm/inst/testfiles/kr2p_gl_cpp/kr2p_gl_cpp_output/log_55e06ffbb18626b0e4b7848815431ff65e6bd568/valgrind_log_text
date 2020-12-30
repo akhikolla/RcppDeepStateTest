@@ -1,0 +1,23 @@
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr2p_gl_cpp_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_output/55e06ffbb18626b0e4b7848815431ff65e6bd568.fail`
+TRACE: Running: Rrelperm_deepstate_test_kr2p_gl_cpp_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -2.2799e+73
+SOIRG values: 1.04391e-52
+SORG values: 3.14054e-170
+SGCON values: -1.16032e+284
+SGCRIT values: 1.46548e-282
+KRGCL values: 3.82675e+272
+KROGCG values: -7.13783e-73
+NG values: -9.63077e+250
+NOG values: 4.51601e+120
+NP values: -612718150
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr2p_gl_cpp_test
+ERROR: Test case /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr2p_gl_cpp/kr2p_gl_cpp_output/55e06ffbb18626b0e4b7848815431ff65e6bd568.fail failed

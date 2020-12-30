@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (rankdist_deepstate_test_Wtau_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/Wtau/Wtau_output/1386fb045f1d2bf6c2233c087c7c77d8b5ea0fe6.pass`
+TRACE: Running: rankdist_deepstate_test_Wtau_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rankdist/inst/testfiles/Wtau/Wtau_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+obs values: 3.62620e+31 1.19107e-263 1.16999e+201 2.64824e+29 4.72728e-281 1.26533e+105 4.68555e-276 1.61724e-154
+1.30004e+251 7.71797e-232 1.40764e-293 2.63658e+167 1.75978e+204 1.78430e+243 6.30853e+26 2.37555e+178
+8.81389e+57 9.82277e-172 2.20047e+285 2.72285e+278 1.00466e-96 6.25476e+140 1.00713e-268 8.85226e+253
+6.37740e+157 3.31482e+148 8.34695e-266 7.09379e+135 5.22945e-101 7.57479e+238 1.00387e+06 5.17919e+31
+2.10577e-95 1.31013e-295 1.25772e-198 6.71185e-220 1.86643e+102 3.29645e+294 3.44092e-190 6.11446e-66
+1.09774e-46 5.38967e-79 5.82256e+172 4.37627e-302 3.73003e+100 2.16455e-131 1.74917e-90 1.49994e-132
+5.80862e-21 7.46331e-130 5.57819e+232 4.46738e+113 4.15080e-240 7.18606e-303 6.36143e+130 1.76650e-115
+
+pi0 values: 2.72314e-298 -1.81945e+290 -4.2816e+183 1.88333e+115 2.10797e-180 3.69329e-191 2.30603e-285 -1.09874e-200 7.68355e-120 inf 1.28808e-27 -2.30944e+197 1.51388e+14 1.13107e+290 -9.06841e+270 -1.36237e-78 3.20189e+12 1.08524e-252 -inf -inf 4.22404e-271 -1.46711e+247 3.1115e-111 8.40099e+117 -9.68386e+57 1.0049e-123 2.1517e+280 nan -4.74005e+95 -3.32647e-214 0
+input ends
+TRACE: Passed: rankdist_deepstate_test_Wtau_test

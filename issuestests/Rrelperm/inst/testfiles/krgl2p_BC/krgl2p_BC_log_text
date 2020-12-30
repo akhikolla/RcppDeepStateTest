@@ -1,0 +1,54 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745775
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_krgl2p_BC_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SG values: -1.47704e+281
+SWCON values: -3.05887e+240
+SORG values: 1.95786e-204
+SGCON values: -2.55507e+190
+KROGCG values: 15752
+NOG values: -2.77303e+127
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SG values: -4.40474e+54
+SWCON values: 1.00061e-122
+SORG values: -nan
+SGCON values: -9.93055e+207
+KROGCG values: 1.93429e-263
+NOG values: 2.02226e+43
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SG values: -1.27386e+64
+SWCON values: -2.30464e+199
+SORG values: 7.7704e+147
+SGCON values: 2.81538e+26
+KROGCG values: -1.04639e+33
+NOG values: 2.25572e-59
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SG values: -6.85847e+183
+SWCON values: 8.0433e+08
+SORG values: 6.51883e-61
+SGCON values: 8.44934e+130
+KROGCG values: 4.29436e+276
+NOG values: -3.02623e+53
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SG values: -5.48192e-65
+SWCON values: 7.37384e+24
+SORG values: -3.61934e-208
+SGCON values: 9.59758e+210
+KROGCG values: -5.5937e-09
+NOG values: -3.44547e+104
+input ends
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 0 failed/5 passed/0 abandoned tests

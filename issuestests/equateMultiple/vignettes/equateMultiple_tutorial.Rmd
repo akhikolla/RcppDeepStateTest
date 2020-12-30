@@ -1,0 +1,153 @@
+---
+title: "The R Package equateMultiple: A Tutorial"
+output: 
+  rmarkdown::html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: spacelab
+    highlight: pygments
+vignette: >
+  %\VignetteIndexEntry{The R Package equateMultiple: A Tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Functionalities
+
+The equateMultiple package computes:
+
+* __Equating coefficients__ between __multiple forms__.
+* __Synthetic item parameters__ (sort of mean of the item parameter estimates from different forms).
+* __Standard errors__ of the equating coefficients and the synthetic item parameters.
+
+# Data preparation
+
+Data preparation follows the same steps of the equateIRT package.
+
+Load the package equateMultiple and the data
+
+```{r}
+library("equateMultiple")
+data("data2pl", package = "equateIRT")
+```
+
+Estimate a two parameter logistic model for 5 data sets with the R package ltm
+
+```{r, message=FALSE}
+library("ltm")
+m1 <- ltm(data2pl[[1]] ~ z1)
+m2 <- ltm(data2pl[[2]] ~ z1)
+m3 <- ltm(data2pl[[3]] ~ z1)
+m4 <- ltm(data2pl[[4]] ~ z1)
+m5 <- ltm(data2pl[[5]] ~ z1)
+```
+
+Extract the item parameter estimates and the covariance matrices
+
+```{r}
+estm1 <- import.ltm(m1, display = FALSE)
+estm2 <- import.ltm(m2, display = FALSE)
+estm3 <- import.ltm(m3, display = FALSE)
+estm4 <- import.ltm(m4, display = FALSE)
+estm5 <- import.ltm(m5, display = FALSE)
+estm1$coef[1:3, ]
+estm1$var[1:3, 1:3]
+```
+
+Create a list of coefficients and covariance matrices
+
+```{r}
+estc <- list(estm1$coef, estm2$coef, estm3$coef, estm4$coef, estm5$coef)
+estv <- list(estm1$var, estm2$var, estm3$var, estm4$var, estm5$var)
+test <- paste("test", 1:5, sep = "")
+```
+
+Create an object of class `modIRT`
+
+```{r}
+mods <- modIRT(coef = estc, var = estv, names = test, display = FALSE)
+coef(mods$test1)[1:5]
+```
+
+The linkage plan
+
+```{r}
+lplan<-linkp(coef = estc)
+lplan
+```
+
+
+# Multiple equating coefficients
+
+Estimation of the equating coefficients using
+the multiple mean-mean method. Form 1 is the base form.
+
+```{r}
+eqMM <- multiec(mods = mods, base = 1, method = "mean-mean")
+summary(eqMM)
+```
+
+Estimation of the equating coefficients using the 
+multiple mean-geometric mean method.
+
+```{r}
+eqMGM <- multiec(mods = mods, base = 1, method = "mean-gmean")
+summary(eqMGM)
+```
+
+Estimation of the equating coefficients using the multiple 
+item response function method.
+
+```{r}
+eqIRF<-multiec(mods = mods, base = 1, method = "irf")
+summary(eqIRF)
+```
+
+Estimation of the equating coefficients using the multiple item response function method.
+The initial values are the estimates obtained with the 
+multiple mean-geometric mean method.
+
+```{r}
+eqMGM <- multiec(mods = mods, base = 1, method = "mean-gmean", se = FALSE)
+eqIRF<-multiec(mods = mods, base = 1, method = "irf", start = eqMGM)
+summary(eqIRF)
+```
+
+Estimation of the equating coefficients using the multiple test response function method.
+
+```{r}
+eqTRF<-multiec(mods = mods, base = 1, method = "trf")
+summary(eqTRF)
+```
+
+# Synthetic item parameters
+
+The synthetic item parameters and their standard errors can be
+extracted as follows (using the multiple item response function method).
+
+```{r}
+eqIRF$as
+eqIRF$bs
+eqIRF$se.as
+eqIRF$se.bs
+```
+
+# Equated scores
+
+
+Equated scores with the true score equating method
+
+```{r}
+scTSE<-score(eqIRF)
+round(scTSE,3)
+```
+
+Equated scores with the observed score equating method, 
+avoiding computation of standard errors
+
+```{r}
+scOSE<-score(eqIRF, method = "OSE", se = FALSE)
+round(scOSE,3)
+```
+

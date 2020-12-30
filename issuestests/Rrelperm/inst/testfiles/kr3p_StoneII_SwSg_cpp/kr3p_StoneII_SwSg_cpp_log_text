@@ -1,0 +1,134 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606745732
+WARNING: No test specified, defaulting to first test defined (Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -2.11231e-131
+SWCRIT values: -7.26539e-140
+SOIRW values: 7.94088e+258
+SORW values: -8.02704e-103
+SOIRG values: 1.739e+239
+SORG values: -7.05105e-222
+SGCON values: -2.7132e-07
+SGCRIT values: -5.12322e+298
+KRWIRO values: 8.1657e-52
+KROCW values: 6.32854e+39
+KRGCL values: 6.25852e-52
+NW values: -4.53156e+271
+NOW values: -4.4817e-212
+NG values: -2.35448e-240
+NOG values: 1.63322e+88
+NP values: -1849710260
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_output/9b7ac3f6d484ddfe3eadf0c36a00306cbd7706dd.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: 6.35861e+102
+SWCRIT values: 1.36561e-89
+SOIRW values: 7.03061e-258
+SORW values: -1.24383e+61
+SOIRG values: -3.5503e+214
+SORG values: -1.32568e-291
+SGCON values: -2.67026e+305
+SGCRIT values: 2.89166e+273
+KRWIRO values: 3.2328e-152
+KROCW values: -5.55496e+209
+KRGCL values: 7.65985e+155
+NW values: -5.72039e-245
+NOW values: -1.97227e-250
+NG values: -1.03754e+19
+NOG values: -2.32819e+112
+NP values: 1804441563
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_output/bd19e56321d2b94f787a943e87413f9eca8a0ed2.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -4.8718e+124
+SWCRIT values: 4.46636e-86
+SOIRW values: 4.35932e+197
+SORW values: 9.17813e-189
+SOIRG values: -2.71586e+200
+SORG values: 3.88651e+190
+SGCON values: -6.34152e-146
+SGCRIT values: 1.01448e+19
+KRWIRO values: -1.35314e+72
+KROCW values: 2.18003e-29
+KRGCL values: 5.67298e-136
+NW values: -0.022267
+NOW values: 3.05888e+293
+NG values: -3.01311e+181
+NOG values: -1.4079e-18
+NP values: -2027614288
+input ends
+
+error: Mat::init(): requested size is too large
+terminate called after throwing an instance of 'std::logic_error'
+  what():  Mat::init(): requested size is too large
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_output/2336178cb8b4f03afffa5b608c7c35d580b97352.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -2.12871e-176
+SWCRIT values: -1.11167e+165
+SOIRW values: 1.18668e+10
+SORW values: -5.46588e+205
+SOIRG values: -4.84986e-74
+SORG values: -5.69594e-269
+SGCON values: 1.49371e+144
+SGCRIT values: 3.65352e+280
+KRWIRO values: 1.46786e-266
+KROCW values: -7.49445e+49
+KRGCL values: 2.75438e-203
+NW values: -3.32695e-19
+NOW values: 2.21129e+110
+NG values: -4.45506e+186
+NOG values: -8.05082e+201
+NP values: -1590327535
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_output/f159d0476b9bb958d511e0d9ae748f871d1ed563.fail`
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+SWCON values: -1.97865e-199
+SWCRIT values: 6.68873e+43
+SOIRW values: -7.12281e+277
+SORW values: -6.02577e+161
+SOIRG values: 8.70372e-167
+SORG values: -4.44283e+174
+SGCON values: 3.6782e-98
+SGCRIT values: -1.15649e-302
+KRWIRO values: -3.93157e+196
+KROCW values: -7.1796e+71
+KRGCL values: -8.58474e-59
+NW values: -1.17611e+119
+NOW values: 78797.6
+NG values: -2.99166e-191
+NOG values: 1.8262e-137
+NP values: 1167935764
+input ends
+
+error: arma::memory::acquire(): out of memory
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+ERROR: Failed: Rrelperm_deepstate_test_kr3p_StoneII_SwSg_cpp_test
+INFO: Saved test case in file `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/Rrelperm/inst/testfiles/kr3p_StoneII_SwSg_cpp/kr3p_StoneII_SwSg_cpp_output/0822bf323fa40ebce111d3b0db72d5ded008f3a2.fail`
+INFO: Done fuzzing! Ran 5 tests (2 tests/second) with 5 failed/0 passed/0 abandoned tests

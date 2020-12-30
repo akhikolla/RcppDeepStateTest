@@ -1,0 +1,3 @@
+testlist <- list(bufferSize = -2028780275L, endian = -423929257L, includeM = 439104111L,      includeSRID = -930991262L, includeZ = -5168524L, wkt = c("hckunuozxkyb",      NA, "bkmpyvzvgphohp", "dpsttqlwpfyegiwaxupx", "mglvkf", "lsoymxtfli",      NA, "bxuspdcfv", "yfjmzdsiijuzqeowttrz", NA, NA, NA, "fvlikdkrgdwafmwjhhno",      NA, "wznyhrwepuotlkkcbmwb"))
+result <- do.call(wk:::cpp_wkt_translate_wkb,testlist)
+str(result)

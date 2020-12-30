@@ -1,0 +1,17 @@
+WARNING: No test specified, defaulting to first test defined (rrecsys_deepstate_test_UserSimil_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/UserSimil/UserSimil_output/ea6a9e08b33c1e1ed57be70f758841f2b5d53dde.pass`
+TRACE: Running: rrecsys_deepstate_test_UserSimil_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rrecsys/inst/testfiles/UserSimil/UserSimil_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 4.11862e+120 9.37416e+196 2.32475e-193 3.61948e-208 5.13053e-87 9.30375e-70 2.30325e-157 5.35925e-196 3.33292e+307
+1.53569e+65 1.69126e+206 2.38773e+225 6.83676e+198 2.02911e-183 1.71961e-276 2.89459e+82 4.29790e-218 3.09916e+99
+7.74348e+130 2.07278e+188 3.18374 2.15723e+24 2.57517e-21 1.36859e+49 1.93814e-94 3.15850e-96 1.53582e-176
+4.27406e+290 3.14899e-147 9.79317e+177 7.19359e-19 6.24742e-125 4.30235e-69 1.46533e+168 4.95572e+260 3.03611e+108
+2.59653e+207 9.86007e-137 4.09609e+112 1.25682e-232 3.22675e+118 874879. 1.65663e+143 5.30916e-245 2.86447e+136
+19.8221 3.13391e+93 2.00483e-144 5.65188e+210 6.17847e+208 200.199 1.56272e+204 1.53873e+128 2.83346e-211
+1.16902e-240 4.44762e-212 1.16839e-127 3.47173e-143 2.45757e+222 6.41290e-12 1.74870e-264 8.89647e+24 1.38982e+63
+
+damp values: -2132687996
+input ends
+TRACE: Passed: rrecsys_deepstate_test_UserSimil_test

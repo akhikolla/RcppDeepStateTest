@@ -1,0 +1,24 @@
+WARNING: No test specified, defaulting to first test defined (mousetrap_deepstate_test_distMat_test)
+TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mousetrap/inst/testfiles/distMat/distMat_output/1be9f1670940aa246f34c13401339efa9d49fa0f.pass`
+TRACE: Running: mousetrap_deepstate_test_distMat_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mousetrap/inst/testfiles/distMat/distMat_DeepState_TestHarness.cpp(10)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+x values: 1.47358e+161
+1.73690e+198
+4.26284e-63
+6.54701e+241
+3.21323e-173
+
+y values: 7.03825e-212 42.9640 1.54312e-69 3.84493e-193 9.44719e+133
+2.23524e-86 1.89142e+108 1.59010e-94 1.08859e-252 9.45069e-98
+4.93407e-277 2.16802e+46 9.57036e-104 1.19033e+39 2.51020e-129
+9.11748e-240 8.00209e-81 1.19766e+114 3.40377e+256 8.56884e-175
+1.65220e+149 3186.16 8.30871e+277 2.43657e-132 4.34686e-265
+1.66342e-90 1.42377e+172 1.83309e+125 1.33254e+207 1.71887e-304
+1.21878e-84 1.48473e+70 7.05994e-54 1.25079e-117 2.87638e+202
+3.87032e+43 2.04274e-237 3.51114e-47 5.33174e-273 3.10028e-276
+
+power values: -1116760715
+input ends
+TRACE: Passed: mousetrap_deepstate_test_distMat_test

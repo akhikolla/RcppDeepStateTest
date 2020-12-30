@@ -1,0 +1,18 @@
+INFO: Starting fuzzing
+WARNING: No seed provided; using 1606676979
+WARNING: No test specified, defaulting to first test defined (rhoR_deepstate_test_check_BRK_combo_test)
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+BR values: 1.24297e-202
+P values: 3.50837e+47
+K values: 3.42871e-20
+input ends
+input starts
+EXTERNAL: qs v0.23.1. See ChangeLog for update details.
+
+BR values: 1.88344e+272
+P values: 1.50587e-239
+K values: 2.47883e+138
+input ends
+INFO: Done fuzzing! Ran 2 tests (1 tests/second) with 0 failed/2 passed/0 abandoned tests
