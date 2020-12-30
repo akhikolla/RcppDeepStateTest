@@ -1,6 +1,0 @@
-setClass("SpatialPointsMeteorology", slots = list(dates = "Date", data="vector"), contains="SpatialPoints")
-setClass("SpatialPointsTopography", contains="SpatialPointsDataFrame")
-setClass("SpatialGridMeteorology", slots = list(dates = "Date", data="vector"), contains="SpatialGrid")
-setClass("SpatialGridTopography", contains="SpatialGridDataFrame")
-setClass("SpatialPixelsMeteorology", slots = list(dates = "Date", data="vector"), contains="SpatialPixels")
-setClass("SpatialPixelsTopography", contains="SpatialPixelsDataFrame")

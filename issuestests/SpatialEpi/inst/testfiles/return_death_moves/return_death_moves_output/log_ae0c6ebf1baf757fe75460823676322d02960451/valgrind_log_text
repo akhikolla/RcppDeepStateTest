@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (SpatialEpi_deepstate_test_return_death_moves_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/return_death_moves/return_death_moves_output/ae0c6ebf1baf757fe75460823676322d02960451.pass`
-TRACE: Running: SpatialEpi_deepstate_test_return_death_moves_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/SpatialEpi/inst/testfiles/return_death_moves/return_death_moves_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-theta values: 1.19742e+267 -1.23066e-151 -2.42504e+292 -2.78486e+17 -5.95256e+140 -2.78486e+17 -2.43852e+303 1.75932e-14 1.89189e-258 5.07408e-149 -4.63602e-230 8.92439e-257 6.75099e+307 1.95458e-286 1.02363e+71 -1.44065e-182 7.39489e+36 -3.60368e-73 5.36521e+178 -3.67042e+46 -3.70934e+229 inf 2.13018e-153 inf -1.02152e-29 0
-input ends
-TRACE: Passed: SpatialEpi_deepstate_test_return_death_moves_test

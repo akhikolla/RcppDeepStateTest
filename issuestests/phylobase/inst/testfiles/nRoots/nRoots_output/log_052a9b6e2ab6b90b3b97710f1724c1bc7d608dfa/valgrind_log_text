@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (phylobase_deepstate_test_nRoots_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/nRoots/nRoots_output/052a9b6e2ab6b90b3b97710f1724c1bc7d608dfa.pass`
-TRACE: Running: phylobase_deepstate_test_nRoots_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/nRoots/nRoots_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-ances values: -2147483648 -993055554 -2125043502 766056501 695976750 1517411274 -807603031 -475948610 -1224828806 -842778290 446767431 1245281395 -1270832882 -1317152640 1506617917 1858337573 -1030512753 1473830513 2063579332 943012076 1977219622 1456646064 -1613632242 -1796721834 2077419218 -1413201115 -1006900741 807528357 -69088175 -1284308653 1156473304 -2147483648 1712661265 -647612772 1646303122 1098790972 1594134034 2005886395 2126943060 1522706113 -674639184 805915794 702751850 1633462208 1614140375 -1002925502 -14248103 -398648640 116224054 -155334625 -1595045630 1227932330 1704296746
-input ends
-TRACE: Passed: phylobase_deepstate_test_nRoots_test

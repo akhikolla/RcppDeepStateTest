@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_Sum_C_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Sum_C/Sum_C_output/45ada24df016b7c9efdc13ed8b8c42e97861baea.pass`
-TRACE: Running: BoostMLR_deepstate_test_Sum_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Sum_C/Sum_C_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: -1.31683e+195 4.99231e-182 -7.2182e+137 -4.40376e+73 2.88855e+90 1.1863e-230 2.26697e-208 3.49546e-87 -3.71923e+190 inf 7.10853e-30 3.07975e+24 -9.16184e-57 inf -8.37614e-267 2.1455e-220 1.22196e+62 -8.75634e+277 9.8529e-201 -3.30122e-247 -8.22925e+44 -9.16184e-57 -3.68967e+245 -1.02668e+22 -1.21501e-246 -6.24458e-88 2.26166e-09 nan -1.694e-106 0
-input ends
-TRACE: Passed: BoostMLR_deepstate_test_Sum_C_test

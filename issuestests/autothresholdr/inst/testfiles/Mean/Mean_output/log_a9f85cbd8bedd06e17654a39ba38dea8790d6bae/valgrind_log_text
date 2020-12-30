@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_Mean_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/Mean/Mean_output/a9f85cbd8bedd06e17654a39ba38dea8790d6bae.pass`
-TRACE: Running: autothresholdr_deepstate_test_Mean_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/Mean/Mean_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-data values: -1154522426 -598765557 -880115839 -188810054 -2042608465 1611159850 510076602 1232706565 -1442919547 1297846297 -451962151 -845769645 -673709513 -530882049 -1031292660 22352298 1406939040 935311645 -833358181 -359993663 1676802115 1280918031 -503637022 1345096867 146490431 2063424584 1364452155 -573440960 -1024162801 1304829486 -1036447726 1704769133 1476046033 -150398648 1560052537 -830506352 1946066881 -2147483648 -167732901 -1672492812 1232454976 2128579034 -619965527 -1936901377 -1948663728 -1750018419 -1334843060 -1095679993 637946020 -439255360 -577607063 530868651 2099903252 -2147483648
-input ends
-TRACE: Passed: autothresholdr_deepstate_test_Mean_test

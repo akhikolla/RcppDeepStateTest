@@ -1,1 +1,0 @@
-ypsummary <- function(...) UseMethod("ypsummary")

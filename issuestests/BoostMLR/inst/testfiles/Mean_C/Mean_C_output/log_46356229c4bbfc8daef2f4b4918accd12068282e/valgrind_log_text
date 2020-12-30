@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_Mean_C_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Mean_C/Mean_C_output/46356229c4bbfc8daef2f4b4918accd12068282e.pass`
-TRACE: Running: BoostMLR_deepstate_test_Mean_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Mean_C/Mean_C_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: 2.66608e+17 -8.23008e+157 2.60574e+301 1.77458e-101 2.39912e+199 -5.82258e+288 -6.46008e-202 -4.49148e+173 2.1347e+54 -inf -2.10422 -1.22813e-22 2.21456e+250 5.87613e+289 -1.34451e+89 -1.32277e-155 3.20977e+193 8.89287e+15 -1.78086e+288 -3.25353e+99 5.02916e+89 1.33083e-285 -1.37468e-272 1.1045e+200 2.86791e-240 2.10233e-203 1.71405e+206 70.0522 6.69826e-82 7.2551e-158 -4.73074e-209 -3.27038e-39 1.43612e-275 1.6285e+268 2.56928e+212 1.8547e-298 1.68025e-108 -1.74329e+119 1.21579e-290 1.83265e-264 -5.22924e+179 6.07798e+246 -1.04971e-134 6.62084e+290 -2.06992e+261 2.08665e+156 3.85494e-249 1.83304e-300 -1.36249e+123 6.57876e-105 -2.62604e-284 -2.30181e-243 2.01156e-122 inf 8.40962e+72 -2.41599e+260 8.06133e-228 9.24082e+204 -9.10595e+213 -9.69247e+226 3.68951e-86 1.29424e+303 -8.73638e-05 6.47479e+27 -8.66965e+92 -7.33343e+54 -7.25806e+171 8.83469e-123 1.27424e-221 2.55995e+271 -7.83708e+56 2.60459e+178 -7.92409e+242 -8.24269e-198 -3.40006 -2.76915e-218 -3.93836e-238 6.92649e+142 -2.6666e+121 -3.50395e+290 -3.34348e+133 6.16651e-116 2.62211e-190 2.77385e-127 -121.149 7.48818e-136 -5.87602e-273 7.84685e+159 -3.93836e-238 -3.75369e+213 -inf
-input ends
-TRACE: Passed: BoostMLR_deepstate_test_Mean_C_test

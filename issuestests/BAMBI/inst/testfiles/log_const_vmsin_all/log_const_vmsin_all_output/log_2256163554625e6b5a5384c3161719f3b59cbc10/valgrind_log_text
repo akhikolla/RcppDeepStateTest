@@ -1,8 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_log_const_vmsin_all_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_output/2256163554625e6b5a5384c3161719f3b59cbc10.pass`
-TRACE: Running: BAMBI_deepstate_test_log_const_vmsin_all_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/log_const_vmsin_all/log_const_vmsin_all_DeepState_TestHarness.cpp(10)
-input starts
-par_mat values:  -1.4422e+241  -3.0114e-64 -3.1106e-294  -1.1154e+70  8.5962e-209  -1.1813e+70
-
-input ends
-TRACE: Passed: BAMBI_deepstate_test_log_const_vmsin_all_test

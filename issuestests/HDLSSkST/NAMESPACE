@@ -1,5 +1,0 @@
-useDynLib(HDLSSkST, .registration=TRUE)
-exportPattern("^[[:alpha:]]+")
-importFrom(Rcpp, evalCpp)
-importFrom(stats, dmultinom, runif)
-importFrom(utils, combn)

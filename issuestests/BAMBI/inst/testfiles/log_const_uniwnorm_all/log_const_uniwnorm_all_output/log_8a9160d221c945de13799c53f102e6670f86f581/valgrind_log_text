@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_log_const_uniwnorm_all_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_output/8a9160d221c945de13799c53f102e6670f86f581.pass`
-TRACE: Running: BAMBI_deepstate_test_log_const_uniwnorm_all_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/log_const_uniwnorm_all/log_const_uniwnorm_all_DeepState_TestHarness.cpp(10)
-input starts
-par_mat values:   1.6168e-156  3.1282e+210  -1.6925e-32  1.1932e-164
- -2.6257e-264 -1.3452e-226   7.0065e-37  2.6261e-130
-
-input ends
-TRACE: Passed: BAMBI_deepstate_test_log_const_uniwnorm_all_test

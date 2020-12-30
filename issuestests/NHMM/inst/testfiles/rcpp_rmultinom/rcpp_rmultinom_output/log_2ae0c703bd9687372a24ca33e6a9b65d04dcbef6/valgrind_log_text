@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_rmultinom_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_rmultinom/rcpp_rmultinom_output/2ae0c703bd9687372a24ca33e6a9b65d04dcbef6.pass`
-TRACE: Running: NHMM_deepstate_test_rcpp_rmultinom_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_rmultinom/rcpp_rmultinom_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-probs values: -9.11242e+206 2.6369e-08 -1.30324e+68 -5.05658e-164 -4.75974e-116 1.08632e+255 2.66246e+232 2.47494e-115 -1.00557e-125 3.86677e-264 8.9898e+234 44.2007 9.88664e-197 -0.00282368 -7.63865e-100 inf nan -1.08126e+133 6.14224e-37 -1.56629e+109 -3.70922e-112 -inf 4.24554e+217 -4.93774e-24 -1.14381e-173 2.55143e-181 -2.98512e-211 3.43181e-56 4.6645e+142 4.52844e-127 -5.83721e+171 -2.01677e-283 1.1861e+306 -1.33411e-58 -4.48654e-86 2.03323e-286 -7.41642e-267 8.97276e-221 7.44077e-281 4.91831e-38 5.62952e-56 1.7882e-248 -3.05039e+189 -2.87827e+241 1.93921e+201 5.05797e+241 -1.97555e-228 -1.16273e-200 -1.01884e-29 3.62761e+102 3.85194e-20 -1.9063e-19 2.64352e+47 -8.84718e-105 -3.05648e-172 -3.54324e-199 5.90033e-282 7.20313e-178 2.81914e+12 -2.25881e+300 2.34425e+116 9.32208e-42 -4.96081e-109 -2.18528e-140 7.71448e+179 6.97698e-17 -8.6655e-215 2.03414e-198 4.6217e+48 -1.16059e-237 -6.74945e-165 1.17517e+286 8.79868e-251 -1.71439e+93 1.72516e+44 1.53727e-204 -8.14405e+47 9.20453e-67 -2.30405e-220 -8.37196e+171 -2.58013e+298
-input ends
-TRACE: Passed: NHMM_deepstate_test_rcpp_rmultinom_test

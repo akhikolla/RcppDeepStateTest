@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (anytime_deepstate_test_removeFormats_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/anytime/inst/testfiles/removeFormats/removeFormats_output/e6adc3b49846df62e026d6057c8943c396059b92.pass`
-TRACE: Running: anytime_deepstate_test_removeFormats_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/anytime/inst/testfiles/removeFormats/removeFormats_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-fmt values: "zejmarl" "NA" "bu" "qaojpuc" "pvmkbrcgocfyjsk" "fvcvcfdadwfynyounypg" "NA" "NA" "NA" "sippstpwugs" "vzkdtwltb"
-input ends
-TRACE: Passed: anytime_deepstate_test_removeFormats_test

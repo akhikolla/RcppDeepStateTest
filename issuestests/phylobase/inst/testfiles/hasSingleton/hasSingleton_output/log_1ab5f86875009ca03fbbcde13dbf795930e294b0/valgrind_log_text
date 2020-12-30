@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (phylobase_deepstate_test_hasSingleton_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/hasSingleton/hasSingleton_output/1ab5f86875009ca03fbbcde13dbf795930e294b0.pass`
-TRACE: Running: phylobase_deepstate_test_hasSingleton_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/hasSingleton/hasSingleton_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-ances values: -545174159 -1249267061 -1568836953 -1416378199 1163888704 956957018 -2035031033 1958150483 944686318 -680035975 -2118069254 2129217987 1221657473 -603661470 -1195415252 1986690991 -1203462769 -1156183889 36261760 312034395 1783094342 1287170052 1997615342 2075106611 -214252882 1355505234 -189934841 1175937713 1581184938 -157241746 -1310827475 -1896259455 -2118069254 -292628766
-input ends
-TRACE: Passed: phylobase_deepstate_test_hasSingleton_test

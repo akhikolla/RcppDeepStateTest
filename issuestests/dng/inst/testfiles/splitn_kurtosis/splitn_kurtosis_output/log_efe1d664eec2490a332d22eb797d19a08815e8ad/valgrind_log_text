@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (dng_deepstate_test_splitn_kurtosis_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/splitn_kurtosis/splitn_kurtosis_output/efe1d664eec2490a332d22eb797d19a08815e8ad.pass`
-TRACE: Running: dng_deepstate_test_splitn_kurtosis_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/dng/inst/testfiles/splitn_kurtosis/splitn_kurtosis_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-lmd values: 1.04681e-206
-input ends
-TRACE: Passed: dng_deepstate_test_splitn_kurtosis_test

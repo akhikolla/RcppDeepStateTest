@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (BoostMLR_deepstate_test_Which_Max_C_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Which_Max_C/Which_Max_C_output/834cd5fb673da73ff94487dba37dbce303fd8f8e.pass`
-TRACE: Running: BoostMLR_deepstate_test_Which_Max_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BoostMLR/inst/testfiles/Which_Max_C/Which_Max_C_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: nan nan -4.28313e+144 -1.44525e+109 -5.04881e-273 nan 6.89806e-223 -3.18422e-179 -8.01632e-41 2.10272e+43 5.83192e+103 -9.01592e-06 nan
-input ends
-TRACE: Passed: BoostMLR_deepstate_test_Which_Max_C_test

@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (TransPhylo_deepstate_test_log_sum_exp_vec_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/log_sum_exp_vec/log_sum_exp_vec_output/152a5bb60a3e788a5b108f1495fd7b2805360ec0.pass`
-TRACE: Running: TransPhylo_deepstate_test_log_sum_exp_vec_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/TransPhylo/inst/testfiles/log_sum_exp_vec/log_sum_exp_vec_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-w values: 1.04875e+39 -3.74656e+269 -1.23521e-151 inf -7.87824e+50 6.08298e-71 -9.78181e+182 -8.45608e+18 1.42772e+69 -3.05597e+130 -inf 2.93949e-115 -4.42964e+210 6.20659e-250 1.4521e+97 3.42019e+198 -1.58778e+258 -2.43859e-23 -4.96544e-272 5.04512e-57 3.65137e-09 -3.16913e+55 3.45316e+102 -6.16384e+170 4.41895e-19 1.59992e+99 157640 -5.5833e+71 1.02935e+279 -5.26789e+116 5.32562e+206 1.85717e-85 -6.72403e+152 -7.62756e+243 8.45696e+129 1.33505e+58 -1.96018e+291 4.08534e-248 5.10249e-42 1.64905e+64 -3.87871e+194 -7.44893e-66 -1.29391e-236 -4.12269e+180 -1.59368e+180 6.7432e-60 -6.37263e-306 5.11116e+230 5.10886e+37 1.17922e+69 1.40035e-293 2.97573e-95 8.4386e+297 2.77051e-184 3.44656e-298 -1.30841e+08 3.64976e+54 -8.39723e-63 5.64571e-11 7.17411e+13 2.78121e-64 -1.10818e+253 -4.90016e-271 -4.17498e+45 -inf 9.87635e-195 3.19627e-18 -2.33549e+22 2.41998e+47 -2.25206e+127 9.28681e+304 -2.35696e-150 -4.85078e-204 1.89397e+159 1.85124e+146 1.83761e-167 -3.41952e+205 2.14155e-305 8.44809e-301 inf 4.88662e-270 -7.67721e+148 2.16383e+240 2.86837e+223 4.3178e-122 4.35794e-79 2.10658e+220 -6.63696e-23 2.07769e-262 0
-input ends
-TRACE: Passed: TransPhylo_deepstate_test_log_sum_exp_vec_test

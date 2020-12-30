@@ -1,5 +1,0 @@
-useDynLib(timma)
-import(Rcpp)
-import(QCA)
-import(reshape2)
-exportPattern("^[[:alpha:]]+")

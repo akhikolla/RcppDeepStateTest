@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_prod_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_prod/rcpp_prod_output/500877bbde1db3fcca8e9a4346fae6d36dbd4682.pass`
-TRACE: Running: NHMM_deepstate_test_rcpp_prod_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_prod/rcpp_prod_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-A values: -7.87789e-302 -1.76561e-107 nan 3.45678e+143 -5.69282e+31 -3.29569e+152 -3.7388e-302 -7.41511e+133 1.77838e+296 -1.83655e-295 3.06098e-92 nan -5.66363e+32 -1.90796e+223 1.07519e+12 1.66677e+09 3.16714e-293 -514.781 -2.18123 1.24743e+178 2.26055e-288 7.28438e-242 -1.66444e+09 7.74797e-57 1.25655e-287 -1.52361e+288 -1.17379e+58 -inf -3.32294e-134 1.03523e+25 -2.95711e-102 -9.49955e-222 2.78257e-195 -1.3414e-48 -4.16905e+170 2.67455e-105 7.27064e+122 -3.83261e-163 -7.32775e-08 inf 2.69139e-193 -1.37556e-101 9.74292e+260 -4.70555e-15 2.13105e-145 1.46296e-197 -2.78587e-182 -1.98324e+154 inf -3.20453e-234 0
-input ends
-TRACE: Passed: NHMM_deepstate_test_rcpp_prod_test

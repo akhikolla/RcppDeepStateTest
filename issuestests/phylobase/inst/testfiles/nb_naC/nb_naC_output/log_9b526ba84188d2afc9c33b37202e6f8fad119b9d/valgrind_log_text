@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (phylobase_deepstate_test_nb_naC_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/nb_naC/nb_naC_output/9b526ba84188d2afc9c33b37202e6f8fad119b9d.pass`
-TRACE: Running: phylobase_deepstate_test_nb_naC_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/phylobase/inst/testfiles/nb_naC/nb_naC_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: -1.7044e-240 -9.96982e-39 inf 6.92994e-13 1.45389e+305 4.75553e+303 7.3926e+55 6.60846e-133 -5.93638e-119 1.51829e+143 1.26375e-221 3.79428e+65 nan -1.93836e-97 1.1238e-289 -1.02947e+11 -1.16158e-117 inf 7.15038e+98 2.73634e-24 0.00920914 -inf nan 0
-input ends
-TRACE: Passed: phylobase_deepstate_test_nb_naC_test

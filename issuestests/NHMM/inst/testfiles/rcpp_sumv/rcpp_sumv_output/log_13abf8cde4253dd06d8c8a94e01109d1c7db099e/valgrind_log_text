@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (NHMM_deepstate_test_rcpp_sumv_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_sumv/rcpp_sumv_output/13abf8cde4253dd06d8c8a94e01109d1c7db099e.pass`
-TRACE: Running: NHMM_deepstate_test_rcpp_sumv_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/NHMM/inst/testfiles/rcpp_sumv/rcpp_sumv_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-A values: 2.89732e-176 -8.38346e-25 -1.85969e+125 1.73674e-227 3.30578e-232 -2.32488e+88 -2.22572e+297 1.22221e+241 -6.34503e-175 inf -1.43769e+51 -3.36199e-71 2.82625e-60 -5.20718e+145 3.68784e-142 -3.68321e-183 -1.15034e+297 -7.35126e+235 3.70981e+113 -2.88407e-168 -2.92566e-25 2.22185e+17 1.70869e-199 inf -4.8849e-289 -4.70336e-304 7.18799e+209 1.81362e+180 4.34616e+194 -2.75115e+292 -1.01374e+91 -2.49663e+16 -4.21865e-252 -8.18216e-244 -inf 1.35979e+101 -3.47389e+99 -inf -4.46256e+227 1.34047e-76 -2.61018e-285 -8.51104e-250 -4.41888e-244 -inf -2.6657e-288 1.50215e+56 -1.01249e+09 7.64601e+06 -1.11288e-175 1.60464e+138 22.4241 -3.38951e+244 0
-input ends
-TRACE: Passed: NHMM_deepstate_test_rcpp_sumv_test
