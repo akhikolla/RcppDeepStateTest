@@ -1,6 +1,0 @@
-CXX_STD = CXX11
-
-all: clean
-
-clean:
-	rm -Rf $(SHLIB) $(OBJECTS)

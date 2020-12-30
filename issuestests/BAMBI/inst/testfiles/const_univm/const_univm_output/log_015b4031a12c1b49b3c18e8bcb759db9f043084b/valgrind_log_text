@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (BAMBI_deepstate_test_const_univm_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/const_univm/const_univm_output/015b4031a12c1b49b3c18e8bcb759db9f043084b.pass`
-TRACE: Running: BAMBI_deepstate_test_const_univm_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/BAMBI/inst/testfiles/const_univm/const_univm_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-k values: -6.30465e-252
-input ends
-TRACE: Passed: BAMBI_deepstate_test_const_univm_test

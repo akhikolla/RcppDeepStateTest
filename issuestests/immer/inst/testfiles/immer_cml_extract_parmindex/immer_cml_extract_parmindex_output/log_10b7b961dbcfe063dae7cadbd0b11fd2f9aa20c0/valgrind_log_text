@@ -1,3 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (immer_deepstate_test_immer_cml_extract_parmindex_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/immer/inst/testfiles/immer_cml_extract_parmindex/immer_cml_extract_parmindex_output/10b7b961dbcfe063dae7cadbd0b11fd2f9aa20c0.crash`
-TRACE: Running: immer_deepstate_test_immer_cml_extract_parmindex_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/immer/inst/testfiles/immer_cml_extract_parmindex/immer_cml_extract_parmindex_DeepState_TestHarness.cpp(10)

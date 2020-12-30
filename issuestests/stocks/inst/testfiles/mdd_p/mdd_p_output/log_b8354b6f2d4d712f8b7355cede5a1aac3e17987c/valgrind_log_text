@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (stocks_deepstate_test_mdd_p_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/stocks/inst/testfiles/mdd_p/mdd_p_output/b8354b6f2d4d712f8b7355cede5a1aac3e17987c.pass`
-TRACE: Running: stocks_deepstate_test_mdd_p_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/stocks/inst/testfiles/mdd_p/mdd_p_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: 5.92611e+226 -0.00508424 1.14832e-116 -6.96708e-164 4.12958e-40 -2.93685e-155 9.81182e-306 -inf -5.32454e-129 -4.29753e-206 3.06148e+147 -4.33867e-146 2.68985e-17 -1.49559e+226 -3.09003e-279 3.35192e-192 -1.31848e+267 -2.78651e-75 1.20269e+136 -5.4483e-52 1.32969e+144 4.6203e+167 2.23887e+45 -9.46038e-181 0.0612311 9.95338e-77 -1.74287e-68 1.38435e-280 3.32186e-128 2.32824e-252 -9.49144e+88 -3.66807e-211 5.24584e-63 1.79426e+14 -2.36406e-214 -6.38178e-73 1.92221e-258 2.78584e-223 3.92677e+173 8.20632e+222 -4.7635e+55 -5.1706e+95 1.36468e-240 2.82732e-264 2.46848e-98 -6.47382e-201 -4.34928e+21 4.64174e+120 -1.5493e+129 2.23887e+45 4.70648e+269 -2.27e+138 -4.62297e-245 -5.95089e-20 2.43872e-242 1.5762e+262 -6.42315e+169 2.87704e-40 -1.62359e-40 -6.38334e+238 -3.4305e+276 -9.19545e-167 2.23887e+45 -1.96086e-34 -6.94372e-285 -8.29135e+183 nan -2.11062e+153 2.85702e+243 -3.56277e-115 -3.06276e-121 -1.74725e+238 -3.93534e-71 -4.00655e+37 1.07597e+229 4.34562e-228 -1.06033e-138 0
-input ends
-TRACE: Passed: stocks_deepstate_test_mdd_p_test

@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (bsplinePsd_deepstate_test_AnIn1_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsplinePsd/inst/testfiles/AnIn1/AnIn1_output/8a2cd2e817cc8ede2706710e6afcbf0393f65de6.pass`
-TRACE: Running: bsplinePsd_deepstate_test_AnIn1_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/bsplinePsd/inst/testfiles/AnIn1/AnIn1_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-knot values: 3.93867e-53 2.91117e+81 -inf -1.17178e-300 -2.64373e+252 3.53089e-300 1.49894e+35 -5.78822e+07 -7.76995e-254 4.96335e-108 6.90918e-243 3.53089e-300 8.20452e-307 1.41985e+302 -7.05177e+37 nan -5.45963e-46 2.40627e-231 nan 0
-input ends
-TRACE: Passed: bsplinePsd_deepstate_test_AnIn1_test

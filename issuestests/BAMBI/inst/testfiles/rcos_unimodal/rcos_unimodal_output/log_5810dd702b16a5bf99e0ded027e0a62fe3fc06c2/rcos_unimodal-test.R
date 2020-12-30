@@ -1,3 +1,0 @@
-testlist <- list(k1 = -1.17091064761545e-88, k2 = -1.78540573473748e-173,      k3 = 1.28162688989538e-61, kappa_opt = 1.58581864940501e+297,      log_const_vmcos = -1.69915467755826e-87, log_I0_kappa_opt = 4.148343587017e-88,      logK = 1.11435396138763e+254, mu1 = 3.15919184422025e+38,      mu2 = 1.47111369555548e+244, n = 1626741922L)
-result <- do.call(BAMBI:::rcos_unimodal,testlist)
-str(result)

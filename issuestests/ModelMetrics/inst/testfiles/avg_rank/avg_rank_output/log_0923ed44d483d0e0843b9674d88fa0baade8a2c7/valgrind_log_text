@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (ModelMetrics_deepstate_test_avg_rank_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/avg_rank/avg_rank_output/0923ed44d483d0e0843b9674d88fa0baade8a2c7.pass`
-TRACE: Running: ModelMetrics_deepstate_test_avg_rank_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/ModelMetrics/inst/testfiles/avg_rank/avg_rank_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: nan -1.6744e+213 5.17828e-37 -1.09848e-72 -3.7589e-55 3.77404e-57 -8.63273e-153 1.08565e+249 nan 1.48507e-75 inf -inf -2.45054e+293 0
-input ends
-TRACE: Passed: ModelMetrics_deepstate_test_avg_rank_test

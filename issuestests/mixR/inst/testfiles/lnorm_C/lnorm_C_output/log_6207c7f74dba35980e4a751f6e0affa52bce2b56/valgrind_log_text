@@ -1,3 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (mixR_deepstate_test_lnorm_C_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/lnorm_C/lnorm_C_output/6207c7f74dba35980e4a751f6e0affa52bce2b56.pass`
-TRACE: Running: mixR_deepstate_test_lnorm_C_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/lnorm_C/lnorm_C_DeepState_TestHarness.cpp(10)

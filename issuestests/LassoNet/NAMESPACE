@@ -1,3 +1,0 @@
-useDynLib(LassoNet)
-exportPattern("^[[:alpha:]]+")
-importFrom(Rcpp, evalCpp)

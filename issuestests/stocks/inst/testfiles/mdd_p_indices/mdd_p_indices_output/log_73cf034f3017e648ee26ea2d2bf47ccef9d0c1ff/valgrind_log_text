@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (stocks_deepstate_test_mdd_p_indices_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/stocks/inst/testfiles/mdd_p_indices/mdd_p_indices_output/73cf034f3017e648ee26ea2d2bf47ccef9d0c1ff.pass`
-TRACE: Running: stocks_deepstate_test_mdd_p_indices_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/stocks/inst/testfiles/mdd_p_indices/mdd_p_indices_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: -3.80168e-91 6.64327e+300 3.31944e-192 -1.34702e+38 1.8088e+168 inf 8.33637e-145 1.96575e+204 4.61731e-136 nan -7.71197e+178 7.89279e+07 -8.93389e+213 3.5373e-223 -3.85422e-27 5.25648e+202 -1.41709e-124 -6.57135e+245 4.7114e+247 2.43581e+106 -4.54752e-78 1.03656e-225 -2.16092e+07 -2.16092e+07 -7.70706e-101 -2.16092e+07
-input ends
-TRACE: Passed: stocks_deepstate_test_mdd_p_indices_test

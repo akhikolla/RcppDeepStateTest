@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (QuantTools_deepstate_test_na_locf_numeric_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/na_locf_numeric/na_locf_numeric_output/0812ffead9537041273fcc1b3261218299588326.pass`
-TRACE: Running: QuantTools_deepstate_test_na_locf_numeric_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/QuantTools/inst/testfiles/na_locf_numeric/na_locf_numeric_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-x values: 1.96006e+30 -1.38765e+227 9.9139e+76 8.85528e-65 5.08801e+79 -1.99149e+254 -2.14179e+56 3.25722e-288 -4.14888e-297 6.63991e-170 6.43426e-150 3.18348e+133 inf -3.60127e-159 5.49152e-243 7.10061e-121 -2.38961e-234 -1.65096e+214 -4.41624e+12 -3.32883e+54 -1.69558e-21 -1.3427e-163 1.86588e+293 1.9638e+175 -1.90697e+147 2.26596e-205 9.62886e-40 4.73166e+169 -8.08495e+191 -6.09881e+08 3.03985e-235 7.41668e-251 nan -3.32117e+170 -2.68962e-49 1.24699e+40 1.33882e+308 3.68112e-242 2.58928e-275 nan -1.73123e-269 2.02879e+292 nan 2.13775e+89 -1.34534e-197 -6.25911e+16 -5.49819e-179 3.64692e-166 -1.19208e+232 1.52613e+105 -1.3566e-237 -2.1711e-108 6.38618e-104 1.08111e-202 -1.41473e-256 -8.68528e+263 -4.04696e+86 2.04365e+155 8.05019e-72 -1.10641e-221 3.1798e-246 1.77527e-112 -3.76855e+170 -3.9478e-287 3.8023e+112 -1.30447e-288 1.06236e-243 4.14791e-122 5.78705e-200 1.28788e+277 -3.73842e+15 nan 7.4874e-303 -2.97151e-10 -2.50861e-152 223.005 -3.46662e-30 -3.93587e-14 4.64762e-114 1.5314e+230 -6.21973e-264 -2.19735e+100 0
-input ends
-TRACE: Passed: QuantTools_deepstate_test_na_locf_numeric_test

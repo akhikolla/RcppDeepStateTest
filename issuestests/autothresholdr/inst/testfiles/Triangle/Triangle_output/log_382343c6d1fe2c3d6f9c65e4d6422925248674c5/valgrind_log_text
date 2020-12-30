@@ -1,9 +1,0 @@
-WARNING: No test specified, defaulting to first test defined (autothresholdr_deepstate_test_Triangle_test)
-TRACE: Initialized test input buffer with data from `/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/Triangle/Triangle_output/382343c6d1fe2c3d6f9c65e4d6422925248674c5.pass`
-TRACE: Running: autothresholdr_deepstate_test_Triangle_test from /home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/autothresholdr/inst/testfiles/Triangle/Triangle_DeepState_TestHarness.cpp(10)
-input starts
-EXTERNAL: qs v0.23.1. See ChangeLog for update details.
-
-data values: -550117265 -1765536421 780421586 181927069 2049043929 707976443 707976443 1221144616 -15689835 -727322621 691655987 282185866 -222403527 1148911182 -1863613735 -1263402573 -1013430121 1027119718 1919916418 1080692018 678521964 -345326981 1430017033 -279593550 -301643477 1055167152 1395339924 -1790982467 -1338889829 -1662838799 543947535 -1044856401 -1123362053 -294868158 -1730226643 496823246 -820745877 -125805288 -329766995 283663565 -231290399 -1552669893 1392076912 -1789706652 1755828320 674068500 -2053127787 -2028117383 1395350262 -1602407950 1989829132 -308252587 1212200304 1831699698 -867858605 1659555253 354921653 -1512200165 1997154149 -1416054029
-input ends
-TRACE: Passed: autothresholdr_deepstate_test_Triangle_test
