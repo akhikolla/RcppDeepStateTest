@@ -1,13 +1,17 @@
-#packages <- Sys.glob(file.path("~/fuzzer_packages/fuzzedpackages","*"))
-example.res.list<- list()
-for(pkg.i in packages){
-  package.path <- pkg.i 
+example.valid.test <- function(){
+  packages <- Sys.glob(file.path("~/fuzzer_packages/fuzzedpackages","*"))
+  example.res.list<- list()
+  packages <- packages[-c(46,47,99,100)]
+  
+  packages <- packages[-c(72,73)]
+  for(pkg.i in packages){
+   package.path <- pkg.i 
   sprintf("Package name - %s\n",basename(pkg.i))
   testpath <- file.path(pkg.i,"inst/testfiles")
   testfuns <- Sys.glob(file.path(testpath,"*"))
   relative <- pkg.i
   path <- normalizePath(relative, mustWork=TRUE)
-  Rcpp::compileAttributes(path)
+  #Rcpp::compileAttributes(path)
   RcppExports.R <- file.path(path, "R", "RcppExports.R")
   #fun.name.vecs <- ls(fun.env)
   fun.env <- new.env()
@@ -27,7 +31,7 @@ for(pkg.i in packages){
     e[[NAME]][[length(e[[NAME]])+1]] <- RHS
     CALL
   }, list(NAME=fun.name, RHS=rhs, CALL=call.line))
-  con <- file.path("~/fuzzer_packages/valgrind_test_dir",paste0(basename(fun.name),"-test.R"))
+  con <- file.path("/home/akhila/fuzzer_packages/valgrind_test_dir",paste0(basename(fun.name),"-test.R"))
   writeLines(paste(fun.name, "<-"), con)
   dput(fun, con)
 example.issue = "None"
@@ -46,11 +50,12 @@ res.example = RcppDeepState::deepstate_read_valgrind_xml(xml_file)
 if(nrow(res.example) > 0){
   example.issue=paste0(res.example$message[1]," : ",res.example$file.line[1])
 }
-fun_output <- file.path(fun.i,paste0(fun_name,"_output"))
-sprintf("fun_name - %s\n\n",fun_name)
+fun_output <- file.path(fun.i,paste0(fun.name,"_output"))
+sprintf("fun.name - %s\n\n",fun.name)
 log.files <- log.files.extract(Sys.glob(file.path(fun_output,"*")))
 flag = 0
 log.path = ""
+rcppdeepstate.issue="None"
 for(log.i in log.files){
   valgrind_log <- file.path(log.i,"valgrind_log")
   data.result <- RcppDeepState::deepstate_read_valgrind_xml(valgrind_log)
@@ -58,11 +63,13 @@ for(log.i in log.files){
     flag = 1
     log.path = log.i
     rcppdeepstate.issue = paste0(data.result$message[1]," : ",data.result$file.line[1])
+    print(rcppdeepstate.issue)
   }else{
     rcppdeepstate.issue = "None"
   }
 }
-if(nrow(res.example) == 0 && nrow(data.result) > 0){
+
+if(is.null(nrow(res.example)) && nrow(data.result) > 0){
   no.issue = TRUE
 }else{
   no.issue = FALSE
@@ -73,12 +80,18 @@ if(rcppdeepstate.issue == example.issue && example.issue != "None"){
 }else{
   same.issue = "None"
 }
-
+if(fun.name %in% getNamespaceExports_fun(pkg.i)){
+  symbol <-"::"
+  exported = TRUE
+}else{
+  symbol <-":::"
+  exported = FALSE
+}
 different.issue="None"
 if(rcppdeepstate.issue != example.issue && example.issue != "None" && rcppdeepstate.issue != "None"){
   different.issue=paste0(example.issue,"- ",rcppdeepstate.issue)
 }
-example.res.list[[fun.name]]<- data.table(pkg=basename(pkg.i), func.name=fun.name, exported = flag,
+example.res.list[[fun.name]]<- data.table(pkg=basename(pkg.i), func.name=fun.name, exported = exported,
            example.issue= example.issue,
            same.issue = same.issue ,
            rcppdeepstate.issue=rcppdeepstate.issue,
@@ -87,5 +100,7 @@ example.res.list[[fun.name]]<- data.table(pkg=basename(pkg.i), func.name=fun.nam
 
 
   }
+  }
+ex.res <- do.call(rbind,example.res.list)
+return(ex.res)
 }
-
