@@ -1,0 +1,3 @@
+bool(*closeHandle)(SEXP const)
+
+

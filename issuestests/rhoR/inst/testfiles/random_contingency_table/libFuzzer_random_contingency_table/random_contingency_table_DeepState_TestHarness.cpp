@@ -1,0 +1,67 @@
+#include <fstream>
+#include <RInside.h>
+#include <iostream>
+#include <RcppDeepState.h>
+#include <qs.h>
+#include <DeepState.hpp>
+
+arma::imat random_contingency_table(int setLength, double baserate, double kappaMin, double kappaMax, double minPrecision, double maxPrecision);
+
+TEST(rhoR_deepstate_test,random_contingency_table_test){
+  static int rinside_flag = 0;
+  if(rinside_flag == 0)
+  {
+    rinside_flag = 1;
+    RInside R;
+  } std::time_t current_timestamp = std::time(0);
+  std::cout << "input starts" << std::endl;
+  IntegerVector setLength(1);
+  setLength[0]  = RcppDeepState_int();
+  std::string setLength_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/random_contingency_table/libFuzzer_random_contingency_table/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_setLength.qs";
+  qs::c_qsave(setLength,setLength_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "setLength values: "<< setLength << std::endl;
+  NumericVector baserate(1);
+  baserate[0]  = RcppDeepState_double();
+  std::string baserate_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/random_contingency_table/libFuzzer_random_contingency_table/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_baserate.qs";
+  qs::c_qsave(baserate,baserate_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "baserate values: "<< baserate << std::endl;
+  NumericVector kappaMin(1);
+  kappaMin[0]  = RcppDeepState_double();
+  std::string kappaMin_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/random_contingency_table/libFuzzer_random_contingency_table/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_kappaMin.qs";
+  qs::c_qsave(kappaMin,kappaMin_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "kappaMin values: "<< kappaMin << std::endl;
+  NumericVector kappaMax(1);
+  kappaMax[0]  = RcppDeepState_double();
+  std::string kappaMax_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/random_contingency_table/libFuzzer_random_contingency_table/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_kappaMax.qs";
+  qs::c_qsave(kappaMax,kappaMax_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "kappaMax values: "<< kappaMax << std::endl;
+  NumericVector minPrecision(1);
+  minPrecision[0]  = RcppDeepState_double();
+  std::string minPrecision_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/random_contingency_table/libFuzzer_random_contingency_table/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_minPrecision.qs";
+  qs::c_qsave(minPrecision,minPrecision_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "minPrecision values: "<< minPrecision << std::endl;
+  NumericVector maxPrecision(1);
+  maxPrecision[0]  = RcppDeepState_double();
+  std::string maxPrecision_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/rhoR/inst/testfiles/random_contingency_table/libFuzzer_random_contingency_table/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_maxPrecision.qs";
+  qs::c_qsave(maxPrecision,maxPrecision_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "maxPrecision values: "<< maxPrecision << std::endl;
+  std::cout << "input ends" << std::endl;
+  try{
+    random_contingency_table(setLength[0],baserate[0],kappaMin[0],kappaMax[0],minPrecision[0],maxPrecision[0]);
+  }
+  catch(Rcpp::exception& e){
+    std::cout<<"Exception Handled"<<std::endl;
+  }
+}
