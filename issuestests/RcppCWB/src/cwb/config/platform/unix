@@ -24,7 +24,7 @@
 #
 
 ## C compiler: Gnu C compiler (GCC) is highly recommended
-CC=gcc -std=gnu99
+CC=gcc -std=gnu99 -std=gnu99
 
 ## C compiler flags (optimisation, warning, additional include directories)
 CFLAGS = -O2 -Wall
