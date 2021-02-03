@@ -1,0 +1,37 @@
+#include <fstream>
+#include <RInside.h>
+#include <iostream>
+#include <RcppDeepState.h>
+#include <qs.h>
+#include <DeepState.hpp>
+
+List to_k_lambda_weib_C(NumericVector mu, NumericVector sd);
+
+TEST(mixR_deepstate_test,to_k_lambda_weib_C_test){
+  static int rinside_flag = 0;
+  if(rinside_flag == 0)
+  {
+    rinside_flag = 1;
+    RInside R;
+  } std::time_t current_timestamp = std::time(0);
+  std::cout << "input starts" << std::endl;
+  NumericVector mu  = RcppDeepState_NumericVector();
+  std::string mu_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/to_k_lambda_weib_C/libFuzzer_to_k_lambda_weib_C/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_mu.qs";
+  qs::c_qsave(mu,mu_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "mu values: "<< mu << std::endl;
+  NumericVector sd  = RcppDeepState_NumericVector();
+  std::string sd_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/mixR/inst/testfiles/to_k_lambda_weib_C/libFuzzer_to_k_lambda_weib_C/libfuzzer_inputs/" + std::to_string(current_timestamp) +
+          "_sd.qs";
+  qs::c_qsave(sd,sd_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "sd values: "<< sd << std::endl;
+  std::cout << "input ends" << std::endl;
+  try{
+    to_k_lambda_weib_C(mu,sd);
+  }
+  catch(Rcpp::exception& e){
+    std::cout<<"Exception Handled"<<std::endl;
+  }
+}

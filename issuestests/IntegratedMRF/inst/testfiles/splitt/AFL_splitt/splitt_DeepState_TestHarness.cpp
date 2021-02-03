@@ -1,0 +1,59 @@
+#include <fstream>
+#include <ctime>
+#include <RInside.h>
+#include <iostream>
+#include <RcppDeepState.h>
+#include <qs.h>
+#include <DeepState.hpp>
+
+List splitt(NumericMatrix X, NumericMatrix Y, int m_feature, NumericVector Index, NumericMatrix Inv_Cov_Y, int Command, NumericVector ff);
+
+TEST(IntegratedMRF_deepstate_test,splitt_test){
+  RInside R;
+  std::time_t t = std::time(0);
+  std::cout << "input starts" << std::endl;
+  NumericMatrix X  = RcppDeepState_NumericMatrix();
+  std::string X_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/splitt/AFL_splitt/afl_inputs/" + std::to_string(t) + "_X.qs";
+  qs::c_qsave(X,X_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "X values: "<< X << std::endl;
+  NumericMatrix Y  = RcppDeepState_NumericMatrix();
+  std::string Y_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/splitt/AFL_splitt/afl_inputs/" + std::to_string(t) + "_Y.qs";
+  qs::c_qsave(Y,Y_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "Y values: "<< Y << std::endl;
+  IntegerVector m_feature(1);
+  m_feature[0]  = RcppDeepState_int();
+  std::string m_feature_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/splitt/AFL_splitt/afl_inputs/" + std::to_string(t) + "_m_feature.qs";
+  qs::c_qsave(m_feature,m_feature_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "m_feature values: "<< m_feature << std::endl;
+  NumericVector Index  = RcppDeepState_NumericVector();
+  std::string Index_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/splitt/AFL_splitt/afl_inputs/" + std::to_string(t) + "_Index.qs";
+  qs::c_qsave(Index,Index_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "Index values: "<< Index << std::endl;
+  NumericMatrix Inv_Cov_Y  = RcppDeepState_NumericMatrix();
+  std::string Inv_Cov_Y_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/splitt/AFL_splitt/afl_inputs/" + std::to_string(t) + "_Inv_Cov_Y.qs";
+  qs::c_qsave(Inv_Cov_Y,Inv_Cov_Y_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "Inv_Cov_Y values: "<< Inv_Cov_Y << std::endl;
+  IntegerVector Command(1);
+  Command[0]  = RcppDeepState_int();
+  std::string Command_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/splitt/AFL_splitt/afl_inputs/" + std::to_string(t) + "_Command.qs";
+  qs::c_qsave(Command,Command_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "Command values: "<< Command << std::endl;
+  NumericVector ff  = RcppDeepState_NumericVector();
+  std::string ff_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/IntegratedMRF/inst/testfiles/splitt/AFL_splitt/afl_inputs/" + std::to_string(t) + "_ff.qs";
+  qs::c_qsave(ff,ff_t,
+		"high", "zstd", 1, 15, true, 1);
+  std::cout << "ff values: "<< ff << std::endl;
+  std::cout << "input ends" << std::endl;
+  try{
+    splitt(X,Y,m_feature[0],Index,Inv_Cov_Y,Command[0],ff);
+  }
+  catch(Rcpp::exception& e){
+    std::cout<<"Exception Handled"<<std::endl;
+  }
+}
