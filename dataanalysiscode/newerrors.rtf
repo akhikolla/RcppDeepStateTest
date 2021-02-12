@@ -1,0 +1,729 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red180\green36\blue25;\red47\green180\blue29;
+}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c76409\c21698\c12524;\cssrgb\c20238\c73898\c14947;
+}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 clang++ -g -I/usr/share/R/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/qs/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RInside/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppDeepState/include /home/akhila/fuzzer_packages/fuzzedpackages/mdmb/inst/testfiles/mdmb_rcpp_weighted_sd/mdmb_rcpp_weighted_sd_DeepState_TestHarness.cpp -o /home/akhila/fuzzer_packages/fuzzedpackages/mdmb/inst/testfiles/mdmb_rcpp_weighted_sd/mdmb_rcpp_weighted_sd_DeepState_TestHarness.o -c\
+
+\f1\b /home/akhila/fuzzer_packages/fuzzedpackages/maxnodf/inst/testfiles/hill_climb_step_cpp/hill_climb_step_cpp_DeepState_TestHarness.cpp:20:17: \cf3 error: \cf2 redefinition of 'R' with a different type:
+\f0\b0 \
+
+\f1\b       'Rcpp::IntegerVector' (aka 'Vector<13>') vs 'RInside'
+\f0\b0 \
+  IntegerVector R(1);\
+
+\f1\b \cf4                 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/fuzzer_packages/fuzzedpackages/maxnodf/inst/testfiles/hill_climb_step_cpp/hill_climb_step_cpp_DeepState_TestHarness.cpp:14:11: note: 
+\f0\b0 previous definition is here\
+  RInside R;\
+
+\f1\b \cf4           ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/fuzzer_packages/fuzzedpackages/maxnodf/inst/testfiles/hill_climb_step_cpp/hill_climb_step_cpp_DeepState_TestHarness.cpp:22:15: \cf3 error: \cf2 no viable conversion from 'RInside' to 'SEXP'
+\f0\b0 \
+
+\f1\b       (aka 'SEXPREC *')
+\f0\b0 \
+  qs::c_qsave(R,"/home/akhila/fuzzer_packages/fuzzedpackages/maxnodf/inst/testfiles/hill_climb_step_cpp/inputs/R.qs",\
+
+\f1\b \cf4               ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/qs/include/qs_RcppExports.h:348:38: note: 
+\f0\b0 passing argument to parameter 'x' here\
+    inline double c_qsave(SEXP const x, const std::string& file, const std::string& preset, const std::string& algorithm, const int compress_level, const int shuffle_control, const bool check_hash...\
+
+\f1\b \cf4                                      ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/fuzzer_packages/fuzzedpackages/maxnodf/inst/testfiles/hill_climb_step_cpp/hill_climb_step_cpp_DeepState_TestHarness.cpp:24:28: \cf3 error: \cf2 invalid operands to binary expression
+\f0\b0 \
+
+\f1\b       ('basic_ostream<char, std::char_traits<char> >' and 'RInside')
+\f0\b0 \
+  std::cout << "R values: "<< R << std::endl;\
+
+\f1\b \cf4   ~~~~~~~~~~~~~~~~~~~~~~~~~^  ~
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/system_error:217:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'const std::error_code' for 2nd\
+      argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:511:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'char' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:517:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'char' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, char __c)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:523:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'signed char' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, signed char __c)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:528:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'unsigned char' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:565:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'const char *' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, const char* __s)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:578:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'const signed char *' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:583:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'const unsigned char *' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/ostream.tcc:321:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'const char *' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:79:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'std::_Resetiosflags' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:109:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'std::_Setiosflags' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:143:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'std::_Setbase' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:208:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'std::_Setprecision' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:238:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to 'std::_Setw' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/complex.h:76:23: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'const Rcomplex' for 2nd argument\
+inline std::ostream & operator<<(std::ostream &os, const Rcomplex& cplx) \{\
+
+\f1\b \cf4                       ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/Date.h:172:26: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'const Rcpp::Date' for 2nd argument\
+    inline std::ostream &operator<<(std::ostream & os, const Date d) \{\
+
+\f1\b \cf4                          ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/newDateVector.h:65:26: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'const Rcpp::newDateVector'\
+      for 2nd argument\
+    inline std::ostream &operator<<(std::ostream & os, const newDateVector d) \{\
+
+\f1\b \cf4                          ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/Datetime.h:166:26: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'const Rcpp::Datetime' for 2nd\
+      argument\
+    inline std::ostream &operator<<(std::ostream & os, const Datetime d) \{\
+
+\f1\b \cf4                          ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/newDatetimeVector.h:81:26: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to\
+      'const Rcpp::newDatetimeVector' for 2nd argument\
+    inline std::ostream &operator<<(std::ostream & os, const newDatetimeVector d) \{\
+
+\f1\b \cf4                          ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:998:5: note: 
+\f0\b0 candidate function template not viable: no known conversion from 'RInside' to\
+      'const std::bernoulli_distribution' for 2nd argument\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:160:1: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to\
+      'const arma::SizeMat' for 2nd argument\
+operator<< (std::ostream& o, const SizeMat& S)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:173:1: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to\
+      'const arma::SizeCube' for 2nd argument\
+operator<< (std::ostream& o, const SizeCube& S)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:506:5: note: 
+\f0\b0 candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'RInside')\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:6416:5: note: 
+\f0\b0 candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1,\
+      type-parameter-0-2>' against 'RInside'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:548:5: note: 
+\f0\b0 candidate template ignored: could not match 'const _CharT *' against 'RInside'\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:691:5: note: 
+\f0\b0 candidate template ignored: requirement '__and_<std::__not_<std::is_lvalue_reference<std::basic_ostream<char,\
+      std::char_traits<char> > &> >, std::__is_convertible_to_basic_ostream<std::basic_ostream<char, std::char_traits<char> > &>, std::__is_insertable<std::basic_ostream<char, std::char_traits<char> > &,\
+      const RInside &, void> >::value' was not satisfied [with _Ostream = std::basic_ostream<char> &, _Tp = RInside]\
+    operator<<(_Ostream&& __os, const _Tp& __x)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:178:5: note: 
+\f0\b0 candidate template ignored: could not match '_Setfill<type-parameter-0-0>' against 'RInside'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:311:5: note: 
+\f0\b0 candidate template ignored: could not match '_Put_money<type-parameter-0-2>' against 'RInside'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:363:5: note: 
+\f0\b0 candidate template ignored: could not match '_Put_time<type-parameter-0-0>' against 'RInside'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/complex:552:5: note: 
+\f0\b0 candidate template ignored: could not match 'complex<type-parameter-0-0>' against 'RInside'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Vector.h:1142:22: note: 
+\f0\b0 candidate template ignored: could not match 'Vector<RTYPE, >' against 'RInside'\
+inline std::ostream &operator<<(std::ostream & s, const Vector<RTYPE, StoragePolicy> & rhs) \{\
+
+\f1\b \cf4                      ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Vector.h:1161:22: note: 
+\f0\b0 candidate template ignored: could not match 'Vector<16, >' against 'RInside'\
+inline std::ostream &operator<<(std::ostream & s, const Vector<STRSXP, StoragePolicy> & rhs) \{\
+
+\f1\b \cf4                      ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:218:22: note: 
+\f0\b0 candidate template ignored: could not match 'Matrix<14, >' against 'RInside'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<REALSXP, StoragePolicy> & rhs) \{\
+
+\f1\b \cf4                      ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:286:22: note: 
+\f0\b0 candidate template ignored: could not match 'Matrix<13, >' against 'RInside'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<INTSXP, StoragePolicy> & rhs) \{\
+
+\f1\b \cf4                      ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:352:22: note: 
+\f0\b0 candidate template ignored: could not match 'Matrix<16, >' against 'RInside'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<STRSXP, StoragePolicy> & rhs) \{\
+
+\f1\b \cf4                      ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:379:22: note: 
+\f0\b0 candidate template ignored: could not match 'Matrix<RTYPE, >' against 'RInside'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<RTYPE, StoragePolicy> & rhs) \{\
+
+\f1\b \cf4                      ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.h:1298:5: note: 
+\f0\b0 candidate template ignored: could not match 'independent_bits_engine<type-parameter-0-0, __w,\
+      type-parameter-0-2>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:154:5: note: 
+\f0\b0 candidate template ignored: could not match 'linear_congruential_engine<type-parameter-0-0, __a, __c, __m>'\
+      against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:476:5: note: 
+\f0\b0 candidate template ignored: could not match 'mersenne_twister_engine<type-parameter-0-0, __w, __n, __m, __r,\
+      __a, __u, __d, __s, __b, __t, __c, __l, __f>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:632:5: note: 
+\f0\b0 candidate template ignored: could not match 'subtract_with_carry_engine<type-parameter-0-0, __w, __s, __r>'\
+      against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:702:5: note: 
+\f0\b0 candidate template ignored: could not match 'discard_block_engine<type-parameter-0-0, __p, __r>' against\
+      'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:831:5: note: 
+\f0\b0 candidate template ignored: could not match 'shuffle_order_engine<type-parameter-0-0, __k>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:877:5: note: 
+\f0\b0 candidate template ignored: could not match 'uniform_int_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:936:5: note: 
+\f0\b0 candidate template ignored: could not match 'uniform_real_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1080:5: note: 
+\f0\b0 candidate template ignored: could not match 'geometric_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1195:5: note: 
+\f0\b0 candidate template ignored: could not match 'negative_binomial_distribution<type-parameter-0-0>' against\
+      'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1406:5: note: 
+\f0\b0 candidate template ignored: could not match 'poisson_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1673:5: note: 
+\f0\b0 candidate template ignored: could not match 'binomial_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1737:5: note: 
+\f0\b0 candidate template ignored: could not match 'exponential_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1904:5: note: 
+\f0\b0 candidate template ignored: could not match 'normal_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1973:5: note: 
+\f0\b0 candidate template ignored: could not match 'lognormal_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2046:5: note: 
+\f0\b0 candidate template ignored: could not match 'chi_squared_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2133:5: note: 
+\f0\b0 candidate template ignored: could not match 'cauchy_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2210:5: note: 
+\f0\b0 candidate template ignored: could not match 'fisher_f_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2285:5: note: 
+\f0\b0 candidate template ignored: could not match 'student_t_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2454:5: note: 
+\f0\b0 candidate template ignored: could not match 'gamma_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2532:5: note: 
+\f0\b0 candidate template ignored: could not match 'weibull_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2608:5: note: 
+\f0\b0 candidate template ignored: could not match 'extreme_value_distribution<type-parameter-0-0>' against\
+      'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2744:5: note: 
+\f0\b0 candidate template ignored: could not match 'discrete_distribution<type-parameter-0-0>' against 'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2967:5: note: 
+\f0\b0 candidate template ignored: could not match 'piecewise_constant_distribution<type-parameter-0-0>' against\
+      'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:3174:5: note: 
+\f0\b0 candidate template ignored: could not match 'piecewise_linear_distribution<type-parameter-0-0>' against\
+      'RInside'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f1\b \cf4     ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:25:1: note: 
+\f0\b0 candidate template ignored: could not match\
+      'Base<type-parameter-0-0, type-parameter-0-1>' against 'RInside'\
+operator<< (std::ostream& o, const Base<eT,T1>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:41:1: note: 
+\f0\b0 candidate template ignored: could not match\
+      'SpBase<type-parameter-0-0, type-parameter-0-1>' against 'RInside'\
+operator<< (std::ostream& o, const SpBase<eT,T1>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:57:1: note: 
+\f0\b0 candidate template ignored: could not match 'SpValProxy<type-parameter-0-0>' against\
+      'RInside'\
+operator<< (std::ostream& o, const SpValProxy<T1>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:73:1: note: 
+\f0\b0 candidate template ignored: could not match 'MapMat_val<type-parameter-0-0>' against\
+      'RInside'\
+operator<< (std::ostream& o, const MapMat_val<eT>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:87:1: note: 
+\f0\b0 candidate template ignored: could not match 'SpMat_MapMat_val<type-parameter-0-0>'\
+      against 'RInside'\
+operator<< (std::ostream& o, const SpMat_MapMat_val<eT>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:101:1: note: 
+\f0\b0 candidate template ignored: could not match 'SpSubview_MapMat_val<type-parameter-0-0>'\
+      against 'RInside'\
+operator<< (std::ostream& o, const SpSubview_MapMat_val<eT>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:115:1: note: 
+\f0\b0 candidate template ignored: could not match 'BaseCube<typename\
+      type-parameter-0-0::elem_type, type-parameter-0-0>' against 'RInside'\
+operator<< (std::ostream& o, const BaseCube<typename T1::elem_type,T1>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:132:1: note: 
+\f0\b0 candidate template ignored: could not match 'field<type-parameter-0-0>' against\
+      'RInside'\
+operator<< (std::ostream& o, const field<T1>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:147:1: note: 
+\f0\b0 candidate template ignored: could not match 'subview_field<type-parameter-0-0>'\
+      against 'RInside'\
+operator<< (std::ostream& o, const subview_field<T1>& X)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:276:1: note: 
+\f0\b0 candidate template ignored: could not match 'mat_injector' against 'basic_ostream'\
+operator<<(const mat_injector<T1>& ref, const typename mat_injector<T1>::elem_type val)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:290:1: note: 
+\f0\b0 candidate template ignored: could not match 'mat_injector' against 'basic_ostream'\
+operator<<(const mat_injector<T1>& ref, const injector_end_of_row<>& x)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:581:1: note: 
+\f0\b0 candidate template ignored: could not match 'field_injector' against 'basic_ostream'\
+operator<<(const field_injector<T1>& ref, const typename field_injector<T1>::object_type& val)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:595:1: note: 
+\f0\b0 candidate template ignored: could not match 'field_injector' against 'basic_ostream'\
+operator<<(const field_injector<T1>& ref, const injector_end_of_row<>& x)\
+
+\f1\b \cf4 ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:108:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'std::basic_ostream<char, std::char_traits<char>\
+      >::__ostream_type &(*)(std::basic_ostream<char, std::char_traits<char> >::__ostream_type &)' (aka 'basic_ostream<char, std::char_traits<char> > &(*)(basic_ostream<char, std::char_traits<char> > &)')\
+      for 1st argument\
+      operator<<(__ostream_type& (*__pf)(__ostream_type&))\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:117:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'std::basic_ostream<char, std::char_traits<char>\
+      >::__ios_type &(*)(std::basic_ostream<char, std::char_traits<char> >::__ios_type &)' (aka 'basic_ios<char, std::char_traits<char> > &(*)(basic_ios<char, std::char_traits<char> > &)') for 1st\
+      argument\
+      operator<<(__ios_type& (*__pf)(__ios_type&))\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:127:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'std::ios_base &(*)(std::ios_base &)' for 1st\
+      argument\
+      operator<<(ios_base& (*__pf) (ios_base&))\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:166:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'long' for 1st argument\
+      operator<<(long __n)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:170:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'unsigned long' for 1st argument\
+      operator<<(unsigned long __n)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:174:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'bool' for 1st argument\
+      operator<<(bool __n)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:178:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'short' for 1st argument\
+      operator<<(short __n);\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:181:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'unsigned short' for 1st argument\
+      operator<<(unsigned short __n)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:189:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'int' for 1st argument\
+      operator<<(int __n);\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:192:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'unsigned int' for 1st argument\
+      operator<<(unsigned int __n)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:201:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'long long' for 1st argument\
+      operator<<(long long __n)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:205:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'unsigned long long' for 1st argument\
+      operator<<(unsigned long long __n)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:220:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'double' for 1st argument\
+      operator<<(double __f)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:224:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'float' for 1st argument\
+      operator<<(float __f)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:232:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'long double' for 1st argument\
+      operator<<(long double __f)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:245:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'const void *' for 1st argument; take the address\
+      of the argument with &\
+      operator<<(const void* __p)\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+
+\f1\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:276:7: note: 
+\f0\b0 candidate function not viable: no known conversion from 'RInside' to 'std::basic_ostream<char, std::char_traits<char>\
+      >::__streambuf_type *' (aka 'basic_streambuf<char, std::char_traits<char> > *') for 1st argument\
+      operator<<(__streambuf_type* __sb);\
+
+\f1\b \cf4       ^
+\f0\b0 \cf2 \
+3 errors generated.\
+make: *** [Makefile:8: /home/akhila/fuzzer_packages/fuzzedpackages/maxnodf/inst/testfiles/hill_climb_step_cpp/hill_climb_step_cpp_DeepState_TestHarness.o] Error 1\
+running the executable .. }

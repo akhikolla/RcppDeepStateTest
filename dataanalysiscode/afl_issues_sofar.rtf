@@ -1,0 +1,1335 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Monaco;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red180\green36\blue25;\red47\green180\blue29;
+\red46\green174\blue187;\red229\green229\blue229;\red47\green231\blue26;\red111\green111\blue111;\red252\green33\blue24;
+\red200\green20\blue201;\red232\green235\blue20;\red44\green238\blue235;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c76409\c21698\c12524;\cssrgb\c20238\c73898\c14947;
+\cssrgb\c20196\c73240\c78250;\cssrgb\c91983\c91983\c91983;\cssrgb\c17862\c90513\c12810;\cssrgb\c51166\c51167\c51165;\cssrgb\c100000\c23177\c11601;
+\cssrgb\c83396\c23075\c82664;\cssrgb\c92619\c92471\c8345;\cssrgb\c15683\c93976\c93913;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b\fs22 \cf2 \CocoaLigature0 /home/akhila/fuzzer_packages/fuzzedpackages/flexpolyline/inst/testfiles/encode/AFL_encode/encode_DeepState_TestHarness.cpp:37:15: \cf3 error: \cf2 redefinition of 'third_dim_t'
+\f1\b0 \
+  std::string third_dim_t = "/home/akhila/fuzzer_packages/fuzzedpackages/flexpolyline/inst/testfiles/encode/AFL_encode/afl_inputs/" + std::to_string(t) + "_third_dim.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/flexpolyline/inst/testfiles/encode/AFL_encode/encode_DeepState_TestHarness.cpp:31:15: note: 
+\f1\b0 previous definition is here\
+  std::string third_dim_t = "/home/akhila/fuzzer_packages/fuzzedpackages/flexpolyline/inst/testfiles/encode/AFL_encode/afl_inputs/" + std::to_string(t) + "_third_dim.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/dbscan/inst/testfiles/distToAdjacency/AFL_distToAdjacency/distToAdjacency_DeepState_TestHarness.cpp:20:15: \cf3 error: \cf2 use of undeclared identifier 'constraints'
+\f1\b0 \
+  qs::c_qsave(constraints,constraints_t,\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/dbscan/inst/testfiles/distToAdjacency/AFL_distToAdjacency/distToAdjacency_DeepState_TestHarness.cpp:22:41: \cf3 error: \cf2 use of undeclared identifier 'constraints';
+\f1\b0 \
+
+\f0\b       did you mean 'constraints_t'?
+\f1\b0 \
+  std::cout << "constraints values: "<< constraints << std::endl;\
+
+\f0\b \cf4                                         ^~~~~~~~~~~
+\f1\b0 \cf2 \
+\cf4                                         constraints_t\cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/dbscan/inst/testfiles/distToAdjacency/AFL_distToAdjacency/distToAdjacency_DeepState_TestHarness.cpp:19:15: note: 
+\f1\b0 'constraints_t' declared here\
+  std::string constraints_t = "/home/akhila/fuzzer_packages/fuzzedpackages/dbscan/inst/testfiles/distToAdjacency/AFL_distToAdjacency/afl_inputs/" + std::to_string(t) + "_constraints.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/dbscan/inst/testfiles/distToAdjacency/AFL_distToAdjacency/distToAdjacency_DeepState_TestHarness.cpp:31:21: \cf3 error: \cf2 use of undeclared identifier 'constraints';
+\f1\b0 \
+
+\f0\b       did you mean 'constraints_t'?
+\f1\b0 \
+    distToAdjacency(constraints,N[0]);\
+
+\f0\b \cf4                     ^~~~~~~~~~~
+\f1\b0 \cf2 \
+\cf4                     constraints_t\cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/dbscan/inst/testfiles/distToAdjacency/AFL_distToAdjacency/distToAdjacency_DeepState_TestHarness.cpp:19:15: note: 
+\f1\b0 'constraints_t' declared here\
+  std::string constraints_t = "/home/akhila/fuzzer_packages/fuzzedpackages/dbscan/inst/testfiles/distToAdjacency/AFL_distToAdjacency/afl_inputs/" + std::to_string(t) + "_constraints.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+1 error generated.\
+make: *** [Makefile:11: /home/akhila/fuzzer_packages/fuzzedpackages/flexpolyline/inst/testfiles/encode/AFL_encode/encode_DeepState_TestHarness.o] Error 1\
+sh: 1: /afl-fuzz: not found\
+/home/akhila/.RcppDeepState/afl-2.52\
+\
+\
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/iRF/inst/testfiles/nodeVars/AFL_nodeVars/nodeVars_DeepState_TestHarness.cpp:36:15: \cf3 error: \cf2 redefinition of 'p_t'
+\f1\b0 \
+  std::string p_t = "/home/akhila/fuzzer_packages/fuzzedpackages/iRF/inst/testfiles/nodeVars/AFL_nodeVars/afl_inputs/" + std::to_string(t) + "_p.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/iRF/inst/testfiles/nodeVars/AFL_nodeVars/nodeVars_DeepState_TestHarness.cpp:31:15: note: 
+\f1\b0 previous definition is here\
+  std::string p_t = "/home/akhila/fuzzer_packages/fuzzedpackages/iRF/inst/testfiles/nodeVars/AFL_nodeVars/afl_inputs/" + std::to_string(t) + "_p.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+\
+/usr/bin/ld: /tmp/RcppExports-908904.o: in function `_nandb_median_filter':\
+/home/akhila/fuzzer_packages/fuzzedpackages/nandb/src/RcppExports.cpp:18: undefined reference to `median_filter(Rcpp::Matrix<14, Rcpp::PreserveStorage>, int, bool, bool)'\
+/usr/bin/ld: /tmp/RcppExports-908904.o: in function `_nandb_smooth_filter':\
+/home/akhila/fuzzer_packages/fuzzedpackages/nandb/src/RcppExports.cpp:32: undefined reference to `smooth_filter(Rcpp::Matrix<14, Rcpp::PreserveStorage>, int, bool, bool)'\
+clang: 
+\f0\b \cf3 error: 
+\f1\b0 \cf2 linker command failed with exit code 1 (use -v to see invocation)\
+make: *** [Makefile:8: /home/akhila/fuzzer_packages/fuzzedpackages/nandb/inst/testfiles/cross_var_Cpp/AFL_cross_var_Cpp/cross_var_Cpp_DeepState_TestHarness] Error 1\
+sh: 1: /afl-fuzz: not found\
+\
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/MM4LMM/src/All.cpp:3:10: \cf3 fatal error: \cf2 'RcppEigen.h' file not found
+\f1\b0 \
+#include <RcppEigen.h>\
+
+\f0\b \cf4          ^~~~~~~~~~~~~
+\f1\b0 \cf2 \
+1 error generated.\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/MM4LMM/src/RcppExports.cpp:4:10: \cf3 fatal error: \cf2 'RcppEigen.h' file not found
+\f1\b0 \
+#include <RcppEigen.h>\
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/swephR/src/swephR.cpp:20:10: \cf3 fatal error: \cf2 'swephexp.h' file not found
+\f1\b0 \
+#include <swephexp.h>\
+
+\f0\b \cf4          ^~~~~~~~~~~~
+\f1\b0 \cf2 \
+1 error generated.\
+make: *** [Makefile:8: /home/akhila/fuzzer_packages/fuzzedpackages/swephR/inst/testfiles/day_of_week/AFL_day_of_week/day_of_week_DeepState_TestHarness] Error 1\
+sh: 1: /afl-fuzz: not found\
+\
+\
+/usr/bin/ld: /tmp/lars-8ad7bc.o: undefined reference to symbol 'dtrsv_'\
+/usr/bin/ld: /usr/lib/x86_64-linux-gnu/libblas.so.3: error adding symbols: DSO missing from command line\
+clang: 
+\f0\b \cf3 error: 
+\f1\b0 \cf2 linker command failed with exit code 1 (use -v to see invocation)\
+make: *** [Makefile:8: /home/akhila/fuzzer_packages/fuzzedpackages/dfphase1/inst/testfiles/alasso/AFL_alasso/alasso_DeepState_TestHarness] Error 1\
+sh: 1: /afl-fuzz: not found\
+/home/akhila/.RcppDeepState/afl-2.52b/afl-clang++ -g -I/usr/share/R/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/qs/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RInside/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppDeepState/include /home/akhila/fuzzer_packages/fuzzedpackages/disclapmix/inst/testfiles/disclapglm_deviance/AFL_disclapglm_deviance/disclapglm_deviance_DeepState_TestHarness.cpp -o /home/akhila/fuzzer_packages/fuzzedpackages/disclapmix/inst/testfiles/disclapglm_deviance/AFL_disclapglm_deviance/disclapglm_deviance_DeepState_TestHarness.o -c\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf5 afl-cc 
+\f0\b \cf6 2.52b
+\f1\b0 \cf2  by <lcamtuf@google.com>\
+\cf5 afl-as 
+\f0\b \cf6 2.52b
+\f1\b0 \cf2  by <lcamtuf@google.com>\
+
+\f0\b \cf7 [+] 
+\f1\b0 \cf2 Instrumented 925 locations (64-bit, non-hardened mode, ratio 100%).\
+sh: 1: /afl-fuzz: not found\
+\
+/usr/bin/ld: /tmp/RcppExports-3954c9.o: in function `_nandb_median_filter':\
+/home/akhila/fuzzer_packages/fuzzedpackages/nandb/src/RcppExports.cpp:18: undefined reference to `median_filter(Rcpp::Matrix<14, Rcpp::PreserveStorage>, int, bool, bool)'\
+/usr/bin/ld: /tmp/RcppExports-3954c9.o: in function `_nandb_smooth_filter':\
+/home/akhila/fuzzer_packages/fuzzedpackages/nandb/src/RcppExports.cpp:32: undefined reference to `smooth_filter(Rcpp::Matrix<14, Rcpp::PreserveStorage>, int, bool, bool)'\
+clang: 
+\f0\b \cf3 error: 
+\f1\b0 \cf2 linker command failed with exit code 1 (use -v to see invocation)\
+make: *** [Makefile:8: /home/akhila/fuzzer_packages/fuzzedpackages/nandb/inst/testfiles/cross_var_pillars_Cpp/AFL_cross_var_pillars_Cpp/cross_var_pillars_Cpp_DeepState_TestHarness] Error 1\
+sh: 1: /afl-fuzz: not found\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:31:17: \cf3 error: \cf2 redefinition of 't' with a different type:
+\f1\b0 \
+
+\f0\b       'Rcpp::IntegerVector' (aka 'Vector<13>') vs 'std::time_t' (aka 'long')
+\f1\b0 \
+  IntegerVector t  = RcppDeepState_IntegerVector();\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:13:15: note: 
+\f1\b0 previous definition is here\
+  std::time_t t = std::time(0);\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:33:15: \cf3 error: \cf2 cannot initialize a parameter of type
+\f1\b0 \
+
+\f0\b       'SEXP' (aka 'SEXPREC *') with an lvalue of type 'std::time_t' (aka 'long')
+\f1\b0 \
+  qs::c_qsave(t,t_t,\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/qs/include/qs_RcppExports.h:348:38: note: 
+\f1\b0 passing argument to parameter 'x' here\
+    inline double c_qsave(SEXP const x, const std::string& file, const std::string& preset, const std::string& algorithm, const int compress_level, const int shuffle_control, const bool check_hash...\
+
+\f0\b \cf4                                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:38:15: \cf3 error: \cf2 redefinition of 't_t'
+\f1\b0 \
+  std::string t_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/afl_inputs/" + std::to_string(t...\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:32:15: note: 
+\f1\b0 previous definition is here\
+  std::string t_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/afl_inputs/" + std::to_string(t...\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:45:15: \cf3 error: \cf2 redefinition of 't_t'
+\f1\b0 \
+  std::string t_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/afl_inputs/" + std::to_string(t...\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:32:15: note: 
+\f1\b0 previous definition is here\
+  std::string t_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/afl_inputs/" + std::to_string(t...\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:52:15: \cf3 error: \cf2 redefinition of 't_t'
+\f1\b0 \
+  std::string t_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/afl_inputs/" + std::to_string(t...\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.cpp:32:15: note: 
+\f1\b0 previous definition is here\
+  std::string t_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/afl_inputs/" + std::to_string(t...\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf5 afl-as 
+\f0\b \cf6 2.52b
+\f1\b0 \cf2  by <lcamtuf@google.com>\
+\cf5 afl-as 
+\f0\b \cf6 2.52b
+\f1\b0 \cf2  by <lcamtuf@google.com>\
+
+\f0\b \cf7 [+] 
+\f1\b0 \cf2 Instrumented 483 locations (64-bit, non-hardened mode, ratio 100%).\
+
+\f0\b \cf7 [+] 
+\f1\b0 \cf2 Instrumented 703 locations (64-bit, non-hardened mode, ratio 100%).\
+5 errors generated.\
+make: *** [Makefile:11: /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/computeMSPEcpp/AFL_computeMSPEcpp/computeMSPEcpp_DeepState_TestHarness.o] Error 1\
+sh: 1: /afl-fuzz: not found\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/swephR/src/swephR.cpp:20:10: \cf3 fatal error: \cf2 'swephexp.h' file not found
+\f1\b0 \
+#include <swephexp.h>\
+
+\f0\b \cf4          ^~~~~~~~~~~~
+\f1\b0 \cf2 \
+1 error generated.\
+make: *** [Makefile:8: /home/akhila/fuzzer_packages/fuzzedpackages/swephR/inst/testfiles/deltat/AFL_deltat/deltat_DeepState_TestHarness] Error 1\
+sh: 1: /afl-fuzz: not found\
+\
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/predCoef/AFL_predCoef/predCoef_DeepState_TestHarness.cpp:32:17: \cf3 error: \cf2 redefinition of 't' with a different type:
+\f1\b0 \
+
+\f0\b       'Rcpp::IntegerVector' (aka 'Vector<13>') vs 'std::time_t' (aka 'long')
+\f1\b0 \
+  IntegerVector t  = RcppDeepState_IntegerVector();\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/predCoef/AFL_predCoef/predCoef_DeepState_TestHarness.cpp:13:15: note: 
+\f1\b0 previous definition is here\
+  std::time_t t = std::time(0);\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/forecastSNSTS/inst/testfiles/predCoef/AFL_predCoef/predCoef_DeepState_TestHarness.cpp:34:15: \cf3 error: \cf2 cannot initialize a parameter of type 'SEXP'
+\f1\b0 \
+
+\f0\b       (aka 'SEXPREC *') with an lvalue of type 'std::time_t' (aka 'long')
+\f1\b0 \
+  qs::c_qsave(t,t_t,\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/qs/include/qs_RcppExports.h:348:38: note: 
+\f1\b0 passing argument to parameter 'x' here\
+    inline double c_qsave(SEXP const x, const std::string& file, const std::string& preset, const std::string& algorithm, const int compress_level, const int shuffle_control, const bool check_hash...\
+
+\f0\b \cf4                                      ^\
+\
+\
+\
+\
+\cf2 /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:31:17: \cf3 error: \cf2 redefinition of 'sig2_eps'
+\f1\b0 \
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:24:17: note: 
+\f1\b0 previous definition is here\
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:32:18: \cf3 error: \cf2 assigning to 'typename storage_type<14>::type' (aka 'double') from
+\f1\b0 \
+
+\f0\b       incompatible type 'arma::mat' (aka 'Mat<double>')
+\f1\b0 \
+  sig2_eps[0]  = RcppDeepState_mat();\
+
+\f0\b \cf4                  ^~~~~~~~~~~~~~~~~~~
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:34:19: \cf3 error: \cf2 use of undeclared identifier 'ZZt_b'
+\f1\b0 \
+  ZZt_b_stream << ZZt_b;\
+
+\f0\b \cf4                   ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:35:35: \cf3 error: \cf2 use of undeclared identifier 'ZZt_b'
+\f1\b0 \
+  std::cout << "ZZt_b values: "<< ZZt_b << std::endl;\
+
+\f0\b \cf4                                   ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:38:17: \cf3 error: \cf2 redefinition of 'sig2_eps'
+\f1\b0 \
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:24:17: note: 
+\f1\b0 previous definition is here\
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:39:18: \cf3 error: \cf2 assigning to 'typename storage_type<14>::type' (aka 'double') from
+\f1\b0 \
+
+\f0\b       incompatible type 'arma::mat' (aka 'Mat<double>')
+\f1\b0 \
+  sig2_eps[0]  = RcppDeepState_mat();\
+
+\f0\b \cf4                  ^~~~~~~~~~~~~~~~~~~
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:41:22: \cf3 error: \cf2 use of undeclared identifier 'ZZt_b_ii'
+\f1\b0 \
+  ZZt_b_ii_stream << ZZt_b_ii;\
+
+\f0\b \cf4                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:42:38: \cf3 error: \cf2 use of undeclared identifier 'ZZt_b_ii'
+\f1\b0 \
+  std::cout << "ZZt_b_ii values: "<< ZZt_b_ii << std::endl;\
+
+\f0\b \cf4                                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:45:17: \cf3 error: \cf2 redefinition of 'sig2_eps'
+\f1\b0 \
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:24:17: note: 
+\f1\b0 previous definition is here\
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:46:18: \cf3 error: \cf2 assigning to 'typename storage_type<14>::type' (aka 'double') from
+\f1\b0 \
+
+\f0\b       incompatible type 'arma::mat' (aka 'Mat<double>')
+\f1\b0 \
+  sig2_eps[0]  = RcppDeepState_mat();\
+
+\f0\b \cf4                  ^~~~~~~~~~~~~~~~~~~
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:48:21: \cf3 error: \cf2 use of undeclared identifier 'ZZt_eps'
+\f1\b0 \
+  ZZt_eps_stream << ZZt_eps;\
+
+\f0\b \cf4                     ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:49:37: \cf3 error: \cf2 use of undeclared identifier 'ZZt_eps'
+\f1\b0 \
+  std::cout << "ZZt_eps values: "<< ZZt_eps << std::endl;\
+
+\f0\b \cf4                                     ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:52:17: \cf3 error: \cf2 redefinition of 'sig2_eps'
+\f1\b0 \
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:24:17: note: 
+\f1\b0 previous definition is here\
+  NumericVector sig2_eps(1);\
+
+\f0\b \cf4                 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:53:18: \cf3 error: \cf2 assigning to 'typename storage_type<14>::type' (aka 'double') from
+\f1\b0 \
+
+\f0\b       incompatible type 'arma::mat' (aka 'Mat<double>')
+\f1\b0 \
+  sig2_eps[0]  = RcppDeepState_mat();\
+
+\f0\b \cf4                  ^~~~~~~~~~~~~~~~~~~
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:55:24: \cf3 error: \cf2 use of undeclared identifier 'ZZt_eps_ii'
+\f1\b0 \
+  ZZt_eps_ii_stream << ZZt_eps_ii;\
+
+\f0\b \cf4                        ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:56:40: \cf3 error: \cf2 use of undeclared identifier 'ZZt_eps_ii'
+\f1\b0 \
+  std::cout << "ZZt_eps_ii values: "<< ZZt_eps_ii << std::endl;\
+
+\f0\b \cf4                                        ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:66:34: \cf3 error: \cf2 use of undeclared identifier 'ZZt_b'
+\f1\b0 \
+    V_list(sig2_b[0],sig2_eps[0],ZZt_b,ZZt_b_ii,ZZt_eps,ZZt_eps_ii,m_i[0]);\
+
+\f0\b \cf4                                  ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:66:40: \cf3 error: \cf2 use of undeclared identifier 'ZZt_b_ii'
+\f1\b0 \
+    V_list(sig2_b[0],sig2_eps[0],ZZt_b,ZZt_b_ii,ZZt_eps,ZZt_eps_ii,m_i[0]);\
+
+\f0\b \cf4                                        ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.cpp:66:49: \cf3 error: \cf2 use of undeclared identifier 'ZZt_eps'
+\f1\b0 \
+    V_list(sig2_b[0],sig2_eps[0],ZZt_b,ZZt_b_ii,ZZt_eps,ZZt_eps_ii,m_i[0]);\
+
+\f0\b \cf4                                                 ^
+\f1\b0 \cf2 \
+
+\f0\b \cf3 fatal error: 
+\f1\b0 \cf2 too many errors emitted, stopping now [-ferror-limit=]\
+20 errors generated.\
+make: *** [Makefile:11: /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/V_list/AFL_V_list/V_list_DeepState_TestHarness.o] Error 1\
+sh: 1: /afl-fuzz: not found\
+/home/akhila/.RcppDeepState/afl-2.52b/afl-clang++ -g -I/usr/share/R/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/qs/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RInside/include -I/home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppDeepState/include /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/psi_huber/AFL_psi_huber/psi_huber_DeepState_TestHarness.cpp -o /home/akhila/fuzzer_packages/fuzzedpackages/robustBLME/inst/testfiles/psi_huber/AFL_psi_huber/psi_huber_DeepState_TestHarness.o -c\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf5 afl-cc 
+\f0\b \cf6 2.52b
+\f1\b0 \cf2  by <lcamtuf@google.com>\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/swephR/src/swephR.cpp:20:10: \cf3 fatal error: \cf2 'swephexp.h' file not found
+\f1\b0 \
+#include <swephexp.h>\
+
+\f0\b \cf4          ^~~~~~~~~~~~
+\f1\b0 \cf2 \
+1 error generated.\
+make: *** [Makefile:8: /home/akhila/fuzzer_packages/fuzzedpackages/swephR/inst/testfiles/get_ayanamsa_ex_ut/AFL_get_ayanamsa_ex_ut/get_ayanamsa_ex_ut_DeepState_TestHarness] Error 1\
+sh: 1: /afl-fuzz: not found\
+\
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/RcppCWB/src/utils.cpp:3:12: \cf3 fatal error: \cf2 'attributes.h' file not found
+\f1\b0 \
+  #include <attributes.h>\
+
+\f0\b \cf4            ^~~~~~~~~~~~~~
+\f1\b0 \cf2 \
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/ggiraph/src/dsvg.cpp:9:10: \cf3 fatal error: \cf2 'gdtools.h' file not found
+\f1\b0 \
+#include <gdtools.h>\
+
+\f0\b \cf4          ^~~~~~~~~~~
+\f1\b0 \cf2 \
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/libstableR/src/RcppExports.cpp:4:10: \cf3 fatal error: \cf2 'RcppGSL.h' file not found
+\f1\b0 \
+#include <RcppGSL.h>\
+
+\f0\b \cf4          ^~~~~~~~~~~
+\f1\b0 \cf2 \
+\
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/stable_q_DeepState_TestHarness.cpp:24:15: \cf3 error: \cf2 redefinition of 'p_t'
+\f1\b0 \
+  std::string p_t = "/home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/afl_inputs/" + std::to_string(t) + "_p.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/stable_q_DeepState_TestHarness.cpp:19:15: note: 
+\f1\b0 previous definition is here\
+  std::string p_t = "/home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/afl_inputs/" + std::to_string(t) + "_p.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf5 afl-as 
+\f0\b \cf6 2.52b
+\f1\b0 \cf2  by <lcamtuf@google.com>\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/stable_q_DeepState_TestHarness.cpp:31:15: \cf3 error: \cf2 redefinition of 'p_t'
+\f1\b0 \
+  std::string p_t = "/home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/afl_inputs/" + std::to_string(t) + "_p.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/stable_q_DeepState_TestHarness.cpp:19:15: note: 
+\f1\b0 previous definition is here\
+  std::string p_t = "/home/akhila/fuzzer_packages/fuzzedpackages/libstableR/inst/testfiles/stable_q/AFL_stable_q/afl_inputs/" + std::to_string(t) + "_p.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b \cf7 [+] 
+\f1\b0 \cf2 Instrumented 510 locations (64-bit, non-hardened mode, ratio 100%).\
+\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/ivtools/inst/testfiles/B_est1/AFL_B_est1/B_est1_DeepState_TestHarness.cpp:34:15: \cf3 error: \cf2 redefinition of 'stime_t'
+\f1\b0 \
+  std::string stime_t = "/home/akhila/fuzzer_packages/fuzzedpackages/ivtools/inst/testfiles/B_est1/AFL_B_est1/afl_inputs/" + std::to_string(t) + "_stime.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/ivtools/inst/testfiles/B_est1/AFL_B_est1/B_est1_DeepState_TestHarness.cpp:29:15: note: 
+\f1\b0 previous definition is here\
+  std::string stime_t = "/home/akhila/fuzzer_packages/fuzzedpackages/ivtools/inst/testfiles/B_est1/AFL_B_est1/afl_inputs/" + std::to_string(t) + "_stime.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+\
+\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/tagcloud/inst/testfiles/is_overlap/AFL_is_overlap/is_overlap_DeepState_TestHarness.cpp:21:15: \cf3 error: \cf2 redefinition of 'box_t'
+\f1\b0 \
+  std::string box_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/is_overlap/AFL_is_overlap/afl_inputs/" + std::to_string(t) + "_box.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/tagcloud/inst/testfiles/is_overlap/AFL_is_overlap/is_overlap_DeepState_TestHarness.cpp:16:15: note: 
+\f1\b0 previous definition is here\
+  std::string box_t = "/home/akhila/R/x86_64-pc-linux-gnu-library/3.6/RcppDeepState/extdata/issuestests/tagcloud/inst/testfiles/is_overlap/AFL_is_overlap/afl_inputs/" + std::to_string(t) + "_box.qs";\
+
+\f0\b \cf4               ^
+\f1\b0 \cf2 \
+In file included from /home/akhila/fuzzer_packages/fuzzedpackages/jiebaR/src/util.cpp:1:\
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/jiebaR/src/../inst/include/jiebaR.h:5:10: \cf3 error: \cf2 'segtype-v4.hpp' file not found with <angled> include; use "quotes" instead
+\f1\b0 \
+#include <segtype-v4.hpp>\
+
+\f0\b \cf4          ^~~~~~~~~~~~~~~~\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\b0 \cf8 \uc0\u9474 
+\f0\b         trim : 
+\f1\b0 \cf2 n/a, n/a                              
+\f2 \cf8 \uc0\u9500 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496 
+\f1 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/jiebaR/inst/testfiles/u64tobin/AFL_u64tobin/u64tobin_DeepState_TestHarness.cpp:12:26: \cf3 error: \cf2 unknown type name 'string'; did you mean 'String'?
+\f1\b0 \
+CharacterVector u64tobin(string x); output, test case may be useless.\
+
+\f0\b \cf4                          ^~~~~~
+\f2\b0 \cf8 \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9516 \u9472 
+\f1 \cf5  overall results 
+\f2 \cf8 \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9488 
+\f1 \cf2 \
+\cf4                          String
+\f0\b \cf9 is pretty slow! See docs/perf_tips.txt.\cf8 : 
+\f1\b0 \cf10 0      
+\f2 \cf8 \uc0\u9474 
+\f1 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/String.h:49:11: note: 
+\f1\b0 'String' declared here\
+    class String \{
+\f0\b \cf9 test cases look useless. Consider using a smaller set.
+\f1\b0 \cf2 0      
+\f2 \cf8 \uc0\u9474 
+\f1 \cf2 \
+
+\f0\b \cf4           ^
+\f1\b0 \cf2 e some useful stats:, 0 variable, 1 total   
+\f2 \cf8 \uc0\u9474 
+\f0\b    uniq hangs : 
+\f1\b0 \cf2 0      
+\f2 \cf8 \uc0\u9474 
+\f1 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf5 afl-as 
+\f0\b \cf6 2.52b
+\f1\b0 \cf2  by <lcamtuf@google.com>s (average: 585.00 bits)
+\f0\b \cf8 qqqqqqqqqqqqqqqqqqqu
+\f1\b0 \cf2 \
+
+\f0\b \cf7 [+] 
+\f1\b0 \cf2 Instrumented 39 locations (64-bit, non-hardened mode, ratio 100%).         
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/jiebaR/inst/testfiles/u64tobin/AFL_u64tobin/u64tobin_DeepState_TestHarness.cpp:18:3: \cf3 error: \cf2 unknown type name 'string'; did you mean 'String'?
+\f1\b0 \
+  string x  = RcppDeepState_string(); (average: 391k us)\cf5 th 
+\f0\b \cf8 qqqqqqqqqqqqqqqqqqqqu
+\f1\b0 \cf2 \
+
+\f0\b \cf4   ^~~~~~\cf8 rying : 
+\f1\b0 \cf2 trim 8/8              
+\f0\b \cf8 x favored paths : 
+\f1\b0 \cf2 2 (100.00%)            
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+\cf4   String\cf2 set and ready to roll!        
+\f0\b \cf8 x  new edges on : 
+\f1\b0 \cf2 2 (100.00%)            
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/String.h:49:11: note: 
+\f1\b0 'String' declared here\
+    class String \{
+\f0\b \cf9 43/sec (zzzz...)    \cf8 x  total tmouts : 
+\f1\b0 \cf2 0 (0 unique)           
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+
+\f0\b \cf4           ^
+\f1\b0 \cf5 strategy yields 
+\f0\b \cf8 qqqqqqqqqqqvqqqqqqqqqqqqqqqwq
+\f1\b0 \cf5  path geometry 
+\f0\b \cf8 qqqqqqqqu
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/jiebaR/inst/testfiles/u64tobin/AFL_u64tobin/u64tobin_DeepState_TestHarness.cpp:20:15: \cf3 error: \cf2 no viable conversion from 'Rcpp::String' to 'SEXP'
+\f1\b0 \
+
+\f0\b       (aka 'SEXPREC *')
+\f1\b0 a, n/a                         
+\f0\b \cf8 x   pending : 
+\f1\b0 \cf2 2          
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+  qs::c_qsave(x,x_t, n/a, n/a                         
+\f0\b \cf8 x  pend fav : 
+\f1\b0 \cf2 2          
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+
+\f0\b \cf4               ^\cf8  
+\f1\b0 \cf2 n/a, n/a, n/a                         
+\f0\b \cf8 x own finds : 
+\f1\b0 \cf2 0          
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/String.h:390:16: note: 
+\f1\b0 candidate function\
+        inline operator std::string() const \{         
+\f0\b \cf8 x stability : 
+\f1\b0 \cf2 100.00%    
+\f0\b \cf8 x
+\f1\b0 \cf2 \
+
+\f0\b \cf4                ^
+\f1\b0 \cf2 n/a, n/a                              
+\f0\b \cf8 tqqqqqqqqqqqqqqqqqqqqqqqqj
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/String.h:394:16: note: 
+\f1\b0 candidate function\
+        inline operator std::wstring() const \{\
+
+\f0\b \cf4                ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/qs/include/qs_RcppExports.h:348:38: note: 
+\f1\b0 passing argument to parameter 'x' here\
+    inline double c_qsave(SEXP const x, const std::string& file, const std::string& preset, const std::string& algorithm, const int compress_level, const int shuffle_control, const bool check_hash...\
+
+\f0\b \cf4                                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/fuzzer_packages/fuzzedpackages/jiebaR/inst/testfiles/u64tobin/AFL_u64tobin/u64tobin_DeepState_TestHarness.cpp:22:28: \cf3 error: \cf2 invalid operands to binary expression
+\f1\b0 \
+
+\f0\b       ('basic_ostream<char, std::char_traits<char> >' and 'Rcpp::String')
+\f1\b0 \
+  std::cout << "x values: "<< x << std::endl;\
+
+\f0\b \cf4   ~~~~~~~~~~~~~~~~~~~~~~~~~^  ~
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/system_error:217:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'const std::error_code' for\
+      2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:511:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'char' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:517:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'char' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, char __c)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:523:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'signed char' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, signed char __c)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:528:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'unsigned char' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:565:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'const char *' for 2nd argument\
+    operator<<(basic_ostream<char, _Traits>& __out, const char* __s)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:578:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'const signed char *' for 2nd\
+      argument\
+    operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:583:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'const unsigned char *' for 2nd\
+      argument\
+    operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/ostream.tcc:321:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'const char *' for 2nd\
+      argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:79:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'std::_Resetiosflags' for 2nd\
+      argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:109:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'std::_Setiosflags' for 2nd\
+      argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:143:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'std::_Setbase' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:208:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'std::_Setprecision' for 2nd\
+      argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:238:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to 'std::_Setw' for 2nd argument\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/complex.h:76:23: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to 'const Rcomplex' for 2nd argument\
+inline std::ostream & operator<<(std::ostream &os, const Rcomplex& cplx) \{\
+
+\f0\b \cf4                       ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/Date.h:172:26: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to 'const Rcpp::Date' for 2nd\
+      argument\
+    inline std::ostream &operator<<(std::ostream & os, const Date d) \{\
+
+\f0\b \cf4                          ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/newDateVector.h:65:26: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to\
+      'const Rcpp::newDateVector' for 2nd argument\
+    inline std::ostream &operator<<(std::ostream & os, const newDateVector d) \{\
+
+\f0\b \cf4                          ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/Datetime.h:166:26: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to 'const Rcpp::Datetime' for\
+      2nd argument\
+    inline std::ostream &operator<<(std::ostream & os, const Datetime d) \{\
+
+\f0\b \cf4                          ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/date_datetime/newDatetimeVector.h:81:26: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to\
+      'const Rcpp::newDatetimeVector' for 2nd argument\
+    inline std::ostream &operator<<(std::ostream & os, const newDatetimeVector d) \{\
+
+\f0\b \cf4                          ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:998:5: note: 
+\f1\b0 candidate function template not viable: no known conversion from 'Rcpp::String' to\
+      'const std::bernoulli_distribution' for 2nd argument\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:160:1: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to\
+      'const arma::SizeMat' for 2nd argument\
+operator<< (std::ostream& o, const SizeMat& S)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:173:1: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to\
+      'const arma::SizeCube' for 2nd argument\
+operator<< (std::ostream& o, const SizeCube& S)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:506:5: note: 
+\f1\b0 candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'Rcpp::String')\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:6416:5: note: 
+\f1\b0 candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1,\
+      type-parameter-0-2>' against 'Rcpp::String'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:548:5: note: 
+\f1\b0 candidate template ignored: could not match 'const _CharT *' against 'Rcpp::String'\
+    operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:691:5: note: 
+\f1\b0 candidate template ignored: requirement '__and_<std::__not_<std::is_lvalue_reference<std::basic_ostream<char,\
+      std::char_traits<char> > &> >, std::__is_convertible_to_basic_ostream<std::basic_ostream<char, std::char_traits<char> > &>, std::__is_insertable<std::basic_ostream<char, std::char_traits<char> > &,\
+      const Rcpp::String &, void> >::value' was not satisfied [with _Ostream = std::basic_ostream<char> &, _Tp = Rcpp::String]\
+    operator<<(_Ostream&& __os, const _Tp& __x)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:178:5: note: 
+\f1\b0 candidate template ignored: could not match '_Setfill<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:311:5: note: 
+\f1\b0 candidate template ignored: could not match '_Put_money<type-parameter-0-2>' against 'Rcpp::String'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iomanip:363:5: note: 
+\f1\b0 candidate template ignored: could not match '_Put_time<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/complex:552:5: note: 
+\f1\b0 candidate template ignored: could not match 'complex<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Vector.h:1142:22: note: 
+\f1\b0 candidate template ignored: could not match 'Vector<RTYPE, >' against 'Rcpp::String'\
+inline std::ostream &operator<<(std::ostream & s, const Vector<RTYPE, StoragePolicy> & rhs) \{\
+
+\f0\b \cf4                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Vector.h:1161:22: note: 
+\f1\b0 candidate template ignored: could not match 'Vector<16, >' against 'Rcpp::String'\
+inline std::ostream &operator<<(std::ostream & s, const Vector<STRSXP, StoragePolicy> & rhs) \{\
+
+\f0\b \cf4                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:218:22: note: 
+\f1\b0 candidate template ignored: could not match 'Matrix<14, >' against 'Rcpp::String'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<REALSXP, StoragePolicy> & rhs) \{\
+
+\f0\b \cf4                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:286:22: note: 
+\f1\b0 candidate template ignored: could not match 'Matrix<13, >' against 'Rcpp::String'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<INTSXP, StoragePolicy> & rhs) \{\
+
+\f0\b \cf4                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:352:22: note: 
+\f1\b0 candidate template ignored: could not match 'Matrix<16, >' against 'Rcpp::String'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<STRSXP, StoragePolicy> & rhs) \{\
+
+\f0\b \cf4                      ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/Rcpp/include/Rcpp/vector/Matrix.h:379:22: note: 
+\f1\b0 candidate template ignored: could not match 'Matrix<RTYPE, >' against 'Rcpp::String'\
+inline std::ostream &operator<<(std::ostream & s, const Matrix<RTYPE, StoragePolicy> & rhs) \{\
+
+\f0\b \cf4                      ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.h:1298:5: note: 
+\f1\b0 candidate template ignored: could not match 'independent_bits_engine<type-parameter-0-0, __w,\
+      type-parameter-0-2>' against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:154:5: note: 
+\f1\b0 candidate template ignored: could not match 'linear_congruential_engine<type-parameter-0-0, __a, __c, __m>'\
+      against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:476:5: note: 
+\f1\b0 candidate template ignored: could not match 'mersenne_twister_engine<type-parameter-0-0, __w, __n, __m, __r,\
+      __a, __u, __d, __s, __b, __t, __c, __l, __f>' against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:632:5: note: 
+\f1\b0 candidate template ignored: could not match 'subtract_with_carry_engine<type-parameter-0-0, __w, __s, __r>'\
+      against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:702:5: note: 
+\f1\b0 candidate template ignored: could not match 'discard_block_engine<type-parameter-0-0, __p, __r>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:831:5: note: 
+\f1\b0 candidate template ignored: could not match 'shuffle_order_engine<type-parameter-0-0, __k>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:877:5: note: 
+\f1\b0 candidate template ignored: could not match 'uniform_int_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:936:5: note: 
+\f1\b0 candidate template ignored: could not match 'uniform_real_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1080:5: note: 
+\f1\b0 candidate template ignored: could not match 'geometric_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1195:5: note: 
+\f1\b0 candidate template ignored: could not match 'negative_binomial_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1406:5: note: 
+\f1\b0 candidate template ignored: could not match 'poisson_distribution<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1673:5: note: 
+\f1\b0 candidate template ignored: could not match 'binomial_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1737:5: note: 
+\f1\b0 candidate template ignored: could not match 'exponential_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1904:5: note: 
+\f1\b0 candidate template ignored: could not match 'normal_distribution<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:1973:5: note: 
+\f1\b0 candidate template ignored: could not match 'lognormal_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2046:5: note: 
+\f1\b0 candidate template ignored: could not match 'chi_squared_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2133:5: note: 
+\f1\b0 candidate template ignored: could not match 'cauchy_distribution<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2210:5: note: 
+\f1\b0 candidate template ignored: could not match 'fisher_f_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2285:5: note: 
+\f1\b0 candidate template ignored: could not match 'student_t_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2454:5: note: 
+\f1\b0 candidate template ignored: could not match 'gamma_distribution<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2532:5: note: 
+\f1\b0 candidate template ignored: could not match 'weibull_distribution<type-parameter-0-0>' against 'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2608:5: note: 
+\f1\b0 candidate template ignored: could not match 'extreme_value_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2744:5: note: 
+\f1\b0 candidate template ignored: could not match 'discrete_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:2967:5: note: 
+\f1\b0 candidate template ignored: could not match 'piecewise_constant_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/random.tcc:3174:5: note: 
+\f1\b0 candidate template ignored: could not match 'piecewise_linear_distribution<type-parameter-0-0>' against\
+      'Rcpp::String'\
+    operator<<(std::basic_ostream<_CharT, _Traits>& __os,\
+
+\f0\b \cf4     ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:25:1: note: 
+\f1\b0 candidate template ignored: could not match\
+      'Base<type-parameter-0-0, type-parameter-0-1>' against 'Rcpp::String'\
+operator<< (std::ostream& o, const Base<eT,T1>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:41:1: note: 
+\f1\b0 candidate template ignored: could not match\
+      'SpBase<type-parameter-0-0, type-parameter-0-1>' against 'Rcpp::String'\
+operator<< (std::ostream& o, const SpBase<eT,T1>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:57:1: note: 
+\f1\b0 candidate template ignored: could not match 'SpValProxy<type-parameter-0-0>' against\
+      'Rcpp::String'\
+operator<< (std::ostream& o, const SpValProxy<T1>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:73:1: note: 
+\f1\b0 candidate template ignored: could not match 'MapMat_val<type-parameter-0-0>' against\
+      'Rcpp::String'\
+operator<< (std::ostream& o, const MapMat_val<eT>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:87:1: note: 
+\f1\b0 candidate template ignored: could not match 'SpMat_MapMat_val<type-parameter-0-0>'\
+      against 'Rcpp::String'\
+operator<< (std::ostream& o, const SpMat_MapMat_val<eT>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:101:1: note: 
+\f1\b0 candidate template ignored: could not match 'SpSubview_MapMat_val<type-parameter-0-0>'\
+      against 'Rcpp::String'\
+operator<< (std::ostream& o, const SpSubview_MapMat_val<eT>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:115:1: note: 
+\f1\b0 candidate template ignored: could not match 'BaseCube<typename\
+      type-parameter-0-0::elem_type, type-parameter-0-0>' against 'Rcpp::String'\
+operator<< (std::ostream& o, const BaseCube<typename T1::elem_type,T1>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:132:1: note: 
+\f1\b0 candidate template ignored: could not match 'field<type-parameter-0-0>' against\
+      'Rcpp::String'\
+operator<< (std::ostream& o, const field<T1>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/operator_ostream.hpp:147:1: note: 
+\f1\b0 candidate template ignored: could not match 'subview_field<type-parameter-0-0>'\
+      against 'Rcpp::String'\
+operator<< (std::ostream& o, const subview_field<T1>& X)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:276:1: note: 
+\f1\b0 candidate template ignored: could not match 'mat_injector' against 'basic_ostream'\
+operator<<(const mat_injector<T1>& ref, const typename mat_injector<T1>::elem_type val)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:290:1: note: 
+\f1\b0 candidate template ignored: could not match 'mat_injector' against 'basic_ostream'\
+operator<<(const mat_injector<T1>& ref, const injector_end_of_row<>& x)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:581:1: note: 
+\f1\b0 candidate template ignored: could not match 'field_injector' against 'basic_ostream'\
+operator<<(const field_injector<T1>& ref, const typename field_injector<T1>::object_type& val)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /home/akhila/R/x86_64-pc-linux-gnu-library/4.0/RcppArmadillo/include/armadillo_bits/injector_meat.hpp:595:1: note: 
+\f1\b0 candidate template ignored: could not match 'field_injector' against 'basic_ostream'\
+operator<<(const field_injector<T1>& ref, const injector_end_of_row<>& x)\
+
+\f0\b \cf4 ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:108:7: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to 'std::basic_ostream<char,\
+      std::char_traits<char> >::__ostream_type &(*)(std::basic_ostream<char, std::char_traits<char> >::__ostream_type &)' (aka 'basic_ostream<char, std::char_traits<char> > &(*)(basic_ostream<char,\
+      std::char_traits<char> > &)') for 1st argument\
+      operator<<(__ostream_type& (*__pf)(__ostream_type&))\
+
+\f0\b \cf4       ^
+\f1\b0 \cf2 \
+
+\f0\b /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream:117:7: note: 
+\f1\b0 candidate function not viable: no known conversion from 'Rcpp::String' to 'std::basic_ostream<char,\
+      std::char_traits<char> >::__ios_type &(*)(std::basic_ostream<char, std::char_traits<char> >::__ios_type &)' (aka 'basic_ios<char, std::char_traits<char> > &(*)(basic_ios<char, std::char_traits<char>\
+              
+\f0\b \cf11 american fuzzy lop \cf12 2.52b\cf7  (ML_DeepState_TestHarness)s)ess)s)
+\f1\b0 \cf2 \
+      operator<<(__ios_type& (*__pf)(__ios_type&))\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2 \cf8 \uc0\u9484 \u9472 
+\f1 \cf5  process timing 
+\f2 \cf8 \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9516 \u9472 
+\f1 \cf5  overall results 
+\f2 \cf8 \uc0\u9472 \u9472 \u9472 \u9472 \u9472 \u9488 
+\f1 \cf2 \
+}

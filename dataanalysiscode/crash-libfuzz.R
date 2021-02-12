@@ -14,7 +14,10 @@ getNamespaceExports_fun <- function(pkg.i){
   pkg.execlist <- list() 
   pkg.unexlist <- list()
   #pkgs <- Sys.glob(file.path("~/testpackages/testfolders","*"))
-  pkgs <- Sys.glob(file.path("/home/akhila/fuzzer_packages/fuzzedpackages","*"))
+  #pkgs <- Sys.glob(file.path("/home/akhila/fuzzer_packages/fuzzedpackages","*"))
+  pkgs <- Sys.glob(file.path("/Users/akhilachowdarykolla/Desktop/TestedPackages-NoIssues","*"))
+  #pkgs <- Sys.glob(file.path("/Users/akhilachowdarykolla/Desktop/RcppDeepStateTest/issuestests","*")) - 76
+  #pkgs <- Sys.glob(file.path("/Users/akhilachowdarykolla/Desktop/updateddatatypeslist/","*"))
   #pkgs <- y
   for(pkg.i in pkgs){
     exelist <- list()
@@ -27,7 +30,7 @@ getNamespaceExports_fun <- function(pkg.i){
         lib.dir.path <- file.path(fun.i,paste0("libFuzzer_",basename(fun.i)))
         lib.dir <- Sys.glob(file.path(fun.i,paste0("libFuzzer_",basename(fun.i)),"*"))
         libdir.inputs <- Sys.glob(file.path(lib.dir.path,"libfuzzer_inputs","*"))
-        if(length(grep("crash-*",lib.dir,value=TRUE)) == 1 && length(libdir.inputs) >= 1){
+        if(length(grep("crash-*",lib.dir,value=TRUE)) == 1){#&& length(libdir.inputs) >= 1
           exelist<- c(exelist,fun.i)
         }
         else{
